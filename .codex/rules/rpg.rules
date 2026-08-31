@@ -1,0 +1,72 @@
+# Штатная работа с собственным репозиторием.
+prefix_rule(
+    pattern = ["git", ["add", "commit"]],
+    decision = "allow",
+    justification = "Sol сам фиксирует законченные изменения в репозитории rpg.",
+)
+
+prefix_rule(
+    pattern = ["git", "push", "origin", "main"],
+    decision = "allow",
+    justification = "Sol отправляет только ветку main собственного remote.",
+)
+
+# Файловый ящик — единственный канал Sol к boss.
+prefix_rule(
+    pattern = [
+        "bash",
+        "/home/alex/kolkhoz/claude/tools/mailbox.sh",
+        ["peers", "poll", "append", "new", "archive"],
+    ],
+    decision = "allow",
+    justification = "Разрешена штатная работа роли rpg с общим почтовым ящиком.",
+)
+
+# Прямые удаления и необратимые операции блокируются без запроса.
+prefix_rule(
+    pattern = [["rm", "rmdir", "unlink", "shred", "truncate"]],
+    decision = "forbidden",
+    justification = "Удаление запрещено; используй обратимое перемещение или запроси новое решение пользователя.",
+)
+
+prefix_rule(
+    pattern = [["dd", "mkfs", "wipefs", "fdisk", "parted"]],
+    decision = "forbidden",
+    justification = "Низкоуровневая перезапись носителей не нужна работе rpg.",
+)
+
+prefix_rule(
+    pattern = ["git", ["reset", "restore", "checkout", "clean", "rebase"]],
+    decision = "forbidden",
+    justification = "Операции, способные потерять или переписать историю и рабочие файлы, запрещены.",
+)
+
+prefix_rule(
+    pattern = ["git", "commit", "--amend"],
+    decision = "forbidden",
+    justification = "История общая; вместо amend создай новый коммит.",
+)
+
+prefix_rule(
+    pattern = ["git", "branch", ["-d", "-D", "--delete"]],
+    decision = "forbidden",
+    justification = "Удаление веток не входит в работу rpg.",
+)
+
+prefix_rule(
+    pattern = ["git", "push", ["-f", "--force", "--force-with-lease"]],
+    decision = "forbidden",
+    justification = "Force-push запрещён правилами проекта.",
+)
+
+prefix_rule(
+    pattern = ["git", "push", "origin", "main", ["-f", "--force", "--force-with-lease"]],
+    decision = "forbidden",
+    justification = "Force-push запрещён правилами проекта.",
+)
+
+prefix_rule(
+    pattern = [["shutdown", "reboot", "poweroff", "halt"]],
+    decision = "forbidden",
+    justification = "Управление питанием машины не относится к работе rpg.",
+)

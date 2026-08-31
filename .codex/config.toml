@@ -1,0 +1,12 @@
+# Автономная работа Sol внутри собственного дерева без запросов разрешения.
+approval_policy = "never"
+sandbox_mode = "workspace-write"
+allow_login_shell = false
+
+[sandbox_workspace_write]
+network_access = false
+
+[apps._default]
+default_tools_approval_mode = "auto"
+destructive_enabled = false
+open_world_enabled = false
