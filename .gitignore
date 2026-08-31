@@ -1,0 +1,10 @@
+# Одноразовое живёт в ~/codextmp, а не здесь.
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+*~
+.DS_Store
+__pycache__/
+*.pyc
