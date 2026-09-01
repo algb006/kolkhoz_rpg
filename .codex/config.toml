@@ -5,6 +5,10 @@ allow_login_shell = false
 
 [sandbox_workspace_write]
 network_access = false
+# Песочница workspace-write держит каталоги .git только для чтения, и на этом
+# спотыкается git commit. Sol фиксирует изменения в собственном дереве, поэтому
+# записываемым открыт ровно один .git — его. Чужие деревья остаются недоступны.
+writable_roots = ["/home/alex/kolkhoz/rpg/.git"]
 
 [apps._default]
 default_tools_approval_mode = "auto"
