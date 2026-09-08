@@ -29,6 +29,7 @@ SCHEMA = DB_DIR / "schema.sql"
 DATA_DIR = DB_DIR / "data"
 EXPORT_DIR = DB_DIR / "export"
 DESIGN_DB = ROOT.parent / "db" / "design.db"
+STRINGS_DB = ROOT.parent / "db" / "strings.db"
 PLACEHOLDER_RE = re.compile(r"\{([a-z][a-z0-9_]*)\}")
 
 
@@ -44,10 +45,12 @@ def die(message: str) -> None:
     raise SystemExit(1)
 
 
-def attach_design_readonly(con: sqlite3.Connection) -> None:
+def attach_readonly(con: sqlite3.Connection, path: Path, alias: str) -> None:
     """Подключить чужую базу так, чтобы даже SQL-команда не могла её изменить."""
-    uri = DESIGN_DB.resolve().as_uri() + "?mode=ro"
-    con.execute("ATTACH DATABASE ? AS design", (uri,))
+    if alias not in {"design", "strings"}:
+        raise ValueError(f"неизвестный псевдоним внешней базы: {alias}")
+    uri = path.resolve().as_uri() + "?mode=ro"
+    con.execute(f"ATTACH DATABASE ? AS {alias}", (uri,))
 
 
 def connect(*, design: bool = False) -> sqlite3.Connection:
@@ -59,7 +62,7 @@ def connect(*, design: bool = False) -> sqlite3.Connection:
     if design:
         if not DESIGN_DB.exists():
             die(f"нет внешней базы {DESIGN_DB}")
-        attach_design_readonly(con)
+        attach_readonly(con, DESIGN_DB, "design")
     return con
 
 
@@ -258,7 +261,7 @@ def cmd_check(argv: list[str]) -> int:
         bad(f"нет внешней базы дизайна {DESIGN_DB}")
     else:
         print("Связь с design.db:")
-        attach_design_readonly(con)
+        attach_readonly(con, DESIGN_DB, "design")
         for row in con.execute(
             "SELECT s.scene_key FROM scene_script s"
             " WHERE NOT EXISTS (SELECT 1 FROM design.scene d WHERE d.key=s.scene_key)"
@@ -319,6 +322,24 @@ def cmd_check(argv: list[str]) -> int:
         " WHERE s.arc_key IS NULL OR s.arc_key<>b.arc_key"
     ):
         bad(f"scene_script.{row['scene_key']}: ветвь и арка не совпадают")
+
+    if not STRINGS_DB.exists():
+        warn(f"нет внешней базы строк {STRINGS_DB}; namespace не проверен")
+    else:
+        print("Связь со strings.db:")
+        attach_readonly(con, STRINGS_DB, "strings")
+        for row in con.execute(
+            "SELECT DISTINCT l.namespace FROM line l"
+            " WHERE NOT EXISTS (SELECT 1 FROM strings.namespace n"
+            "                   WHERE n.key=l.namespace AND n.owner='rpg')"
+        ):
+            bad(f"namespace {row['namespace']}: нет среди RPG-разделов strings.db")
+        for row in con.execute(
+            "SELECT DISTINCT s.string_kind FROM string_source s"
+            " WHERE NOT EXISTS (SELECT 1 FROM strings.string_kind k"
+            "                   WHERE k.key=s.string_kind)"
+        ):
+            bad(f"вид строки {row['string_kind']}: нет в strings.db")
 
     print("Состав сцен:")
     for row in con.execute(

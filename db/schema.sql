@@ -128,6 +128,8 @@ CREATE TABLE line (
                              CHECK (key GLOB '[a-z][a-z0-9_.]*'
                                     AND key NOT GLOB '*[^a-z0-9_.]*'),
     scene_key           TEXT NOT NULL REFERENCES scene_script(scene_key) ON DELETE CASCADE,
+    namespace           TEXT NOT NULL CHECK (namespace IN (
+                            'quest', 'event', 'dialogue', 'scene')),
     kind                TEXT NOT NULL CHECK (kind IN (
                             'dialogue', 'choice', 'narration', 'document',
                             'journal', 'caption', 'backdrop')),
@@ -160,7 +162,8 @@ CREATE TABLE line (
     CHECK ((kind = 'choice') = (choice_group_key IS NOT NULL)),
     CHECK (kind NOT IN ('dialogue', 'choice') OR speaker_slot IS NOT NULL),
     CHECK (speaker_slot IS NOT NULL OR addressee_slot IS NULL),
-    CHECK (variant_key IS NULL OR length(trim(variant_key)) > 0)
+    CHECK (variant_key IS NULL OR length(trim(variant_key)) > 0),
+    CHECK (substr(key, 1, length(namespace) + 1) = namespace || '.')
 );
 
 CREATE INDEX line_scene_sort ON line (scene_key, sort, key);
@@ -227,9 +230,12 @@ SELECT s.scene_key,
 -- Стабильный шов для будущего sync в strings.db. В нём нет перевода и нет
 -- механики сцены — только русский источник и всё, что нужно переводчику.
 CREATE VIEW string_source AS
-SELECT l.key AS source_key,
+SELECT l.namespace,
+       substr(l.key, length(l.namespace) + 2) AS source_key,
+       l.key AS full_key,
        l.scene_key,
-       l.kind,
+       CASE WHEN l.kind = 'journal' THEN 'log' ELSE 'body' END AS string_kind,
+       l.kind AS narrative_kind,
        l.text,
        l.context,
        l.meaning,
