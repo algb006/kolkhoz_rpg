@@ -8,3 +8,7 @@
 .DS_Store
 __pycache__/
 *.pyc
+
+# SQLite собирается из сливаемой схемы и текстовых дампов.
+db/story.db
+db/export/
