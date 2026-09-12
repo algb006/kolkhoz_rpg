@@ -40,6 +40,15 @@ python3 tools/story.py render
 |---|---|---|---|
 | `scene.start.prologue` | 64 | 64 | 0 |
 | `scene.police.neighborly` | 2 | 2 | 0 |
+| `scene.development.night_pasture_offer` | 3 | 3 | 0 |
+| `scene.development.first_night_pasture` | 5 | 5 | 0 |
+| `scene.development.first_wall_newspaper` | 3 | 3 | 0 |
+| `scene.development.second_phone_subscriber` | 5 | 5 | 0 |
+| `scene.development.radio_node_test` | 3 | 3 | 0 |
+| `scene.development.first_loudspeaker_broadcast` | 2 | 2 | 0 |
+| `scene.development.winter_evenings_opening` | 3 | 3 | 0 |
+| `scene.development.winter_evenings_result` | 4 | 4 | 0 |
+| `scene.development.first_club_tv_viewing` | 4 | 4 | 0 |
 <!-- /story -->
 
 ## Персонажи
