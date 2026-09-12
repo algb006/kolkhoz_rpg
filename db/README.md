@@ -38,6 +38,7 @@ python3 tools/story.py render
 <!-- story:coverage -->
 | Сцена | Реплик | Черновиков | Утверждено |
 |---|---|---|---|
+| `scene.start.prologue` | 64 | 64 | 0 |
 | `scene.police.neighborly` | 2 | 2 | 0 |
 <!-- /story -->
 
