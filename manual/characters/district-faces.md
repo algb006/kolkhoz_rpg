@@ -63,8 +63,16 @@
 | Рабочая | «Ответ принят. Теперь посмотрим, выдержит ли его хозяйство.» |
 | Высокая | «Я вам поверил. Не заставляйте меня выбирать между вами и бумагой.» |
 
+Русский текст итоговой строки совпадает в трёх эпохах, но у каждой сцены свой ключ:
+
+| Эпоха | Низкая | Рабочая | Высокая |
+|---|---|---|---|
+| I | `scene.district.korenev.era1_question.closing.low` | `scene.district.korenev.era1_question.closing.working` | `scene.district.korenev.era1_question.closing.high` |
+| II | `scene.district.korenev.era2_question.closing.low` | `scene.district.korenev.era2_question.closing.working` | `scene.district.korenev.era2_question.closing.high` |
+| III | `scene.district.korenev.era3_question.closing.low` | `scene.district.korenev.era3_question.closing.working` | `scene.district.korenev.era3_question.closing.high` |
+
 Высокая строка не обещает прикрытия. Она означает лишь, что в этом разговоре Коренев
-принял объяснение по доступной системе проверке.
+принял объяснение в пределах доступной ему проверки.
 
 ### После купленной защиты
 
