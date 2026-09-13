@@ -40,6 +40,7 @@ python3 tools/story.py render
 |---|---|---|---|
 | `scene.start.prologue` | 64 | 64 | 0 |
 | `scene.police.neighborly` | 2 | 2 | 0 |
+| `scene.family.before_distribution` | 15 | 15 | 0 |
 | `scene.development.night_pasture_offer` | 3 | 3 | 0 |
 | `scene.development.first_night_pasture` | 5 | 5 | 0 |
 | `scene.development.first_wall_newspaper` | 3 | 3 | 0 |
