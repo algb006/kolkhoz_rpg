@@ -1,4 +1,9 @@
--- line_placeholder: 1 строк. Файл создаётся tools/story.py save —
+-- line_placeholder: 6 строк. Файл создаётся tools/story.py save —
 -- правится база, не этот дамп. Порядок строк детерминирован.
 DELETE FROM "line_placeholder";
+INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.district.failure_explanation.opening.karasev', 'failed_year', 'int', 'Календарный год плана, который не был выполнен.', 'Год берётся из сохранённого состояния сцены; не из даты текущей встречи.');
+INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.district.failure_explanation.opening.korenev', 'failed_year', 'int', 'Календарный год плана, который не был выполнен.', 'Год берётся из сохранённого состояния сцены; не из даты текущей встречи.');
+INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.district.failure_explanation.opening.polushkina', 'failed_year', 'int', 'Календарный год плана, который не был выполнен.', 'Год берётся из сохранённого состояния сцены; не из даты текущей встречи.');
+INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.district.failure_explanation.opening.stozharov', 'failed_year', 'int', 'Календарный год плана, который не был выполнен.', 'Год берётся из сохранённого состояния сцены; не из даты текущей встречи.');
+INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.district.failure_explanation.opening.zhernova', 'failed_year', 'int', 'Календарный год плана, который не был выполнен.', 'Год берётся из сохранённого состояния сцены; не из даты текущей встречи.');
 INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.family.before_distribution.answer.premium', 'real_deed', 'text', 'Фактически совершённый семьёй поступок, за который положена ещё не выданная премия.', 'Подставлять словосочетание в форме после предлога «за»: например «помощь на уборке», а не голое название события.');

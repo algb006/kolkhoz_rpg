@@ -374,14 +374,20 @@ def cmd_check(argv: list[str]) -> int:
             bad(f"{row['key']}: не описаны отношения говорящего и адресата")
 
     for row in con.execute(
-        "SELECT g.scene_key, g.key, count(l.key) AS n"
+        "SELECT g.scene_key, g.key, count(l.key) AS n,"
+        "       count(CASE WHEN l.condition_ref IS NULL"
+        "                     OR trim(l.condition_ref)='' THEN l.key END) AS unconditional"
         "  FROM choice_group g LEFT JOIN line l"
         "    ON l.scene_key=g.scene_key AND l.choice_group_key=g.key"
         "   AND l.deprecated=0"
         " GROUP BY g.scene_key, g.key"
     ):
-        if not 2 <= row["n"] <= 4:
-            bad(f"{row['scene_key']}.{row['key']}: вариантов {row['n']}, требуется 2–4")
+        if row["n"] < 2:
+            bad(f"{row['scene_key']}.{row['key']}: авторских вариантов {row['n']}, требуется хотя бы 2")
+        if row["unconditional"] > 4:
+            bad(f"{row['scene_key']}.{row['key']}: безусловных вариантов"
+                f" {row['unconditional']}, допустимо не больше 4;"
+                " остальные должны иметь condition_ref")
 
     for row in con.execute(
         "SELECT l.key, l.scene_key, l.variant_key, l.grammatical_gender,"
