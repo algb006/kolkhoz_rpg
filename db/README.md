@@ -65,12 +65,12 @@ python3 tools/story.py render
 | `scene.ending.trial.warning_rumour` | 2 | 2 | 0 |
 | `scene.ending.trial.herd_cause` | 5 | 5 | 0 |
 | `scene.ending.trial.notice` | 4 | 4 | 0 |
-| `scene.ending.trial.commission` | 5 | 5 | 0 |
-| `scene.ending.trial.case` | 5 | 5 | 0 |
+| `scene.ending.trial.commission` | 3 | 3 | 0 |
+| `scene.ending.trial.case` | 3 | 3 | 0 |
 | `scene.ending.trial.verdict` | 2 | 2 | 0 |
 | `scene.ending.trial.farewell` | 4 | 4 | 0 |
-| `scene.ending.office.fire` | 3 | 3 | 0 |
-| `scene.ending.office.removal` | 3 | 3 | 0 |
+| `scene.ending.office.fire` | 2 | 2 | 0 |
+| `scene.ending.office.removal` | 2 | 2 | 0 |
 | `scene.ending.village.warning_report` | 1 | 1 | 0 |
 | `scene.ending.village.warning_rumour` | 1 | 1 | 0 |
 | `scene.ending.village.liquidation` | 2 | 2 | 0 |
