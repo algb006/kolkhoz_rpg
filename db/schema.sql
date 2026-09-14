@@ -141,6 +141,7 @@ CREATE TABLE line (
     grammatical_gender TEXT NOT NULL DEFAULT 'neutral'
                               CHECK (grammatical_gender IN ('neutral', 'male', 'female')),
     condition_ref       TEXT,
+    result              TEXT CHECK (result IS NULL OR result IN ('changed', 'unchanged')),
     previous_key        TEXT REFERENCES line(key),
     text                TEXT NOT NULL CHECK (length(trim(text)) > 0),
     context             TEXT NOT NULL,
@@ -160,6 +161,7 @@ CREATE TABLE line (
     FOREIGN KEY (scene_key, choice_group_key)
         REFERENCES choice_group(scene_key, key),
     CHECK ((kind = 'choice') = (choice_group_key IS NOT NULL)),
+    CHECK (result IS NULL OR kind = 'choice'),
     CHECK (kind NOT IN ('dialogue', 'choice') OR speaker_slot IS NOT NULL),
     CHECK (speaker_slot IS NOT NULL OR addressee_slot IS NULL),
     CHECK (variant_key IS NULL OR length(trim(variant_key)) > 0),
@@ -187,7 +189,7 @@ CREATE TABLE line_placeholder (
 CREATE TRIGGER line_source_changed
 AFTER UPDATE OF text, context, meaning, intent, keep, kind, speaker_slot,
                 addressee_slot, relationship, choice_group_key, variant_key,
-                grammatical_gender, condition_ref, previous_key
+                grammatical_gender, condition_ref, result, previous_key
 ON line
 WHEN NEW.text IS NOT OLD.text
   OR NEW.context IS NOT OLD.context
@@ -202,6 +204,7 @@ WHEN NEW.text IS NOT OLD.text
   OR NEW.variant_key IS NOT OLD.variant_key
   OR NEW.grammatical_gender IS NOT OLD.grammatical_gender
   OR NEW.condition_ref IS NOT OLD.condition_ref
+  OR NEW.result IS NOT OLD.result
   OR NEW.previous_key IS NOT OLD.previous_key
 BEGIN
     UPDATE line SET rev = OLD.rev + 1 WHERE key = NEW.key;

@@ -29,6 +29,13 @@ python3 tools/story.py render
 | Namespace и локальный ключ для синхронизации | Устройство общей базы строк |
 | `rev` и `approved_rev` русского источника | Статус готовности перевода |
 
+У строки `kind='choice'` поле `result` может быть `changed`, `unchanged` или `NULL`.
+Это авторская метка **решения собеседника**, а не хозяйственной выгоды и не выбора
+председателя. `NULL` означает, что разговор не сообщает исход для перка «Поговорить
+с людьми»; у остальных видов строк `result` всегда `NULL`. Для сложного варианта
+`changed` действует только при успешной попытке; при неуспехе исход `unchanged`
+согласно [правилу диалогов §13](../../manual/design/chairman/dialogues.md#13-окно-и-варианты-ответа).
+
 Случайный житель не получает готовую реплику до выбора человека из партии. Его пол,
 возраст и социальный статус сначала фиксируются в `cast_slot`, затем выбирается
 нейтральная либо точная мужская/женская форма строки.
@@ -41,6 +48,7 @@ python3 tools/story.py render
 | `scene.start.prologue` | 64 | 64 | 0 |
 | `scene.police.neighborly` | 2 | 2 | 0 |
 | `scene.family.before_distribution` | 15 | 15 | 0 |
+| `scene.district.failure_explanation` | 15 | 15 | 0 |
 | `scene.development.night_pasture_offer` | 3 | 3 | 0 |
 | `scene.development.first_night_pasture` | 5 | 5 | 0 |
 | `scene.development.first_wall_newspaper` | 3 | 3 | 0 |
@@ -50,6 +58,8 @@ python3 tools/story.py render
 | `scene.development.winter_evenings_opening` | 3 | 3 | 0 |
 | `scene.development.winter_evenings_result` | 4 | 4 | 0 |
 | `scene.development.first_club_tv_viewing` | 4 | 4 | 0 |
+| `scene.perk.talk_to_people_open` | 1 | 1 | 0 |
+| `scene.perk.talk_to_people_close` | 1 | 1 | 0 |
 <!-- /story -->
 
 ## Персонажи
@@ -58,6 +68,11 @@ python3 tools/story.py render
 | Ключ | Кто | Вид | Пол | Возраст | Статус в мире | Редакция |
 |---|---|---|---|---|---|---|
 | `egor_panteleev` | Егор Наумыч Пантелеев | fixed_person | male | Немолод; двадцать лет знает жителей поимённо. | Участковый; соседняя по отношению к колхозу власть. | approved |
+| `district_korenev` | Игнат Захарович Коренев | fixed_person | male | Старше среднего возраста. | Секретарь райкома. | draft |
+| `district_stozharov` | Роман Трофимович Стожаров | fixed_person | male | Старше среднего возраста. | Старший инструктор райкома. | draft |
+| `district_karasev` | Геннадий Маркович Карасёв | fixed_person | male | 30–35 лет. | Младший инструктор райкома. | draft |
+| `district_zhernova` | Серафима Прокофьевна Жернова | fixed_person | female | Пожилая. | Старшая ревизор финуправления. | draft |
+| `district_polushkina` | Зоя Викторовна Полушкина | fixed_person | female | Молодая, недавно после учёбы. | Младшая ревизор финуправления. | draft |
 <!-- /story -->
 
 ## Арки
