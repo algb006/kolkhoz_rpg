@@ -60,6 +60,22 @@ python3 tools/story.py render
 | `scene.development.first_club_tv_viewing` | 4 | 4 | 0 |
 | `scene.perk.talk_to_people_open` | 1 | 1 | 0 |
 | `scene.perk.talk_to_people_close` | 1 | 1 | 0 |
+| `scene.district.plan_warning_first` | 0 | 0 | 0 |
+| `scene.district.plan_warning_last` | 0 | 0 | 0 |
+| `scene.ending.trial.warning_rumour` | 0 | 0 | 0 |
+| `scene.ending.trial.herd_cause` | 0 | 0 | 0 |
+| `scene.ending.trial.notice` | 0 | 0 | 0 |
+| `scene.ending.trial.commission` | 0 | 0 | 0 |
+| `scene.ending.trial.case` | 0 | 0 | 0 |
+| `scene.ending.trial.verdict` | 0 | 0 | 0 |
+| `scene.ending.trial.farewell` | 0 | 0 | 0 |
+| `scene.ending.office.fire` | 0 | 0 | 0 |
+| `scene.ending.office.removal` | 0 | 0 | 0 |
+| `scene.ending.village.warning_report` | 0 | 0 | 0 |
+| `scene.ending.village.warning_rumour` | 0 | 0 | 0 |
+| `scene.ending.village.liquidation` | 0 | 0 | 0 |
+| `scene.era.first_transition_offer` | 0 | 0 | 0 |
+| `scene.era.first_transition_refusal` | 0 | 0 | 0 |
 <!-- /story -->
 
 ## Персонажи
