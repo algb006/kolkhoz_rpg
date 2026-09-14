@@ -1,6 +1,7 @@
--- line_placeholder: 29 строк. Файл создаётся tools/story.py save —
+-- line_placeholder: 30 строк. Файл создаётся tools/story.py save —
 -- правится база, не этот дамп. Порядок строк детерминирован.
 DELETE FROM "line_placeholder";
+INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('dialogue.school_fears.witch.early_home', 'rumor_adult', 'name', 'Имя выбранного взрослого источника слуха в именительном падеже.', 'Выбран и сохранён один раз вместе с секретом.');
 INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.district.failure_explanation.opening.karasev', 'failed_year', 'int', 'Календарный год плана, который не был выполнен.', 'Год берётся из сохранённого состояния сцены; не из даты текущей встречи.');
 INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.district.failure_explanation.opening.korenev', 'failed_year', 'int', 'Календарный год плана, который не был выполнен.', 'Год берётся из сохранённого состояния сцены; не из даты текущей встречи.');
 INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.district.failure_explanation.opening.polushkina', 'failed_year', 'int', 'Календарный год плана, который не был выполнен.', 'Год берётся из сохранённого состояния сцены; не из даты текущей встречи.');
