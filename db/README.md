@@ -49,7 +49,7 @@ python3 tools/story.py render
 | `scene.police.neighborly` | 2 | 2 | 0 |
 | `scene.family.before_distribution` | 15 | 15 | 0 |
 | `scene.district.failure_explanation` | 15 | 15 | 0 |
-| `scene.school_fears.teacher_opening` | 9 | 9 | 0 |
+| `scene.school_fears.teacher_opening` | 10 | 10 | 0 |
 | `scene.school_fears.witch_account` | 14 | 14 | 0 |
 | `scene.school_fears.source_answer` | 16 | 16 | 0 |
 | `scene.school_fears.count_cloud` | 10 | 10 | 0 |
