@@ -60,22 +60,22 @@ python3 tools/story.py render
 | `scene.development.first_club_tv_viewing` | 4 | 4 | 0 |
 | `scene.perk.talk_to_people_open` | 1 | 1 | 0 |
 | `scene.perk.talk_to_people_close` | 1 | 1 | 0 |
-| `scene.district.plan_warning_first` | 0 | 0 | 0 |
-| `scene.district.plan_warning_last` | 0 | 0 | 0 |
-| `scene.ending.trial.warning_rumour` | 0 | 0 | 0 |
-| `scene.ending.trial.herd_cause` | 0 | 0 | 0 |
-| `scene.ending.trial.notice` | 0 | 0 | 0 |
-| `scene.ending.trial.commission` | 0 | 0 | 0 |
-| `scene.ending.trial.case` | 0 | 0 | 0 |
-| `scene.ending.trial.verdict` | 0 | 0 | 0 |
-| `scene.ending.trial.farewell` | 0 | 0 | 0 |
-| `scene.ending.office.fire` | 0 | 0 | 0 |
-| `scene.ending.office.removal` | 0 | 0 | 0 |
-| `scene.ending.village.warning_report` | 0 | 0 | 0 |
-| `scene.ending.village.warning_rumour` | 0 | 0 | 0 |
-| `scene.ending.village.liquidation` | 0 | 0 | 0 |
-| `scene.era.first_transition_offer` | 0 | 0 | 0 |
-| `scene.era.first_transition_refusal` | 0 | 0 | 0 |
+| `scene.district.plan_warning_first` | 5 | 5 | 0 |
+| `scene.district.plan_warning_last` | 5 | 5 | 0 |
+| `scene.ending.trial.warning_rumour` | 2 | 2 | 0 |
+| `scene.ending.trial.herd_cause` | 5 | 5 | 0 |
+| `scene.ending.trial.notice` | 4 | 4 | 0 |
+| `scene.ending.trial.commission` | 5 | 5 | 0 |
+| `scene.ending.trial.case` | 5 | 5 | 0 |
+| `scene.ending.trial.verdict` | 2 | 2 | 0 |
+| `scene.ending.trial.farewell` | 4 | 4 | 0 |
+| `scene.ending.office.fire` | 3 | 3 | 0 |
+| `scene.ending.office.removal` | 3 | 3 | 0 |
+| `scene.ending.village.warning_report` | 1 | 1 | 0 |
+| `scene.ending.village.warning_rumour` | 1 | 1 | 0 |
+| `scene.ending.village.liquidation` | 2 | 2 | 0 |
+| `scene.era.first_transition_offer` | 5 | 5 | 0 |
+| `scene.era.first_transition_refusal` | 5 | 5 | 0 |
 <!-- /story -->
 
 ## Персонажи
@@ -83,6 +83,8 @@ python3 tools/story.py render
 <!-- story:characters -->
 | Ключ | Кто | Вид | Пол | Возраст | Статус в мире | Редакция |
 |---|---|---|---|---|---|---|
+| `praskovya_ilyinichna` | Прасковья Ильинична | fixed_person | female | Взрослая; точный возраст не назначен. | Бухгалтер колхоза. | draft |
+| `shibanov` | Шибанов | fixed_person | male | Взрослый; точный возраст не назначен. | Завхоз колхоза. | draft |
 | `egor_panteleev` | Егор Наумыч Пантелеев | fixed_person | male | Немолод; двадцать лет знает жителей поимённо. | Участковый; соседняя по отношению к колхозу власть. | approved |
 | `district_korenev` | Игнат Захарович Коренев | fixed_person | male | Старше среднего возраста. | Секретарь райкома. | draft |
 | `district_stozharov` | Роман Трофимович Стожаров | fixed_person | male | Старше среднего возраста. | Старший инструктор райкома. | draft |
