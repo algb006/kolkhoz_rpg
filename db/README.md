@@ -59,6 +59,7 @@ python3 tools/story.py render
 | `scene.police.neighborly` | 2 | 2 | 0 |
 | `scene.family.before_distribution` | 15 | 15 | 0 |
 | `scene.night_hunt.distiller_report` | 6 | 6 | 0 |
+| `scene.night_hunt.distiller_leak_return` | 1 | 1 | 0 |
 | `scene.district.failure_explanation` | 15 | 15 | 0 |
 | `scene.school_fears.teacher_opening` | 10 | 10 | 0 |
 | `scene.school_fears.witch_account` | 14 | 14 | 0 |
