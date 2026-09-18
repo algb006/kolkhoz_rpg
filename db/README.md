@@ -46,6 +46,16 @@ python3 tools/story.py render
 | Сцена | Реплик | Черновиков | Утверждено |
 |---|---|---|---|
 | `scene.start.prologue` | 64 | 64 | 0 |
+| `scene.development.roof_over_head` | 2 | 2 | 0 |
+| `scene.development.own_office` | 2 | 2 | 0 |
+| `scene.development.juicy_feed` | 2 | 2 | 0 |
+| `scene.development.winter_crop` | 2 | 2 | 0 |
+| `scene.development.teach_children` | 2 | 2 | 0 |
+| `scene.development.empty_school` | 2 | 2 | 0 |
+| `scene.development.first_lesson` | 1 | 1 | 0 |
+| `scene.development.one_basin` | 2 | 2 | 0 |
+| `scene.development.first_bath_firing` | 2 | 2 | 0 |
+| `scene.development.evening_place` | 3 | 3 | 0 |
 | `scene.police.neighborly` | 2 | 2 | 0 |
 | `scene.family.before_distribution` | 15 | 15 | 0 |
 | `scene.district.failure_explanation` | 15 | 15 | 0 |
