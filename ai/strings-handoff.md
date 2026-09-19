@@ -179,15 +179,14 @@ context `Авторская подложка host.scene`: ключи и досл
 [«Первое ночное»](../manual/texts/development-quests-era-i.md#первое-ночное),
 [«Первая полоса»](../manual/texts/development-quests-era-i.md#первая-полоса).
 
-### Эпоха II — телефон, радио и зимний клуб, 15 исходных строк и 2 родовых варианта
+### Эпоха II — телефон, радио и зимний клуб, 15 исходных строк и 1 родовой вариант
 
 | Ключ внутри `scene` | Говорящий и контекст | Дословный русский текст |
 |---|---|---|
 | `development.second_phone_subscriber.worker_already_told` | Нынешний работник второго подключённого юнита | Если там про завтрашнюю работу, уже передали. |
-| `development.second_phone_subscriber.messenger_check_wire` | Фактический посыльный | Про неё. Я ехал проверить, не переврал ли провод. |
-| `development.second_phone_subscriber.messenger_check_wire_female` | Фактический посыльный, если это женщина | Про неё. Я ехала проверить, не переврал ли провод. |
-| `development.second_phone_subscriber.worker_how` | Тот же работник | И как? |
-| `development.second_phone_subscriber.messenger_road_shorter` | Фактический посыльный | Провод короче дороги. Бумага всё равно пригодится — на ней расписаться можно. |
+| `development.second_phone_subscriber.postman_brought_note` | Районный почтальон | Про неё. Я как раз эту записку и вёз. |
+| `development.second_phone_subscriber.worker_wire_faster` | Тот же работник | Выходит, провод быстрее. |
+| `development.second_phone_subscriber.postman_road_shorter` | Районный почтальон | Провод короче дороги. А бумага всё равно пригодится — на ней расписаться можно. |
 | `development.radio_node_test.club_head_room_hears` | Действующий заведующий клубом | Радиоузел работает. Пока нас слышит только эта комната. |
 | `development.radio_node_test.chairman_test_enough` | Председатель, фиксированная реплика без выбора | Для проверки достаточно. |
 | `development.radio_node_test.club_head_voice_outside` | Действующий заведующий клубом | Для проверки — да. Для села придётся решить, куда вынести голос. |

@@ -71,7 +71,7 @@ python3 tools/story.py render
 | `scene.school_fears.birds_settle` | 4 | 4 | 0 |
 | `scene.development.first_night_pasture` | 5 | 5 | 0 |
 | `scene.development.first_wall_newspaper` | 3 | 3 | 0 |
-| `scene.development.second_phone_subscriber` | 5 | 5 | 0 |
+| `scene.development.second_phone_subscriber` | 4 | 4 | 0 |
 | `scene.development.radio_node_test` | 3 | 3 | 0 |
 | `scene.development.first_loudspeaker_broadcast` | 2 | 2 | 0 |
 | `scene.development.winter_evenings_opening` | 3 | 3 | 0 |
