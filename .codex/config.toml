@@ -11,7 +11,15 @@ network_access = true
 # Песочница workspace-write держит каталоги .git только для чтения, и на этом
 # спотыкается git commit. Sol фиксирует изменения в собственном дереве, поэтому
 # записываемым открыт ровно один .git — его. Чужие деревья остаются недоступны.
-writable_roots = ["/home/alex/kolkhoz/rpg/.git", "/home/alex/kolkhoz/claude/mailbox"]
+# /data/tmp и ~/claudetmp — временное роли (слово человека 24 сентября 2026): крупное в
+# /data/tmp/rpg-*, мелкое в ~/claudetmp/rpg-*, убирает сама роль помощником
+# claude/tools/tmp-clean.sh. /tmp песочница открывает и так.
+writable_roots = [
+    "/home/alex/kolkhoz/rpg/.git",
+    "/home/alex/kolkhoz/claude/mailbox",
+    "/data/tmp",
+    "/home/alex/claudetmp",
+]
 
 [apps._default]
 default_tools_approval_mode = "auto"
