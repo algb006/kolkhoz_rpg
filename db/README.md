@@ -45,7 +45,7 @@ python3 tools/story.py render
 <!-- story:coverage -->
 | Сцена | Реплик | Черновиков | Утверждено |
 |---|---|---|---|
-| `scene.start.prologue` | 64 | 64 | 0 |
+| `scene.start.prologue` | 64 | 0 | 64 |
 | `scene.development.roof_over_head` | 2 | 2 | 0 |
 | `scene.development.own_office` | 2 | 2 | 0 |
 | `scene.development.juicy_feed` | 2 | 2 | 0 |
