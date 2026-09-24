@@ -60,7 +60,9 @@ def main():
     lines = ["# Прослушивание пролога", "",
              "Это **черновые**, не принятые дубли Gemini 3.8 Flash TTS. "
              "В монтажах между репликами вставлено 0,6 секунды тишины; "
-             "в исходных WAV тишины нет. Слова для игры берутся из субтитров rev=2.", ""]
+             "в исходных WAV тишины нет. Слова для игры берутся из субтитров rev=2. "
+             "Ошибочный женский Gacrux у Бывшего председателя заменён проверенным "
+             "мужским Schedar; прежние WAV сохранены в `superseded/gacrux/` и сюда не входят.", ""]
     silence = b"\0" * int(0.6 * 24000 * 2)
     for avatar, records in by_avatar.items():
         if len(records) != 8:
@@ -79,15 +81,24 @@ def main():
         for key, text, _ in records:
             lines.append(f"- [{key.rsplit('.', 1)[-1]}](lines/{key}.wav): {text}")
         lines.append("")
-    lines.extend(["## Счёт игрового прохода", "",
-                  f"{usage['requests']} запросов · {usage['input_tokens']} входных токенов · "
+    spent_receipts = list((VOICE_ROOT / "lines").glob("*.json"))
+    spent_receipts += list((VOICE_ROOT / "probes").glob("*.json"))
+    spent_receipts += list((VOICE_ROOT / "superseded/gacrux").glob("*.json"))
+    spent_receipts += list((VOICE_ROOT / "superseded/gacrux/probe").glob("*.json"))
+    total_spent = sum(json.loads(path.read_text(encoding="utf-8"))
+                      ["estimated_usd_from_usage"] for path in spent_receipts)
+    lines.extend(["## Счёт актуальных игровых дублей", "",
+                  f"Запросов: {usage['requests']} · входных токенов: {usage['input_tokens']} · "
                   f"{usage['output_tokens']} выходных аудиотокенов · "
                   f"{usage['seconds']:.2f} секунды · ${usage['usd']:.6f}.", "",
-                  "Пробы голосов (8 запросов, $0,005394) учтены отдельно.", ""])
+                  f"Оплаченных генераций: {len(spent_receipts)}, включая пробы и "
+                  f"сохранённые бракованные Gacrux; суммарный расход: ${total_spent:.6f}. "
+                  "Это расход, а не стоимость только актуальных файлов.", ""])
     (VOICE_ROOT / "REVIEW.md").write_text("\n".join(lines), encoding="utf-8")
     print(f"validated {usage['requests']} lines; {usage['seconds']:.2f}s; "
           f"in={usage['input_tokens']} out={usage['output_tokens']} "
-          f"USD={usage['usd']:.6f}; reels={len(by_avatar)}")
+          f"current_USD={usage['usd']:.6f}; lifetime_USD={total_spent:.6f}; "
+          f"reels={len(by_avatar)}")
 
 
 if __name__ == "__main__":

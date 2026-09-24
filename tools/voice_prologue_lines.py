@@ -11,7 +11,9 @@ import urllib.error
 import urllib.request
 import wave
 
-from voice_prologue_probe import API, VOICES, api_key, audio_from_response, modality_tokens
+from voice_prologue_probe import (API, VOICES, EXPECTED_GENDER, api_key,
+                                  audio_from_response, modality_tokens,
+                                  verified_voice_gender)
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -42,17 +44,17 @@ def approved_lines(avatar):
     return rows
 
 
-def spent_this_pass():
+def spent_this_pass(dest):
     return sum(json.loads(path.read_text(encoding="utf-8"))["estimated_usd_from_usage"]
-               for path in DEST.glob("*.json"))
+               for path in dest.glob("*.json"))
 
 
-def generate(key, text, rev, avatar):
+def generate(key, text, rev, avatar, voice):
     payload = {
         "model": MODEL,
         "input": [{"type": "user_input", "content": [{"type": "text", "text": text}]}],
         "response_format": {"type": "audio"},
-        "generation_config": {"speech_config": [{"voice": VOICES[avatar]}]},
+        "generation_config": {"speech_config": [{"voice": voice}]},
     }
     request = urllib.request.Request(
         API, data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
@@ -84,7 +86,8 @@ def generate(key, text, rev, avatar):
         raise RuntimeError(f"No billable usage for {key}: {usage}")
     cost = input_tokens * 0.50 / 1_000_000 + output_tokens * 9.00 / 1_000_000
     receipt = {
-        "key": key, "avatar": avatar, "voice": VOICES[avatar], "model": MODEL,
+        "key": key, "avatar": avatar, "voice": voice,
+        "gender": EXPECTED_GENDER[avatar], "model": MODEL,
         "text": text, "rev": rev, "approved_rev": rev,
         "text_sha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
         "wav_sha256": hashlib.sha256(audio).hexdigest(),
@@ -99,22 +102,28 @@ def generate(key, text, rev, avatar):
 
 
 def main():
-    if len(sys.argv) != 2 or sys.argv[1] not in VOICES:
-        raise SystemExit("usage: voice_prologue_lines.py <avatar-key>")
+    if len(sys.argv) not in (2, 4) or sys.argv[1] not in VOICES:
+        raise SystemExit("usage: voice_prologue_lines.py <avatar-key> [candidate-voice candidate-dir]")
     avatar = sys.argv[1]
+    voice = sys.argv[2] if len(sys.argv) == 4 else VOICES[avatar]
+    dest = Path(sys.argv[3]) if len(sys.argv) == 4 else DEST
+    if len(sys.argv) == 4 and not dest.is_relative_to(Path("/data/kolkhoz/voice/prologue/candidates")):
+        raise RuntimeError("candidate-dir must be under /data/kolkhoz/voice/prologue/candidates")
+    verified_voice_gender(voice, EXPECTED_GENDER[avatar])
     rows = approved_lines(avatar)
-    DEST.mkdir(parents=True, exist_ok=True)
+    cap = 0.03 if len(sys.argv) == 4 else MAX_PASS_USD
+    dest.mkdir(parents=True, exist_ok=True)
     for key, text, rev, _ in rows:
-        wav_path = DEST / f"{key}.wav"
-        receipt_path = DEST / f"{key}.json"
+        wav_path = dest / f"{key}.wav"
+        receipt_path = dest / f"{key}.json"
         if wav_path.exists() and receipt_path.exists():
             print(f"skip existing {key}", flush=True)
             continue
         if wav_path.exists() or receipt_path.exists():
             raise RuntimeError(f"partial output exists for {key}; inspect manually")
-        if spent_this_pass() + 0.02 > MAX_PASS_USD:
+        if spent_this_pass(dest) + 0.005 > cap:
             raise RuntimeError("pass budget cap nearly reached; stop before next request")
-        audio, receipt = generate(key, text, rev, avatar)
+        audio, receipt = generate(key, text, rev, avatar, voice)
         with wav_path.open("xb") as file:
             file.write(audio)
         with receipt_path.open("x", encoding="utf-8") as file:

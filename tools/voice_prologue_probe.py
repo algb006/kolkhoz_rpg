@@ -5,10 +5,10 @@ import base64
 import hashlib
 import io
 import json
-import os
 from pathlib import Path
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 import wave
 
@@ -22,12 +22,14 @@ VOICES = {
     "villager": "Achird",
     "worker": "Iapetus",
     "student": "Puck",
-    "ex_chairman": "Gacrux",
+    "ex_chairman": "Schedar",
     "promoted": "Charon",
     "old_fighter": "Algenib",
     "dealer": "Algieba",
     "acting": "Kore",
 }
+EXPECTED_GENDER = {avatar: "female" if avatar == "acting" else "male"
+                   for avatar in VOICES}
 
 
 def api_key():
@@ -66,19 +68,40 @@ def modality_tokens(usage, field, modality):
                if item.get("modality") == modality)
 
 
+def verified_voice_gender(voice, expected):
+    query = urllib.parse.urlencode({"type": "prebuilt", "search": voice,
+                                    "page_size": 1000})
+    request = urllib.request.Request(
+        f"https://generativelanguage.googleapis.com/v1beta/voices?{query}",
+        headers={"x-goog-api-key": api_key()},
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        data = json.load(response)
+    matches = [item for item in data.get("voices", [])
+               if item.get("display_name", "").casefold() == voice.casefold()
+               and item.get("language_code") == "en-US"]
+    if len(matches) != 1 or matches[0].get("gender") != expected:
+        raise RuntimeError(f"voice {voice}: expected {expected}, catalogue has "
+                           f"{[(item.get('gender'), item.get('language_code')) for item in matches]}")
+    return matches[0]["gender"]
+
+
 def main():
-    if len(sys.argv) != 2 or sys.argv[1] not in VOICES:
-        raise SystemExit("usage: voice_prologue_probe.py <avatar-key>")
+    if len(sys.argv) not in (2, 3) or sys.argv[1] not in VOICES:
+        raise SystemExit("usage: voice_prologue_probe.py <avatar-key> [candidate-voice]")
     avatar = sys.argv[1]
-    wav_path = DEST / f"{avatar}-lite-probe.wav"
-    receipt_path = DEST / f"{avatar}-lite-probe.json"
+    voice = sys.argv[2] if len(sys.argv) == 3 else VOICES[avatar]
+    basename = f"{avatar}-{voice}-lite-probe" if len(sys.argv) == 3 else f"{avatar}-lite-probe"
+    wav_path = DEST / f"{basename}.wav"
+    receipt_path = DEST / f"{basename}.json"
     if wav_path.exists() or receipt_path.exists():
         raise SystemExit(f"probe already exists: {avatar}")
+    verified_voice_gender(voice, EXPECTED_GENDER[avatar])
     payload = {
         "model": MODEL,
         "input": [{"type": "user_input", "content": [{"type": "text", "text": TEXT}]}],
         "response_format": {"type": "audio"},
-        "generation_config": {"speech_config": [{"voice": VOICES[avatar]}]},
+        "generation_config": {"speech_config": [{"voice": voice}]},
     }
     request = urllib.request.Request(
         API, data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
@@ -108,7 +131,7 @@ def main():
         output_tokens = usage.get("total_output_tokens", 0)
     cost = input_tokens * 0.50 / 1_000_000 + output_tokens * 6.00 / 1_000_000
     receipt = {
-        "avatar": avatar, "voice": VOICES[avatar], "model": MODEL,
+        "avatar": avatar, "voice": voice, "gender": EXPECTED_GENDER[avatar], "model": MODEL,
         "text": TEXT, "text_sha256": hashlib.sha256(TEXT.encode()).hexdigest(),
         "sha256": hashlib.sha256(audio).hexdigest(), "duration_seconds": frames / rate,
         "usage": usage, "estimated_usd_from_usage": cost,
