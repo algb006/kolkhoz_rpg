@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "39000e5458d05cb8185986222fdd97458d6b105b03283e1ab23fd2b2ddcb2c93",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "promoted",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 5.96,
+  "estimated_usd_from_usage": 0.0017305,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_Chd5aUcxYXA3NUQ3YTJnOFVQajRyUThRNBIXeWlHMWFwNzVEN2EyZzhVUGo0clE4UTQ",
+  "key": "scene.start.prologue.promoted.t7",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Люди уже приглядываются, кого им прислали. Первое впечатление лучше не портить.",
+  "text_sha256": "30b58dc32bbc859babc7a1ca7acc0b5b7795291f11b02626e4f93b9d4a381434",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 23
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 151
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 82
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 151
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 82
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 191
+      }
+    ],
+    "raw_prompt_token": 383,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 23,
+    "total_output_tokens": 191,
+    "total_thought_tokens": 0,
+    "total_tokens": 214,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Charon",
+  "voice_passport": {
+    "avatar": "promoted",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Charon"
+  },
+  "wav_sha256": "01b7ed82a5d5a4c7a16e63e8dfd97f073c12601d5633960b7548aeb4ea0fa467"
+}

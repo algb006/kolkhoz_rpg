@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "4bd17f7df6485790fb715d6f552a39b1ee4ad9ee1361405b0bb73dec763997b0",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "villager",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 5.84,
+  "estimated_usd_from_usage": 0.0016945,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_ChdRU0sxYXBuckFfZTBnOFVQeEoySjBRNBIXUVNLMWFwbnJBX2UwZzhVUHhKMkowUTQ",
+  "key": "scene.start.prologue.villager.t8",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Церковь-то как запустили. И свои смотрят, будто чужого прислали.",
+  "text_sha256": "9546714a15c6750bca4c9d846edf973174e06c5a9ebc53a2f9adc3b2538029cb",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 23
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 148
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 82
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 148
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 82
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 187
+      }
+    ],
+    "raw_prompt_token": 383,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 23,
+    "total_output_tokens": 187,
+    "total_thought_tokens": 0,
+    "total_tokens": 210,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Achird",
+  "voice_passport": {
+    "avatar": "villager",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Achird"
+  },
+  "wav_sha256": "7415f6ecc0c1583008e027977537a225f91b92cce0d8b511f27556081a2a0d9c"
+}

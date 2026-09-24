@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "f755c7510ae00124cfcea1f498c50b2262fea5f25d1dde545bd5333d4debcca9",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "worker",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 4.0,
+  "estimated_usd_from_usage": 0.0011605,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_ChdlaUsxYW9HdkhOYmNnOFVQc01YeDRBNBIXZWlLMWFvR3ZITmJjZzhVUHNNWHg0QTQ",
+  "key": "scene.start.prologue.worker.t8",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Церковь еле стоит. Начинать придётся с развалин.",
+  "text_sha256": "541c94a97d81fa5fff05b717edaa0c803cdb8709bd92eb1b16d352c523f86521",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 17
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 102
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 76
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 102
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 76
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 128
+      }
+    ],
+    "raw_prompt_token": 371,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 17,
+    "total_output_tokens": 128,
+    "total_thought_tokens": 0,
+    "total_tokens": 145,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Iapetus",
+  "voice_passport": {
+    "avatar": "worker",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Iapetus"
+  },
+  "wav_sha256": "bcf3e25efc7e53dead4e7588756be94f2b4e3772f3fd22d1fd7a0cbb93a27ab0"
+}

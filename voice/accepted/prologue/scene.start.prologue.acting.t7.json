@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "c498188942d5bc3bc69986ceddf2a7d9f0643886cab81032f8c1cfe7996c0562",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "acting",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 5.88,
+  "estimated_usd_from_usage": 0.0017125,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_ChcxaUMxYXRyWUc5YmNnOFVQc01YeDRBNBIXMWlDMWF0cllHOWJjZzhVUHNNWHg0QTQ",
+  "key": "scene.start.prologue.acting.t7",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Коровы голодные. Надо сразу проверить корм и поговорить с теми, кто за ними ходит.",
+  "text_sha256": "ed7a87fa244cde1feb2d11f952878b336d2f80257267c8a91317164bc0fd57ac",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 23
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 149
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 82
+          },
+          {
+            "modality": "audio",
+            "tokens": 201
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 149
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 82
+          },
+          {
+            "modality": "audio",
+            "tokens": 201
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 189
+      }
+    ],
+    "raw_prompt_token": 325,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 23,
+    "total_output_tokens": 189,
+    "total_thought_tokens": 0,
+    "total_tokens": 212,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Kore",
+  "voice_passport": {
+    "avatar": "acting",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "female",
+    "voice_id": "Kore"
+  },
+  "wav_sha256": "acc082b8678a141a40d01e0079b6e39352c37fbe7dca6383d9776b482a98bc2c"
+}

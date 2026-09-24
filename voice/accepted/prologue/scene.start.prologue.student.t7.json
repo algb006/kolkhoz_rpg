@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "6ab6674b8942ba3c3e28f74506be11a4ec81b6d21015ce6074c11b43df003e71",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "student",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 6.8,
+  "estimated_usd_from_usage": 0.0019765000000000004,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_ChdBeUsxYXNTUE01V3pnOFVQM29UUjRRNBIXQXlLMWFzU1BNNVd6ZzhVUDNvVFI0UTQ",
+  "key": "scene.start.prologue.student.t7",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Корма не хватает — это слышно. А люди уже ждут от меня ответа, хотя я ещё ни о чём не спросил.",
+  "text_sha256": "a98ab713424f9555a6db78e16f106095b990fa8c659a7a4d271bc2ceb1f9b851",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 29
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 172
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 88
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 172
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 88
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 218
+      }
+    ],
+    "raw_prompt_token": 396,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 29,
+    "total_output_tokens": 218,
+    "total_thought_tokens": 0,
+    "total_tokens": 247,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Puck",
+  "voice_passport": {
+    "avatar": "student",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Puck"
+  },
+  "wav_sha256": "2056c3eab9ae98e75ba443fe611d0cc0036a4617e715b5bc8a5646e001aab4b3"
+}

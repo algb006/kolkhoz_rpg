@@ -1,0 +1,662 @@
+{
+  "acceptance_date": "2026-09-24",
+  "acceptance_statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит.",
+  "audio_format": "mono PCM16 WAV, 24000 Hz, unchanged TTS original",
+  "description_ref": "manual/voice/prologue-pilot.md",
+  "lines": [
+    {
+      "avatar": "acting",
+      "key": "scene.start.prologue.acting.t1",
+      "receipt": "scene.start.prologue.acting.t1.json",
+      "rev": 2,
+      "text_sha256": "abee0fef75d80f40c0ffb44d4ff1d63d9b43a28751bb09906779a5516cf1df79",
+      "voice": "Kore",
+      "wav": "scene.start.prologue.acting.t1.wav",
+      "wav_sha256": "a1e97198c51f8ef12d07465fef4f222b91c9ff4b574c34e949af013c48807509"
+    },
+    {
+      "avatar": "acting",
+      "key": "scene.start.prologue.acting.t2",
+      "receipt": "scene.start.prologue.acting.t2.json",
+      "rev": 2,
+      "text_sha256": "8b4659140a33e370a2acd6d8a050bb8a579b13c37685101fa6291900f4b80ce4",
+      "voice": "Kore",
+      "wav": "scene.start.prologue.acting.t2.wav",
+      "wav_sha256": "1bb33793b0e01f0d3f4bc65f1679add4f13c2ce104f70438bf26f16e9173d23e"
+    },
+    {
+      "avatar": "acting",
+      "key": "scene.start.prologue.acting.t3",
+      "receipt": "scene.start.prologue.acting.t3.json",
+      "rev": 2,
+      "text_sha256": "61c6bae5f4ff0eb8a59277929f30e21df25fb10476eb992512119c644ca9183a",
+      "voice": "Kore",
+      "wav": "scene.start.prologue.acting.t3.wav",
+      "wav_sha256": "2db29cabd3d40352d8a8b79c882bd4f11b2dd4811c387d535d5d8594b2d0e4ce"
+    },
+    {
+      "avatar": "acting",
+      "key": "scene.start.prologue.acting.t4",
+      "receipt": "scene.start.prologue.acting.t4.json",
+      "rev": 2,
+      "text_sha256": "d5b3e78fe184dedcfd4a3a225efc4d5ede08ef540a9c671c43b36c781affec21",
+      "voice": "Kore",
+      "wav": "scene.start.prologue.acting.t4.wav",
+      "wav_sha256": "8f3f798fca67ec414e42a52bba88ac2a348f1f0b565c5bd0ace380929739bf08"
+    },
+    {
+      "avatar": "acting",
+      "key": "scene.start.prologue.acting.t5",
+      "receipt": "scene.start.prologue.acting.t5.json",
+      "rev": 2,
+      "text_sha256": "cda34179b8c81cf6745ea7d3db9be2f1db944bc1434fbf0a2f30b7cc9e0a2eca",
+      "voice": "Kore",
+      "wav": "scene.start.prologue.acting.t5.wav",
+      "wav_sha256": "044ec984a910fdfb10523a7d4483ae5f441823d7e06310ec4daad9d8c24c8789"
+    },
+    {
+      "avatar": "acting",
+      "key": "scene.start.prologue.acting.t6",
+      "receipt": "scene.start.prologue.acting.t6.json",
+      "rev": 2,
+      "text_sha256": "7f67530387356ff152a02dfa7d19e49ca070441ded523769d0a5888c190d5f9b",
+      "voice": "Kore",
+      "wav": "scene.start.prologue.acting.t6.wav",
+      "wav_sha256": "e18ef1fcf547c0d22bb7f58b882e52186c1061f784e72fce90decbabb9f11aa9"
+    },
+    {
+      "avatar": "acting",
+      "key": "scene.start.prologue.acting.t7",
+      "receipt": "scene.start.prologue.acting.t7.json",
+      "rev": 2,
+      "text_sha256": "ed7a87fa244cde1feb2d11f952878b336d2f80257267c8a91317164bc0fd57ac",
+      "voice": "Kore",
+      "wav": "scene.start.prologue.acting.t7.wav",
+      "wav_sha256": "acc082b8678a141a40d01e0079b6e39352c37fbe7dca6383d9776b482a98bc2c"
+    },
+    {
+      "avatar": "acting",
+      "key": "scene.start.prologue.acting.t8",
+      "receipt": "scene.start.prologue.acting.t8.json",
+      "rev": 2,
+      "text_sha256": "70c7e6b81f782a883a38ab3d5402a1908b489075bdb3551f6ff89d280f880ab1",
+      "voice": "Kore",
+      "wav": "scene.start.prologue.acting.t8.wav",
+      "wav_sha256": "628728d6975f0ac0deb1821f86151a81e963a7227077b3cfeffac3bc3c9d0091"
+    },
+    {
+      "avatar": "dealer",
+      "key": "scene.start.prologue.dealer.t1",
+      "receipt": "scene.start.prologue.dealer.t1.json",
+      "rev": 2,
+      "text_sha256": "d14d9993304ef18b5805a5fc9b1585dd28b5489bd0b1aa936edaa116f2f32479",
+      "voice": "Algieba",
+      "wav": "scene.start.prologue.dealer.t1.wav",
+      "wav_sha256": "f02f0b6169403ce785b968c6e71073531dd2c5718eeea90d35a892c30233b376"
+    },
+    {
+      "avatar": "dealer",
+      "key": "scene.start.prologue.dealer.t2",
+      "receipt": "scene.start.prologue.dealer.t2.json",
+      "rev": 2,
+      "text_sha256": "a4e3c2d6828e24a35af68fdfa2127d611cb915d212f3e75c468b2588daccc1bd",
+      "voice": "Algieba",
+      "wav": "scene.start.prologue.dealer.t2.wav",
+      "wav_sha256": "4be0cb43d188cdcba92916e5d193dcfb983827d4ae69c9a93a195048c0eb5101"
+    },
+    {
+      "avatar": "dealer",
+      "key": "scene.start.prologue.dealer.t3",
+      "receipt": "scene.start.prologue.dealer.t3.json",
+      "rev": 2,
+      "text_sha256": "c6ea18ab8e23b5cf55af1791eb84ec15cd72f3da07953533b32e8239e368898d",
+      "voice": "Algieba",
+      "wav": "scene.start.prologue.dealer.t3.wav",
+      "wav_sha256": "295f31cdfe3b1acf750b8d09a710bc5f54d2a52b0fed2fa9d082e7f88ee50d6e"
+    },
+    {
+      "avatar": "dealer",
+      "key": "scene.start.prologue.dealer.t4",
+      "receipt": "scene.start.prologue.dealer.t4.json",
+      "rev": 2,
+      "text_sha256": "940048210d9b40bab4ab04765eb6b00b158ddaeb64d76a68a9c1224fad35d8cb",
+      "voice": "Algieba",
+      "wav": "scene.start.prologue.dealer.t4.wav",
+      "wav_sha256": "9c513017bd0c04756a98e56b3d0eb36de4d2bbf9fe05b831c429b147fa199bfe"
+    },
+    {
+      "avatar": "dealer",
+      "key": "scene.start.prologue.dealer.t5",
+      "receipt": "scene.start.prologue.dealer.t5.json",
+      "rev": 2,
+      "text_sha256": "5cdc5b6decb75fc644df8371504835ff4e4446af0c2b9aa9c79f6250d0f73518",
+      "voice": "Algieba",
+      "wav": "scene.start.prologue.dealer.t5.wav",
+      "wav_sha256": "f1a275707668bf0f26b997e9613abd718d7535fa2f478782070e844cae2ab909"
+    },
+    {
+      "avatar": "dealer",
+      "key": "scene.start.prologue.dealer.t6",
+      "receipt": "scene.start.prologue.dealer.t6.json",
+      "rev": 2,
+      "text_sha256": "8efba1fc3a360d288308e3c8a7063ad9d80e1f75d8559ce558ae8ffdf51aa568",
+      "voice": "Algieba",
+      "wav": "scene.start.prologue.dealer.t6.wav",
+      "wav_sha256": "7194d369a7a2f6bdb6802570798366fe09587ef0d4e06a127c74bfd8183a977c"
+    },
+    {
+      "avatar": "dealer",
+      "key": "scene.start.prologue.dealer.t7",
+      "receipt": "scene.start.prologue.dealer.t7.json",
+      "rev": 2,
+      "text_sha256": "45d11b045136f714889e8eea5540b732e7c03a3ea74ac9fc45f524ceda539ef0",
+      "voice": "Algieba",
+      "wav": "scene.start.prologue.dealer.t7.wav",
+      "wav_sha256": "4f4a869a9f5a7f9bfd0b055cbc67b50a9c0fe2c0cd74fd840c0877d9a675707d"
+    },
+    {
+      "avatar": "dealer",
+      "key": "scene.start.prologue.dealer.t8",
+      "receipt": "scene.start.prologue.dealer.t8.json",
+      "rev": 2,
+      "text_sha256": "997033151a89e02d4766e5ea08936382d46aa2515a2b129c27f227fa4dc3e8be",
+      "voice": "Algieba",
+      "wav": "scene.start.prologue.dealer.t8.wav",
+      "wav_sha256": "64cfa302a517b5186d988de4b97407a2b671f624a813ba5b51d7158c164c3480"
+    },
+    {
+      "avatar": "ex_chairman",
+      "key": "scene.start.prologue.ex_chairman.t1",
+      "receipt": "scene.start.prologue.ex_chairman.t1.json",
+      "rev": 2,
+      "text_sha256": "f53bc42b651a36a58da280d3f93367278ab4d07932bf3175cffeb8be4357120b",
+      "voice": "Schedar",
+      "wav": "scene.start.prologue.ex_chairman.t1.wav",
+      "wav_sha256": "def0cc65eab50a07d397fdbd5ef1c8d2b9dc65d8b3150d37ac1b7f05bcd6776c"
+    },
+    {
+      "avatar": "ex_chairman",
+      "key": "scene.start.prologue.ex_chairman.t2",
+      "receipt": "scene.start.prologue.ex_chairman.t2.json",
+      "rev": 2,
+      "text_sha256": "b731a7789013924e2a70d2169318a6dba091c45dd09719de79a9997fef447da1",
+      "voice": "Schedar",
+      "wav": "scene.start.prologue.ex_chairman.t2.wav",
+      "wav_sha256": "08a88d92effa3cf566452e1e51d45ba4b9e48a8ad26634eb732ed481f6b0a23b"
+    },
+    {
+      "avatar": "ex_chairman",
+      "key": "scene.start.prologue.ex_chairman.t3",
+      "receipt": "scene.start.prologue.ex_chairman.t3.json",
+      "rev": 2,
+      "text_sha256": "6126e2ce993db79291bca0f1e49d8822f23dce3ced8f6a8aaeda4027a0d57ff1",
+      "voice": "Schedar",
+      "wav": "scene.start.prologue.ex_chairman.t3.wav",
+      "wav_sha256": "bd68544012de83e8187baef07b105a0d37775eb15dbc6bdce316a5827aaf5103"
+    },
+    {
+      "avatar": "ex_chairman",
+      "key": "scene.start.prologue.ex_chairman.t4",
+      "receipt": "scene.start.prologue.ex_chairman.t4.json",
+      "rev": 2,
+      "text_sha256": "d79ec0b1812e6138c1dd060092b7e0480c1a055f7fb1b8d5c2e34eacf97eb3a6",
+      "voice": "Schedar",
+      "wav": "scene.start.prologue.ex_chairman.t4.wav",
+      "wav_sha256": "070cb02141e6d1f6f67760408f63e481f8632a79d45d15827b923e5751dd275a"
+    },
+    {
+      "avatar": "ex_chairman",
+      "key": "scene.start.prologue.ex_chairman.t5",
+      "receipt": "scene.start.prologue.ex_chairman.t5.json",
+      "rev": 2,
+      "text_sha256": "3b4622c91065cd6669c2f882def73340075b630fbf68bcb817aee4b73b65c6c8",
+      "voice": "Schedar",
+      "wav": "scene.start.prologue.ex_chairman.t5.wav",
+      "wav_sha256": "2cbfc997246b854a47c0ff9f4f8561d912198737269d1edb57a0e422d0737c6f"
+    },
+    {
+      "avatar": "ex_chairman",
+      "key": "scene.start.prologue.ex_chairman.t6",
+      "receipt": "scene.start.prologue.ex_chairman.t6.json",
+      "rev": 2,
+      "text_sha256": "73e3b245c7df597688b11eff559efd92ae3de577e780d299ecdeccaee1c9f785",
+      "voice": "Schedar",
+      "wav": "scene.start.prologue.ex_chairman.t6.wav",
+      "wav_sha256": "97cf377ce02878152c29cf773389e254b48e691721eeba355756ff63bba46935"
+    },
+    {
+      "avatar": "ex_chairman",
+      "key": "scene.start.prologue.ex_chairman.t7",
+      "receipt": "scene.start.prologue.ex_chairman.t7.json",
+      "rev": 2,
+      "text_sha256": "70b3693deb1ea5447d196cf5077395ca9fbf1b07b73a487dc33fd1f8c2e6996a",
+      "voice": "Schedar",
+      "wav": "scene.start.prologue.ex_chairman.t7.wav",
+      "wav_sha256": "8c0f4f590fd62f1f8074020de37b0bbe7dcfccf95075eff16da1670130486874"
+    },
+    {
+      "avatar": "ex_chairman",
+      "key": "scene.start.prologue.ex_chairman.t8",
+      "receipt": "scene.start.prologue.ex_chairman.t8.json",
+      "rev": 2,
+      "text_sha256": "61c5327a72183a26149bb3a13a765651bf2395527bfaa5a8f294bf4a1889184a",
+      "voice": "Schedar",
+      "wav": "scene.start.prologue.ex_chairman.t8.wav",
+      "wav_sha256": "3a9d882a403995a7028c00161acb74a53e84487cda781b25a173e1c3ce8533a5"
+    },
+    {
+      "avatar": "old_fighter",
+      "key": "scene.start.prologue.old_fighter.t1",
+      "receipt": "scene.start.prologue.old_fighter.t1.json",
+      "rev": 2,
+      "text_sha256": "d92451e2952b7d323be00340955e433246b2962599d96d583fa3d94d597849b9",
+      "voice": "Algenib",
+      "wav": "scene.start.prologue.old_fighter.t1.wav",
+      "wav_sha256": "0f4751675a2cbad9fbc71c39104847d7cd6796311966fe7af9f91d45bb68eb86"
+    },
+    {
+      "avatar": "old_fighter",
+      "key": "scene.start.prologue.old_fighter.t2",
+      "receipt": "scene.start.prologue.old_fighter.t2.json",
+      "rev": 2,
+      "text_sha256": "151603c49b0ddbe990c3a53099cd3b478179de21844d6105dc5f64e2a34c76c8",
+      "voice": "Algenib",
+      "wav": "scene.start.prologue.old_fighter.t2.wav",
+      "wav_sha256": "1740bf9660c98f196168a0bcb3d8bdc65e441eb24d3d2309aa8438e04b64a1cf"
+    },
+    {
+      "avatar": "old_fighter",
+      "key": "scene.start.prologue.old_fighter.t3",
+      "receipt": "scene.start.prologue.old_fighter.t3.json",
+      "rev": 2,
+      "text_sha256": "b330d74354f0423d74ae8a52ec59b9652d6265042060a8d9b2621fcb5a5332ad",
+      "voice": "Algenib",
+      "wav": "scene.start.prologue.old_fighter.t3.wav",
+      "wav_sha256": "5a53a55ae844a4401e58df499538af6622c4d7d278e01c220420a021bb123b59"
+    },
+    {
+      "avatar": "old_fighter",
+      "key": "scene.start.prologue.old_fighter.t4",
+      "receipt": "scene.start.prologue.old_fighter.t4.json",
+      "rev": 2,
+      "text_sha256": "23f1a2c1254e6e2b3f80caddc28d2e64aa53c2936673e8fa287044387de0d268",
+      "voice": "Algenib",
+      "wav": "scene.start.prologue.old_fighter.t4.wav",
+      "wav_sha256": "4ad7deb7fbce17b1af7d4323e3cf3cfec2185e9f7dd76dbe6533e572825550d5"
+    },
+    {
+      "avatar": "old_fighter",
+      "key": "scene.start.prologue.old_fighter.t5",
+      "receipt": "scene.start.prologue.old_fighter.t5.json",
+      "rev": 2,
+      "text_sha256": "3c44f3171a4a487fe2cf1680abdafada7be0b0c7af7cca891e84dcb400511fae",
+      "voice": "Algenib",
+      "wav": "scene.start.prologue.old_fighter.t5.wav",
+      "wav_sha256": "799d70aeaf2de06a5ca59f3e02b12be6b2c1a0c87e75974540bae5fc1bae7f64"
+    },
+    {
+      "avatar": "old_fighter",
+      "key": "scene.start.prologue.old_fighter.t6",
+      "receipt": "scene.start.prologue.old_fighter.t6.json",
+      "rev": 2,
+      "text_sha256": "e25764f38491ccd4ec68d62bdeda7814317e73782d48e264137097ba89f0855c",
+      "voice": "Algenib",
+      "wav": "scene.start.prologue.old_fighter.t6.wav",
+      "wav_sha256": "4d1bbe34fc53f215a20cf77c352515f0929e7485ac53f964bf3c94bb8ded34f6"
+    },
+    {
+      "avatar": "old_fighter",
+      "key": "scene.start.prologue.old_fighter.t7",
+      "receipt": "scene.start.prologue.old_fighter.t7.json",
+      "rev": 2,
+      "text_sha256": "506f9f4b77d3af15aa71880482762ae5cf828cdc5fbe0f6d864a9648252e3fde",
+      "voice": "Algenib",
+      "wav": "scene.start.prologue.old_fighter.t7.wav",
+      "wav_sha256": "e6b28126b923e9df33e2d124f25f2de1b910aa3c3dd24b0e4c487f89869b27ce"
+    },
+    {
+      "avatar": "old_fighter",
+      "key": "scene.start.prologue.old_fighter.t8",
+      "receipt": "scene.start.prologue.old_fighter.t8.json",
+      "rev": 2,
+      "text_sha256": "7a58f651878b9a57d11baaa89dcb5529d11f1efbbf308bed27ea7eb0d22a3780",
+      "voice": "Algenib",
+      "wav": "scene.start.prologue.old_fighter.t8.wav",
+      "wav_sha256": "8647359346be769229d56a4310dd9bd82c6e13f86ac8eb75425afb8a2d76ff08"
+    },
+    {
+      "avatar": "promoted",
+      "key": "scene.start.prologue.promoted.t1",
+      "receipt": "scene.start.prologue.promoted.t1.json",
+      "rev": 2,
+      "text_sha256": "6d7ad92fc186a96275345fa71355adba4c95f9a41b861aa33c8305b67a2ab452",
+      "voice": "Charon",
+      "wav": "scene.start.prologue.promoted.t1.wav",
+      "wav_sha256": "41ab4746ff1b0c23398f6fc7062d9bb68cbc26b0a3f55b1771a77898c4d41ba7"
+    },
+    {
+      "avatar": "promoted",
+      "key": "scene.start.prologue.promoted.t2",
+      "receipt": "scene.start.prologue.promoted.t2.json",
+      "rev": 2,
+      "text_sha256": "4ee9bb1c95e8ce69ab940874cf7a544d8b83ae96749ca2ccf0fdb94a1ce93ec4",
+      "voice": "Charon",
+      "wav": "scene.start.prologue.promoted.t2.wav",
+      "wav_sha256": "8e5a5bbe58e275c00f3c318648d7980ec5dbbb4704d0f2cf4c36572ae62dad48"
+    },
+    {
+      "avatar": "promoted",
+      "key": "scene.start.prologue.promoted.t3",
+      "receipt": "scene.start.prologue.promoted.t3.json",
+      "rev": 2,
+      "text_sha256": "6bc2c9180f618306fa737439a50dae6d94ce81597aeed7e126680a6ac1a8c867",
+      "voice": "Charon",
+      "wav": "scene.start.prologue.promoted.t3.wav",
+      "wav_sha256": "b76687cb78e89775311645d7c014c5c0c81faa33c46be0346f82d13d18ddc9c7"
+    },
+    {
+      "avatar": "promoted",
+      "key": "scene.start.prologue.promoted.t4",
+      "receipt": "scene.start.prologue.promoted.t4.json",
+      "rev": 2,
+      "text_sha256": "4f720c0bde8ddc265bb10fc8fbedb8150001a74edb35225138cf1b536cb32c62",
+      "voice": "Charon",
+      "wav": "scene.start.prologue.promoted.t4.wav",
+      "wav_sha256": "dda9b04566eb55597513cb3a7d5b1bd50e13bf23ee6c557b85c7ad709d8dca37"
+    },
+    {
+      "avatar": "promoted",
+      "key": "scene.start.prologue.promoted.t5",
+      "receipt": "scene.start.prologue.promoted.t5.json",
+      "rev": 2,
+      "text_sha256": "f8094fdcadb56521733cd79928b7d24881740051a7b9bef3022b2ae73c9540ec",
+      "voice": "Charon",
+      "wav": "scene.start.prologue.promoted.t5.wav",
+      "wav_sha256": "2374349f860bb2c5ed78d1ff0f80dda5f7b1b0cd48508494e12b5dd45e11b92f"
+    },
+    {
+      "avatar": "promoted",
+      "key": "scene.start.prologue.promoted.t6",
+      "receipt": "scene.start.prologue.promoted.t6.json",
+      "rev": 2,
+      "text_sha256": "2b323d6f2dc12af3ef46039548fe2d9233db7fc51146feb0d9c5cfe15efca281",
+      "voice": "Charon",
+      "wav": "scene.start.prologue.promoted.t6.wav",
+      "wav_sha256": "e0237f163d25a3fd4bf7e863ba06e316059db18c9fd7fed92b344a92d4aa0fa2"
+    },
+    {
+      "avatar": "promoted",
+      "key": "scene.start.prologue.promoted.t7",
+      "receipt": "scene.start.prologue.promoted.t7.json",
+      "rev": 2,
+      "text_sha256": "30b58dc32bbc859babc7a1ca7acc0b5b7795291f11b02626e4f93b9d4a381434",
+      "voice": "Charon",
+      "wav": "scene.start.prologue.promoted.t7.wav",
+      "wav_sha256": "01b7ed82a5d5a4c7a16e63e8dfd97f073c12601d5633960b7548aeb4ea0fa467"
+    },
+    {
+      "avatar": "promoted",
+      "key": "scene.start.prologue.promoted.t8",
+      "receipt": "scene.start.prologue.promoted.t8.json",
+      "rev": 2,
+      "text_sha256": "15a63ab4ffc188e89f9d22f0e018138df91f09e1848c35473668dd0bb4322d51",
+      "voice": "Charon",
+      "wav": "scene.start.prologue.promoted.t8.wav",
+      "wav_sha256": "6a75e1d6bd4080b8fd416d96b53955bf037743f5a7c7f6ce45981ce9ac27d31b"
+    },
+    {
+      "avatar": "student",
+      "key": "scene.start.prologue.student.t1",
+      "receipt": "scene.start.prologue.student.t1.json",
+      "rev": 2,
+      "text_sha256": "6c097fd341baf23697fee3173ef6ceccc01dcdf616b268407504c8d232682f43",
+      "voice": "Puck",
+      "wav": "scene.start.prologue.student.t1.wav",
+      "wav_sha256": "177b603ea0a59a9d3c790b508b33d3574f30e1e229b88fb2e3b7d6f30f8214ff"
+    },
+    {
+      "avatar": "student",
+      "key": "scene.start.prologue.student.t2",
+      "receipt": "scene.start.prologue.student.t2.json",
+      "rev": 2,
+      "text_sha256": "ff791b4b7ebba6d05a7e01e17b68b42dd2bff3bd586d88d1d07772168211cac6",
+      "voice": "Puck",
+      "wav": "scene.start.prologue.student.t2.wav",
+      "wav_sha256": "25495cee0be919e8f364d3c89d9014be6854589b3670991766d7d33e960d9336"
+    },
+    {
+      "avatar": "student",
+      "key": "scene.start.prologue.student.t3",
+      "receipt": "scene.start.prologue.student.t3.json",
+      "rev": 2,
+      "text_sha256": "1d141a154b87d7dc848195a4978b1c74b9107749598af39d667e51d1ae173a1d",
+      "voice": "Puck",
+      "wav": "scene.start.prologue.student.t3.wav",
+      "wav_sha256": "e3b23678a5e2e9d989e224e4266606feb3317d7e092728e59d435d44c093d3a4"
+    },
+    {
+      "avatar": "student",
+      "key": "scene.start.prologue.student.t4",
+      "receipt": "scene.start.prologue.student.t4.json",
+      "rev": 2,
+      "text_sha256": "ea95401ceb8f424c1839766cd8d1d34d5457c323a03fb7a675988781be01be46",
+      "voice": "Puck",
+      "wav": "scene.start.prologue.student.t4.wav",
+      "wav_sha256": "f59536522458b29519cdb3818ac54cb63a8d32daf39caa6434cb44d3c162d643"
+    },
+    {
+      "avatar": "student",
+      "key": "scene.start.prologue.student.t5",
+      "receipt": "scene.start.prologue.student.t5.json",
+      "rev": 2,
+      "text_sha256": "83ff588fc8e00994debdeb7fccd4be2c4524fc085b7045d07ef09027ec221724",
+      "voice": "Puck",
+      "wav": "scene.start.prologue.student.t5.wav",
+      "wav_sha256": "c50a1ae08992ff07849a451e97ceda9fb1fe3091a541f4f16962081584e3e1cf"
+    },
+    {
+      "avatar": "student",
+      "key": "scene.start.prologue.student.t6",
+      "receipt": "scene.start.prologue.student.t6.json",
+      "rev": 2,
+      "text_sha256": "b64ca8f1637228b63d7eeee62e93f3e9f861049c62d30b15527e8ae49d7daa65",
+      "voice": "Puck",
+      "wav": "scene.start.prologue.student.t6.wav",
+      "wav_sha256": "41dcb67bad97c12fc485adad6d5444f384083fd3b68983cf7b762e2cd6d3fe28"
+    },
+    {
+      "avatar": "student",
+      "key": "scene.start.prologue.student.t7",
+      "receipt": "scene.start.prologue.student.t7.json",
+      "rev": 2,
+      "text_sha256": "a98ab713424f9555a6db78e16f106095b990fa8c659a7a4d271bc2ceb1f9b851",
+      "voice": "Puck",
+      "wav": "scene.start.prologue.student.t7.wav",
+      "wav_sha256": "2056c3eab9ae98e75ba443fe611d0cc0036a4617e715b5bc8a5646e001aab4b3"
+    },
+    {
+      "avatar": "student",
+      "key": "scene.start.prologue.student.t8",
+      "receipt": "scene.start.prologue.student.t8.json",
+      "rev": 2,
+      "text_sha256": "4cd2298a3833c9c6edb5f4bb8b14327bf4c90e0c1c7957a6e7ce85e6b7b0bc64",
+      "voice": "Puck",
+      "wav": "scene.start.prologue.student.t8.wav",
+      "wav_sha256": "2efdcc5a911cac3d105ab0bcc8db72adcd878ffdbc1a974c5083543e360bf9d1"
+    },
+    {
+      "avatar": "villager",
+      "key": "scene.start.prologue.villager.t1",
+      "receipt": "scene.start.prologue.villager.t1.json",
+      "rev": 2,
+      "text_sha256": "9e95cf8f0b2742d4f1aa32aaf171840f57e22249ec8aae582be5c15b7c36d59a",
+      "voice": "Achird",
+      "wav": "scene.start.prologue.villager.t1.wav",
+      "wav_sha256": "43ca67e46e1e2f59c10aedb1cece785ec99014fa939da59c9eb9f0ce0c293757"
+    },
+    {
+      "avatar": "villager",
+      "key": "scene.start.prologue.villager.t2",
+      "receipt": "scene.start.prologue.villager.t2.json",
+      "rev": 2,
+      "text_sha256": "a8c9df4464431c4fa7f8f98bef65a6ac2e70f3f40700e279178579b900e62aab",
+      "voice": "Achird",
+      "wav": "scene.start.prologue.villager.t2.wav",
+      "wav_sha256": "73d6fd035485626e0a55e2123d83d9d9a6d3859c2e8bca37ec05e206e633094e"
+    },
+    {
+      "avatar": "villager",
+      "key": "scene.start.prologue.villager.t3",
+      "receipt": "scene.start.prologue.villager.t3.json",
+      "rev": 2,
+      "text_sha256": "a93c682d1643f20e80ba9ad2dc1db36c8940cf2c9b9fa9fd4fecce884e220487",
+      "voice": "Achird",
+      "wav": "scene.start.prologue.villager.t3.wav",
+      "wav_sha256": "43355e75026f79d1d9deeb54a51a72301342514be125c7a0ce3d9a660d808522"
+    },
+    {
+      "avatar": "villager",
+      "key": "scene.start.prologue.villager.t4",
+      "receipt": "scene.start.prologue.villager.t4.json",
+      "rev": 2,
+      "text_sha256": "a41639b3e5c191b47c92d40b3c813d7373c22ffb7f861e3bca3fc2f57bf88a2a",
+      "voice": "Achird",
+      "wav": "scene.start.prologue.villager.t4.wav",
+      "wav_sha256": "76fe16c342396f0fc57eb3f43f9824dc97136cf319901e521c480bb9348cce22"
+    },
+    {
+      "avatar": "villager",
+      "key": "scene.start.prologue.villager.t5",
+      "receipt": "scene.start.prologue.villager.t5.json",
+      "rev": 2,
+      "text_sha256": "0e485b7fdc2094d5fccde94a4ab720e67c7c0515bdbfba8eab47854902e8ad6a",
+      "voice": "Achird",
+      "wav": "scene.start.prologue.villager.t5.wav",
+      "wav_sha256": "201c9cb31b02a761c7a1ba51a86a791506380514ea8af169196844bac3be75e9"
+    },
+    {
+      "avatar": "villager",
+      "key": "scene.start.prologue.villager.t6",
+      "receipt": "scene.start.prologue.villager.t6.json",
+      "rev": 2,
+      "text_sha256": "ba801a29404bca269f7e17362e5a42e024a74e8ec162bd92be0a7b9137b94168",
+      "voice": "Achird",
+      "wav": "scene.start.prologue.villager.t6.wav",
+      "wav_sha256": "d9e528a4f89f1e8fd6775a1f0cee195c1173d449659d1024d240fef7ed4e17c8"
+    },
+    {
+      "avatar": "villager",
+      "key": "scene.start.prologue.villager.t7",
+      "receipt": "scene.start.prologue.villager.t7.json",
+      "rev": 2,
+      "text_sha256": "4d6dc88d58948d7fcdee4b7dd3a9977bf5ebe04cb9bb5c65efbf0cbbeec27c73",
+      "voice": "Achird",
+      "wav": "scene.start.prologue.villager.t7.wav",
+      "wav_sha256": "a5c6875c073eb640f0486d9af43ec9da8824b6953001ad7d1f5a3b207256cf96"
+    },
+    {
+      "avatar": "villager",
+      "key": "scene.start.prologue.villager.t8",
+      "receipt": "scene.start.prologue.villager.t8.json",
+      "rev": 2,
+      "text_sha256": "9546714a15c6750bca4c9d846edf973174e06c5a9ebc53a2f9adc3b2538029cb",
+      "voice": "Achird",
+      "wav": "scene.start.prologue.villager.t8.wav",
+      "wav_sha256": "7415f6ecc0c1583008e027977537a225f91b92cce0d8b511f27556081a2a0d9c"
+    },
+    {
+      "avatar": "worker",
+      "key": "scene.start.prologue.worker.t1",
+      "receipt": "scene.start.prologue.worker.t1.json",
+      "rev": 2,
+      "text_sha256": "a8e34387deb45ab455a6cf0880d877ba818d73bd91fee24b78c8990050c576b0",
+      "voice": "Iapetus",
+      "wav": "scene.start.prologue.worker.t1.wav",
+      "wav_sha256": "82777c110517a05c8a837e038517bc8a5ab87c5cbc295cdf5594b1e3594790b0"
+    },
+    {
+      "avatar": "worker",
+      "key": "scene.start.prologue.worker.t2",
+      "receipt": "scene.start.prologue.worker.t2.json",
+      "rev": 2,
+      "text_sha256": "35fe501b5d4d0b53cfd354d5d8ab39f8408acf417851530eb77483a27e40f927",
+      "voice": "Iapetus",
+      "wav": "scene.start.prologue.worker.t2.wav",
+      "wav_sha256": "209691b5c1fb05985ec9c945094edc39fd0439524f06169d32a88b89d11f2fcc"
+    },
+    {
+      "avatar": "worker",
+      "key": "scene.start.prologue.worker.t3",
+      "receipt": "scene.start.prologue.worker.t3.json",
+      "rev": 2,
+      "text_sha256": "344df808d72c0ef5f26dc7ac4edd6aedc27711b3ec4d6c2907039dc00e63f72a",
+      "voice": "Iapetus",
+      "wav": "scene.start.prologue.worker.t3.wav",
+      "wav_sha256": "baae2e2a2049e83f2220a31ec775cebbab6e8aaa5fda0c0c751cf7bfc135056c"
+    },
+    {
+      "avatar": "worker",
+      "key": "scene.start.prologue.worker.t4",
+      "receipt": "scene.start.prologue.worker.t4.json",
+      "rev": 2,
+      "text_sha256": "6c3fe8b8ec94c984cbc3a0a0be17646ad1a573cfe0e4c812ad70c119af0a52fa",
+      "voice": "Iapetus",
+      "wav": "scene.start.prologue.worker.t4.wav",
+      "wav_sha256": "c159eb829819149eee0a828c0a47b49371e0274b3dd2002d8c6479b17a726bcc"
+    },
+    {
+      "avatar": "worker",
+      "key": "scene.start.prologue.worker.t5",
+      "receipt": "scene.start.prologue.worker.t5.json",
+      "rev": 2,
+      "text_sha256": "14cd85c1dc3cc90ba6b59becc66280d4f5c7a073edbafb270ed2e9b9e73643c1",
+      "voice": "Iapetus",
+      "wav": "scene.start.prologue.worker.t5.wav",
+      "wav_sha256": "3b01cfe3aedba425a4e45ec6fa22963b3ea5bf601daa376717dc2f8bf2acbae7"
+    },
+    {
+      "avatar": "worker",
+      "key": "scene.start.prologue.worker.t6",
+      "receipt": "scene.start.prologue.worker.t6.json",
+      "rev": 2,
+      "text_sha256": "38c831ad05b159e34ca9cae42af7d50efa396ad4372f6689a7b1184dd84d9494",
+      "voice": "Iapetus",
+      "wav": "scene.start.prologue.worker.t6.wav",
+      "wav_sha256": "4026ea3c97dff6240d99e08356415ad00148ab2bcc61d0bd4e65b95a9dd6e8d4"
+    },
+    {
+      "avatar": "worker",
+      "key": "scene.start.prologue.worker.t7",
+      "receipt": "scene.start.prologue.worker.t7.json",
+      "rev": 2,
+      "text_sha256": "19292b82b34de8b742504add62c757a49864d2005842a128090f8024c1e1dcc2",
+      "voice": "Iapetus",
+      "wav": "scene.start.prologue.worker.t7.wav",
+      "wav_sha256": "4391d8c29fdeebe736115753cdfcf21ecf3af9cc4e1906b373c2906348a9e325"
+    },
+    {
+      "avatar": "worker",
+      "key": "scene.start.prologue.worker.t8",
+      "receipt": "scene.start.prologue.worker.t8.json",
+      "rev": 2,
+      "text_sha256": "541c94a97d81fa5fff05b717edaa0c803cdb8709bd92eb1b16d352c523f86521",
+      "voice": "Iapetus",
+      "wav": "scene.start.prologue.worker.t8.wav",
+      "wav_sha256": "bcf3e25efc7e53dead4e7588756be94f2b4e3772f3fd22d1fd7a0cbb93a27ab0"
+    }
+  ],
+  "mastering_owner": "sound",
+  "mastering_status": "pending",
+  "scene": "scene.start.prologue",
+  "scope": "demo_prologue",
+  "source": "/data/kolkhoz/voice/prologue/lines",
+  "status": "accepted_by_human_pending_sound_mastering",
+  "subtitle_authority": "db/story.db, approved_rev=2",
+  "totals": {
+    "duration_seconds": 381.56,
+    "estimated_usd_from_usage": 0.11092350000000001,
+    "input_tokens": 1545,
+    "output_audio_tokens": 12239,
+    "requests": 64
+  }
+}
