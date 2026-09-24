@@ -18,6 +18,10 @@ writable_roots = [
     "/home/alex/kolkhoz/rpg/.git",
     "/home/alex/kolkhoz/claude/mailbox",
     "/data/tmp",
+    # Озвучка (слово человека 24 сентября 2026: «озвучку будет делать агент rpg»): показ дублей человеку —
+    # /data/kolkhoz/voice, то же место в конвейере, что /data/kolkhoz/sound у звука. Бекапа у /data нет:
+    # ПРИНЯТЫЙ дубль живёт в дереве rpg (git), здесь — только прослушивание.
+    "/data/kolkhoz/voice",
     "/home/alex/claudetmp",
 ]
 
