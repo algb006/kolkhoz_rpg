@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "2a083e5a2a9f0054663073a86aa62fbf11ce34e9c7653e58f42e9497130345fb",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "villager",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 7.0,
+  "estimated_usd_from_usage": 0.0020315,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_ChdHU0sxYXBhVkRKRGNnOFVQd2FlVHVROBIXR1NLMWFwYVZESkRjZzhVUHdhZVR1UTg",
+  "key": "scene.start.prologue.villager.t2",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Снега зимой почти не было — потому и дорога держит. В обычную весну сюда из района так легко не доедешь.",
+  "text_sha256": "a8c9df4464431c4fa7f8f98bef65a6ac2e70f3f40700e279178579b900e62aab",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 31
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 177
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 90
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 177
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 90
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 224
+      }
+    ],
+    "raw_prompt_token": 400,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 31,
+    "total_output_tokens": 224,
+    "total_thought_tokens": 0,
+    "total_tokens": 255,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Achird",
+  "voice_passport": {
+    "avatar": "villager",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Achird"
+  },
+  "wav_sha256": "73d6fd035485626e0a55e2123d83d9d9a6d3859c2e8bca37ec05e206e633094e"
+}

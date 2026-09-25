@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "143ec080484048c8a2a84c53a895a329d7b52d1b72ceac83d0c87da95b57f5dc",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "worker",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 4.2,
+  "estimated_usd_from_usage": 0.0012245,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_ChdjeUsxYXA3QUJldUhqdU1Qdm83YzBRRRIXY3lLMWFwN0FCZXVIanVNUHZvN2MwUUU",
+  "key": "scene.start.prologue.worker.t7",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Сначала корм для скота. Потом разберусь, где работа встала.",
+  "text_sha256": "19292b82b34de8b742504add62c757a49864d2005842a128090f8024c1e1dcc2",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 19
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 107
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 78
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 107
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 78
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 135
+      }
+    ],
+    "raw_prompt_token": 376,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 19,
+    "total_output_tokens": 135,
+    "total_thought_tokens": 0,
+    "total_tokens": 154,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Iapetus",
+  "voice_passport": {
+    "avatar": "worker",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Iapetus"
+  },
+  "wav_sha256": "4391d8c29fdeebe736115753cdfcf21ecf3af9cc4e1906b373c2906348a9e325"
+}

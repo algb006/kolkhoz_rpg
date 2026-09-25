@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "0b61111108b885b0d460cb2f1566282655854526cc7c2f72bda8f166ef0c6808",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "dealer",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 5.52,
+  "estimated_usd_from_usage": 0.0016035,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_ChdIQ0cxYXRMekFwdmc0LUVQNThUbW1BVRIXSENHMWF0THpBcHZnNC1FUDU4VG1tQVU",
+  "key": "scene.start.prologue.dealer.t7",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Скот надо кормить, людям — показать результат. Тогда и договариваться будет легче.",
+  "text_sha256": "45d11b045136f714889e8eea5540b732e7c03a3ea74ac9fc45f524ceda539ef0",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 21
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 140
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 80
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 140
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 80
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 177
+      }
+    ],
+    "raw_prompt_token": 380,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 21,
+    "total_output_tokens": 177,
+    "total_thought_tokens": 0,
+    "total_tokens": 198,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Algieba",
+  "voice_passport": {
+    "avatar": "dealer",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Algieba"
+  },
+  "wav_sha256": "4f4a869a9f5a7f9bfd0b055cbc67b50a9c0fe2c0cd74fd840c0877d9a675707d"
+}

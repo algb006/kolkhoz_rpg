@@ -1,27 +1,27 @@
 {
   "acceptance": {
     "by": "human_project_owner",
-    "date": "2026-09-24",
-    "original_receipt_sha256": "0968b32b76915d56b4d6225fc4379d95c70b19368f8c6f9b202ae2987011a25d",
+    "date": "2026-09-26",
+    "original_receipt_sha256": "b812a2c782ae8f743348ea7b42cc41e703fa87af3e983cf204d1058cbcd11e3b",
     "scope": "demo_prologue",
-    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+    "statement": "Эта озвучка лучше, включай в проект"
   },
   "approved_rev": 2,
   "avatar": "ex_chairman",
   "bits_per_sample": 16,
   "channels": 1,
-  "duration_seconds": 4.8,
-  "estimated_usd_from_usage": 0.0013965000000000002,
+  "duration_seconds": 6.64,
+  "estimated_usd_from_usage": 0.0019275000000000002,
   "gender": "male",
-  "generation_date_utc_from_source_mtime": "2026-09-24",
   "inline_tags": [],
-  "interaction_id": "v1_ChdEQ2ExYXUtM0VMaXFnOFVQNXQzZnVBOBIXRENhMWF1LTNFTGlxZzhVUDV0M2Z1QTg",
+  "interaction_id": "v1_ChdpZUMyYW9uZUd1RzZnOFVQcV9md3FROBIXaWVDMmFvbmVHdUc2ZzhVUHFfZndxUTg",
   "key": "scene.start.prologue.ex_chairman.t1",
   "model": "gemini-3.8-flash-tts",
   "rev": 2,
   "sample_rate": 24000,
+  "source_generation_time_utc": "2026-09-25T20:58:52.959153+00:00",
   "status": "accepted_for_demo_prologue_pending_sound_mastering",
-  "style": null,
+  "style": "Сухо и осторожно, будто проверяет вывод про себя; сдержанная концовка.",
   "text": "Чертовщина какая-то. Поворота не было, а берёза та же.",
   "text_sha256": "f53bc42b651a36a58da280d3f93367278ab4d07932bf3175cffeb8be4357120b",
   "usage": {
@@ -36,13 +36,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 122
+            "tokens": 168
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 80
+            "tokens": 104
           },
           {
             "modality": "audio",
@@ -56,13 +56,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 122
+            "tokens": 168
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 80
+            "tokens": 104
           },
           {
             "modality": "audio",
@@ -74,15 +74,15 @@
     "output_tokens_by_modality": [
       {
         "modality": "audio",
-        "tokens": 154
+        "tokens": 213
       }
     ],
-    "raw_prompt_token": 380,
+    "raw_prompt_token": 404,
     "total_cached_tokens": 0,
     "total_input_tokens": 21,
-    "total_output_tokens": 154,
+    "total_output_tokens": 213,
     "total_thought_tokens": 0,
-    "total_tokens": 175,
+    "total_tokens": 234,
     "total_tool_use_tokens": 0
   },
   "voice": "Schedar",
@@ -92,5 +92,5 @@
     "gender": "male",
     "voice_id": "Schedar"
   },
-  "wav_sha256": "def0cc65eab50a07d397fdbd5ef1c8d2b9dc65d8b3150d37ac1b7f05bcd6776c"
+  "wav_sha256": "81ae91e4d5a6755f4e355ce49a75d305361f090c3b1d36fb1478e0acfe2b2b15"
 }

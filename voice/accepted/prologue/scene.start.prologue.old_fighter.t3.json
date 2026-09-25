@@ -1,26 +1,27 @@
 {
   "acceptance": {
     "by": "human_project_owner",
-    "date": "2026-09-24",
-    "original_receipt_sha256": "44384dc9fc172f4eb27304af10d8d9017c12697f635af590326d78b18da108a2",
+    "date": "2026-09-26",
+    "original_receipt_sha256": "55b5468ff4635bd545bddad969e6566a0ad6ed192cb8437f234ada538b186634",
     "scope": "demo_prologue",
-    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+    "statement": "Эта озвучка лучше, включай в проект"
   },
   "approved_rev": 2,
   "avatar": "old_fighter",
   "bits_per_sample": 16,
   "channels": 1,
-  "duration_seconds": 3.76,
-  "estimated_usd_from_usage": 0.0010979999999999998,
-  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "duration_seconds": 5.32,
+  "estimated_usd_from_usage": 0.001548,
+  "gender": "male",
   "inline_tags": [],
-  "interaction_id": "v1_ChdjeUcxYXRqRERLMnlnOFVQcGMzY3dROBIXY3lHMWF0akRESzJ5ZzhVUHBjM2N3UTg",
+  "interaction_id": "v1_ChdfLUMyYXRiZUEtejFnOFVQNHEtR3NBOBIXXy1DMmF0YmVBLXoxZzhVUDRxLUdzQTg",
   "key": "scene.start.prologue.old_fighter.t3",
   "model": "gemini-3.8-flash-tts",
   "rev": 2,
   "sample_rate": 24000,
+  "source_generation_time_utc": "2026-09-25T21:00:49.867399+00:00",
   "status": "accepted_for_demo_prologue_pending_sound_mastering",
-  "style": null,
+  "style": "Жёсткая мысль про себя, короткими тактами и паузами как точки; без крика.",
   "text": "Кладбище близко. Значит, и село уже за рощей.",
   "text_sha256": "b330d74354f0423d74ae8a52ec59b9652d6265042060a8d9b2621fcb5a5332ad",
   "usage": {
@@ -35,13 +36,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 96
+            "tokens": 135
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 77
+            "tokens": 105
           },
           {
             "modality": "audio",
@@ -55,13 +56,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 96
+            "tokens": 135
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 77
+            "tokens": 105
           },
           {
             "modality": "audio",
@@ -73,15 +74,15 @@
     "output_tokens_by_modality": [
       {
         "modality": "audio",
-        "tokens": 121
+        "tokens": 171
       }
     ],
-    "raw_prompt_token": 374,
+    "raw_prompt_token": 402,
     "total_cached_tokens": 0,
     "total_input_tokens": 18,
-    "total_output_tokens": 121,
+    "total_output_tokens": 171,
     "total_thought_tokens": 0,
-    "total_tokens": 139,
+    "total_tokens": 189,
     "total_tool_use_tokens": 0
   },
   "voice": "Algenib",
@@ -91,5 +92,5 @@
     "gender": "male",
     "voice_id": "Algenib"
   },
-  "wav_sha256": "5a53a55ae844a4401e58df499538af6622c4d7d278e01c220420a021bb123b59"
+  "wav_sha256": "4145967fa60f702cbcd8c2e7750eefdf2bb1991372b6c579fd8f16be91b9b886"
 }

@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "44384dc9fc172f4eb27304af10d8d9017c12697f635af590326d78b18da108a2",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "old_fighter",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 3.76,
+  "estimated_usd_from_usage": 0.0010979999999999998,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_ChdjeUcxYXRqRERLMnlnOFVQcGMzY3dROBIXY3lHMWF0akRESzJ5ZzhVUHBjM2N3UTg",
+  "key": "scene.start.prologue.old_fighter.t3",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Кладбище близко. Значит, и село уже за рощей.",
+  "text_sha256": "b330d74354f0423d74ae8a52ec59b9652d6265042060a8d9b2621fcb5a5332ad",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 18
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 96
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 77
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 96
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 77
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 121
+      }
+    ],
+    "raw_prompt_token": 374,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 18,
+    "total_output_tokens": 121,
+    "total_thought_tokens": 0,
+    "total_tokens": 139,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Algenib",
+  "voice_passport": {
+    "avatar": "old_fighter",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Algenib"
+  },
+  "wav_sha256": "5a53a55ae844a4401e58df499538af6622c4d7d278e01c220420a021bb123b59"
+}

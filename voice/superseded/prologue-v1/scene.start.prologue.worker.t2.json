@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "5a4880eb8a64745c432d0e6ecdc33890853115e9d8c9a15cf7e6a5a8d1d5a86a",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "worker",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 6.76,
+  "estimated_usd_from_usage": 0.001968,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_ChdUeUsxYXZEWkdjUC00LUVQN0wtT2tBSRIXVHlLMWF2RFpHY1AtNC1FUDdMLU9rQUk",
+  "key": "scene.start.prologue.worker.t2",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Снега было мало, вода быстро ушла — поэтому дорога держит. В обычную весну здесь вязли бы по ось.",
+  "text_sha256": "35fe501b5d4d0b53cfd354d5d8ab39f8408acf417851530eb77483a27e40f927",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 30
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 171
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 89
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 171
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 89
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 217
+      }
+    ],
+    "raw_prompt_token": 398,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 30,
+    "total_output_tokens": 217,
+    "total_thought_tokens": 0,
+    "total_tokens": 247,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Iapetus",
+  "voice_passport": {
+    "avatar": "worker",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Iapetus"
+  },
+  "wav_sha256": "209691b5c1fb05985ec9c945094edc39fd0439524f06169d32a88b89d11f2fcc"
+}

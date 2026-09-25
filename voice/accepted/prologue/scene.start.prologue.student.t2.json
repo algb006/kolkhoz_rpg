@@ -1,26 +1,27 @@
 {
   "acceptance": {
     "by": "human_project_owner",
-    "date": "2026-09-24",
-    "original_receipt_sha256": "0915539803a14c776369e818a12afae1ac8030bc65d27eb8e6dbe82e1de5e26d",
+    "date": "2026-09-26",
+    "original_receipt_sha256": "ad6f815a9e1bae37cb0d3539734fb1a7ab7bfda79c422e0feec7e9b85a4c1bd3",
     "scope": "demo_prologue",
-    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+    "statement": "Эта озвучка лучше, включай в проект"
   },
   "approved_rev": 2,
   "avatar": "student",
   "bits_per_sample": 16,
   "channels": 1,
-  "duration_seconds": 7.2,
-  "estimated_usd_from_usage": 0.002095,
-  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "duration_seconds": 7.08,
+  "estimated_usd_from_usage": 0.002059,
+  "gender": "male",
   "inline_tags": [],
-  "interaction_id": "v1_ChczaUcxYXQ3Y0djaWlxZmtQMnJiRmlROBIXM2lHMWF0N2NHY2lpcWZrUDJyYkZpUTg",
+  "interaction_id": "v1_ChZYdUMyYXZIbURibWpxZmtQclp5VVlBEhZYdUMyYXZIbURibWpxZmtQclp5VVlB",
   "key": "scene.start.prologue.student.t2",
   "model": "gemini-3.8-flash-tts",
   "rev": 2,
   "sample_rate": 24000,
+  "source_generation_time_utc": "2026-09-25T20:58:08.937899+00:00",
   "status": "accepted_for_demo_prologue_pending_sound_mastering",
-  "style": null,
+  "style": "Книжно и увлечённо; молодая ясная дикция, короткая заминка перед выводом.",
   "text": "Зима малоснежная, талой воды мало — вот грунт и держит. В обычный год мы бы так легко не доехали.",
   "text_sha256": "ff791b4b7ebba6d05a7e01e17b68b42dd2bff3bd586d88d1d07772168211cac6",
   "usage": {
@@ -35,13 +36,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 182
+            "tokens": 179
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 91
+            "tokens": 120
           },
           {
             "modality": "audio",
@@ -55,13 +56,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 182
+            "tokens": 179
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 91
+            "tokens": 120
           },
           {
             "modality": "audio",
@@ -73,15 +74,15 @@
     "output_tokens_by_modality": [
       {
         "modality": "audio",
-        "tokens": 231
+        "tokens": 227
       }
     ],
-    "raw_prompt_token": 402,
+    "raw_prompt_token": 431,
     "total_cached_tokens": 0,
     "total_input_tokens": 32,
-    "total_output_tokens": 231,
+    "total_output_tokens": 227,
     "total_thought_tokens": 0,
-    "total_tokens": 263,
+    "total_tokens": 259,
     "total_tool_use_tokens": 0
   },
   "voice": "Puck",
@@ -91,5 +92,5 @@
     "gender": "male",
     "voice_id": "Puck"
   },
-  "wav_sha256": "25495cee0be919e8f364d3c89d9014be6854589b3670991766d7d33e960d9336"
+  "wav_sha256": "dd4b88809e12bdc173f9764be0bf3b8748259d0961bd08e1c3ba93751e1539fd"
 }

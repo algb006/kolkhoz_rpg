@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "0915539803a14c776369e818a12afae1ac8030bc65d27eb8e6dbe82e1de5e26d",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "student",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 7.2,
+  "estimated_usd_from_usage": 0.002095,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_ChczaUcxYXQ3Y0djaWlxZmtQMnJiRmlROBIXM2lHMWF0N2NHY2lpcWZrUDJyYkZpUTg",
+  "key": "scene.start.prologue.student.t2",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Зима малоснежная, талой воды мало — вот грунт и держит. В обычный год мы бы так легко не доехали.",
+  "text_sha256": "ff791b4b7ebba6d05a7e01e17b68b42dd2bff3bd586d88d1d07772168211cac6",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 32
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 182
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 91
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 182
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 91
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 231
+      }
+    ],
+    "raw_prompt_token": 402,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 32,
+    "total_output_tokens": 231,
+    "total_thought_tokens": 0,
+    "total_tokens": 263,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Puck",
+  "voice_passport": {
+    "avatar": "student",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Puck"
+  },
+  "wav_sha256": "25495cee0be919e8f364d3c89d9014be6854589b3670991766d7d33e960d9336"
+}

@@ -1,26 +1,27 @@
 {
   "acceptance": {
     "by": "human_project_owner",
-    "date": "2026-09-24",
-    "original_receipt_sha256": "95e996fdaf51ac8b7ae5f2609ee652d507fef2a329c3b527033d863545441a0c",
+    "date": "2026-09-26",
+    "original_receipt_sha256": "b2f57a4d78dda6c56f5cf6e59a5659857c67ec93670862ab98acdd87c4b3b023",
     "scope": "demo_prologue",
-    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+    "statement": "Эта озвучка лучше, включай в проект"
   },
   "approved_rev": 2,
   "avatar": "student",
   "bits_per_sample": 16,
   "channels": 1,
-  "duration_seconds": 3.56,
-  "estimated_usd_from_usage": 0.001035,
-  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "duration_seconds": 3.92,
+  "estimated_usd_from_usage": 0.001143,
+  "gender": "male",
   "inline_tags": [],
-  "interaction_id": "v1_ChcxeUcxYXJ6ZEM4Zjk0LUVQajVMeW1ROBIXMXlHMWFyemRDOGY5NC1FUGo1THltUTg",
+  "interaction_id": "v1_ChdWdUMyYXN6VEhZLWlxZmtQa0pycS1BdxIXVnVDMmFzelRIWS1pcWZrUGtKcnEtQXc",
   "key": "scene.start.prologue.student.t1",
   "model": "gemini-3.8-flash-tts",
   "rev": 2,
   "sample_rate": 24000,
+  "source_generation_time_utc": "2026-09-25T20:58:01.271867+00:00",
   "status": "accepted_for_demo_prologue_pending_sound_mastering",
-  "style": null,
+  "style": "Книжно и увлечённо; молодая ясная дикция, короткая заминка перед выводом.",
   "text": "Какая-то чертовщина... Мы же никуда не сворачивали.",
   "text_sha256": "6c097fd341baf23697fee3173ef6ceccc01dcdf616b268407504c8d232682f43",
   "usage": {
@@ -35,13 +36,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 91
+            "tokens": 100
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 77
+            "tokens": 106
           },
           {
             "modality": "audio",
@@ -55,13 +56,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 91
+            "tokens": 100
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 77
+            "tokens": 106
           },
           {
             "modality": "audio",
@@ -73,15 +74,15 @@
     "output_tokens_by_modality": [
       {
         "modality": "audio",
-        "tokens": 114
+        "tokens": 126
       }
     ],
-    "raw_prompt_token": 374,
+    "raw_prompt_token": 403,
     "total_cached_tokens": 0,
     "total_input_tokens": 18,
-    "total_output_tokens": 114,
+    "total_output_tokens": 126,
     "total_thought_tokens": 0,
-    "total_tokens": 132,
+    "total_tokens": 144,
     "total_tool_use_tokens": 0
   },
   "voice": "Puck",
@@ -91,5 +92,5 @@
     "gender": "male",
     "voice_id": "Puck"
   },
-  "wav_sha256": "177b603ea0a59a9d3c790b508b33d3574f30e1e229b88fb2e3b7d6f30f8214ff"
+  "wav_sha256": "e74ebb1c464d9b6d01a92d016796deb99caf045fdce69f42e1d7880cbd040f99"
 }

@@ -1,0 +1,96 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "9a1aaa9cf33922e16d53ab54582ac69a68142a29edabd1e9378508c3b135226f",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "ex_chairman",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 8.68,
+  "estimated_usd_from_usage": 0.0025199999999999997,
+  "gender": "male",
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_ChdFeWExYXI3aUlZNnRnOFVQcWZ2eXdRSRIXRXlhMWFyN2lJWTZ0ZzhVUHFmdnl3UUk",
+  "key": "scene.start.prologue.ex_chairman.t2",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Малоснежная зима спасла дорогу. В обычную весну отсюда до района не пробиться — и на быструю помощь рассчитывать нечего.",
+  "text_sha256": "b731a7789013924e2a70d2169318a6dba091c45dd09719de79a9997fef447da1",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 36
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 219
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 95
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 219
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 95
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 278
+      }
+    ],
+    "raw_prompt_token": 410,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 36,
+    "total_output_tokens": 278,
+    "total_thought_tokens": 0,
+    "total_tokens": 314,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Schedar",
+  "voice_passport": {
+    "avatar": "ex_chairman",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Schedar"
+  },
+  "wav_sha256": "08a88d92effa3cf566452e1e51d45ba4b9e48a8ad26634eb732ed481f6b0a23b"
+}

@@ -1,26 +1,27 @@
 {
   "acceptance": {
     "by": "human_project_owner",
-    "date": "2026-09-24",
-    "original_receipt_sha256": "3ebd7a4ba1a4a06702e314e4ed6a487bb63fa3ceca9f8a04a44ef2635e5fe5b5",
+    "date": "2026-09-26",
+    "original_receipt_sha256": "069319cf7c0774dc31812f88f2dffc40629350bcd4a080ea4cc1eea6af4e1d9d",
     "scope": "demo_prologue",
-    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+    "statement": "Эта озвучка лучше, включай в проект"
   },
   "approved_rev": 2,
   "avatar": "acting",
   "bits_per_sample": 16,
   "channels": 1,
-  "duration_seconds": 5.24,
-  "estimated_usd_from_usage": 0.001523,
-  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "duration_seconds": 4.28,
+  "estimated_usd_from_usage": 0.0012439999999999999,
+  "gender": "female",
   "inline_tags": [],
-  "interaction_id": "v1_Chd2eUMxYXU3bkNPbXBnOFVQN19TTXNBOBIXdnlDMWF1N25DT21wZzhVUDdfU01zQTg",
+  "interaction_id": "v1_ChdadUcyYXREVkg1M1JnOFVQb2V5WHlRdxIXWnVHMmF0RFZINTNSZzhVUG9leVh5UXc",
   "key": "scene.start.prologue.acting.t4",
   "model": "gemini-3.8-flash-tts",
   "rev": 2,
   "sample_rate": 24000,
+  "source_generation_time_utc": "2026-09-25T21:02:33.236638+00:00",
   "status": "accepted_for_demo_prologue_pending_sound_mastering",
-  "style": null,
+  "style": "Собранно и практично, экономно; мягче только при мысли о людях.",
   "text": "Дворы разбросаны. До дальних домов не всякая подвода доберётся.",
   "text_sha256": "d5b3e78fe184dedcfd4a3a225efc4d5ede08ef540a9c671c43b36c781affec21",
   "usage": {
@@ -35,13 +36,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 133
+            "tokens": 109
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 81
+            "tokens": 106
           },
           {
             "modality": "audio",
@@ -55,13 +56,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 133
+            "tokens": 109
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 81
+            "tokens": 106
           },
           {
             "modality": "audio",
@@ -73,15 +74,15 @@
     "output_tokens_by_modality": [
       {
         "modality": "audio",
-        "tokens": 168
+        "tokens": 137
       }
     ],
-    "raw_prompt_token": 324,
+    "raw_prompt_token": 349,
     "total_cached_tokens": 0,
     "total_input_tokens": 22,
-    "total_output_tokens": 168,
+    "total_output_tokens": 137,
     "total_thought_tokens": 0,
-    "total_tokens": 190,
+    "total_tokens": 159,
     "total_tool_use_tokens": 0
   },
   "voice": "Kore",
@@ -91,5 +92,5 @@
     "gender": "female",
     "voice_id": "Kore"
   },
-  "wav_sha256": "8f3f798fca67ec414e42a52bba88ac2a348f1f0b565c5bd0ace380929739bf08"
+  "wav_sha256": "ce113cfc39ecc96c8965041ac48b1a94dd65093963482629f406e1459884e61c"
 }

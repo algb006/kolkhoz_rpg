@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "7e0a37460813009d1a4c11c58f7bcf40553f6015ad83a973b878f3a3f9805175",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "acting",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 5.68,
+  "estimated_usd_from_usage": 0.001651,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_Chd0aUMxYXNDMU1fQzdnOFVQdEppMHVROBIXdGlDMWFzQzFNX0M3ZzhVUHRKaTB1UTg",
+  "key": "scene.start.prologue.acting.t3",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Кладбище рядом с дорогой. Надо будет узнать, кто следит за отворотком и оградой.",
+  "text_sha256": "61c6bae5f4ff0eb8a59277929f30e21df25fb10476eb992512119c644ca9183a",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 26
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 144
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 85
+          },
+          {
+            "modality": "audio",
+            "tokens": 201
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 144
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 85
+          },
+          {
+            "modality": "audio",
+            "tokens": 201
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 182
+      }
+    ],
+    "raw_prompt_token": 332,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 26,
+    "total_output_tokens": 182,
+    "total_thought_tokens": 0,
+    "total_tokens": 208,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Kore",
+  "voice_passport": {
+    "avatar": "acting",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "female",
+    "voice_id": "Kore"
+  },
+  "wav_sha256": "2db29cabd3d40352d8a8b79c882bd4f11b2dd4811c387d535d5d8594b2d0e4ce"
+}

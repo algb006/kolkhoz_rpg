@@ -1,26 +1,27 @@
 {
   "acceptance": {
     "by": "human_project_owner",
-    "date": "2026-09-24",
-    "original_receipt_sha256": "143ec080484048c8a2a84c53a895a329d7b52d1b72ceac83d0c87da95b57f5dc",
+    "date": "2026-09-26",
+    "original_receipt_sha256": "14a599e007cab252af2e4166377bba9786e79ab2b986ae24bdd52e0eaa20c2d2",
     "scope": "demo_prologue",
-    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+    "statement": "Эта озвучка лучше, включай в проект"
   },
   "approved_rev": 2,
   "avatar": "worker",
   "bits_per_sample": 16,
   "channels": 1,
-  "duration_seconds": 4.2,
-  "estimated_usd_from_usage": 0.0012245,
-  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "duration_seconds": 4.36,
+  "estimated_usd_from_usage": 0.0012695,
+  "gender": "male",
   "inline_tags": [],
-  "interaction_id": "v1_ChdjeUsxYXA3QUJldUhqdU1Qdm83YzBRRRIXY3lLMWFwN0FCZXVIanVNUHZvN2MwUUU",
+  "interaction_id": "v1_ChdVT0MyYW9uS0tjWEw0LUVQbWV2UHNRMBIXVU9DMmFvbktLY1hMNC1FUG1ldlBzUTA",
   "key": "scene.start.prologue.worker.t7",
   "model": "gemini-3.8-flash-tts",
   "rev": 2,
   "sample_rate": 24000,
+  "source_generation_time_utc": "2026-09-25T20:57:55.365413+00:00",
   "status": "accepted_for_demo_prologue_pending_sound_mastering",
-  "style": null,
+  "style": "По-заводскому напористо и просто, с живым слободским ритмом; ударение на действии, без лозунга.",
   "text": "Сначала корм для скота. Потом разберусь, где работа встала.",
   "text_sha256": "19292b82b34de8b742504add62c757a49864d2005842a128090f8024c1e1dcc2",
   "usage": {
@@ -35,13 +36,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 107
+            "tokens": 111
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 78
+            "tokens": 113
           },
           {
             "modality": "audio",
@@ -55,13 +56,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 107
+            "tokens": 111
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 78
+            "tokens": 113
           },
           {
             "modality": "audio",
@@ -73,15 +74,15 @@
     "output_tokens_by_modality": [
       {
         "modality": "audio",
-        "tokens": 135
+        "tokens": 140
       }
     ],
-    "raw_prompt_token": 376,
+    "raw_prompt_token": 411,
     "total_cached_tokens": 0,
     "total_input_tokens": 19,
-    "total_output_tokens": 135,
+    "total_output_tokens": 140,
     "total_thought_tokens": 0,
-    "total_tokens": 154,
+    "total_tokens": 159,
     "total_tool_use_tokens": 0
   },
   "voice": "Iapetus",
@@ -91,5 +92,5 @@
     "gender": "male",
     "voice_id": "Iapetus"
   },
-  "wav_sha256": "4391d8c29fdeebe736115753cdfcf21ecf3af9cc4e1906b373c2906348a9e325"
+  "wav_sha256": "05407e5fa8833f4a4f9bfb1827017c7394736e8cefbf6f32180515210ea87f7b"
 }

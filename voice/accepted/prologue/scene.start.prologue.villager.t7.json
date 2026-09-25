@@ -1,26 +1,27 @@
 {
   "acceptance": {
     "by": "human_project_owner",
-    "date": "2026-09-24",
-    "original_receipt_sha256": "73b8c470d362b57786d45b7d0e85a7711fb262b130cf045ad71113902fc4130e",
+    "date": "2026-09-26",
+    "original_receipt_sha256": "3f320e69d24f6b9d09486bf6fc73c2cc3ba01e2e4abccebe9282789ea0f52a77",
     "scope": "demo_prologue",
-    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+    "statement": "Эта озвучка лучше, включай в проект"
   },
   "approved_rev": 2,
   "avatar": "villager",
   "bits_per_sample": 16,
   "channels": 1,
-  "duration_seconds": 4.0,
-  "estimated_usd_from_usage": 0.001162,
-  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "duration_seconds": 6.24,
+  "estimated_usd_from_usage": 0.00181,
+  "gender": "male",
   "inline_tags": [],
-  "interaction_id": "v1_ChdPaUsxYXB6VE1PbmNnOFVQbHJEdXlRMBIXT2lLMWFwelRNT25jZzhVUGxyRHV5UTA",
+  "interaction_id": "v1_ChdJZUMyYXY3RklPTy1nOFVQMDVydTJBNBIXSWVDMmF2N0ZJT08tZzhVUDA1cnUyQTQ",
   "key": "scene.start.prologue.villager.t7",
   "model": "gemini-3.8-flash-tts",
   "rev": 2,
   "sample_rate": 24000,
+  "source_generation_time_utc": "2026-09-25T20:57:09.161808+00:00",
   "status": "accepted_for_demo_prologue_pending_sound_mastering",
-  "style": null,
+  "style": "Неторопливая, основательная мысль про себя; спокойная сельская мелодика без комического говора.",
   "text": "Коровы ревут — корма им не хватает. Вот с этого и начнём.",
   "text_sha256": "4d6dc88d58948d7fcdee4b7dd3a9977bf5ebe04cb9bb5c65efbf0cbbeec27c73",
   "usage": {
@@ -35,13 +36,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 102
+            "tokens": 158
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 79
+            "tokens": 109
           },
           {
             "modality": "audio",
@@ -55,13 +56,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 102
+            "tokens": 158
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 79
+            "tokens": 109
           },
           {
             "modality": "audio",
@@ -73,15 +74,15 @@
     "output_tokens_by_modality": [
       {
         "modality": "audio",
-        "tokens": 128
+        "tokens": 200
       }
     ],
-    "raw_prompt_token": 377,
+    "raw_prompt_token": 407,
     "total_cached_tokens": 0,
     "total_input_tokens": 20,
-    "total_output_tokens": 128,
+    "total_output_tokens": 200,
     "total_thought_tokens": 0,
-    "total_tokens": 148,
+    "total_tokens": 220,
     "total_tool_use_tokens": 0
   },
   "voice": "Achird",
@@ -91,5 +92,5 @@
     "gender": "male",
     "voice_id": "Achird"
   },
-  "wav_sha256": "a5c6875c073eb640f0486d9af43ec9da8824b6953001ad7d1f5a3b207256cf96"
+  "wav_sha256": "9608dd77a4ab326a20e33ddc6f72f86cf202b2a76d95032dffa8a033bdda1184"
 }

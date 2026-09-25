@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "7655afe9a92b5145c285b55e545eb44317964b3a1af49deceaa1572826697966",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "promoted",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 5.28,
+  "estimated_usd_from_usage": 0.0015295,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_ChZ0Q0cxYXNmcUp1bWlxZmtQczlIQUlREhZ0Q0cxYXNmcUp1bWlxZmtQczlIQUlR",
+  "key": "scene.start.prologue.promoted.t4",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Ресурсы на месте. При поддержке области здесь можно быстро показать результат.",
+  "text_sha256": "4f720c0bde8ddc265bb10fc8fbedb8150001a74edb35225138cf1b536cb32c62",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 17
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 134
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 76
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 134
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 76
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 169
+      }
+    ],
+    "raw_prompt_token": 372,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 17,
+    "total_output_tokens": 169,
+    "total_thought_tokens": 0,
+    "total_tokens": 186,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Charon",
+  "voice_passport": {
+    "avatar": "promoted",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Charon"
+  },
+  "wav_sha256": "dda9b04566eb55597513cb3a7d5b1bd50e13bf23ee6c557b85c7ad709d8dca37"
+}

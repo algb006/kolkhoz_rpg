@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "420e6e4cadd44fe71363f239fdd1bc83329bdadfa46cf5d7beded31435e61dca",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "student",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 5.8,
+  "estimated_usd_from_usage": 0.0016855,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_Chc5Q0cxYXZxOEdhN180LUVQMU82UTRBNBIXOUNHMWF2cThHYTdfNC1FUDFPNlE0QTQ",
+  "key": "scene.start.prologue.student.t5",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Вся связь с районом идёт через один мост. Надёжность всей дороги зависит от него.",
+  "text_sha256": "83ff588fc8e00994debdeb7fccd4be2c4524fc085b7045d07ef09027ec221724",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 23
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 147
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 82
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 147
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 82
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 186
+      }
+    ],
+    "raw_prompt_token": 384,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 23,
+    "total_output_tokens": 186,
+    "total_thought_tokens": 0,
+    "total_tokens": 209,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Puck",
+  "voice_passport": {
+    "avatar": "student",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Puck"
+  },
+  "wav_sha256": "c50a1ae08992ff07849a451e97ceda9fb1fe3091a541f4f16962081584e3e1cf"
+}

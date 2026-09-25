@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "6f749960a42d80e02cec29a48b65826d3dba92a7efe4476c84699975e6afbe78",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "dealer",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 7.36,
+  "estimated_usd_from_usage": 0.0021395,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_ChdJeUcxYW8tZ0pPbmNnOFVQMDVYVjJRNBIXSXlHMWFvLWdKT25jZzhVUDA1WFYyUTQ",
+  "key": "scene.start.prologue.dealer.t8",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Вместо обещанного крепкого хозяйства — полуразвалившаяся церковь. Теперь ясно, почему меня торопили с назначением.",
+  "text_sha256": "997033151a89e02d4766e5ea08936382d46aa2515a2b129c27f227fa4dc3e8be",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 31
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 186
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 90
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 186
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 90
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 236
+      }
+    ],
+    "raw_prompt_token": 399,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 31,
+    "total_output_tokens": 236,
+    "total_thought_tokens": 0,
+    "total_tokens": 267,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Algieba",
+  "voice_passport": {
+    "avatar": "dealer",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Algieba"
+  },
+  "wav_sha256": "64cfa302a517b5186d988de4b97407a2b671f624a813ba5b51d7158c164c3480"
+}

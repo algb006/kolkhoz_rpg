@@ -1,0 +1,95 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "7674ff4cc86739705b21857112d064fa8b419cbc3532ac074c035c3075da33aa",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "old_fighter",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 4.48,
+  "estimated_usd_from_usage": 0.0013025,
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_ChdnU0cxYXBtSE8tVzdnOFVQd3I2RG9BOBIXZ1NHMWFwbUhPLVc3ZzhVUHdyNkRvQTg",
+  "key": "scene.start.prologue.old_fighter.t5",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Мост — единственный проход. Держать исправным.",
+  "text_sha256": "3c44f3171a4a487fe2cf1680abdafada7be0b0c7af7cca891e84dcb400511fae",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 13
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 114
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 72
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 114
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 72
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 144
+      }
+    ],
+    "raw_prompt_token": 364,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 13,
+    "total_output_tokens": 144,
+    "total_thought_tokens": 0,
+    "total_tokens": 157,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Algenib",
+  "voice_passport": {
+    "avatar": "old_fighter",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Algenib"
+  },
+  "wav_sha256": "799d70aeaf2de06a5ca59f3e02b12be6b2c1a0c87e75974540bae5fc1bae7f64"
+}

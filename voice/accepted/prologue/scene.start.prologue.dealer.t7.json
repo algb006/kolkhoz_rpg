@@ -1,26 +1,27 @@
 {
   "acceptance": {
     "by": "human_project_owner",
-    "date": "2026-09-24",
-    "original_receipt_sha256": "0b61111108b885b0d460cb2f1566282655854526cc7c2f72bda8f166ef0c6808",
+    "date": "2026-09-26",
+    "original_receipt_sha256": "248b37785d34733993213b83081b6c6f2171de534c65b63e058923ee8396f0f5",
     "scope": "demo_prologue",
-    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+    "statement": "Эта озвучка лучше, включай в проект"
   },
   "approved_rev": 2,
   "avatar": "dealer",
   "bits_per_sample": 16,
   "channels": 1,
-  "duration_seconds": 5.52,
-  "estimated_usd_from_usage": 0.0016035,
-  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "duration_seconds": 6.56,
+  "estimated_usd_from_usage": 0.0019005,
+  "gender": "male",
   "inline_tags": [],
-  "interaction_id": "v1_ChdIQ0cxYXRMekFwdmc0LUVQNThUbW1BVRIXSENHMWF0THpBcHZnNC1FUDU4VG1tQVU",
+  "interaction_id": "v1_ChdUZUcyYXRYVEo2RGY0LUVQdF82bWlBOBIXVGVHMmF0WFRKNkRmNC1FUHRfNm1pQTg",
   "key": "scene.start.prologue.dealer.t7",
   "model": "gemini-3.8-flash-tts",
   "rev": 2,
   "sample_rate": 24000,
+  "source_generation_time_utc": "2026-09-25T21:02:08.320494+00:00",
   "status": "accepted_for_demo_prologue_pending_sound_mastering",
-  "style": null,
+  "style": "Учтиво и иронично; лёгкая одесская вопросительная мелодика в утверждении, без пародии.",
   "text": "Скот надо кормить, людям — показать результат. Тогда и договариваться будет легче.",
   "text_sha256": "45d11b045136f714889e8eea5540b732e7c03a3ea74ac9fc45f524ceda539ef0",
   "usage": {
@@ -35,13 +36,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 140
+            "tokens": 166
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 80
+            "tokens": 111
           },
           {
             "modality": "audio",
@@ -55,13 +56,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 140
+            "tokens": 166
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 80
+            "tokens": 111
           },
           {
             "modality": "audio",
@@ -73,15 +74,15 @@
     "output_tokens_by_modality": [
       {
         "modality": "audio",
-        "tokens": 177
+        "tokens": 210
       }
     ],
-    "raw_prompt_token": 380,
+    "raw_prompt_token": 411,
     "total_cached_tokens": 0,
     "total_input_tokens": 21,
-    "total_output_tokens": 177,
+    "total_output_tokens": 210,
     "total_thought_tokens": 0,
-    "total_tokens": 198,
+    "total_tokens": 231,
     "total_tool_use_tokens": 0
   },
   "voice": "Algieba",
@@ -91,5 +92,5 @@
     "gender": "male",
     "voice_id": "Algieba"
   },
-  "wav_sha256": "4f4a869a9f5a7f9bfd0b055cbc67b50a9c0fe2c0cd74fd840c0877d9a675707d"
+  "wav_sha256": "d9951cd969de1812617fcb9dfd2f6e9a07f8fe456490d64e84b7638fb49ae9a9"
 }

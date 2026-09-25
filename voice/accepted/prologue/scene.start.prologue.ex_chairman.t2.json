@@ -1,27 +1,27 @@
 {
   "acceptance": {
     "by": "human_project_owner",
-    "date": "2026-09-24",
-    "original_receipt_sha256": "9a1aaa9cf33922e16d53ab54582ac69a68142a29edabd1e9378508c3b135226f",
+    "date": "2026-09-26",
+    "original_receipt_sha256": "0c430406a79cfa5ae4ddb188f45cc7dcc67f8091fac4fff92176d0f95d359ac3",
     "scope": "demo_prologue",
-    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+    "statement": "Эта озвучка лучше, включай в проект"
   },
   "approved_rev": 2,
   "avatar": "ex_chairman",
   "bits_per_sample": 16,
   "channels": 1,
-  "duration_seconds": 8.68,
-  "estimated_usd_from_usage": 0.0025199999999999997,
+  "duration_seconds": 13.84,
+  "estimated_usd_from_usage": 0.004005,
   "gender": "male",
-  "generation_date_utc_from_source_mtime": "2026-09-24",
   "inline_tags": [],
-  "interaction_id": "v1_ChdFeWExYXI3aUlZNnRnOFVQcWZ2eXdRSRIXRXlhMWFyN2lJWTZ0ZzhVUHFmdnl3UUk",
+  "interaction_id": "v1_ChdrdUMyYXQ3NU04WEw0LUVQbWV2UHNRMBIXa3VDMmF0NzVNOFhMNC1FUG1ldlBzUTA",
   "key": "scene.start.prologue.ex_chairman.t2",
   "model": "gemini-3.8-flash-tts",
   "rev": 2,
   "sample_rate": 24000,
+  "source_generation_time_utc": "2026-09-25T20:59:01.373551+00:00",
   "status": "accepted_for_demo_prologue_pending_sound_mastering",
-  "style": null,
+  "style": "Сухо и осторожно, будто проверяет вывод про себя; сдержанная концовка.",
   "text": "Малоснежная зима спасла дорогу. В обычную весну отсюда до района не пробиться — и на быструю помощь рассчитывать нечего.",
   "text_sha256": "b731a7789013924e2a70d2169318a6dba091c45dd09719de79a9997fef447da1",
   "usage": {
@@ -36,13 +36,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 219
+            "tokens": 348
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 95
+            "tokens": 119
           },
           {
             "modality": "audio",
@@ -56,13 +56,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 219
+            "tokens": 348
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 95
+            "tokens": 119
           },
           {
             "modality": "audio",
@@ -74,15 +74,15 @@
     "output_tokens_by_modality": [
       {
         "modality": "audio",
-        "tokens": 278
+        "tokens": 443
       }
     ],
-    "raw_prompt_token": 410,
+    "raw_prompt_token": 434,
     "total_cached_tokens": 0,
     "total_input_tokens": 36,
-    "total_output_tokens": 278,
+    "total_output_tokens": 443,
     "total_thought_tokens": 0,
-    "total_tokens": 314,
+    "total_tokens": 479,
     "total_tool_use_tokens": 0
   },
   "voice": "Schedar",
@@ -92,5 +92,5 @@
     "gender": "male",
     "voice_id": "Schedar"
   },
-  "wav_sha256": "08a88d92effa3cf566452e1e51d45ba4b9e48a8ad26634eb732ed481f6b0a23b"
+  "wav_sha256": "c736da92789c2c36b4a2b1cf294619ad9859144eb5605ef3d86f2a03e2c96421"
 }

@@ -1,0 +1,96 @@
+{
+  "acceptance": {
+    "by": "human_project_owner",
+    "date": "2026-09-24",
+    "original_receipt_sha256": "7ef9684afc281cff65da06a1974c608bfb90ac5389f147778bfdc3c7d2897b6a",
+    "scope": "demo_prologue",
+    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+  },
+  "approved_rev": 2,
+  "avatar": "ex_chairman",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 4.68,
+  "estimated_usd_from_usage": 0.0013595,
+  "gender": "male",
+  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "inline_tags": [],
+  "interaction_id": "v1_ChdJU2ExYXU3YURzWGRnOFVQbHRTYzZRSRIXSVNhMWF1N2FEc1hkZzhVUGx0U2M2UUk",
+  "key": "scene.start.prologue.ex_chairman.t4",
+  "model": "gemini-3.8-flash-tts",
+  "rev": 2,
+  "sample_rate": 24000,
+  "status": "accepted_for_demo_prologue_pending_sound_mastering",
+  "style": null,
+  "text": "Условия хорошие. Значит, разруху одной землёй не объяснишь.",
+  "text_sha256": "d79ec0b1812e6138c1dd060092b7e0480c1a055f7fb1b8d5c2e34eacf97eb3a6",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 19
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 119
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 78
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 119
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 78
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 150
+      }
+    ],
+    "raw_prompt_token": 376,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 19,
+    "total_output_tokens": 150,
+    "total_thought_tokens": 0,
+    "total_tokens": 169,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Schedar",
+  "voice_passport": {
+    "avatar": "ex_chairman",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Schedar"
+  },
+  "wav_sha256": "070cb02141e6d1f6f67760408f63e481f8632a79d45d15827b923e5751dd275a"
+}

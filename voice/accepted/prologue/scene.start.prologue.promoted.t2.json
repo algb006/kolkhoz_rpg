@@ -1,26 +1,27 @@
 {
   "acceptance": {
     "by": "human_project_owner",
-    "date": "2026-09-24",
-    "original_receipt_sha256": "1114151dab12082616a403f991a43e3541335969a809e891a7359f874aff52b7",
+    "date": "2026-09-26",
+    "original_receipt_sha256": "960718f4c225c4748c0a64849c501c96c6a0d1d85e3326ead2fe944bd2a9a504",
     "scope": "demo_prologue",
-    "statement": "Я прослушал. Принимаю работуЮ для демо пролога устроит."
+    "statement": "Эта озвучка лучше, включай в проект"
   },
   "approved_rev": 2,
   "avatar": "promoted",
   "bits_per_sample": 16,
   "channels": 1,
-  "duration_seconds": 7.68,
-  "estimated_usd_from_usage": 0.0022305,
-  "generation_date_utc_from_source_mtime": "2026-09-24",
+  "duration_seconds": 8.28,
+  "estimated_usd_from_usage": 0.0024015,
+  "gender": "male",
   "inline_tags": [],
-  "interaction_id": "v1_ChdwaUcxYXVMWURPRGVnOFVQdXNUSGdROBIXcGlHMWF1TFlET0RlZzhVUHVzVEhnUTg",
+  "interaction_id": "v1_Chd4dUMyYXB2RUQ3MjFqdU1QcTlQaGdBTRIXeHVDMmFwdkVENzIxanVNUHE5UGhnQU0",
   "key": "scene.start.prologue.promoted.t2",
   "model": "gemini-3.8-flash-tts",
   "rev": 2,
   "sample_rate": 24000,
+  "source_generation_time_utc": "2026-09-25T20:59:53.201315+00:00",
   "status": "accepted_for_demo_prologue_pending_sound_mastering",
-  "style": null,
+  "style": "Гладко и размеренно; уверенность в порядке, едва заметное снисхождение.",
   "text": "Доехали без задержки только из-за малоснежной зимы. В обычную весну связь с районом будет отдельным вопросом.",
   "text_sha256": "4ee9bb1c95e8ce69ab940874cf7a544d8b83ae96749ca2ccf0fdb94a1ce93ec4",
   "usage": {
@@ -35,13 +36,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 194
+            "tokens": 209
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 92
+            "tokens": 116
           },
           {
             "modality": "audio",
@@ -55,13 +56,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 194
+            "tokens": 209
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 92
+            "tokens": 116
           },
           {
             "modality": "audio",
@@ -73,15 +74,15 @@
     "output_tokens_by_modality": [
       {
         "modality": "audio",
-        "tokens": 246
+        "tokens": 265
       }
     ],
-    "raw_prompt_token": 404,
+    "raw_prompt_token": 428,
     "total_cached_tokens": 0,
     "total_input_tokens": 33,
-    "total_output_tokens": 246,
+    "total_output_tokens": 265,
     "total_thought_tokens": 0,
-    "total_tokens": 279,
+    "total_tokens": 298,
     "total_tool_use_tokens": 0
   },
   "voice": "Charon",
@@ -91,5 +92,5 @@
     "gender": "male",
     "voice_id": "Charon"
   },
-  "wav_sha256": "8e5a5bbe58e275c00f3c318648d7980ec5dbbb4704d0f2cf4c36572ae62dad48"
+  "wav_sha256": "31039035809333a6a777d00180558474e6a1b4d73e1c4ee06437b7a7b184c90f"
 }
