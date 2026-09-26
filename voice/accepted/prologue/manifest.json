@@ -653,7 +653,7 @@
   "status": "accepted_by_human_pending_sound_mastering",
   "subtitle_authority": "db/story.db, approved_rev=2",
   "supersedes": "voice/superseded/prologue-v1/manifest.json",
-  "timing_status": "pending_decision_for_dealer_ex_chairman_old_fighter_t8",
+  "timing_status": "human_approved_t8_overlap_with_theme_2026_09_26",
   "totals": {
     "duration_seconds": 451.3599999999999,
     "estimated_usd_from_usage": 0.1310475,
