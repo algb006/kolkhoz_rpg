@@ -132,7 +132,15 @@ CREATE TABLE line (
                             'quest', 'event', 'dialogue', 'scene')),
     kind                TEXT NOT NULL CHECK (kind IN (
                             'dialogue', 'choice', 'narration', 'document',
-                            'journal', 'caption', 'backdrop')),
+                            'journal', 'caption', 'backdrop', 'spoken_thought')),
+    thought_avatar      TEXT CHECK (thought_avatar IS NULL OR thought_avatar IN (
+                            'villager', 'worker', 'student', 'ex_chairman',
+                            'promoted', 'old_fighter', 'dealer', 'acting')),
+    thought_place       TEXT CHECK (thought_place IS NULL OR thought_place IN (
+                            'prologue', 'office', 'world')),
+    thought_trigger_kind TEXT CHECK (thought_trigger_kind IS NULL OR thought_trigger_kind IN (
+                            'scene', 'item', 'event', 'signal')),
+    thought_trigger_ref TEXT,
     speaker_slot        TEXT,
     addressee_slot      TEXT,
     relationship       TEXT,
@@ -165,12 +173,73 @@ CREATE TABLE line (
     CHECK (kind NOT IN ('dialogue', 'choice') OR speaker_slot IS NOT NULL),
     CHECK (speaker_slot IS NOT NULL OR addressee_slot IS NULL),
     CHECK (variant_key IS NULL OR length(trim(variant_key)) > 0),
+    CHECK ((kind = 'spoken_thought') = (thought_avatar IS NOT NULL)),
+    CHECK (kind <> 'spoken_thought' OR
+           (thought_place IS NOT NULL AND thought_trigger_kind IS NOT NULL AND thought_trigger_ref IS NOT NULL AND
+            length(trim(thought_trigger_ref)) > 0 AND speaker_slot IS NOT NULL)),
     CHECK (substr(key, 1, length(namespace) + 1) = namespace || '.')
 );
 
 CREATE INDEX line_scene_sort ON line (scene_key, sort, key);
 CREATE INDEX line_choice ON line (scene_key, choice_group_key, sort);
 CREATE INDEX line_variant ON line (scene_key, variant_key, grammatical_gender);
+
+-- Дубль TTS и его файловые представления не дублируют текст line.
+CREATE TABLE voice_take (
+    key TEXT PRIMARY KEY,
+    line_key TEXT NOT NULL REFERENCES line(key),
+    text_rev INTEGER NOT NULL CHECK (text_rev >= 1),
+    text_sha256 TEXT NOT NULL CHECK (length(text_sha256)=64),
+    avatar TEXT NOT NULL CHECK (avatar IN ('villager','worker','student','ex_chairman',
+                                         'promoted','old_fighter','dealer','acting')),
+    voice TEXT NOT NULL,
+    voice_passport_json TEXT NOT NULL CHECK (json_valid(voice_passport_json)),
+    tts_model TEXT NOT NULL,
+    settings_json TEXT NOT NULL CHECK (json_valid(settings_json)),
+    receipt_path TEXT NOT NULL,
+    generated_at_utc TEXT,
+    status TEXT NOT NULL CHECK (status IN ('draft','accepted','superseded'))
+);
+
+CREATE TABLE voice_file (
+    path TEXT PRIMARY KEY,
+    take_key TEXT NOT NULL REFERENCES voice_take(key),
+    file_role TEXT NOT NULL CHECK (file_role IN ('accepted_original','technical_master')),
+    sha256 TEXT NOT NULL CHECK (length(sha256)=64 AND sha256 NOT GLOB '*[^0-9a-f]*'),
+    source_path TEXT REFERENCES voice_file(path),
+    source_sha256 TEXT,
+    receipt_duration_seconds REAL CHECK (receipt_duration_seconds IS NULL OR receipt_duration_seconds>0),
+    CHECK ((file_role='technical_master') = (source_path IS NOT NULL)),
+    CHECK ((file_role='technical_master') = (source_sha256 IS NOT NULL)),
+    CHECK (source_path IS NULL OR source_path<>path)
+);
+
+CREATE TABLE voice_measurement (
+    key TEXT PRIMARY KEY,
+    file_path TEXT NOT NULL REFERENCES voice_file(path),
+    measured_sha256 TEXT NOT NULL,
+    measured_at_utc TEXT,
+    duration_seconds REAL CHECK (duration_seconds IS NULL OR duration_seconds>0),
+    lufs REAL,
+    peak_dbtp REAL,
+    measurement_status TEXT NOT NULL CHECK (measurement_status IN ('ok','unmeasurable','error')),
+    error TEXT,
+    instrument_json TEXT NOT NULL CHECK (json_valid(instrument_json)),
+    CHECK (measurement_status<>'ok' OR
+           (duration_seconds IS NOT NULL AND lufs IS NOT NULL AND peak_dbtp IS NOT NULL AND error IS NULL))
+);
+
+CREATE VIEW voice_take_state AS
+SELECT t.*, l.rev AS current_text_rev,
+       CASE WHEN t.text_rev=l.rev THEN 'current' ELSE 'stale' END AS text_state
+  FROM voice_take t JOIN line l ON l.key=t.line_key;
+
+CREATE VIEW spoken_thought_inventory AS
+SELECT key, scene_key, thought_avatar AS avatar, thought_place AS place,
+       thought_trigger_kind AS trigger_kind, thought_trigger_ref AS trigger_ref,
+       rev, approved_rev, text FROM line
+ WHERE kind='spoken_thought' AND deprecated=0
+ ORDER BY thought_place,thought_trigger_ref,thought_avatar;
 
 CREATE TABLE line_placeholder (
     line_key TEXT NOT NULL REFERENCES line(key) ON DELETE CASCADE,

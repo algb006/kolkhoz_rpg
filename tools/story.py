@@ -451,6 +451,14 @@ def cmd_check(argv: list[str]) -> int:
     ):
         warn(f"{row['scene_key']}: заведена без реплик")
 
+    print("Мысли вслух и озвучка:")
+    from voice_ledger import audit
+    voice_errors, voice_report = audit(con)
+    for message in voice_report:
+        print(f"  {message}")
+    for message in voice_errors:
+        bad(message)
+
     print()
     if hard:
         print(f"ОШИБОК: {hard}, вопросов к автору: {soft}")
