@@ -1,4 +1,4 @@
--- scene_script: 50 строк. Файл создаётся tools/story.py save —
+-- scene_script: 51 строк. Файл создаётся tools/story.py save —
 -- правится база, не этот дамп. Порядок строк детерминирован.
 DELETE FROM "scene_script";
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.development.empty_school', NULL, NULL, 'manual/texts/development-quests-era-i.md#пустая-школа', 'draft', 'Две фиксированные реплики открытия квеста о поиске учителя.', 200);
@@ -50,4 +50,5 @@ INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.school_fears.teacher_opening', NULL, NULL, 'manual/texts/school-fears-bird-scenes.md', 'review', 'Семь сцен одного квеста; условия и состав в авторском источнике.', 1590);
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.school_fears.witch_account', NULL, NULL, 'manual/texts/school-fears-bird-scenes.md', 'review', 'Семь сцен одного квеста; условия и состав в авторском источнике.', 1600);
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.school_fears.words_without_owner', NULL, NULL, 'manual/texts/school-fears-bird-scenes.md', 'review', 'Семь сцен одного квеста; условия и состав в авторском источнике.', 1640);
+INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.start.office', NULL, NULL, 'manual/texts/office-intro-full-corpus.md', 'draft', 'Рабочая версия: человек посмотрел, сначала показ в кабинете. Ход 22 от 27 сентября 2026 запрещает TTS, включая пробы.', 11);
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.start.prologue', NULL, NULL, 'ai/prologue-avatar-thoughts-draft.md', 'draft', '64 внутренние мысли: восемь абсолютных секунд, по варианту для каждого аватара. Живой прогон ещё не выполнен; approved_rev у строк остаётся NULL.', 10);
