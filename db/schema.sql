@@ -234,6 +234,13 @@ SELECT t.*, l.rev AS current_text_rev,
        CASE WHEN t.text_rev=l.rev THEN 'current' ELSE 'stale' END AS text_state
   FROM voice_take t JOIN line l ON l.key=t.line_key;
 
+-- Датированный свежий замер предпочтительнее исторического с неизвестной датой.
+CREATE VIEW latest_voice_measurement AS
+SELECT m.* FROM voice_measurement m
+ WHERE m.key=(SELECT n.key FROM voice_measurement n WHERE n.file_path=m.file_path
+              ORDER BY (n.measured_at_utc IS NOT NULL) DESC,
+                       julianday(n.measured_at_utc) DESC,n.key DESC LIMIT 1);
+
 CREATE VIEW spoken_thought_inventory AS
 SELECT key, scene_key, thought_avatar AS avatar, thought_place AS place,
        thought_trigger_kind AS trigger_kind, thought_trigger_ref AS trigger_ref,

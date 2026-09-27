@@ -193,8 +193,9 @@ def audit(con, root=ROOT, accepted=None):
         for m in con.execute('SELECT measured_sha256,measurement_status FROM voice_measurement WHERE file_path=?',(path,)):
             if m[0] != checksum:
                 errors.append(f'Замер другого файла: {path}')
-            elif m[1] == 'ok' and path in valid_files:
-                measured.add(path)
+        latest = con.execute('SELECT measured_sha256,measurement_status FROM latest_voice_measurement WHERE file_path=?',(path,)).fetchone()
+        if latest and tuple(latest) == (checksum,'ok') and path in valid_files:
+            measured.add(path)
     registered = {resolve(r[0],root).resolve() for r in files}
     accepted = Path(accepted) if accepted is not None else root/'voice/accepted'
     orphans = [p for p in accepted.rglob('*.wav') if p.resolve() not in registered]

@@ -80,6 +80,9 @@ class LedgerTests(unittest.TestCase):
         self.assertEqual(import_measurements(self.con,package),1)
         self.assertEqual(self.con.execute('SELECT count(*) FROM voice_take').fetchone()[0],64)
         self.assertEqual(self.con.execute('SELECT count(*) FROM voice_file').fetchone()[0],65)
+
+        latest = self.con.execute('SELECT measured_at_utc FROM latest_voice_measurement').fetchone()
+        self.assertEqual(latest[0],'2026-09-27T12:00:00Z')
         self.assertEqual(self.con.execute('SELECT count(*) FROM voice_measurement').fetchone()[0],1)
         duration = self.con.execute('SELECT duration_seconds FROM voice_measurement WHERE file_path=?',(record['path'],)).fetchone()[0]
         self.assertEqual(duration,1.25)
@@ -131,6 +134,17 @@ class LedgerTests(unittest.TestCase):
         row = self.con.execute('SELECT measured_at_utc,instrument_json FROM voice_measurement').fetchone()
         self.assertIsNone(row[0])
         self.assertEqual(json.loads(row[1])['loudness_provenance'],'preserved_mastering_report')
+
+    def test_fresh_measurement_keeps_history_without_new_take(self):
+        package,_ = self.fixture(measured_at_utc=None,loudness_provenance='preserved_mastering_report')
+        import_measurements(self.con,package)
+        package,_ = self.fixture()
+        import_measurements(self.con,package)
+        import_measurements(self.con,package)
+        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_measurement').fetchone()[0],2)
+        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_measurement WHERE measured_at_utc IS NULL').fetchone()[0],1)
+        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_take').fetchone()[0],64)
+        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_file').fetchone()[0],65)
 
     def test_schema_dump_roundtrip(self):
         rebuilt = sqlite3.connect(':memory:')
