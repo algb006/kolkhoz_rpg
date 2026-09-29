@@ -1,4 +1,4 @@
--- line_placeholder: 34 строк. Файл создаётся tools/story.py save —
+-- line_placeholder: 36 строк. Файл создаётся tools/story.py save —
 -- правится база, не этот дамп. Порядок строк детерминирован.
 DELETE FROM "line_placeholder";
 INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('dialogue.school_fears.teacher.accepted', 'addressee', 'name', 'Полное имя сохранённой носительницы роли колдуньи, именительный падеж.', 'Из school_fears.cast.witch_id. Не текущий собеседник и не координаты.');
@@ -14,6 +14,8 @@ INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") V
 INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.district.plan_warning_first.polushkina', 'failed_year', 'int', 'Календарный год сохранённого провала плана, не текущий год.', 'Берётся из повода сцены.');
 INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.district.plan_warning_first.stozharov', 'failed_year', 'int', 'Календарный год сохранённого провала плана, не текущий год.', 'Берётся из повода сцены.');
 INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.district.plan_warning_first.zhernova', 'failed_year', 'int', 'Календарный год сохранённого провала плана, не текущий год.', 'Берётся из повода сцены.');
+INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.elder.warnings.work_due', 'place_name', 'text', 'Место работы в именительном падеже: поле, луг, площадка.', NULL);
+INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.elder.warnings.work_due', 'work_name', 'text', 'Название работы или культуры в именительном падеже.', NULL);
 INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.ending.trial.herd_cause.karasev', 'heads', 'int', 'Число голов данного вида на начало проверяемого года.', 'Тот же вид и год, что у starved.');
 INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.ending.trial.herd_cause.karasev', 'kind', 'text', 'Вид колхозного скота в именительном падеже.', 'Самостоятельная подпись после тире.');
 INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.ending.trial.herd_cause.karasev', 'starved', 'int', 'Число павших от голода голов данного вида за проверяемый год.', 'Тот же вид и год, что у heads.');
