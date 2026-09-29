@@ -20,6 +20,20 @@ SCENES = (
     "scene.elder.restore_talk",
     "scene.elder.last_advice",
 )
+WARNING_FACTS = {
+    "sowing_window": "fact:elder_warn_sowing_window",
+    "next_seed": "fact:elder_warn_next_seed",
+    "late_harvest": "fact:elder_warn_late_harvest",
+    "hay_before_snow": "fact:elder_warn_hay_before_snow",
+    "zyab": "fact:elder_warn_zyab_started",
+}
+WARNING_MEANINGS = {
+    "fact:elder_warn_sowing_window": "Окно сева назначенной культуры близко к концу, а работу на поле ещё не начали; поздний сев снизит урожай.",
+    "fact:elder_warn_next_seed": "Разложены поля следующего года, но посевного запаса на эту раскладку не хватает; её ещё можно изменить.",
+    "fact:elder_warn_late_harvest": "Созревшая культура остаётся в поле перед концом уборки; люди и подводы ещё могут успеть.",
+    "fact:elder_warn_hay_before_snow": "На лугу осталась нескошенная трава за месяц до устойчивого снега; уже скошенные кучи сена остаются запасом.",
+    "fact:elder_warn_zyab_started": "Осенью после уборки свободные руки действительно пашут стерню под яровые будущего года; игрок не включает зябь кнопкой.",
+}
 
 
 def semantic_context(scene, kind, condition):
@@ -31,7 +45,9 @@ def semantic_context(scene, kind, condition):
         "scene.elder.restore_talk": "Председатель сам нашёл Рябинина на работе после испорченных отношений.",
         "scene.elder.last_advice": "В хозяйстве работают агроном, зоотехник и счетовод; роль старого советчика окончена.",
     }[scene]
-    if condition:
+    if scene == "scene.elder.warnings" and condition in WARNING_MEANINGS:
+        situation = WARNING_MEANINGS[condition]
+    elif condition:
         situation += f" Вариант допустим только при факте: {condition}"
     purpose = (
         "Дать игроку настоящую альтернативу без скрытого штрафа."
@@ -92,8 +108,8 @@ def setup(con):
             (scene, SOURCE, "review",
              "Авторские строки; регистрация и триггеры принадлежат design.db."
              if scene != "scene.elder.warnings" else
-             "Новые предупреждения ждут раздельных фактических поводов от boss/core;"
-             " общим флагом их не показывать.", 1200 + i),
+             "Пять отдельных фактов приняты boss 29 сентября 2026;"
+             " численные пороги и исполняемые сигналы — у core.", 1200 + i),
         )
         con.execute(
             "INSERT INTO cast_slot(scene_key,key,title,binding_kind,gender_binding,"
@@ -217,7 +233,7 @@ def warnings(con):
     con.execute("INSERT INTO line_placeholder(line_key,name,kind,meaning) VALUES(?,?,?,?)",
                 (f"{s}.work_due", "place_name", "text", "Место работы в именительном падеже: поле, луг, площадка."))
     a("hay_before_snow", "Трава на корню — не зимний запас. Скосите до снега: сено и в кучах сохранится.", 20,
-      condition="Нескошенная доля луга за месяц до первого устойчивого снега по климату; порог доли — STUB core.")
+      condition=WARNING_FACTS["hay_before_snow"])
     a("no_access", "Стены тут поместятся. Теперь покажите, откуда к ним придёт первая повозка.", 30,
       condition="Размеченная стройка без подъезда, исправление ещё не начато.")
     new_lines = (
@@ -228,7 +244,7 @@ def warnings(con):
     )
     for i, (key, text) in enumerate(new_lines):
         a(key, text, 40 + i, source=NEW,
-          condition=f"Только отдельный фактический повод warning.{key}; общий флаг недостаточен.")
+          condition=WARNING_FACTS[key])
 
 
 def resident_and_name(con):
@@ -255,7 +271,7 @@ def resident_and_name(con):
     s = "scene.elder.last_advice"
     add_line(con, s, "handoff", "elder",
              "Что знал — говорил. Теперь у вас есть кого спрашивать точнее. Значит, не зря расчерчивали.", 10,
-             condition="В хозяйстве одновременно работают агроном, зоотехник и счетовод.")
+             condition="fact:three_specialists_working")
 
 
 def main():
@@ -284,6 +300,31 @@ def main():
                 raise SystemExit("Предупреждение о севе отредактировано вручную; не перезаписываю")
             if current[0] == old:
                 con.execute("UPDATE line SET text=? WHERE key=?", (new, key))
+            old_conditions = {
+                "sowing_window": "Только отдельный фактический повод warning.sowing_window; общий флаг недостаточен.",
+                "next_seed": "Только отдельный фактический повод warning.next_seed; общий флаг недостаточен.",
+                "late_harvest": "Только отдельный фактический повод warning.late_harvest; общий флаг недостаточен.",
+                "hay_before_snow": "Нескошенная доля луга за месяц до первого устойчивого снега по климату; порог доли — STUB core.",
+                "zyab": "Только отдельный фактический повод warning.zyab; общий флаг недостаточен.",
+            }
+            for suffix, fact in WARNING_FACTS.items():
+                line_key = f"scene.elder.warnings.{suffix}"
+                row = con.execute("SELECT condition_ref FROM line WHERE key=?", (line_key,)).fetchone()
+                if row is None or row[0] not in (old_conditions[suffix], fact):
+                    raise SystemExit(f"Условие {line_key} отредактировано вручную; не перезаписываю")
+                if row[0] != fact:
+                    con.execute("UPDATE line SET condition_ref=? WHERE key=?", (fact, line_key))
+            last_key = "scene.elder.last_advice.handoff"
+            last_old = "В хозяйстве одновременно работают агроном, зоотехник и счетовод."
+            last_new = "fact:three_specialists_working"
+            last_row = con.execute("SELECT condition_ref FROM line WHERE key=?", (last_key,)).fetchone()
+            if last_row is None or last_row[0] not in (last_old, last_new):
+                raise SystemExit("Условие последнего совета отредактировано вручную; не перезаписываю")
+            if last_row[0] != last_new:
+                con.execute("UPDATE line SET condition_ref=? WHERE key=?", (last_new, last_key))
+            con.execute("UPDATE scene_script SET note=? WHERE scene_key='scene.elder.warnings'",
+                        ("Пять отдельных фактов приняты boss 29 сентября 2026;"
+                         " численные пороги и исполняемые сигналы — у core.",))
             for key, scene, kind, condition in con.execute(
                 "SELECT key,scene_key,kind,condition_ref FROM line"
                 " WHERE scene_key LIKE 'scene.elder.%' AND key NOT LIKE 'scene.elder.first_meeting.coat.%'"):
