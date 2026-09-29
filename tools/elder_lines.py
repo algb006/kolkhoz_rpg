@@ -140,6 +140,7 @@ def first_meeting(con):
     a("opening.elder", "elder", "Кузьмич — верно. Староста — уже нет. Вы по разметке пришли?", 20)
     a("field.chairman", "chairman", "Поле снято. Теперь надо решить, где что ставить.", 30)
     a("offer.elder", "elder", "Решить — вам. Я могу показать, где поставил бы сам, и почему. Не подойдёт место — передвиньте.", 40)
+    coat_branch(con)
     a("answer.see", "chairman", "Покажите весь порядок.", 50, kind="choice", group="answer")
     a("answer.own", "chairman", "Размечу по-своему.", 51, kind="choice", group="answer")
     a("reply.see", "elder", "Покажу по одному месту. Так видно, где мой совет кончается и ваше решение начинается.", 60, condition="Выбран ответ answer.see.")
@@ -163,6 +164,47 @@ def first_meeting(con):
     a("outcome.most", "elder", "Теперь это ваши колышки. Моими они были, пока лежали на схеме.", 200, condition="Принята большая часть предложенной разметки.")
     a("outcome.moved", "elder", "Так и надо. Совет, который нельзя подвинуть, уже стал приказом.", 201, condition="Многое передвинуто.")
     a("outcome.rejected", "elder", "Своими колышками легче отвечать. Порядок вижу — мешать не стану.", 202, condition="Предложение целиком отвергнуто, собственная разметка завершена.")
+
+
+def coat_branch(con):
+    s = "scene.elder.first_meeting"
+    questions = (
+        ("villager", "Федот Кузьмич, я у церкви ваш сюртук приметил. Это тот самый, графский? С детства его не видел."),
+        ("worker", "На вас у церкви сюртук был — не рабочая вещь. Откуда он?"),
+        ("student", "Федот Кузьмич, можно спросить? Откуда у вас старинный сюртук, в котором вы меня встретили?"),
+        ("ex_chairman", "У церкви я приметил ваш сюртук. Как он к вам попал?"),
+        ("promoted", "О сюртуке, в котором вы встречали меня у церкви: откуда эта вещь?"),
+        ("old_fighter", "У церкви вы при параде стояли. Откуда сюртук?"),
+        ("dealer", "Ваш сюртук у церкви — вещь примечательная. Как он вам достался, позвольте узнать?"),
+        ("acting", "В день приезда вы были в сюртуке. Он у вас давно?"),
+    )
+    for avatar, text in questions:
+        add_line(con, s, f"coat.question.{avatar}", "chairman", text, 42,
+                 condition=f"Выбран avatar.key={avatar}; тема о сюртуке в первой встрече.",
+                 variant="coat_question_by_avatar",
+                 meaning="Председатель помнит Рябинина в графском сюртуке у церкви,"
+                         " но сейчас спрашивает о происхождении вещи, а не оценивает человека.",
+                 intent="Открыть короткую историю усадьбы голосом выбранного аватара.",
+                 keep="Вежливая дистанция и характер аватара; деревенский уже знает об усадьбе."
+                      " Не делать сюртук шуткой.")
+    add_line(con, s, "coat.reply.work_clothes", "elder",
+             "Тот, у церкви? В революцию усадьбу разбирали всем селом. Я вынес сюртук из пустого дома. У иных в селе и теперь графские вещи в сундуках лежат. К вашему приезду надел.",
+             43, condition="На Рябинине в этот момент рабочая одежда, сюртук не надет.",
+             variant="coat_reply_by_outfit",
+             meaning="Сюртук взят из опустевшей усадьбы четырнадцать лет назад,"
+                     " сохранён в сундуке и надет ради встречи нового председателя.",
+             intent="Без гордости и стыда сообщить факт села; связать пролог с одеждой в сундуках.",
+             keep="«Тот» относится к сюртуку в прологе. Не показывать грабёж и не придумывать"
+                  " судьбу графской семьи.")
+    add_line(con, s, "coat.reply.coat_worn", "elder",
+             "Этот? В революцию усадьбу разбирали всем селом. Я вынес сюртук из пустого дома. У иных в селе и теперь графские вещи в сундуках лежат.",
+             43, condition="На Рябинине в этот момент графский сюртук.",
+             variant="coat_reply_by_outfit",
+             meaning="Сюртук взят из опустевшей усадьбы четырнадцать лет назад;"
+                     " часть прежней одежды хранится у других семей.",
+             intent="Без гордости и стыда сообщить факт села, не насмехаясь над нарядом.",
+             keep="«Этот» относится к сюртуку, который сейчас на Рябинине."
+                  " Не показывать грабёж и не придумывать судьбу графской семьи.")
 
 
 def warnings(con):
@@ -222,8 +264,18 @@ def main():
         existing = con.execute("SELECT count(*) FROM scene_script WHERE scene_key LIKE 'scene.elder.%'").fetchone()[0]
         if existing:
             count = con.execute("SELECT count(*) FROM line WHERE scene_key LIKE 'scene.elder.%'").fetchone()[0]
-            if existing != len(SCENES) or count != 41:
+            if existing != len(SCENES) or count not in (41, 51):
                 raise SystemExit("Корпус Рябинина отличается: автоматическая перезапись запрещена")
+            if count == 41:
+                coat_branch(con)
+            coat_key = "scene.elder.first_meeting.coat.question.villager"
+            coat_old = "Федот Кузьмич, это ж графский сюртук был у вас у церкви? Я его с детства не видел."
+            coat_new = "Федот Кузьмич, я у церкви ваш сюртук приметил. Это тот самый, графский? С детства его не видел."
+            coat_current = con.execute("SELECT text FROM line WHERE key=?", (coat_key,)).fetchone()
+            if coat_current is None or coat_current[0] not in (coat_old, coat_new):
+                raise SystemExit("Вопрос деревенского о сюртуке отредактирован вручную; не перезаписываю")
+            if coat_current[0] == coat_old:
+                con.execute("UPDATE line SET text=? WHERE key=?", (coat_new, coat_key))
             key = "scene.elder.warnings.sowing_window"
             old = "Срок сева подходит, а на поле ещё не вышли. Проверьте наряд и семена, пока опоздание не обошлось урожаем."
             new = "Срок сева подходит, а поле пустое. Проверьте наряд и семена: поздний сев даст меньше урожая."
@@ -233,10 +285,11 @@ def main():
             if current[0] == old:
                 con.execute("UPDATE line SET text=? WHERE key=?", (new, key))
             for key, scene, kind, condition in con.execute(
-                "SELECT key,scene_key,kind,condition_ref FROM line WHERE scene_key LIKE 'scene.elder.%'"):
+                "SELECT key,scene_key,kind,condition_ref FROM line"
+                " WHERE scene_key LIKE 'scene.elder.%' AND key NOT LIKE 'scene.elder.first_meeting.coat.%'"):
                 meaning, intent = semantic_context(scene, kind, condition)
                 con.execute("UPDATE line SET meaning=?,intent=? WHERE key=?", (meaning, intent, key))
-            print("41 строка Рябинина на месте; обновлены только поля для переводчика")
+            print("51 строка Рябинина на месте; ветка сюртука и поля для переводчика обновлены")
             return
         setup(con)
         first_meeting(con)
