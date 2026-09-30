@@ -1,0 +1,1 @@
+{"kind":"historical_aggregate","model":"gemini-3.8-flash-tts","count":106,"expires_utc":"2026-10-01T12:50:00+00:00","note":"Office intro on 2026-09-30: 102 successful WAV receipts and 4 HTTP 429 attempts. Individual request times were not logged; last rejected probe began about 2026-09-30 19:49:33 +07. Conservative 24-hour hold ends after 2026-10-01 19:50 +07."}

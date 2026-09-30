@@ -12,7 +12,7 @@ import urllib.parse
 import urllib.request
 import wave
 
-from voice_rate_limit import wait_before_request
+from voice_rate_limit import request_slot
 
 
 API = "https://generativelanguage.googleapis.com/v1beta/interactions"
@@ -111,9 +111,9 @@ def main():
         method="POST",
     )
     try:
-        wait_before_request(MODEL)
-        with urllib.request.urlopen(request, timeout=120) as response:
-            data = json.load(response)
+        with request_slot(MODEL, basename):
+            with urllib.request.urlopen(request, timeout=120) as response:
+                data = json.load(response)
     except urllib.error.HTTPError as exc:
         raise SystemExit(f"API HTTP {exc.code}; response suppressed to protect credentials")
     audio = audio_from_response(data)

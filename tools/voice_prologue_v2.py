@@ -15,7 +15,7 @@ from voice_prologue_probe import (
     API, EXPECTED_GENDER, VOICES, api_key, audio_from_response,
     modality_tokens, verified_voice_gender,
 )
-from voice_rate_limit import wait_before_request
+from voice_rate_limit import request_slot
 
 
 MODEL = "gemini-3.8-flash-tts"
@@ -71,9 +71,9 @@ def request_line(key, words, rev, avatar):
         method="POST",
     )
     try:
-        wait_before_request(MODEL)
-        with urllib.request.urlopen(request, timeout=120) as response:
-            data = json.load(response)
+        with request_slot(MODEL, key):
+            with urllib.request.urlopen(request, timeout=120) as response:
+                data = json.load(response)
     except urllib.error.HTTPError as exc:
         raise RuntimeError(f"API HTTP {exc.code}; response suppressed") from None
     audio = audio_from_response(data)
