@@ -1,4 +1,4 @@
--- scene_script: 57 строк. Файл создаётся tools/story.py save —
+-- scene_script: 58 строк. Файл создаётся tools/story.py save —
 -- правится база, не этот дамп. Порядок строк детерминирован.
 DELETE FROM "scene_script";
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.development.empty_school', NULL, NULL, 'manual/texts/development-quests-era-i.md#пустая-школа', 'draft', 'Две фиксированные реплики открытия квеста о поиске учителя.', 200);
@@ -25,6 +25,7 @@ INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.district.plan_warning_last', NULL, NULL, 'manual/texts/epoch1-ending-lines.md', 'review', '51 ключевая строка и состав сцены импортированы; постановка — в черновике концов.', 1785);
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.elder.affected_resident_question', NULL, NULL, 'manual/characters/former-elder.md', 'review', 'Авторские строки; регистрация и триггеры принадлежат design.db.', 1202);
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.elder.first_meeting', NULL, NULL, 'manual/characters/former-elder.md', 'review', 'Авторские строки; регистрация и триггеры принадлежат design.db.', 1200);
+INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.elder.introduction', NULL, NULL, 'manual/texts/elder-introduction-quest.md', 'review', 'Первое короткое знакомство на фактической работе старосты; открыто quest_e1_33, независимо от поля.', 1195);
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.elder.last_advice', NULL, NULL, 'manual/characters/former-elder.md', 'review', 'Авторские строки; регистрация и триггеры принадлежат design.db.', 1205);
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.elder.own_name', NULL, NULL, 'manual/characters/former-elder.md', 'review', 'Авторские строки; регистрация и триггеры принадлежат design.db.', 1203);
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.elder.restore_talk', NULL, NULL, 'manual/characters/former-elder.md', 'review', 'Авторские строки; регистрация и триггеры принадлежат design.db.', 1204);

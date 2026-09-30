@@ -36,7 +36,7 @@ class LedgerTests(unittest.TestCase):
     def test_initial_coverage(self):
         errors, report = audit(self.con)
         self.assertEqual(errors,[])
-        self.assertIn('Мыслей всего: 216; озвучено по текущему тексту: 64; по старому: 0; ждут: 152',report)
+        self.assertIn('Мыслей всего: 224; озвучено по текущему тексту: 64; по старому: 0; ждут: 160',report)
         self.assertEqual(self.con.execute('SELECT count(*) FROM voice_take').fetchone()[0],64)
         self.assertEqual(self.con.execute('SELECT count(*) FROM voice_measurement').fetchone()[0],0)
 
@@ -153,7 +153,7 @@ class LedgerTests(unittest.TestCase):
         for path in sorted((ROOT/'db/data').glob('*.sql')):
             rebuilt.executescript(path.read_text())
         self.assertEqual(rebuilt.execute('PRAGMA foreign_key_check').fetchall(),[])
-        self.assertEqual(rebuilt.execute("SELECT count(*) FROM line WHERE kind='spoken_thought'").fetchone()[0],216)
+        self.assertEqual(rebuilt.execute("SELECT count(*) FROM line WHERE kind='spoken_thought'").fetchone()[0],224)
         self.assertEqual(rebuilt.execute('SELECT count(*) FROM voice_take').fetchone()[0],64)
         rebuilt.close()
 
