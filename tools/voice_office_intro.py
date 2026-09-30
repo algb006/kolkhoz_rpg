@@ -102,12 +102,13 @@ def verify_existing(row):
 
 
 def main():
-    if len(sys.argv) != 2 or sys.argv[1] not in ('dry-run', 'generate'):
-        raise SystemExit('usage: voice_office_intro.py <dry-run|generate>')
+    if len(sys.argv) != 2 or sys.argv[1] not in ('dry-run', 'probe', 'generate'):
+        raise SystemExit('usage: voice_office_intro.py <dry-run|probe|generate>')
+    mode = sys.argv[1]
     rows = source_rows()
     pending = pending_approvals(rows)
     print(f'office thoughts: {len(rows)}; awaiting approval: {len(pending)}')
-    if sys.argv[1] == 'dry-run':
+    if mode == 'dry-run':
         for key in pending[:8]:
             print(f'  draft: {key}')
         return
@@ -131,6 +132,8 @@ def main():
             file.write('\n')
         print(f"{key}: {receipt['duration_seconds']:.2f}s; "
               f"USD={receipt['estimated_usd_from_usage']:.6f}", flush=True)
+        if mode == 'probe':
+            break
 
 
 if __name__ == '__main__':
