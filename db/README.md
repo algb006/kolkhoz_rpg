@@ -140,7 +140,7 @@ python3 tools/test_voice_ledger.py
 | Сцена | Реплик | Черновиков | Утверждено |
 |---|---|---|---|
 | `scene.start.prologue` | 64 | 0 | 64 |
-| `scene.start.office` | 160 | 144 | 16 |
+| `scene.start.office` | 160 | 0 | 160 |
 | `scene.development.roof_over_head` | 2 | 2 | 0 |
 | `scene.development.own_office` | 2 | 2 | 0 |
 | `scene.development.juicy_feed` | 2 | 2 | 0 |
