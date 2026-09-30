@@ -197,6 +197,8 @@ python3 tools/test_voice_ledger.py
 | `scene.ending.village.liquidation` | 2 | 2 | 0 |
 | `scene.era.first_transition_offer` | 5 | 5 | 0 |
 | `scene.era.first_transition_refusal` | 5 | 5 | 0 |
+| `scene.count_lodge.offer` | 9 | 9 | 0 |
+| `scene.count_lodge.opening` | 3 | 3 | 0 |
 <!-- /story -->
 
 ## Персонажи
