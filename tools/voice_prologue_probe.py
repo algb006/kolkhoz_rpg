@@ -12,6 +12,8 @@ import urllib.parse
 import urllib.request
 import wave
 
+from voice_rate_limit import wait_before_request
+
 
 API = "https://generativelanguage.googleapis.com/v1beta/interactions"
 MODEL = "gemini-3.8-flash-lite-tts"
@@ -109,6 +111,7 @@ def main():
         method="POST",
     )
     try:
+        wait_before_request(MODEL)
         with urllib.request.urlopen(request, timeout=120) as response:
             data = json.load(response)
     except urllib.error.HTTPError as exc:

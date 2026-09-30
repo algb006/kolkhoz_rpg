@@ -14,6 +14,7 @@ import wave
 from voice_prologue_probe import (API, VOICES, EXPECTED_GENDER, api_key,
                                   audio_from_response, modality_tokens,
                                   verified_voice_gender)
+from voice_rate_limit import wait_before_request
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -62,6 +63,7 @@ def generate(key, text, rev, avatar, voice):
         method="POST",
     )
     try:
+        wait_before_request(MODEL)
         with urllib.request.urlopen(request, timeout=120) as response:
             data = json.load(response)
     except urllib.error.HTTPError as exc:

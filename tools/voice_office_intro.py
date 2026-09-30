@@ -78,7 +78,7 @@ def pending_approvals(rows):
 def spent():
     return sum(
         json.loads(path.read_text(encoding='utf-8'))['estimated_usd_from_usage']
-        for path in DEST.glob('*.json')
+        for path in DEST.glob('scene.office_intro.*.json')
     )
 
 
