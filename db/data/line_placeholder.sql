@@ -1,4 +1,4 @@
--- line_placeholder: 36 строк. Файл создаётся tools/story.py save —
+-- line_placeholder: 38 строк. Файл создаётся tools/story.py save —
 -- правится база, не этот дамп. Порядок строк детерминирован.
 DELETE FROM "line_placeholder";
 INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('dialogue.school_fears.teacher.accepted', 'addressee', 'name', 'Полное имя сохранённой носительницы роли колдуньи, именительный падеж.', 'Из school_fears.cast.witch_id. Не текущий собеседник и не координаты.');
@@ -37,3 +37,5 @@ INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") V
 INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.family.before_distribution.answer.premium', 'real_deed', 'text', 'Фактически совершённый семьёй поступок, за который положена ещё не выданная премия.', 'Подставлять словосочетание в форме после предлога «за»: например «помощь на уборке», а не голое название события.');
 INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.night_hunt.distiller_leak_return.opening.new_place', 'place', 'text', 'Человеческое описание нового места фактически наблюдавшейся передачи, с предлогом.', 'Не старый двор и не место из тайной роли. Сценарий ждёт известного свидетелю наблюдения.');
 INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.night_hunt.distiller_report.opening.meeting', 'place', 'text', 'Человеческое описание фактического места наблюдавшейся передачи у ворот, с предлогом.', 'Источник и проверка — ядро/хост. Не раскрывать имя нарушителя или ненаблюдавшийся новый двор.');
+INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.treasure_box.first_note.body', 'mill_name', 'name', 'Название старой мельницы в грамматической форме после предлога «у».', 'Из сохранённого варианта маршрута текущей карты; не выбирать заново при чтении.');
+INSERT INTO "line_placeholder" ("line_key", "name", "kind", "meaning", "note") VALUES ('scene.treasure_box.first_note.body', 'stone_description', 'text', 'Описание долговечного валуна у мелководного края затона.', 'Из того же сохранённого варианта; видимый камень совпадает с описанием, герб не выбирает ориентир.');

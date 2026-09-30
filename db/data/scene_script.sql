@@ -1,4 +1,4 @@
--- scene_script: 60 строк. Файл создаётся tools/story.py save —
+-- scene_script: 61 строк. Файл создаётся tools/story.py save —
 -- правится база, не этот дамп. Порядок строк детерминирован.
 DELETE FROM "scene_script";
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.count_lodge.offer', NULL, NULL, 'manual/texts/count-lodge-cellar-quest.md', 'review', 'Рябинин сообщает слух после знакомства; повтор после отказа, пока погреб запечатан. Без маркера.', 1933);
@@ -61,3 +61,4 @@ INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.school_fears.words_without_owner', NULL, NULL, 'manual/texts/school-fears-bird-scenes.md', 'review', 'Семь сцен одного квеста; условия и состав в авторском источнике.', 1640);
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.start.office', NULL, NULL, 'manual/texts/office-intro-full-corpus.md', 'draft', 'Рабочая версия: человек посмотрел, сначала показ в кабинете. Ход 22 от 27 сентября 2026 запрещает TTS, включая пробы.', 11);
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.start.prologue', NULL, NULL, 'ai/prologue-avatar-thoughts-draft.md', 'draft', '64 внутренние мысли: восемь абсолютных секунд, по варианту для каждого аватара. Живой прогон ещё не выполнен; approved_rev у строк остаётся NULL.', 10);
+INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.treasure_box.children_bring_casket', NULL, NULL, 'manual/texts/treasure-box-scenes.md#сцена-scenetreasure_boxchildren_bring_casket--ржавчина-тоже-не-наша', 'review', 'Редакция 01.10: сухой фонтан в старом парке; принятый герб Ладовских. Только первая сцена; шов Эпохи II по-прежнему отложен.', 1940);

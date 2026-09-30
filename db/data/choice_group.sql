@@ -1,4 +1,4 @@
--- choice_group: 11 строк. Файл создаётся tools/story.py save —
+-- choice_group: 12 строк. Файл создаётся tools/story.py save —
 -- правится база, не этот дамп. Порядок строк детерминирован.
 DELETE FROM "choice_group";
 INSERT INTO "choice_group" ("scene_key", "key", "title", "condition_ref", "note", "sort") VALUES ('scene.count_lodge.offer', 'decision', 'Что делать со слухом о погребе', NULL, 'Три ответа: уточнить, поехать или отложить. Уточнение возвращает к выбору.', 10);
@@ -12,3 +12,4 @@ INSERT INTO "choice_group" ("scene_key", "key", "title", "condition_ref", "note"
 INSERT INTO "choice_group" ("scene_key", "key", "title", "condition_ref", "note", "sort") VALUES ('scene.school_fears.source_answer', 'main', 'Решение председателя', NULL, 'Варианты и исходы описаны в авторском источнике.', 10);
 INSERT INTO "choice_group" ("scene_key", "key", "title", "condition_ref", "note", "sort") VALUES ('scene.school_fears.teacher_opening', 'main', 'Решение председателя', NULL, 'Варианты и исходы описаны в авторском источнике.', 10);
 INSERT INTO "choice_group" ("scene_key", "key", "title", "condition_ref", "note", "sort") VALUES ('scene.school_fears.witch_account', 'main', 'Решение председателя', NULL, 'Варианты и исходы описаны в авторском источнике.', 10);
+INSERT INTO "choice_group" ("scene_key", "key", "title", "condition_ref", "note", "sort") VALUES ('scene.treasure_box.children_bring_casket', 'answer', 'Пойти со школьниками или передать дело учителю', NULL, 'Два принятых авторских решения; нет таймера или скрытого наказания за отказ.', 70);

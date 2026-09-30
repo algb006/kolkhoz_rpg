@@ -199,6 +199,7 @@ python3 tools/test_voice_ledger.py
 | `scene.era.first_transition_refusal` | 5 | 5 | 0 |
 | `scene.count_lodge.offer` | 9 | 0 | 9 |
 | `scene.count_lodge.opening` | 3 | 0 | 3 |
+| `scene.treasure_box.children_bring_casket` | 10 | 10 | 0 |
 <!-- /story -->
 
 ## Персонажи
