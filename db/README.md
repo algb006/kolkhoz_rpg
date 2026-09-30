@@ -156,9 +156,9 @@ python3 tools/test_voice_ledger.py
 | `scene.night_hunt.distiller_report` | 6 | 6 | 0 |
 | `scene.night_hunt.distiller_leak_return` | 2 | 2 | 0 |
 | `scene.elder.introduction` | 6 | 0 | 6 |
-| `scene.elder.first_meeting` | 32 | 32 | 0 |
+| `scene.elder.first_meeting` | 32 | 28 | 4 |
 | `scene.elder.warnings` | 7 | 7 | 0 |
-| `scene.elder.affected_resident_question` | 4 | 4 | 0 |
+| `scene.elder.affected_resident_question` | 4 | 3 | 1 |
 | `scene.elder.own_name` | 3 | 3 | 0 |
 | `scene.elder.restore_talk` | 4 | 4 | 0 |
 | `scene.elder.last_advice` | 1 | 1 | 0 |
