@@ -36,8 +36,8 @@ class LedgerTests(unittest.TestCase):
     def test_initial_coverage(self):
         errors, report = audit(self.con)
         self.assertEqual(errors,[])
-        self.assertIn('Мыслей всего: 224; озвучено по текущему тексту: 64; по старому: 0; ждут: 160',report)
-        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_take').fetchone()[0],64)
+        self.assertIn('Мыслей всего: 224; озвучено по текущему тексту: 224; по старому: 0; ждут: 0',report)
+        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_take').fetchone()[0],224)
         self.assertEqual(self.con.execute('SELECT count(*) FROM voice_measurement').fetchone()[0],0)
 
     def test_edit_makes_take_stale_without_changing_take(self):
@@ -57,6 +57,14 @@ class LedgerTests(unittest.TestCase):
         key = 'scene.office_intro.enter.worker'
         self.con.execute('UPDATE line SET text=text || ? WHERE key=?',(' Проверка.',key))
         self.assertEqual(self.con.execute('SELECT rev FROM line WHERE key=?',(key,)).fetchone()[0],2)
+
+    def test_classification_preserves_authored_signals(self):
+        rows = self.con.execute('SELECT * FROM line ORDER BY key').fetchall()
+        mark_thoughts(self.con)
+        self.assertEqual(self.con.execute('SELECT * FROM line ORDER BY key').fetchall(), rows)
+        self.assertEqual(self.con.execute(
+            "SELECT count(*) FROM line WHERE key LIKE 'scene.office_intro.exit_choice.%' AND thought_trigger_kind='signal'"
+        ).fetchone()[0], 8)
 
     def fixture(self, **changes):
         key = 'scene.start.prologue.worker.t1'
@@ -78,8 +86,8 @@ class LedgerTests(unittest.TestCase):
         package,record = self.fixture()
         self.assertEqual(import_measurements(self.con,package),1)
         self.assertEqual(import_measurements(self.con,package),1)
-        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_take').fetchone()[0],64)
-        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_file').fetchone()[0],65)
+        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_take').fetchone()[0],224)
+        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_file').fetchone()[0],225)
 
         latest = self.con.execute('SELECT measured_at_utc FROM latest_voice_measurement').fetchone()
         self.assertEqual(latest[0],'2026-09-27T12:00:00Z')
@@ -102,13 +110,13 @@ class LedgerTests(unittest.TestCase):
         package,_ = self.fixture(lufs=float('nan'))
         with self.assertRaises(ValueError):
             import_measurements(self.con,package)
-        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_file').fetchone()[0],64)
+        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_file').fetchone()[0],224)
 
     def test_wrong_revision_rolls_back_master(self):
         package,_ = self.fixture(rev=1)
         with self.assertRaises(ValueError):
             import_measurements(self.con,package)
-        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_file').fetchone()[0],64)
+        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_file').fetchone()[0],224)
 
     def test_take_without_file_is_reported(self):
         self.con.execute("DELETE FROM voice_file WHERE path LIKE '%worker.t1.wav'")
@@ -143,8 +151,8 @@ class LedgerTests(unittest.TestCase):
         import_measurements(self.con,package)
         self.assertEqual(self.con.execute('SELECT count(*) FROM voice_measurement').fetchone()[0],2)
         self.assertEqual(self.con.execute('SELECT count(*) FROM voice_measurement WHERE measured_at_utc IS NULL').fetchone()[0],1)
-        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_take').fetchone()[0],64)
-        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_file').fetchone()[0],65)
+        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_take').fetchone()[0],224)
+        self.assertEqual(self.con.execute('SELECT count(*) FROM voice_file').fetchone()[0],225)
 
     def test_schema_dump_roundtrip(self):
         rebuilt = sqlite3.connect(':memory:')
@@ -154,7 +162,7 @@ class LedgerTests(unittest.TestCase):
             rebuilt.executescript(path.read_text())
         self.assertEqual(rebuilt.execute('PRAGMA foreign_key_check').fetchall(),[])
         self.assertEqual(rebuilt.execute("SELECT count(*) FROM line WHERE kind='spoken_thought'").fetchone()[0],224)
-        self.assertEqual(rebuilt.execute('SELECT count(*) FROM voice_take').fetchone()[0],64)
+        self.assertEqual(rebuilt.execute('SELECT count(*) FROM voice_take').fetchone()[0],224)
         rebuilt.close()
 
 

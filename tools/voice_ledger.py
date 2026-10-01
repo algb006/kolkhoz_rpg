@@ -42,6 +42,13 @@ def mark_thoughts(con):
         for key, scene, variant in con.execute(
             "SELECT key,scene_key,variant_key FROM line WHERE scene_key IN ('scene.start.prologue','scene.start.office')"
         ).fetchall():
+            existing = con.execute(
+                'SELECT kind,thought_avatar,thought_place,thought_trigger_kind,thought_trigger_ref FROM line WHERE key=?',
+                (key,),
+            ).fetchone()
+            # Authored signals (e.g. exit_choice) must not become item clicks on reimport.
+            if existing[0] == 'spoken_thought' and all(existing[1:]):
+                continue
             if scene.endswith('prologue'):
                 avatar = key.split('.')[-2]
                 place, kind, ref = 'prologue', 'scene', f'{scene}#{key.split(".")[-1]}'

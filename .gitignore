@@ -15,3 +15,7 @@ db/export/
 
 # Unaccepted TTS originals and receipts belong to the voice backup, not GitHub.
 voice/draft/
+
+# Accepted office originals/receipts are backed up as voice; only their provenance manifest is in Git.
+voice/accepted/office-intro/*
+!voice/accepted/office-intro/manifest.json
