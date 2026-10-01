@@ -8,8 +8,11 @@ new_estimated_cost	0.082093	USD	Расчёт по usage при принятом 
 total_originals	160	WAV/JSON	Восемь аватаров по 20; нет слуховой приёмки
 total_duration	816.64	секунд	Весь корпус исходников кабинета
 total_estimated_cost	0.2372075	USD	Весь корпус по usage при принятом тарифе
-remaining_sound_masters	59	строк	58 новых плюс ранее готовая notebooks.old_fighter
+remaining_sound_masters	0	строк	59 мастеров второй партии готовы; rpg-sound-office-complete-2026-10-02, ход 2
 part2_source_pass	47	исходников	Техническая проверка сырых файлов
 part2_source_peak_fail	12	исходников	Превышение true peak; вход мастеринга, не основание повторного TTS
 artistic_approval	нет	статус	Ожидается слуховая приёмка человеком
 external_backup	подтверждён квитанцией boss	статус	boss-all-office-in-this-build-2026-10-02, ход 13; внешний voice/2026-10-02-0156/voice.tar.gz; 160 WAV и 163 JSON по перечню; SHA256 внутри архива не сверялся
+total_sound_masters	160	WAV	Проверены ключи, голоса, редакции, хэши, mono PCM24/48, длительности; первые 101 мастер неизменны
+complete_review_duration	913.04	секунд	160 мыслей с паузами, восемь голосов; SHA256 трёх файлов показа и публичных копий сверены
+new_sound_external_backup	ожидается	статус	59 новых мастеров и общий показ; квитанция voice об исходниках не закрывает этот бекап
