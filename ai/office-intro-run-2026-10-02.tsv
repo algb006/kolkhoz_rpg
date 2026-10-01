@@ -17,4 +17,4 @@ total_sound_masters	160	WAV	Проверены ключи, голоса, ред�
 complete_review_duration	913.04	секунд	160 мыслей с паузами, восемь голосов; SHA256 трёх файлов показа и публичных копий сверены
 new_sound_external_backup	подтверждён квитанцией boss	статус	Ход 16: audio и renders 2026-10-02-0227; по перечню 59 WAV и три файла показа; пофайловый SHA256 не сверялся; копия до обновления accepted_on
 accepted_source_directory	voice/accepted/office-intro	путь	160 неизменных WAV и 160 квитанций с приёмкой; manifest.json в git; прежний draft сохранён как история
-accepted_metadata_external_backup	подтверждён квитанцией boss; счёт требует уточнения	статус	Ход 20: внешний voice/2026-10-02-0438/voice.tar.gz, 82 713 808 байт; по перечню boss 160 WAV и 162 прочих записи; локально 160 WAV и 161 JSON; SHA256 против манифеста не сверялся
+accepted_metadata_external_backup	подтверждён квитанцией boss; счёт сходится	статус	Ходы 20 и 23: внешний voice/2026-10-02-0438/voice.tar.gz, 82 713 808 байт; по перечню boss 160 WAV и 161 файл не-WAV, 321 файл; прежние 162 включали каталог; SHA256 против манифеста не сверялся
