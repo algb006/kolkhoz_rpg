@@ -1,0 +1,15 @@
+metric	value	unit	scope
+existing_before_pass	102	WAV/JSON	Сверены и сохранены до запросов; остались побайтно неизменными
+new_generations	58	запросов	18 вояка; 20 делец; 20 Временная
+api_refusals_this_pass	0	отказов	По завершившемуся проходу генератора
+regenerations	0	дублей	11 старых технических ошибок устранены sound при мастеринге
+new_duration	282.56	секунд	По новым WAV и usage-квитанциям
+new_estimated_cost	0.082093	USD	Расчёт по usage при принятом тарифе, не выписка об оплате
+total_originals	160	WAV/JSON	Восемь аватаров по 20; нет слуховой приёмки
+total_duration	816.64	секунд	Весь корпус исходников кабинета
+total_estimated_cost	0.2372075	USD	Весь корпус по usage при принятом тарифе
+remaining_sound_masters	59	строк	58 новых плюс ранее готовая notebooks.old_fighter
+part2_source_pass	47	исходников	Техническая проверка сырых файлов
+part2_source_peak_fail	12	исходников	Превышение true peak; вход мастеринга, не основание повторного TTS
+artistic_approval	нет	статус	Ожидается слуховая приёмка человеком
+external_backup	запрошен у boss	статус	Группа voice пока берёт лишь accepted; локальный архив не внешняя копия

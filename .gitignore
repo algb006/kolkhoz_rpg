@@ -12,3 +12,6 @@ __pycache__/
 # SQLite собирается из сливаемой схемы и текстовых дампов.
 db/story.db
 db/export/
+
+# Unaccepted TTS originals and receipts belong to the voice backup, not GitHub.
+voice/draft/
