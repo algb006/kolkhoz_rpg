@@ -47,7 +47,7 @@ class LedgerTests(unittest.TestCase):
                 "SELECT text_rev FROM voice_take WHERE line_key=? AND status='accepted'", (key,)
             )}
             current += rev in revisions
-            stale += bool(revisions) and rev not in revisions
+            stale += any(recorded_rev != rev for recorded_rev in revisions)
         self.assertIn(
             f'Мыслей всего: {len(thoughts)}; озвучено по текущему тексту: {current}; '
             f'по старому: {stale}; ждут: {len(thoughts)-current}', report

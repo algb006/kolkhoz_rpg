@@ -23,8 +23,20 @@ class PlanSketchTests(unittest.TestCase):
         self.con.close()
 
     def test_insert_and_repeat_preserve_baseline(self):
-        # Discard only the eight fixture additions in an isolated memory DB.
+        # Remove only the additions and their voice references in the memory fixture.
+        # The live accepted sources and the old portrait history remain untouched.
+        voice_refs = 'SELECT key FROM voice_take WHERE line_key LIKE ?'
+        self.con.execute(
+            'DELETE FROM voice_measurement WHERE file_path IN '
+            f'(SELECT path FROM voice_file WHERE take_key IN ({voice_refs}))', (PREFIX + '%',))
+        self.con.execute(
+            f"DELETE FROM voice_file WHERE take_key IN ({voice_refs}) AND file_role='technical_master'",
+            (PREFIX + '%',))
+        self.con.execute(f'DELETE FROM voice_file WHERE take_key IN ({voice_refs})', (PREFIX + '%',))
+        self.con.execute('DELETE FROM voice_take WHERE line_key LIKE ?', (PREFIX + '%',))
         self.con.execute('DELETE FROM line WHERE key LIKE ?', (PREFIX + '%',))
+        baseline = self.con.execute('SELECT * FROM line ORDER BY key').fetchall()
+        baseline_takes = self.con.execute('SELECT * FROM voice_take ORDER BY key').fetchall()
         self.con.commit()
         with self.con:
             self.assertEqual(apply_rows(self.con, self.rows), 8)
@@ -35,6 +47,12 @@ class PlanSketchTests(unittest.TestCase):
             "AND key NOT LIKE ? AND approved_rev=rev", (PREFIX + '%',)
         ).fetchone()[0]
         self.assertEqual(count, 160)
+        self.assertEqual([tuple(row) for row in self.con.execute(
+            'SELECT * FROM line WHERE key NOT LIKE ? ORDER BY key', (PREFIX + '%',)
+        )], baseline)
+        self.assertEqual([tuple(row) for row in self.con.execute(
+            'SELECT * FROM voice_take ORDER BY key')], baseline_takes)
+        self.assertEqual(self.con.execute('PRAGMA foreign_key_check').fetchall(), [])
 
     def test_differing_existing_text_is_not_overwritten(self):
         with self.con:

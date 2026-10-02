@@ -19,3 +19,7 @@ voice/draft/
 # Accepted office originals/receipts are backed up as voice; only their provenance manifest is in Git.
 voice/accepted/office-intro/*
 !voice/accepted/office-intro/manifest.json
+
+# The additions retain their own revisions and hearing receipt; no WAV/API receipts in Git.
+voice/accepted/office-intro-additions-20261002/*
+!voice/accepted/office-intro-additions-20261002/manifest.json
