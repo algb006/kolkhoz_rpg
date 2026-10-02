@@ -2,6 +2,7 @@
 """Check additive imports and approval gates using memory-only fixtures."""
 
 from copy import deepcopy
+import csv
 import sqlite3
 import unittest
 
@@ -84,6 +85,37 @@ class PlanSketchTests(unittest.TestCase):
         self.assertEqual(duration_status(8.6), 'source_for_mastering_not_hearing_accepted')
         self.assertEqual(duration_status(11), 'source_for_mastering_not_hearing_accepted')
         self.assertEqual(duration_status(11.0001), 'rejected_over_duration_limit')
+
+    def test_legend_payload_matches_click_bindings(self):
+        with (ROOT / 'manual/texts/office-plan-sketch-legend.tsv').open(
+                encoding='utf-8', newline='') as file:
+            rows = list(csv.DictReader(file, delimiter='\t'))
+        with (ROOT / 'manual/texts/office-plan-sketch-bindings.tsv').open(
+                encoding='utf-8', newline='') as file:
+            bindings = list(csv.DictReader(file, delimiter='\t'))
+        self.assertEqual(len(rows), 13)
+        self.assertEqual(len({row['key'] for row in rows}), len(rows))
+        self.assertEqual(len(bindings), 13)
+        self.assertEqual(len({row['zone_key'] for row in bindings}), len(bindings))
+        self.assertEqual({row['key'] for row in rows},
+                         {row['click_key'] for row in bindings})
+        for row in rows:
+            with self.subTest(key=row['key']):
+                self.assertNotIn(None, row)
+                self.assertEqual((row['namespace'], row['kind'], row['placeholders'],
+                                  row['status'], row['plural']),
+                                 ('ui.office', 'tooltip', '{}', 'review', '0'))
+                self.assertEqual(row['example'], row['text'])
+                for field in ('text', 'context', 'meaning', 'intent', 'keep'):
+                    self.assertTrue(row[field].strip())
+        self.assertTrue(all(row['click_namespace'] == 'ui.office' for row in bindings))
+        annotations = {row['zone_key'] for row in bindings
+                       if row['status'] == 'annotation_not_legend'}
+        self.assertEqual(annotations, {'new_village', 'stockmen_houses'})
+        stockmen = next(row for row in rows
+                        if row['key'] == 'plan_sketch.legend.stockmen_houses')
+        self.assertEqual(stockmen['text'],
+                         'Дома скотников — у фермы: зимой из села до скота не дойти.')
 
 
 if __name__ == '__main__':

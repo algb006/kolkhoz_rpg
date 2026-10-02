@@ -11,3 +11,4 @@ road	unit	road.name	Дорога	ui.office	plan_sketch.legend.road	review
 hay_stack	unit	hay_stack.name	Скирда	ui.office	plan_sketch.legend.hay_stack	review
 farm_office	unit	farm_office.name	Контора	ui.office	plan_sketch.legend.farm_office	review
 new_village	ui.office	plan_sketch.legend.new_village	Новое село: дома, правление и всё, что нужно на первое время.	ui.office	plan_sketch.legend.new_village	annotation_not_legend
+stockmen_houses	ui.office	plan_sketch.legend.stockmen_houses	Жильё при ферме	ui.office	plan_sketch.legend.stockmen_houses	annotation_not_legend
