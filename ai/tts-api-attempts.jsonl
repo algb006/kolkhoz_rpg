@@ -73,3 +73,4 @@
 {"kind": "request", "model": "gemini-3.8-flash-tts", "key": "scene.office_intro.portrait.old_fighter", "started_utc": "2026-10-02T02:27:07.686791+00:00"}
 {"kind": "request", "model": "gemini-3.8-flash-tts", "key": "scene.office_intro.portrait.dealer", "started_utc": "2026-10-02T02:27:17.789327+00:00"}
 {"kind": "request", "model": "gemini-3.8-flash-tts", "key": "scene.office_intro.portrait.acting", "started_utc": "2026-10-02T02:27:27.889847+00:00"}
+{"kind": "request", "model": "gemini-3.8-flash-tts", "key": "scene.office_intro.portrait.promoted", "started_utc": "2026-10-02T14:19:43.723350+00:00"}
