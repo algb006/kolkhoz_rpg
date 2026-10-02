@@ -12,6 +12,14 @@ from voice_office_additions import DEST, PASS_CAP_USD, spent
 from voice_office_intro import pending_approvals, source_rows, verify_existing
 
 ROOT = Path(__file__).resolve().parent.parent
+MAX_DURATION_SECONDS = 11
+DURATION_POLICY_REF = 'boss-all-office-recommendations-map-2026-10-02 [26]'
+
+
+def duration_status(duration):
+    # Only this two-item additions batch; no change to prologue/other thoughts.
+    return ('source_for_mastering_not_hearing_accepted' if duration <= MAX_DURATION_SECONDS
+            else 'rejected_over_duration_limit')
 
 
 def main():
@@ -41,19 +49,19 @@ def main():
             receipt_sha256=hashlib.sha256(receipt_path.read_bytes()).hexdigest(),
             voice=receipt['voice'], gender=receipt['gender'], style=receipt['style'],
             duration_seconds=duration, estimated_usd_from_usage=receipt['estimated_usd_from_usage'],
-            status='source_for_mastering_not_hearing_accepted' if duration <= 8 else
-                   'rejected_over_8s_needs_text_revision',
+            status=duration_status(duration),
         ))
     cost = spent()
     if cost > PASS_CAP_USD:
         raise ValueError('Pass budget exceeded')
-    ready = [f['key'] for f in files if f['duration_seconds'] <= 8]
-    rejected = [f['key'] for f in files if f['duration_seconds'] > 8]
+    ready = [f['key'] for f in files if f['duration_seconds'] <= MAX_DURATION_SECONDS]
+    rejected = [f['key'] for f in files if f['duration_seconds'] > MAX_DURATION_SECONDS]
     manifest = dict(
         format='rpg.office-additions-delivery.v1',
         generated_at_utc=datetime.now(timezone.utc).isoformat(),
         approval_ref='boss-all-office-recommendations-map-2026-10-02 [18,20]; portrait [4]',
         source_format=dict(channels=1, sample_rate=24000, bits_per_sample=16),
+        max_duration_seconds=MAX_DURATION_SECONDS, duration_policy_ref=DURATION_POLICY_REF,
         budget_usd=PASS_CAP_USD, cumulative_estimated_usd_from_usage=cost,
         ready_for_mastering_keys=ready, rejected_duration_keys=rejected,
         hearing_accepted=False, files=files,
@@ -64,12 +72,14 @@ def main():
     fields = ['key', 'rev', 'avatar', 'voice', 'duration_seconds',
               'estimated_usd_from_usage', 'status', 'wav_sha256', 'text_sha256']
     with (ROOT / 'ai/office-additions-pass-2026-10-02.tsv').open('w', newline='', encoding='utf-8') as out:
-        writer = csv.DictWriter(out, fieldnames=fields, delimiter='\t', extrasaction='ignore')
+        writer = csv.DictWriter(out, fieldnames=fields, delimiter='\t',
+                                lineterminator='\n', extrasaction='ignore')
         writer.writeheader()
         writer.writerows(files)
-    print(f'Источников: {len(files)}; в пределах 8 с: {len(ready)}; длиннее: {len(rejected)}; USD={cost:.6f}')
+    print(f'Источников: {len(files)}; в пределах {MAX_DURATION_SECONDS} с: {len(ready)}; '
+          f'длиннее: {len(rejected)}; USD={cost:.6f}')
     for f in files:
-        if f['duration_seconds'] > 8:
+        if f['duration_seconds'] > MAX_DURATION_SECONDS:
             print(f"  {f['key']}: {f['duration_seconds']:.2f} с — на редактуру")
 
 

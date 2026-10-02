@@ -7,6 +7,7 @@ import unittest
 
 from office_plan_sketch_lines import ROOT, PREFIX, apply_rows, source_rows
 from voice_office_intro import pending_approvals
+from office_additions_package import duration_status
 
 
 class PlanSketchTests(unittest.TestCase):
@@ -60,6 +61,11 @@ class PlanSketchTests(unittest.TestCase):
         row = dict(key=PREFIX + 'villager', rev=1, approved_rev=1,
                    string_rev=1, string_approved_rev=1)
         self.assertEqual(pending_approvals([row]), [])
+
+    def test_additions_duration_policy_does_not_cut_at_eight(self):
+        self.assertEqual(duration_status(8.6), 'source_for_mastering_not_hearing_accepted')
+        self.assertEqual(duration_status(11), 'source_for_mastering_not_hearing_accepted')
+        self.assertEqual(duration_status(11.0001), 'rejected_over_duration_limit')
 
 
 if __name__ == '__main__':
