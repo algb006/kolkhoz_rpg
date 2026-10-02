@@ -63,13 +63,33 @@ class DialogueEscapeTests(unittest.TestCase):
                           'goat_culprit', 'goat_resolution'})
         self.assertTrue(all(row['on_escape'] == 'cancel_all' for row in scopes))
 
-    def test_own_source_paths_exist_and_disputed_defaults_are_only_questions(self):
+    def test_own_source_paths_exist_and_decisions_are_recorded(self):
         for row in self.policy + self.disputed:
             source = row['source_ref'].split('#', 1)[0]
             if source.startswith('rpg/'):
                 self.assertTrue((ROOT.parent / source).is_file(), source)
         self.assertEqual(len({row['case_id'] for row in self.disputed}), len(self.disputed))
-        self.assertTrue(all(row['status'] == 'needs_boss' for row in self.disputed))
+        self.assertEqual(len(self.disputed), 18)
+        for row in self.disputed:
+            self.assertIsNone(row.get(None), 'Unexpected TSV columns')
+            self.assertEqual(row['decision_ref'],
+                             'boss-all-dialogue-esc-three-kinds-go-2026-10-02#7')
+            self.assertTrue(row['decision'])
+            expected = ('conditional_host' if row['case_id'] in
+                        ('elder_introduction', 'treasure_reward') else
+                        'accepted_cancel_part' if row['case_id'] == 'elder_plan' else
+                        'accepted_cancel_all')
+            self.assertEqual(row['status'], expected)
+
+    def test_conditional_confirmations_and_fishers_keep_current_policy(self):
+        disputed = {row['case_id']: row for row in self.disputed}
+        for case_id in ('elder_introduction', 'treasure_reward', 'fishers_second_window'):
+            row = disputed[case_id]
+            self.assertEqual(row['current_policy'], 'cancel_all')
+            policy = self.by_scene[row['scenes_or_scope']]
+            self.assertEqual(policy['on_escape'], 'cancel_all')
+            self.assertEqual(policy['escape_option'], '')
+            self.assertEqual(policy['checkpoint'], 'none')
 
     def test_new_source_anchors(self):
         inherited = {row['authored_ref'] for row in self.registry}
