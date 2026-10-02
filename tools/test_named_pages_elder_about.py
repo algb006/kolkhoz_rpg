@@ -27,7 +27,7 @@ class ElderAboutTests(unittest.TestCase):
     def test_exact_payload(self):
         self.assertEqual(set(self.row), set(FIELDS))
         self.assertEqual(self.row['namespace'], 'ui.office')
-        self.assertEqual(self.row['key'], 'pocketbook.ryabinin.about')
+        self.assertEqual(self.row['key'], 'directory.former_headman.about')
         self.assertEqual(self.row['kind'], 'body')
         self.assertEqual(self.row['text'], TEXT)
         self.assertEqual(self.row['example'], TEXT)
@@ -41,6 +41,7 @@ class ElderAboutTests(unittest.TestCase):
         self.assertEqual(self.row['plural'], '0')
         self.assertEqual(self.row['status'], 'review')
         self.assertIn('ход 40', self.row['context'])
+        self.assertIn('принят boss [43]', self.row['context'])
         self.assertIn('по прямой постановке boss [40]', self.row['context'])
         self.assertIn('председатель любого пола', self.row['keep'])
         self.assertIn('Это начальная запись после пролога', self.row['keep'])
