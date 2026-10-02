@@ -8,4 +8,4 @@ well	unit	well.name	Колодец	ui.office	plan_sketch.legend.well	review
 wooden_house	unit	wooden_house.name	Деревянный дом	ui.office	plan_sketch.legend.wooden_house	review
 barrack	unit	barrack.name	Барак	ui.office	plan_sketch.legend.barrack	review
 road	unit	road.name	Дорога	ui.office	plan_sketch.legend.road	review
-hay_stack	unit	hay_stack.name	Скирда	ui.office	plan_sketch.legend.hay_stack	needs_decision
+hay_stack	unit	hay_stack.name	Скирда	ui.office	plan_sketch.legend.hay_stack	review
