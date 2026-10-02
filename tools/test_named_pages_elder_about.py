@@ -10,8 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 FIELDS = ('namespace', 'key', 'kind', 'text', 'context', 'meaning', 'intent',
           'keep', 'placeholders', 'status', 'example', 'plural')
 TEXT = ('Здешний житель, бывший староста — теперь работает в колхозе со всеми. '
-        'В голодное время не дал растащить оставшиеся запасы. '
-        'У церкви встретил меня в сюртуке; надо будет расспросить его о селе.')
+        'В голодное время не дал растащить оставшиеся запасы.')
 
 
 class ElderAboutTests(unittest.TestCase):
@@ -31,7 +30,7 @@ class ElderAboutTests(unittest.TestCase):
         self.assertEqual(self.row['kind'], 'body')
         self.assertEqual(self.row['text'], TEXT)
         self.assertEqual(self.row['example'], TEXT)
-        self.assertEqual(TEXT.count('.'), 3)
+        self.assertEqual(TEXT.count('.'), 2)
         self.assertNotIn('Рябинин', TEXT)
         self.assertNotIn('Федот', TEXT)
 
@@ -47,6 +46,15 @@ class ElderAboutTests(unittest.TestCase):
         self.assertIn('Это начальная запись после пролога', self.row['keep'])
         self.assertIn('без TTS', self.row['context'])
         self.assertFalse(any(char.isdigit() for char in TEXT))
+
+    def test_shared_note_has_no_personal_meeting_or_avatar_knowledge(self):
+        self.assertIn('boss-rpg-office-portrait-promoted-logic-error-2026-10-02 [2]',
+                      self.row['context'])
+        for forbidden in ('я', 'меня', 'мне', 'мой', 'встретил', 'церкви',
+                          'сюртуке', 'расспросить', 'знаю', 'помню'):
+            self.assertNotIn(forbidden, TEXT.lower().split())
+        self.assertIn('без первого лица', self.row['keep'])
+        self.assertIn('не утверждать, знакомы ли', self.row['keep'])
 
 
 if __name__ == '__main__':
