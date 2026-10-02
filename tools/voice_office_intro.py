@@ -21,7 +21,9 @@ PASS_CAP_USD = 0.35
 MIN_REMAINING_USD = 0.006
 
 
-def source_rows():
+def source_rows(item=None):
+    if item not in (None, 'plan_sketch', 'portrait'):
+        raise ValueError('unsupported office voice batch')
     design = sqlite3.connect(f'file:{DESIGN_DB}?mode=ro', uri=True)
     policy = design.execute(
         "SELECT voice_policy FROM scene WHERE key='scene.start.office'"
@@ -52,15 +54,27 @@ def source_rows():
         " ORDER BY l.sort,l.key"
     ).fetchall()
     story.close()
-    if len(rows) != len(VOICES) * EXPECTED_PER_AVATAR:
-        raise RuntimeError(f'expected 160 office thoughts, found {len(rows)}')
+    # Preserve the accepted 160-line baseline. A new item's draft must not be
+    # recorded by the old resumable pass or make its provenance helpers fail.
+    plan_prefix = 'scene.office_intro.plan_sketch.'
+    if item is not None:
+        rows = [row for row in rows if row['key'].startswith(f'scene.office_intro.{item}.')]
+        per_avatar = 1
+    else:
+        rows = [row for row in rows if not row['key'].startswith(plan_prefix)]
+        per_avatar = EXPECTED_PER_AVATAR
+    expected = len(VOICES) * per_avatar
+    if len(rows) != expected:
+        raise RuntimeError(f'expected {expected} office thoughts, found {len(rows)}')
     for avatar in VOICES:
         group = [row for row in rows if row['avatar'] == avatar]
-        if len(group) != EXPECTED_PER_AVATAR:
-            raise RuntimeError(f'{avatar}: expected 20 thoughts, found {len(group)}')
+        if len(group) != per_avatar:
+            raise RuntimeError(f'{avatar}: expected {per_avatar} thoughts, found {len(group)}')
     for row in rows:
         key = row['key']
-        if row['text'] != row['string_text'] or row['rev'] != row['string_rev']:
+        # Unimported new lines are valid drafts for dry-run, never for TTS.
+        unimported_delta = item is not None and row['string_rev'] is None
+        if not unimported_delta and (row['text'] != row['string_text'] or row['rev'] != row['string_rev']):
             raise RuntimeError(f'story/strings mismatch: {key}')
         if key.startswith('scene.office_intro.exit_choice.') and any(
             name in row['text'] for name in ('Федот', 'Кузьмич', 'Рябинин')
@@ -72,6 +86,7 @@ def source_rows():
 def pending_approvals(rows):
     return [row['key'] for row in rows
             if row['approved_rev'] != row['rev']
+            or row['string_rev'] is None
             or row['string_approved_rev'] != row['string_rev']]
 
 
@@ -82,10 +97,10 @@ def spent():
     )
 
 
-def verify_existing(row):
+def verify_existing(row, destination=DEST):
     key = row['key']
-    wav_path = DEST / f'{key}.wav'
-    receipt_path = DEST / f'{key}.json'
+    wav_path = destination / f'{key}.wav'
+    receipt_path = destination / f'{key}.json'
     if not wav_path.exists() and not receipt_path.exists():
         return False
     if not wav_path.exists() or not receipt_path.exists():

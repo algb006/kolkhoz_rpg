@@ -1,0 +1,11 @@
+zone_key	legend_namespace	legend_key	legend_text	click_namespace	click_key	status
+horse_yard	unit	horse_yard.name	Конный двор	ui.office	plan_sketch.legend.horse_yard	review
+cattle_yard	unit	cattle_yard.name	Скотный двор	ui.office	plan_sketch.legend.cattle_yard	review
+food_yard	unit	food_yard.name	Продуктовый двор	ui.office	plan_sketch.legend.food_yard	review
+utility_yard	unit	utility_yard.name	Хозяйственный двор	ui.office	plan_sketch.legend.utility_yard	review
+clamp	unit	clamp.name	Бурт	ui.office	plan_sketch.legend.clamp	review
+well	unit	well.name	Колодец	ui.office	plan_sketch.legend.well	review
+wooden_house	unit	wooden_house.name	Деревянный дом	ui.office	plan_sketch.legend.wooden_house	review
+barrack	unit	barrack.name	Барак	ui.office	plan_sketch.legend.barrack	review
+road	unit	road.name	Дорога	ui.office	plan_sketch.legend.road	review
+hay_stack	unit	hay_stack.name	Скирда	ui.office	plan_sketch.legend.hay_stack	needs_decision
