@@ -66,6 +66,8 @@ class FaithRedLineTests(unittest.TestCase):
         self.assertIn('не подтверждено', source)
         self.assertIn('не новый параметр API', source)
         self.assertIn('backdrop', source)
+        self.assertIn('Владелец подключения — host', source)
+        self.assertIn('подключение отложено', source)
         self.assertIn('Кладбище не переносят', source)
         self.assertIn('Характер, жаргон или', source)
 
