@@ -1,0 +1,90 @@
+{
+  "key": "scene.start.prologue.acting.t3",
+  "avatar": "acting",
+  "voice": "Kore",
+  "gender": "female",
+  "model": "gemini-3.8-flash-tts",
+  "text": "Грачи каркают. Вон часовня. Надо узнать, что здесь было до колхоза.",
+  "rev": 3,
+  "approved_rev": 3,
+  "text_sha256": "9a96de22b9c59c0ddd14a4cf7f9261bee8739063ae27a14130ae61f811f989bc",
+  "wav_sha256": "8c71ae697e6debdce697e2884504e346121eba3d8c3645b4b4d3f1e82c525c1b",
+  "duration_seconds": 5.76,
+  "sample_rate": 24000,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "style": "Собранно и практично, экономно; мягче только при мысли о людях.",
+  "inline_tags": [],
+  "usage": {
+    "total_tokens": 408,
+    "total_input_tokens": 223,
+    "input_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 201
+      },
+      {
+        "modality": "text",
+        "tokens": 22
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 185,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 185
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "raw_prompt_token": 349,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 106
+          },
+          {
+            "modality": "audio",
+            "tokens": 201
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 146
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 106
+          },
+          {
+            "modality": "audio",
+            "tokens": 201
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 146
+          }
+        ]
+      }
+    ]
+  },
+  "estimated_usd_from_usage": 0.001676,
+  "interaction_id": "v1_ChdZSEhBYXYtdUpzUEZnOFVQd3RDVG9RbxIXWUhIQWF2LXVKc1BGZzhVUHd0Q1RvUW8",
+  "status": "t3_rooks_draft_pending_human_hearing",
+  "approval_ref": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#3",
+  "generated_completed_at_utc": "2026-10-03T03:07:19.016018+00:00",
+  "candidate": 1,
+  "timing_seconds": 48
+}

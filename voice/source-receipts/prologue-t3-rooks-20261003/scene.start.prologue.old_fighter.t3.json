@@ -1,0 +1,90 @@
+{
+  "key": "scene.start.prologue.old_fighter.t3",
+  "avatar": "old_fighter",
+  "voice": "Algenib",
+  "gender": "male",
+  "model": "gemini-3.8-flash-tts",
+  "text": "Грачи подняли шум. Вон часовня. Места старые. Поглядим, как здесь живут.",
+  "rev": 3,
+  "approved_rev": 3,
+  "text_sha256": "9f78223b5f20e77a6aa7a00b5f97e0657e9c66dd7a2e16225890b53a431164a6",
+  "wav_sha256": "7c0887c7f70f54ba31e07652b3e50835692d51766e7961358db3790b9c413031",
+  "duration_seconds": 8.32,
+  "sample_rate": 24000,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "style": "Жёсткая мысль про себя, короткими тактами и паузами как точки; без крика.",
+  "inline_tags": [],
+  "usage": {
+    "total_tokens": 551,
+    "total_input_tokens": 284,
+    "input_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 259
+      },
+      {
+        "modality": "text",
+        "tokens": 25
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 267,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 267
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "raw_prompt_token": 416,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 112
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 210
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 112
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 210
+          }
+        ]
+      }
+    ]
+  },
+  "estimated_usd_from_usage": 0.0024155,
+  "interaction_id": "v1_ChdUSEhBYXN6a0daVy1nOFVQX3JtcTBRURIXVEhIQWFzemtHWlctZzhVUF9ybXEwUVE",
+  "status": "t3_rooks_draft_pending_human_hearing",
+  "approval_ref": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#3",
+  "generated_completed_at_utc": "2026-10-03T03:06:58.569372+00:00",
+  "candidate": 1,
+  "timing_seconds": 48
+}

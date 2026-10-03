@@ -1,45 +1,34 @@
 {
   "acceptance": {
-    "basis": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#7",
     "by": "human_project_owner",
-    "date": "2026-10-03",
-    "original_receipt_sha256": "46bdd2d872395c5a3e4e49576b9616165abb53afeb617299945222c9e2a36571",
-    "scope": "demo_prologue_t3_replacement",
-    "statement": "Голоса одобряю"
+    "date": "2026-09-26",
+    "original_receipt_sha256": "9db8ddb3c18da80818e8630aad68a765e5b496410c6d33dbcada8f3bc9dda9ee",
+    "scope": "demo_prologue",
+    "statement": "Эта озвучка лучше, включай в проект"
   },
-  "approval_ref": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#3",
-  "approved_rev": 3,
+  "approved_rev": 2,
   "avatar": "student",
   "bits_per_sample": 16,
-  "candidate": 1,
   "channels": 1,
-  "duration_seconds": 6.68,
-  "estimated_usd_from_usage": 0.0019405,
+  "duration_seconds": 7.44,
+  "estimated_usd_from_usage": 0.0021655000000000003,
   "gender": "male",
-  "generated_completed_at_utc": "2026-10-03T03:06:38.979788+00:00",
-  "generation_time_kind": "completion",
   "inline_tags": [],
-  "interaction_id": "v1_ChdPSEhBYXZUc0NNNmlxZmtQdTVhTDBRTRIXT0hIQWF2VHNDTTZpcWZrUHU1YUwwUU0",
+  "interaction_id": "v1_ChdaT0MyYXRuSE9haTFqdU1QcFlXUGtRMBIXWk9DMmF0bkhPYWkxanVNUHBZV1BrUTA",
   "key": "scene.start.prologue.student.t3",
   "model": "gemini-3.8-flash-tts",
-  "rev": 3,
+  "rev": 2,
   "sample_rate": 24000,
-  "source_generation_time_utc": "2026-10-03T03:06:38.979788+00:00",
-  "source_status": "t3_rooks_draft_pending_human_hearing",
+  "source_generation_time_utc": "2026-09-25T20:58:16.432881+00:00",
   "status": "accepted_for_demo_prologue_pending_sound_mastering",
   "style": "Книжно и увлечённо; молодая ясная дикция, короткая заминка перед выводом.",
-  "text": "Грачи... А вон часовня. В справке — про колхоз, но село-то началось не с него.",
-  "text_sha256": "88ccbe011d416a4f415df2ec8f96dbf8c94afc0dee8481d593db8995ac1ca0a3",
-  "timing_seconds": 48,
+  "text": "Кладбище старше колхоза. Значит, у этого места есть история, которой в районной справке не было.",
+  "text_sha256": "1d141a154b87d7dc848195a4978b1c74b9107749598af39d667e51d1ae173a1d",
   "usage": {
     "input_tokens_by_modality": [
       {
         "modality": "text",
         "tokens": 29
-      },
-      {
-        "modality": "audio",
-        "tokens": 259
       }
     ],
     "model_invocation_token_counts": [
@@ -47,7 +36,7 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 169
+            "tokens": 188
           }
         ],
         "prompt_tokens_details": [
@@ -67,7 +56,7 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 169
+            "tokens": 188
           }
         ],
         "prompt_tokens_details": [
@@ -85,15 +74,15 @@
     "output_tokens_by_modality": [
       {
         "modality": "audio",
-        "tokens": 214
+        "tokens": 239
       }
     ],
     "raw_prompt_token": 425,
     "total_cached_tokens": 0,
-    "total_input_tokens": 288,
-    "total_output_tokens": 214,
+    "total_input_tokens": 29,
+    "total_output_tokens": 239,
     "total_thought_tokens": 0,
-    "total_tokens": 502,
+    "total_tokens": 268,
     "total_tool_use_tokens": 0
   },
   "voice": "Puck",
@@ -103,5 +92,5 @@
     "gender": "male",
     "voice_id": "Puck"
   },
-  "wav_sha256": "d22e8dde9c5b580dab66cb61a32bc29b74c5f20dc773327afec4733f2674dbfd"
+  "wav_sha256": "f4a898b79f0ff86ca1eddd5c42fe620e97d903e9c0c46052eb6ab0f183d0733e"
 }

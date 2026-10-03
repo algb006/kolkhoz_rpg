@@ -1,0 +1,90 @@
+{
+  "key": "scene.start.prologue.villager.t3",
+  "avatar": "villager",
+  "voice": "Achird",
+  "gender": "male",
+  "model": "gemini-3.8-flash-tts",
+  "text": "Вон наша часовня. А грачи как каркали здесь, так и каркают.",
+  "rev": 3,
+  "approved_rev": 3,
+  "text_sha256": "c6f4a30f61fc19112fe69de2a9efe91de1ad65bf824e138720641cf8c0215274",
+  "wav_sha256": "8d46b75af8c1c2f3e4f101eff1a6547ff5081529dca24d7ec2cf20b566c657fa",
+  "duration_seconds": 7.04,
+  "sample_rate": 24000,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "style": "Неторопливая, основательная мысль про себя; спокойная сельская мелодика без комического говора.",
+  "inline_tags": [],
+  "usage": {
+    "total_tokens": 505,
+    "total_input_tokens": 279,
+    "input_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 259
+      },
+      {
+        "modality": "text",
+        "tokens": 20
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 226,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 226
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "raw_prompt_token": 408,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 109
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 178
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 109
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 178
+          }
+        ]
+      }
+    ]
+  },
+  "estimated_usd_from_usage": 0.002044,
+  "interaction_id": "v1_ChdKSEhBYXZ1R0JkalZxZmtQeDhlU2dBbxIXSkhIQWF2dUdCZGpWcWZrUHg4ZVNnQW8",
+  "status": "t3_rooks_draft_pending_human_hearing",
+  "approval_ref": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#3",
+  "generated_completed_at_utc": "2026-10-03T03:06:18.730384+00:00",
+  "candidate": 1,
+  "timing_seconds": 48
+}

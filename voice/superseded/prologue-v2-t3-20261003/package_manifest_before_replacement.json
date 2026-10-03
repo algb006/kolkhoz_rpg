@@ -3,12 +3,8 @@
   "acceptance_statement": "Эта озвучка лучше, включай в проект",
   "audio_format": "mono PCM16 WAV, 24000 Hz, unchanged TTS original",
   "description_ref": "manual/voice/prologue-pilot.md",
-  "last_replacement_date": "2026-10-03",
-  "last_replacement_statement": "Голоса одобряю",
   "lines": [
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "acting",
       "key": "scene.start.prologue.acting.t1",
       "receipt": "scene.start.prologue.acting.t1.json",
@@ -19,8 +15,6 @@
       "wav_sha256": "360caa139e525f420fa40688040b1df135c0261e6c5a61cda36f3ecee1a8b6e0"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "acting",
       "key": "scene.start.prologue.acting.t2",
       "receipt": "scene.start.prologue.acting.t2.json",
@@ -31,21 +25,16 @@
       "wav_sha256": "523cbd0fffc1b38a21fb82dd28e029d16991e098f61aa9477cbc3a0caf28d897"
     },
     {
-      "acceptance_basis": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#7",
-      "acceptance_date": "2026-10-03",
-      "acceptance_statement": "Голоса одобряю",
       "avatar": "acting",
       "key": "scene.start.prologue.acting.t3",
       "receipt": "scene.start.prologue.acting.t3.json",
-      "rev": 3,
-      "text_sha256": "9a96de22b9c59c0ddd14a4cf7f9261bee8739063ae27a14130ae61f811f989bc",
+      "rev": 2,
+      "text_sha256": "61c6bae5f4ff0eb8a59277929f30e21df25fb10476eb992512119c644ca9183a",
       "voice": "Kore",
       "wav": "scene.start.prologue.acting.t3.wav",
-      "wav_sha256": "8c71ae697e6debdce697e2884504e346121eba3d8c3645b4b4d3f1e82c525c1b"
+      "wav_sha256": "28e266335e3213cf2f9f824dd5da2140d4135ac5f1c8e74fc130126a30b99a8b"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "acting",
       "key": "scene.start.prologue.acting.t4",
       "receipt": "scene.start.prologue.acting.t4.json",
@@ -56,8 +45,6 @@
       "wav_sha256": "ce113cfc39ecc96c8965041ac48b1a94dd65093963482629f406e1459884e61c"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "acting",
       "key": "scene.start.prologue.acting.t5",
       "receipt": "scene.start.prologue.acting.t5.json",
@@ -68,8 +55,6 @@
       "wav_sha256": "3b0255684f44fae048953839c646f7cd6aae91307fd4cd8eec510520db7578e5"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "acting",
       "key": "scene.start.prologue.acting.t6",
       "receipt": "scene.start.prologue.acting.t6.json",
@@ -80,8 +65,6 @@
       "wav_sha256": "af5de09bec22bbc6b8c980f52b22ddcdfbcf9364ae173ab1eb05516e620eaaa9"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "acting",
       "key": "scene.start.prologue.acting.t7",
       "receipt": "scene.start.prologue.acting.t7.json",
@@ -92,8 +75,6 @@
       "wav_sha256": "6cdfcd3c60ff2570e9ae9e85975ac12028edd50fe1d0b8160114a914c78aaef7"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "acting",
       "key": "scene.start.prologue.acting.t8",
       "receipt": "scene.start.prologue.acting.t8.json",
@@ -104,8 +85,6 @@
       "wav_sha256": "d5b3806fd90f141ebf3a057f8079ceb6cfedb27ed142c6cfa4840123355eba1f"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "dealer",
       "key": "scene.start.prologue.dealer.t1",
       "receipt": "scene.start.prologue.dealer.t1.json",
@@ -116,8 +95,6 @@
       "wav_sha256": "438a332777bb3443b462827fddc3ce7a1ffb060633d2519d3d775717da259019"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "dealer",
       "key": "scene.start.prologue.dealer.t2",
       "receipt": "scene.start.prologue.dealer.t2.json",
@@ -128,21 +105,16 @@
       "wav_sha256": "132d8be8ba475b8ad3e3dd832afc99b07223d3708834904853fd43a70657fbc3"
     },
     {
-      "acceptance_basis": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#7",
-      "acceptance_date": "2026-10-03",
-      "acceptance_statement": "Голоса одобряю",
       "avatar": "dealer",
       "key": "scene.start.prologue.dealer.t3",
       "receipt": "scene.start.prologue.dealer.t3.json",
-      "rev": 3,
-      "text_sha256": "c23f6316b64920944d4ae4991400e3f9d21ec5a145bbd0d4cfe99d8dc1b0e81f",
+      "rev": 2,
+      "text_sha256": "c6ea18ab8e23b5cf55af1791eb84ec15cd72f3da07953533b32e8239e368898d",
       "voice": "Algieba",
       "wav": "scene.start.prologue.dealer.t3.wav",
-      "wav_sha256": "450ce8c255afc149f6c5c36a66d2c443777b7119cd6b05f68be06d06221d9fb1"
+      "wav_sha256": "6beda4cdf9e7fe4e4abe5f98590a0cbc2709e0c3ed7e2defeb639c40dd13dfa3"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "dealer",
       "key": "scene.start.prologue.dealer.t4",
       "receipt": "scene.start.prologue.dealer.t4.json",
@@ -153,8 +125,6 @@
       "wav_sha256": "e354b2d0dc2e50b99cdf9c177a4c24a64729249926877647fb4d5acde09a7d8c"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "dealer",
       "key": "scene.start.prologue.dealer.t5",
       "receipt": "scene.start.prologue.dealer.t5.json",
@@ -165,8 +135,6 @@
       "wav_sha256": "051554f57860712fb7e3928c61cbc1f5a12f1e72f7b08e30192fd48fc1e33f34"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "dealer",
       "key": "scene.start.prologue.dealer.t6",
       "receipt": "scene.start.prologue.dealer.t6.json",
@@ -177,8 +145,6 @@
       "wav_sha256": "cb3226f9e45ea2743c54ad160f38b2ffb5065953b6946bf092dc7ed30f0149ce"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "dealer",
       "key": "scene.start.prologue.dealer.t7",
       "receipt": "scene.start.prologue.dealer.t7.json",
@@ -189,8 +155,6 @@
       "wav_sha256": "d9951cd969de1812617fcb9dfd2f6e9a07f8fe456490d64e84b7638fb49ae9a9"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "dealer",
       "key": "scene.start.prologue.dealer.t8",
       "receipt": "scene.start.prologue.dealer.t8.json",
@@ -201,8 +165,6 @@
       "wav_sha256": "b6564a43d986c0586a35718041c34cbe105bc40b5809eac85c41c7554a61dcf6"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "ex_chairman",
       "key": "scene.start.prologue.ex_chairman.t1",
       "receipt": "scene.start.prologue.ex_chairman.t1.json",
@@ -213,8 +175,6 @@
       "wav_sha256": "81ae91e4d5a6755f4e355ce49a75d305361f090c3b1d36fb1478e0acfe2b2b15"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "ex_chairman",
       "key": "scene.start.prologue.ex_chairman.t2",
       "receipt": "scene.start.prologue.ex_chairman.t2.json",
@@ -225,8 +185,6 @@
       "wav_sha256": "c736da92789c2c36b4a2b1cf294619ad9859144eb5605ef3d86f2a03e2c96421"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "ex_chairman",
       "key": "scene.start.prologue.ex_chairman.t3",
       "receipt": "scene.start.prologue.ex_chairman.t3.json",
@@ -237,8 +195,6 @@
       "wav_sha256": "5db66fcb8cfa155a97614e05ce9dbbec91cbd8aabd5020fa034c41f7d482a418"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "ex_chairman",
       "key": "scene.start.prologue.ex_chairman.t4",
       "receipt": "scene.start.prologue.ex_chairman.t4.json",
@@ -249,8 +205,6 @@
       "wav_sha256": "9d85ca52b7c1d85190cdee8faf28cf4057852a6d69d5b10a026ce8eba738bb3e"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "ex_chairman",
       "key": "scene.start.prologue.ex_chairman.t5",
       "receipt": "scene.start.prologue.ex_chairman.t5.json",
@@ -261,8 +215,6 @@
       "wav_sha256": "f2ded774344de8061b65b4ceaa1ea12f8aed3a07813c9aa161c5f9ab8ec67f37"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "ex_chairman",
       "key": "scene.start.prologue.ex_chairman.t6",
       "receipt": "scene.start.prologue.ex_chairman.t6.json",
@@ -273,8 +225,6 @@
       "wav_sha256": "c8c516974ce41d3e8bd6ee6f00cc6fbe502f2c72e2a1ee6926508614f6c9e988"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "ex_chairman",
       "key": "scene.start.prologue.ex_chairman.t7",
       "receipt": "scene.start.prologue.ex_chairman.t7.json",
@@ -285,8 +235,6 @@
       "wav_sha256": "ae063f4037d0c8036cd9e9c38c3ecffd8b645c518b874cd9caf372bce1e40e11"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "ex_chairman",
       "key": "scene.start.prologue.ex_chairman.t8",
       "receipt": "scene.start.prologue.ex_chairman.t8.json",
@@ -297,8 +245,6 @@
       "wav_sha256": "ba2f3aa7adc0097a7838e5a78a6aafcb661f2a5c3efa780a4a01996a16f16b15"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "old_fighter",
       "key": "scene.start.prologue.old_fighter.t1",
       "receipt": "scene.start.prologue.old_fighter.t1.json",
@@ -309,8 +255,6 @@
       "wav_sha256": "793a1ebdf9185ea5e11e8a0afc0bc21e372815a974db9885aae378a76ffac6b5"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "old_fighter",
       "key": "scene.start.prologue.old_fighter.t2",
       "receipt": "scene.start.prologue.old_fighter.t2.json",
@@ -321,21 +265,16 @@
       "wav_sha256": "d2ad32c870699bf9b24517dc0d8d11c5c65abeb0f617b0353b95d610f352d2a2"
     },
     {
-      "acceptance_basis": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#7",
-      "acceptance_date": "2026-10-03",
-      "acceptance_statement": "Голоса одобряю",
       "avatar": "old_fighter",
       "key": "scene.start.prologue.old_fighter.t3",
       "receipt": "scene.start.prologue.old_fighter.t3.json",
-      "rev": 3,
-      "text_sha256": "9f78223b5f20e77a6aa7a00b5f97e0657e9c66dd7a2e16225890b53a431164a6",
+      "rev": 2,
+      "text_sha256": "b330d74354f0423d74ae8a52ec59b9652d6265042060a8d9b2621fcb5a5332ad",
       "voice": "Algenib",
       "wav": "scene.start.prologue.old_fighter.t3.wav",
-      "wav_sha256": "7c0887c7f70f54ba31e07652b3e50835692d51766e7961358db3790b9c413031"
+      "wav_sha256": "4145967fa60f702cbcd8c2e7750eefdf2bb1991372b6c579fd8f16be91b9b886"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "old_fighter",
       "key": "scene.start.prologue.old_fighter.t4",
       "receipt": "scene.start.prologue.old_fighter.t4.json",
@@ -346,8 +285,6 @@
       "wav_sha256": "6c0de93168bcfa55c07076f71715c4e714a4cfd1732c666066d8002e92031b18"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "old_fighter",
       "key": "scene.start.prologue.old_fighter.t5",
       "receipt": "scene.start.prologue.old_fighter.t5.json",
@@ -358,8 +295,6 @@
       "wav_sha256": "331dba97d17aad16f582250b1c2d171210e251054c8dd5f77d4c19c6f77cf61e"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "old_fighter",
       "key": "scene.start.prologue.old_fighter.t6",
       "receipt": "scene.start.prologue.old_fighter.t6.json",
@@ -370,8 +305,6 @@
       "wav_sha256": "30c70b8c2da05eaba4e69f6819baafdbce611037200c545dbdf6c6a1abaa93fa"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "old_fighter",
       "key": "scene.start.prologue.old_fighter.t7",
       "receipt": "scene.start.prologue.old_fighter.t7.json",
@@ -382,8 +315,6 @@
       "wav_sha256": "b65735a89b85464e2f79409c6a50b76900848a29dae8c7a8cacd826acb4badda"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "old_fighter",
       "key": "scene.start.prologue.old_fighter.t8",
       "receipt": "scene.start.prologue.old_fighter.t8.json",
@@ -394,8 +325,6 @@
       "wav_sha256": "d0ff93f1b42e9bb6a5b0288261d60c68878f718d3fd9355fa13a3466cb36ecc0"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "promoted",
       "key": "scene.start.prologue.promoted.t1",
       "receipt": "scene.start.prologue.promoted.t1.json",
@@ -406,8 +335,6 @@
       "wav_sha256": "3e1588072752bc51a4a0c77224bb24eba452cc9477b9586a54ce86f914e455ed"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "promoted",
       "key": "scene.start.prologue.promoted.t2",
       "receipt": "scene.start.prologue.promoted.t2.json",
@@ -418,21 +345,16 @@
       "wav_sha256": "31039035809333a6a777d00180558474e6a1b4d73e1c4ee06437b7a7b184c90f"
     },
     {
-      "acceptance_basis": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#7",
-      "acceptance_date": "2026-10-03",
-      "acceptance_statement": "Голоса одобряю",
       "avatar": "promoted",
       "key": "scene.start.prologue.promoted.t3",
       "receipt": "scene.start.prologue.promoted.t3.json",
-      "rev": 3,
-      "text_sha256": "c4b7eb20cf731c62dd0039923e9abd68e737e4f62d2cd7540c3aac2c1b95399d",
+      "rev": 2,
+      "text_sha256": "6bc2c9180f618306fa737439a50dae6d94ce81597aeed7e126680a6ac1a8c867",
       "voice": "Charon",
       "wav": "scene.start.prologue.promoted.t3.wav",
-      "wav_sha256": "1f2b55ab3620a5b0f978ec96bed0ac11549b28c6ca8b7c527f7fbf84522aa7f5"
+      "wav_sha256": "58c514ae511db5f3b765e3ba6f7fca373a0b4755ec843ac7b18efeae2de61e60"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "promoted",
       "key": "scene.start.prologue.promoted.t4",
       "receipt": "scene.start.prologue.promoted.t4.json",
@@ -443,8 +365,6 @@
       "wav_sha256": "019aa55062e0ccefb7a63bb4be97b849ce1b7e0606e08352ea176d3f21970c9c"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "promoted",
       "key": "scene.start.prologue.promoted.t5",
       "receipt": "scene.start.prologue.promoted.t5.json",
@@ -455,8 +375,6 @@
       "wav_sha256": "355bee666a9ca2d6f269a29d674e134d262f161843c22b3e058762a79cfd78a4"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "promoted",
       "key": "scene.start.prologue.promoted.t6",
       "receipt": "scene.start.prologue.promoted.t6.json",
@@ -467,8 +385,6 @@
       "wav_sha256": "a8a14e793389e44a3791a2c0d798a6ce006f22a8c3f948f56fdba181719331fc"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "promoted",
       "key": "scene.start.prologue.promoted.t7",
       "receipt": "scene.start.prologue.promoted.t7.json",
@@ -479,8 +395,6 @@
       "wav_sha256": "bab4684844e42b3de8c90fe215f332ff7a795a8c762f13b5aa08b2854bc6afe6"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "promoted",
       "key": "scene.start.prologue.promoted.t8",
       "receipt": "scene.start.prologue.promoted.t8.json",
@@ -491,8 +405,6 @@
       "wav_sha256": "492bebd8c07b6d19b889b7ff396a409f4dc0166f4ebde6f35b335b8d23b1cbc4"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "student",
       "key": "scene.start.prologue.student.t1",
       "receipt": "scene.start.prologue.student.t1.json",
@@ -503,8 +415,6 @@
       "wav_sha256": "e74ebb1c464d9b6d01a92d016796deb99caf045fdce69f42e1d7880cbd040f99"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "student",
       "key": "scene.start.prologue.student.t2",
       "receipt": "scene.start.prologue.student.t2.json",
@@ -515,21 +425,16 @@
       "wav_sha256": "dd4b88809e12bdc173f9764be0bf3b8748259d0961bd08e1c3ba93751e1539fd"
     },
     {
-      "acceptance_basis": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#7",
-      "acceptance_date": "2026-10-03",
-      "acceptance_statement": "Голоса одобряю",
       "avatar": "student",
       "key": "scene.start.prologue.student.t3",
       "receipt": "scene.start.prologue.student.t3.json",
-      "rev": 3,
-      "text_sha256": "88ccbe011d416a4f415df2ec8f96dbf8c94afc0dee8481d593db8995ac1ca0a3",
+      "rev": 2,
+      "text_sha256": "1d141a154b87d7dc848195a4978b1c74b9107749598af39d667e51d1ae173a1d",
       "voice": "Puck",
       "wav": "scene.start.prologue.student.t3.wav",
-      "wav_sha256": "d22e8dde9c5b580dab66cb61a32bc29b74c5f20dc773327afec4733f2674dbfd"
+      "wav_sha256": "f4a898b79f0ff86ca1eddd5c42fe620e97d903e9c0c46052eb6ab0f183d0733e"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "student",
       "key": "scene.start.prologue.student.t4",
       "receipt": "scene.start.prologue.student.t4.json",
@@ -540,8 +445,6 @@
       "wav_sha256": "17c1c0769053fa4acb9108567c54ad55fdbd71d4e9dafd039787523f6198a397"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "student",
       "key": "scene.start.prologue.student.t5",
       "receipt": "scene.start.prologue.student.t5.json",
@@ -552,8 +455,6 @@
       "wav_sha256": "8c4e109b46c9c39e4d5f64ea30eb1a232ead3f47ef0d3652351cbfcf508750f7"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "student",
       "key": "scene.start.prologue.student.t6",
       "receipt": "scene.start.prologue.student.t6.json",
@@ -564,8 +465,6 @@
       "wav_sha256": "a45d86a129cad5aea41db9dd0b400dc91b5ee089526e9a631c314d183c015364"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "student",
       "key": "scene.start.prologue.student.t7",
       "receipt": "scene.start.prologue.student.t7.json",
@@ -576,8 +475,6 @@
       "wav_sha256": "8e6a2dad59c741294f4b130ce61bfc954aa31305d6d654f8462cecba6506cc7a"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "student",
       "key": "scene.start.prologue.student.t8",
       "receipt": "scene.start.prologue.student.t8.json",
@@ -588,8 +485,6 @@
       "wav_sha256": "347bcd46491f9fb44e09f69eda6331011785bd46b91e0990b0996d4c418ff245"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "villager",
       "key": "scene.start.prologue.villager.t1",
       "receipt": "scene.start.prologue.villager.t1.json",
@@ -600,8 +495,6 @@
       "wav_sha256": "f46b25288434bd7c35b7016eb9a6baab4391fed5cd74a9e3a1694b290d7b359f"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "villager",
       "key": "scene.start.prologue.villager.t2",
       "receipt": "scene.start.prologue.villager.t2.json",
@@ -612,21 +505,16 @@
       "wav_sha256": "372df5ba630effd71103fdc13e825c3d2c0751f784e0a20007aed2f289d648bd"
     },
     {
-      "acceptance_basis": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#7",
-      "acceptance_date": "2026-10-03",
-      "acceptance_statement": "Голоса одобряю",
       "avatar": "villager",
       "key": "scene.start.prologue.villager.t3",
       "receipt": "scene.start.prologue.villager.t3.json",
-      "rev": 3,
-      "text_sha256": "c6f4a30f61fc19112fe69de2a9efe91de1ad65bf824e138720641cf8c0215274",
+      "rev": 2,
+      "text_sha256": "a93c682d1643f20e80ba9ad2dc1db36c8940cf2c9b9fa9fd4fecce884e220487",
       "voice": "Achird",
       "wav": "scene.start.prologue.villager.t3.wav",
-      "wav_sha256": "8d46b75af8c1c2f3e4f101eff1a6547ff5081529dca24d7ec2cf20b566c657fa"
+      "wav_sha256": "f6cbe4dcfc3ce5d1cda30b7bb4a80561a0742575accec5eef4544f0bc7d1a764"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "villager",
       "key": "scene.start.prologue.villager.t4",
       "receipt": "scene.start.prologue.villager.t4.json",
@@ -637,8 +525,6 @@
       "wav_sha256": "f5b6fdd177307db91c7db54a33c3ba152590c25b4e059e456c7751a3a7699c9c"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "villager",
       "key": "scene.start.prologue.villager.t5",
       "receipt": "scene.start.prologue.villager.t5.json",
@@ -649,8 +535,6 @@
       "wav_sha256": "28dce346a2889e6d0b3b138b129fbac4b5629ff85670bc70e57173057a08d32f"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "villager",
       "key": "scene.start.prologue.villager.t6",
       "receipt": "scene.start.prologue.villager.t6.json",
@@ -661,8 +545,6 @@
       "wav_sha256": "268a7206bf2591ada59db722f4328d510c35b430eea8d7c5aafdcc5c077695e6"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "villager",
       "key": "scene.start.prologue.villager.t7",
       "receipt": "scene.start.prologue.villager.t7.json",
@@ -673,8 +555,6 @@
       "wav_sha256": "9608dd77a4ab326a20e33ddc6f72f86cf202b2a76d95032dffa8a033bdda1184"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "villager",
       "key": "scene.start.prologue.villager.t8",
       "receipt": "scene.start.prologue.villager.t8.json",
@@ -685,8 +565,6 @@
       "wav_sha256": "2af072b2e5ea6ed43100822cd0fd293247f4d738946383ff357a8272e6cbde76"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "worker",
       "key": "scene.start.prologue.worker.t1",
       "receipt": "scene.start.prologue.worker.t1.json",
@@ -697,8 +575,6 @@
       "wav_sha256": "42b8d2f5adb8293eaa3831110b619d3f5e933c09ef8c6890c3804375a91a0082"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "worker",
       "key": "scene.start.prologue.worker.t2",
       "receipt": "scene.start.prologue.worker.t2.json",
@@ -709,21 +585,16 @@
       "wav_sha256": "5cb6c505fa82d4effa6f6e55a1208a2ddeb393869f8f3d13c49f591835911c76"
     },
     {
-      "acceptance_basis": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#7",
-      "acceptance_date": "2026-10-03",
-      "acceptance_statement": "Голоса одобряю",
       "avatar": "worker",
       "key": "scene.start.prologue.worker.t3",
       "receipt": "scene.start.prologue.worker.t3.json",
-      "rev": 3,
-      "text_sha256": "1fa39817ee1674349b503158d4b954debff568befeaab240758e123eb86e2a97",
+      "rev": 2,
+      "text_sha256": "344df808d72c0ef5f26dc7ac4edd6aedc27711b3ec4d6c2907039dc00e63f72a",
       "voice": "Iapetus",
       "wav": "scene.start.prologue.worker.t3.wav",
-      "wav_sha256": "25240aa834afb3bde1d664fd173c6435b3055e5690256e7ca87e9aa6230b1f42"
+      "wav_sha256": "1165fa877be75e98988f0b59faa1de78f0f97f2abc10a366d0d828c7874cf4d6"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "worker",
       "key": "scene.start.prologue.worker.t4",
       "receipt": "scene.start.prologue.worker.t4.json",
@@ -734,8 +605,6 @@
       "wav_sha256": "461a37279762c9c3c7be685398fd3347e4e3e8233a741e1b442beb25527bdd0d"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "worker",
       "key": "scene.start.prologue.worker.t5",
       "receipt": "scene.start.prologue.worker.t5.json",
@@ -746,8 +615,6 @@
       "wav_sha256": "58d9704b0004bf3f1895bed29527fdf39bf5c1569a2b1e1f57784c11b1b618ef"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "worker",
       "key": "scene.start.prologue.worker.t6",
       "receipt": "scene.start.prologue.worker.t6.json",
@@ -758,8 +625,6 @@
       "wav_sha256": "8ff614723b878086c57111dea84de246434d39d7411782f2ab4f1a68e9efd740"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "worker",
       "key": "scene.start.prologue.worker.t7",
       "receipt": "scene.start.prologue.worker.t7.json",
@@ -770,8 +635,6 @@
       "wav_sha256": "05407e5fa8833f4a4f9bfb1827017c7394736e8cefbf6f32180515210ea87f7b"
     },
     {
-      "acceptance_date": "2026-09-26",
-      "acceptance_statement": "Эта озвучка лучше, включай в проект",
       "avatar": "worker",
       "key": "scene.start.prologue.worker.t8",
       "receipt": "scene.start.prologue.worker.t8.json",
@@ -783,34 +646,19 @@
     }
   ],
   "mastering_owner": "sound",
-  "mastering_status": "seven_t3_replacements_mastered_by_sound_pending_ue",
-  "replacement_master_report": "../sound/effects/speech_prologue_t3_rooks_v1/report.json",
-  "replacement_active_routes": "../sound/effects/speech_prologue_t3_rooks_v1/active-64.json",
-  "replaced_keys": [
-    "scene.start.prologue.villager.t3",
-    "scene.start.prologue.worker.t3",
-    "scene.start.prologue.student.t3",
-    "scene.start.prologue.promoted.t3",
-    "scene.start.prologue.old_fighter.t3",
-    "scene.start.prologue.dealer.t3",
-    "scene.start.prologue.acting.t3"
-  ],
-  "replacement_archive": "voice/superseded/prologue-v2-t3-20261003",
-  "replacement_basis": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#7",
-  "replacement_cost_usd": 0.014659,
-  "replacement_source": "/data/tmp/rpg-prologue-t3-rooks-20261003",
+  "mastering_status": "pending",
   "scene": "scene.start.prologue",
   "scope": "demo_prologue",
   "source": "/data/kolkhoz/voice/prologue/v2",
-  "status": "accepted_by_human_sound_masters_ready_pending_ue",
-  "subtitle_authority": "db/story.db; 7 t3 rev3, other 57 rev2",
+  "status": "accepted_by_human_pending_sound_mastering",
+  "subtitle_authority": "db/story.db, approved_rev=2",
   "supersedes": "voice/superseded/prologue-v1/manifest.json",
   "timing_status": "human_approved_t8_overlap_with_theme_2026_09_26",
   "totals": {
-    "duration_seconds": 458.52,
-    "estimated_usd_from_usage": 0.13312300000000002,
-    "input_tokens": 3311,
-    "output_audio_tokens": 14705,
+    "duration_seconds": 451.3599999999999,
+    "estimated_usd_from_usage": 0.1310475,
+    "input_tokens": 1545,
+    "output_audio_tokens": 14475,
     "requests": 64
   }
 }

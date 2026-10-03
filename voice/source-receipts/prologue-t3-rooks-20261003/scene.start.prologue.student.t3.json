@@ -1,0 +1,90 @@
+{
+  "key": "scene.start.prologue.student.t3",
+  "avatar": "student",
+  "voice": "Puck",
+  "gender": "male",
+  "model": "gemini-3.8-flash-tts",
+  "text": "Грачи... А вон часовня. В справке — про колхоз, но село-то началось не с него.",
+  "rev": 3,
+  "approved_rev": 3,
+  "text_sha256": "88ccbe011d416a4f415df2ec8f96dbf8c94afc0dee8481d593db8995ac1ca0a3",
+  "wav_sha256": "d22e8dde9c5b580dab66cb61a32bc29b74c5f20dc773327afec4733f2674dbfd",
+  "duration_seconds": 6.68,
+  "sample_rate": 24000,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "style": "Книжно и увлечённо; молодая ясная дикция, короткая заминка перед выводом.",
+  "inline_tags": [],
+  "usage": {
+    "total_tokens": 502,
+    "total_input_tokens": 288,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 29
+      },
+      {
+        "modality": "audio",
+        "tokens": 259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 214,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 214
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "raw_prompt_token": 425,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 117
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 169
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 117
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 169
+          }
+        ]
+      }
+    ]
+  },
+  "estimated_usd_from_usage": 0.0019405,
+  "interaction_id": "v1_ChdPSEhBYXZUc0NNNmlxZmtQdTVhTDBRTRIXT0hIQWF2VHNDTTZpcWZrUHU1YUwwUU0",
+  "status": "t3_rooks_draft_pending_human_hearing",
+  "approval_ref": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#3",
+  "generated_completed_at_utc": "2026-10-03T03:06:38.979788+00:00",
+  "candidate": 1,
+  "timing_seconds": 48
+}

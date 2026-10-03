@@ -1,0 +1,90 @@
+{
+  "key": "scene.start.prologue.dealer.t3",
+  "avatar": "dealer",
+  "voice": "Algieba",
+  "gender": "male",
+  "model": "gemini-3.8-flash-tts",
+  "text": "Грачи разошлись. А вон часовня. Колхоз новый, но здешние привычки, полагаю, постарше.",
+  "rev": 3,
+  "approved_rev": 3,
+  "text_sha256": "c23f6316b64920944d4ae4991400e3f9d21ec5a145bbd0d4cfe99d8dc1b0e81f",
+  "wav_sha256": "450ce8c255afc149f6c5c36a66d2c443777b7119cd6b05f68be06d06221d9fb1",
+  "duration_seconds": 8.72,
+  "sample_rate": 24000,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "style": "Учтиво и иронично; лёгкая одесская вопросительная мелодика в утверждении, без пародии.",
+  "inline_tags": [],
+  "usage": {
+    "total_tokens": 571,
+    "total_input_tokens": 291,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 32
+      },
+      {
+        "modality": "audio",
+        "tokens": 259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 280,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 280
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "raw_prompt_token": 433,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 122
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 220
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 122
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 220
+          }
+        ]
+      }
+    ]
+  },
+  "estimated_usd_from_usage": 0.002536,
+  "interaction_id": "v1_ChdWbkhBYXU3U000bWtxZmtQX2VTbzZBURIXVm5IQWF1N1NNNG1rcWZrUF9lU282QVE",
+  "status": "t3_rooks_draft_pending_human_hearing",
+  "approval_ref": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#3",
+  "generated_completed_at_utc": "2026-10-03T03:07:10.202016+00:00",
+  "candidate": 1,
+  "timing_seconds": 48
+}

@@ -1,0 +1,98 @@
+{
+  "acceptance_date": "2026-09-26",
+  "acceptance_statement": "Эта озвучка лучше, включай в проект",
+  "audio_format": "mono PCM16 WAV, 24000 Hz, unchanged TTS original",
+  "count": 7,
+  "description_ref": "manual/voice/prologue-pilot.md",
+  "lines": [
+    {
+      "avatar": "acting",
+      "key": "scene.start.prologue.acting.t3",
+      "receipt": "scene.start.prologue.acting.t3.json",
+      "rev": 2,
+      "text_sha256": "61c6bae5f4ff0eb8a59277929f30e21df25fb10476eb992512119c644ca9183a",
+      "voice": "Kore",
+      "wav": "scene.start.prologue.acting.t3.wav",
+      "wav_sha256": "28e266335e3213cf2f9f824dd5da2140d4135ac5f1c8e74fc130126a30b99a8b"
+    },
+    {
+      "avatar": "dealer",
+      "key": "scene.start.prologue.dealer.t3",
+      "receipt": "scene.start.prologue.dealer.t3.json",
+      "rev": 2,
+      "text_sha256": "c6ea18ab8e23b5cf55af1791eb84ec15cd72f3da07953533b32e8239e368898d",
+      "voice": "Algieba",
+      "wav": "scene.start.prologue.dealer.t3.wav",
+      "wav_sha256": "6beda4cdf9e7fe4e4abe5f98590a0cbc2709e0c3ed7e2defeb639c40dd13dfa3"
+    },
+    {
+      "avatar": "old_fighter",
+      "key": "scene.start.prologue.old_fighter.t3",
+      "receipt": "scene.start.prologue.old_fighter.t3.json",
+      "rev": 2,
+      "text_sha256": "b330d74354f0423d74ae8a52ec59b9652d6265042060a8d9b2621fcb5a5332ad",
+      "voice": "Algenib",
+      "wav": "scene.start.prologue.old_fighter.t3.wav",
+      "wav_sha256": "4145967fa60f702cbcd8c2e7750eefdf2bb1991372b6c579fd8f16be91b9b886"
+    },
+    {
+      "avatar": "promoted",
+      "key": "scene.start.prologue.promoted.t3",
+      "receipt": "scene.start.prologue.promoted.t3.json",
+      "rev": 2,
+      "text_sha256": "6bc2c9180f618306fa737439a50dae6d94ce81597aeed7e126680a6ac1a8c867",
+      "voice": "Charon",
+      "wav": "scene.start.prologue.promoted.t3.wav",
+      "wav_sha256": "58c514ae511db5f3b765e3ba6f7fca373a0b4755ec843ac7b18efeae2de61e60"
+    },
+    {
+      "avatar": "student",
+      "key": "scene.start.prologue.student.t3",
+      "receipt": "scene.start.prologue.student.t3.json",
+      "rev": 2,
+      "text_sha256": "1d141a154b87d7dc848195a4978b1c74b9107749598af39d667e51d1ae173a1d",
+      "voice": "Puck",
+      "wav": "scene.start.prologue.student.t3.wav",
+      "wav_sha256": "f4a898b79f0ff86ca1eddd5c42fe620e97d903e9c0c46052eb6ab0f183d0733e"
+    },
+    {
+      "avatar": "villager",
+      "key": "scene.start.prologue.villager.t3",
+      "receipt": "scene.start.prologue.villager.t3.json",
+      "rev": 2,
+      "text_sha256": "a93c682d1643f20e80ba9ad2dc1db36c8940cf2c9b9fa9fd4fecce884e220487",
+      "voice": "Achird",
+      "wav": "scene.start.prologue.villager.t3.wav",
+      "wav_sha256": "f6cbe4dcfc3ce5d1cda30b7bb4a80561a0742575accec5eef4544f0bc7d1a764"
+    },
+    {
+      "avatar": "worker",
+      "key": "scene.start.prologue.worker.t3",
+      "receipt": "scene.start.prologue.worker.t3.json",
+      "rev": 2,
+      "text_sha256": "344df808d72c0ef5f26dc7ac4edd6aedc27711b3ec4d6c2907039dc00e63f72a",
+      "voice": "Iapetus",
+      "wav": "scene.start.prologue.worker.t3.wav",
+      "wav_sha256": "1165fa877be75e98988f0b59faa1de78f0f97f2abc10a366d0d828c7874cf4d6"
+    }
+  ],
+  "mastering_owner": "sound",
+  "mastering_status": "pending",
+  "replacement_basis": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#7",
+  "replacement_date": "2026-10-03",
+  "scene": "scene.start.prologue",
+  "scope": "demo_prologue",
+  "source": "/data/kolkhoz/voice/prologue/v2",
+  "status": "superseded_subset_v2_t3",
+  "subtitle_authority": "db/story.db, approved_rev=2",
+  "supersedes": "voice/superseded/prologue-v1/manifest.json",
+  "timing_status": "human_approved_t8_overlap_with_theme_2026_09_26",
+  "totals_scope": "historical_full_64_line_package_before_replacement",
+  "totals": {
+    "duration_seconds": 451.3599999999999,
+    "estimated_usd_from_usage": 0.1310475,
+    "input_tokens": 1545,
+    "output_audio_tokens": 14475,
+    "requests": 64
+  }
+}

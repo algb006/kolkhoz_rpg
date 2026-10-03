@@ -1,45 +1,34 @@
 {
   "acceptance": {
-    "basis": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#7",
     "by": "human_project_owner",
-    "date": "2026-10-03",
-    "original_receipt_sha256": "3435c7170cf006a120e6e496826c20428af6e786bd49ae8949e14462f15117f6",
-    "scope": "demo_prologue_t3_replacement",
-    "statement": "Голоса одобряю"
+    "date": "2026-09-26",
+    "original_receipt_sha256": "02333b35a95124932965daead0a3cb0cfef2347ff4f25157b0be636914869373",
+    "scope": "demo_prologue",
+    "statement": "Эта озвучка лучше, включай в проект"
   },
-  "approval_ref": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#3",
-  "approved_rev": 3,
+  "approved_rev": 2,
   "avatar": "acting",
   "bits_per_sample": 16,
-  "candidate": 1,
   "channels": 1,
-  "duration_seconds": 5.76,
-  "estimated_usd_from_usage": 0.001676,
+  "duration_seconds": 5.12,
+  "estimated_usd_from_usage": 0.001489,
   "gender": "female",
-  "generated_completed_at_utc": "2026-10-03T03:07:19.016018+00:00",
-  "generation_time_kind": "completion",
   "inline_tags": [],
-  "interaction_id": "v1_ChdZSEhBYXYtdUpzUEZnOFVQd3RDVG9RbxIXWUhIQWF2LXVKc1BGZzhVUHd0Q1RvUW8",
+  "interaction_id": "v1_ChdZZUcyYXJqZUNZX1NnOFVQaEl5UHNBZxIXWWVHMmFyamVDWV9TZzhVUGhJeVBzQWc",
   "key": "scene.start.prologue.acting.t3",
   "model": "gemini-3.8-flash-tts",
-  "rev": 3,
+  "rev": 2,
   "sample_rate": 24000,
-  "source_generation_time_utc": "2026-10-03T03:07:19.016018+00:00",
-  "source_status": "t3_rooks_draft_pending_human_hearing",
+  "source_generation_time_utc": "2026-09-25T21:02:27.727262+00:00",
   "status": "accepted_for_demo_prologue_pending_sound_mastering",
   "style": "Собранно и практично, экономно; мягче только при мысли о людях.",
-  "text": "Грачи каркают. Вон часовня. Надо узнать, что здесь было до колхоза.",
-  "text_sha256": "9a96de22b9c59c0ddd14a4cf7f9261bee8739063ae27a14130ae61f811f989bc",
-  "timing_seconds": 48,
+  "text": "Кладбище рядом с дорогой. Надо будет узнать, кто следит за отворотком и оградой.",
+  "text_sha256": "61c6bae5f4ff0eb8a59277929f30e21df25fb10476eb992512119c644ca9183a",
   "usage": {
     "input_tokens_by_modality": [
       {
-        "modality": "audio",
-        "tokens": 201
-      },
-      {
         "modality": "text",
-        "tokens": 22
+        "tokens": 26
       }
     ],
     "model_invocation_token_counts": [
@@ -47,13 +36,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 146
+            "tokens": 130
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 106
+            "tokens": 110
           },
           {
             "modality": "audio",
@@ -67,13 +56,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 146
+            "tokens": 130
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 106
+            "tokens": 110
           },
           {
             "modality": "audio",
@@ -85,15 +74,15 @@
     "output_tokens_by_modality": [
       {
         "modality": "audio",
-        "tokens": 185
+        "tokens": 164
       }
     ],
-    "raw_prompt_token": 349,
+    "raw_prompt_token": 357,
     "total_cached_tokens": 0,
-    "total_input_tokens": 223,
-    "total_output_tokens": 185,
+    "total_input_tokens": 26,
+    "total_output_tokens": 164,
     "total_thought_tokens": 0,
-    "total_tokens": 408,
+    "total_tokens": 190,
     "total_tool_use_tokens": 0
   },
   "voice": "Kore",
@@ -103,5 +92,5 @@
     "gender": "female",
     "voice_id": "Kore"
   },
-  "wav_sha256": "8c71ae697e6debdce697e2884504e346121eba3d8c3645b4b4d3f1e82c525c1b"
+  "wav_sha256": "28e266335e3213cf2f9f824dd5da2140d4135ac5f1c8e74fc130126a30b99a8b"
 }

@@ -182,6 +182,10 @@ def main():
         return
     if waiting:
         raise RuntimeError('No paid TTS before matching approved strings import')
+    if sys.argv[1] == 'generate' and any(
+            json.loads((BASELINE / (r['key'] + '.json')).read_text(encoding='utf-8')).get('rev') == 3
+            for r in rows):
+        raise RuntimeError('Replacement already accepted; no second TTS pass')
     if sys.argv[1] == 'review':
         copy_review(rows)
         return

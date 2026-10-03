@@ -1,45 +1,34 @@
 {
   "acceptance": {
-    "basis": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#7",
     "by": "human_project_owner",
-    "date": "2026-10-03",
-    "original_receipt_sha256": "f8b7da3f69b1a615b2eb7a801885c5c5f1586cc8d3b618263f12e0063df113b8",
-    "scope": "demo_prologue_t3_replacement",
-    "statement": "Голоса одобряю"
+    "date": "2026-09-26",
+    "original_receipt_sha256": "3c6f04ee35782c60f2b5b59bdf78d17829c2e3ff01b0d9dbefd5615fcac82102",
+    "scope": "demo_prologue",
+    "statement": "Эта озвучка лучше, включай в проект"
   },
-  "approval_ref": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#3",
-  "approved_rev": 3,
+  "approved_rev": 2,
   "avatar": "dealer",
   "bits_per_sample": 16,
-  "candidate": 1,
   "channels": 1,
-  "duration_seconds": 8.72,
-  "estimated_usd_from_usage": 0.002536,
+  "duration_seconds": 6.6,
+  "estimated_usd_from_usage": 0.0019205,
   "gender": "male",
-  "generated_completed_at_utc": "2026-10-03T03:07:10.202016+00:00",
-  "generation_time_kind": "completion",
   "inline_tags": [],
-  "interaction_id": "v1_ChdWbkhBYXU3U000bWtxZmtQX2VTbzZBURIXVm5IQWF1N1NNNG1rcWZrUF9lU282QVE",
+  "interaction_id": "v1_ChdNZUcyYXNEU0E3N1FnOFVQa0pudWdRMBIXTWVHMmFzRFNBNzdRZzhVUGtKbnVnUTA",
   "key": "scene.start.prologue.dealer.t3",
   "model": "gemini-3.8-flash-tts",
-  "rev": 3,
+  "rev": 2,
   "sample_rate": 24000,
-  "source_generation_time_utc": "2026-10-03T03:07:10.202016+00:00",
-  "source_status": "t3_rooks_draft_pending_human_hearing",
+  "source_generation_time_utc": "2026-09-25T21:01:39.578911+00:00",
   "status": "accepted_for_demo_prologue_pending_sound_mastering",
   "style": "Учтиво и иронично; лёгкая одесская вопросительная мелодика в утверждении, без пародии.",
-  "text": "Грачи разошлись. А вон часовня. Колхоз новый, но здешние привычки, полагаю, постарше.",
-  "text_sha256": "c23f6316b64920944d4ae4991400e3f9d21ec5a145bbd0d4cfe99d8dc1b0e81f",
-  "timing_seconds": 48,
+  "text": "Кладбище у дороги. Стало быть, село старое; придётся сперва осмотреться.",
+  "text_sha256": "c6ea18ab8e23b5cf55af1791eb84ec15cd72f3da07953533b32e8239e368898d",
   "usage": {
     "input_tokens_by_modality": [
       {
         "modality": "text",
-        "tokens": 32
-      },
-      {
-        "modality": "audio",
-        "tokens": 259
+        "tokens": 25
       }
     ],
     "model_invocation_token_counts": [
@@ -47,13 +36,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 220
+            "tokens": 167
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 122
+            "tokens": 115
           },
           {
             "modality": "audio",
@@ -67,13 +56,13 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 220
+            "tokens": 167
           }
         ],
         "prompt_tokens_details": [
           {
             "modality": "text",
-            "tokens": 122
+            "tokens": 115
           },
           {
             "modality": "audio",
@@ -85,15 +74,15 @@
     "output_tokens_by_modality": [
       {
         "modality": "audio",
-        "tokens": 280
+        "tokens": 212
       }
     ],
-    "raw_prompt_token": 433,
+    "raw_prompt_token": 419,
     "total_cached_tokens": 0,
-    "total_input_tokens": 291,
-    "total_output_tokens": 280,
+    "total_input_tokens": 25,
+    "total_output_tokens": 212,
     "total_thought_tokens": 0,
-    "total_tokens": 571,
+    "total_tokens": 237,
     "total_tool_use_tokens": 0
   },
   "voice": "Algieba",
@@ -103,5 +92,5 @@
     "gender": "male",
     "voice_id": "Algieba"
   },
-  "wav_sha256": "450ce8c255afc149f6c5c36a66d2c443777b7119cd6b05f68be06d06221d9fb1"
+  "wav_sha256": "6beda4cdf9e7fe4e4abe5f98590a0cbc2709e0c3ed7e2defeb639c40dd13dfa3"
 }

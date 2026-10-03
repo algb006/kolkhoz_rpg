@@ -1,0 +1,90 @@
+{
+  "key": "scene.start.prologue.worker.t3",
+  "avatar": "worker",
+  "voice": "Iapetus",
+  "gender": "male",
+  "model": "gemini-3.8-flash-tts",
+  "text": "Грачи шумят. Вон часовня. Село, видно, было здесь задолго до колхоза.",
+  "rev": 3,
+  "approved_rev": 3,
+  "text_sha256": "1fa39817ee1674349b503158d4b954debff568befeaab240758e123eb86e2a97",
+  "wav_sha256": "25240aa834afb3bde1d664fd173c6435b3055e5690256e7ca87e9aa6230b1f42",
+  "duration_seconds": 6.2,
+  "sample_rate": 24000,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "style": "По-заводскому напористо и просто, с живым слободским ритмом; ударение на действии, без лозунга.",
+  "inline_tags": [],
+  "usage": {
+    "total_tokens": 483,
+    "total_input_tokens": 284,
+    "input_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 259
+      },
+      {
+        "modality": "text",
+        "tokens": 25
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 199,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 199
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "raw_prompt_token": 423,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 119
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 157
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 119
+          },
+          {
+            "modality": "audio",
+            "tokens": 259
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 157
+          }
+        ]
+      }
+    ]
+  },
+  "estimated_usd_from_usage": 0.0018035,
+  "interaction_id": "v1_ChdMbkhBYXZmSEFvX2VnOFVQdk9QY3lBaxIXTG5IQWF2ZkhBb19lZzhVUHZPUGN5QWs",
+  "status": "t3_rooks_draft_pending_human_hearing",
+  "approval_ref": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#3",
+  "generated_completed_at_utc": "2026-10-03T03:06:28.595345+00:00",
+  "candidate": 1,
+  "timing_seconds": 48
+}

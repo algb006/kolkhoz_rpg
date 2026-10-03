@@ -1,42 +1,31 @@
 {
   "acceptance": {
-    "basis": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#7",
     "by": "human_project_owner",
-    "date": "2026-10-03",
-    "original_receipt_sha256": "580fac7b85f3a8c45882eb17a57e9accc667f6b9126827f58a1ce3cfd25e2a33",
-    "scope": "demo_prologue_t3_replacement",
-    "statement": "Голоса одобряю"
+    "date": "2026-09-26",
+    "original_receipt_sha256": "111a308de175006421d4b571102f3e11b2c1b0c772d7e009809556b2a66037c2",
+    "scope": "demo_prologue",
+    "statement": "Эта озвучка лучше, включай в проект"
   },
-  "approval_ref": "boss-rpg-prologue-cemetery-not-seen-2026-10-03#3",
-  "approved_rev": 3,
+  "approved_rev": 2,
   "avatar": "villager",
   "bits_per_sample": 16,
-  "candidate": 1,
   "channels": 1,
-  "duration_seconds": 7.04,
-  "estimated_usd_from_usage": 0.002044,
+  "duration_seconds": 6.28,
+  "estimated_usd_from_usage": 0.001819,
   "gender": "male",
-  "generated_completed_at_utc": "2026-10-03T03:06:18.730384+00:00",
-  "generation_time_kind": "completion",
   "inline_tags": [],
-  "interaction_id": "v1_ChdKSEhBYXZ1R0JkalZxZmtQeDhlU2dBbxIXSkhIQWF2dUdCZGpWcWZrUHg4ZVNnQW8",
+  "interaction_id": "v1_ChdBZUMyYW9EMktiR2NqdU1QdUpISDBBRRIXQWVDMmFvRDJLYkdjanVNUHVKSEgwQUU",
   "key": "scene.start.prologue.villager.t3",
   "model": "gemini-3.8-flash-tts",
-  "rev": 3,
+  "rev": 2,
   "sample_rate": 24000,
-  "source_generation_time_utc": "2026-10-03T03:06:18.730384+00:00",
-  "source_status": "t3_rooks_draft_pending_human_hearing",
+  "source_generation_time_utc": "2026-09-25T20:56:36.815165+00:00",
   "status": "accepted_for_demo_prologue_pending_sound_mastering",
   "style": "Неторопливая, основательная мысль про себя; спокойная сельская мелодика без комического говора.",
-  "text": "Вон наша часовня. А грачи как каркали здесь, так и каркают.",
-  "text_sha256": "c6f4a30f61fc19112fe69de2a9efe91de1ad65bf824e138720641cf8c0215274",
-  "timing_seconds": 48,
+  "text": "Погост на месте. Значит, дорога всё-таки вывела куда надо.",
+  "text_sha256": "a93c682d1643f20e80ba9ad2dc1db36c8940cf2c9b9fa9fd4fecce884e220487",
   "usage": {
     "input_tokens_by_modality": [
-      {
-        "modality": "audio",
-        "tokens": 259
-      },
       {
         "modality": "text",
         "tokens": 20
@@ -47,7 +36,7 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 178
+            "tokens": 159
           }
         ],
         "prompt_tokens_details": [
@@ -67,7 +56,7 @@
         "candidates_tokens_details": [
           {
             "modality": "text",
-            "tokens": 178
+            "tokens": 159
           }
         ],
         "prompt_tokens_details": [
@@ -85,15 +74,15 @@
     "output_tokens_by_modality": [
       {
         "modality": "audio",
-        "tokens": 226
+        "tokens": 201
       }
     ],
     "raw_prompt_token": 408,
     "total_cached_tokens": 0,
-    "total_input_tokens": 279,
-    "total_output_tokens": 226,
+    "total_input_tokens": 20,
+    "total_output_tokens": 201,
     "total_thought_tokens": 0,
-    "total_tokens": 505,
+    "total_tokens": 221,
     "total_tool_use_tokens": 0
   },
   "voice": "Achird",
@@ -103,5 +92,5 @@
     "gender": "male",
     "voice_id": "Achird"
   },
-  "wav_sha256": "8d46b75af8c1c2f3e4f101eff1a6547ff5081529dca24d7ec2cf20b566c657fa"
+  "wav_sha256": "f6cbe4dcfc3ce5d1cda30b7bb4a80561a0742575accec5eef4544f0bc7d1a764"
 }
