@@ -74,3 +74,10 @@
 {"kind": "request", "model": "gemini-3.8-flash-tts", "key": "scene.office_intro.portrait.dealer", "started_utc": "2026-10-02T02:27:17.789327+00:00"}
 {"kind": "request", "model": "gemini-3.8-flash-tts", "key": "scene.office_intro.portrait.acting", "started_utc": "2026-10-02T02:27:27.889847+00:00"}
 {"kind": "request", "model": "gemini-3.8-flash-tts", "key": "scene.office_intro.portrait.promoted", "started_utc": "2026-10-02T14:19:43.723350+00:00"}
+{"kind": "request", "model": "gemini-3.8-flash-tts", "key": "scene.start.prologue.villager.t3", "started_utc": "2026-10-03T03:06:11.233739+00:00"}
+{"kind": "request", "model": "gemini-3.8-flash-tts", "key": "scene.start.prologue.worker.t3", "started_utc": "2026-10-03T03:06:21.335650+00:00"}
+{"kind": "request", "model": "gemini-3.8-flash-tts", "key": "scene.start.prologue.student.t3", "started_utc": "2026-10-03T03:06:31.436484+00:00"}
+{"kind": "request", "model": "gemini-3.8-flash-tts", "key": "scene.start.prologue.promoted.t3", "started_utc": "2026-10-03T03:06:41.536976+00:00"}
+{"kind": "request", "model": "gemini-3.8-flash-tts", "key": "scene.start.prologue.old_fighter.t3", "started_utc": "2026-10-03T03:06:51.660020+00:00"}
+{"kind": "request", "model": "gemini-3.8-flash-tts", "key": "scene.start.prologue.dealer.t3", "started_utc": "2026-10-03T03:07:01.760982+00:00"}
+{"kind": "request", "model": "gemini-3.8-flash-tts", "key": "scene.start.prologue.acting.t3", "started_utc": "2026-10-03T03:07:11.863136+00:00"}
