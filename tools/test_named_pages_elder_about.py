@@ -26,7 +26,7 @@ class ElderAboutTests(unittest.TestCase):
     def test_exact_payload(self):
         self.assertEqual(set(self.row), set(FIELDS))
         self.assertEqual(self.row['namespace'], 'ui.office')
-        self.assertEqual(self.row['key'], 'directory.former_headman.about')
+        self.assertEqual(self.row['key'], 'directory.elder.about')
         self.assertEqual(self.row['kind'], 'body')
         self.assertEqual(self.row['text'], TEXT)
         self.assertEqual(self.row['example'], TEXT)
@@ -47,6 +47,27 @@ class ElderAboutTests(unittest.TestCase):
         self.assertIn('Это начальная запись после пролога', self.row['keep'])
         self.assertIn('без TTS', self.row['context'])
         self.assertFalse(any(char.isdigit() for char in TEXT))
+
+    def test_directory_migration_creates_new_key_and_retires_original(self):
+        with (ROOT / 'manual/texts/named-pages-elder-directory-migration.tsv').open(
+                encoding='utf-8', newline='') as stream:
+            rows = list(csv.DictReader(stream, delimiter='\t'))
+        self.assertEqual(len(rows), 2)
+        active, retired = rows
+        self.assertEqual((active['deprecated'], retired['deprecated']), ('0', '1'))
+        self.assertEqual(active['key'], self.row['key'])
+        self.assertNotEqual(retired['key'], active['key'])
+        self.assertEqual(retired['replaced_by'], active['key'])
+        self.assertEqual(active['replaced_by'], '')
+        for row in rows:
+            self.assertEqual(row['text'], TEXT)
+            self.assertEqual(row['example'], TEXT)
+            self.assertEqual(row['placeholders'], '{}')
+            self.assertEqual(row['source_id'], '20326')
+            self.assertEqual(row['source_rev'], '2')
+            self.assertEqual(row['source_approved_rev'], '')
+        for field in FIELDS:
+            self.assertEqual(active[field], self.row[field], field)
 
     def test_shared_note_has_no_personal_meeting_or_avatar_knowledge(self):
         self.assertIn('boss-rpg-office-portrait-promoted-logic-error-2026-10-02 [2]',

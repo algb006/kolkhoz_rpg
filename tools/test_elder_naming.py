@@ -85,6 +85,19 @@ class ElderNamingTests(unittest.TestCase):
         self.assertTrue(has_embedded_name('Василий Петрович знает эти места.'))
         self.assertTrue(has_embedded_name('Найти {person_address}.'))
 
+    def test_inherited_stock_passport_uses_elder_role_code(self):
+        with (ROOT / 'manual/texts/elder-inherited-stock-step.tsv').open(
+                encoding='utf-8', newline='') as stream:
+            rows = list(csv.DictReader(stream, delimiter='\t'))
+        self.assertEqual(len(rows), 1)
+        row = rows[0]
+        self.assertEqual((row['namespace'], row['key']),
+                         ('dialogue', 'elder.start_plan.inherited_stock'))
+        self.assertIn('именной бывший староста elder', row['context'])
+        self.assertIn('выпавшее имя в реплику не вставляется', row['context'])
+        self.assertEqual(row['text'], row['example'])
+        self.assertEqual(row['placeholders'], '{}')
+
 
 if __name__ == '__main__':
     unittest.main()
