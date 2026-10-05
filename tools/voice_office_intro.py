@@ -3,6 +3,7 @@
 
 import hashlib
 import json
+import re
 from pathlib import Path
 import sqlite3
 import sys
@@ -76,11 +77,25 @@ def source_rows(item=None):
         unimported_delta = item is not None and row['string_rev'] is None
         if not unimported_delta and (row['text'] != row['string_text'] or row['rev'] != row['string_rev']):
             raise RuntimeError(f'story/strings mismatch: {key}')
-        if key.startswith('scene.office_intro.exit_choice.') and any(
-            name in row['text'] for name in ('Федот', 'Кузьмич', 'Рябинин')
-        ):
+        if key.startswith('scene.office_intro.exit_choice.') and has_embedded_name(row['text']):
             raise RuntimeError(f'fixed name in pre-recorded line: {key}')
     return rows
+
+
+def has_embedded_name(text):
+    """Reject unresolved name tokens and title-case words inside a sentence.
+
+    Pre-recorded exit thoughts address a role, not a party-specific name.
+    Unlike a blacklist of one sample person, this catches other first names,
+    patronymics and surnames too; sentence-initial capitals remain normal.
+    """
+    if re.search(r'\{person_[a-z_]+\}', text):
+        return True
+    for match in re.finditer(r'\b[A-ZА-ЯЁ][a-zа-яё]{2,}\b', text):
+        prefix = text[:match.start()].rstrip()
+        if prefix and prefix[-1] not in '.!?…':
+            return True
+    return False
 
 
 def pending_approvals(rows):

@@ -156,9 +156,9 @@ python3 tools/test_voice_ledger.py
 | `scene.night_hunt.distiller_report` | 6 | 6 | 0 |
 | `scene.night_hunt.distiller_leak_return` | 2 | 2 | 0 |
 | `scene.elder.introduction` | 6 | 0 | 6 |
-| `scene.elder.first_meeting` | 32 | 28 | 4 |
+| `scene.elder.first_meeting` | 32 | 32 | 0 |
 | `scene.elder.warnings` | 7 | 7 | 0 |
-| `scene.elder.affected_resident_question` | 4 | 3 | 1 |
+| `scene.elder.affected_resident_question` | 4 | 4 | 0 |
 | `scene.elder.own_name` | 3 | 3 | 0 |
 | `scene.elder.restore_talk` | 4 | 4 | 0 |
 | `scene.elder.last_advice` | 1 | 1 | 0 |
@@ -197,7 +197,7 @@ python3 tools/test_voice_ledger.py
 | `scene.ending.village.liquidation` | 2 | 2 | 0 |
 | `scene.era.first_transition_offer` | 5 | 5 | 0 |
 | `scene.era.first_transition_refusal` | 5 | 5 | 0 |
-| `scene.count_lodge.offer` | 9 | 0 | 9 |
+| `scene.count_lodge.offer` | 9 | 7 | 2 |
 | `scene.count_lodge.opening` | 3 | 0 | 3 |
 | `scene.treasure_box.children_bring_casket` | 10 | 10 | 0 |
 <!-- /story -->
@@ -210,7 +210,7 @@ python3 tools/test_voice_ledger.py
 | `praskovya_ilyinichna` | Прасковья Ильинична | fixed_person | female | Взрослая; точный возраст не назначен. | Бухгалтер колхоза. | draft |
 | `shibanov` | Шибанов | fixed_person | male | Взрослый; точный возраст не назначен. | Завхоз колхоза. | draft |
 | `egor_panteleev` | Егор Наумыч Пантелеев | fixed_person | male | Немолод; двадцать лет знает жителей поимённо. | Участковый; соседняя по отношению к колхозу власть. | approved |
-| `fedot_ryabinin` | Федот Кузьмич Рябинин | fixed_person | male | Пожилой; точный возраст не назначен. | Бывший староста, ныне рядовой работник колхоза. | review |
+| `elder` | {person_address} | fixed_person | male | Пожилой; точный возраст не назначен. | Бывший староста, ныне рядовой работник колхоза. | review |
 | `district_korenev` | Игнат Захарович Коренев | fixed_person | male | Старше среднего возраста. | Секретарь райкома. | draft |
 | `district_stozharov` | Роман Трофимович Стожаров | fixed_person | male | Старше среднего возраста. | Старший инструктор райкома. | draft |
 | `district_karasev` | Геннадий Маркович Карасёв | fixed_person | male | 30–35 лет. | Младший инструктор райкома. | draft |

@@ -31,8 +31,9 @@ class ElderAboutTests(unittest.TestCase):
         self.assertEqual(self.row['text'], TEXT)
         self.assertEqual(self.row['example'], TEXT)
         self.assertEqual(TEXT.count('.'), 2)
-        self.assertNotIn('Рябинин', TEXT)
-        self.assertNotIn('Федот', TEXT)
+        self.assertIn('бывший староста', TEXT)
+        self.assertNotIn('{person_address}', TEXT)
+        self.assertNotIn('{person_family}', TEXT)
 
     def test_translation_passport_and_initial_context(self):
         self.assertTrue(all(self.row[field].strip() for field in FIELDS))

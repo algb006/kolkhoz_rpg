@@ -1,7 +1,7 @@
 -- scene_script: 61 строк. Файл создаётся tools/story.py save —
 -- правится база, не этот дамп. Порядок строк детерминирован.
 DELETE FROM "scene_script";
-INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.count_lodge.offer', NULL, NULL, 'manual/texts/count-lodge-cellar-quest.md', 'review', 'Рябинин сообщает слух после знакомства; повтор после отказа, пока погреб запечатан. Без маркера.', 1933);
+INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.count_lodge.offer', NULL, NULL, 'manual/texts/count-lodge-cellar-quest.md', 'review', 'Староста сообщает слух после знакомства; повтор после отказа, пока погреб запечатан. Без маркера.', 1933);
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.count_lodge.opening', NULL, NULL, 'manual/texts/count-lodge-cellar-quest.md', 'review', 'Председатель и назначенный наряд у сторожки; вскрытие и находка, вывоз отдельно. В ранней сборке титульная заглушка.', 1934);
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.development.empty_school', NULL, NULL, 'manual/texts/development-quests-era-i.md#пустая-школа', 'draft', 'Две фиксированные реплики открытия квеста о поиске учителя.', 200);
 INSERT INTO "scene_script" ("scene_key", "arc_key", "story_branch_key", "source_ref", "status", "note", "sort") VALUES ('scene.development.evening_place', NULL, NULL, 'manual/texts/development-quests-era-i.md#куда-пойти-вечером', 'draft', 'Три фиксированные реплики открытия квеста об избе-читальне.', 240);

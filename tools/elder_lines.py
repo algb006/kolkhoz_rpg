@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Load authored Ryabinin scene lines into the RPG-owned story database.
+"""Load authored elder scene lines into the RPG-owned story database.
 
 This writes only rpg/db/story.db. Boss-owned design/strings databases are read
 by story.py during later validation and are never modified here.
@@ -39,10 +39,10 @@ WARNING_MEANINGS = {
 def semantic_context(scene, kind, condition):
     situation = {
         "scene.elder.first_meeting": "Председатель уже снял резервное поле и решает, как размечать село.",
-        "scene.elder.warnings": "Рябинин замечает исправимую недоработку до потери; он говорит лишь после знакомства.",
-        "scene.elder.affected_resident_question": "Житель уже поселился в построенном жилье на принятом контуре Рябинина.",
-        "scene.elder.own_name": "Председатель сослался на Рябинина перед жителем и переложил на него ответственность за своё решение.",
-        "scene.elder.restore_talk": "Председатель сам нашёл Рябинина на работе после испорченных отношений.",
+        "scene.elder.warnings": "староста замечает исправимую недоработку до потери; он говорит лишь после знакомства.",
+        "scene.elder.affected_resident_question": "Житель уже поселился в построенном жилье на принятом контуре старосты.",
+        "scene.elder.own_name": "Председатель сослался на старосту перед жителем и переложил на него ответственность за своё решение.",
+        "scene.elder.restore_talk": "Председатель сам нашёл старосту на работе после испорченных отношений.",
         "scene.elder.last_advice": "В хозяйстве работают агроном, зоотехник и счетовод; роль старого советчика окончена.",
     }[scene]
     if scene == "scene.elder.warnings" and condition in WARNING_MEANINGS:
@@ -74,11 +74,11 @@ def add_line(con, scene, suffix, speaker, text, sort, *, kind="dialogue",
         "relationship,choice_group_key,variant_key,condition_ref,text,context,"
         "meaning,intent,keep,source_ref,sort) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
         (key, scene, "scene", kind, speaker, addressee,
-         "Председатель и Рябинин: рабочее уважительное «вы», совет не приказ."
+         "Председатель и староста: рабочее уважительное «вы», совет не приказ."
          if speaker in {"elder", "chairman"} else
          "Житель спрашивает о собственном жилье без знания тайных решений.",
          group, variant, condition, text,
-         "Фактическое место работы Рябинина; одежда и инструмент берутся из партии."
+         "Фактическое место работы старосты; одежда и инструмент берутся из партии."
          if "first_meeting" in scene else
          "Сцена произносится только по зарегистрированному поводу и фактам партии.",
          meaning or situation,
@@ -94,10 +94,10 @@ def setup(con):
         "INSERT INTO character(key,kind,title,display_name,gender,age_profile,"
         "social_status,address_rule,voice,source_ref,status,sort)"
         " VALUES(?,?,?,?,?,?,?,?,?,?,?,?)",
-        ("fedot_ryabinin", "fixed_person", "Федот Кузьмич Рябинин",
-         "Федот Кузьмич Рябинин", "male", "Пожилой; точный возраст не назначен.",
+        ("elder", "fixed_person", "Бывший староста",
+         "{person_address}", "male", "Пожилой; точный возраст не назначен.",
          "Бывший староста, ныне рядовой работник колхоза.",
-         "С председателем на «вы»; «старостой» его не называют.",
+         "С председателем на «вы»; в тексте — староста, имя в карточке берётся из партии.",
          "Место и срок прежде вывода; коротко, спокойно, без загадок и приказов.",
          SOURCE, "review", 20),
     )
@@ -118,15 +118,15 @@ def setup(con):
             (scene, "chairman", "Председатель", "chairman", "chairman_avatar",
              "Возраст выбранного аватара.", "Председатель колхоза.",
              "Имеет власть, но не перекладывает решение на советчика.",
-             "К Рябинину уважительное «вы», без уменьшительных имен.", 1),
+             "К старосте уважительное «вы», без уменьшительных имен.", 1),
         )
         if scene != "scene.elder.affected_resident_question":
             con.execute(
                 "INSERT INTO cast_slot(scene_key,key,title,binding_kind,character_key,"
                 "gender_binding,age_binding,social_status,relation_note,address_rule,sort)"
                 " VALUES(?,?,?,?,?,?,?,?,?,?,?)",
-                (scene, "elder", "Федот Кузьмич Рябинин", "fixed_character",
-                 "fedot_ryabinin", "fixed_male", "Пожилой; точный возраст не назначен.",
+                (scene, "elder", "Бывший староста", "fixed_character",
+                 "elder", "fixed_male", "Пожилой; точный возраст не назначен.",
                  "Рядовой работник, прежде староста.",
                  "Советует, не распоряжается; не приходит в кабинет.",
                  "К председателю уважительное «вы».", 2),
@@ -152,8 +152,8 @@ def setup(con):
 def first_meeting(con):
     s = "scene.elder.first_meeting"
     a = lambda key, speaker, text, sort, **kw: add_line(con, s, key, speaker, text, sort, **kw)
-    a("opening.chairman", "chairman", "Федот Кузьмич?", 10)
-    a("opening.elder", "elder", "Кузьмич — верно. Староста — уже нет. Вы по разметке пришли?", 20)
+    a("opening.chairman", "chairman", "Можно теперь о разметке?", 10)
+    a("opening.elder", "elder", "Можно. Поле под застройку уже убрали?", 20)
     a("field.chairman", "chairman", "Поле снято. Теперь надо решить, где что ставить.", 30)
     a("offer.elder", "elder", "Решить — вам. Я могу показать, где поставил бы сам, и почему. Не подойдёт место — передвиньте.", 40)
     coat_branch(con)
@@ -163,7 +163,7 @@ def first_meeting(con):
     a("reply.own", "elder", "На то и председатель. Если передумаете — я на работе, не в конторе.", 61, condition="Выбран ответ answer.own.")
     a("offer.student", "elder", "На бумаге село начинается с середины листа. Здесь оно начинается с дороги. Давайте от неё и пойдём.", 70, condition="Аватар student; председатель начинает с общей схемы.", variant="offer_by_avatar")
     a("offer.villager", "elder", "Дороги вы знаете. Я покажу только, где прежний порядок уже не годится.", 71, condition="Аватар villager.", variant="offer_by_avatar")
-    a("whistle.elder", "elder", "Свисток далеко слышно. Кого зовёте — не слышно вовсе. За руками можно свистнуть. За разговором лучше подойти.", 80, condition="Председатель воспользовался свистком и затем сам пришёл к Рябинину.")
+    a("whistle.elder", "elder", "Свисток далеко слышно. Кого зовёте — не слышно вовсе. За руками можно свистнуть. За разговором лучше подойти.", 80, condition="Председатель воспользовался свистком и затем сам пришёл к старосте.")
     advice = (
         ("housing", "Шесть бараков я прижал к отводу от старой дороги. Дом в поле просторнее только пока к нему не повезли первую доску."),
         ("well", "Колодец — между дворами. Крайним всё равно ходить дальше, зато крайних не будет с одной стороны."),
@@ -185,9 +185,9 @@ def first_meeting(con):
 def coat_branch(con):
     s = "scene.elder.first_meeting"
     questions = (
-        ("villager", "Федот Кузьмич, я у церкви ваш сюртук приметил. Это тот самый, графский? С детства его не видел."),
+        ("villager", "Я у церкви ваш сюртук приметил. Это тот самый, графский? С детства его не видел."),
         ("worker", "На вас у церкви сюртук был — не рабочая вещь. Откуда он?"),
-        ("student", "Федот Кузьмич, можно спросить? Откуда у вас старинный сюртук, в котором вы меня встретили?"),
+        ("student", "Можно спросить? Откуда у вас старинный сюртук, в котором вы меня встретили?"),
         ("ex_chairman", "У церкви я приметил ваш сюртук. Как он к вам попал?"),
         ("promoted", "О сюртуке, в котором вы встречали меня у церкви: откуда эта вещь?"),
         ("old_fighter", "У церкви вы при параде стояли. Откуда сюртук?"),
@@ -198,14 +198,14 @@ def coat_branch(con):
         add_line(con, s, f"coat.question.{avatar}", "chairman", text, 42,
                  condition=f"Выбран avatar.key={avatar}; тема о сюртуке в первой встрече.",
                  variant="coat_question_by_avatar",
-                 meaning="Председатель помнит Рябинина в графском сюртуке у церкви,"
+                 meaning="Председатель помнит старосту в графском сюртуке у церкви,"
                          " но сейчас спрашивает о происхождении вещи, а не оценивает человека.",
                  intent="Открыть короткую историю усадьбы голосом выбранного аватара.",
                  keep="Вежливая дистанция и характер аватара; деревенский уже знает об усадьбе."
                       " Не делать сюртук шуткой.")
     add_line(con, s, "coat.reply.work_clothes", "elder",
              "Тот, у церкви? В революцию усадьбу разбирали всем селом. Я вынес сюртук из пустого дома. У иных в селе и теперь графские вещи в сундуках лежат. К вашему приезду надел.",
-             43, condition="На Рябинине в этот момент рабочая одежда, сюртук не надет.",
+             43, condition="На старосте в этот момент рабочая одежда, сюртук не надет.",
              variant="coat_reply_by_outfit",
              meaning="Сюртук взят из опустевшей усадьбы четырнадцать лет назад,"
                      " сохранён в сундуке и надет ради встречи нового председателя.",
@@ -214,12 +214,12 @@ def coat_branch(con):
                   " судьбу графской семьи.")
     add_line(con, s, "coat.reply.coat_worn", "elder",
              "Этот? В революцию усадьбу разбирали всем селом. Я вынес сюртук из пустого дома. У иных в селе и теперь графские вещи в сундуках лежат.",
-             43, condition="На Рябинине в этот момент графский сюртук.",
+             43, condition="На старосте в этот момент графский сюртук.",
              variant="coat_reply_by_outfit",
              meaning="Сюртук взят из опустевшей усадьбы четырнадцать лет назад;"
                      " часть прежней одежды хранится у других семей.",
              intent="Без гордости и стыда сообщить факт села, не насмехаясь над нарядом.",
-             keep="«Этот» относится к сюртуку, который сейчас на Рябинине."
+             keep="«Этот» относится к сюртуку, который сейчас на старосте."
                   " Не показывать грабёж и не придумывать судьбу графской семьи.")
 
 
@@ -253,7 +253,7 @@ def resident_and_name(con):
     a("opening.resident", "resident", "Теперь мы тут живём. Почему жильё поставили именно здесь?", 10)
     a("answer.own", "chairman", "Это моё решение. Спрашивайте с меня.", 20, kind="choice", group="answer")
     a("answer.road", "chairman", "Здесь дорога рядом. Дальше строить дороже.", 21, kind="choice", group="answer")
-    a("answer.cite_elder", "chairman", "Федот Кузьмич это место показал.", 22, kind="choice", group="answer")
+    a("answer.cite_elder", "chairman", "Это место показал бывший староста.", 22, kind="choice", group="answer")
 
     s = "scene.elder.own_name"
     a = lambda key, speaker, text, sort: add_line(con, s, key, speaker, text, sort)
@@ -281,15 +281,15 @@ def main():
         if existing:
             count = con.execute("SELECT count(*) FROM line WHERE scene_key LIKE 'scene.elder.%'").fetchone()[0]
             if existing != len(SCENES) or count not in (41, 51):
-                raise SystemExit("Корпус Рябинина отличается: автоматическая перезапись запрещена")
+                raise SystemExit("Elder corpus differs; automatic overwrite is forbidden")
             if count == 41:
                 coat_branch(con)
             coat_key = "scene.elder.first_meeting.coat.question.villager"
-            coat_old = "Федот Кузьмич, это ж графский сюртук был у вас у церкви? Я его с детства не видел."
-            coat_new = "Федот Кузьмич, я у церкви ваш сюртук приметил. Это тот самый, графский? С детства его не видел."
+            coat_old = "Это ж графский сюртук был у вас у церкви? Я его с детства не видел."
+            coat_new = "Я у церкви ваш сюртук приметил. Это тот самый, графский? С детства его не видел."
             coat_current = con.execute("SELECT text FROM line WHERE key=?", (coat_key,)).fetchone()
             if coat_current is None or coat_current[0] not in (coat_old, coat_new):
-                raise SystemExit("Вопрос деревенского о сюртуке отредактирован вручную; не перезаписываю")
+                raise SystemExit("Villager coat question was edited manually; refusing overwrite")
             if coat_current[0] == coat_old:
                 con.execute("UPDATE line SET text=? WHERE key=?", (coat_new, coat_key))
             key = "scene.elder.warnings.sowing_window"
@@ -297,7 +297,7 @@ def main():
             new = "Срок сева подходит, а поле пустое. Проверьте наряд и семена: поздний сев даст меньше урожая."
             current = con.execute("SELECT text FROM line WHERE key=?", (key,)).fetchone()
             if current is None or current[0] not in (old, new):
-                raise SystemExit("Предупреждение о севе отредактировано вручную; не перезаписываю")
+                raise SystemExit("Sowing warning was edited manually; refusing overwrite")
             if current[0] == old:
                 con.execute("UPDATE line SET text=? WHERE key=?", (new, key))
             old_conditions = {
@@ -311,7 +311,7 @@ def main():
                 line_key = f"scene.elder.warnings.{suffix}"
                 row = con.execute("SELECT condition_ref FROM line WHERE key=?", (line_key,)).fetchone()
                 if row is None or row[0] not in (old_conditions[suffix], fact):
-                    raise SystemExit(f"Условие {line_key} отредактировано вручную; не перезаписываю")
+                    raise SystemExit(f"Condition for {line_key} was edited manually; refusing overwrite")
                 if row[0] != fact:
                     con.execute("UPDATE line SET condition_ref=? WHERE key=?", (fact, line_key))
             last_key = "scene.elder.last_advice.handoff"
@@ -319,7 +319,7 @@ def main():
             last_new = "fact:three_specialists_working"
             last_row = con.execute("SELECT condition_ref FROM line WHERE key=?", (last_key,)).fetchone()
             if last_row is None or last_row[0] not in (last_old, last_new):
-                raise SystemExit("Условие последнего совета отредактировано вручную; не перезаписываю")
+                raise SystemExit("Last-advice condition was edited manually; refusing overwrite")
             if last_row[0] != last_new:
                 con.execute("UPDATE line SET condition_ref=? WHERE key=?", (last_new, last_key))
             con.execute("UPDATE scene_script SET note=? WHERE scene_key='scene.elder.warnings'",
@@ -330,7 +330,7 @@ def main():
                 " WHERE scene_key LIKE 'scene.elder.%' AND key NOT LIKE 'scene.elder.first_meeting.coat.%'"):
                 meaning, intent = semantic_context(scene, kind, condition)
                 con.execute("UPDATE line SET meaning=?,intent=? WHERE key=?", (meaning, intent, key))
-            print("51 строка Рябинина на месте; ветка сюртука и поля для переводчика обновлены")
+            print("51 elder lines present; coat branch and translation metadata updated")
             return
         setup(con)
         first_meeting(con)
@@ -338,9 +338,9 @@ def main():
         resident_and_name(con)
         broken = con.execute("PRAGMA foreign_key_check").fetchall()
         if broken:
-            raise ValueError(f"Битые внешние ключи: {broken}")
+            raise ValueError(f"Broken foreign keys: {broken}")
         total = con.execute("SELECT count(*) FROM line WHERE scene_key LIKE 'scene.elder.%'").fetchone()[0]
-    print(f"Шесть сцен Рябинина, {total} строк; условия новых предупреждений — черновик")
+    print(f"Six elder scenes, {total} lines; new warning conditions remain draft")
 
 
 if __name__ == "__main__":
