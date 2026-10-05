@@ -258,7 +258,7 @@ another English name.
 
 | Parameter | Value |
 |---|---|
-| **Map** | 10 × 10 km |
+| **Map** | 12 × 12 km = 14,400 ha |
 | **Start** | 80 residents, 21 yards, 160 ha of arable land, disrepair |
 | **Growth targets** | 500 residents by Epoch II, 1500 by Epoch III |
 | **Game days** | Four per month, 24 game hours each |
