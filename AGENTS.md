@@ -228,7 +228,7 @@ and what must not be done. The established format that saves a round trip:
 | Principle | |
 |---|---|
 | **Do not model what creates no decisions** | Do not build narrative around something the player cannot decide |
-| **Living signals instead of numbers** | Village conditions are visible in the world, not on a dashboard |
+| **The world conveys the main news without opening panels (live signals)** | Exact numbers are all open in windows and the office; facts are hidden, not metrics. See [live signals](../manual/design/presentation/live-signals.md) and [metrics §15](../manual/design/people/metrics.md#15-как-это-показывать-игроку) |
 | **No inescapable situations** | Problems must be preventable |
 | **Do not punish the unforeseeable** | Otherwise the result is resentment, not difficulty |
 | **People are not resources** | They have limits of their own |
