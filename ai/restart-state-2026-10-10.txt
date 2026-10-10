@@ -1,0 +1,49 @@
+RPG / Sol — stopped for the VM reboot, 10 October 2026
+
+In hand: nothing unfinished. Latest content/rule delivery before this checkpoint:
+49770fd, live signals are a channel; numeric metrics remain open.
+The feed convention review is finished in mailbox thread
+boss-rpg-event-feed-string-keys-2026-10-10, RPG move 6.
+No feed strings, place forms, new TTS/API calls or heavy jobs started.
+
+Next, in order:
+1. READ boss's first post-restart parcel BEFORE using the mailbox helper.
+   The mailbox is moving to a SQLite index; thread text remains the exchange
+   record. Until boss changes the procedure, old commands remain valid.
+2. Await the entered feed registry columns and an explicit string assignment.
+   First batch: the three labour-allocation reports. Missing place .at forms
+   are ordered only from observed use, not as a blind batch of 38.
+3. Before writing, read final registry and host's current parameter contract.
+
+Accepted feed decisions:
+- namespace feed, roster keys, instance before folded/folded_more;
+  no .back: recovery has its own registered event.
+- family: ready plural nominative surname label, no added word for family;
+  bracketed head given name only for duplicate household surname labels.
+  Remaining caveat sent to boss: unrelated families cannot share surnames
+  under names.md; related heads can share given names too. Bind by family id.
+- unit+place: {unit}{place}, no authored separator; place is a ready locative
+  phrase including leading space, or empty. Both renderings must read well.
+- amount unit and count semantics are registry fields; plural selection from
+  amount/count allowed, locale formats decimals, names deduplicated.
+- stores_spoiled_month: up to three resource names plus monthly total tonnes;
+  limit credits and expiry separate; complete versus truncated list explicit.
+- service keys and_more/list_separator are guard exceptions.
+- reports give no advice; no resident death-from-hunger cause or invented
+  hidden facts. Five elder warning rows remain frozen/feed=none.
+
+Other standing boundaries:
+- quests/hints beyond starting construction remain frozen; voice work closed.
+- starosta_met and the three RPG references remain unchanged until boss
+  authorizes the coordinated registry/runtime rename.
+- notify boss BEFORE delivering the first script whose scene branch opens a
+  talk: this triggers host's deferred reports-format-5 work (not the feed save).
+- heavy computation belongs on m22; measure free -m available before launch;
+  swap is not headroom. No heavy RPG job active at stop.
+- edit only RPG, shared mailbox and own authorized temporary paths; no foreign
+  database writes. Inter-role/internal text English; player/human text Russian.
+
+Completed imports: sixteen pocketbook.elder keys and directory.elder.about;
+old UI keys deprecated, retired-key TSV rows retained as migration provenance.
+Directory id20399 rev1 approved_rev NULL at last check; inherited-stock source
+context imported. Accepted audio unchanged.
