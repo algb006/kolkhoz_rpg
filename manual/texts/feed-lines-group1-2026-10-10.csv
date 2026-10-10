@@ -89,6 +89,8 @@ draft,feed.felling_mark_released,,base,"Делянка{place}: разметку 
 draft,feed.night_trader_caught,,base,"{person_family}: ночной промысел обнаружен.",person_family,Only on the discovery event; no arrest or unbound trade kind
 draft,feed.district_offer_answered,,base,"Ответ на предложение района передан.",,Does not invent acceptance or refusal from an unregistered answer field
 draft,feed.era_advance_ordered,,base,"Переход к новой эпохе назначен.",,Does not claim transition completed
+draft_service,feed.and_more,,service,"И ещё {count} {count}|plural(one=строка,few=строки,many=строк,other=строки) — в журналах.",count,Overflow tail; count is omitted logical feed lines not people or the total underlying event entries
+draft_service,feed.list_separator,,service,", ",,Exactly comma plus one trailing space; join distinct names with no final separator; do not trim this text
 excluded,wedding,,,"",,Own coverage list [2] section 3; revised bride/family binding awaits explicit inclusion
 excluded,herd_died,,,"",,Own coverage list [2] section 3; per-instance month fold awaits its binding and assignment
 excluded,order_refused,,,"",,Own coverage list; missing registered order and refusal-reason labels
@@ -108,7 +110,8 @@ excluded_instance,resident_died,child,,"",,feed_instances.csv sets feed=none; ch
 excluded_instance,district_visit,junior_miss,,"",,Registered but never computed in the current core contract
 excluded_instance,district_visit,reception,,"",,Registered visit kind is STUB and never raised
 excluded_instance,district_visit,gift,,"",,Registered visit kind is STUB and never raised
-summary,group1_written,,,"",,V2: 70 event rows covered by 90 draft strings: 76 base/instance lines and 14 folded variants
+summary,group1_written,,,"",,V2 event corpus: 70 event rows covered by 90 strings: 76 base/instance lines and 14 folded variants; imported in main d22106d7
+summary,group1_service_draft,,,"",,Two newly drafted service exceptions: feed.and_more and feed.list_separator; not event-roster rows; awaiting import
 summary,group1_excluded,,,"",,V2: 15 whole event rows excluded: 14 from the earlier coverage list and unraised barter_day
 summary,group1_excluded_instances,,,"",,Four individual instances excluded: child death and three district-visit STUB values; other values of those event kinds are covered
 summary,group1_out_of_scope,,,"",,All 24 fact and 30 new rows excluded by assignment; no labour-event strings or service keys authored
@@ -122,4 +125,5 @@ change_log,v2_hidden_quantities,,,"",,Removed amount from sugar_stolen and store
 change_log,v2_newly_unblocked,,,"",,Added eight strings for four ruled event kinds: two resident-alcoholism instances; two settlement-alcoholism instances; number-free plan revision; household surplus-slaughter base and fold pair
 change_log,v2_scope_correction,,,"",,Earlier suspected surplus-slaughter contradiction resolved: household-farming permits private-yard young-stock slaughter; prohibition concerns kolkhoz unit capacity
 change_log,v2_confirmations,,,"",,Retained the four player-act confirmation kinds as boss ruled; district_offer_answered remains a short number-free confirmation without inventing an unregistered accept/refuse string instance
-change_log,v2_no_import,,,"",,Draft only; no database writes or voice; remaining 15 exclusions and four excluded instances preserved
+change_log,v2_no_import,,,"",,V2 delivery did not write databases or voice; boss subsequently imported its 90 strings in main d22106d7; remaining 15 exclusions and four excluded instances preserved
+change_log,service_completion,,,"",,Boss [5] ordered the two service exceptions; 90 imported event texts retained byte-for-byte; read-only database comparison passed 90/90
