@@ -13,43 +13,47 @@ draft,feed.field_lost,,base,"Поле{place}: урожай остался под
 draft,feed.herd_born,,base,"{herd}: приплод — {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).",herd;amount,
 draft,feed.herd_born.folded,,folded,"Приплод за месяц — {count} {count}|plural(one=голова,few=головы,many=голов,other=головы). Стада: {names}.",count;names,Count means heads not entries; no duplicate amount
 draft,feed.herd_born.folded_more,,folded_more,"Приплод за месяц — {count} {count}|plural(one=голова,few=головы,many=голов,other=головы). Стада: {names}…",count;names,
-draft,feed.walk_off,,base,"{person_family}: работа прервана из-за усталости.",person_family,No accusation of refusal
-draft,feed.walk_off.folded,,folded,"Уход с работы из-за усталости: {count} {count}|plural(one=житель,few=жителя,many=жителей,other=жителя). Имена: {names}.",count;names,
-draft,feed.walk_off.folded_more,,folded_more,"Уход с работы из-за усталости: {count} {count}|plural(one=житель,few=жителя,many=жителей,other=жителя). Имена: {names}…",count;names,
-draft,feed.ration_issued,,base,"{family}: выдан страховой паёк.",family,
+draft,feed.walk_off,,base,"{person_family}: уход с работы от усталости.",person_family,No accusation of refusal; same event wording as both folds
+draft,feed.walk_off.folded,,folded,"Уход с работы от усталости: {count} {count}|plural(one=житель,few=жителя,many=жителей,other=жителя). Имена: {names}.",count;names,
+draft,feed.walk_off.folded_more,,folded_more,"Уход с работы от усталости: {count} {count}|plural(one=житель,few=жителя,many=жителей,other=жителя). Имена: {names}…",count;names,
+draft,feed.ration_issued,,base,"{family}: выдан минимальный паёк.",family,
 draft,feed.year_closed,,base,"Хозяйственный год закрыт.",,The raw amount is a year; the registry permits no displayed number here
 draft,feed.unit_built.dwelling,dwelling,base,"{unit}{place}: строительство завершено.",unit;place,Placement instance registered even though the base colour is positive
 draft,feed.unit_built.other,other,base,"{unit}{place}: строительство завершено.",unit;place,
-draft,feed.unit_demolished,,base,"{unit}{place}: разборка завершена.",unit;place,Host must retain the removed unit label; protected sacred places are not dismantlable
+draft,feed.unit_demolished,,base,"{unit}{place}: разобрали.",unit;place,Host must retain the removed unit label; protected sacred places are not dismantlable
 draft,feed.unit_repaired,,base,"{unit}{place}: ремонт завершён.",unit;place,
 draft,feed.unit_collapsed,,base,"{unit}{place}: обвал здания.",unit;place,No injuries or victims inferred; retained label required
 draft,feed.horses_stabled,,base,"Лошади переведены на конный двор: {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).",amount,
 draft,feed.night_pasture_began,,base,"Первый выход лошадей в ночное: {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).",amount,Event carries no herd subject
 draft,feed.plan_met,,base,"Годовой план выполнен.",,
 draft,feed.plan_failed,,base,"Годовой план не выполнен.",,
-draft,feed.plan_trial_due,,base,"Невыполнение плана стало основанием для разбирательства в районе.",,No court result or removal inferred
+draft,feed.plan_trial_due,,base,"Число сорванных годовых планов достигло предела, установленного районом.",,Only the reached condition; no proceeding or verdict announced
 draft,feed.field_removed,,base,"Поле{place}: участок исключён из пашни.",place,Removed field needs retained locative or empty
 draft,feed.wedding_awaits_house,,base,"{person_family}: свадьба отложена — нет свободного дома.",person_family,Names the carried resident without assuming gender; does not name an unbound groom
-draft,feed.family_in_tent,,base,"{family}: временное жильё — шалаш.",family,
-draft,feed.family_left_for_no_house,,base,"{family}: отъезд из-за отсутствия жилья. В семье {amount} {amount}|plural(one=человек,few=человека,many=человек,other=человека).",family;amount,
+draft,feed.family_in_tent,,base,"{family}: живут в палатке на своём участке.",family,
+draft,feed.family_left_for_no_house,,base,"{family}: уехали из колхоза — зимовать негде. Всего {amount} {amount}|plural(one=человек,few=человека,many=человек,other=человека).",family;amount,Amount counts members who left; not total family size
 draft,feed.extraction_site_exhausted,,base,"Место добычи{place}: запас исчерпан. Материал — {resource}.",place;resource,Site id is carried in raw amount; do not show it as a quantity
 draft,feed.district_visit_announced,,base,"До планового приезда из района — {amount} {amount}|plural(one=сутки,few=суток,many=суток,other=суток).",amount,Requires registered days conversion from notice interval; raw event amount packs visit data
-draft,feed.district_visit.discrepancy,discrepancy,base,"Районная проверка: запасы выше разрешённого предела.",,Finding is surplus above the accumulation limit; not an invented shortage
+draft,feed.district_visit.discrepancy,discrepancy,base,"Районная проверка: на складах излишек сверх лимита накопления.",,Finding is surplus above the accumulation limit; not an invented shortage
 draft,feed.district_visit.extraordinary,extraordinary,base,"Внеочередной приезд из района.",,
 draft,feed.district_visit.regular,regular,base,"Плановый приезд из района.",,No claim about all possible violations; selected when found is none
 draft,feed.pupil_enrolled,,base,"{person_family}: начало учёбы. Школа — {unit}{place}.",person_family;unit;place,
 draft,feed.pupil_enrolled.folded,,folded,"Начало учёбы: {count} {count}|plural(one=ученик,few=ученика,many=учеников,other=ученика). Имена: {names}.",count;names,
 draft,feed.pupil_enrolled.folded_more,,folded_more,"Начало учёбы: {count} {count}|plural(one=ученик,few=ученика,many=учеников,other=ученика). Имена: {names}…",count;names,
 draft,feed.pupil_left_school,,base,"{person_family}: больше не учится в школе.",person_family,Does not claim graduation or a completed education stage
-draft,feed.store_leak_complaint,,base,"Поступила жалоба на недостачу сырья на складах: {amount} т за месяц.",amount,No thief identity or resource split carried
+draft,feed.store_leak_complaint,,base,"Люди жалуются: со складов пропадает сырьё.",,No hidden discrepancy size before stocktaking; no thief identity
+draft,feed.alcoholism_band_crossed.up,up,base,"{person_family}: алкоголизм поднялся выше отметки {amount} %.",person_family;amount,Amount is the crossed 20/40/60 mark; not the current metric value
+draft,feed.alcoholism_band_crossed.down,down,base,"{person_family}: пьёт меньше.",person_family,No crossed downward mark inferred from the lower edge of the new band
 draft,feed.unit_insulated,,base,"{unit}{place}: утепление завершено.",unit;place,
 draft,feed.mts_column_arrived,,base,"Колонна МТС прибыла в колхоз.",,
 draft,feed.mts_column_left,,base,"Колонна МТС уехала. Обработано {amount} га.",amount,
-draft,feed.mts_column_not_arrived,,base,"Колонна МТС не прибыла: полевой стан не был готов к сроку.",,Cause is the absent field camp in the event contract
+draft,feed.mts_column_not_arrived,,base,"Колонна МТС не пришла: к сроку не было полевого стана.",,Cause is the absent field camp in the event contract
 draft,feed.stock_handed_over,,base,"{herd}: передача скота району — {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).",herd;amount,
 draft,feed.electrification_unlocked,,base,"Район начал электрификацию: колхоз получил разрешение строить свою сеть.",,Not a claim that the village already has power
 draft,feed.fire_broke,,base,"{unit}{place}: начался пожар.",unit;place,No destruction or extinction outcome inferred
-draft,feed.hygiene_disease,,base,"{person_family}: из-за грязи возникли проблемы со здоровьем.",person_family,No invented diagnosis; event marks hygiene-related harm
+draft,feed.hygiene_disease,,base,"{person_family}: хворь от грязи.",person_family,No invented diagnosis; illness stays off-screen
+draft,feed.settlement_alcoholism_crossed.up,up,base,"Средний алкоголизм в селе поднялся выше отметки {amount} %.",amount,Host renders the positive magnitude of the crossed mark; not the measured average
+draft,feed.settlement_alcoholism_crossed.down,down,base,"Средний алкоголизм в селе опустился ниже отметки {amount} %.",amount,Host renders absolute raw amount; not a negative percent or current average
 draft,feed.store_leak_closed_dry_month,,base,"На складах месяц без утечки сырья.",,Does not name undiscovered distillers or claim all crime ended
 draft,feed.limit_goods_at_the_gate,,base,"Районная подвода ждёт у ворот: на складах нет места для груза. {resource} — {amount} т.",resource;amount,Destination stores may be absent or full; no spoilage inferred
 draft,feed.district_took_from_field,,base,"Район забрал урожай из полевых куч в счёт плана. {resource} — {amount} т.",resource;amount,
@@ -59,6 +63,7 @@ draft,feed.trip_returned,,base,"Председатель снова в колх�
 draft,feed.trip_cancelled,,base,"Поездка в район отменена из-за метели.",,
 draft,feed.summon_letter,,base,"Получен вызов председателя в район.",,No unbound summons date or cause
 draft,feed.summon_postponed,,base,"Из-за метели вызов в район перенесён на следующие сутки.",,Event contract gives a one-day postponement
+draft,feed.plan_traded,,base,"В районе пересмотрели план. Продукция — {resource}.",resource,Number-free for both a changed target and a replaced position
 draft,feed.twins_born,,base,"{family}: родились близнецы.",family,No second resident placeholder inferred from raw id
 draft,feed.ambulance_sent,,base,"{person_family}: ожидается районная скорая помощь.",person_family,Dispatch may be held by blizzard; do not claim the car already left
 draft,feed.ambulance_at_house,,base,"{person_family}: прибыла районная скорая помощь.",person_family,No treatment outcome or return date inferred
@@ -68,16 +73,19 @@ draft,feed.planting_matured,,base,"Лесные посадки{place}: дере�
 draft,feed.herd_males_culled,,base,"{herd}: забой лишних самцов — {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).",herd;amount,Ledger only; no on-screen slaughter
 draft,feed.herd_males_culled.folded,,folded,"Забой лишних самцов за месяц — {count} {count}|plural(one=голова,few=головы,many=голов,other=головы). Стада: {names}.",count;names,
 draft,feed.herd_males_culled.folded_more,,folded_more,"Забой лишних самцов за месяц — {count} {count}|plural(one=голова,few=головы,many=голов,other=головы). Стада: {names}…",count;names,
+draft,feed.herd_surplus_slaughtered,,base,"Личный двор: {herd} — забой лишнего молодняка, {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).",herd;amount,Household herd only; no kolkhoz-capacity slaughter or reproach
+draft,feed.herd_surplus_slaughtered.folded,,folded,"В личных дворах за месяц забили лишний молодняк: {count} {count}|plural(one=голова,few=головы,many=голов,other=головы). Стада: {names}.",count;names,Count is heads; private herds only
+draft,feed.herd_surplus_slaughtered.folded_more,,folded_more,"В личных дворах за месяц забили лишний молодняк: {count} {count}|plural(one=голова,few=головы,many=голов,other=головы). Стада: {names}…",count;names,Count is heads; private herds only
 draft,feed.herd_autumn_slaughter,,base,"Осенний забой свиней: {herd} — {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).",herd;amount,Ledger only; no on-screen slaughter
-draft,feed.winter_sowing_lost,,base,"Поле{place}: срок сева озимых пропущен.",place,Not a crop killed by frost; no crop field bound from the raw CropId yet
+draft,feed.winter_sowing_lost,,base,"Поле{place}: озимые в срок не посеяны — в этом году участок пустует.",place,Not a crop killed by frost; no crop field bound from the raw CropId yet
 draft,feed.road_work_finished,,base,"Дорожные работы{place} завершены.",place,No invented road-name placeholder or surface type
 draft,feed.road_demolished,,base,"Участок дороги{place} разобран.",place,Retained removed-road location or empty
 draft,feed.herd_froze,,base,"{herd}: падёж от холода — {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).",herd;amount,Animals only; no scene of death
 draft,feed.barter_worth_starting,,base,"У жителей появились излишки для обмена.",,Reports the reached condition; no instruction to build a counter
-draft,feed.sugar_stolen,,base,"Со складов похищен сахар: {amount} т.",amount,No resident or single-store label: theft total covers all stores and culprit is hidden
+draft,feed.sugar_stolen,,base,"Со складов пропал сахар.",,No quantity or culprit named; does not single out one store
 draft,feed.herd_went_hungry,,base,"{herd}: началась бескормица. В стаде {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).",herd;amount,New episode; not a daily repeated condition or a death report
 draft,feed.plan_winter_moved,,base,"Часть плана по озимым перенесена на яровые. {resource} — {amount} т.",resource;amount,Amount is the transferred winter position not a new harvest target
-draft,feed.felling_mark_released,,base,"Делянка{place}: разметка рубки снята — участок недоступен для работ.",place,No timber amount or internal deadline printed; does not invent which transport leg failed
+draft,feed.felling_mark_released,,base,"Делянка{place}: разметку рубки сняли — людей туда отправить не смогли. Что успели срубить, осталось на месте.",place,No access ban or lost logs inferred; no claim that the stand was necessarily partly felled
 draft,feed.night_trader_caught,,base,"{person_family}: ночной промысел обнаружен.",person_family,Only on the discovery event; no arrest or unbound trade kind
 draft,feed.district_offer_answered,,base,"Ответ на предложение района передан.",,Does not invent acceptance or refusal from an unregistered answer field
 draft,feed.era_advance_ordered,,base,"Переход к новой эпохе назначен.",,Does not claim transition completed
@@ -95,20 +103,23 @@ excluded,family_lodged,,,"",,Own coverage list; second-household binding not ord
 excluded,organizer_changed,,,"",,Own coverage list; missing registered organizer-post label
 excluded,urgent_load_waits,,,"",,Own coverage list; missing registered cargo/task identity
 excluded,lamp_turned_red,,,"",,Own coverage list; missing registered alarm title binding
-excluded,alcoholism_band_crossed,,,"",,Raw amount is the lower band edge not the current alcoholism metric; direction and actual percent binding require host confirmation
-excluded,settlement_alcoholism_crossed,,,"",,Raw signed amount is a crossed boundary not the current village average; actual metric versus public boundary wording needs boss/host ruling
-excluded,plan_traded,,,"",,Raw amount zero also means replacement; closed contract lacks replacement resource/decision variant to report this truthfully
-excluded,herd_surplus_slaughtered,,,"",,Core contract promises slaughter above yard capacity; tone section 4 cites livestock rule forbidding this; contradiction needs boss ruling before authoring
 excluded,barter_day,,,"",,events.csv marks raised=no; presence in the roster does not establish a live emitter
 excluded_instance,resident_died,child,,"",,feed_instances.csv sets feed=none; child death has no feed line
 excluded_instance,district_visit,junior_miss,,"",,Registered but never computed in the current core contract
 excluded_instance,district_visit,reception,,"",,Registered visit kind is STUB and never raised
 excluded_instance,district_visit,gift,,"",,Registered visit kind is STUB and never raised
-summary,group1_written,,,"",,66 event rows covered by 82 draft strings: 70 base/instance lines and 12 folded variants
-summary,group1_excluded,,,"",,19 whole event rows excluded: 14 from the earlier coverage list and 5 additional verified contract or emitter issues
+summary,group1_written,,,"",,V2: 70 event rows covered by 90 draft strings: 76 base/instance lines and 14 folded variants
+summary,group1_excluded,,,"",,V2: 15 whole event rows excluded: 14 from the earlier coverage list and unraised barter_day
 summary,group1_excluded_instances,,,"",,Four individual instances excluded: child death and three district-visit STUB values; other values of those event kinds are covered
 summary,group1_out_of_scope,,,"",,All 24 fact and 30 new rows excluded by assignment; no labour-event strings or service keys authored
 binding_check,district_visit_announced,,,"",amount,Host must supply the registered days interval rather than render the packed raw visit amount
 binding_check,unit_demolished;unit_collapsed;field_removed;road_demolished,,,"",unit;place,Host must retain removed subject labels or location forms before deletion; optional place remains empty when unavailable
 binding_check,field_harvested;field_lost;extraction_site_exhausted;forest_planted;planting_matured;winter_sowing_lost;road_work_finished;road_demolished;felling_mark_released,,,"",place,Use only the row-bound named-place locative; no field/stand/site/road name placeholder invented
-binding_check,herd_born;herd_males_culled,,,"",names;count,Monthly names must be herd subject labels; count is summed heads not event count
+binding_check,herd_born;herd_males_culled;herd_surplus_slaughtered,,,"",names;count,Monthly names must be herd subject labels; count is summed heads not event count
+binding_check,settlement_alcoholism_crossed,,,"",amount,Host supplies the absolute magnitude of the signed crossed mark; the text does not calculate it
+change_log,v2_review_fixes,,,"",,Boss [3] review: 14 existing strings in 12 event rows corrected; walk_off uses identical departure wording in base and both folds
+change_log,v2_hidden_quantities,,,"",,Removed amount from sugar_stolen and store_leak_complaint; family_left_for_no_house now counts members who left
+change_log,v2_newly_unblocked,,,"",,Added eight strings for four ruled event kinds: two resident-alcoholism instances; two settlement-alcoholism instances; number-free plan revision; household surplus-slaughter base and fold pair
+change_log,v2_scope_correction,,,"",,Earlier suspected surplus-slaughter contradiction resolved: household-farming permits private-yard young-stock slaughter; prohibition concerns kolkhoz unit capacity
+change_log,v2_confirmations,,,"",,Retained the four player-act confirmation kinds as boss ruled; district_offer_answered remains a short number-free confirmation without inventing an unregistered accept/refuse string instance
+change_log,v2_no_import,,,"",,Draft only; no database writes or voice; remaining 15 exclusions and four excluded instances preserved
