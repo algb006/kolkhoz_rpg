@@ -22,6 +22,20 @@ BOSS = ROOT.parent / 'claude/mailbox/boss-rpg-portrait-rev3-accepted-2026-10-11.
 STATUS = 'accepted_source_for_human_heard_office_portrait_rev3'
 
 
+def boss_block():
+    """The authoritative move survives the normal archival of its thread."""
+    paths = [BOSS] if BOSS.exists() else sorted((BOSS.parent / 'trash').glob(f'{BOSS.stem}.*.md'))
+    blocks = set()
+    for path in paths:
+        match = re.search(rb'<!-- MSG seq=1 from=boss to=rpg .*?<!-- /MSG seq=1 -->',
+                          path.read_bytes(), re.S)
+        if match:
+            blocks.add(match[0])
+    if len(blocks) != 1 or '«принимаю»'.encode() not in next(iter(blocks), b''):
+        raise ValueError('Missing or inconsistent boss-relayed human acceptance')
+    return blocks.pop()
+
+
 def prepare():
     """Validate canonical text, hearing provenance and all outputs before writing."""
     row = next(r for r in source_rows('portrait') if r['key'] == KEY)
@@ -30,10 +44,7 @@ def prepare():
     receipt, receipt_bytes = read_document(SOURCE / f'{KEY}.json')
     hearing, hearing_bytes = read_document(EVIDENCE / 'hearing-acceptance.json')
     runtime, _ = read_document(EVIDENCE / 'runtime-manifest.json')
-    block = re.search(rb'<!-- MSG seq=1 from=boss to=rpg .*?<!-- /MSG seq=1 -->',
-                      BOSS.read_bytes(), re.S)
-    if not block or '«принимаю»'.encode() not in block[0]:
-        raise ValueError('Missing exact boss-relayed human acceptance')
+    block = boss_block()
     if (hearing.get('date') != DATE or hearing.get('human_quote') != 'принимаю'
             or hearing.get('key') != KEY or hearing.get('rev') != 3):
         raise ValueError('Hearing receipt is for another date, key or revision')
@@ -74,7 +85,7 @@ def prepare():
                                     scope='office_portrait_promoted_rev3',
                                     basis='human_heard_sound_master_not_unprocessed_source_playback',
                                     boss_receipt='boss-rpg-portrait-rev3-accepted-2026-10-11#1',
-                                    boss_block_sha256=digest(block[0]),
+                                    boss_block_sha256=digest(block),
                                     sound_receipt=str(EVIDENCE / 'hearing-acceptance.json'),
                                     sound_receipt_sha256=digest(hearing_bytes),
                                     original_receipt_sha256=digest(receipt_bytes),
