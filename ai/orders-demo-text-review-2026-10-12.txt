@@ -1,5 +1,10 @@
 Task #587 text gate
 
+Update after boss move 17: active unified CSV now has 38 rows, adding eight existing enter.<avatar> rev1 to rev2 proposals. Read look's office599-night588-entry-badges-and-first-action verdict: existing attention marks identify items, all required marks appear together, inspection order stays free; no mandatory first item, route or new marker was ordered. Exact entry text: Вот мой новый кабинет. Отмеченные вещи можно осмотреть в любом порядке.
+Alternative considered: Вот мой новый кабинет. Осмотрю отмеченные вещи — начну с любой. Selected wording describes permission without prescribing that the chairman must start an action right now. It preserves the approved first sentence and adds one simple instruction, no name, gendered self-reference or speech substitution.
+Entry review passes: facts/causality — describes existing marked inspections, no unseen room contents; cast/gender — one neutral literal text fits the eight factual avatar profiles below; register — simple Russian, no technical UI vocabulary or joke; voice/semantic read-through — marked things are examinable and their order is free. This requested orientation sentence is not an added tutorial window or quest. The actual timing/visibility of marks is UE's duty; the static review does not prove a correct packaged first click.
+Recording gate now covers 24 approved-revision replacements (enter, notebooks, journal), pending boss approval/import. Prior 16-target count below is the earlier package history. No take has been produced for any of these proposals.
+
 Update after boss move 15: the nine paper/book strings are approved; the former short notebooks proposal below is superseded BEFORE recording. Active unified source is manual/texts/orders-clerk-journal-demo-2026-10-12.csv: 9 approved paper/book rows, 16 proposed existing thought-key rev2 replacements, 3 candidate-card strings, the assignment counter and first incoming Journal row. No candidate-card voice or extra notebook trigger.
 
 Combined notebooks drafts:
