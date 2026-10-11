@@ -1,5 +1,7 @@
 Task #598: proposal delivery, not canonical acceptance
 
+Decision update, sweep thread [2]: boss approved every after except ui.office.own.black_cash, whose original Чёрная касса is retained. All four other office-term choices and five new keys/bindings are approved. journal.tick game-time formatting belongs to UE; the after-October winter event check belongs to core; hint_41 follows the accepted metrics.md §7 cap. CSV/sheet now record approved wording, not completed import. Original submitted proposals remain in commit 4254b84. Historical baseline/source revisions are not resnapshotted while boss imports. #594 explicitly advanced; #587/#592 remain on hearing/masters.
+
 Authority: boss-rpg-orders-demo-texts-2026-10-11 [11] assigns the sweep; [23] explicitly advances RPG past #587/#592, whose hearing/master gates remain open. #594 follows this sweep. No new quest/hint, TTS, mechanic, shared DB write or own story text revision.
 
 Deliverables: manual/texts/string-sweep-598-2026-10-12.csv (keyed baseline/proposal, rev, origin, source table/key/column, route, bindings, design basis and decision notes); same-basename .txt is the Russian before/after sheet. tools/string_sweep_598.py builds the snapshot read-only and rejects lost/added existing placeholders or exceeded max_len. All rows are proposals, never approved import receipts.

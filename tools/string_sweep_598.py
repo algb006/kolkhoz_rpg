@@ -114,6 +114,10 @@ def snapshot():
 
 
 def main():
+    if BASE.with_suffix('.csv').exists():
+        with BASE.with_suffix('.csv').open(newline='', encoding='utf-8') as existing:
+            if any(r['status'].startswith('approved') for r in csv.DictReader(existing)):
+                raise ValueError('Refusing to overwrite approved delivery with a new snapshot')
     source = snapshot()
     records = []
     for key, after in REPLACEMENTS.items():
