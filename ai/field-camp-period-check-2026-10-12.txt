@@ -1,4 +1,9 @@
 Field-camp period check — reply to boss, 12 October 2026
+CURRENT DISPOSITION: boss [2] withdrew the period check while the reply to [1]
+was being prepared. Human decision: «Полевой стан делаем жерди и солома»
+(English gloss: the camp uses poles and straw). The tent preference below is
+superseded research history, not an active visual recommendation. Only the
+player sentence remains delivered content. Correction sent as thread [4].
 HIGH: contemporary Moshkovsky kolkhoznik, 26 December 1933, p.1, describes an actual camp with two small huts and two-tier communal sleeping platforms; this proves huts, not one universal camp standard: https://lib.tsu.ru/mminfo/2022/000416336/1933/1933_052.pdf
 MEDIUM: the 12 May 1933 article 'Brigadnyi stan v pole' recommends tents OR temporary barracks/huts: https://nbdrx.ru/pdf/mkfilm/m1933001077.pdf (indexed text read; full fetch refused at 53 MB).
 Those recommendations establish period options, not prevalence in 1931; the extract does not establish canvas specification or straw/brushwood wall construction.
