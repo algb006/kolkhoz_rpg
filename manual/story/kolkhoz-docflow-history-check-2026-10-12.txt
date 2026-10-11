@@ -1,0 +1,54 @@
+Document-flow words: historical check for boss, task #594
+12 October 2026. Internal research report, not in-game text or an amendment to mechanics.
+
+OUTCOME
+Keep the accepted demo's word письмо. Primary archival descriptions support correspondence, applications, sowing summaries and circulars in early-1930s kolkhoz records. They do NOT establish the game's exact single journal, two tabs, annual reset, status vocabulary or automatic registration as a universal 1931 kolkhoz procedure. These remain accepted game adaptations, not an authenticated form.
+
+One proposed wording correction needs boss's decision: office.md §18 and econ's draft cite «на Ваш вх. № 14». That can confuse the sender's document number with our own incoming-registration number. Prefer «В ответ на письмо …» if only our registration reference exists; use «На Ваш № …» only when the sender's number is actually available. Do not invent a sender number or change the linkage mechanics.
+
+EVIDENCE AND ITS LIMITS
+
+S1 — official archival inventory, read in full through the web PDF extraction:
+https://gosarhivrme.ru/sites/default/files/opisi/R247_op1.pdf
+State Archive of Mari El, fond R-247, inventory 1, agricultural artel, records 1930–1933. Inventory page 2 lists file 9, correspondence concerning members' spring seed contributions (1930–1931). Page 3: file 20, spring-sowing summaries (1931); file 21, residents' applications to the board (1931–1932); file 29, village-council circulars (1932–1933). Page 4: files 33/45, applications to the board/for joining (1932/1933). These prove catalogued document categories, not the literal headers, registration stamps or mandatory forms of the underlying files. They are local evidence, not a nationwide instruction.
+
+S2 — primary 1930 circular, searchable transcription read, including archival provenance:
+https://istmat.org/node/31815
+23 October 1930, reproduced from a documentary edition, volume 2, p. 692; original cited as RGAE fond 7486, inventory 1, file 9, leaves 73–73 ob. It addresses district land departments and kolkhoz unions and explicitly discusses applications to join an artel, board consideration and general-meeting confirmation. This establishes циркуляр and заявление in the relevant administrative context. It does not establish a uniform incoming register at every individual kolkhoz. Its historical deadline and governing bodies do not override the game's accepted calendar or resident-request rules.
+
+S3 — period telephonogram catalogue lead, metadata/index excerpt only; body unavailable:
+https://docs.historyrussia.org/ru/nodes/441751
+The historical-document library labels a communication dated not earlier than 16 October 1931 as Телефонограмма. This is evidence for a period document category in higher-level administration, NOT proof of a standard village telephone-message blank or that a phone call automatically became a written telephonogram. Retain the game's term conditionally for a recorded message conveyed by telephone; ordinary speech over the telephone is not itself a document. This last distinction is a semantic recommendation, not an authenticated 1931 village instruction.
+
+S4 — reply-number specimen lead, search-index text only; full body unavailable:
+https://istmat.org/node/61457
+A letter dated 25 February 1931 has the indexed heading fragment «На Ваш № 75/с-13/II—31 г.». It is not a kolkhoz letter. It supports a modest phrase lead, not a universal mandatory reply rule. The report's objection to «Ваш вх.» is chiefly a reference-ownership inference: the number recorded as incoming by the receiver is not automatically the sender's own number. No historical template or additional game binding is claimed from this fragment.
+
+S5 — bibliographical lead for reports, catalogue/index only; book not read:
+https://search.rsl.ru/ru/record/01009019401
+The Russian State Library identifies a Kolhoztsentr instruction for compiling the kolkhoz annual report for 1930, published 1930. It confirms the existence/topic of that edition, not its specific columns, submission dates, signatories or reference numbering.
+
+WORD VERDICTS
+
+Письмо / переписка: supported as a document category by S1; no evidence requires replacing the demo's district plan letter with циркуляр or разнарядка. A план is the subject/content, not a necessary name for the physical covering document. The exact fictional first letter is authored game content.
+Заявление: supported by S1/S2 for board applications and joining. Do not extrapolate a mandatory separate chairman-addressed application for every wedding, house or vacation; those particular game requests follow their own accepted design, not this historical check.
+Сводка: supported locally by S1 for sowing progress. Отчёт has a contemporary publication lead in S5; the game's routine-report standing order is not historically proved by it.
+Циркуляр: supported by S1/S2. Suitable for a circulated rule/instruction, not a compulsory replacement for every district letter.
+Телефонограмма: period catalogue attestation S3; local form/recording procedure unverified. Use after the game's telephone unlock without adding a new decision or claiming every phone conversation is recorded.
+Заявка / извещение / справка / жалоба / телеграмма: no authenticated local1930s specimen or universal form established in this bounded check. These are understandable existing game labels; unconfirmed here is not a finding that the words did not exist. No unilateral renaming is proposed.
+Входящие / исходящие, Вх./Исх. №: exact local1931 register specimen and abbreviations not authenticated here. Annual numbering from January, two tabs, year folder, automatic entry and waiting/answered/filed statuses are the human-approved presentation. Keep them, but do not label them a proved universal historical blank.
+
+RECOMMENDATION TO BOSS
+
+1. Keep ui.office.journal.first_incoming and all eight scene.office_intro.journal.<avatar> rev2 texts as approved. No new subtitle revision or paid take is warranted by these findings.
+2. Retain the accepted registration/game-time/annual-reset rules as adaptations. Do not introduce historic day-of-month dates, extra signatures, collective-body voting, manual registration or historical response deadlines into the game on the strength of this report.
+3. Decide the reply reference wording only: either «В ответ на письмо …» with the existing linkage, or «На Ваш № …» if the sender's number exists. Internal annotation may say «К вх. № …». Avoid combining Ваш with our own incoming number. RPG has not edited foreign design, strings or runtime.
+4. Treat econ's document-frequency/click counts as estimates, not measurements or historical norms. This check validates words; it does not authorize new request penalties, avatar bonuses, quests or hints.
+
+METHOD / UNCONFIRMED LEADS
+
+Search skill used for source classification and separate vocabulary/form checks. Exa tools were unavailable; ordinary web was used under the human's standing permission (AGENTS.md §3). Searches covered contemporary directives, local kolkhoz archival inventories, telephonogram metadata, reply specimens and annual-report catalogues. Official archives/primary-document transcriptions outrank modern stationery shops, manuals, fiction and forum retellings. There is no claim to an exhaustive archival survey.
+
+Several pages failed full fetch: the library telephonogram, the reply specimen, RSL and Saratov fonds. Titles/search excerpts are labelled as such above; they cannot establish unread contents. A Mari El R-521 PDF downloaded successfully (3 pages) but could not be extracted with the available local readers and failed the web reader; it supports no findings. A 1965 study about1921–1927 communes surfaced journal terminology but was excluded as neither a1930s primary specimen nor proof of a national rule. No dependency installation, large OCR run or heavy processing was performed.
+
+Historical punitive/political contents and real named state actors are NOT proposed for the game's narrative. Source provenance is internal research, not a request to bring those events into the parallel-USSR setting. Not found means unconfirmed in this check, never proof that the practice was absent.
