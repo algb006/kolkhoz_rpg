@@ -1,0 +1,98 @@
+{
+  "acceptance": {
+    "basis": "human_heard_sound_masters_not_unprocessed_source_playback",
+    "boss_block_sha256": "e77397277f7bb41929bab482ca20a8034bf613dbc5822d8b1395875fc0b255fe",
+    "boss_receipt": "boss-rpg-office-rev2-accepted-2026-10-12#1",
+    "by": "human_project_owner",
+    "date": "2026-10-12",
+    "master_path": "/home/alex/kolkhoz/sound/audio/speech/office_demo_rev2_20261012/scene.office_intro.journal.promoted.wav",
+    "master_sha256": "0921ecd0563090fa41354a74c9c434c599d35c7a5f0e2476432cdbe45cee1e20",
+    "original_receipt_sha256": "8db9a486b6145a6e7b6104b0e2923c777c8ce5c236115e531e02d56710d4f0c0",
+    "scope": "office_demo_rev2_24",
+    "statement": "озвучка норм"
+  },
+  "approval": "boss-rpg-orders-demo-texts-2026-10-11 [19], sync [21]",
+  "approved_rev": 2,
+  "avatar": "promoted",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 5.32,
+  "estimated_usd_from_usage": 0.0012059999999999998,
+  "gender": "male",
+  "generated_utc": "2026-10-11T19:47:49.053213+00:00",
+  "inline_tags": [],
+  "interaction_id": "v1_ChYzLWZMYXRZYW1OZU80dy1rcy1yaER3EhYzLWZMYXRZYW1OZU80dy1rcy1yaER3",
+  "key": "scene.office_intro.journal.promoted",
+  "model": "gemini-3.8-flash-tts",
+  "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "pricing_verified_on": "2026-10-12",
+  "rev": 2,
+  "sample_rate": 24000,
+  "source_generation_time_utc": "2026-10-11T19:47:49.053213+00:00",
+  "source_status": "office_demo_rev2_draft_for_hearing_not_accepted",
+  "status": "accepted_source_for_human_heard_office_demo_rev2",
+  "style": "Гладко и размеренно; уверенность в порядке, едва заметное снисхождение.",
+  "text": "Первое письмо — план из района. Отвечать на него придётся мне.",
+  "text_sha256": "da5b486ecdde276439efcda1f1dc1560d389d4c0bd9069e3fb00acc5b8b09e4b",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 18
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 135
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 139
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 135
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 139
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 133
+      }
+    ],
+    "raw_prompt_token": 398,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 18,
+    "total_output_tokens": 133,
+    "total_thought_tokens": 0,
+    "total_tokens": 151,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Charon",
+  "voice_passport": {
+    "avatar": "promoted",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Charon"
+  },
+  "wav_sha256": "dbbb2f3abf1c2d47bc492202983ee3fed03da8f4b0355f83bbfff3d9f3c86605"
+}

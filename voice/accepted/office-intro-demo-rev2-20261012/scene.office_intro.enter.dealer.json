@@ -1,0 +1,98 @@
+{
+  "acceptance": {
+    "basis": "human_heard_sound_masters_not_unprocessed_source_playback",
+    "boss_block_sha256": "e77397277f7bb41929bab482ca20a8034bf613dbc5822d8b1395875fc0b255fe",
+    "boss_receipt": "boss-rpg-office-rev2-accepted-2026-10-12#1",
+    "by": "human_project_owner",
+    "date": "2026-10-12",
+    "master_path": "/home/alex/kolkhoz/sound/audio/speech/office_demo_rev2_20261012/scene.office_intro.enter.dealer.wav",
+    "master_sha256": "e2003148c2acb80baebd43be60e6a73554ac3bfe4d9cefad1c5c6cc4af1c7feb",
+    "original_receipt_sha256": "8f44d4682fc5a8a3e82939a82cc7a6888b1736f45dacbd1991c88dea37e8ba80",
+    "scope": "office_demo_rev2_24",
+    "statement": "озвучка норм"
+  },
+  "approval": "boss-rpg-orders-demo-texts-2026-10-11 [19], sync [21]",
+  "approved_rev": 2,
+  "avatar": "dealer",
+  "bits_per_sample": 16,
+  "channels": 1,
+  "duration_seconds": 5.56,
+  "estimated_usd_from_usage": 0.0012599999999999998,
+  "gender": "male",
+  "generated_utc": "2026-10-11T19:49:33.624757+00:00",
+  "inline_tags": [],
+  "interaction_id": "v1_ChdSLWpMYXR6NUd1TE9qdU1QNXZxaTRROBIXUi1qTGF0ejVHdUxPanVNUDV2cWk0UTg",
+  "key": "scene.office_intro.enter.dealer",
+  "model": "gemini-3.8-flash-tts",
+  "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "pricing_verified_on": "2026-10-12",
+  "rev": 2,
+  "sample_rate": 24000,
+  "source_generation_time_utc": "2026-10-11T19:49:33.624757+00:00",
+  "source_status": "office_demo_rev2_draft_for_hearing_not_accepted",
+  "status": "accepted_source_for_human_heard_office_demo_rev2",
+  "style": "Учтиво и иронично; лёгкая одесская вопросительная мелодика в утверждении, без пародии.",
+  "text": "Вот мой новый кабинет. Отмеченные вещи можно осмотреть в любом порядке.",
+  "text_sha256": "52c59effbd181bd06452df79fd6b078a11871586f53e4d476dc57aed0308d51f",
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 18
+      }
+    ],
+    "model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 141
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 146
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 141
+          }
+        ],
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 146
+          }
+        ]
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 139
+      }
+    ],
+    "raw_prompt_token": 405,
+    "total_cached_tokens": 0,
+    "total_input_tokens": 18,
+    "total_output_tokens": 139,
+    "total_thought_tokens": 0,
+    "total_tokens": 157,
+    "total_tool_use_tokens": 0
+  },
+  "voice": "Algieba",
+  "voice_passport": {
+    "avatar": "dealer",
+    "description_ref": "manual/voice/prologue-pilot.md",
+    "gender": "male",
+    "voice_id": "Algieba"
+  },
+  "wav_sha256": "7cb168c00ef072e7a7f9e2d8cc54f50b68c16225622b977eeadf14010f4bc615"
+}
