@@ -1,6 +1,8 @@
 Document-flow words: historical check for boss, task #594
 12 October 2026. Internal research report, not in-game text or an amendment to mechanics.
 
+Disposition, boss thread [2]: task #594 closed; reference-ownership correction accepted. office.md §18 now uses «В ответ на письмо райзо, май 1931 года (к вх. № 14)»; «На Ваш №» requires the sender's actual number. Demo letter subject and rev2 journal voices remain unchanged; no new takes. #598 verification accepted with nothing further owed. The historical findings and their evidence limits below remain intact. The geography-free seal ring was already delivered in orders-demo thread [30], pending approval/import.
+
 OUTCOME
 Keep the accepted demo's word письмо. Primary archival descriptions support correspondence, applications, sowing summaries and circulars in early-1930s kolkhoz records. They do NOT establish the game's exact single journal, two tabs, annual reset, status vocabulary or automatic registration as a universal 1931 kolkhoz procedure. These remain accepted game adaptations, not an authenticated form.
 
