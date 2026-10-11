@@ -116,7 +116,7 @@ def snapshot():
 def main():
     if BASE.with_suffix('.csv').exists():
         with BASE.with_suffix('.csv').open(newline='', encoding='utf-8') as existing:
-            if any(r['status'].startswith('approved') for r in csv.DictReader(existing)):
+            if any(r['status'].startswith('approved') or 'verified' in r['status'] for r in csv.DictReader(existing)):
                 raise ValueError('Refusing to overwrite approved delivery with a new snapshot')
     source = snapshot()
     records = []
@@ -149,7 +149,7 @@ def main():
                             placeholders=','.join(sorted(set(re.findall(r'\{(\w+)\}', after)))),
                             basis='society.md §1 clerk rules, orders.md; existing queue action',note=note))
     with BASE.with_suffix('.csv').open('w', newline='', encoding='utf-8') as out:
-        writer = csv.DictWriter(out, fieldnames=list(records[0]))
+        writer = csv.DictWriter(out, fieldnames=list(records[0]), lineterminator='\n')
         writer.writeheader(); writer.writerows(records)
     with BASE.with_suffix('.txt').open('w', encoding='utf-8') as out:
         out.write('Ревизия игровых строк №598 — предложения, 12 октября 2026\n\n')

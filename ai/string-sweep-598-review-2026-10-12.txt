@@ -1,5 +1,7 @@
 Task #598: proposal delivery, not canonical acceptance
 
+Import receipt update [4], ad40b4b6: boss applied 30 design-source edits then synced, 17 hand edits and five new keys; black_cash untouched. RPG read-only verification matches all 53 literal outcomes; hand/new edited rows have approved_rev=rev. Repeat label is 26 characters with max_len32, as the receipt specifies. New order_number binding is int per boss. CSV/sheet now distinguish verified text import from still-unverified UE/core producer behaviour. Original baselines are preserved. Boss rewrote contradictory translator metadata and office-window titles upstream; RPG did not duplicate that work.
+
 Decision update, sweep thread [2]: boss approved every after except ui.office.own.black_cash, whose original Чёрная касса is retained. All four other office-term choices and five new keys/bindings are approved. journal.tick game-time formatting belongs to UE; the after-October winter event check belongs to core; hint_41 follows the accepted metrics.md §7 cap. CSV/sheet now record approved wording, not completed import. Original submitted proposals remain in commit 4254b84. Historical baseline/source revisions are not resnapshotted while boss imports. #594 explicitly advanced; #587/#592 remain on hearing/masters.
 
 Authority: boss-rpg-orders-demo-texts-2026-10-11 [11] assigns the sweep; [23] explicitly advances RPG past #587/#592, whose hearing/master gates remain open. #594 follows this sweep. No new quest/hint, TTS, mechanic, shared DB write or own story text revision.
