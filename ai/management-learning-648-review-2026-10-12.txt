@@ -1,5 +1,19 @@
 Management-learning content delivery — task #648, 12 October 2026
 
+Coordinator clarification, thread [3]
+------------------------------------
+The resulting glossary is confirmed as 40 terms: 21 existing and 19 new.
+Weekly N = M + K is now confirmed by the single-author rule for each work
+assignment (decision #305), not an RPG assumption. Household person-days
+are household hours divided by the working-day hours of the same day;
+fractions are permitted. The producer supplies those values. No fixed divisor
+is introduced here. The CSV binding note is updated; player literals unchanged.
+Plain words in speech and expanded abbreviations in the glossary confirmed.
+Boss reconciles the lodging contradiction before deciding to import hint_05
+or retire it. All imports still pending; [3] is clarification, not an import
+receipt or blanket approval of the 55 literals. Earlier questions below remain
+a record of the delivered audit, with these answers superseding them.
+
 Scope and disposition
 ---------------------
 55 literal rows: six revised hints; one weekly summary; four clerk clauses;
