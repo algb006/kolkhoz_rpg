@@ -1,0 +1,130 @@
+Management-learning content delivery — task #648, 12 October 2026
+
+Scope and disposition
+---------------------
+55 literal rows: six revised hints; one weekly summary; four clerk clauses;
+three logistics cause clauses; one retained feed line; 40 distinct glossary
+entries (21 existing + 19 new). No audio, new quests, mechanics, shared DB
+writes or modifications to another role's tree.
+
+F2 contains 17 named examples followed by an ellipsis, not a complete list of
+40 terms. All 17 examples are covered. Haymaking and threshing complete the
+19 new terms using existing field/livestock design, not synonym variants.
+Existing suitable definitions are retained rather than revised for volume.
+Every glossary entry has two or three sentences. This is a 40-entry resulting
+corpus, not 40 additional keys on top of the existing 21.
+
+Import route
+------------
+File: manual/texts/management-learning-648-2026-10-12.csv.
+Status proposal is not approval. Status reviewed_unchanged does not request
+a new revision. Hint key suffix .text matches strings.db; the upstream design
+keys omit it. All six hints require edits to design.db hint.text, then sync.
+The other new keys are proposed bindings, not evidence of an existing emitter.
+Use existing keys if boss identifies an exact equivalent; no duplicate UI.
+
+Read basis
+----------
+manual/design/core/tone.md; chairman/office.md section 15 weekly summary;
+people/society.md section 1 clerk clauses; infrastructure/transport.md alarm
+causes and section 11 passengers; economy/livestock.md temporary lodging,
+night grazing, insulation and section 11 feed unit; world/units/social.md
+section 5 civil registry and the Epoch II medical post; technical/strings-db.md
+plural/placeholder contract. Shared strings/design DBs read-only.
+Econ review F2/P2/P3/P4/P6 and boss parcel [1] define the requested scope.
+
+Meaning checks and questions requiring coordinator/producer confirmation
+-----------------------------------------------------------------------
+1. hint_05: livestock's lodging table says offspring is absent, not reduced.
+   This corrects the current hint without changing the herd rule. The newer
+   introductory lodging cancellation wording and the retained overflow/lodging
+   section coexist in livestock.md. Boss must reconcile them if the intended
+   new mechanics remove this hint's situation altogether; RPG cannot silently
+   choose a different overflow mechanic. Proposed text describes lodging only
+   while it actually occurs, not a mandatory stage of the campaign.
+2. Weekly values are person-days of work, NOT resident counts and NOT earned
+   labor_days. Placeholders proposed as real to retain fractions. Core/boss
+   must specify the divisor converting household hours and the same unit for
+   ordered work. Authorship must be mutually exclusive final authorship if
+   M + K is intended to equal N; the prose does not manufacture that invariant.
+   Zero clerk is valid without an appointed clerk. No evaluation, threshold,
+   blame or claim that household work is wasted. No conversion constants or
+   new tooltip mechanic have been invented.
+3. Clerk clauses select the ACTUAL level, including the Villager's medium
+   appointment. No automatic seniority growth promised while it is absent.
+   Gender-neutral clauses; no named clerk or random identity introduced.
+4. Logistics causes count carts for hay/construction and horses for absent
+   harness. Do not silently exchange these denominators. Insert actual
+   nonzero causes in the existing alarm breakdown, not new alarm spam.
+   The cause rows do not claim that they exhaust all transport failures.
+5. feed.winter_sowing_lost rev2 is already valid at the first November check:
+   the October deadline is past and the lost winter harvest belongs to the
+   next year. Retain the literal and its established place separator.
+   No UI calendar date-of-month is added. Core 0.37.231 timing comes from the
+   boss receipt, not an independently executed simulation in this task.
+6. Silage explains the accepted feed/storage concept, not a promise that
+   green-mass processing is already implemented. Livestock's implementation
+   caveat remains the coordinator's queue item; no new action is advertised.
+
+Period vocabulary check
+-----------------------
+Ordinary web search is explicitly authorized by the human; the Search skill
+was used for query/source discipline. Exa tools are absent. No paid generation.
+Meaning attestation and abbreviation attestation are separate questions.
+No word in this batch has been proved to originate only after the 1930s.
+Nor does absence of a search hit prove historical absence.
+
+LPH: the expanded phrase is directly attested in the 1937 primary article
+by S. Postnikov, Plan no. 10, pp. 38-40 (full text read):
+https://istmat.org/node/26434
+This supports the period concept, not the abbreviation LPH or its use in 1931.
+Recommendation: use plain 'личное хозяйство' / 'личное подсобное хозяйство'
+in character speech; keep the glossary expansion for the existing UI label.
+Do not import the article's historical fiscal/political rules into the game.
+
+GSM: a 1936 original order names fuel and oils; a state archive's institutional
+guide describes the 1936 fuel supply administration and lubricant supplies:
+https://ru.wikisource.org/wiki/Приказ_НКО_СССР_от_17.02.1936_№_024
+https://rgakfd.ru/funds/19/upravlenie-snabzheniya-goryuchim-krasnoy-armii-byvsh-upravlenie-po-toplivu-upravlenie
+Guide search extract read; its full page failed to open. This is concept
+support, NOT proof that the abbreviation GSM was current in village speech
+in 1931. Recommendation: plain 'горючее и смазка' in speech; expand the UI
+abbreviation. No unsupported first-use date claimed.
+
+FAP: the medical institution's own retrospective chronology records a
+feldsher-midwife post built in 1936 and more in 1938:
+https://perevozcrb.ru/about/istoricheskie-khroniki/192-daty/
+Institutional page read (1936/1938 entries), not a contemporary 1936 document. Supports
+the period institution provisionally, not the date of the abbreviation.
+Game building is Epoch II already; glossary does not open it in Epoch I.
+Recommendation: 'фельдшерский пункт' in period speech if boss wants stricter
+wording; do not rename an accepted building without coordinator approval.
+
+ZAGS: a contemporary regional report explicitly uses the abbreviation for
+rural offices in its 1926 section:
+https://www.booksite.ru/fulltext/811589/text.pdf
+PDF text read, page 150 (printed page 148); documentary witness, not a universal organization rule.
+The term is not flagged as post-1930s; game access remains Epoch II.
+
+Tyaglo: the dictionary publisher lists the working-animal sense separately
+from the obsolete tax and household-assessment senses (page read):
+https://gramota.ru/poisk?mode=all&query=тягло
+Only the draught-animal sense appears in the glossary. It is not a tax.
+
+Remaining agricultural definitions are grounded in the current game design;
+they do not assert a first-use year or import historical institutions. Thus
+the flagged cases are LPH/GSM/FAP abbreviation dates unverified, NOT declared
+anachronisms. A stricter authentic-speech restriction is a boss decision.
+
+Delivery checks
+---------------
+CSV parses as 55 unique rows; 39 proposals and 16 reviewed unchanged rows.
+All 21 existing glossary keys remain present; 19 additions have distinct
+meanings. Every glossary text has 2-3 sentences. All unchanged literals match
+the source-language strings.db rows. Existing max_len budgets pass.
+All six hint keys resolve to origin=design. Placeholder sets match declarations.
+Plural expressions have all four Russian branches; grammar fixtures exercised
+0/1/2/5/11/21/22/25/101/1.5. This is a text-format check, not UE rendering or a
+simulation measurement. No integer rounding is requested for weekly work.
+Own link check: 82 files, 588 links, problems 0. Shared-tree issues are not
+repaired by RPG. git diff --check passes. Audio sources and ledgers untouched.
