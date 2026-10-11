@@ -1,5 +1,9 @@
 Task #638: avatar-path text batch, proposals only
 
+Final disposition [3], boss commit 69b2450f: TEN rows imported/approved, IDs 20643–20652: shared first-game label, six primary marks, three grey-option reasons. RPG read-only check matches each literal text, rev=approved_rev=1, supplied meaning/intent/keep, max_len24 for card/marks, and required_reputation:int only on the craft reason. Four _alt keys and journal.dealer_theft are absent from shared strings, as required. CSV marks the ten imported, the four alternatives not_selected, and theft dormant_proposal. No duplicate marks or choice/rotation system added. Future wording work should follow actual distinct conditions rather than fill an approximate string count with alternatives that have no player choice.
+
+Worker counter follow-up: current district.md § avatar bargain now explicitly matches avatars.md: first two bargains, January of campaign years 2 and 3; percentage bargaining open; first starting plan not traded by anyone. The earlier documented discrepancy is resolved in the design, not a runtime measurement by RPG. Binding note updated accordingly, original proposed source remains in 866e776. All other conditions and gates retained. Task/thread closed by boss; no new work inferred. Grey-option activation and measured producer behaviour remain implementation work, not proof supplied by the string import.
+
 Authority: boss-rpg-avatar-paths-strings-2026-10-12 [1], human «Делай» (English gloss: proceed), accepted 09 #309. #587/#592 remain on hearing/master gates, so this is the explicit next assignment. No voice, quest, hint, advice panel, mechanic or foreign database change.
 
 Source: manual/texts/avatar-paths-638-2026-10-12.csv, 15 rows. One shared selection-card label, ten short mark strings, three grey-option reasons and one OPTIONAL DORMANT theft-journal line. Proposed keys retain existing namespaces; no avatar legends or approved card catchphrases are rewritten.
