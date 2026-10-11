@@ -23,3 +23,7 @@ voice/accepted/office-intro/*
 # The additions retain their own revisions and hearing receipt; no WAV/API receipts in Git.
 voice/accepted/office-intro-additions-20261002/*
 !voice/accepted/office-intro-additions-20261002/manifest.json
+
+# Accepted rev3 keeps its own hearing provenance; raw WAV/API receipts stay in voice backups.
+voice/accepted/office-intro-portrait-promoted-rev3-20261011/*
+!voice/accepted/office-intro-portrait-promoted-rev3-20261011/manifest.json

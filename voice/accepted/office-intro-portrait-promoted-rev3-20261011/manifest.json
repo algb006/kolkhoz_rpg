@@ -1,0 +1,28 @@
+{
+  "acceptance_date": "2026-10-11",
+  "acceptance_statement": "принимаю",
+  "audio_format": "unchanged source mono PCM16/24000; sound master PCM24/48000",
+  "count": 1,
+  "excludes": "UE package verification and external backup integrity.",
+  "historical_revisions": "office-intro rev1; office-intro-additions-20261002 rev2 unchanged",
+  "lines": [
+    {
+      "avatar": "promoted",
+      "gender": "male",
+      "key": "scene.office_intro.portrait.promoted",
+      "master_path": "/home/alex/kolkhoz/sound/audio/speech/office_portrait_promoted_rev3/scene.office_intro.portrait.promoted.wav",
+      "master_sha256": "919061cccacf5921e097377249eda4295566c8bdfa10175c8199ce487f15effd",
+      "receipt": "scene.office_intro.portrait.promoted.json",
+      "rev": 3,
+      "text_sha256": "62f95de171096d9abd2a4c78d6487d210999ee66d49573a4fe1ccec214ef321e",
+      "voice": "Charon",
+      "wav": "scene.office_intro.portrait.promoted.wav",
+      "wav_sha256": "80d7fb5b6e9e6b48ce233b56a6a15ffe4237408e045f66ca001a8fa0a7646895"
+    }
+  ],
+  "new_generations": 0,
+  "regenerations": 0,
+  "scene": "scene.start.office",
+  "source_directory": "/home/alex/kolkhoz/rpg/voice/draft/office-intro/portrait-promoted-r3-20261002",
+  "status": "accepted_source_for_human_heard_office_portrait_rev3"
+}
