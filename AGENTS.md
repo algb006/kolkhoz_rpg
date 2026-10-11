@@ -86,6 +86,8 @@ here they are in order of importance.
 | [`../manual/design/core/game-setting.md`](../manual/design/core/game-setting.md) | Place, time, and the surrounding world |
 | [`../manual/process/09-open-questions.md`](../manual/process/09-open-questions.md) | **Whenever in doubt.** Decision register: what is decided and where it is documented |
 
+**Web search is always allowed for `rpg`** (the human, 11 October 2026: «Разрешаю rpg веб поиск всегда» [“I allow rpg web search always”]). When the Exa tools of the Search skill are missing, use the ordinary web search instead of stopping; this human word overrides the skill's «no generic fallback». Cite every source by its address and mark what you could not confirm as not found.
+
 **The people your stories concern:** [`../manual/design/people/`](../manual/design/people/index.md)
 contains metrics, personalities, families, and life paths. Narrative must not
 contradict how a resident works.
