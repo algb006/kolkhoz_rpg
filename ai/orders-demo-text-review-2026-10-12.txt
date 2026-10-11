@@ -1,5 +1,24 @@
 Task #587 text gate
 
+Update after boss move 15: the nine paper/book strings are approved; the former short notebooks proposal below is superseded BEFORE recording. Active unified source is manual/texts/orders-clerk-journal-demo-2026-10-12.csv: 9 approved paper/book rows, 16 proposed existing thought-key rev2 replacements, 3 candidate-card strings, the assignment counter and first incoming Journal row. No candidate-card voice or extra notebook trigger.
+
+Combined notebooks drafts:
+A: Первый приказ уже в книге. Надо назначить учётчика. Пока наряды выдаю я.
+B: Учётчика ещё нет. Пока наряды мои, и приказ об этом уже подшит.
+A selected: it follows the visible document, then the vacancy, then the current author. It does not silently appoint the candidate or promise that everyone already has work.
+Journal drafts:
+A: Первое письмо — план из района. Отвечать на него придётся мне.
+B: Входящее номер один. Теперь план из района лежит здесь.
+A selected: identifies the letter and personal responsibility; B merely repeats the window label without an immediate human reason to speak.
+
+Four passes for both: (1) the first order and letter are visible by accepted design; no secret or future result; (2) all eight avatars retain their actual gender/age/status listed below, without masculine self-description imposed on acting; (3) document language stays in the paper while the thoughts use plain Russian; (4) literal paraphrases are possible: I issue assignments until the clerk is appointed; I answer the plan letter. The pronoun "него" in the Journal thought refers to письмо, not to an unmentioned person or event. No joke or avatar catchphrase is required.
+
+The candidate is an actual eligible adult selected by the design's literacy/experience rule, not a new named specialist authored here. Card wording makes no gendered biographical claim or invented qualification; the implementation must still bind the actual resident ID/gender/age/traits, never guess them from candidate_name. The card is unvoiced; the chairman remains the only speaker. Count binding is int, counts residents lacking authored tomorrow work, not entries; appointment and standing-order workers are not unassigned. Visibility at zero remains the producer/UI contract, not a new RPG mechanic.
+
+Recording gate remains pending approval/import of the two new literal thoughts. The old notebook-only thought has generated no WAV. All 16 target notebook/Journal keys currently exist at approved rev1; proposed rev2 replaces them in place, preserving accepted rev1 audio. The paper uses approved display-name and calendar substitutions, which never enter speech. One combined move avoids paying for eight temporary notebook takes then replacing them for the clerk.
+
+Historical first proposal follows as a work record, not an import source:
+
 Status: proposed text delivered for boss approval/import; voice is NOT generated.
 Source package: manual/texts/orders-demo-2026-10-12.csv (9 order rows + 8 existing scene-key replacements).
 Basis: orders.md sections 3 and 8; boss-rpg-orders-demo-texts-2026-10-11 moves 1, 3, 5 and 13; historical findings at manual/story/kolkhoz-acts-history-check.md.
