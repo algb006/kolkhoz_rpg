@@ -1,0 +1,24 @@
+Task #598: proposal delivery, not canonical acceptance
+
+Authority: boss-rpg-orders-demo-texts-2026-10-11 [11] assigns the sweep; [23] explicitly advances RPG past #587/#592, whose hearing/master gates remain open. #594 follows this sweep. No new quest/hint, TTS, mechanic, shared DB write or own story text revision.
+
+Deliverables: manual/texts/string-sweep-598-2026-10-12.csv (keyed baseline/proposal, rev, origin, source table/key/column, route, bindings, design basis and decision notes); same-basename .txt is the Russian before/after sheet. tools/string_sweep_598.py builds the snapshot read-only and rejects lost/added existing placeholders or exceeded max_len. All rows are proposals, never approved import receipts.
+
+Measured coverage: 53 rows = 48 existing replacements (30 design-origin, 18 hand-origin) + five proposed hand keys. The non-dialogue/non-scene technical vocabulary scan found 34 candidates. Thirty-two are covered; two deliberate cargo-lot usages of партия (piglet_lot, chick_lot) remain. Scene/dialogue/harness text is not silently rewritten. Existing names, keys, numeric constants and cast roles stay intact. Paper/card/24 thought rev2 rows from #587/#592 are untouched.
+
+Four review passes:
+1. Facts and causality: the clerk/chairman authors each work assignment. No compulsory clerk appointment, automatic placement without an author or new cue. October winter sowing requires temperature and reduces harvest; November loses that year's winter crop, never promises a carry-over sowing. Straw counts as warm, not as an overlay of already-started clay work. Moving a filled manure site requires clearing it; not every free contour becomes costly.
+2. Cast/bindings: this is unvoiced interface text, no avatar-specific speaker or implicit resident gender. Dismissal supplies separate male/female lines selected by actual resident data, never the name. order_number is the existing dismissal order, not a fabricated number. Release takes effect next morning. Existing feed {place} remains exact. New key/placeholder approval belongs to boss.
+3. Register: plain labels and complete literal explanations. Party/Party jokes removed from play-session uses but cargo lot remains cargo. Farm buildings, roads, settlements and farms are not all called buildings; broad object labels cover non-building units. No forced period caricature or newly authored personal line; dialogue skill was inspected but is not applied because no spoken line is changed.
+4. Read-through/meaning: rejected whole-farm wording for hint_24, whose scope is the object being improved. Replaced the first hint_41 draft after checking metrics.md §7: the lower-threshold law is a cap at 2 × lowest component, not doubled weight/influence. Marked that discrepancy for confirmation, not a silent balance change. No medical/political/historical assertion or new social experiment is introduced.
+
+Three gates for boss:
+- ui.office.journal.tick: Время only works with calendar/time presentation, not a raw tick number. Keep import held until the binding is agreed; journal.date already has month/weekday/time, but RPG has not inspected or edited the producer.
+- feed.winter_sowing_lost: fire after October ends with sowing unfinished, not at September's former cliff. Text alone cannot fix the emitter. No runtime implementation claim.
+- hint.hint_41.text: canonical formula contradicts the old source string. Proposed line matches metrics.md §7; boss confirms design-source alignment.
+
+Five office-term alternatives are expressly for boss's decision: Номенклатура -> Что производить; Заявки и разнарядки -> Заявки и поставки района; Делегирование -> Полномочия помощников; Кормовой стол -> Кормление стада; Чёрная касса -> Теневые деньги и запасы. The last is NOT a removed entity: role-lines.md §7 and office.md show later money/stock behind the shadow-line gate. Rename proposal does not alter its unlock or bring money into Epoch I. Alternative retain-with-glossary is valid; prefer plain display labels, stable internal keys.
+
+Evidence read: tone.md (red lines); econ complexity-2026-10-12 §§1/3/4; society.md current clerk rule table; orders.md definitions and dismissal; office.md zones/object mapping; farming.md October-late-sowing/November-fallow law; livestock.md straw fallback, manure clearing and feed-table section; unit rules §6/§16; construction.md free relocation; metrics.md §7; role-lines.md §7. Existing strings were queried with read-only SQLite and exact origin/source provenance.
+
+Import discipline: boss edits design.db source rows first for all 30 origin=design replacements, then syncs. Eighteen hand strings are edited by boss in shared strings. Five NEW keys require registration. An edit to the shared mirror alone is not a lasting fix. No identifiers are renamed/deprecated by RPG, and localisation metadata must be reviewed/preserved when accepting the wording.
