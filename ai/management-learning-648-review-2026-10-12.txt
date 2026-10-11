@@ -1,5 +1,23 @@
 Management-learning content delivery — task #648, 12 October 2026
 
+Import receipt and final hint revision, thread [5]
+------------------------------------------------
+Boss commit 27a6eebc: five hints through design sync; 27 new shared strings;
+six revised glossary definitions; 16 retained rows including the feed line.
+All 54 imported/retained literals match strings.db exactly, as do placeholder
+kinds and plural flags. Hand-authored changes have rev=approved_rev; design
+rows are approved by boss's source/import receipt, not a fabricated approval
+field (their approved_rev is NULL). 38 imported changes plus 16 retained.
+hint_05 remains proposed, not retired or imported. New one-row delivery:
+manual/texts/management-learning-648-hint05-rev2-2026-10-12.csv.
+The 55-row corpus carries the same revised hint, not a different alternative.
+The design contradiction is resolved: there is no post-entry lodging mechanic;
+before the yard exists the herd is still physically in household yards.
+Milk to the kolkhoz is zero (herd_without_yard_yield_factor=0); calves require
+free roofed places. The new text names zero milk and calves while the yard
+is absent, without promising offspring immediately at the first unroofed level.
+Earlier 'less milk' proposal is superseded. No generation or new game mechanics.
+
 Coordinator clarification, thread [3]
 ------------------------------------
 The resulting glossary is confirmed as 40 terms: 21 existing and 19 new.

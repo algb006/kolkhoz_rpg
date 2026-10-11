@@ -1,0 +1,2 @@
+namespace,key,status,text_ru,placeholders,plural,meaning,intent,keep,binding_note
+hint,hint_05.text,proposal,"Пока у колхозного стада нет своего скотного двора, коровы стоят по личным дворам. Колхоз в это время не получает ни молока, ни телят.",,0,Herd before its own cattle yard,Explain zero output without issuing an order,No milk and no calves before own yard,Revised after boss [5]; edit design.db hint.text then sync; no lodging mechanic or guaranteed births at first level
