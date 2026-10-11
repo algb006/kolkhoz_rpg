@@ -1,0 +1,33 @@
+Task #587 text gate
+
+Status: proposed text delivered for boss approval/import; voice is NOT generated.
+Source package: manual/texts/orders-demo-2026-10-12.csv (9 order rows + 8 existing scene-key replacements).
+Basis: orders.md sections 3 and 8; boss-rpg-orders-demo-texts-2026-10-11 moves 1, 3, 5 and 13; historical findings at manual/story/kolkhoz-acts-history-check.md.
+
+Speaker: one chairman, at the existing mandatory notebooks inspection in the office, no addressee, no running game time. The visible first order is the concrete object. Goal: recognise that later decisions carry the chairman's signature. No knowledge of unseen residents or future results.
+Cast and established source voices:
+villager: male, 35–45, rural background, practical literacy, Achird.
+worker: male, 30–40, industrial worker, process-minded, Iapetus.
+student: male, 20–25, educated but inexperienced, Puck.
+ex_chairman: male, 45–55, experienced former chairman, Schedar.
+promoted: male, 35–45, administrative background, Charon.
+old_fighter: male, 55–65, former cavalry commander, Algenib.
+dealer: male, 40–50, former urban trader, Algieba.
+acting: female, 35–45, practical acting chairwoman, Kore.
+This is one common thought in eight existing voices, not eight newly invented avatar-specific speeches. No new vocal style or cloned voice is proposed.
+
+Two literal drafts considered:
+A: Первый приказ уже в книге. Дальше приказы подписывать мне.
+B: Здесь будут мои приказы. За каждую подпись отвечаю я.
+A selected: it names the visible first order and the next responsibility directly; B fails to establish that the first order is already present. No metaphor or joke is needed.
+
+Separate review passes:
+1. Facts/causality: first order exists by design; the thought points to it and does not invent an appointment, social reaction, or reward. The document is authored period-style, not a historical specimen.
+2. Cast/gender: present tense in point 1 and the impersonal infinitive in the thought work for all avatars without a masculine past-tense form being applied to acting. Procedural names remain separate uninflected displayed substitutions; no names or weekday enter speech.
+3. Register: the paper uses formal concise clauses; the thought uses ordinary complete Russian. No programmer vocabulary, artificial archaism, ethnic joke, or political name.
+4. Voice/read-through: two short sentences; the subject of the second is explicitly orders. Literal paraphrase: the first order is already recorded and I will sign further orders. No rhyme, proverb or ambiguous image hides the meaning. The same literal line is intentionally common; established voice performance carries identity.
+
+Runtime/source proposal requiring boss confirmation:
+Replace the eight existing scene.office_intro.notebooks.<avatar> rev1 texts with this proposed rev2, not an additional item or thought trigger. The panel still explains people/work. Old accepted rev1 WAVs/receipts stay historical and immutable. #592 may add the clerk-card thought to the same step; confirm whether it is a separate keyed thought or combined speech BEFORE paid production, to avoid recording a take immediately superseded by the next task.
+
+TTS gate: these drafts are not in either canonical DB and have no approved revision. Do not call TTS, label a take ready, or import acceptance. On approval, mirror the exact canonical text/revision in the own story DB, save/check/export/render, then verify both DBs and produce the eight replacements under the existing rate and budget caps. Human hearing, sound masters, and UE playback remain separate later receipts.
