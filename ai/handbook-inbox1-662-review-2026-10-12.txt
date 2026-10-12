@@ -1,5 +1,12 @@
 Handbook navigation and first-letter avatar notes — task #662
 
+FINAL IMPORT RECEIPT: boss thread [3], commit 0287d6d7. All 16 literals,
+kinds, limits, placeholders, plural flags and current hand-authored approvals
+verified against strings.db. CSV status imported_verified. Seven journal notes
+are assigned to UE for the demo; this is not an RPG receipt of UE display or
+implemented avatar mechanics. All earlier proposal/pending notes below are
+delivery history. No new voice or shared DB write.
+
 Delivery: manual/texts/handbook-inbox1-662-2026-10-12.csv.
 16 proposed keys: book title; seven page/navigation headings; Words tab;
 seven notes below ui.office.journal.first_incoming. No voice, book bodies,

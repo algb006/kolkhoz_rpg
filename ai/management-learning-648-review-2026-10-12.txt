@@ -1,5 +1,13 @@
 Management-learning content delivery — task #648, 12 October 2026
 
+FINAL COMPLETION: boss handbook-inbox1 thread [3], commit 0287d6d7 imports
+hint_05's corrected two-sentence text through design.db and sync. All 55 final
+corpus literals, plural flags and placeholders match strings.db. Disposition:
+39 imported changes and 16 retained rows; no proposal outstanding for #648.
+The one-row hint CSV and full corpus agree. Earlier held/pending paragraphs
+below are historical. Source approval follows boss's design receipt for hints;
+hand-origin changed strings have matching current approved_rev. No audio.
+
 Import receipt and final hint revision, thread [5]
 ------------------------------------------------
 Boss commit 27a6eebc: five hints through design sync; 27 new shared strings;
