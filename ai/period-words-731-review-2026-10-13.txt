@@ -1,0 +1,76 @@
+Period/plain-language review — #731, before import/export
+
+Position: urgent #746 delivered as one unit-neutral sentence; #731 before/after
+table ready for boss review. No shared DB import, sync or export performed.
+AGENTS section 7 leaves shared writes and import tooling to boss despite the
+mail's shorthand 'through strings.db'. Proposed keys remain unchanged.
+
+22 table rows: 21 straightforward proposals, one decision-required rename.
+The list's roughly 14 words occur in several distinct keys. The table covers
+the actual source occurrences, not a manufactured fixed count. No new quest,
+hint, instruction, character voice, mechanic or runtime action is introduced.
+
+Basis: tone.md (warm serious rural comedy, restrained documents, ordinary
+words, no humiliation or political-history imitation); econ complexity review
+section 4; office.md inventory/build controls/map entry removal; unit rules
+construction bundles; livestock night grazing and roofed second level;
+district.md buyer and supply scope; role-lines.md shadow-money gate; boss [1/2].
+
+Meaning, not fabricated etymology
+-------------------------------
+This is a readability/diegetic vocabulary pass, not a claim that every word
+in econ's list was coined after 1931. No historical first-use dates asserted.
+The population term and military/logistical vocabulary need not be inherently
+anachronistic to be less useful than plain 'Население' and 'Перевозки' here.
+No web fact is needed to justify an authorized wording proposal on this basis.
+
+Buyer: 'район' consistently denotes the district purchaser of stock and the
+district supply/plan relationship. Change hand_stock and outside.district.
+Do NOT replace the party office globally: district_secretary.role and the
+secretary's signature still say райком; reputation in райком is a separate
+accepted metric; neighbors' district-party summaries and the veterinarian
+quest's sender are outside the identified buyer correction. No institution
+renaming or logistics recipient route is changed by the labels.
+
+Black cash: task #598 explicitly retained 'Чёрная касса', which is valid for
+the later shadow line; office.md keeps its drawer locked before that line.
+The absence of money in the starting era is NOT proof the term is wrong for
+the entire campaign. Options: retain it with its proper gate; or use the
+plain 'Неучтённая касса' at the same gate. The latter is in the table for
+boss's explicit wording decision under [1]; not a silent removal of the gate,
+wallet, money or content. No assumption of unlocked shadow money in 1931.
+
+Build words: modules are additions within an existing object; 'Дополнительные
+постройки' describes those parts. 'Состав работ' describes a selectable bundle
+that can include levels, additions and insulation; 'Пристройка' would be wrong
+for a granary/freestanding part, and 'Ремонт' would omit other work. Producer
+still selects the same registered bundle, not a new construction operation.
+
+Era language: 'следующий этап развития' preserves the same transition.
+'На втором этапе развития' in the stadium blurb still means Epoch II, not
+construction level two. Localization metadata must preserve that distinction.
+No actual years, regional regime or new progression condition introduced.
+
+Alarm language: report changed urgency and automatic removal of the warning,
+not a red lamp becoming a physical in-world object. The plan advice's sowing
+area and limitation on yield information remain verbatim in substance.
+
+Demo text: replace the player HUD refusal with 'Недоступно', without falsely
+claiming a resource, era, appointment or signature would unlock it. This is
+wording only; UE/boss still decide whether a nonfunctional shipping control
+must be removed. The ui.testbed demo note is developer-only and not changed;
+do not sweep diagnostic labels into the 1931 diegesis.
+
+The removed office 'map.layers' navigation key is reworded only if still
+referenced, not restored to the office. The actual world map layer control
+remains in the world; this table creates no new window or entry point.
+
+Night grazing: econ's adjacent terminology inconsistency is a text-only fix:
+return to the horse yard, not necessarily a second-level stable. It does not
+alter the summer/holiday/yard conditions or demand a new shelter.
+
+Source routes: six design-origin rows require changes to their registered
+design sources followed by sync (construction menu, two units, two office
+items, quest title). All other rows are hand strings. RPG supplies the table;
+boss reviews it BEFORE changing source/export. No accepted audio text changed.
+Existing thought personal_item.* voices remain untouched.

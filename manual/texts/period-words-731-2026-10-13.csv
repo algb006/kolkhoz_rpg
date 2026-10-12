@@ -1,0 +1,23 @@
+namespace,key,status,before_ru,after_ru,origin,source_table,source_key,source_column,max_len,reason
+ui.hud,layer.logistics,proposal,Логистика,Перевозки,hand,,,,,Name the visible transport function plainly
+catalog,build_menu.units_logistics.name,proposal,Логистика,Перевозки,design,build_menu,build_menu.units_logistics,title,,Match the same transport term in construction navigation
+unit,stadium.blurb,proposal,"Поле с воротами и лавками, где играют с первых лет. С Эпохи II — команда, матчи и модули стадиона.","Поле с воротами и лавками, где играют с первых лет. На втором этапе развития — команда, матчи и дополнительные постройки стадиона.",design,unit,stadium,blurb,,Explain additions rather than engine modules; retain later availability
+unit,mts.blurb,proposal,"Своя машинно-тракторная станция: стоянка, ремонт, запчасти и заправка техники. Диспетчер ведёт всю логистику хозяйства.","Своя машинно-тракторная станция: стоянка, ремонт, запчасти и заправка техники. Диспетчер ведёт все перевозки хозяйства.",design,unit,mts,blurb,,Do not turn dispatcher into a new role
+ui.hud,build_info.modules,proposal,Модули,Дополнительные постройки,hand,,,,32,Name separately built parts of the parent object
+ui.hud,build_info.package,proposal,Пакет,Состав работ,hand,,,,32,Selected construction bundle may include levels additions and insulation
+ui.office,item.personal_item.name,proposal,Личная вещь аватара,Личная вещь председателя,design,office_item,item.personal_item,title,,Name the owner in the world rather than the avatar selector
+ui.office,item.affairs_notebook.tooltip,proposal,Дела — квесты,Тетрадь дел,design,office_item,item.affairs_notebook,tooltip,,Name the notebook without quest jargon
+ui.office,affairs.quests,proposal,Квесты,Дела,hand,,,,64,Preserve existing quest section and keys
+ui.office,people.demography,proposal,Демография,Население,hand,,,,64,Plain heading for population and family statistics
+ui.office,map.layers,proposal,Слои карты,Что показано на карте,hand,,,,64,Describe the display subject; do not reinstate a removed office map entry
+ui.office,order.advance_era,proposal,Перейти в новую эпоху,Начать следующий этап развития,hand,,,,,Same era transition button without game-stage jargon
+ui.hud,roads.why.demo,proposal,В демо не работает,Недоступно,hand,,,,32,No shipped build label and no invented future unlock reason
+ui.office,order.set_logistics_level,proposal,Сменить приоритет,Изменить очерёдность перевозок,hand,,,,,Name what the existing action changes
+ui.office,event.lamp_turned_red,proposal,Лампа тревоги стала красной.,Предупреждение стало срочным.,hand,,,,,Report urgency rather than narrate UI colour
+alarm,plan_position_uncovered.tip,proposal,"Поставить эту культуру в севооборот на лучшие поля года — на площадь не меньше, чем район считает за позицию плана. Тревога гаснет, когда площади хватает; сколько тонн недоберёт бедное поле, она не говорит — это видно по самому полю.","Поставить эту культуру в севооборот на лучшие поля года — на площадь не меньше, чем район считает за позицию плана. Предупреждение снимается, когда площади хватает; сколько тонн недоберёт бедное поле, оно не говорит — это видно по самому полю.",hand,,,,,Preserve sowing requirement and information boundary; no new hint
+quest,quest_e1_32.title,proposal,«Старт работ»,«Начало работ»,design,quest,quest_e1_32,title,,Title only; no new quest or change to its conditions
+ui.office,order.hand_stock,proposal,Сдать райкому,Сдать району,hand,,,,,The buyer is the district not the party committee
+ui.office,outside.district,proposal,Райком и лимиты,Район и лимиты,hand,,,,64,Heading for the same district supply and plan relationship
+ui.office,own.black_cash,requires_boss_decision,Чёрная касса,Неучтённая касса,hand,,,,64,Reverses retained wording of task 598 only if boss approves; shadow gate unchanged
+alarm,logistics_late.title,proposal,Логистика не успевает,Задержки перевозок,hand,,,,,Name the transport failure rather than an abstract management discipline
+glossary,night_grazing,proposal,"Ночное — летний выпас лошадей ночью, когда табун кормится травой на лугу. В игре за лошадьми присматривают школьники на каникулах, а утром табун возвращается в конюшню. Ночное доступно после устройства конного двора.","Ночное — летний выпас лошадей ночью, когда табун кормится травой на лугу. За лошадьми присматривают школьники на каникулах, а утром табун возвращается на конный двор. Ночное доступно после устройства конного двора.",hand,,,,,Return to horse yard without promising its second-level roof; conditions unchanged
