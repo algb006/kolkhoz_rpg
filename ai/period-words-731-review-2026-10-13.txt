@@ -1,5 +1,18 @@
 Period/plain-language review — #731, before import/export
 
+APPROVAL RECEIPT: boss [5], 13 October 2026. The 21 plain-word proposals
+are approved; 'Чёрная касса' is retained with its shadow-line gate, no reversal
+of #598. Rejected alternative 'Неучтённая касса' remains research history below,
+not the active CSV/table after value. The buyer-only district correction is
+approved. #746's neutral feed-storage sentence is approved in the same batch.
+Import belongs to boss, row #771: source edits, sync/save/check/export/render,
+UE CSV and handoff. Own statuses deliberately remain pending import/verification.
+No row intentionally changes a rule, condition, amount, recipient, epoch or
+interface action. 'Недоступно' drops a build explanation without inventing a
+different availability condition; labels do not reinstate removed office maps.
+Queue instruction: #761 waits behind the demo; rest until boss rings. No new
+content task or poll loop started from this approval receipt.
+
 Position: urgent #746 delivered as one unit-neutral sentence; #731 before/after
 table ready for boss review. No shared DB import, sync or export performed.
 AGENTS section 7 leaves shared writes and import tooling to boss despite the
