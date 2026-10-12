@@ -1,0 +1,82 @@
+Handbook navigation and first-letter avatar notes — task #662
+
+Delivery: manual/texts/handbook-inbox1-662-2026-10-12.csv.
+16 proposed keys: book title; seven page/navigation headings; Words tab;
+seven notes below ui.office.journal.first_incoming. No voice, book bodies,
+new hints, events, correspondence or quest logic. No shared DB writes.
+The fixed 180/32/48 text budgets are proposed import limits, not core parameters.
+
+Design basis: office.md handbook subsection (decision #312) and section 18
+'Incoming no.1 states the avatar path'; avatars.md matching seven-row meaning
+table (decision #313). Actual first worker negotiations are January of campaign
+years 2 and 3, not years 1 and 2. Acting has no note and no empty placeholder key.
+Pending implementation status in avatars.md remains unchanged; the demo note
+is the expressly accepted disclosure, not RPG evidence of functioning modifiers.
+
+No new book bodies: features from crop, hint text, alarm answers and previously
+heard headman lines remain the canonical material. Signatures/dates belong to
+those quoted sources, not the neutral page headings. No invented named speaker,
+month, historical title, extra tab, notification, crop sequence or hidden answer.
+The seven headings may label their corresponding navigation controls too;
+Words is the eighth named navigation entry. No separate umbrella tab invented.
+
+Authorship and semantic review
+-----------------------------
+The seven notes are district-paper annotations TO the chairman, not thoughts
+spoken BY each avatar. Sender is the district organization already named in
+the first-letter journal line. No physical speaker is cast: gender, age,
+education and origin of a clerk signing it are unspecified and not fabricated.
+Recipient is the chosen existing avatar: seven men; acting woman has no entry.
+Formal neutral wording uses 'ваши/для вас' and no gendered past tense, patronymic
+or procedurally selected resident. It names known district procedures, not
+unseen future villagers or unearned outcomes. The selected chairman can still
+choose his own actions. These notes do not make choices on his behalf.
+
+The sol-russian-dialogue skill was applied to literal meaning, social register
+and distinct review passes; references semantic-gate, dialogue-checklist and
+social-register were read. No chairman avatar voice skill is applied because
+the chairman is the addressee, not the author. No decorative ethnic, cavalry,
+factory or student speech inserted in a common district document.
+
+Two plain drafting approaches considered: terse mechanic labels ('торг в
+январе; три раза') versus short complete office sentences addressed to the
+recipient. Complete sentences selected; no 'buff/debuff', program terminology,
+metaphor, blame or imperative. Page titles use ordinary Russian rather than
+'three groups and year' or the engine word 'phases'.
+
+Four separate passes:
+1. Facts/causality: seven notes match their individual accepted rows. Worker
+   restriction counts opportunities; promoted funds have no invented percent;
+   former chairman's audit has no invented accusation. Student wording joins
+   January timing and the epoch-wide three-use maximum without granting three
+   uses in each January. Dealer/villager distinguish x2 from x1.5 duration.
+2. Cast/grammar: no randomly cast characters, no masculine speech assigned to
+   acting, no unknown names declined. District official voice is the same
+   across all notes; avatar's personality does not leak into the sender.
+3. Register: restrained period-style office wording, not a claimed authentic
+   historical letter. 'Эпоха' and 'репутация' retain game-rule precision; they
+   are explanatory marginal notation, not a invented historical bureaucratic
+   statute. Replacing them with 'год' or a new named period would alter rules.
+4. Read-through/meaning gate: each line directly names one applicable rule,
+   contains no ornamental image and remains understandable without performance.
+   No actual listening or TTS is claimed; this is silent written content.
+
+Literal paraphrases (not player text):
+Student: January negotiation costs no reputation and is capped three per epoch.
+Worker: first two negotiations cannot change crop; +/-10 percent stays open.
+Old fighter: no negotiation route for this avatar.
+Promoted: district replies take half the ordinary time; higher normal allocation.
+Former chairman: more information requests and an annual audit.
+Dealer: district replies take twice ordinary time.
+Villager: applications take one-and-a-half ordinary time.
+
+Follow-up queue: hint_05 rewrite was already delivered in management-learning
+thread [6], one-row CSV. Field-camp sentence was already delivered in its thread
+[4]; withdrawn historical check is not reopened. No duplicate submission.
+
+Delivery checks: CSV parses as 16 unique proposed keys; all eight expected
+avatars accounted for (seven notes and explicit no-entry acting). All label
+and body budgets pass; no undeclared placeholders or plural expressions.
+Shared strings.db has none of these proposed keys, so no existing literal is
+silently overwritten. Own links: 82 files / 590 links / problems 0.
+git diff --check passes. Import and final literal approval remain pending.
