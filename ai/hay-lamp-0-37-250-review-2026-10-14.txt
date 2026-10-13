@@ -1,0 +1,112 @@
+Hay-lamp window copy — core 0.37.250
+
+Delivery state: own CSV only, eight proposed rows. No shared DB writes, no
+strings.py import/sync/save/export/render, no TTS, no quest or hint. Boss
+owns the import under AGENTS section 7. Receipt and rendered UE behavior
+are not yet verified. This task arrived separately from the older demo queue.
+
+Basis read: tone.md; dialogues.md relevant speech/register rules; livestock.md
+section 'Лампа сена внутри покоса — по темпу косьбы'; time.md calendar rule;
+alarm_state.h short_grams and advice_day comments; fodder_advice.cpp dated
+branch. The code confirms advice_day is an absolute SimDay, not a day number
+within a month. short_grams is shortage to the forecast horizon expressed
+in hay units, not the worst-day number of heads. Existing strings queried
+read-only: logistics declare_day_working still speaks about a cargo; hay's
+existing text still names heads and first resource, so both need separation.
+
+Calendar conflict — requires boss decision
+-----------------------------------------
+The parcel and new livestock design use numbered dates (22nd / 12 March).
+time.md section 4 explicitly shows only weekday, month, year; tone.md section
+10 forbids day-of-month everywhere because a month contains four game days.
+No local rewrite of the calendar or numbered-date producer is authorized.
+
+Options: (A) an agreed caption containing permitted calendar components,
+derived by the existing calendar from the absolute game day; (B) relative
+time until the indicated morning; (C) explicit human-approved calendar
+change before any numbered date. Prefer A if the accepted calendar has a
+unique caption for the indicated day; otherwise B. Neither formatter nor
+uniqueness is assumed implemented. Boss should confirm the binding with
+host/UE. The three dated rows remain requires_calendar_binding_decision.
+Their {date}:text is a ready display caption, not an integer and not a new
+calendar mechanism. It follows a colon, so no runtime Russian declension
+or day-of-month suffix is needed. The relative forecast is separately
+deliverable now. 'Сена до DATE' was not retained: it ambiguously treats the
+first short day as a day still fully supplied.
+
+Speaker card / skills
+---------------------
+Chairman reading the forecast privately; adult; officeholding authority;
+male or female as selected; education and origin from the chosen avatar;
+no interlocutor. The aim is to consider an available order and its cost,
+not command the player or claim an order already executed. Knowledge is
+the actual forecast and present conditions. Future rain is not known.
+Read sol-russian-dialogue and semantic gate, checklist, social register,
+plus all eight avatar voice passports. For this small window use genuinely
+neutral common copy, not eight artificial variants or a blended comic voice.
+No gendered past-tense forms or invented residents, education or kinship.
+
+Two direct drafts, then the selected register
+-------------------------------------------
+Lift: A 'Аврал на покосе длится уже четыре дня. Можно снять аврал.';
+B 'Срок аврала на покосе вышел. Можно снять аврал.' A states the accepted
+four-day basis explicitly; B hides it. A chosen; no claim the lamp goes out.
+Today: A 'Сегодня сухой выходной. Можно объявить его рабочим для покоса —
+за счёт отдыха людей.'; B 'Можно продолжить покос в сегодняшний выходной,
+но отдых придётся отложить.' A chosen: 'отложить' would promise recovery.
+Dated day: same choice with a separate date caption and conditional dry
+morning. Not an order to act today or an exact weather forecast.
+Handover: A names fully mown meadows, remaining shortage, post-cut timing
+and older animals; B merely 'После покоса — сдать лишние головы району'.
+A chosen: B conceals the reason and the working-horse consequence.
+Forecast: A time until first shortage + tonnes until new-cut hay arrives;
+B stock lasts 'до DATE'. A chosen: shortage day is not an inclusive expiry.
+Quiet: A states continued forecast and absence of a named cut advice today;
+B 'Ничего делать не надо'. A chosen: B improperly removes all player agency.
+
+Four separate review passes
+---------------------------
+1. Facts/causality: only existing advice cases; date is not day-of-month;
+   grams-to-tonnes is 1e6; delivery horizon retained; rain conditional;
+   no extra yield from a grass-bound cut; no slaughter or automatic action.
+2. Cast/gender: common private register suitable for all eight avatars;
+   no inferred resident sex, no gender-dependent agreement or addressee.
+3. Status/register: 'можно' leaves the decision with the chairman; no
+   second-person imperatives to the player; qualitative rest cost only,
+   no invented numerical mood/rest consequences or future rest guarantee.
+4. Read-through/semantic gate: each action has an object and a reason;
+   no metaphor, joke, maxim or unexplained causal jump. No spoken delivery
+   or audio-listening claim: this is written window copy.
+
+Import / binding review
+-----------------------
+Five rows review-ready without a date-format decision (including optional
+button key), three dated rows held for binding agreement. CSV statuses are
+not approvals. No alarm title change. Registered lift_rush title is already
+'Снять аврал': if the existing vocabulary supplies the button, reuse it
+and import only the explanatory sentence, not a duplicate label.
+The dated hay text is an alternative, not a forecast shown twice. Bind the
+actual alarm's short_grams, not amount or amount_more; do not sum per-herd
+shortages again. Keep adequate locale decimal precision for a positive
+quantity, rather than showing zero after display rounding.
+The shortage is a hay-equivalent quantity from the forecast, not a promise
+that only physical hay purchases can feed the herd. Existing feed orders
+and advice ladder keep their accepted bindings.
+Today/dates select on advice_day=0/nonzero; the deferred handover keeps
+the core's head counts above the floors, not heads_short. No price or
+number of animals is invented in these new literals. Buttons remain
+subject to their actual order availability; a future advice does not
+authorize clicking a current-day order early.
+The quiet copy requires an open-cut gate, not just advice=nil; the existing
+none branch outside the cut remains untouched. Existing generic reduce_herd
+and logistics cargo text remain untouched. #746's feed storage line is a
+different pending approved import and must not be silently replaced here.
+
+Validation result: eight-row CSV parsed; known string kinds and unique full
+keys checked; placeholder declarations and all four plural branches checked.
+Rendered counts 0/1/2/4/5/11/21/22/25/101, decimal tonnes and a permitted
+weekday/month/year sample caption fit the proposed length limits. LF only.
+Own links: 82 files, 594 links, problems: 0. The mandatory whole-project
+checker reported 65 issues; own-tree scan is clean, foreign files untouched.
+Git publication reported in
+the delivery parcel; this report does not claim any shared import or render.
