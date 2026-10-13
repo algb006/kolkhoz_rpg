@@ -1,5 +1,53 @@
 Hay-lamp window copy — core 0.37.250
 
+REVISION 2 — boss [3], 14 October 2026
+------------------------------------
+Calendar conflict resolved without a calendar change. The original review
+below records revision 1, not current bindings. Current CSV has nine rows,
+all review status: no shared import receipt or audio production claimed.
+The former three held rows have been rewritten; one handover weekday
+sibling is added to cover the exact 1..7-day branch, not an extra advice.
+
+Near future (positive delta through seven): {weekday}:text is a ready phrase,
+including the preposition, from the weekday dictionary: 'в понедельник',
+'во вторник', 'в среду', 'в четверг', 'в пятницу', 'в субботу', 'в воскресенье'.
+No fixed 'в' before an uninflected name: that would break Tuesday and the
+gendered weekday endings. Date input is still absolute advice_day; the
+caption belongs to its future weekday, not today's. Delta seven names the
+next occurrence, not today. Current-day advice keeps its undated string.
+
+Working-day notice is near future: the accepted advice selects a day off
+still ahead in the current four-day calendar month. Conditional dry morning
+and rest cost remain explicit. Order is not made available early.
+Handover uses reduce_herd_dated_weekday for delta 1..7;
+reduce_herd_dated uses {days}:int=advice_day-current_day for delta>7.
+Both retain the post-cut reason, above-floor handover and horse warning.
+No weekday substitution is allowed at delta eight or greater.
+
+Forecast text_dated is now the month-caption variant: days=days_ahead,
+month is its shortage month's ready GENITIVE name ('марта', not 'март'),
+derived from current_day+days_ahead. Tonnes and arrival horizon unchanged.
+text remains the month-free fallback, not a simultaneous second forecast.
+No {date} or day-of-month placeholder remains. Zero days renders zero days,
+not a promise of adequate stock today; runtime may prefer the neutral
+month-free text at zero without inventing a new literal.
+
+Two direct variants: fixed 'в {weekday}' versus complete weekday phrase;
+choose the latter to preserve Russian prepositions and case. For a long
+handover, absolute numbered date versus relative plural-count sentence;
+choose the latter under boss [3]. For the main forecast, days-only versus
+days plus genitive month; the latter is the requested display and the
+former remains the safe fallback. No arbitrary month of cut opening.
+The four fact/cast/register/read-through passes were repeated on these
+changes. No gender agreement, character fact or new consequence introduced.
+Skill passports keep the common private register, without forced jargon.
+
+Revision 2 validation: all nine rows parse, declared slots match text,
+no date slot remains, all four plural forms exist. Rendered 13 counts
+(0/1/2/4/5/7/8/11/21/22/25/31/101), every weekday phrase and all twelve
+genitive month names; maximum rendered length 165, within declared limits.
+Own links: 82 files / 594 links / 0 problems. No shared import performed.
+
 Delivery state: own CSV only, eight proposed rows. No shared DB writes, no
 strings.py import/sync/save/export/render, no TTS, no quest or hint. Boss
 owns the import under AGENTS section 7. Receipt and rendered UE behavior
