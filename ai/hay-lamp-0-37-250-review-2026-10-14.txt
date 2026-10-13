@@ -1,5 +1,26 @@
 Hay-lamp window copy — core 0.37.250
 
+IMPORT RECEIPT AND INDEPENDENT VERIFICATION — boss [5], 14 October 2026
+---------------------------------------------------------------------
+Main commit 8b3e197b imported all nine rows, eight new and .text replaced.
+Read-only verification: nine source literals, exact placeholder names/kinds,
+plural flags, maximum lengths, active status and export literals match.
+All Russian translations remain draft and approved_rev is NULL; imported
+does not mean human-approved wording or verified in-game HUD behavior.
+Existing .text revision is 3, the eight new rows revision 1. Its placeholders
+are days:int and tonnes:real only: heads and resource are removed.
+All binding contexts match delivery. Own CSV now records imported_verified.
+
+Accepted import adjustment: SIX advice rows have kind tooltip, matching the
+existing advice family. No narrative-specific body requirement was intended;
+tooltip is appropriate. Both forecast rows remain body, action.lift_rush
+remains button. Own CSV mirrors those actual kinds, no shared write made.
+Boss reports sync/save/check (zero errors)/export/render/csv. Independently
+checked db/strings/stringtables/ru/alarm.csv for all nine literal matches;
+did not rerun shared mutating tools or claim UE runtime receipt. No audio.
+The preparation/revision notes below are chronological history, not pending
+calendar blockers or a pending import. The calendar was resolved by [3].
+
 REVISION 2 — boss [3], 14 October 2026
 ------------------------------------
 Calendar conflict resolved without a calendar change. The original review
