@@ -1,0 +1,59 @@
+Decision 322 — named summer friends: intake, not character delivery
+
+Assignment: boss-rpg-avatar-friends-names-and-voices-2026-10-14 [1].
+Read the accepted avatars.md summer-friends subsection, names.md section 5a,
+econ's 299-line proposal and the existing avatar_helper rows read-only.
+Checked the correspondent draft's helper relationships and successor scope.
+
+Queue: live tasks.py queue contains #659 field-camp text first, then #761
+autumn alarm wording AFTER the demo. This non-urgent assignment must not
+displace either. Proposed place: after those two; boss controls registration
+and priority. The conditional older #797 order-copy work is not revived or
+reordered by this parcel. No engine, TTS or heavy work is needed for intake.
+
+Deliverable when its turn comes: seven companies of three people (the
+specified three trades per company), 21 distinct character profiles with
+sex, starting age, permanent visual identity description, relationship,
+reason to holiday here and a two/three-sentence voice specimen. All roles
+are proposals until boss and econ accept the rows. Student untouched.
+Final human-facing dossier belongs in manual/characters/; no dossier or
+literal dialogue is claimed produced at this intake step.
+
+Naming: permanent character key/face is not a globally fixed written FIO.
+Names section 5a requires runtime dictionary-generated first name, patronymic
+and surname, selected by sex and age band, saved as dictionary keys; surname
+unique against unrelated named characters and resident families. Author
+examples, if provided, must be marked examples only. No special name pool,
+hard-coded famous person, ethnic caricature or random sex after drafting.
+
+Helper separation: all seven helper people remain distinct from visitors;
+only their introduction/network links connect the casts. Existing helper
+arrival in Epoch II and personal-contact/successor conditions untouched.
+In particular the old-fighter company's vet assistant cannot silently BE
+Savelyev, whose arrival is Epoch II, or become a unit commander who sends
+builders. A different colleague in that trade is compatible as a proposal.
+No correspondence reinstated in the first build, no messenger, no new quest.
+
+Keys to agree with boss BEFORE bulk strings
+-----------------------------------------
+Propose namespace event for order results:
+  avatar_friends.<avatar_key>.invite_reply — seven company-specific replies;
+  avatar_friends.no_room — one shared room refusal, not seven duplicate texts.
+Propose namespace ui.office for avatar-file lines:
+  avatar_friends.<avatar_key>.personal_file — seven company-specific lines.
+These are proposals, not existing registered keys or approved bindings.
+Use actual avatar table keys after boss confirms the namespace convention.
+{friends}:text would be a ready localized nominative list of the selected
+company's generated names, never a fixed spelling or a runtime inflection
+guess. Refusal numeric slots only if the order returns actual free/required
+guest places; not family houses or household billets borrowed as a proxy.
+Proposed total: fifteen window/result rows, not 21 profile voice examples
+also imported as dialogue assets. Voice examples are writing guidance, not
+requests for TTS takes or a new runtime conversation system.
+
+Historical review is still due with primary sources; no trade is declared
+impossible in 1931 here. It should separate profession existence from
+availability of workshop/tools on this village visit, and reject caricature
+of the cavalry circle as war memoirs or the dealer circle as ethnic greed.
+No power to override guest-help limits, annual window, occupancy gate,
+future friendship lifespan or marriage questions left open in the design.
