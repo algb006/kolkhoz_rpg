@@ -1,5 +1,35 @@
 Decision 322 — named summer friends: intake, not character delivery
 
+CURRENT RULING — boss [3], 14 October 2026
+-----------------------------------------
+Task #873 is created, open, owner rpg. Boss sets it third after #659 and
+#761, but independent read currently shows queue_pos NULL and tasks.py
+queue lists only those two. Reported for boss correction; no task DB writes.
+The intended priority stands; no friend dossier batch started out of order.
+
+Confirmed string namespaces and keys: event avatar_friends.<avatar_key>.
+invite_reply (7), event avatar_friends.no_room (1), ui.office avatar_friends.
+<avatar_key>.personal_file (7). Actual avatar keys read from design.db:
+villager, worker, ex_chairman, promoted, old_fighter, dealer, acting.
+Student remains outside this new 21-profile/15-string deliverable.
+
+Accommodation NOW RESOLVED: ordinary billet places, the builders' own count,
+not exclusive free rooms or vacant houses. The human rejected that separate
+restriction. no_room has NO numbers until there is an actual engine field.
+Food and accommodation remain the cost of receiving guests, not a new fee.
+Repeat attendance has the same good-food/good-lodging condition for ALL
+eight avatars; no separate reputation meter or arbitrary probability.
+This does not reopen the Student's settled company, skills or visit window.
+
+Visual briefs: arrival by open retro car, departure by britzka/cart; look
+owns the vehicle body. No named real vehicle or model invented for the cast.
+Permanent identities and visual briefs, FIO from the runtime dictionary,
+company/helper separation and different old-fighter vet colleague confirmed.
+Shared names/design/string DBs remain boss-owned. No TTS or quests.
+
+The intake notes below record the proposal before [3]; 'keys to agree' and
+'unresolved accommodation' are historical, not current blockers.
+
 Assignment: boss-rpg-avatar-friends-names-and-voices-2026-10-14 [1].
 Read the accepted avatars.md summer-friends subsection, names.md section 5a,
 econ's 299-line proposal and the existing avatar_helper rows read-only.
