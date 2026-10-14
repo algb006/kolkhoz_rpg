@@ -1,5 +1,9 @@
 Task #659 — field camp and field canteen text delivery
-State: authored and checked; pending boss review/import. No TTS.
+State: accepted by boss [2] in rpg-field-camp-659-delivery-2026-10-14;
+import pending under boss row #943. No TTS.
+The acceptance covers the replacement blurb and all three new sentences.
+Read-only verification after receipt still found the old blurb and none of the
+three new keys; acceptance is not an import receipt or live HUD validation.
 
 Basis: manual/design/core/tone.md; manual/design/infrastructure/mts.md,
 "Field camp as a unit"; manual/design/world/units/catering.md section 7;
