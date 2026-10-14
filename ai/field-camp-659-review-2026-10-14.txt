@@ -1,0 +1,45 @@
+Task #659 — field camp and field canteen text delivery
+State: authored and checked; pending boss review/import. No TTS.
+
+Basis: manual/design/core/tone.md; manual/design/infrastructure/mts.md,
+"Field camp as a unit"; manual/design/world/units/catering.md section 7;
+design.db unit field_camp and current source-locale strings, read-only.
+Human poles-and-straw ruling governs; no reopening of the withdrawn period check.
+
+Delivery: manual/texts/field-camp-659-2026-10-14.csv, four rows.
+Three new keys are proposals, not registered bindings. Boss chooses their actual
+surfaces and imports. Existing field_camp.blurb is a design-origin replacement:
+edit the unit source, not the synchronized translation directly.
+
+Subtitle review: retain exactly:
+«Ночлег дальних бригад в страду и лагерь колонны МТС».
+Both functions are accurate; it is concise, natural Russian. No subtitle string
+was found in the current unit namespace; do not silently create a new binding.
+
+Blurb review: current source:
+«Стан у дальних полей: в страду бригада ночует здесь, а не ходит домой.
+Здесь же встаёт выездная колонна МТС.»
+The existing wording is understandable, but the categorical absence from home
+can obscure the accepted return on days off / at the close of the work window.
+Proposed replacement explains reduced travel, keeps seasonality and both uses.
+No compulsory permanent stay, own MTS equipment or new availability gate.
+
+Speaker: the appointed clerk addressing the chairman respectfully. Fixed
+profession, not a newly named resident. Age and sex not supplied by this task;
+present/future sentences and neutral address work for either sex and all eight
+chairman avatars without inventing a biography or past-tense agreement.
+No forced period jargon, opaque proverb, invented place or avatar voice variant.
+
+Offer flow: attach only to the already accepted distant-work offer condition;
+existing confirmation choices and order logic stay with their owner. It is NOT
+a quest, and does not revive frozen quest/hint work. Text does not promise an
+immediate built camp, zero construction cost or universal numerical benefits.
+Family dissatisfaction and reduced household time remain a qualitative cost.
+
+Canteen: the canopy gives shade and better rest, not guaranteed meals from
+nowhere. Hot-food buffer remains optional. No fatigue immunity, crop bonus,
+new menu or numerical tuning claim. Existing field_canteen.blurb stays unchanged.
+
+Checks: CSV syntax, unique proposed keys, zero placeholders/plurals, lengths;
+existing blurb source and subtitle checked read-only. Shared imports and live
+HUD validation have NOT been performed by RPG.
