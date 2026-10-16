@@ -1,0 +1,66 @@
+Task #987 — wording and bindings for boss review, no import or TTS by RPG
+
+Basis: boss-rpg-987-word-explanations-2026-10-16 [1], including the human's
+«Объяснения слов разрешаю» (English gloss: word explanations are allowed),
+econ/manual/audit/unexplained-words-year1-2026-10-16.md; current glossary and
+encountered string rows read-only; accepted role-lines.md section 6,
+labor-payment.md section 6.1, livestock.md horse ration, production.md burts.
+
+Files:
+- manual/texts/word-explanations-987-2026-10-16.csv: 14 rows. Eleven glossary
+  concepts (the audit's combined cells are split into actual headwords), one
+  Dealer-specific alternative for the shadow path, and horse alarm title/tip.
+- manual/texts/glossary-headwords-987-2026-10-16.csv: 14 existing definitions
+  with headwords prefixed, factual content unchanged.
+- manual/texts/word-explanation-hovers-987-2026-10-16.csv: 14 proposed links
+  from existing encounter strings to the same glossary text keys. Variants are
+  mutually exclusive by actual avatar, not multiple simultaneous hovers.
+
+Each concept has one source wording for glossary and hover, not two drifting
+copies. These are proposed presentation bindings: no hover route or UI component
+was implemented/tested by RPG. Boss/layer must confirm how glossary rows are
+reused at the named surfaces. If inline word hovers are unavailable, the owner
+must choose the surface; this delivery does not silently invent a new UI mechanic.
+
+Headword defect: existing glossary has 40 rows. Fourteen lack their headword;
+two more, plan_item and turn_of_year, are rewritten in the main delivery to print
+their headwords. Existing definitions already beginning with their words remain
+unchanged. Each delivered definition begins with its Russian headword, so opening
+an isolated hover does not depend on an unseen UI title. No claim that the UE
+glossary's heading component itself was fixed. An entry is one paragraph; wrapping
+at the actual screen width is expected, not guaranteed to be one physical line.
+
+Meaning checks:
+- Seed loan returns the SAME resource at the year turn, not necessarily grain
+  and not "by autumn"; potatoes also serve as seed. Details/rate remain #983's.
+- A burt is a heap under straw and earth (production.md), not the audit draft's
+  "pit-ridge". No promise of lossless winter storage.
+- District reputation is not a resident's mood or a nonexistent loyalty meter.
+- Black cash is unrecorded income, not the whole personal wallet.
+- Shadow path is especially suited to the Dealer but not exclusive to him.
+  Its definition does not unlock later-epoch activity in Epoch I.
+- Private-household stock lodging is not a permanent ban on buying animals.
+- Horses on hay lose ploughing/harrowing traction, NOT cart speed. The tip keeps
+  the existing alternatives without inventing an oat multiplier or new order.
+- #983's seed/debt tips are not overwritten here: attach the explanation by key.
+  The markup hover still fits if "наценка" becomes the one-fifth explanation.
+
+Terminology proposals — NOT applied; boss rules before any sweep:
+1. Use «покос» for the operation/window throughout player-facing management
+   text. It already names the accepted hay-lamp advice and the order «Аврал на
+   покос». Use «сено нового покоса» for the resulting batch, rather than replacing
+   every occurrence of agronomic «укос» indiscriminately. Existing glossary.haymaking
+   should be retitled/rephrased only after that decision; no second work type.
+   Alternative «сенокос» is explicit but changes more current command wording.
+2. Use «скирда» for this game's outdoor hay-storage unit. unit.hay_stack.name
+   and the office sketch legend already agree. «Стог» is a real different shape,
+   not a reason to teach a second storage entity. Incidental world descriptions
+   need inspection, not blind replacement of shapes or quoted historical text.
+3. Use «району» on the livestock handover order: ui.office.order.hand_stock
+   proposed label «Сдать району». The economic receiver is the district, not the
+   party committee. Keep «райком» where an actual party institution acts; no
+   blanket replacement. This proposal is not included as an approved import row.
+
+All existing source keys checked; new glossary keys and the Dealer sibling are
+proposals until registration. Title rename must go through the alarm's registered
+design source, then synchronization. No edits to other roles, databases or code.

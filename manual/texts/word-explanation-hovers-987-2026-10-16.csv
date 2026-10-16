@@ -1,0 +1,15 @@
+source_key,word,tooltip_key,condition
+ui.office.journal.first_incoming,райзо,glossary.raizo,all
+ui.office.refusal.no_room_for_stock,постой,glossary.stock_billet,all
+alarm.seed_short.tip,семенной заём,glossary.seed_loan,all
+ui.office.limit.cart.loan,товарный заём,glossary.goods_loan,all
+alarm.goods_loan_owed.tip,наценка / пятая часть сверх долга,glossary.loan_markup,all; preserve task 983 wording
+ui.office.refusal.reputation_too_low,на карандаше / репутация,glossary.reputation,all
+alarm.plan_position_short.title,позиция плана,glossary.plan_item,all
+alarm.plan_position_short.tip,поворот года,glossary.turn_of_year,all
+alarm.harvest_will_not_fit.tip,бурт,glossary.clamp,all
+ui.office.own.black_cash,Чёрная касса,glossary.black_cash,only when the existing surface is permitted
+perk.shadow.name,Цеховик,glossary.shadow,avatar!=dealer; retain existing epoch gate
+perk.shadow.name,Цеховик,glossary.shadow.dealer,avatar=dealer; retain existing epoch gate
+perk.shadow_1.effect,Цеховик — пояснение ветки,glossary.shadow,avatar!=dealer; only if this effect is encountered first
+perk.shadow_1.effect,Цеховик — пояснение ветки,glossary.shadow.dealer,avatar=dealer; only if this effect is encountered first
