@@ -1,0 +1,52 @@
+Five existing seam words — content delivery, pending boss review/import
+
+Authority: boss-rpg-five-seam-strings-2026-10-17 [1]. Existing lamp, order
+and events only; no new quest, hint chain or TTS. Own source:
+manual/texts/five-seam-strings-2026-10-17.csv, nine rows for five words.
+Three alarm rows, two order rows, three event rows plus one required unset-unit
+alternative. No matching active source rows existed at the read-only inspection.
+
+Meaning verified directly in core/include/core_common/alarm_state.h,
+order_state.h and event_state.h, and design.db alarm / vocabulary_word.
+The shared registries called order_kind/event_kind are vocabularies, not
+standalone design tables. No design/strings writes or code modifications by RPG.
+
+Bindings and safeguards:
+1. site_supply_waits: title exactly matches the registered «Стройка ждёт
+подвоза». Alarm.unit names the works; amount is working idle days, not grams,
+calendar days, labor_days or a dated loss. Tip is factual even when advice
+turns to kNone after the priority switch. The specific advice is shown ONLY for
+kSupplyOverFields and targets logistics_task, not the named unit ID. It does
+not promise instant materials or create extra carts. The transport floor still
+works by its own rules; the string does not change its share/threshold.
+2. raise_site: Order.unit and enable=1. Both labour and supply are affected
+within the same tier; this is not the separate over-fields supply order. No
+new satisfaction cost or absolute priority above every other job. Existing
+raised sites retain their ordering by earlier start. The label names the
+raise action only, not an enable=0 switch-off label; the existing layer owns
+whether/how a reversible toggle is displayed.
+3. advance_written_off: family and amount. amount is formatted WITH weight
+unit from grams of grain equivalent; prose says «в пересчёте на зерно», not
+cash or another advance handed out. kNotable retained. A family display name
+stays nominative before the colon, no runtime case/gender guess.
+4. stack_cart_urgent: field and resource only, both ready nominative display
+names. Works are being carted ahead of other work, not already delivered.
+Core emits once per village-day and may name only the first affected meadow;
+the sentence does not claim this is every affected field. amount packs data;
+no number/deadline is inferred or printed. kNotable retained.
+5. herd_ate_from_far_rick: herd and optional unit; kRoutine. Unit may be a
+different farm's manger or a far rick, so do not call every source a haystack.
+Core explicitly allows unit unset when only numbered stores supplied it:
+the .no_unit alternative is essential, not a newly invented event condition.
+Both lines are neutral and short; no imaginary cart on the road, no extra
+resident interaction, no automatic blame/theft and no packed amount binding.
+
+Key caution: CSV proposes string-key surfaces to replace brackets; boss registers
+and imports them, layer resolves ready names and chooses only the valid variant.
+Importing text is not proof of a connected HUD/door/event renderer. No such test
+was run here. Existing foreign terminology in vocabulary history is not silently
+rewritten by this content delivery.
+
+Checks: nine unique content keys; exact registered title and raise-order wording;
+field names and optionality reviewed; CSV shape, placeholder declarations and
+lengths. No engine build, replay, live HUD or actual cart run claimed.
