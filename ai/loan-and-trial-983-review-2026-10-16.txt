@@ -1,0 +1,56 @@
+Task #983 — delivery for boss review/import, no TTS
+
+Source: manual/texts/loan-and-trial-983-2026-10-16.csv (six rows).
+Accepted basis: labor-payment.md section 6.1, epochs.md "Under trial",
+econ/manual/proposals/loan-and-trial-numbers-shown-2026-10-16.md section 2,
+and boss-rpg-983-loan-and-trial-strings-2026-10-16 [1].
+Shared sources and databases were inspected read-only; boss performs imports.
+New order/count keys are proposed bindings, not existing engine surfaces.
+
+Two factual corrections to the premise:
+1. All TEN scene.district.plan_warning_first.* / plan_warning_last.* source
+strings already exist, active and literal matches for epoch1-ending-lines.md.
+Do not insert duplicates or erase their source metadata. Each five-row group
+contains alternatives for the actual district_face, not five consecutive voices.
+Their origin is rpg, source_table=line, source_column=text; failed_year belongs
+only to the five first-warning rows. Existing translation status ok does not
+mean human approval: approved_rev is NULL on all ten observed rows.
+The ten suffixes are korenev, stozharov, karasev, zhernova, polushkina,
+once under each of district.plan_warning_first and district.plan_warning_last.
+No scene rewrites or new voice were requested, so their text is retained.
+This is storage verification ONLY, not proof of core triggers or live playback.
+
+2. The accepted loan rate is 0.2, but both labor-payment.md and district.md allow
+reputation to reduce it. A blanket "return one fifth more" would misstate the
+discounted case. Options: separate undiscounted/discounted branches, or qualify
+the explanatory fixed rate and always show the actual quote. Prefer the latter:
+«Без скидки вернуть нужно на пятую часть больше.» No new branch or knob.
+Boss should confirm this qualification at review; shared wording was not changed.
+
+Accounting contract for review by the owner:
+- The order explicitly appends tonnes: both numeric values must omit units.
+- The existing book's amount has placeholder kind amount and includes its unit.
+  Its new amount_back uses the same formatted-with-unit convention. Do not
+  append another tonne suffix or change the existing amount/year bindings.
+- Get the actual repayment from the authoritative quote/carried snapshot; do
+  not compute a hardcoded x1.2 in UI, nor multiply an already accrued debt again.
+  The debt's original/marked-up snapshot distinction must be bound by its owner,
+  not inferred from this prose. Preserve small positive debts when formatting.
+- The proposal's seed_short.tip reference to "new mark-up" names the wrong row:
+  that wording is in goods_loan_owed.tip. Both tips are included in the CSV.
+
+Trial count:
+- limit is the effective threshold for this avatar; n is the consecutive run.
+- A completed plan resets n to zero; failures over the whole campaign are wrong.
+- The due event uses its saved triggering limit, not a hardcoded ordinal.
+- A plural expression avoids "third" / "second" grammar and supports 1, 2, 3,
+  4, 5, 11, 21, 22 and 25 without another hardcoded avatar variant.
+- The due event starts the case procedure; it does not claim immediate court
+  transfer, sentencing or removal. The accepted stages remain unchanged.
+- Review concern, not a new mechanic: when a stricter limit makes first/last
+  warning conditions coincide, the owner must preserve the accepted staging;
+  this delivery neither chooses precedence nor creates a warning opportunity.
+
+Scope: warning/numerical surfaces authorized outside the 2 October freeze.
+No quest, hint chain, new mechanic, shared DB write, voice production or live
+engine/HUD test. Human-facing source wording remains Russian; this note English.
