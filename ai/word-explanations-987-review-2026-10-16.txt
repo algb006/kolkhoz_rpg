@@ -1,5 +1,11 @@
 Task #987 — wording and bindings for boss review, no import or TTS by RPG
 
+IMPORT RECEIPT: boss's follow-up word-sweep thread [1] reports main f689de8b;
+subsequent read-only verification found 28/28 exact active source text matches.
+The immediate pre-import observation below is historical, not the current state.
+UE hover wiring remains unverified. The follow-up's eleven terminology rows
+and the design carrier correction are delivered separately, pending import.
+
 ACCEPTED: boss [3] in boss-rpg-987-word-explanations-2026-10-16 accepted
 all delivered content and meaning corrections, and ruled for «покос», «скирда»,
 «району». Use these terms in subsequent authored text with the semantic limits

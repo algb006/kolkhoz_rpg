@@ -1,0 +1,48 @@
+Task #987 follow-up — exact terminology replacements for boss
+
+Delivery: manual/texts/word-sweep-987-2026-10-16.csv, eleven existing string
+keys with before/after wording and unchanged placeholder types, plural flags
+and existing length limits. manual/texts/word-sweep-987-carrier-2026-10-16.csv
+has one design-source correction, alarm.team_on_hay.carrier, NOT a new string key.
+Both await boss review/import. No code, shared write or TTS by RPG.
+
+Basis: boss-rpg-987-word-sweep-2026-10-16 [1], accepted terminology ruling
+in the original #987 thread [3], current read-only design/string sources,
+and livestock.md horse-ration rule: cart speed is independent of oats,
+ploughing/harrowing work is not. Visual decisions remain look's.
+
+Scope and reasons:
+- «Покос» replaces the operation / work-window term and the four named meadow
+  work sites. Masculine nth ordinal binding still agrees with «покос»; preserve
+  place as the existing ready location phrase. No new site type or crop unit.
+- «Сено нового покоса» replaces the batch description, not the forecast horizon.
+  New hay still arrives only after harvesting and delivery; no earlier promise.
+- glossary.haymaking describes work, so its headword becomes «Покос» too.
+- «Сенокос» may remain ONLY as a season name in literary speech (e.g. a memory
+  about summer during haymaking), not as a competing work/site name in UI.
+  No requested row here is such a literary season reference. No broad sweep of
+  archival submissions, historical citations or unrelated character lines.
+- «Укос» is not mechanically replaced in all agronomic prose: the targeted hay
+  batch references are reworded explicitly to preserve what they mean.
+- A straw storage tip names the existing «скирда», not a second «стог» unit.
+- crafts_gate tests district reputation; «репутация у района» is the same metric
+  already shown elsewhere. Its required_reputation binding is unchanged.
+- Keep the neighbour summaries' «сводка райкома», the order SIGNATURE and the
+  district secretary's role: those actually name a party body, not the economic
+  receiver. No replacements proposed for them. The separate economic handover
+  BUTTON should follow the earlier accepted «Сдать району» ruling; do not confuse
+  that button label with its issuing official's signature.
+- Corrected carrier names less ground worked in the same time on ploughing /
+  harrowing, explicitly NOT slower carts. It does not prescribe a new limp,
+  fatigue animation, sick horse or look asset; the visual still belongs to look.
+  Office grams of missing working grain are preserved verbatim.
+
+Import receipt for original #987:
+Boss reports main f689de8b. Independently checked 28/28 original content rows
+as exact active source-locale matches after receipt. This confirms source text,
+not the three-file shared validation chain or live UE hover routing. Mappings
+are recorded for UE; no runtime or rendered hover acceptance claimed.
+
+Checks: eleven existing keys / unique, every previous_text matches current DB,
+CSV shape and max lengths, placeholder names identical before and after, kinds
+and plural expressions retained; one valid carrier row. Own links checked.

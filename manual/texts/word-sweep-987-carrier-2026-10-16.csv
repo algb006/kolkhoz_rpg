@@ -1,0 +1,2 @@
+source_table,source_key,source_column,status,text_ru,meaning,keep
+alarm,team_on_hay,carrier,proposed_correction,"Рабочая упряжь на пахоте и бороновании: без овса за то же время обрабатывает меньше земли; скорость подвод не меняется (вид работы — look, STUB). Кабинет: граммы недостающего рабочего зерна.",The horse ration affects field-work output rather than cart movement,Keep look ownership of visual work; no invented slower-cart signal or new animation requirement
