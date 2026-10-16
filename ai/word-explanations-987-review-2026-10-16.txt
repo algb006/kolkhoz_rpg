@@ -1,5 +1,14 @@
 Task #987 — wording and bindings for boss review, no import or TTS by RPG
 
+ACCEPTED: boss [3] in boss-rpg-987-word-explanations-2026-10-16 accepted
+all delivered content and meaning corrections, and ruled for «покос», «скирда»,
+«району». Use these terms in subsequent authored text with the semantic limits
+below. The proposals below are the submission record, not unresolved rulings.
+Boss is importing all three files; UE owns wiring the recorded hover mapping.
+Read-only check immediately after receipt: 0/28 exact source matches, 10 new
+keys not yet present and 18 existing rows still old. Import is in progress, not
+verified complete. No live UI hover, renamed-title frame or route test claimed.
+
 Basis: boss-rpg-987-word-explanations-2026-10-16 [1], including the human's
 «Объяснения слов разрешаю» (English gloss: word explanations are allowed),
 econ/manual/audit/unexplained-words-year1-2026-10-16.md; current glossary and
