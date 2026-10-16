@@ -1,6 +1,12 @@
 Three missing lamp/year-book rows — delivery to boss
 
-State: drafted and checked, pending review/import. No TTS or shared writes.
+State: boss [3] in boss-rpg-words-264-267 reports two rows imported as delivered:
+alarm.herd_freezing.advice.warm_yard and ui.office.book.goods_loan_taken.
+Read-only verification confirms both active source texts match exactly.
+ui.office.book.plan_failed_snow is HELD, not rejected, until core task #999
+ships the kPlanFailed weather byte; the key is absent at this verification.
+No further wording owed here. CSV remains the original delivery record.
+No runtime selector/UI test claimed. No TTS or shared writes.
 Source: manual/texts/lamp-book-264-267-2026-10-17.csv, three rows.
 Authority: boss-rpg-words-264-267 [1], outside the quests/hints freeze.
 Basis: econ/manual/audit/mechanic-review-core-264-267-2026-10-17.md;
