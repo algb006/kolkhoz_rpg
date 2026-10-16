@@ -1,5 +1,12 @@
 Five existing seam words — content delivery, pending boss review/import
 
+IMPORT RECEIPT: boss [3] in boss-rpg-five-seam-strings-2026-10-17 reports
+all nine rows imported as delivered. Independent read-only verification confirms
+9/9 exact active source texts and exact placeholder names/types. Event rows are
+in feed, including the unset-unit alternative. No further wording owed here.
+CSV remains the original delivery record. Live UE bracket fallback, routing and
+actual execution are not verified by this database check.
+
 Authority: boss-rpg-five-seam-strings-2026-10-17 [1]. Existing lamp, order
 and events only; no new quest, hint chain or TTS. Own source:
 manual/texts/five-seam-strings-2026-10-17.csv, nine rows for five words.
