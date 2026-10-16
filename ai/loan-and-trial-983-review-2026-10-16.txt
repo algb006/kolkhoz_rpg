@@ -1,5 +1,13 @@
 Task #983 — delivery for boss review/import, no TTS
 
+ACCEPTED: boss [3] in boss-rpg-983-loan-and-trial-strings-2026-10-16.
+The "without discount" qualification is explicitly confirmed. All six rows are
+accepted; their import is gated on core #984's matching producers and is owned
+by boss. This is not an import receipt or a live UI/engine verification.
+The proposal labels in the delivery CSV record its original submission state.
+Task #987, named next in that acceptance, was already delivered in its own
+thread [2], commit 3d1be18; it remains pending boss review, not new work to repeat.
+
 Source: manual/texts/loan-and-trial-983-2026-10-16.csv (six rows).
 Accepted basis: labor-payment.md section 6.1, epochs.md "Under trial",
 econ/manual/proposals/loan-and-trial-numbers-shown-2026-10-16.md section 2,
