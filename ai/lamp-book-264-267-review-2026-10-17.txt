@@ -1,0 +1,42 @@
+Three missing lamp/year-book rows — delivery to boss
+
+State: drafted and checked, pending review/import. No TTS or shared writes.
+Source: manual/texts/lamp-book-264-267-2026-10-17.csv, three rows.
+Authority: boss-rpg-words-264-267 [1], outside the quests/hints freeze.
+Basis: econ/manual/audit/mechanic-review-core-264-267-2026-10-17.md;
+current strings and design read-only; core/include/core_common/office_views.h
+LoanLine and PlanBook comments; existing livestock ration/yard rules and tone.
+
+1. alarm.herd_freezing.advice.warm_yard: uses the actual source name
+«Утеплённый скотный двор», no summer deadline, no retired straw-coat action.
+It is an advice-specific row ONLY when the lamp names kWarmYard. It must not
+fill a kNone case or claim an already-open upgrade can be ordered again.
+Generic herd_freezing.tip's unconditional imperative, already flagged by econ,
+is NOT repaired by adding this key; boss owns that separate follow-up.
+
+2. ui.office.book.plan_failed_snow: proposed key. Snow-only failure neither
+increases nor resets the consecutive-failure run. This row says it is not
+added, not that the plan was met or a previous failure erased. It also cannot
+be used for the Promoted's different forgiveness. Text alone cannot distinguish
+the events: owner needs the saved snow-only reason, not just unchanged count.
+No runtime gate invented or claimed implemented by RPG.
+
+3. ui.office.book.goods_loan_taken: names the CURRENT core members exactly:
+LoanLine.resource, taken_this_year, owed. Both amounts are Grams in core, then
+formatted with their unit for the string's amount placeholders. The sentence
+adds no literal tonne suffix. No client-side multiplication or preview formula.
+Important: owed is total repayment for that resource, mark-up already included,
+possibly with old carried debt; it is NOT the price of this year's principal
+alone. Therefore the second sentence explicitly says «Всего по этому продукту».
+Show this row only for taken_this_year>0. Existing carried-debt row is unchanged.
+If the owner wants only principal here, omit the second sentence at review;
+do not relabel total owed as this year's amount_back.
+
+Delivery/import boundary: CSV rows are the usual content handoff. Boss registers
+new keys and imports strings; no SQL executed against shared strings.db by RPG.
+No field names changed in core, no scene trigger/hover/UI wiring implemented.
+Original #983's proposed count placeholder n is not assumed to be the live
+binding: current shared row uses count. This task does not overwrite that row.
+
+Checks: three unique keys; active warm-rung source name; exact core field names;
+CSV schema, placeholder declarations and max lengths; no runtime/HUD test claimed.
