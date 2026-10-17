@@ -1,0 +1,14 @@
+source_key,word,tooltip_key
+order.first.point_2,учётчик,glossary.clerk
+alarm.seed_short.tip,при хорошей репутации — меньше,glossary.discount
+alarm.goods_loan_owed.tip,при хорошей репутации — меньше,glossary.discount
+alarm.herd_freezing.tip,надой,glossary.milk_yield
+alarm.milk_all_to_debt.tip,надой,glossary.milk_yield
+ui.office.weekly_work_authorship,человеко-день,glossary.person_day
+alarm.site_without_materials.tip.stone,карьер,glossary.quarry
+alarm.site_without_materials.tip.clay_sand,отмель,glossary.shoal
+ui.office.order.mark_felling,порубка,glossary.logging_plot
+ui.office.order.take_night_trader,ночной промысел,glossary.night_trade
+ui.office.event.night_trade_outing,ночной промысел,glossary.night_trade
+ui.office.economy.fodder_balance,кормовой баланс,glossary.fodder_balance
+alarm.herd_freezing.tip,тяга,glossary.traction

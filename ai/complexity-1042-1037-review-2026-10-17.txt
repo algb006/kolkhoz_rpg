@@ -1,0 +1,71 @@
+Tasks #1042 / #1037 — content delivery; import/producer conditions kept explicit
+
+Authority: boss-rpg-complexity-strings-2026-10-17 [1]. Current instructions
+authorize lamp and glossary work despite earlier stand-by and the quest freeze.
+Basis: econ/manual/audit/complexity-2026-10-17.md; resources.md section 6
+"Thin team year"; district.md collection rule; timber.md source restrictions;
+crime.md nightly trades; current source strings and alarm_state.h read-only.
+
+Delivery:
+- manual/texts/complexity-1042-1037-2026-10-17.csv: twenty rows, ten lamp
+  rows including held alternatives and ten glossary definitions.
+- manual/texts/complexity-1042-hovers-2026-10-17.csv: thirteen proposed
+  first-use routes reusing the same glossary rows; not implemented UI wiring.
+
+Ready for review now: seed_short.tip, goods_loan_owed.tip (no unexplained
+discount noun), generic team_on_hay.tip, logistics day-off advice, glossary.
+Reputation may lower the normal fifth; the actual loan quote remains authoritative.
+No percentage applied in text code. Protected plan/seed repayment priority stays.
+
+HELD / DATA REQUIRED:
+1. plan_position_short.tip: collections:int, date:text are proposed layer
+bindings, not asserted core field names. Current Alarm doesn't provide them.
+Owner must count real remaining scheduled district collections and format a
+complete calendar phrase WITHOUT a numbered day of month (weekday/month/year
+only, as appropriate). A zero-count alternative is supplied to avoid inventing
+a pickup after the last collection. No `tomorrow` or self-deliver-today claim.
+Both rows wait for the verified producer/selector, not a hardcoded two.
+2. thin_oat_year: use only when an authoritative field-plan shortage reason
+exists. Bot's year-two/every-third-year pattern is NOT a universal player gate.
+Don't infer "little oat sown" from every low oat ration (funds/transport may
+also cause it). Generic tip remains accurate without that reason. Logistics
+priority changes which loads get carts; it does not summon oats or alter the
+horse's ration/field-work assignment. The false transfer-team door is removed.
+3. meadow_uncut_before_snow.tip is authored BUT HELD until hay weathering
+actually lands and boss coordinates this wording in that same delivery. The
+current non-weathering world must not be described by future decay rules.
+No preservation duration, percentage loss or snow destroyer invented.
+4. #1037 proposed fields cargo, carts_today, carts_total, hay_carts are NOT
+invented core members. Current Alarm.amount is waiting hours, not cart counts.
+Owner must define today's availability/denominator and the hay-cart subset,
+and supply actual day-off status. hay_carts means carts occupied CARTING HAY,
+not horses living on hay. If that was not the intended meaning of «на сене»,
+boss must rule before import; don't guess a cause.
+Day-off text and advice are separate: show the order only for actual executable
+kDeclareDayWorking / kCancelDayOff. A holiday or used override must not receive
+an unexecutable imperative. Working-day row has no made-up cart-assignment door.
+
+Glossary meanings:
+- Учётчик assigns daily work; not brigade leader or the accountant.
+- Скидка is explained although the loan tips now say the actual relation in
+  plain words. Its hover attaches to that relation, not an absent literal word.
+- Person-day is labour INPUT, labor_days are EARNED entitlement; no fixed
+  workday hours or new conversion asserted.
+- A quarry needs suitable rock; a shallow shore isn't every extraction site.
+- A logging plot is a general forestry term; actual game felling OUTSIDE forest uses
+  existing «Разметить порубку». No new outbound forest crew or live forest
+  clear-cutting. Retain the button's current wording; no blind replacement of
+  site/action distinctions. The earlier glossary definition is updated to avoid
+  inviting the player to cut mature living forest.
+- Night trade explanation must not disclose an unknown guilty resident.
+  Evening liquor transactions remain possible; umbrella term is not an exact
+  hour assertion. No additional criminal mechanics/rewards.
+- Fodder balance compares feed stock/needs over the displayed horizon, not
+  an invented fixed winter deadline for every screen.
+- Тяга is ability/output; тягло is the animals, not synonyms to merge. Oats
+  affect ploughing/harrowing, not cart speed. Existing own_traction definition
+  is a different annual metric and is not overwritten here.
+
+Boundary: no shared writes, producer code, new mechanic, quest, hint chain or
+TTS. Boss imports ready rows and holds pending ones; layer wires the supplied
+hover routes. A CSV placeholder contract is not an implemented payload.
