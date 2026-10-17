@@ -1,5 +1,12 @@
 Five existing seam words — content delivery, pending boss review/import
 
+CURRENT ORDER KEYS: boss-rpg-order-namespace-2026-10-17 [1] moved the two
+raise_site rows to ui.office.order.raise_site / ui.office.order.raise_site.tip.
+Read-only verification: both new keys active; original order.raise_site and
+order.raise_site.tip deprecated. The CSV is the historical delivered namespace,
+not instructions to restore it. FUTURE ORDER LABELS: namespace ui.office,
+key order.<kind> (tooltip order.<kind>.tip). No further migration owed by RPG.
+
 IMPORT RECEIPT: boss [3] in boss-rpg-five-seam-strings-2026-10-17 reports
 all nine rows imported as delivered. Independent read-only verification confirms
 9/9 exact active source texts and exact placeholder names/types. Event rows are
