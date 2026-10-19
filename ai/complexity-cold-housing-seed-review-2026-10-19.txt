@@ -1,0 +1,41 @@
+Cold yard / housing / seed store — response to boss's 19 October request
+
+Authority: boss-rpg-complexity-strings-2026-10-19 [1]. No new quest, unlock,
+trigger or TTS; one correction to an existing quest body explicitly in scope.
+Source: manual/texts/complexity-cold-housing-seed-2026-10-19.csv.
+Read-only current strings show SIX requested rows already corrected. Preserve
+them rather than bumping source revisions / approvals without a wording change:
+- herd_cold_ahead.tip includes the other-sites pause and names the warm yard;
+- herd_cold_ahead.advice.warm_yard names the actual building, no «ступень»;
+- housing_short.text / text_barrack / text_both already split three cases;
+- seed_has_no_room.tip already says «овощехранилище или бурт» for potatoes.
+
+Housing selector contract: homes>0 and barrack_places=0 -> text;
+homes=0 and barrack_places>0 -> text_barrack; both positive -> text_both;
+both zero -> no demand line. Use the actual calculated fields, not the refusal
+cause as a substitute for the counts. Existing placeholder names/types and all
+four Russian plural forms are preserved. UE owns rendering/selection; source
+verification is not proof the zero-place symptom is gone in a live frame.
+
+One actual text gap: quest.quest_e1_08.body still says the warm yard OR a
+one-winter straw coat. The coat was removed under accepted registry 316;
+the requested starting-yard goal should name «Утеплённый скотный двор» only.
+Replacement delivered, no «ступень», no straw alternative, existing goal/season
+unchanged. Boss must import via the owning source; RPG does not write shared DB.
+This does not re-enable issuing a frozen quest or silently advance its start.
+
+Do not confuse quest_e1_08 with start-construction-quest.md's cattle_pen stage:
+that stage lays an OPEN yard at game start, not the winter upgrade. Its internal
+completion check can name a level; replacing it with a warm yard would change
+the goal and is not authorized. No such replacement was made.
+Unrelated red herd_freezing and horse-stable lamp strings were not swept under
+this narrowly addressed herd_cold_ahead request. No broad numbered-level purge.
+
+Basis: econ complexity review dated 11 October (historical snapshot, not current
+source); current accepted construction.md pause rules and livestock.md registry
+316 retirement; read-only strings and core alarm subject comments. No old straw
+rescue from the historical econ report is reintroduced.
+
+Checks: seven unique rows, six literal retained source matches, one old/new quest
+body, placeholders and housing plural cases, registered warm-yard name. No live
+HUD, UE selector, paused-site assignment or construction timing test claimed.
