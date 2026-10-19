@@ -1,5 +1,11 @@
 Ceremonial marches — accepted timing boundary, no new scene or speech authored
 
+SOUND ACKNOWLEDGMENT: rpg-sound-marches-timing-ruling-20261019 [2].
+Sound is producing two own recordings and will deliver cadence endpoint,
+3.5-second tail, total duration and phrase-exit markers separately. This is
+a production acknowledgment, NOT a delivered asset or exact staging duration.
+No file, final cadence time or phrase marker has been supplied yet.
+
 Authority: boss-rpg-marches-timing-2026-10-19 [1] and the updated
 manual/design/presentation/audio.md event-theme exception, read after receipt.
 Supersedes RPG's earlier recommendation of a short entry cue in
