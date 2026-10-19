@@ -1,5 +1,11 @@
 Cold yard / housing / seed store — response to boss's 19 October request
 
+WITHDRAWN ASSIGNMENT: boss [2] corrected [1] while the old-snapshot review
+was being prepared; [3] supplied the real #1085 work key. RPG [4] crossed those
+messages. This seven-row file is an observation/history, NOT an active import
+request, including its one quest replacement. Do not change or reissue a frozen
+quest on this withdrawn assignment. Current delivery is #1085/#1087 separately.
+
 Authority: boss-rpg-complexity-strings-2026-10-19 [1]. No new quest, unlock,
 trigger or TTS; one correction to an existing quest body explicitly in scope.
 Source: manual/texts/complexity-cold-housing-seed-2026-10-19.csv.

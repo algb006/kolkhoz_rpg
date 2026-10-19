@@ -1,0 +1,48 @@
+Corrected assignment — boss-rpg-complexity-strings-2026-10-19 [2], [3]
+
+Boss withdrew [1] as a mistaken old 11 October task while RPG was checking it.
+RPG [4] crossed the correction. Its old seven-row reconciliation is now marked
+withdrawn; do not import its proposed quest body under that mistaken assignment.
+Current basis is econ/manual/audit/complexity-2026-10-19.md and farming.md
+"Hay in meadow swaths weathers", plus actual active ui.office work/order labels.
+
+Source: manual/texts/complexity-1085-1087-2026-10-19.csv, eight rows with old/new.
+
+#1085 first:
+- advice.cut_hay names «Уборка», literal ui.office.work.harvest, matching
+  core's WorkKind::kHarvest (boss relayed WorkKindOfPhase). No separate mowing
+  type, blind renaming of all meadow objects, or promise of an order called
+  "add people" in the work list. It names the existing assignment/work route.
+- meadow_uncut_before_snow.tip now says autumn meadow hay decays and should be
+  stored. No 10% tuning hardcoded; summer drying is not labelled spoilage.
+  Protected stack/shelter storage is distinct from hay remaining on the meadow.
+  Boss coordinates import with #1015 release/core 0.37.299; RPG has not run or
+  independently certified that binary in a world. Keep registered «скирда».
+  This row supersedes the earlier held generic weathering draft from #1042;
+  do not later reimport that older version over it.
+
+#1087 after #1085:
+- plan_position_short.tip receives an immediate timeless wording. It doesn't
+  pretend tomorrow/today, a specific pickup date or exactly two collections.
+  Earlier #1042 data-rich collections/date alternatives remain held until the
+  owner supplies authoritative fields; this no-placeholder line can replace the
+  stale wording without inventing a payload. It gives no guarantee of enough
+  time, an extra collection or a preserved plan if the player does nothing.
+- logistics_late generic tip now works for any waiting load without falsely
+  calling routine rick supply urgent or promising spoilage. Optional urgent /
+  rick_supply variants are supplied with explicit selectors for UE to confirm.
+  Rick threshold is a target stock, not already-starving animals. Priority
+  is the actual «Сменить приоритет» route; it only reorders existing carts.
+  Existing day-off advice is separately conditioned on its executable door;
+  this task does not invent an order to add carters or open a day off.
+- leisure layer is just the highlighted-house fact; removed both nonexistent
+  imperative routes. No new rest/holiday mechanic or build suggestion.
+- materials tip names the district limit instead of money. Resource-specific
+  stone/clay/timber local-source advice stays, and no false all-materials lot
+  is introduced by this generic wording.
+- too_few_horses second text is NOT written/imported yet: boss explicitly says
+  he will signal #993 C-1. No premature idle-hands branch or selector invented.
+
+Boundary: old/new string rows for boss review before import; no shared DB/code
+write, scene, quest, new mechanic, TTS or rendered-interface validation by RPG.
+CSV statuses distinguish the coordinated release row and optional variants.
