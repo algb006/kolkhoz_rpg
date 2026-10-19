@@ -1,0 +1,40 @@
+Hay-haul advice and the elder's warning — content delivery
+
+Authority: boss-rpg-haul-hay-2026-10-19 [1]; accepted farming.md weathering
+row after core0.37.299. Source: manual/texts/haul-hay-advice-2026-10-19.csv,
+two rows with old/new wording. No shared DB/code edits or new quest/TTS.
+
+New alarm.herd_hay_short_ahead.advice.haul_hay: held until the actual core
+selector is delivered. The string does NOT decide precedence or reconstruct
+the forecast: core selects it with lying cut meadow hay and short feed forecast,
+before reduce_herd per boss. It names «Сменить приоритет», the active label
+ui.office.order.set_logistics_level, acting on the hay-haul task, not the meadow's
+harvest work or a new hauling button. Raising the priority diverts existing carts,
+not adding free carts or promising every remaining head can be fed.
+Cause starts «С осени»: accepted weathering is zero in summer (drying), 10%/month
+autumn/spring and 3% in winter, so a blanket "rotting now" in July would lie.
+No rates put in the player line, no hidden stock count or climate date invented.
+
+Existing scene.elder.warnings.hay_before_snow: ready for immediate boss import
+through its narrative source. Same speaker/trigger, uncut-grass warning retained;
+cutting alone no longer promises lossless outdoor preservation. Author file
+manual/texts/elder-explains-clarity.md corrected at the same key. No added line,
+new facts, participants, dialogue sequence, voice take or scene timing.
+
+Sweep of current source-locale active strings for hay + preservation / heaps /
+snow found the elder's old line and the already-correct meadow tip. No third
+active player line in that semantic search still promises hay in heaps keeps.
+Also scanned own manual/ai references. Corrected the stale live author source
+manual/texts/map-layer-tooltips.md to exactly match #1085/current shared tip.
+Old wording remains only in explicit CSV before-columns, historical submissions
+and review history where it must remain evidence, not an active import source.
+This is a targeted text sweep, not a proof about generated model dialogue or
+other-language translations; those were not audited.
+
+The accepted stack/store remains protected storage, unlike hay in meadow swaths.
+Do not globally change every field-heap/snow rule: harvested grain and potatoes
+have their own rules. No per-name guess that all heaps are hay.
+
+Checks: two unique keys, exact current elder old text, absent new advice key,
+valid CSV, no placeholders, lengths; active order wording; corrected author
+line; own links. No runtime producer/priority execution/scene playback test.
