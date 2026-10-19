@@ -1,0 +1,54 @@
+Task #1089 — proposed settlement-name pool for boss import
+
+Source: manual/texts/settlement-names-1089-2026-10-19.csv, 30 nominative names.
+Namespace proposed: settlement, keys name.1 through name.30; resulting FULL
+keys settlement.name.1 through settlement.name.30, as requested. Namespace
+settlement is not currently registered in strings.db; boss registers it. Do
+not substitute an unrelated existing namespace without adjusting the consumer.
+
+Mix: six vyselki/khutor forms, six water/soil-root forms, six woodland forms,
+eight personal/family-root forms, four clearing/new-settlement/landscape forms.
+No Красный-/Октябрьск- names, political leaders, religious jokes or real-event
+allusions. No coined Soviet names recommended for this particular household-led
+pool. If later the player names a state-sponsored project, that is a different
+content request, not an extra toggle/mechanic invented here.
+
+Scope: names only. No alternative founding threshold, settlement boundary,
+fire-gong timing or council requirement is chosen by RPG. Existing start village
+keeps its MAP name and is not assigned name.1. The sequence is a content index,
+not a settlement-type enum, house count or priority weight.
+
+These are author-proposed names in traditional Russian naming patterns, NOT
+a claim that all 30 are attested in a specific district in 1931. The game uses
+a fictional oblast/district; exact historical attestations for all 30 were NOT
+FOUND/verified. Do not describe the list as a documented local 1930s inventory.
+Brief reference search located historical settlement-list catalogue records:
+https://elib.shpl.ru/ru/indexes/values/48422?page=4&view=list
+(library catalogue includes 1926 Orenburg / 1922 Arkhangelsk lists, not the game's
+fictional region). Official regional statistics background on older naming-list
+material: https://69.rosstat.gov.ru/storage/mediabank/Статистика_170%20лет.pdf
+These are background for historical naming, not proof of each proposed name's
+etymology or of a 1931 village. No bulk copying or per-name historical assertion.
+The family/name roots in notes are possible authorial readings, not researched
+biographies or an instruction to choose an actual current resident surname.
+
+Index-only assignment caveat for boss:
+- Natural-root names are conventional names, NOT quest directions or guarantees
+  of a nearby usable quarry, stream, named grove or sand extraction site.
+- A family-root name must not make the resident with the matching surname an
+  owner/founder by implication. Narrative asks world state for actual relations.
+- If names must literally describe the current founding families/terrain, the
+  index-only interface lacks that selector. Options: use conventional names as
+  supplied (preferred for current scope), or boss designs conditional pools.
+  RPG does not add conditional mechanics or demand map restrictions unasked.
+- Existing map-name collision avoidance and list exhaustion belong to the
+  indexing owner's contract. Thirty names do not imply a limit of 30 villages,
+  reuse permission, guaranteed uniqueness against every custom map or deletion
+  of the start name. No invented overflow name or renaming rule here.
+- Supplied forms are nominative labels only. Declined place phrases and locative
+  prepositions are NOT derivable by blindly adding a suffix. Their later
+  localization/navigation binding needs the owner's accepted dictionary path.
+
+Checks: 30 consecutive full keys, unique casefolded Russian names, valid CSV,
+one-line notes, no placeholders/embedded line breaks. Shared DB untouched.
+No new scene, quest, role, mechanics, TTS or historical political reference.
