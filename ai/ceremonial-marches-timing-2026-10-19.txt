@@ -1,0 +1,39 @@
+Ceremonial marches — accepted timing boundary, no new scene or speech authored
+
+Authority: boss-rpg-marches-timing-2026-10-19 [1] and the updated
+manual/design/presentation/audio.md event-theme exception, read after receipt.
+Supersedes RPG's earlier recommendation of a short entry cue in
+rpg-boss-ceremonial-timing-gaps-20261019 [1]. That recommendation was not a rule.
+
+Wedding ceremony: Mendelssohn, 60–75 seconds; funeral procession: Chopin,
+60–90 seconds. Whole excerpt with cadence, room tail 3–4 seconds; no looping,
+second entrance or voiced line over the ceremonial core. The definitive staged
+window comes from SOUND'S FINAL FILE LENGTH, not a fabricated fixed timing now.
+Ask sound to report musical cadence endpoint and tail-inclusive total separately
+so the prose's range/tail convention cannot shift the scene endpoint.
+Interrupted scene: music leaves over 3 seconds on the nearest phrase; this is
+an audio exit contract, NOT a newly invented earliest skip/unskippable duration.
+
+Wedding party follows as a separate live-accordion part with no theme.
+Epoch II funeral hired band is a live source for the same march, not a second
+overlaid soundtrack. No hired Epoch I band is introduced by an orchestral file.
+
+Existing IDs checked read-only on 19 October:
+- sound_scene wedding, id2: event_kind.wedding, morning ZAGS if present,
+  daytime feast, evening party. It is the ambient-world scene, not a completed
+  timed ceremony screenplay.
+- scene.life.first_wedding, id7: fact:first_wedding, once, cutscene_world,
+  skip_policy=stages, status idea, authored_ref NULL; four-stage example in
+  dialogues.md (ZAGS / yard feast / dances / evening). No new substage IDs
+  registered here, no final animation timeline claimed.
+- sound_scene funeral, id12: event_kind.resident_died, funeral day after the
+  death, daytime procession home to cemetery. Do not start a procession merely
+  at the death event timestamp. No separate narrative funeral scene found.
+
+Remaining handoff: sound gives final file duration/cadence/tail/phrase markers;
+RPG can then record matching ceremony/procession duration under the new ruling.
+No final recording supplied in this parcel, so exact seconds are pending input,
+not an incomplete promise silently filled with a number. Host/UE own execution
+and skip/audio routing; this note isn't an implementation or new staging order.
+Funeral visuals still obey cemetery/tone boundaries: actions of the living,
+closed coffin only, no death/open grave/body close-up or camera seeking the grave.
