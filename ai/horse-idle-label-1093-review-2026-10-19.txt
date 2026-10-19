@@ -1,0 +1,32 @@
+Task #1093 — one window label, no lamp/advice
+
+Authority: boss-rpg-horse-idle-label-2026-10-19 [1]. Explicit cancellation:
+do not author the formerly anticipated too_few_horses C-1 second lamp text.
+No such row was authored; existing delivery review marks the old wait superseded.
+
+Source: manual/texts/horse-idle-label-1093-2026-10-19.csv, one proposed
+ui.office.herd.idle_for_horse_week label reused in the horse/herd windows.
+After demo, coordinated with the real producer; not an immediate active import.
+
+«Простой людей без лошади за прошедшую неделю: {days} чел.-дн. ({pct} % рабочих дней).»
+
+Meaning: residents waited without productive work for an unavailable horse;
+not horses standing idle, not every unassigned resident, not a new alarm.
+days = person-days over the past week, not calendar days or earned labor_days.
+The abbreviated unit avoids inventing integer-only Russian plural handling if
+the producer reports fractional lost person-days. pct is an already calculated
+percentage over the same population/workday scope as its authoritative producer.
+Do not substitute total village population, horse days or lifetime losses.
+No exact field names are supplied yet; placeholder names are boss's days/pct,
+proposed numeric kinds real/real, NOT invented core member declarations.
+Layer localizes decimals; no forced integer rounding or repeated x100 operation.
+At zero denominator, owner must define unavailable/hidden behavior, not fabricate
+zero percent. No new weekly accounting/window selector is designed by RPG.
+
+Both placeholders are bare numeric values: the label supplies person-day and
+percent units. No implication that one person-day has a fixed number of hours.
+No imperative, new suggestion, world colour, penalty or instruction to buy horses.
+
+Checks: one row, unique proposed key, exact days/pct declarations, no plural
+expression needed for the abbreviation, max length and sample numeric rendering.
+No shared database/code changes, no runtime tests, no TTS or new quest/hint.

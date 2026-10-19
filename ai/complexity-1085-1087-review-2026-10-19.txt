@@ -1,5 +1,11 @@
 Corrected assignment — boss-rpg-complexity-strings-2026-10-19 [2], [3]
 
+C-1 FOLLOW-UP: boss-rpg-horse-idle-label-2026-10-19 [1] CANCELS the future
+too_few_horses second lamp text. It was never authored here; no row to delete.
+The later paragraph about awaiting a signal is superseded by this cancellation.
+Replacement scope is task #1093's plain horses/herd window number, after demo
+with core's door; delivered separately as horse-idle-label-1093-2026-10-19.csv.
+
 Boss withdrew [1] as a mistaken old 11 October task while RPG was checking it.
 RPG [4] crossed the correction. Its old seven-row reconciliation is now marked
 withdrawn; do not import its proposed quest body under that mistaken assignment.
