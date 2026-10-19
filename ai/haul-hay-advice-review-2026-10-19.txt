@@ -1,5 +1,15 @@
 Hay-haul advice and the elder's warning — content delivery
 
+ACCEPTED in boss-rpg-haul-hay-2026-10-19 [3]. Elder-source route corrected:
+own db/story.db string_source is a VIEW of line, not an editable table. Updated
+the one underlying line text and its stale translation meaning/keep in a single
+guarded transaction; existing line_source_changed trigger raised rev5 -> rev6.
+approved_rev remains NULL. Reproducible dump db/data/line.sql saved, checker
+reports no errors/questions, export/render completed. Shared strings DB is NOT
+updated by this operation; boss runs strings.py sync. No new approval or TTS.
+Applied migration record: ai/elder-hay-weathering-source-2026-10-19.sql.
+The haul_hay advice remains held for core selector #1095; boss imports it then.
+
 Authority: boss-rpg-haul-hay-2026-10-19 [1]; accepted farming.md weathering
 row after core0.37.299. Source: manual/texts/haul-hay-advice-2026-10-19.csv,
 two rows with old/new wording. No shared DB/code edits or new quest/TTS.
