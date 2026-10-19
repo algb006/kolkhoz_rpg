@@ -1,0 +1,3 @@
+sound_scene_key,sound_scene_id,narrative_scene_key,event_key,take_id,sample_rate_hz,total_frames,music_endpoint_seconds,nominal_tail_seconds,total_wav_seconds,phrase_markers_seconds,status
+wedding,2,scene.life.first_wedding,wedding,949,48000,3190523,62.969220,3.5,66.46922916666666,11.261111;29.038889;42.372222;60.291844,measured_v1_pending_hearing_and_integration
+funeral,12,,resident_died,950,48000,3631241,72.150860,3.5,75.65085416666666,17.927778;35.705556;44.594444;62.372222,measured_v1_pending_hearing_and_integration
