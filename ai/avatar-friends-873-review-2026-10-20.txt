@@ -1,5 +1,24 @@
 Task #873 — seven summer companies / narrative delivery review
 
+21 OCTOBER CURRENT REVISION — supersedes the original 15-row receipt below
+------------------------------------------------------------------------
+Econ accepted with R1-R3 in manual/audit/avatar-friends-873-review-2026-10-21.md
+(44e4299), relayed and authorized by boss [8]. All four affected existing
+rows revised, one new event.avatar_friends.old_fighter.horse_brought row.
+Current total 16: seven invite_reply, one no_room, seven personal_file,
+one horse_brought. Eight rows have friends:text; all others have no slots.
+R1: fighter invitation has no horse offer or cap; actual gift result is
+separate and must be selected only when a horse is brought below the cap.
+R2: file and result specify a culled army horse, without illness wording.
+R3: dealer's two rows name the district-supply detour and the four permitted
+goods; file states one lot no larger than district's, not unlimited choice.
+No new binding variable, profile or TTS. The 21 profiles/helper links were
+accepted by econ; shared registration/import remain with boss, not done.
+The original note below claiming the cap clause was safe in the invite
+was rejected by econ; do not restore that wording from historical receipt.
+Current post-transfer link check has no RPG issues; prior 20 audio issues
+were resolved by boss's /data transfer (um01-link-recheck-2026-10-21.txt).
+
 Authority
 ---------
 Original assignment: boss-rpg-avatar-friends-names-and-voices-2026-10-14

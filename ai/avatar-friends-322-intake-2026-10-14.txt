@@ -1,5 +1,14 @@
 Decision 322 — named summer friends: intake, not character delivery
 
+21 OCTOBER UPDATE — boss [8] after econ review 44e4299
+---------------------------------------------------
+Four existing texts revised under R1-R3; one event result row added.
+Current CSV has 16 rows, not the original 15; horse gift is reported only
+by horse_brought on an actual eligible visit, cap remains in personal_file.
+The fighter's horse is culled army stock; the dealer's gift names the four
+accepted goods and its district-supply detour. Profiles remain 21, no TTS.
+Registration/import next with boss; no shared DB changes by RPG.
+
 20 OCTOBER UPDATE — intake history below is superseded where noted
 ----------------------------------------------------------------
 Boss authorized #873 while #761 waits for #755, in
