@@ -1,0 +1,86 @@
+Task #873 — seven summer companies / narrative delivery review
+
+Authority
+---------
+Original assignment: boss-rpg-avatar-friends-names-and-voices-2026-10-14
+[1], confirmed keys/naming/accommodation [3]. Explicit permission to proceed
+while queue-top #761 waits: rpg-next-runnable-after-move-20261020 [2].
+#761 keeps priority once #755 closes; this does not bypass the demo gate.
+
+Deliverables
+------------
+manual/characters/avatar-friends-873.md: seven companies of three profiles,
+21 proposed stable IDs, sex fixed (18 male / 3 female), starting ages,
+dictionary-valid sample FIO, permanent recognizable visual briefs subject
+to normal aging, one personal relationship/holiday reason per person,
+2-3-sentence voice specimens. One helper-network explanation per company.
+These are proposals, not registered design rows or fixed global names.
+All 21 start ages are proposals; they advance with the ordinary named
+characters' aging. No literal sample surname creates a household relation.
+
+manual/texts/avatar-friends-873.csv: precisely 15 agreed keys, seven event
+invite_reply, one event no_room, seven ui.office personal_file. All rows
+proposed, not human-approved/imported. No speaker recordings or dialogue
+scene registration implied. No new Student text.
+
+Bindings
+--------
+friends:text is a ready localized nominative list of this company's three
+generated names, not a hard-coded example or client-side declension rule.
+The result is shown only on an eligible accepted invitation; this copy is
+not a wrong-season, already-present or bad-previous-reception refusal.
+no_room is exactly the agreed nonnumeric lodging refusal, only for the
+ordinary builders' billet account. No extra dedicated-room requirement.
+personal_file is static descriptive copy, not an invented last-visit state.
+The common return condition is in all seven file lines, without a score.
+The fighter's result states the per-visit/per-epoch horse rule rather than
+unconditionally promising a fourth horse. No remaining-count placeholder.
+Other gift/repair/training eligibility belongs to the accepted help door;
+these texts cannot substitute for implementation checks.
+
+Scope and historical cautions
+-----------------------------
+Helpers remain distinct, including the fighter's second vet assistant.
+No helper arrives early; no successor rule or personal relationship metric
+changed. No quests/hints, ranking mechanics, audio, asset order, permanence
+of guests, marriage/lifespan solution or later-epoch help authored.
+Look's accepted three-person open touring-car arrival and cart departure
+replace the earlier unresolved vehicle-body note. No car ownership or
+return-driver story invented. Guns are personal hunting guns in cases;
+no uniforms, decorations, violence or drinking-location scene.
+
+Trades all retained. A visiting turner does not bring a lathe or turn every
+repair into possible village work. Retired auditor is no longer touring
+with inspections, not a claim about a specific pension statute. Instructor
+does not control district points. Animal treatment and hunting are not
+depicted. The gifts do not start a trading service or revive NEP.
+
+Historical search: library catalogue metadata for period publications,
+not full-text technical manuals. Dossier links sources directly. 1930
+turner training and horse-rake handbook support period material culture;
+1930 calf husbandry supports the farm background. The farriery book found
+is 1935, the calf-woman job instruction is 1934; neither proves a 1931
+army establishment/job title. Direct 1931 riding-master staffing evidence
+was not found. No claim that every trade was independently attested.
+All personal biographies remain fictional author proposals.
+
+Validation
+----------
+CSV: 15 unique namespace/key pairs, column structure and placeholder sets
+checked; only the seven invitation results have friends:text. Other rows
+have no placeholders. Base text lengths fit the proposed ceilings.
+Conservative name-list expansion from current dictionary maxima is 127
+characters; every invitation still fits its proposed full-text ceiling.
+Profiles: 21 distinct friend_* headings and 21 sample names checked against
+read-only design.db given_name/surname dictionaries; given-name sex and
+old/any generation, patronymic sex and surname sex all match.
+Shared strings/design DBs unchanged. No own story.db write: these profiles
+are pending design registration, not runtime lines for source sync yet.
+
+Post-move link audit: full project 3183 files / 26859 links / 487 issues;
+RPG scope 83 files / 616 links / 20 issues. All 20 RPG issues are missing
+historical prologue voice files/reports under /data/kolkhoz/voice in three
+old reviews, not new dossier links. New/modified Markdown files are checked
+separately before delivery. Do not delete archival links to make the check
+green, manufacture audio, or claim that the former VM's zero result still
+holds on um01. Migration evidence will be reported separately to boss.

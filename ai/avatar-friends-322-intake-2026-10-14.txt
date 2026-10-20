@@ -1,5 +1,18 @@
 Decision 322 — named summer friends: intake, not character delivery
 
+20 OCTOBER UPDATE — intake history below is superseded where noted
+----------------------------------------------------------------
+Boss authorized #873 while #761 waits for #755, in
+rpg-next-runnable-after-move-20261020 [2]. #761 retains priority and its gate.
+Authored dossier: manual/characters/avatar-friends-873.md, 21 profiles.
+Window copy: manual/texts/avatar-friends-873.csv, 15 confirmed keys.
+Review receipt: ai/avatar-friends-873-review-2026-10-20.txt.
+Look's now accepted vehicle brief is used: same open touring car, guest
+driver, no separate chauffeur; departure in an ordinary cart with driver,
+not the two-seat britzka. Old 'body undecided' note below is historical.
+All biographies are proposed pending boss/econ acceptance; no shared DB,
+TTS, new quest or implementation change is part of this delivery.
+
 CURRENT RULING — boss [3], 14 October 2026
 -----------------------------------------
 Task #873 is created, open, owner rpg. Boss sets it third after #659 and
