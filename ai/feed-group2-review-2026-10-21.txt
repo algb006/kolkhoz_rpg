@@ -1,0 +1,100 @@
+Feed group 2 — 58-row delivery review
+
+Authority / scope
+-----------------
+boss-rpg-feed-group2-2026-10-21 [1] assigns the batch; [3] confirms the
+nonnumeric generic route for A-D and asks for producer-owned binding holes.
+54 missing keys from host-boss-929-feed-door-holes-2026-10-21 [7], two new
+sugar day folds, and two existing rewrites = 58 rows. Original intake key
+list is ai/feed-group2-intake-2026-10-21.txt, not a completed-text claim.
+No plan_trial_due or stack_cart_urgent BASE rewrite duplicated here: the
+earlier variable clarification/source remains in b1e18de. The current batch
+adds stack_cart_urgent's folds, not its old unsupported field binding.
+
+Deliverables
+------------
+manual/texts/feed-lines-group2-2026-10-21.csv: 56 proposed new rows and two
+proposed replacements, namespace feed, kind log. All literal player text
+Russian; metadata English. No live import or human approval asserted.
+ai/feed-group2-binding-holes-2026-10-21.csv: A-D owner breakdown for boss's
+queue, evidence and the current safe wording boundary. This is not a code
+assignment or a change to the namespace's closed list or journal format.
+
+Binding decisions implemented
+-----------------------------
+A: barter single names counter unit and optional place; monthly folds name
+counter units through names, never a false zero-family count or tonnes.
+B: herd-death single rows name herd; routine monthly folds name herds, no
+count or amount. No guessed cause from severity and no graphic detail.
+C: named subjects only where the core event contract guarantees them.
+Appointments use resident + unit, vacancy unit, social status resident(s),
+specialist arrival resident + unit. No enum ID becomes a profession/status.
+Organizers can become vacant, so their caption does not require a new
+holder. Packed work/alarm fields are not counts or labels in this batch.
+Historical absence/return/departure fact captions require no unverified
+resident subject and have no gendered personal verbs or diagnosis.
+D: gift/reception captions are neutral and remain registered producer
+STUBs, not evidence those doors now work; no acceptance result inferred.
+
+Existing rewrites: advance_written_off retains family/year-end write-off,
+drops amount and its placeholder row; district_visit_announced retains
+scheduled advance notice, drops the false days/amount and plural flag.
+They are hand strings in the shared DB, not own story.db line sources.
+
+Fold safeguards
+---------------
+NameOfSubject chooses resident, then herd, then unit, then family. The
+batch's names bindings are deliberately aligned: residents for status,
+herds for herd rows, counters for barter, families for advance write-offs.
+folded_more ends the displayed partial list with an ellipsis, not a false
+count of omitted people. The full aggregate fact remains stated.
+Urgent hay folds cannot require unit/names because unit can be unset.
+Their two variant texts are intentionally identical, no phantom name list.
+Sugar folds use count:int as EVENTS, never amount, weights or people; both
+variants withhold every thief identity. Their identical text is deliberate:
+the journal may truncate its subject list but the text shows no such list.
+No extra feed_instances entry is made for the existing no_unit text variant.
+
+Tone and meaning
+----------------
+Tone section 10 read. No violence, coercive escort, diagnosis or secret
+culprit disclosed. Office-fire caption names the loss, not bodies or cause.
+Church store is emptied, never dismantled or disrespected. Facts/stages
+announce their own state only: decided certificate is not necessarily
+granted; offered epoch transition is not completed; district grid built is
+not the same as power switched on; trial stage is not a verdict or arrest;
+half-trial threshold is NOT half the animals dead. Narrative adds no new
+quest, hint, instruction, event frequency, reward or game mechanic.
+
+Ownership
+---------
+Only RPG files authored. Shared design/strings DBs remain read-only under
+the human AGENTS.md sections 2/7. No sync/save or shared import by RPG.
+Boss performs the requested sync -> save -> check after import. Read-only
+CSV/metadata/source and link checks do not prove host/UE rendering. No
+engine build, replay, corpus change, TTS or foreign-tree repair claimed.
+
+Validation receipt
+------------------
+All 58 exact namespace/key pairs equal the 54 missing keys extracted from
+host [7] plus two sugar folds plus two instructed rewrites. No duplicate,
+missing or extra key; statuses are 56 proposed_new_key and two replacement.
+CSV columns, declared placeholders and actual tokens agree. Every token
+is in the closed list; no amount, resource, field or limit token occurs
+in the new batch. Sugar alone uses count:int; full plural-form samples
+0/1/2/5/11/21/22/25/101 pass. Other rows have plural=0.
+Conservative expanded lengths pass with individual people at 41 characters,
+units/herds at 64, family at 32, optional place phrase at 65, and three
+listed subjects at 64 each plus separators. Longer folded-row ceilings
+(320) are explicit proposed metadata, not a claim of fixed HUD geometry.
+No empty optional unit/name binding in the hay folds, no thief name token
+in sugar, no appointment/visitor gender agreement guess in generic copy.
+The owner-hole table has 13 rows covering A-D; no source code change.
+
+Read-only strings.py cmd_check against CURRENT shared DB, with SQLite
+mode=ro and query_only=ON: no errors, 60 questions, return 0. This is a
+pre-import baseline, NOT validation of these CSV rows after shared import.
+No sync/save performed. Post-import strings.py check and host feed tests
+remain with the importing owner. git diff --check passed.
+Link checks: full project 3204 files / 26957 links / 114 issues, none in
+RPG; own scope 83 files / 619 links / zero issues. No cross-role fixes.

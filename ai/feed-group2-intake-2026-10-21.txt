@@ -1,5 +1,11 @@
 Feed group 2 — pre-authoring list / binding questions
 
+CURRENT: boss [3] confirms the nonnumeric generic route for A-D. The batch
+is now authored in manual/texts/feed-lines-group2-2026-10-21.csv (58 rows).
+Review: ai/feed-group2-review-2026-10-21.txt. Producer-owner holes:
+ai/feed-group2-binding-holes-2026-10-21.csv. The pre-authoring questions and
+scope evidence below are history, not a remaining RPG authoring blocker.
+
 Authority: boss-rpg-feed-group2-2026-10-21 [1]. Prerequisite #873 R1-R3
 delivered c6b4bec. Earlier feed-variable work delivered b1e18de: safe hay
 copy supplied; trial limit means event.amount (failed years), not count.
