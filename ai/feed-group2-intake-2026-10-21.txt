@@ -1,0 +1,134 @@
+Feed group 2 — pre-authoring list / binding questions
+
+Authority: boss-rpg-feed-group2-2026-10-21 [1]. Prerequisite #873 R1-R3
+delivered c6b4bec. Earlier feed-variable work delivered b1e18de: safe hay
+copy supplied; trial limit means event.amount (failed years), not count.
+Shared DB still contains the old limit/field rows at this inspection;
+no claim that the prior delivery already repaired the live feed.
+
+Scope reconciliation
+--------------------
+host-boss-929-feed-door-holes-2026-10-21 [7] lists 54 'no string' keys.
+The newly day-folded sugar_stolen adds two, making 56 new rows. Plus the
+two instructed rewrites advance_written_off/district_visit_announced = 58
+rows to deliver. Existing base sugar_stolen and unrelated rows unchanged.
+herd_ate_from_far_rick.no_unit is not a new registry instance: boss [8]
+assigns its selection to host. Do not fabricate feed_instances entries.
+
+54 listed keys, all prefixed feed.:
+advance_written_off.folded
+advance_written_off.folded_more
+appointed
+barter_day.folded
+barter_day.folded_more
+barter_day
+church_store_emptied
+day_off_held_urgent_load
+dismissed
+district_grid_built
+district_visit.gift
+district_visit.junior_miss
+district_visit.reception
+era_1_transition_offered
+exit_certificate_decided
+family_lodged
+first_football_match_played
+grid_powered
+hands_idle_with_work_waiting
+herd_ate_from_far_rick.folded
+herd_ate_from_far_rick.folded_more
+herd_died.interrupting
+herd_died.notable
+herd_died.routine.folded
+herd_died.routine.folded_more
+herd_died.routine
+herd_dieoff_half_trial
+lamp_turned_red
+night_shot_heard
+office_end_burned
+order_cancelled.world
+order_refused
+organizer_changed
+plan_failed_warning_first
+plan_failed_warning_last
+post_vacated
+resident_returned_to_work
+resident_sent_away
+social_status_changed.folded
+social_status_changed.folded_more
+social_status_changed
+specialist_arrived
+specialist_no_housing
+stack_cart_urgent.folded
+stack_cart_urgent.folded_more
+third_week_absent
+three_specialists_working
+trial_stage_case
+trial_stage_commission
+trial_stage_signal
+urgent_load_waits
+village_end_warning
+wedding
+work_got_no_hands
+
+Added new keys: feed.sugar_stolen.folded, feed.sugar_stolen.folded_more.
+Rewrites: feed.advance_written_off (no amount),
+feed.district_visit_announced (no amount or days).
+
+Read-back requested BEFORE writing where a row is unclear
+-------------------------------------------------------
+A. barter_day.folded / folded_more: registry count_of=distinct_families,
+but the core event has unit=counter and amount=grams, no family. The fold
+counts distinct nonzero family IDs, so this yields zero rather than the
+number of trading households. The raw-amount renderer also has no barter
+mapping. Prefer a nonnumeric monthly report identifying counters via
+names, not a false family count or guessed tonnes. Alternative: owner
+repairs registry/producer and the door before numeric copy is authored.
+
+B. herd_died.routine folds: registry count_of=none, so count is ENTRIES,
+not summed heads. Single events carry actual heads as amount, but the raw
+amount map has no herd_died row. Prefer nonnumeric herd-name summaries
+and nonnumeric base rows for now. Alternative: host maps amount/heads and
+boss explicitly changes the fold count to heads. No cause inferred from
+severity alone and no graphic disease/death treatment.
+
+C. Missing labels / packed meanings: order_refused, order_cancelled.world,
+appointed, dismissed, post_vacated, hands_idle_with_work_waiting,
+work_got_no_hands, lamp_turned_red, organizer_changed and social_status_changed
+(base/folds). Closed variables have no order/reason/profession/work/shortfall/
+alarm-kind/organization/social-status display words. Some raw amounts are
+packed or enum IDs, not quantities. Organizer's new holder can be absent
+(role becomes vacant). Prefer factual generic wording with ONLY guaranteed
+existing name subjects; no guessed reason, new status, exact head/day count,
+gender or named role, and no synthetic extra placeholders. Alternative:
+owner adds supported event/instance labels before detailed strings.
+
+D. district_visit.gift: the instance is selected by kind and covers accepted
+AND returned outcomes; no allowed slot names the gift outcome. It is still
+a producer STUB. Prefer a neutral visit caption, not 'gift accepted'.
+district_visit.reception is a district representative received as a guest,
+not the chairman attending a district reception. Do not invent a working
+gift/reception door or subdivide registered instances from narrative.
+
+Other safeguards already clear
+-----------------------------
+No quests/hints or changes to the 2 October freeze. Tone section 10 read.
+Facts announce their named condition only, not later verdicts or forced
+departure. exit_certificate_decided does not imply the certificate was
+granted. trial stages do not imply arrest, prison or a completed sentence.
+No sugar-thief identity leaked from the event's resident field. Neither
+sugar fold variant should expose names, even though the journal has IDs.
+Optional unit on urgent hay carting stays optional; no names placeholder
+in a folded line that may have no named subject. count may be used ONLY
+with its documented meaning (entries where appropriate), not head counts.
+
+Sources inspected read-only: host/tables/feed.csv, feed_instances.csv,
+host/src/feed/feed_door.cpp (Fill, NameOfSubject, raw map), feed_fold.cpp
+(LineOf, family counter), feed_journal.cpp (AppendEvent, InstanceOf),
+script_runtime.cpp (fact subjects), host/manual/81-script-api.md,
+core/include/core_common/event_state.h and district_visit_state.h,
+main manual/design/presentation/event-feed.md, strings.db namespace/rows.
+
+No game-string batch authored before this read-back. No shared DB, code,
+registry, scripts, audio or unrelated files changed. strings.py sync/save
+remain boss-owned under the human AGENTS.md shared-DB boundary.
