@@ -1,0 +1,45 @@
+RPG / Sol — VM to um01 move handoff, 20 October 2026
+
+STOP FOR MOVE. Human-approved boss instruction: finish current step, save and
+commit, start nothing new. No active RPG render, audio job, remote session or
+temporary file remains from this turn. No jobs cancelled or external files moved.
+
+Pre-handoff worktree clean, main = origin/main at 9decefb; mailbox owed zero.
+This note is the only new work during move preparation. Resume in same thread
+on um01 only under the receiving session's instructions; do not start work here.
+
+Last substantive work: own narrative DB elder hay warning rev5 -> rev6,
+text/meaning/keep corrected, approved_rev NULL. Source dump committed/pushed.
+Own save/check/export/render completed, check no errors/questions. Boss owns
+shared strings.py sync; do not write shared DB. Migration record and receipt:
+ai/elder-hay-weathering-source-2026-10-19.sql and ai/haul-hay-advice-review-2026-10-19.txt.
+Do not rerun the guarded one-shot migration: rev6 already exists in db/story.db.
+Binary story.db is ignored by Git; db/schema.sql + db/data/*.sql are the tracked
+reproducible form. On um01 inspect the existing DB before any init/rebuild; never
+overwrite a receiving machine's uncommitted state as a routine migration step.
+
+Queue checked on 20 October:
+1. #761 AFTER DEMO, blocked on boss's open #755 design entry; no authoring yet.
+2. #873 avatar-friend profiles/15 strings, not started; did not bypass queue top.
+3. #1042 already delivered, tracker says in code / waits package frame; do not
+   rewrite completed wording or imply UI validation.
+Boss informed in rpg-resume-queue-status-20261020 (final). Mailbox files and index
+must be rechecked after move: pointers repeat and archived paths may differ.
+
+Other handoff states (verify current mailbox before acting):
+- haul_hay advice accepted, held for core selector #1095; elder source now ready
+  for boss sync. Thread boss-rpg-haul-hay-2026-10-19 ends RPG [4] final.
+- #1093 weekly horse-idle label delivered, AFTER DEMO with core data. Second
+  C-1 horse lamp explicitly CANCELLED; no lamp text was authored.
+- #1089 30 settlement names delivered; no received acceptance/import verified.
+- #1085/#1087 eight current rows delivered. Initial mistaken 11 October task
+  withdrawn: do NOT import old complexity-cold-housing-seed quest replacement.
+- Ceremonial V1 windows in ai/ceremonial-marches-v1-staging-2026-10-19.csv:
+  wedding 66.46922916666666s, funeral 75.65085416666666s including tail. Hearing
+  approval/integration pending at last receipt, no new scene IDs or speech.
+- #983/#987 and earlier imports have separate review receipts; inspect each,
+  not all CSV statuses are current (delivery history is intentionally retained).
+
+Latest own link check: 82 files / 610 links / 0 issues; full shared check had
+73 foreign issues. No cross-role repairs. No active TTS order. Own changes only
+in rpg and mailbox, temp files cleaned with the approved helper.
