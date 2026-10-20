@@ -1,5 +1,12 @@
 Task #983 — delivery for boss review/import, no TTS
 
+21 OCTOBER FEED NOTE: plan_trial_due's imported limit token is outside the
+feed closed list. It meant consecutive failed years at the trigger, which
+the core event already carries as amount; host's count instead counts feed
+entries. See ai/feed-vars-review-2026-10-21.txt. Numeric text needs the
+host/boss amount binding; a blind limit -> count rename is incorrect.
+The original delivery/import state below is not a live-rendering receipt.
+
 ACCEPTED: boss [3] in boss-rpg-983-loan-and-trial-strings-2026-10-16.
 The "without discount" qualification is explicitly confirmed. All six rows are
 accepted; their import is gated on core #984's matching producers and is owned

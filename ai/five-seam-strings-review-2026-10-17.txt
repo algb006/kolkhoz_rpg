@@ -1,5 +1,14 @@
 Five existing seam words — content delivery, pending boss review/import
 
+21 OCTOBER CORRECTION: the imported stack_cart_urgent row is not compatible
+with the feed's closed variable list. field is outside the list; resource
+is listed but the journal binder cannot supply it. The old source-meadow
+assumption below is superseded by the actual short-rick/optional-unit event
+documented in host/manual/81-script-api.md. Proposed replacement:
+manual/texts/feed-vars-2026-10-21.csv; evidence and bindings:
+ai/feed-vars-review-2026-10-21.txt. Original CSV is delivery history, not a
+request to restore those unsupported tokens. Shared DB import is boss-owned.
+
 CURRENT ORDER KEYS: boss-rpg-order-namespace-2026-10-17 [1] moved the two
 raise_site rows to ui.office.order.raise_site / ui.office.order.raise_site.tip.
 Read-only verification: both new keys active; original order.raise_site and

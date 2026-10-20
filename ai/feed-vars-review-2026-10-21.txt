@@ -1,0 +1,63 @@
+Feed variable repair — boss-rpg-feed-vars-2026-10-21 [1]
+
+Read-only evidence
+------------------
+strings.db feed namespace note has precisely nine placeholder names:
+person_family, family, unit, place, herd, resource, amount, count, names.
+feed.plan_trial_due rev2 uses limit:int and plural=1; approved_rev=2.
+feed.stack_cart_urgent rev1 uses field:name and resource:name, plural=0.
+No source-table binding: both are hand-owned strings, not own story.db lines.
+
+host/src/feed/feed_door.cpp confirms the closed list. Bind(count) returns
+line.count; a single entry starts at 1. This is an aggregation count, NOT
+the consecutive failed years from the event payload. The raw-amount list
+does not currently include plan_trial_due. resource is allowed by name
+but Bind(resource) explicitly errors because the journal does not retain
+it (#929 ruling owed). Renaming a token alone would not fix these cases.
+
+plan_trial_due — clarify value; do NOT silently remove the requested number
+-------------------------------------------------------------------------
+limit meant the actual consecutive failed annual-plan years AT THE EVENT
+that reached the trial threshold, not the number of feed entries, a later
+campaign setting, or always the default three. host/manual/81-script-api.md
+describes plan_trial_due.amount as this reached count; manual/96-epoch1-
+endings.md likewise distinguishes the condition from the later proceeding.
+The existing producer already carries the semantic value. The feed door
+needs an owner-approved numeric binding before numeric text can work.
+
+Prefer carrying that existing event amount into the closed-list amount
+slot, formatted as an integer without a mass unit, with matching registry
+metadata and plural-selector support. This is a proposed host/boss binding,
+not an RPG implementation or an assertion that amount works today. Do not
+change count's aggregation meaning. Current limit text remains the exact
+description of what was requested until boss chooses the supported route.
+No replacement row for this key is claimed ready for import in this batch.
+
+stack_cart_urgent — one replacement row
+--------------------------------------
+The old field meant the source meadow display name. That was already a
+wrong subject assumption for the newer event: host/manual/81-script-api.md
+says unit is the short rick, optionally unset on village-total urgency,
+once per rick-day since core 0.37.255. It is NOT a renamed meadow field.
+Do not alias field to unit or claim the event identifies a source meadow.
+
+manual/texts/feed-vars-2026-10-21.csv proposes a placeholder-free line:
+Сено вывозят раньше остальных работ: доступный запас на исходе.
+This also avoids resource, which is listed but currently unsupported by
+the journal binder. The event is explicitly about hay, so the noun is not
+an invented resource selection. No packed days/kilograms are decoded and
+no haul arrival, extra cart, new order or future loss is asserted.
+
+Ownership / verification
+------------------------
+User-supplied AGENTS.md sections 2 and 7 prohibit shared DB writes; boss's
+parcel does not change that human boundary. RPG supplies the local source
+and exact semantic value, the second route expressly allowed in [1].
+strings.py sync/save mutate ../db and were NOT run. Boss performs their
+sync -> save -> check after importing/changing their bindings. No claim
+that either live feed line is repaired, no engine tests or TTS.
+
+One read-only design.db inspection met a database-locked error; no locks
+were removed and no retry with unsafe SQLite flags was attempted. Registry
+amount-unit changes are therefore deliberately not inferred or authored.
+The strings rows and host implementation were read successfully.
