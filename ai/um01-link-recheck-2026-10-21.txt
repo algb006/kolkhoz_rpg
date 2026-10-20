@@ -1,0 +1,77 @@
+um01 link recheck — 21 October 2026
+
+Requested in rpg-um01-historical-voice-links-20261020 [2] and
+boss-rpg-avatar-friends-names-and-voices-2026-10-14 [6]. Boss reports the
+missing VM /data/kolkhoz tree was copied at 00:33 on 21 October. The check
+below independently verifies current link resolution, not the copy's byte
+integrity, backup contents, audio quality or live engine playback.
+
+Commands: python3 ../tools/check-links.py; same module with SCAN limited
+to rpg/manual, rpg/ai, rpg/AGENTS.md for the own-tree check.
+Whole project: 3193 files, 26919 links, 114 issues, exit 1.
+RPG: 83 files, 618 links, zero issues, exit 0.
+The 20 previously missing voice/report targets in the three old prologue
+reviews now resolve. No RPG path, audio or archive reference was modified.
+The earlier 487/20 result is a dated observation, not a current failure.
+
+Remaining issues grouped by SOURCE FILE owner (not inferred target owner)
+-----------------------------------------------------------------------
+boss: 2, both legacy backtick reference syntax, not missing voice files:
+  1 manual/process/85-relief-v2-boss-answer.md
+  1 manual/process/86-relief-v2-to-boss.md
+These refer to 86-relief-v2-to-boss.md and 87-relief-v2-agent-notes.md.
+
+core: 6, missing anchors/section references in core/CLAUDE.md:
+  1 core/manual/52-state-model.md
+  2 core/manual/59-core-decisions.md
+  1 core/manual/README.md
+  1 core/manual/plan/51-phase1-plan.md
+  1 core/manual/setup/58-contract-and-implementation.md
+
+look: 106; missing targets plus stale anchors/section references:
+  2 look/ai/SESSION-HANDOFF-2026-10-16.md
+  1 look/ai/SESSION-HANDOFF-HISTORY-through-2026-10-09.md
+  1 look/ai/source-plans/tree175-tripo-text-series-2026-10-15/willow/source-notes.md
+ 13 look/ai/subagents/boy-driver-evening-2026-10-08.md
+  8 look/ai/subagents/boy-winter-raw-1001-2026-10-09.md
+  4 look/ai/subagents/clothes-firstfits-1001-1051-2026-10-09.md
+  9 look/ai/subagents/game479-480-receipts-2026-10-09.md
+  1 look/ai/subagents/lens-2026-10-08/inventory.md
+  1 look/ai/subagents/lens-resume-2026-10-08/schoolgirl-summer-firstfit-draft.md
+  3 look/ai/subagents/night477-2026-10-09.md
+  2 look/ai/subagents/paint-queue-census-resume-2026-10-08/draft.md
+  4 look/ai/subagents/schoolgirl-no-braid1071-raw-audit-2026-10-09.md
+  1 look/ai/subagents/tree-batch-first-visual-pass-2026-10-09.md
+  1 look/ai/subagents/tree-batch-second-visual-pass-2026-10-09.md
+ 14 look/ai/subagents/tulup-kerchief-raw-2026-10-09.md
+  1 look/manual/reviews/arm543-sleevecut-rejected-and-hand-shell-unaccepted-2026-10-12.md
+  1 look/manual/reviews/batch39-night786787-water-comb-local-pass-forest-leaffall-and-snow-open-2026-10-16.md
+  1 look/manual/reviews/batch40-night788-roof-camera-void-and933-engine-candidates-2026-10-16.md
+  2 look/manual/reviews/batch41-night790-forest-carriers-unconfirmed-and789-audio-receipt-2026-10-16.md
+  3 look/manual/reviews/brandbook-first-installed-screen-2026-09-15.md
+  1 look/manual/reviews/chapel-old-iron-one-slope-first-game-2026-09-28.md
+  2 look/manual/reviews/era-1-card-torn-b-first-game-2026-09-29.md
+  1 look/manual/reviews/forest-corridor-measure-2026-09-07.md
+  2 look/manual/reviews/mailbox-reconciliation-2026-10-03.md
+  1 look/manual/reviews/october-leaf-ground-representation-first-review-2026-09-27.md
+  1 look/manual/reviews/onuchi-boy-inner-and-girl-firstfit-hem-residual-2026-10-10.md
+  2 look/manual/reviews/prologue-first-runtime-frames-2026-09-13.md
+  3 look/manual/reviews/prologue-forward-forest-valley-second-2026-09-13.md
+  1 look/manual/reviews/prologue-herd-first-runtime-2026-09-13.md
+  2 look/manual/reviews/prologue-road-puddles-first-2026-09-13.md
+  4 look/manual/reviews/prologue-run-four-local-fixes-2026-09-15.md
+  4 look/manual/reviews/prologue-valley-after-relief-2026-09-13.md
+  1 look/manual/reviews/prologue-weather-clothing-current-body-brief-2026-10-03.md
+  2 look/manual/reviews/tree175-source-stop-and-individual-quotes-2026-10-12.md
+  1 look/manual/reviews/windfall-first-2026-09-10.md
+  1 look/manual/reviews/windfall-first-model-2026-09-13.md
+  4 look/manual/work-queue-history-through-2026-10-04.md
+
+No cross-role repair, file move, audio generation or archive-link deletion
+performed. Owners distinguish intentional historical absence from migration
+gaps; a broken link alone does not prove an asset was lost in the move.
+
+Task #873 receipt in boss [6]: profiles and 15 rows received at 6cb38f0;
+boss sends to econ for avatar-path review. Registration/import wait for
+econ's response and the implementation door. No approval/import asserted.
+#761 retains its gate. No additional authoring started in this check.
