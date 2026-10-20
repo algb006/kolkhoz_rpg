@@ -1,0 +1,37 @@
+One horse-yard feed-window state line
+
+Authority: boss-rpg-oats-kept-line-2026-10-21 [1]; econ's
+manual/proposals/winter-team-oats-2026-10-20.md section 4m (1ba9c53),
+and main manual/design/economy/livestock.md section 11.
+Boss explicitly ruled this is not a hint under the 2 October freeze.
+
+Proposed polished wording:
+Зимой овёс берегут для сева и весенней пахоты.
+
+The draft's first-person voice is replaced by a neutral statement suitable
+for a window; 'для' names the purpose plainly and 'весенней' identifies the
+coming work. No instruction, imperative, extra choice, exact quantity,
+free ration, recovery promise or guaranteed successful spring campaign.
+No statement that horses need no oats in winter or that all other feed
+is sufficient. This is not a substitute for the lack-of-oats alarm.
+
+Exact full key: works.feed_table.horse_yard.oats_kept_for_spring.
+One CSV row, no placeholders/plural, proposed 160-character ceiling, body.
+CSV carries full_key rather than guessing a namespace split: no works or
+works.feed_table namespace was found in read-only strings.db inspection,
+and no matching string exists. Boss owns registration and import.
+
+All display conditions remain conjunctive: winter; no heavy work today;
+work ration < 1; stored oats > 0; oats over reserve ladder = 0 with the
+seed-and-plan or plough rung holding them. No display with zero oats.
+Core supplies the state fact; RPG does not implement or approximate it
+from season alone. The window is still a core STUB. No interim unit-window
+placement claimed: UE was not checked and no alternate surface assigned.
+Keep the row held until the accepted window/door exists; do not turn it
+into an always-lit winter lamp or print the CSV as a live UI receipt.
+
+Shared DB writes and strings.py sync/save remain outside the human's RPG
+boundary (AGENTS.md sections 2/7). Source delivered in rpg only, no own
+story.db write because this is not an authored scene line. Boss performs
+sync/save/check on the shared DB after the gated import; not performed here.
+No core/UE change, TTS, new hint, quest or mechanic.
