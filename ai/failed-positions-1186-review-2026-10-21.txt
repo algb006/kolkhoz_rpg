@@ -1,6 +1,7 @@
 Task #1186 — failed plan positions named in the feed and five openings
 
-Authority: boss-rpg-1186-failed-positions-2026-10-21 [1]. Six exact keys:
+Authority: boss-rpg-1186-failed-positions-2026-10-21 [1]-[2]. Seven exact keys:
+feed.failed_position
 feed.plan_failed
 scene.district.failure_explanation.opening.korenev
 scene.district.failure_explanation.opening.stozharov
@@ -10,9 +11,9 @@ scene.district.failure_explanation.opening.polushkina
 
 Sources / changes
 -----------------
-manual/texts/failed-positions-1186-2026-10-21.csv: all six source texts,
-declared variables and binding notes for boss/host. One hand-owned shared
-feed replacement; five own story sources already updated in story.db.
+manual/texts/failed-positions-1186-2026-10-21.csv: all seven source texts,
+declared variables and binding notes for boss/host. One new hand-owned feed
+item template and one feed replacement; five own story sources updated.
 manual/characters/district-faces.md: exact opening table and grammar notes.
 ai/failed-positions-1186-source-2026-10-21.sql: guarded one-shot migration
 ALREADY EXECUTED against own story.db. Do not rerun against rev2 or shared DB.
@@ -33,7 +34,15 @@ Binding contract
 Host adds failed_positions:text, including the authorized extension to
 the feed closed list. That extension is not silently assumed live today.
 It is a ready localized list such as 'молоко — 97,7 %', or two entries
-joined by feed.list_separator, no final punctuation. Each percentage is
+joined by feed.list_separator plus one space, no final punctuation.
+NEW feed.failed_position formats the item as '{resource} — {percent} %'.
+resource:name is the ready localized name; percent:text is already formatted
+with exactly one decimal and no percent sign (Russian '97,7', not a ratio
+0.977 or '97,7 %'). Boss adds failed_positions and percent to the shared
+feed namespace's closed-list NOTE; RPG does not edit that shared metadata.
+The item is a helper format, not a new event/feed_row. Host's text-hole
+guard must recognize this authorized helper when #1186 is implemented.
+Each percentage is
 FULFILLMENT of its own plan position, not missing share. Only positions
 below the closed year's plan_met_share enter it. Do not filter rounded
 display strings or substitute a near-100 aggregate that hides a failure.
@@ -63,14 +72,15 @@ not a new TTS request. No voice generation/replacement without human word.
 
 Validation
 ----------
-Six unique keys; exact variable sets: feed failed_positions:text, scenes
+Seven unique keys; exact variable sets: item resource:name + percent:text,
+feed result failed_positions:text, scenes
 failed_year:int + failed_positions:text. plural=0 throughout. Five own
 string_source rows match the CSV at rev2/NULL approval. All five new typed
 placeholder notes present; existing year metadata retained.
 Twelve substituted examples (one/two failures in each text) preserve list,
 year and punctuation, no dangling token. Feed examples:
 Годовой план не выполнен: молоко — 97,7 %.
-Годовой план не выполнен: молоко — 97,7 %, яйца — 94 %.
+Годовой план не выполнен: молоко — 97,7 %, яйца — 94,0 %.
 Both fit the current 160-character feed ceiling. No host build or actual
 novice ledger reproduction claimed: host builds after these keys land.
 Own DB chain save -> check -> export -> render completed; no errors or
@@ -78,3 +88,8 @@ author questions. Five lines and five placeholder rows changed, no voice
 rows changed. No shared strings/design DB writes or sync/import by RPG.
 Link check: whole project 3219 files / 27072 links / 114 issues (zero in
 RPG); own scope 83 files / 620 links / zero issues. git diff --check clean.
+The counts above precede the new item-template addition, which adds no
+Markdown links. This addendum is boss [2], received during the first pass;
+the first delivery b834a2d covered the six parent/opening keys only.
+Addendum validation: two item fixtures plus the 12 parent/opening fixtures
+pass, with exactly one percent sign per item and one decimal in each input.
