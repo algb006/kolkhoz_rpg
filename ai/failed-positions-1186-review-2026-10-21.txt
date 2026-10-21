@@ -1,6 +1,7 @@
 Task #1186 — failed plan positions named in the feed and five openings
 
-Authority: boss-rpg-1186-failed-positions-2026-10-21 [1]-[2]. Seven exact keys:
+Authority: boss-rpg-1186-failed-positions-2026-10-21 [1]-[2], [5]. Eight exact keys:
+feed.plan_failed.no_positions
 feed.failed_position
 feed.plan_failed
 scene.district.failure_explanation.opening.korenev
@@ -11,9 +12,9 @@ scene.district.failure_explanation.opening.polushkina
 
 Sources / changes
 -----------------
-manual/texts/failed-positions-1186-2026-10-21.csv: all seven source texts,
-declared variables and binding notes for boss/host. One new hand-owned feed
-item template and one feed replacement; five own story sources updated.
+manual/texts/failed-positions-1186-2026-10-21.csv: all eight source texts,
+declared variables and binding notes for boss/host. Two new hand-owned feed
+templates/variants and one feed replacement; five own story sources updated.
 manual/characters/district-faces.md: exact opening table and grammar notes.
 ai/failed-positions-1186-source-2026-10-21.sql: guarded one-shot migration
 ALREADY EXECUTED against own story.db. Do not rerun against rev2 or shared DB.
@@ -50,7 +51,11 @@ The list belongs to the event's CLOSED ledger, not current stores, today's
 plan or the year of a later meeting; matches saved failed_year in scenes.
 For a failure it must name at least one actual failed position; missing
 historical data cannot be reconstructed from today's figures or filled
-with a blank/fabricated resource. Owner handles unavailable history.
+with a blank/fabricated resource. Per boss [5], old saved feed history with
+no kept positions uses feed.plan_failed.no_positions: the original factual
+'Годовой план не выполнен.' Zero placeholders/plural. This is not a new
+feed_row, not a passed-year signal and not permission to omit position
+collection for new events. No unrequested scene fallback introduced.
 No singular/plural agreement around the list; colon works for one or many.
 No new threshold, cause, rounding policy, reputation rule or plan mechanic.
 
@@ -72,7 +77,8 @@ not a new TTS request. No voice generation/replacement without human word.
 
 Validation
 ----------
-Seven unique keys; exact variable sets: item resource:name + percent:text,
+Eight unique keys; exact variable sets: legacy fallback no placeholders,
+item resource:name + percent:text,
 feed result failed_positions:text, scenes
 failed_year:int + failed_positions:text. plural=0 throughout. Five own
 string_source rows match the CSV at rev2/NULL approval. All five new typed
@@ -93,3 +99,8 @@ Markdown links. This addendum is boss [2], received during the first pass;
 the first delivery b834a2d covered the six parent/opening keys only.
 Addendum validation: two item fixtures plus the 12 parent/opening fixtures
 pass, with exactly one percent sign per item and one decimal in each input.
+Legacy fallback [5] adds one unchanged no-placeholder sample: 15 total
+fixture renders across the eight keys. Five own source revisions remain 2;
+no repeated migration, approval or voice change. Boss reports the host
+0.7.495 build will select the feed variant; not independently runtime-tested
+by RPG. No script currently asks for the five-opening scene, per boss [5].
