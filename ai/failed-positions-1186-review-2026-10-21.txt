@@ -1,0 +1,80 @@
+Task #1186 — failed plan positions named in the feed and five openings
+
+Authority: boss-rpg-1186-failed-positions-2026-10-21 [1]. Six exact keys:
+feed.plan_failed
+scene.district.failure_explanation.opening.korenev
+scene.district.failure_explanation.opening.stozharov
+scene.district.failure_explanation.opening.karasev
+scene.district.failure_explanation.opening.zhernova
+scene.district.failure_explanation.opening.polushkina
+
+Sources / changes
+-----------------
+manual/texts/failed-positions-1186-2026-10-21.csv: all six source texts,
+declared variables and binding notes for boss/host. One hand-owned shared
+feed replacement; five own story sources already updated in story.db.
+manual/characters/district-faces.md: exact opening table and grammar notes.
+ai/failed-positions-1186-source-2026-10-21.sql: guarded one-shot migration
+ALREADY EXECUTED against own story.db. Do not rerun against rev2 or shared DB.
+db/data/line.sql and line_placeholder.sql are the reproducible source.
+
+Five openings rev1 -> rev2 via existing trigger, approved_rev remains NULL.
+Five new line_placeholder rows: failed_positions:text, with per-key meaning
+and note; failed_year:int retained. keep notes explicitly preserve the
+closed-year source, fulfillment-vs-deficit meaning and list punctuation.
+Speaker slot, actual district_face condition, dialogue structure, answers,
+returns and gameplay/reputation results unchanged. These are alternatives,
+not five consecutive speeches. Karasev's warehouse-sounding 'недостача'
+becomes a failed-plan statement; his anxious question about what to write
+is retained. The other four retain their existing voice and question.
+
+Binding contract
+----------------
+Host adds failed_positions:text, including the authorized extension to
+the feed closed list. That extension is not silently assumed live today.
+It is a ready localized list such as 'молоко — 97,7 %', or two entries
+joined by feed.list_separator, no final punctuation. Each percentage is
+FULFILLMENT of its own plan position, not missing share. Only positions
+below the closed year's plan_met_share enter it. Do not filter rounded
+display strings or substitute a near-100 aggregate that hides a failure.
+The list belongs to the event's CLOSED ledger, not current stores, today's
+plan or the year of a later meeting; matches saved failed_year in scenes.
+For a failure it must name at least one actual failed position; missing
+historical data cannot be reconstructed from today's figures or filled
+with a blank/fabricated resource. Owner handles unavailable history.
+No singular/plural agreement around the list; colon works for one or many.
+No new threshold, cause, rounding policy, reputation rule or plan mechanic.
+
+Length / voice boundaries
+-------------------------
+Existing shared max_len metadata is preserved, not changed by the CSV.
+Feed's default log ceiling is 160; one- and two-position fixtures fit.
+A full larger list must not be clipped so that failed positions disappear;
+expanded-list wrapping/length handling belongs to host/boss and is not
+claimed tested by the current template-length check. Body has no default
+hard ceiling in the inspected string_kind row. No arbitrary text truncation.
+
+Own voice_take queries: zero takes for all five openings; no matching keys
+in own accepted filenames or sound's tracked SQL/text catalogue search.
+Thus no REGISTERED matching voiced take found, not proof about arbitrary
+unindexed external audio. Own thought-inventory totals concern different
+lines and do not show these openings are voiced. Feed is journal text,
+not a new TTS request. No voice generation/replacement without human word.
+
+Validation
+----------
+Six unique keys; exact variable sets: feed failed_positions:text, scenes
+failed_year:int + failed_positions:text. plural=0 throughout. Five own
+string_source rows match the CSV at rev2/NULL approval. All five new typed
+placeholder notes present; existing year metadata retained.
+Twelve substituted examples (one/two failures in each text) preserve list,
+year and punctuation, no dangling token. Feed examples:
+Годовой план не выполнен: молоко — 97,7 %.
+Годовой план не выполнен: молоко — 97,7 %, яйца — 94 %.
+Both fit the current 160-character feed ceiling. No host build or actual
+novice ledger reproduction claimed: host builds after these keys land.
+Own DB chain save -> check -> export -> render completed; no errors or
+author questions. Five lines and five placeholder rows changed, no voice
+rows changed. No shared strings/design DB writes or sync/import by RPG.
+Link check: whole project 3219 files / 27072 links / 114 issues (zero in
+RPG); own scope 83 files / 620 links / zero issues. git diff --check clean.

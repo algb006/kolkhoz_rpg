@@ -43,13 +43,20 @@
 «за {failed_year} год» даёт «за 1931 год»: склонять число или добавлять к нему
 `|plural(` не нужно.
 
+`{failed_positions}` — готовый локализованный список позиций, не достигших
+`plan_met_share` в закрытой книге **того же проваленного года**: например,
+«молоко — 97,7 %». Процент показывает выполнение позиции, а не размер недостачи.
+Если позиций несколько, хост соединяет их через `feed.list_separator` без точки
+в конце. Нельзя подставлять общий процент плана, нынешние остатки или данные текущего
+года. Двоеточие в каждой реплике подходит и для одной позиции, и для нескольких.
+
 | Ключ строки | Кто спрашивает | Реплика |
 |---|---|---|
-| `scene.district.failure_explanation.opening.korenev` | Коренев | План за {failed_year} год не выполнен. Что вы скажете району? |
-| `scene.district.failure_explanation.opening.stozharov` | Стожаров | План за {failed_year} год не сошёлся. Что произошло на месте? |
-| `scene.district.failure_explanation.opening.karasev` | Карасёв | В сводке за {failed_year} год недостача. Мне ведь придётся что-то написать. Что именно? |
-| `scene.district.failure_explanation.opening.zhernova` | Жернова | План за {failed_year} год не выполнен. Я вижу цифры. Теперь назовите причину. |
-| `scene.district.failure_explanation.opening.polushkina` | Полушкина | В отчёте за {failed_year} год план не выполнен. В бланке есть строка для причины. Что туда вписать? |
+| `scene.district.failure_explanation.opening.korenev` | Коренев | План за {failed_year} год не выполнен: {failed_positions}. Что вы скажете району? |
+| `scene.district.failure_explanation.opening.stozharov` | Стожаров | План за {failed_year} год не сошёлся: {failed_positions}. Что произошло на месте? |
+| `scene.district.failure_explanation.opening.karasev` | Карасёв | В сводке за {failed_year} год план не выполнен: {failed_positions}. Мне ведь придётся что-то написать. Что именно? |
+| `scene.district.failure_explanation.opening.zhernova` | Жернова | План за {failed_year} год не выполнен: {failed_positions}. Я вижу цифры. Теперь назовите причину. |
+| `scene.district.failure_explanation.opening.polushkina` | Полушкина | В отчёте за {failed_year} год план не выполнен: {failed_positions}. В бланке есть строка для причины. Что туда вписать? |
 
 У председателя есть пять подготовленных причин, но в одном окне появляются только **2–4**,
 допустимые по фактам именно этого проваленного года. Отсутствующей техники или небывшей
