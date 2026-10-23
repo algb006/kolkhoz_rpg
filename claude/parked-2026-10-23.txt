@@ -1,0 +1,44 @@
+RPG parked state — 23 October 2026
+
+Authority: boss-rpg-epoch1-stop-2026-10-23 [1], relaying the human's
+18:59 instruction to stop early-game Epoch I work (tasks.db #1351).
+This supersedes today's earlier resume. Demo work proceeds only through boss.
+
+Stopped cleanly
+- No authoring step, build, game run, probe or remote job was active in this
+  session. Nothing required cancellation. No new work was started.
+- Before this parking record, main was clean and matched origin/main at
+  f68f884 (Add failed-plan fallback for old journals without positions).
+- Shared design, strings and tasks databases were not changed by RPG.
+
+Done and data locations
+- #1186: eight failed-plan strings, including old-journal fallback, delivered
+  in manual/texts/failed-positions-1186-2026-10-21.csv. Review and source migration:
+  ai/failed-positions-1186-review-2026-10-21.txt and
+  ai/failed-positions-1186-source-2026-10-21.sql. Own five district opening lines
+  already revised. Do not rerun the one-shot migration or generate TTS.
+- #873: 21 friend profiles and 16 text rows, including accepted R1–R3 fixes:
+  manual/characters/avatar-friends-873.md and manual/texts/avatar-friends-873.csv.
+  Student's separate five-friend request batch is not covered by this delivery.
+- The 16-row queue audit is delivered in mailbox thread
+  boss-rpg-queue-audit-2026-10-23 [2]. Boss owns tracker changes. Recommended done:
+  #578, #582, #1085; merge #746/#731 into #771 and #1035/#1037 into #1042.
+
+Open / parked
+- #761 remains AFTER demo and boss design #755; no autumn line authored.
+- #1042 text/hover delivery exists in manual/texts/complexity-1042-1037-2026-10-17.csv
+  and manual/texts/complexity-1042-hovers-2026-10-17.csv. Conditional siblings need
+  authoritative data/selectors; UE rendering remains unverified. Do not replace
+  newer accepted generic plan/meadow wording with the older delivery.
+- #797 remains AFTER demo and boss #796 keys/design; do not conflate it with #873.
+- Other residuals and exact evidence are in the queue audit: #853, #856, #702,
+  #987, #1087, #1093. No unattended runnable authoring step was found.
+- The separate freeze on new quests/hints remains in force. No TTS without
+  explicit human approval. Presence of source text is not runtime/UI acceptance.
+
+Next step on an explicit resume
+1. Read incoming mailbox threads and the current boss instruction first.
+2. Inspect python3 ../tools/tasks.py queue rpg; reconcile boss's audit decisions.
+3. Resume only a runnable assigned item whose specific gates are lifted.
+   Do not infer that a general resume lifts post-demo or design dependencies.
+4. If no item is runnable, tell boss the actual dependency and wait.
