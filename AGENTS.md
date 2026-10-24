@@ -336,6 +336,19 @@ English gloss: remove Codex agents' model/effort checks and requests to switch.
 
 ---
 
+## Gemini API spending record
+
+The human, 24 October 2026: «Далее веди учет остатка отдельной записью»
+(English gloss: keep the remaining balance in a separate record from now on).
+The persistent human-facing record is `ai/gemini-budget-balance.txt`.
+Before an authorized paid batch, read its latest balance and record the batch cap;
+after the batch, append its actual usage-based cost and update the cumulative
+spend and estimated remainder. Include auditions, rejected takes and replacements.
+Count each API interaction once, not each copied receipt or mastered file.
+Flag missing usage rather than treating it as free. Keep top-ups and corrections
+as separate dated entries. This is an approximate project-budget remainder, not
+a verified Google billing balance or permission to generate new speech.
+
 ## 11. Before delivery
 
 | Check | |
