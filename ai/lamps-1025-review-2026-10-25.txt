@@ -1,0 +1,84 @@
+Lamp batch, boss-rpg-lamps-1025 [1], 25 October 2026
+
+Scope: #1035, #1037, #1085, #1087, #1093, in that order. Lamps/advice
+explicitly exempted from the quest freeze in this assignment. Shared databases
+remain read-only for RPG; boss imports the supplied CSV as usual.
+
+Current delivery: manual/texts/lamps-1025-2026-10-25.csv (14 rows).
+Eight rows are byte-identical active sources, one is a replacement, four are
+finished text pending actual binding/selector/producer, one proposes a revised
+binding. The eight identical rows are evidence/no-ops, not revision bumps.
+
+#1035
+- Active title already reads «Лошади без овса». Generic tip names oats, but
+  lacked the next-year sowing advice; appended it without claiming that every
+  ration shortage is caused by too little oat area.
+- The former held thin_oat_year alternative now has a real producer basis:
+  core/include/core_common/herd_state.h TractionWatch oat_short_by_plan,
+  plan_oat_ha, plan_oat_expected, plan_team_need; alarm_state.h kSowMoreOat.
+  econ/manual/proposals/oat-lamp-thin-year-contract-2026-10-17.md section 4
+  explicitly assigns team_on_hay.by_plan.text. Delivered that key with three
+  known values, not a bot-year-cycle assumption or a new next-year field.
+- «Отведено» rather than «посеяно»: annual rotation expectation is known
+  before sowing. Expected output is not a guaranteed harvest. Need is the
+  producer's reference work-ration request, not pigs' grain or new accounting.
+- Proposed advice key uses existing enum spelling sow_more_oat. Its next-year
+  information is not an order to sow from this lamp. Its current door lowers
+  carting priority only on the actual task; without that door the explanation
+  stands alone. No promise of cart-speed improvement from oats.
+
+#1037
+- Existing advice.declare_day_working is byte-identical current source.
+  Its «Воскресенье — рабочее» quotes ui.office.order.cancel_day_off exactly.
+- Day-off explanation says carts stand because it is a rest day, not because
+  horses broke down. It does not call every routine load urgent.
+- Read actual core CartUse and host/src/script/script_bindings.cpp kCartUses
+  and world.alarms(): carts_by_use has seven categories, zeros on a rest day.
+  CartUse::kHay includes a mower's trip OUT as well as hay hauled. Hence the
+  old held draft's «вывозом сена занято» is not a valid label for that count.
+- Proposed replacement working breakdown names all seven categories and
+  their sum rather than assigning an unproved meaning to «сегодня N из M».
+  «На лугах» covers both uses; fields includes field-heap and brigade carts;
+  «на пахоте и бороновании» covers both plough uses. No harness inventory.
+  This is a proposed presentation-contract revision for boss, not a silent
+  implementation decision. Actual named load comes via logistics_task.
+  Do not substitute the wait-hours Alarm.amount for any cart count.
+- The serialized carts_by_use exists, so the old blanket statement that
+  no breakdown producer exists is obsolete. UE selection/rendering was not
+  inspected in a built frame and is not certified by this source read.
+
+#1085
+- Both original corrections are already active EXACT, including literal
+  «Уборка» matching ui.office.work.harvest. No new work kind Покос.
+- Hay weathering wording remains the accepted 19 October replacement.
+  Do not reimport the older generic draft over it.
+
+#1087
+- Four corrections already active EXACT: timeless plan shortfall, neutral
+  logistics load with a real priority door, factual leisure layer, district
+  material limit instead of buying with unavailable money. Also keep #1085.
+- No new optional urgent/rick-supply variants needed for the generic fix:
+  existing logistics_late.tip handles both. Old optional variants remain
+  proposals, not evidence of an imported or selected branch.
+- Rich collections/date plan variants remain separately dependent on real
+  collection data. No fabricated «tomorrow», deadline or extra district visit.
+- The cancelled too_few_horses second lamp text is NOT restored; #1093 is
+  its replacement, as the boss recorded on 19 October.
+
+#1093
+- Same accepted-for-handoff label and days:real/pct:real contract as d8d765a.
+  Current shared source is still absent. Ready for boss import with the real
+  window producer; preserve the earlier explicit after-demo condition unless
+  boss lifts it. No new horse shortage lamp or advice.
+- People waiting for a horse, not idle horses. Person-days are not earned
+  labor_days. Percent must use the producer's identical week/work scope;
+  zero denominator must not invent 0 percent. Owner decides unavailable UI.
+
+Checks passed: 14 unique CSV keys; exact declared placeholder sets; source and
+fixture lengths within limits; eight already_active rows byte-identical to
+active shared sources. The by-plan row and idle label are still absent there.
+Fixture working counts 3+2+1+4+1+2+3 = 16; decimal fixtures use Russian commas.
+Project link validator: 3,986 files / 31,647 links, 124 issues outside RPG,
+zero RPG issues. git diff --check passed before delivery.
+No shared writes, code/runtime tests, TTS, new quests or scenes. Content/source
+verification does not prove actual UI routing, executable orders or frame fit.
