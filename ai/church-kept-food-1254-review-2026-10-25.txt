@@ -1,11 +1,17 @@
 Church emptying: per-food explanation, task #1254
 
-Authority: boss-rpg-lamps-1025 [3]; manual/design/core/start.md section 5,
+Authority: boss-rpg-lamps-1025 [3], [5]; manual/design/core/start.md section 5,
 row «Еда без другого дома остаётся в церкви», added 25 October 2026.
 
 One proposed shared key:
-ui.office.order.empty_church_store.kept_food_reason
+feed.store_keeps_food
 «{resource}: некуда перенести — нет {storage_genitive}.»
+
+Update under boss [5]: the source is now the core event store_keeps_food
+(unit, resource), once per kept food when the emptying order is accepted.
+Namespace feed / kind log matches other core-event captions. This replaces
+the earlier proposed ui.office.order.empty_church_store.kept_food_reason;
+do not import the obsolete UI proposal as a second independent source.
 
 resource:name is the localized NOMINATIVE resource name. The colon avoids
 guessing its dative, gender, number or a verb agreement for every resource.
@@ -23,13 +29,18 @@ Examples (fixtures, not extra shared strings):
 «Овощи: некуда перенести — нет овощехранилища.»
 «Сахар: некуда перенести — нет продуктового двора.»
 
-Select once per affected food below the order button, only when its other
-standing home does not exist. A construction site is not a standing home.
+Resolve one caption per emitted event, only when its other standing home
+does not exist. A construction site is not a standing home. The order-panel
+display originally requested in [3] may reuse the same caption if the owner
+wires it; this is not a new second event or an implemented UI route.
 This is not the full-capacity case: that has a home and waits for room.
 Do not list all possible foods if the producer says only some are affected.
 Do not say the whole emptying order is refused: other food types may move,
 and this food continues to be accepted/stored in the church under the rule.
 No storage transfer, building, calendar or quest mechanics added by this text.
+unit and resource are the event's actual subjects. storage_genitive is a
+localized presentation binding derived from the resource's accepted storage
+type, not a new event payload field or a guessed store selected by its name.
 
 Source: manual/texts/church-kept-food-1254-2026-10-25.csv.
 RPG provides its own CSV; boss imports strings.db and sends the key/contract
