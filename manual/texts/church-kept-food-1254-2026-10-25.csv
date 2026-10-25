@@ -1,0 +1,2 @@
+namespace,key,kind,status,text_ru,placeholders,plural,max_len,binding_note
+ui.office,order.empty_church_store.kept_food_reason,label,ready_for_import,{resource}: некуда перенести — нет {storage_genitive}.,resource:name;storage_genitive:text,0,160,One line per food without another standing storage home of its type; resource is its localized nominative name; storage_genitive is амбара / овощехранилища / продуктового двора for grain / potatoes and vegetables / other food respectively; not lack of capacity; food remains accepted and stored in the church; no whole-order refusal

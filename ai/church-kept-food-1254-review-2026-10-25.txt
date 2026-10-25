@@ -1,0 +1,36 @@
+Church emptying: per-food explanation, task #1254
+
+Authority: boss-rpg-lamps-1025 [3]; manual/design/core/start.md section 5,
+row «Еда без другого дома остаётся в церкви», added 25 October 2026.
+
+One proposed shared key:
+ui.office.order.empty_church_store.kept_food_reason
+«{resource}: некуда перенести — нет {storage_genitive}.»
+
+resource:name is the localized NOMINATIVE resource name. The colon avoids
+guessing its dative, gender, number or a verb agreement for every resource.
+storage_genitive:text is the ready localized genitive of the storage home:
+- grain -> «амбара»;
+- potatoes and vegetables -> «овощехранилища»;
+- other food -> «продуктового двора».
+The words above are localized Russian values, not new core type identifiers.
+Use the resource's real storage classification; no duplicated guessed crop list.
+
+Examples (fixtures, not extra shared strings):
+«Рожь: некуда перенести — нет амбара.»
+«Овёс: некуда перенести — нет амбара.»
+«Картофель: некуда перенести — нет овощехранилища.»
+«Овощи: некуда перенести — нет овощехранилища.»
+«Сахар: некуда перенести — нет продуктового двора.»
+
+Select once per affected food below the order button, only when its other
+standing home does not exist. A construction site is not a standing home.
+This is not the full-capacity case: that has a home and waits for room.
+Do not list all possible foods if the producer says only some are affected.
+Do not say the whole emptying order is refused: other food types may move,
+and this food continues to be accepted/stored in the church under the rule.
+No storage transfer, building, calendar or quest mechanics added by this text.
+
+Source: manual/texts/church-kept-food-1254-2026-10-25.csv.
+RPG provides its own CSV; boss imports strings.db and sends the key/contract
+to core and UE. Shared database remains read-only for RPG. No TTS.
