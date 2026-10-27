@@ -1,0 +1,47 @@
+RPG parked state — 27 October 2026
+
+Authority: boss-rpg-softstop-2026-10-27 [1], relaying the human's
+«Работы по ранней игре мягкий стоп» (Early-game work: soft stop), task #1455.
+No new Epoch I string work, runs, probes or builds until the human resumes it.
+Demo work is unaffected; no new demo assignment is currently in hand.
+
+Stopped cleanly
+- No authoring step or long-running job was active in this session; none was
+  started or required cancellation. Worktree was clean at 0c751c7.
+- Shared design, strings and tasks databases remain unchanged by RPG.
+
+Completed deliveries and data
+- Lamp batch #1035/#1037/#1085/#1087/#1093: 14 rows in
+  manual/texts/lamps-1025-2026-10-25.csv; binding/status review in
+  ai/lamps-1025-review-2026-10-25.txt; commit 97b75ce.
+  Eight rows were exact active no-ops. Other rows retain their import,
+  producer, selector or approval dependencies; delivery is not UI acceptance.
+- #1254 retained church food: manual/texts/church-kept-food-1254-2026-10-25.csv
+  and ai/church-kept-food-1254-review-2026-10-25.txt; commit 0c751c7.
+  Use feed.store_keeps_food, not the superseded unimported UI key.
+  Event binding: store_keeps_food(unit, resource); storage_genitive is a
+  presentation lookup from resource storage type, not another event field.
+- Both deliveries are recorded in boss-rpg-lamps-1025 [2, 6]; queue/dependency
+  status was sent in [7]. Boss owns shared import and tracker changes.
+- Earlier delivery locations and safeguards remain in parked-2026-10-23.txt.
+  Do not rerun the #1186 one-shot migration or regenerate accepted speech.
+
+Queue snapshot (read-only tasks.py queue rpg)
+1. #761: AFTER demo and boss design entry #755; no autumn line authored.
+2. #1042: in_code, awaits bindings/package evidence. Existing CSV/hover sources
+   are named in the 23 October record; do not restore superseded wording.
+3. #1035: delivered oat wording; conditional plan/advice bindings pending.
+4. #1037: delivered day-off text; working-day breakdown remains a proposed
+   binding revision requiring boss ruling. Alarm.amount is hours, not carts.
+5. #1085: delivered corrections already matched active text exactly.
+6. #1087: accepted generic corrections matched active text exactly; numerical
+   collection/date variants remain dependent on actual data producers.
+7. #1093: delivered weekly person-day label; real window/producer and explicit
+   post-demo gate remain. Never invent 0 percent for an undefined denominator.
+Eight additional open items are outside the ordered queue; no new work begun.
+The separate quest/hint freeze and explicit human approval for TTS still apply.
+
+On resume
+Read the current mailbox ruling and queue first. Resume only a runnable assigned
+step with its specific gates lifted; a general resume does not lift post-demo
+or design dependencies. If none is runnable, report the dependency to boss.
