@@ -1,0 +1,41 @@
+Resume reconciliation — 31 October 2026
+
+Authority: boss-rpg-resume-1031 [1], task #1518. The #1455 soft stop is lifted.
+Order for this step: #1042, then #1035 and #1037. #761 remains after demo.
+No new speech generation authorized or performed.
+
+Read-only source check against shared strings.db
+- #1042: seed_short.tip, goods_loan_owed.tip, declare_day_working advice and
+  all ten supplied glossary definitions match active source exactly.
+- The current plan fallback and hay-weathering tip match the newer 25 October
+  package exactly. Do not overwrite them with the 17 October held drafts.
+- The remaining-count/date plan variants are not implemented merely because
+  their proposed text exists; their data/selector contract remains unresolved.
+- #1035: the 25 October generic oat tip is still not imported; active source
+  omits its next-year sowing sentence. The by-plan explanation and sow_more_oat
+  advice are absent. Actual TractionWatch producer fields still exist.
+- #1037: day_off and working variants are absent. Existing executable-day-off
+  advice matches source exactly. Host still serializes seven carts_by_use
+  categories; this does not certify UE selection or rendered frame fit.
+
+Concrete handoff
+manual/texts/lamps-resume-1031-ready.csv extracts four unchanged rows from
+manual/texts/lamps-1025-2026-10-25.csv, with original binding conditions:
+1. alarm.team_on_hay.tip: direct generic replacement, no new placeholders.
+2. alarm.team_on_hay.by_plan.text: actual plan-shortage branch only;
+   oat_ha/expected_t/need_t from TractionWatch, grams converted to tonnes once.
+3. alarm.team_on_hay.advice.sow_more_oat: actual advice and executable priority
+   door only; without that door show the explanation alone.
+4. alarm.logistics_late.tip.day_off: actual rest-day/waiting-task selector;
+   zero cart counts alone do not establish a rest day.
+All four retain exact 25 October text; no additional fictional cause or action.
+The last three require owner binding/selection, not unconditional display.
+
+The working-day breakdown remains a separate proposed binding revision in the
+25 October CSV, subject to boss approval. It lists all seven real categories
+and their sum; hay includes mowing travel, so its label is 'На лугах'. No
+Alarm.amount-to-cart-count substitution. Shared DB import belongs to boss.
+
+Checks: four unique rows; exact declared placeholder sets and length limits;
+read-only comparison of both prior deliveries against current shared source.
+No shared database writes, runtime/build tests, new quests, or TTS.
