@@ -41,9 +41,11 @@ read-only comparison of both prior deliveries against current shared source.
 No shared database writes, runtime/build tests, new quests, or TTS.
 
 Acceptance update — boss-rpg-lamps-1035-1037-2026-10-31 [3]
-- Boss imported team_on_hay.tip (rev 4), logistics_late.tip.day_off and
+- Boss imported team_on_hay.tip, logistics_late.tip.day_off and
   logistics_late.tip.working. Read-only verification confirms all three match
   the 25 October CSV exactly. #1035/#1037 text side is closed.
+  Boss reported oat rev 4; current read-only source reports rev 5 with the
+  accepted text, and both logistics variants report rev 1.
 - The seven-category working breakdown is ACCEPTED instead of undefined N/M;
   transport.md section 12 was updated by boss. Its nine placeholders and
   max_len 360 are accepted. Earlier proposal status is historical, not a gate.
