@@ -1,0 +1,33 @@
+Task #1422 — four first-build avatar paths
+
+Authority: boss-rpg-1422-avatar-card-lines-2026-11-02 [1], relaying the human's
+approval of four new paths. Basis: avatars.md 'Пути первой сборки' and display
+rule immediately above; current avatar namespace and earlier card delivery.
+Tone/red lines remain the common neutral presentation register. These are
+card descriptions, not speeches requiring four invented dialogue voices.
+
+Delivery: manual/texts/avatar-card-paths-1422-2026-11-02.csv, five rows.
+Proposed keys sit beside existing avatar.<avatar>.name/legend/line entries.
+Current source has no matching new card-path keys. Existing legends, personal
+mottoes, other path advantages and already accepted closed-door clauses are
+not replacements for these new rules and must not be overwritten by them.
+
+Four open clauses and Villager's new closed clause only. Existing Promoted,
+Worker and Dealer limitations remain outside this assignment. In particular,
+Worker's first TWO actual plan bargains are not rewritten as two years;
+Dealer's tool/steel payment does not open industrial equipment.
+
+Villager's qualitative 'Поначалу' follows the requested no-numbers card rule;
+the binding retains exactly campaign years 1 and 2, not an indefinite penalty.
+His club is weaker, not closed, and wild bathing still needs an actual valid
+place. Promoted's line refers to ordered district goods rather than all mail.
+Worker's line promises less frequent replacement, not indestructible tools.
+Dealer's grain payment retains its actual lot/price constraints.
+
+Read-through: short literal sentences; each advantage names its object and
+consequence. No metaphor, invented backstory, numerical percentage, buff,
+scale, new order or actor/gender assumption. No new TTS.
+
+Shared strings.db remains boss-owned/read-only under AGENTS section 7. CSV
+is ready for boss import, followed by the usual sync/save/check/export/render;
+UE owns card integration. Source prose does not prove core paths implemented.
