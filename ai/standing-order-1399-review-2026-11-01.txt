@@ -1,0 +1,28 @@
+Task #1399 — standing-order glossary and first-use hover
+
+Authority: boss-rpg-1399-standing-order-gloss [1]. Basis read: tone.md;
+construction.md section 10 tool rules; design-limits.md standing-order
+references located; current string_source queried read-only.
+
+Existing key: glossary.standing_order, kind tooltip, max_len 400. Active text
+starts 'Постоянное распоряжение' and explains repeated conditional work until
+the chairman cancels it. Reuse this key, not a second glossary concept.
+Delivery: manual/texts/standing-order-1399-2026-11-01.csv, one replacement.
+The headword now matches the assigned term. Two plain sentences preserve
+the condition and cancellation, without promising work despite missing inputs.
+
+Hover contract: tooltip_key=glossary.standing_order. Attach to the first
+encountered 'стоячий наряд' phrase. If the first forge encounter is instead
+'наряд стоит: нет железа', attach to 'наряд' in that standing-order row,
+not every ordinary work assignment. This route is specific to an actual
+standing order; it must not imply every one-off assignment repeats itself.
+No duplicate hover text or second localization key is necessary.
+Current shared source has no key containing the forge's assigned first-use
+phrases. Boss/UE supplies that real source key when registered; no fictitious
+source key or claimed live hover wiring is introduced by this delivery.
+
+Shared import and sync/save/check/export/render belong to boss under AGENTS
+section 7. No shared writes, new hints/quests, mechanics or TTS performed.
+Validation: one unique existing key, no placeholders or plural branches,
+text length below 400. Written read-through: object, repeat condition and
+cancellation are explicit; no avatar, age, sex or status agreement needed.

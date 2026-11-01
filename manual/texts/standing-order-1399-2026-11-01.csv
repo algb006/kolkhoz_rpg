@@ -1,0 +1,2 @@
+namespace,key,kind,status,text_ru,placeholders,plural,max_len,binding_note
+glossary,standing_order,tooltip,ready_replacement,Стоячий наряд — распоряжение до отмены: работу повторяют по заданному условию. Каждый раз отдавать новый наряд не нужно.,,0,400,Reuse existing glossary entry and same tooltip key on first use; no new mechanic or duplicate definition; no execution guarantee when materials or workers are unavailable
