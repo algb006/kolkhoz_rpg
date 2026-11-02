@@ -1,0 +1,5 @@
+namespace,key,kind,status,text_ru,placeholders,plural,max_len,binding_note
+avatar,villager.path.river.closed,text,ready_replacement,В первые два года клуб даёт жителям меньше отдыха.,,0,160,Campaign years 1 and 2 explicitly disclosed; weaker club evening and rest-day effect only; club remains available
+avatar,promoted.path.district.closed,text,ready_new_key,Медленнее учится замечать непорядок в хозяйстве.,,0,160,Slower growth of the existing хозяйский глаз; does not hide metrics or introduce guaranteed blindness or a new penalty
+avatar,worker.path.tools.closed,text,ready_new_key,При первых двух торгах о плане нельзя заменить культуру.,,0,160,First two actual plan bargains not first two campaign years; volume bargaining remains available; no extension of the restriction
+avatar,dealer.path.tools.closed,text,ready_new_key,До третьей эпохи район не отпускает промышленное оборудование по лимиту.,,0,160,Only industrial_equipment_lot; tool_lot and steel_lot remain available; not an absolute ban on equipment from other accepted sources
