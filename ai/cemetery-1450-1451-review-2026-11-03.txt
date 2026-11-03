@@ -44,3 +44,16 @@ Shared import belongs to boss. No shared writes, runs/builds, mechanics,
 quests, new hints or TTS. Source copy does not certify UE preview/button/event
 placement. Validation: three unique keys; exact placeholder declaration,
 source and long-name fixture lengths within limits; no gendered agreement.
+
+Acceptance — boss-rpg-cemetery-strings [3]
+All three delivered sources imported as draft; read-only equality check passed.
+Boss reports shared check zero errors. No human wording approval or UE frame
+acceptance inferred. The road alternative is REJECTED for this event, not a
+pending variant: actual no-built-cemetery trigger and construction-only remedy
+stand. UE derives settlement from the resident's home settlement.
+Boss also replaced unit.cemetery.blurb at its design source. Its new ending
+'с первым захоронением' still risks implying the funeral boundary; recommend
+keeping the assignment boundary throughout, with the empty-NEW distinction:
+'Место для похорон. Новое кладбище можно снести, пока здесь не назначено
+захоронение. После этого оно останется навсегда.'
+This is a proposed clarity revision for boss's source, not a shared edit.
