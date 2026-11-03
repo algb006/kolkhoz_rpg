@@ -1,0 +1,46 @@
+Tasks #1450/#1451 — cemetery permanence and held burial
+
+Authority: boss-rpg-cemetery-strings [1]. Read: econ cemetery-1367 review;
+social.md cemetery construction/demolition rules; core cemetery_rules.h and
+event_state.h kBurialHeld. Tone is restrained, factual and without humour at
+the expense of bereavement. No new costs, grief mechanics or deadlines.
+
+Delivery: manual/texts/cemetery-1450-1451-2026-11-03.csv, three proposed keys.
+Two UI explanations and one event caption. No existing burial/cemetery
+caption keys matched these requested functions in current string_source.
+
+#1450: social.md #1567 locks a cemetery as soon as the system assigns a dead
+resident to it, BEFORE the funeral, so 'after the first funeral/grave' alone
+would incorrectly promise a removable interval. Placement wording states the
+assignment boundary. Tooltip covers actual graves or a burial assignment.
+An empty new cemetery remains removable; old cemetery has starting graves.
+
+#1451 CONTRADICTION FOR BOSS, not a narrative decision
+- Boss's parcel lead and core event_state.h agree: kBurialHeld occurs only
+  when NO cemetery is built ANYWHERE. cemetery_rules.h explicitly says a
+  built cemetery always takes the burial and waiting is not a game stop.
+- Econ's review instead describes a new settlement without a road to an
+  existing cemetery and proposes building a road as the alternative remedy.
+- Do not print that road remedy for the current event: if there is no old
+  built cemetery, a road to it cannot solve this case. Supplied caption uses
+  the valid construction remedy only. Keep road wording held until boss
+  reconciles the review and actual trigger with the owning design/code roles.
+If a distinct unreachable-cemetery branch is accepted later, possible text:
+'{settlement}: похороны ждут — нужно кладбище в посёлке или дорога к прежнему.'
+This is a held proposal, NOT an additional import row or implemented branch.
+
+settlement:name is a nominative localized display name, placed before a colon
+to avoid runtime declension. Current event carries resident/amount, not a
+settlement field; owner derives the home settlement via actual resident/yard
+data. Do not guess a settlement, substitute a raw id or add a core field on
+RPG authority. Actual payload/lookup validation belongs to the layer.
+
+Adjacent stale source spotted, outside assigned three-row change: current
+unit.cemetery.blurb still says a new cemetery is for when the old fills up
+and unconditionally cannot be demolished. Boss owns its design-origin source;
+report it rather than silently changing shared content.
+
+Shared import belongs to boss. No shared writes, runs/builds, mechanics,
+quests, new hints or TTS. Source copy does not certify UE preview/button/event
+placement. Validation: three unique keys; exact placeholder declaration,
+source and long-name fixture lengths within limits; no gendered agreement.
