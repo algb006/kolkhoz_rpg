@@ -31,3 +31,12 @@ scale, new order or actor/gender assumption. No new TTS.
 Shared strings.db remains boss-owned/read-only under AGENTS section 7. CSV
 is ready for boss import, followed by the usual sync/save/check/export/render;
 UE owns card integration. Source prose does not prove core paths implemented.
+
+2026-11-04 wording correction: boss-rpg-villager-river-line-2026-11-04 [1]
+reports the #1421 measurement after #1503: wild bathing no longer fully
+replaces the staffed beach. River open text now says «почти заменяет селу
+пляж»; same key and 160-character limit. Other rows remain as delivered.
+
+Validation: all five CSV texts fit their limits (river: 57/160). Global
+check-links.py reports 138 existing link problems across the shared tree;
+this wording change adds no links. Foreign documents were not edited.

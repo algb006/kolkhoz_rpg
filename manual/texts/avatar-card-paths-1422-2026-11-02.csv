@@ -1,5 +1,5 @@
 namespace,key,kind,status,text_ru,placeholders,plural,max_len,binding_note
-avatar,villager.path.river.open,text,ready_new_key,Знает реку: дикое место купания служит селу пляжем.,,0,160,Villager only; existing wild bathing place receives the accepted beach effect; does not create a bathing place where no valid water is available
+avatar,villager.path.river.open,text,ready_new_key,Знает реку: дикое место купания почти заменяет селу пляж.,,0,160,Villager only; existing wild bathing place receives the accepted beach effect; does not create a bathing place where no valid water is available
 avatar,villager.path.river.closed,text,ready_new_key,Поначалу клуб даёт жителям меньше отдыха.,,0,160,Villager only; exact mechanical duration is campaign years 1 and 2; qualitative card line contains no numbers; does not close the club or reduce all recreation
 avatar,promoted.path.district.open,text,ready_new_key,Заказанное у района приходит уже к середине месяца.,,0,160,Promoted only; accepted district lot delivery timing; does not promise free goods or immediate arrival for every kind of district correspondence
 avatar,worker.path.tools.open,text,ready_new_key,Знает инструмент: его реже приходится заменять.,,0,160,Worker only; accepted longer tool lifetime; does not remove wear or iron requirements or promise an earlier repair
