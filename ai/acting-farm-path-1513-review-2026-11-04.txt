@@ -1,0 +1,44 @@
+Task #1513 — Acting chairman's farm path
+
+Authority: boss-rpg-1513-acting-farm-path-text-2026-11-04 [1], relaying the
+human's approval #1484. Design basis: avatars.md rows 182–184, including
+withdrawal of household-care and trained-milkmaid starting paths. Existing
+avatar.acting name/legend/line were queried read-only; no farm path keys or
+matching herd lines currently exist. Four new sibling keys only, no rename.
+
+Delivery: manual/texts/acting-farm-path-1513-2026-11-04.csv.
+Card: effective care threshold and inclusive yard cap. Closed line explicitly
+describes the return to ordinary care beyond the cap; no additional penalty.
+This assignment explicitly requests visible thresholds, so use typed values
+rather than hard-coding the design's current STUB 75 percent and 40 yards.
+care_threshold_pct:real is the actual effective threshold in percent units;
+yard_limit:int is the same effective cap in both clauses. These are proposed
+presentation binding names, not claims that core exposes matching field names.
+Normalize fractions to percent once, not a second time in localization.
+Syntax 'дворов ... не больше {yard_limit}' / 'дворов больше {yard_limit}'
+avoids an inflected counted noun after the substituted number.
+
+Herd window: care_pct:real is that herd's actual care in displayed percent,
+NOT its threshold. Show the active line only for Acting with the path active
+and care sufficient under its threshold. The line states no milk loss FROM
+NEGLECT, not full output regardless of feeding or other milk factors.
+The grown-village line is only for actual cap-related deactivation, not every
+shortage or the first growing yard. It does not demand impossible total care,
+restore the revoked household labour transfer, or create a specialist order.
+Ordinary threshold is unchanged; do not invent a numerical drop in milk.
+
+The active card is conditional too: this path is shown only with the accepted
+neglect rule and live signals that make it observable, as avatars.md requires.
+The second-epoch zootechnician restoration is outside this first-build text;
+do not turn the grown-village line into a permanent all-epochs denial.
+
+Read-through: literal care and milk consequences; female avatar described as
+'она' in the card, officeholder title 'председатель' in the window; no invented
+helpers, household work, illness, identity or personal encounter. No new TTS.
+Shared import belongs to boss; UE binds actual parameters/state and places
+the text. Source delivery does not certify path implementation or frame fit.
+
+Validation: four unique absent keys; typed placeholders match literals;
+source and changed-threshold fixtures fit max lengths. Fixtures include
+75/40, 80/21 and decimal 77.5/101, with Russian decimal commas. No fixed
+threshold numerals or plural-dependent counted-noun construction in copy.
