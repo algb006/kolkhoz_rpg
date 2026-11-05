@@ -129,3 +129,36 @@ link check: 4,918 files, 38,175 links, 138 problems, none under rpg/. The
 zero-problem gate remains unmet outside this role's ownership; report it
 rather than editing another tree. The supplied R3 brief is included in the
 commit as expressly allowed by boss.
+
+Direct human corrections after R3 — 2026-11-05
+
+The human clarified the economic arc: no money in establishment; labour-day
+accounting, the plan, district supply limits and barter between residents;
+money begins in the second era; following the shadow role path can yield
+an almost market economy inside the kolkhoz in the third era. They also
+specified a worldwide audience and the USSR as a socioeconomic experiment
+understood through play. A subsequent message explicitly authorizes fictional
+scenarios with no counterpart in actual Soviet history, enabled by the
+popadanets premise and alternate USSR.
+
+Applied to the pitch: added the international-audience premise and a concrete
+moneyless-economy section; clarified money in the second era while retaining
+labour-day remuneration; stated the almost-market late shadow outcome; made
+fictional social/economic trajectories explicit in the setting section.
+The alternate world's future cannot be read from real history. The chairman
+still acts within the kolkhoz, not as a ruler changing the whole country.
+No new named scenario, mechanics, market-pricing system or national event
+has been invented. The human's new direction is authority for the broader
+late-game framing and is being relayed to boss for shared-canon recording.
+
+Existing basis: manual/design/economy/labor-payment.md §1 and
+manual/design/economy/external/market.md §1 explicitly agree on the first
+and second eras. Money appearing is not an automatic switch to wages.
+shadow.md §4 still limits outside shadow sales to the third era. Its broad
+explanation that early eras have no money in circulation should be read
+narrowly for shadow sales or corrected by its owner: general money already
+exists in the second era under the dedicated economy rules and the human's
+explicit correction. No neighbouring files changed.
+Validation after the direct corrections: diff whitespace check passes;
+shared link checker reports 4,919 files / 38,183 links / 139 problems,
+none under rpg. The extra shared error belongs outside this tree.
