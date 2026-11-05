@@ -1,0 +1,131 @@
+Investor description #1565 — R3 editorial critique
+2026-11-05. Written before the replacement text.
+
+The R2 pitch explains its own intentions instead of showing the game. Its
+opening promises a village; the following pages replace that village with
+abstract responsibility, consequences and repeated reassurance about scope.
+The camera gets more room than leisure, sport and population change combined.
+The differentiator (a chairman with an origin, skills and consequential roles)
+arrives too late and is then repeated in the positioning section.
+
+Cut: repeated promises of warmth and immersion; calendar placeholders; the
+long genre comparison; qualifications at the start of every late-game
+paragraph; repetitions of responsibility and delegation; procedural detail
+about the Road Home nodes that does not help the reader want the game.
+Retain at most the arrival image. Rebuild every other section from its subject.
+
+Add: the region as usable land at believable distances; the actual journey of
+a load; the connection between road, labour and construction; household life;
+births, schooling, marriages, ageing, arrivals and departure requests; summer
+swimming, winter leisure, club, bathhouse, dance, sport and holidays. Give
+these subjects decisions and visible outcomes, not a facilities inventory.
+
+Put the RPG promise near the opening. Give all eight origins distinct human
+starting points; show how skills and delegation change the chairman's work.
+Keep ideological, humanist and shadow paths concrete and distinct. State the
+goal of a long, absorbing, replayable game explicitly. Retain voluntary
+endings, Road Home, the sequel vision and the phased roadmap at the end.
+
+Authority: the human's R3 correction defines epochs by way of life. 1931 is
+the start; 1940s–50s and 1960s–80s describe visual reference, not transition
+dates. The camera correction from R2 remains binding.
+
+Canon guardrails: do not turn brief examples into invented accepted quests.
+Use existing wedding, sport, electrification and village-life material;
+identify illustrative scene proposals together, if needed. Disease is known
+through conversation, never shown as a scene of suffering. Real distances
+do not imply real-time ageing: the life cycle is deliberately compressed.
+Do not promise unrestricted construction over river, protected sites or
+unusable terrain. Mark the late-era framework and sequel vision once each.
+
+Hostile reread criteria: every paragraph supplies a new picture, action or
+product fact; no duplicate sales conclusion; no unsupported implementation
+claim; no economy figures, development dates or durations; roadmap last.
+
+Hostile reread and canon review — completed
+
+The replacement was written from a new outline, retaining only the arrival
+image. The first page now states the RPG differentiator and replay goal, then
+shows land, roads and actual delivery. Families and leisure precede the era
+survey. All eight origins, role paths, voluntary endings and the phase-only
+roadmap remain. The pitch is about 2,700 Russian words; length is subordinate
+to subject coverage, not a target to fill.
+
+The second pass removed a duplicate replay paragraph, replaced the circular
+claim about building materials with a delivery conflict, removed a vague
+sentence about a new building, and replaced general praise of humour with
+the neighbour counting haystacks (tone.md §2). It also removed wording that
+could imply all built leisure is postponed until after establishment.
+Genre neighbours are orientation only, not a new feature or market audit.
+No claim is made that other games lack a feature, or that we are the only
+product in the genre to offer it.
+
+Source map (paths below are relative to the shared kolkhoz tree):
+- design/core/tone.md under manual/: §§1–4 and §10; warm comedy, serious
+  consequences, illness learned through speech, no suffering staged.
+- manual/design/core/game-setting.md: §§2–3, 6–9; genre, main camera now
+  corrected, delegation, replayability and genre neighbours.
+- manual/design/world/map/terrain.md: §1; regional scale, real geography,
+  new player-founded villages and limitations on usable land.
+- manual/design/infrastructure/roads.md §1 and transport.md §1; weather,
+  actual routes, horse/carriage versus truck, maintenance and staffing.
+- manual/design/economy/household-farming.md §1; private yards matter to
+  food supply. Farming, livestock and labour-payment basis is retained
+  from the earlier source review, without numerical claims.
+- manual/design/people/life-cycle.md §§1, 6, 9, 11–13; individual people,
+  cross-village marriages, housing, permission to leave, weddings.
+  demography.md §2: generations fit one playthrough through compression.
+- manual/design/people/leisure.md §§1–3, 14–16; natural leisure, culture,
+  winter skating, football, neighbours and social contact. The pitch never
+  makes sport contingent on the second era.
+- manual/design/chairman/quests.md §§7, 9: named people as sources,
+  development quests (winter evenings, fire preparedness, electrification),
+  broader authored story pool selected by avatar/era/important families.
+  party-komsomol-quests.md §§1, 3–4 supplies explicitly draft wedding and
+  inspection ideas. Sick child / drinking tractor driver / fair are
+  illustrative scene directions from the human's R3 brief, not accepted
+  quest scripts, new triggers, rewards or mechanics. The paragraph is
+  explicitly introduced as narrative vision. Child illness is offscreen.
+- manual/design/core/epochs.md §§1–5 plus the human's R3 correction:
+  epochs are ways of life; start 1931; 1940s–50s and 1960s–80s are visual
+  reference, not fixed transition years or real historical events.
+- manual/design/chairman/avatars.md §1; eight origins and arcs, abilities
+  and eventual freedom of role. role-lines.md §§1–2a, 11, 19; optional
+  ideological/shadow layer, participation versus hierarchy, prosperity
+  earned through the economy, growth and different exits.
+- manual/design/economy/shadow.md §§1–3 and earlier R2 source map: gifts
+  first, outside sales only in maturity; the supply network has people
+  and discovery risk. No combat or coercive spectacle.
+- manual/design/chairman/road-home.md §§1–5; accepted framework, school
+  holding and inventors, safety inspector, trial fog without crossing,
+  willing capable successor with assembly support, a replacement can be
+  prepared, right to stay, not necessarily home, sandbox before departure.
+- manual/process/82-roadmap.md §§1–2; core accepted, internal prologue
+  underway, closed establishment tests, public prologue, full establishment
+  and management demo, early access, free late-era updates, full release.
+  No postponed development date is repeated in the pitch.
+
+Boundary/consistency findings for boss:
+1. leisure.md §1 says the first era has only natural leisure. Its §2 gives
+   the reading hut and sport in the first era; §§14–15 and epochs.md §3
+   support this, as do the established Winter Evenings quest and the
+   human's R3 brief. The pitch describes first-era culture and sport;
+   the conflicting summary row needs owner review. No shared file edited.
+2. Fire preparedness belongs to full-game design, but quests.md §7 explicitly
+   postpones the first-era fire quest in the initial build. The pitch is
+   the complete-game description, not a list of implemented features.
+3. Real distances and physical transport do not mean a literal reproduction
+   of every timescale or cargo capacity: demography and carriage load have
+   deliberate game compression. No one-to-one realism claim was added.
+4. The former camera contradiction is resolved in game-setting.md §3.
+   Third person is primary, first person is optional immersion; the hero
+   is not rendered in the main camera, overview remains in the office.
+
+Validation: prose reread against tone and source boundaries; digit inspection
+finds only 1931, the visual-reference decades and the sequel title. No
+calendar placeholders, economy figures, release dates or durations remain.
+The roadmap is the final section. git diff --check passes. Required shared
+link check: 4,918 files, 38,175 links, 138 problems, none under rpg/. The
+zero-problem gate remains unmet outside this role's ownership; report it
+rather than editing another tree. The supplied R3 brief is included in the
+commit as expressly allowed by boss.
