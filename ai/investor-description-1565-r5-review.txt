@@ -1,0 +1,42 @@
+Investor description #1565 — R5 realism review
+2026-11-05
+
+Authority: boss-rpg-investor-r5-2026-11-05 [1], quoting human task #1726.
+Reworked the single regional-world/realism section and the positioning
+paragraph; merged repeated delivery/live-signal prose in the camera section.
+
+Coverage:
+- Residents walk to work and return; transport carries physical loads;
+  products move field -> store -> kitchen. No resident/resource/load
+  teleportation, and stock must actually arrive.
+- Real distances, roads, weather, feed/fuel/maintenance and staffing.
+- Morning departure, field lunch, home by sunset, lit windows and night;
+  weekdays/rest days and a continuous week across month boundaries;
+  sowing, haymaking, harvest and winter. Compressed timescales are explicit
+  in words, without promising literal real-time calendar duration.
+- Automated transport allocation and routing adapt to tasks; the player
+  decides construction locations and priorities, not individual trips.
+- Growing delegation to farm manager, supply officer and dispatcher;
+  authority, competence, character, trust, error and checking outcomes.
+
+Source basis (shared manual/design): core/time.md §§3–4, 6; infrastructure/
+transport.md §12 (especially player intervention and why it matters), roads.md
+and vehicles.md as established transport sources; chairman/delegation.md
+§§1–2, 5–6; core/game-setting.md §6. Tone read before editing.
+The genre contrast is expressly limited to strategies with abstract delivery;
+no assertion that every similar game, or each named reference, teleports
+residents/cargo. This is positioning from the supplied brief, not a new
+competitor feature audit. No new canon contradiction found for this edit.
+
+R4 content retained: full game name, economic directions, services/sanatorium
+vision, education, early crime, household life, role branches and endings.
+Household food supply moved into the family paragraph; district obligations,
+seed/feed allocation and labour days remain in the moneyless-economy section.
+The headline replay goal remains; its redundant closing sentence was cut.
+
+Validation: reread changed prose, inspected diff and whitespace; no new
+quantity or date. Digit tokens remain 1931, visual-reference decades and 2
+in the sequel title. Roadmap remains last. Words: 3,532 -> 3,519.
+Required shared link check: 4,922 files / 38,219 links / 139 problems, none
+under rpg. Global zero-problem gate remains unmet outside this role's tree.
+No shared design/database, code, images or audio changed.
