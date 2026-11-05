@@ -1,0 +1,56 @@
+Investor description #1565 — editorial and canon review
+
+Authority: boss-rpg-investor-description-2026-11-05 [1], relaying the human's
+«Русский. Подробно.» / «Делай» (English gloss: Russian, detailed; proceed).
+Deliverable: manual/pitch/investor-description-ru.md. Human-facing Russian;
+this review is internal English. No audio, imagery or database writes.
+
+Canon map:
+- game-setting.md sections 1–7, 9–10: positioning, first-person presence,
+  office, district, simulation, parallel state, realistic play beyond fog.
+- tone.md sections 1–4, 8, 10: warmth, humour, photorealism, red lines.
+- epochs.md sections 1, 3–5, 8–9: establishment, growth, maturity, endings.
+- avatars.md summary/card biographies: all avatar origins and personal arcs;
+  no claims about editable appearance (the source flags a separate conflict).
+- role-lines.md sections 1–5, 2a, 19: optional role layer, local institutions,
+  earned prosperity, participation/vertical order, roles and proposed exits.
+- shadow.md sections 1–3 and existing manual/texts/shadow-line-scenes.md:
+  unrecorded production, people in the chain, accounting risk; no external
+  sales in the early eras; no criminal spectacle or private mansion.
+- road-home.md sections 1–5: existing high-level arc, predecessor landscape,
+  school farm, inventors, trial fog, sandbox interval, preparation, final
+  choice, epilogue, pre-departure continuation. Successor is required; other
+  readiness factors affect the route. Appointment occurs in the epilogue.
+- start.md prologue and hungry-cow signal; live-signals.md sections 1–2:
+  perceptible evidence follows simulation; precise information stays open.
+- quests.md: social content follows actual life; no mandatory narrative
+  requirement invented for ordinary production or epoch progression.
+- process/82-roadmap.md sections 1–2: internal prologue, closed tests, public
+  prologue demo, complete establishment and management demo, early access,
+  free later-era updates, full release. No calendar dates or durations.
+
+Honesty boundaries:
+Late-era experiences are explicitly introduced as the accepted framework,
+with detailed implementation/content still ahead. Road-home scene details
+and epilogues remain unwritten vision. Franchise/sequel are explicitly a
+prospect with no committed setting, mechanics or production programme.
+The sequel hooks are only scalable role play and the not-necessarily-home
+ending; no new sequel plot, launch commitment or travel mechanic is added.
+
+The ideological branches describe lived arrangements without showing
+utopia/dystopia labels. Prosperity must be achieved economically; the
+chairman changes the local community, not the country. Sandbox can continue;
+voluntary endings are proposals, not automatic expiry. Road-home remains
+separate from role-specific exits. The later-era owner role is described
+as dependency rather than a universal ban on the road-home quest.
+
+Comparative prose uses genre orientation and our own design commitments;
+no current competitor feature audit, sales or market estimates are claimed.
+No web research was necessary for this canon-based writing assignment.
+The sole digit in the reader-facing prose is the requested sequel title
+«Колхоз 2». No quantities, prices, dates, durations or release version.
+
+Validation: editorial content/number checks and git diff --check pass.
+Global check-links.py: 4915 files, 38154 links, 138 problems; none reported
+under rpg/. The shared zero-problem gate remains unmet outside our tree.
+No foreign document was edited. Boss receives this limitation with delivery.
