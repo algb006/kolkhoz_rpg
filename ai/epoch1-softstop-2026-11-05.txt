@@ -1,0 +1,71 @@
+Epoch I parked record — 2026-11-05
+
+Authority: boss-rpg-epoch1-softstop-2026-11-05 [1], human #1739:
+«Мягкий стоп по работе эпоха 1. Демо продолжаем».
+English gloss: Soft stop on Epoch I work. The demo continues.
+
+Current step: no unfinished content edits or paid voice batch in hand.
+The investor pitch ended separately at f9dbf6e and is now owned by boss.
+No new Epoch I strings, voice or texts until the human resumes that work.
+Demo text needs still arrive through boss; the demo itself is not stopped.
+This record describes the latest recorded handoffs, not a fresh runtime or
+shared-database audit. Import, binding and frame acceptance are distinct.
+
+#1399 — standing-order glossary / first-use hover
+Done: one existing-key replacement, glossary.standing_order; first-use route
+specified without inventing a forge source key or a second glossary concept.
+Source: manual/texts/standing-order-1399-2026-11-01.csv.
+Review: ai/standing-order-1399-review-2026-11-01.txt.
+Open: boss import/acceptance and actual first-use source key / UE hover binding
+are not certified by the delivery record. Ordinary one-off orders must not
+inherit the repeating-order explanation. Parked; do not add strings.
+
+#1042 — ten glossary definitions and hover routes
+Done: definitions and thirteen proposed first-use routes delivered in
+manual/texts/complexity-1042-1037-2026-10-17.csv and
+manual/texts/complexity-1042-hovers-2026-10-17.csv.
+Review: ai/complexity-1042-1037-review-2026-10-17.txt.
+Latest reconciliation: ai/resume-1031-string-reconciliation.txt confirms all
+ten definitions and accepted seed/loan/advice text match shared source.
+Open: live hover wiring and package-frame acceptance are not established by
+source equality. Rich plan collections/date alternatives still need actual
+producer/selector data; older held drafts must not overwrite accepted newer
+plan/hay wording. Parked; no invented collection date or count.
+
+#1035 / #1037 — oats and logistics lamp wording
+Done: 25 October source batch manual/texts/lamps-1025-2026-10-25.csv;
+ready subset manual/texts/lamps-resume-1031-ready.csv.
+Reviews: ai/lamps-1025-review-2026-10-25.txt and
+ai/resume-1031-string-reconciliation.txt, including acceptance update.
+Boss accepted/imported the generic oat explanation and both logistics
+rest-day/working variants; the seven-category working breakdown is accepted.
+The text side of those generic corrections is closed, not new authoring work.
+Open: by-plan oat explanation and sow_more_oat advice await TractionWatch
+binding/import in the latest record. UE B6 alarm wiring / rendered acceptance
+remain separate. Rest-day selectors and executable advice doors must be real;
+Alarm.amount is waiting hours, never a substitute cart count. Parked.
+
+#1093 — weekly people waiting for a horse
+Done: one window label, days:real/pct:real, in
+manual/texts/horse-idle-label-1093-2026-10-19.csv; repeated unchanged in the
+25 October lamp batch. Review: ai/horse-idle-label-1093-review-2026-10-19.txt.
+Open: actual weekly producer, matching denominator, unavailable state for a
+zero denominator, boss import and window binding. Explicit after-demo gate
+remains; no second too_few_horses lamp or new advice is authorized. Parked.
+
+#1422 — avatar card paths and closed clauses
+Done: five path rows in
+manual/texts/avatar-card-paths-1422-2026-11-02.csv; four closed-clause rows in
+manual/texts/avatar-card-closed-1422-2026-11-02.csv.
+Reviews: ai/avatar-card-paths-1422-review-2026-11-02.txt and
+ai/avatar-card-closed-1422-review-2026-11-02.txt.
+The follow-up found the original five path rows imported. The later river
+correction says wild bathing almost replaces the beach (c09958a); explicit
+first-two-years Villager wording supersedes the older qualitative clause.
+Open: import/acceptance of follow-up replacements and three new closed keys,
+actual card placement/frame fit and path implementation are not certified
+here. Existing display gates stay: Worker #1361, Promoted #308, Villager
+reachability #1398. Content delivery never lifts those gates. Parked.
+
+Resume rule: wait for the human's next word on Epoch I; a demo text request
+must come through boss. Shared databases and other role trees remain read-only.
