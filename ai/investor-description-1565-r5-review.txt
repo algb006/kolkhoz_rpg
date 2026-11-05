@@ -40,3 +40,33 @@ in the sequel title. Roadmap remains last. Words: 3,532 -> 3,519.
 Required shared link check: 4,922 files / 38,219 links / 139 problems, none
 under rpg. Global zero-problem gate remains unmet outside this role's tree.
 No shared design/database, code, images or audio changed.
+
+R5b correction — 2026-11-05
+The R5 positioning paragraph remained misleading: listing W&R immediately
+before claiming physical delivery as our own offer implied a false contrast.
+Replaced it with explicit overlaps for each named game, followed by our
+combination of physical logistics, named residents' lives and the chairman's
+origin, district authority and personal ending in a walkable village with
+first-person immersion. No universal claim that no competitor shares an
+individual feature. The unnamed abstract-delivery contrast in the realism
+section remains as instructed in boss-rpg-investor-r5b-2026-11-05 [1].
+
+Checked primary sources and linked the game names directly to them:
+- https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/Distribution
+  Transport connects production, storage and consumption; physical delivery
+  is shared with W&R. Its wiki also documents automated distribution, so
+  automated delivery is not asserted as exclusive to our game.
+- https://ostrivgame.com/home/
+  Settlement building, farming, believable community aims and changing seasons.
+  https://ostrivgame.com/faq/ explicitly names economy and social aspects.
+- https://store.steampowered.com/app/1129580/Medieval_Dynasty/
+  Publisher description: building a village, living in its world, family
+  and dynasty. We do not claim Medieval Dynasty lacks role progression.
+The combined positioning is our design statement, not a verified claim of
+market-wide exclusivity. No new competitor feature absence is asserted.
+
+Validation: small diff and prose reread; whitespace check passes. Only the
+comparison passage changed in the pitch. Added links contain a Steam app ID,
+not a quantity in the human-facing prose. Required link checker still reports
+4,922 files / 38,219 links / 139 problems, none under rpg; global zero gate
+remains unmet outside this tree. External support was checked via web tools.
