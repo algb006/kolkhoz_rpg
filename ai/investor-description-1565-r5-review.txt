@@ -93,3 +93,26 @@ transport too long. No mockery or claim of nonphysical W&R freight added.
 Validation: small prose diff and whitespace check pass. Required link check:
 4,923 files / 38,230 links / 139 problems, none under rpg; global zero gate
 remains unmet outside our tree. Exception reported to boss for shared wording.
+
+Canon review correction — 2026-11-05
+Authority: boss-rpg-investor-review-2026-11-05 [1], human #1728.
+Reviewed and retained the coordinator's uncommitted pitch edits: a named
+logistics specialist, accepted delegation areas, household barter examples,
+rest-home road/sign, first-person personal presence, new villages/hamlets,
+drink/theft failure wording, removal of the unsupported fair reference,
+and narrower wording in the W&R comparison. The requested departure-letter
+correction was already present in that diff and is retained.
+Completed the map correction (own kolkhoz land, adjacent kolkhozes and district
+road), qualified the no-teleport claim to adults/transport/carried freight,
+limited the warehouse example to delivered harvest/feed/materials, and made
+the technical school a district proposal rather than a player-owned project.
+The role-exit qualification was not yet in the incoming diff; added it
+explicitly while keeping the separate optional Road Home ending.
+Sources checked: terrain.md section 1; game-setting.md comparison and its
+named exceptions; transport.md section 12; delegation.md section 3;
+needs.md section 6; life-cycle.md section 9; education.md section 18;
+role-lines.md section 19; dialogues.md first-person conversation rules.
+No shared design, mechanics, databases or neighboring trees edited.
+Validation: git diff --check passes. Required link checker inspected 4,925
+files / 38,248 links: 139 problems, none in rpg. The global zero-problem gate
+remains unmet in other owners' trees; reported in the completion parcel.
