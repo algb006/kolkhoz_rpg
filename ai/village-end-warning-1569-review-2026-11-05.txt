@@ -1,0 +1,40 @@
+Village-emptying early warning #1569 — source delivery
+2026-11-05
+
+Authority: boss-rpg-village-end-warning-2026-11-05 [1]; shared epochs.md §8,
+separate village-ending subsection. Tone and district-character rules read.
+Exactly two CSV rows, ready for boss import into the shared strings database:
+- event.village_end.early_warning_letter — body, max_len 400, no variables.
+- ui.office.book.village_population — log, max_len 120,
+  population:int;threshold:int, plural=0.
+
+The letter warns of liquidation and merger into the neighbouring farm after
+two consecutive year-turn observations below the liquidation threshold. It
+names no fixed count, no cause supposedly already proved, no current closure
+decision and no guaranteed time to recover. Housing and food are things to
+check, not a promise that a single action prevents every ending.
+The ledger line matches the requested wording and uses integers without a
+resident noun, so Russian count agreement needs no plural variants.
+
+Read-only integration review: host/rules/epoch1/village.lua currently has
+slow population and fast no-lived-in-houses endings, plus worn-housing and
+first-low-turn warnings. It has no early-population letter at inspection.
+Its village_end_warning fact carries amount=population OR amount=worn homes.
+Do not blindly bind that fact's amount to the new ledger population.
+The new keys are distinct from scene.ending.village.warning_report.district
+and the existing resident rumour. Host must add the early selection and
+book persistence; the request says the row is visible from the warning year.
+threshold is village_end_population (currently 40), not the early trigger
+(currently STUB 50). The row must pair the displayed year's count with its
+appropriate liquidation threshold, not a later live population value.
+
+No shared database, host code or neighbouring document was edited. Source
+rows carry proposed_new_key, not imported/approved status. Delivery asks
+boss to import and pass the binding to host, with no new mechanics proposed.
+
+Validation: two CSV rows parse; placeholder declarations match the text;
+no digits in either source string; lengths 295/400 and 53/120; proposed keys
+are absent from the shared database at read-only inspection. Sample book
+render: «Население: 49, порог ликвидации 40». Whitespace check passes.
+Required shared link check: 4,922 files / 38,219 links / 139 problems,
+none under rpg. Global zero-problem gate remains unmet outside our tree.
