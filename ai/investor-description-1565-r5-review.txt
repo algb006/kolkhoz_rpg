@@ -70,3 +70,26 @@ comparison passage changed in the pitch. Added links contain a Steam app ID,
 not a quantity in the human-facing prose. Required link checker still reports
 4,922 files / 38,219 links / 139 problems, none under rpg; global zero gate
 remains unmet outside this tree. External support was checked via web tools.
+
+R5c correction — 2026-11-05
+Authority: boss-rpg-investor-r5c-2026-11-05 [1], human task #1727 and the
+updated Soviet Republic comparison in shared game-setting.md. Made shared
+physical logistics explicitly about goods. Added two sentences separating
+W&R residents' normal post-shift teleport home and timeout return from our
+residents' complete work/home journey and full cargo routes.
+
+Primary verification:
+https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/Units#Movement
+Movement and Worker sections confirm post-shift teleportation; Public
+transport describes waiting/vehicle timeouts. Personal cars and Worker
+sections explicitly exempt normal return by personal car. The pitch therefore
+says residents usually teleport and states that exception, avoiding a false
+universal claim. A total commuting-time happiness penalty is not itself
+another teleport trigger; the pitch introduces no times or new thresholds.
+https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/Questions_and_answers
+The citizen-transport answer likewise confirms return home when stuck in
+transport too long. No mockery or claim of nonphysical W&R freight added.
+
+Validation: small prose diff and whitespace check pass. Required link check:
+4,923 files / 38,230 links / 139 problems, none under rpg; global zero gate
+remains unmet outside our tree. Exception reported to boss for shared wording.
