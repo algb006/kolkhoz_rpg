@@ -1,0 +1,67 @@
+Investor description #1565 — R4 review
+2026-11-05
+
+Authority: boss-rpg-investor-r4-2026-11-05 [1], relaying direct human
+corrections from task #1724. Deliverable remains the detailed Russian
+investor pitch, now named «Председатель колхоза» throughout, including
+«Председатель колхоза 2». Prior economic and alternate-setting corrections
+from commit 751d430 remain intact.
+
+Changes and source basis (shared-tree paths):
+- Corrected the title, opening, positioning reference and sequel references.
+- Added economic directions: agriculture to secure food, then production,
+  crafts and processing, with late services. production.md §§1–2, 4, 8
+  supports workshops, clothing/shoes, the mill and smokehouse. No machinery
+  manufacturing or era gate for basic crafts was invented. farm-development.md
+  §3 distinguishes methods from buildings; no new development branch added.
+- Connected avatar strengths to practical choices: avatars.md §1, especially
+  Paths in the First Build, supports the Worker's tool knowledge, the Dealer's
+  grain-for-tools/steel route and the Villager's knowledge of river/land.
+- Late services: world/units/social.md §8 supports the lakeside rest home;
+  housing.md §15 requires assembly approval for dacha arrivals in empty houses.
+  The sanatorium is expressly presented as late-game vision (see gap below).
+- Education: people/education.md §§2, 5, 10, 12, 15, 18–19, 22; primary school,
+  adult literacy in establishment, middle stage in era II, technical/vocational
+  study, institute after technical education, a returning engineer, school
+  production holding and the late Kulibin circle. production.md §13 supports
+  restoration of the school garden. No numbered school classes or durations.
+- Crime: order/crime.md §1 point 6 is the new human direction: crime begins
+  in the first year and unchecked crime quickly leads to campaign failure.
+  §§6–7, 9, 10–13 supply alcoholism, idleness, moonshine tied to warehouse
+  leakage, poachers, watchmen, local police and volunteers. No new failure
+  screen, measured time-to-failure or numerical penalty was claimed.
+- Preserved eras: local police and volunteers begin in II; formal idleness
+  consequences also start in II. Early warehouse security and conversation
+  precede them. Offenders remain people; recovery is possible, warning and
+  an opportunity to intervene precede district action. No on-screen arrest.
+
+Editorial pass:
+Replaced the abstract closing paragraph of the moneyless-economy section
+with useful specialization content. Expanded the thin education paragraph
+into a chronological school-to-specialist section. Added a separate crime
+section linking theft, alcohol, family food and work, with concrete remedies.
+Trimmed duplicate wording rather than adding a second concluding summary.
+New content is approximately 500 words net; total approximately 3,530 words.
+Roadmap stays last. Only the allowed start year, visual-reference decades
+and sequel title contain digits. Previous availability/vision boundaries
+remain, as do all origins, optional role paths and endings.
+
+Owner follow-up; no neighbouring documents edited:
+1. No buildable kolkhoz sanatorium found in world/units/social.md. The
+   existing leisure.md and health.md references concern recovery vouchers.
+   The human's R4 direction authorizes the concept; the pitch labels it as
+   vision without inventing staffing, buildings, unlocks or income rules.
+2. crime.md §1 point 2 and tone.md §10 keep arrests offscreen, as the current
+   parcel explicitly repeats. crime.md §10's district-car arrival row says
+   officers lead out and load the offender. That is an unresolved presentation
+   contradiction for boss to reconcile. The pitch follows the explicit
+   current instruction and red lines, and reports the discrepancy.
+
+Validation:
+Read the changed prose against the source rules and tone; corrected medical
+wording to avoid implying local care handles every serious case. Made the
+second-era start of idleness explicit. No stale short game title remains in
+the pitch; historical quotations in earlier review records were not rewritten.
+Whitespace check passes. Required global link check: 4,919 files, 38,191
+links, 139 problems, none under rpg. The global zero-problem gate is still
+unmet outside this role's tree. No audio, images or shared database edits.
