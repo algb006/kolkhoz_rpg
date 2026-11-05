@@ -47,10 +47,39 @@ as dependency rather than a universal ban on the road-home quest.
 Comparative prose uses genre orientation and our own design commitments;
 no current competitor feature audit, sales or market estimates are claimed.
 No web research was necessary for this canon-based writing assignment.
-The sole digit in the reader-facing prose is the requested sequel title
-«Колхоз 2». No quantities, prices, dates, durations or release version.
+Initial delivery used digits only in the requested sequel title «Колхоз 2».
+Round 2 below supersedes that constraint for lore years. No quantities,
+prices, durations or release version.
 
 Validation: editorial content/number checks and git diff --check pass.
 Global check-links.py: 4915 files, 38154 links, 138 problems; none reported
 under rpg/. The shared zero-problem gate remains unmet outside our tree.
 No foreign document was edited. Boss receives this limitation with delivery.
+
+Round 2 — boss-rpg-investor-r2-2026-11-05 [1]
+
+Human-requested changes: remove the investor-purpose line; plainly identify
+the protagonist as a «попаданец» (English gloss: a person transported into
+another world), keeping no hindsight or advantage; distinguish base third
+person from immersive first person; add lore years. Start: 1931. Later-era
+headings visibly retain the requested [годы эпохи — уточняется] placeholders
+until the human answers boss. No decades or date ranges invented.
+
+Camera basis: camera-and-visuals.md section 1, main third-person arm camera,
+the human's explicit 14 September word, and the separate first-person mode.
+The earlier game-setting.md section 3 calls the perspective first person;
+this source discrepancy is now explicitly resolved for this deliverable by
+the human's correction relayed in the round-2 parcel. No foreign source was
+edited. Boss is notified of the remaining source wording discrepancy.
+
+The base camera follows the chairman's position, without showing his model;
+zoom, rotation and a raised local view are described without measurements.
+Whole-farm overview remains on the office map. Revised the genre paragraph,
+village-walk section, competitor passage and index to agree. Opening road
+scene is unchanged. Lore dates are explicitly separate from real history;
+epoch transition still follows readiness and the player's path.
+
+Round-2 validation: requested edits checked; digits limited to 1931 and
+the sequel title. Exactly two visible later-era year placeholders.
+git diff --check passes. Global link check: файлов: 4916, ссылок: 38169, проблем: 138.
+No problems reported under rpg/. Shared zero-problem gate still unmet.
