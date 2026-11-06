@@ -1,0 +1,55 @@
+Task #1582 — crime glossary and first-use hover, 2026-11-07
+
+Authority: boss-rpg-crime-glossary-2026-11-07 [1]; human #1766 accepted
+crime round 2. Word explanations remain allowed under the 16 October order.
+Basis: tone.md sections 1-4; crime.md section 1 point 6, including current
+second-harvest acceptance and fifteen-month/year-four trial gate; shared
+strings.db active source read-only; #1042 glossary/hover source format.
+
+Delivery:
+manual/texts/crime-glossary-1582-2026-11-07.csv — five glossary tooltips,
+no placeholders or plural branches, max_len 300 each. Four proposed new keys:
+glossary.audit, glossary.shortage, glossary.acceptance_act,
+glossary.auditor_remark. Existing glossary.clamp is a proposed replacement:
+its original definition is retained verbatim, then the unguardable-store
+exception and relocation lever are explained. No duplicate clamp concept.
+Russian translator context and English meaning/intent/keep/binding provided.
+
+manual/texts/crime-glossary-1582-hovers-2026-11-07.csv — same three-column
+source_key/word/tooltip_key contract as #1042. Every hover reuses the glossary
+entry, not another translated text. Three concrete existing source rows:
+- ui.office.journal.first_incoming_avatar.ex_chairman / ревизия;
+- avatar.ex_chairman.legend / недостачу;
+- unit.clamp.name / Бурт.
+These are real source candidates, not a claim to have implemented universal
+first-use tracking. UE must attach at the first actual encounter for that
+player; an avatar-specific route cannot be every avatar's only route.
+For acceptance_act and auditor_remark the source_key is intentionally empty:
+no active source containing either phrase was found. Boss/UE must supply the
+real registered first-use rows; glossary definitions and hover destinations
+are complete. Blank routes are pending owner binding and MUST NOT be imported
+as executable source mappings. Do not invent keys for undeclared screens.
+The existing plan_position_short 'недостачу' is a plan deficit, not this audit
+ratio, and is deliberately NOT routed to glossary.shortage.
+
+Content boundaries:
+- Only stores that can be guarded are audited. Church/clamp losses never
+  count toward audit or trial; moving food is their available lever.
+- Acceptance closes the second harvest with actual stock as the opening
+  book; losses before it are not audited later and are not reimbursed.
+- Audit shortage divides unrecorded loss by inflows over the same last
+  24 months, per product; not by remaining stock. Less than 2 t of inflow
+  excludes that product; equality is not excluded by the definition.
+- Remark from 5 percent. Trial eligibility from 10 percent requires a remark
+  at an earlier audit AND at least 15 months since acceptance, no earlier
+  than the beginning of year four. No automatic first-audit trial promised.
+- Plain factual explanations, not invented player orders, accusations,
+  penalty chains, quests, scenes, hints or voice generation.
+
+Validation: CSV parse; five unique glossary keys and five matching hover
+keys; source lengths 153/204/207/188/228 all below 300; no placeholders;
+four proposed new keys absent and clamp present in read-only source; all
+three nonempty routes refer to existing sources and literal matching words.
+Two blank routes explicitly retained as incomplete owner wiring.
+Shared import and normal sync/save/check/export belong to boss. No shared DB
+or neighboring-tree writes; no claim of runtime/package-frame acceptance.
