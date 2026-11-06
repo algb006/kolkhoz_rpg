@@ -1,0 +1,46 @@
+Task #1568 — one unguardable-store loss line, 2026-11-07
+
+Authority: boss-rpg-unguarded-leak-2026-11-07 [1], human #1766 acceptance.
+Basis: tone.md sections 1-4; crime.md section 1 point 6 and second-round
+acceptance; econ crime-separation-2-2026-11-07.md unguardable-store rule;
+strings-db.md placeholder/context rules and existing feed event convention.
+This is an authorized lamp line, not a new quest, hint chain or mechanic.
+
+Delivery: manual/texts/unguarded-leak-1568-2026-11-07.csv, exactly one row.
+Proposed full key feed.audit_unguarded_leak, kind log, max_len 160.
+Russian text length 91; placeholders tons:real and place:text; plural=0.
+Translator context is supplied in Russian as human-facing design material;
+internal meaning/intent/binding notes are English.
+
+Key choice: the assigned seam is an event/journal key, not a registered
+AlarmKind. Follow feed.<event_key> and reuse the one localized row in the
+lamp list; no extra title, alarm enum, button or notification invented.
+The proposed key is absent from the shared source at read-only verification.
+
+Payload semantics from the boss parcel: amount is grams; unit and resource
+identify the largest-loss store and food. Therefore the location is introduced
+as 'Основное место утечки', not a false assertion that all reported loss came from
+that one store. Do not name resource as if all food were that resource.
+No measurement interval, culprit, discovery power, audit or trial is claimed.
+The chairman can move food, but cannot post a guard at a church or clamp.
+Neutral use of the church as an existing store respects the faith red lines.
+
+UI binding: convert amount / 1000000 once, provide a localized number only
+(the string supplies the tonne suffix). Retain enough precision for positive
+small losses not to render as zero. place is a complete player-recognizable
+localized nominative label: church or clamp by its field; label construction
+and field inflection belong to the display-name binding, not a guessed ID.
+No fixed rounding threshold, fallback place or field name invented.
+
+The assigned event key was not found in the locally inspected main-tree
+core event_state.h at this check. Treat the supplied payload as the explicitly
+authorized handoff contract; do not claim it is already integrated in main.
+Boss imports/registers via the normal sync/save/check/export flow; UE owns
+actual event-to-lamp selection, display-name formatting and package frame.
+RPG did not write a shared DB or edit another role's tree.
+
+Validation: CSV parsed; one unique proposed key, declared placeholders match,
+91/160 source length, Russian decimal examples for church and field clamp
+fit. Written read-through: factual loss, recognizable place, existing lever;
+no rhyme, blame, religious joke, threat or promise of instant delivery.
+No TTS or runtime test required for this one source-string delivery.
