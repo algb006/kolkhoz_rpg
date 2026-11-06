@@ -1,0 +1,47 @@
+Epoch I resume reconciliation — 2026-11-07
+
+Authority: boss-rpg-resume-epoch1-2026-11-07 [1], human #1762 / #1763.
+The 5 November soft stop is lifted. Quests and hints remain frozen except
+starting construction. Word explanations are allowed. This supersedes the
+stop instruction in ai/epoch1-softstop-2026-11-05.txt, not its delivery history.
+
+Read the live queue (including --all), #761 and #1093 task records, the parked
+record, tone and existing delivery reviews. No shared writes performed.
+Current seven-item order: #1399, #761, #1042, #1035, #1037, #1093, #1422.
+#1399/#1042/#1035/#1037/#1422 are in code awaiting package frames; source
+matching does not certify first-use routing, executable advice or frame fit.
+#761 retains AFTER DEMO and #755 design dependency; no wording authored.
+#1093 retains its recorded after-demo metric/import gate. No duplicate label
+or replacement horse-shortage lamp is needed.
+
+Fresh read-only strings.db comparison (active string_source):
+- #1399: the one glossary.standing_order replacement matches exactly.
+- Original #1042/#1037 17 October CSV: 13 equal, 5 different, 2 absent.
+  The differences are the plan/oat/hay/day-off/working rows subsequently
+  revised; they are not a reason to restore old drafts. The ten glossary
+  definitions are among the exact matches. Missing old alternatives are
+  plan_position_short.tip.no_collections and team_on_hay.tip.thin_oat_year;
+  neither is an authorized unconditional replacement.
+- Latest 25 October lamp CSV: 11 equal, 3 absent. Exact rows include accepted
+  generic oat text, both logistics variants and newer plan/hay fixes.
+  Remaining missing keys:
+    alarm.team_on_hay.by_plan.text
+    alarm.team_on_hay.advice.sow_more_oat
+    ui.office.herd.idle_for_horse_week
+  The first two need actual TractionWatch binding and executable advice
+  selection; the last needs the real weekly metric/denominator and preserves
+  the after-demo condition. Source remains manual/texts/lamps-1025-2026-10-25.csv;
+  unchanged subset manual/texts/lamps-resume-1031-ready.csv and original weekly
+  label manual/texts/horse-idle-label-1093-2026-10-19.csv remain available.
+- #1422: four open path rows match the current paths CSV, including the latest
+  river 'almost replaces the beach' correction. Its older closed Villager
+  row differs as expected: ALL FOUR rows of the newer closed-clause CSV match.
+  Do not import the obsolete qualitative closed clause over explicit years.
+  Sources: manual/texts/avatar-card-paths-1422-2026-11-02.csv and
+  manual/texts/avatar-card-closed-1422-2026-11-02.csv.
+
+Next authorized steps: owner package frames/bindings for delivered text;
+#761 authoring only after the demo and its design door; no arbitrary new
+quest, hint, voice batch or outside-queue work. Report these concrete remaining
+seams to boss rather than silently reopening accepted text. Investor pitch
+ownership remains with boss; this resume does not return it to RPG.
