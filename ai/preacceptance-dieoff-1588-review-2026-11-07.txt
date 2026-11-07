@@ -35,3 +35,8 @@ exact declared tokens, source and numeric fixtures under 160, Russian one-
 decimal percentage examples including zero and 100, no plural/gender mismatch.
 git diff --check passes. No shared writes, mechanics, quests, scenes or TTS.
 Boss owns register/import/sync/save/check/export; rendered book not certified.
+
+Superseded text, 2026-11-07 task #1592: the same source key now also names
+the 14-percent annual starvation die-off trial boundary after the acceptance
+year. Updated canonical CSV matches acceptance-act-1592-2026-11-07.csv.
+Original heads/share bindings remain unchanged; see the #1592 review.

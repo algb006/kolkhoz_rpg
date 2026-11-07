@@ -1,0 +1,57 @@
+Task #1592 — acceptance boundary: exactly three texts
+
+Authority: boss-rpg-1592-acceptance-act-texts-2026-11-07 [1].
+Read the whole owed thread; econ's complexity-2026-11-07-acceptance-act.md;
+tone.md; crime.md section 1 point 6; epochs.md section 8; actual host
+before_acceptance(year) and #1593's live task record; active shared strings
+and the feed closed-placeholder convention, all read-only.
+
+Delivery: manual/texts/acceptance-act-1592-2026-11-07.csv.
+1. Replace ui.office.book.pre_acceptance_dieoff IN PLACE, no second book row.
+   Existing heads/share contract unchanged; a fixed explicit boundary sentence
+   names the accepted 14-percent annual starvation die-off trial threshold.
+   139/160 characters, heads:int;share:real; plural=0.
+2. New proposed feed.acceptance_act_signed, 140/160, no placeholders. One
+   act-day line for stores AND herd, explaining warehouse audit bookkeeping
+   now and annual starvation die-off responsibility from the next year.
+3. Replace glossary.acceptance_act, 282/300, no placeholders. Same tooltip key,
+   now covers stores AND herd; old store losses never enter audit; only
+   guardable stores audited. No duplicate glossary concept or new mechanic.
+
+Canonical earlier deliveries updated to the same texts to prevent accidental
+reimport of obsolete versions:
+manual/texts/preacceptance-dieoff-1588-2026-11-07.csv;
+acceptance_act row ONLY in manual/texts/crime-glossary-1582-2026-11-07.csv.
+Other four #1582 definitions unchanged. New batch is an exact extraction of
+those revised source rows plus the one act-day line.
+
+Important scope: econ's draft says 'from today' and 'die-offs go into audit',
+but actual host protection is year <= acceptance year, and die-off is not a
+warehouse shortage. Preserve the accepted mechanics: the book says AFTER THE
+ACCEPTANCE YEAR, not 'next year' relative to each historical book entry;
+the act-day line can say next year because it occurs in the acceptance year.
+This is a text qualification, not a change to host's rule or new date mechanic.
+No claim that any shortage causes immediate court; warehouse 5/10-percent
+remark/trial gates and their separate delay remain with the crime rules.
+Heads remain raw; share remains the weighted herd percentage produced by
+share_permille / 10, one localized decimal, no second percent conversion.
+
+#1593 is still open and supplies no named event/fact key in its task record.
+feed.acceptance_act_signed is a PROPOSED localization/registry key, not an
+invented existing EventKind. Boss links it to the real fact after core's
+handoff. Once-only event selection, persistence and actual package display
+belong to host/UE. Do not synthesize an event, repeat it on anniversaries or
+replay it on load merely to show this text. The source may supply the genuine
+first-use hover for glossary.acceptance_act once registered; the prior
+blank source mapping is not silently certified as implemented.
+
+The Villager kin-advice proposal remains HELD by the 2 October hints stop.
+No advice line, quest, action button, new threshold, voice or paid batch.
+No shared DB or neighboring-tree edits. Boss owns register/import followed
+by sync/save/check/export; runtime/frame acceptance is not claimed.
+
+Validation: CSV parse, exactly three unique keys; original book and glossary
+keys present in read-only source, proposed feed key absent; unchanged source
+rows in the earlier deliveries match the revised batch exactly; two tokens
+in book only and no others; source/number fixtures under limits; other four
+glossary entries unchanged; git diff --check passes.

@@ -53,3 +53,10 @@ three nonempty routes refer to existing sources and literal matching words.
 Two blank routes explicitly retained as incomplete owner wiring.
 Shared import and normal sync/save/check/export belong to boss. No shared DB
 or neighboring-tree writes; no claim of runtime/package-frame acceptance.
+
+Follow-up #1592, 2026-11-07: ONLY glossary.acceptance_act is now replaced
+with the stores-and-herd definition in acceptance-act-1592-2026-11-07.csv.
+Original four other definitions stay byte-identical. This supersedes the
+original stores-only acceptance definition; see the #1592 review. The new
+proposed act-day source is a possible first-use route only after registration
+and #1593's fact handoff, not a claim that the old blank route is already wired.
