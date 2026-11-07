@@ -1,0 +1,37 @@
+Task #1588 — year-book pre-acceptance herd loss line
+
+Authority: boss-rpg-1588-preacceptance-string-2026-11-07 [1]; follows #1582.
+Basis: tone.md; epochs.md section 8 die-off row; host/rules/epoch1/trial.lua
+before_acceptance and annual book-writing branch; existing ui.office.book.*
+source rows and #1582 glossary checked read-only.
+
+Delivery: manual/texts/preacceptance-dieoff-1588-2026-11-07.csv, ONE row.
+Proposed key ui.office.book.pre_acceptance_dieoff, kind log, max_len 160.
+heads:int;share:real; plural=0. Abbreviated гол. works for any integer without
+a plural branch, matching the ledger register. Russian source and translator
+context; English internal meaning/intent/keep/binding notes.
+
+Binding: for the displayed year Y, heads comes from
+rules.trial.pre_acceptance.Y.heads. share comes from the sibling share_permille
+integer divided by ten once and formatted to one decimal (Russian comma).
+No percent suffix in the substitution; source already supplies the sign.
+The recorded heads are raw animal heads summed over species. The share uses
+host's conditional-head weighting and denominator. These are distinct outputs;
+do not derive a percentage from the raw count or invent the herd denominator.
+No hardcoded year, month or threshold in the localized line. Missing record
+must not be displayed as an invented zero-loss record; owner selects visibility.
+
+Observed host boundary: before_acceptance(year) is year <= opens_year, so
+this book record covers the entire acceptance calendar year, not a new
+month-10 cutoff. The source follows the supplied record; no runtime correction
+or narrower date promise introduced. Report this qualification to boss.
+
+Existing glossary.acceptance_act is present in the active shared source and
+matches the #1582 delivery exactly. No duplicate definition is authored.
+The owner may reuse it on the existing word приёмки in this book line.
+
+Checks: CSV parse, exactly one unique proposed key (absent in read-only DB),
+exact declared tokens, source and numeric fixtures under 160, Russian one-
+decimal percentage examples including zero and 100, no plural/gender mismatch.
+git diff --check passes. No shared writes, mechanics, quests, scenes or TTS.
+Boss owns register/import/sync/save/check/export; rendered book not certified.
