@@ -1,0 +1,76 @@
+Tasks #853 / #1093 — numeric hay advice and the weekly window label
+
+Authority: boss-rpg-853-1093-hay-words-2026-11-07 [1]. Whole thread read.
+Basis: tone.md; active strings.db advice/work/unit names; design.db feed
+catalogue; livestock.md current hay ladder and rejected fifth-rung history;
+core alarm_state.h advice/count/tolerance contract; host alarm serialization;
+#1586 live task and econ's cure-choice mailbox thread, all read-only.
+
+Delivery:
+manual/texts/hay-advice-853-1093-2026-11-07.csv — seven rows:
+1. cut_hay is already active byte-identical (NO revision bump).
+2. buy_feed replacement: resource and tonnes plus numeric total cost in limit
+   points, not money. Ready wording, owner quote binding required.
+3-5. reduce_herd, reduce_herd_dated, reduce_herd_dated_weekday replacements:
+   actual heads count in every hand-over variant; older animals and working
+   horses warning retained. Existing primary/secondary/delayed selectors stay.
+6. new tolerated branch: no-action tolerance wording for the actual core bit,
+   not an unconditional replacement of advice.none. Owner bit binding required.
+7. #1093 existing delivered window-label wording unchanged; one shared key
+   for horses/herd windows, actual weekly producer still required.
+manual/texts/hay-advice-853-y1-draft-2026-11-07.csv — ONE SEPARATE DRAFT:
+heads cows to hand over, floor cows kept by the accepted norm-yield floor.
+DO NOT import/display/ship before core #1586 pair passes and boss accepts.
+The open task is not a pass. Floor is not milk tonnes or a yield guarantee.
+
+Actual work list verified in strings.db, not memory: ui.office.work.* gives
+Пахота, Боронование, Сев, Уборка, Уход за скотом, Стройка (plus Не назначен).
+The active cut_hay source already says «Назначьте людей на «Уборку» на лугах»;
+there is no new work Укос/Покос. Preserve this already-correct string.
+
+Terminology choices, by referent:
+- Покос: mowing operation/season/meadow. The actual work button stays Уборка.
+  No use of укос/сенокос as another work name. Existing day-off, rush, dated,
+  text/text_dated/title rows already use покос and need no cosmetic revisions.
+- Скирда: completed hay storage, matching unit.hay_stack.name and the plan
+  sketch. Полевые кучи are the distinct temporary unhauled field output;
+  never rename them скирды or стога. No changed text calls a heap a store.
+- Район: feed supplier and livestock recipient. Райком is a different body,
+  not a synonym to insert into these hay advice rows.
+Reviewed active hay-related source rows; no additional mismatching term needs
+replacement. Do not touch names, non-hay crop heaps or unrelated narrative.
+Rows actually changed: buy_feed + the three reduce_herd variants. New row:
+tolerated. cut_hay and #1093 text are unchanged; #1093 delivery status updated.
+
+Numeric contracts and owner seams:
+- heads = hand_over_stock + hand_over_horses for the actual displayed dose.
+  The permanent loss of those heads is the numeric hand-over cost. Never
+  Alarm.amount (unfed heads), whole herd, below-floor counts or an old uncapped
+  shortage. Keep actual species selectors and the two components available.
+  Dates come from advice_day; no numbered calendar date or early button.
+  No invented milk loss, district payout or promise to reduce the plan.
+- buy_feed resource/quantity use advice_resource and advice_amount (grams to
+  tonnes once). cost is total points of THAT actual executable order, not a
+  hardcoded lot price or fictitious Alarm member. Current design catalogue:
+  compound_feed_lot = 10 t for 20 points; that verifies units, not every quote.
+  The inspected core Alarm and host serializer expose quantity but no quote
+  price. Owner must bind price to the real same order before showing the
+  replacement. Text delivery does not secretly implement a preview API.
+- Core advice_tolerated exists. No literal export of that bit was found in
+  the inspected host alarm serializer. Carry the actual bit; do not infer it
+  from advice=kNone, otherwise unrelated unfixable shortages get false comfort.
+- #1093 current instruction explicitly requests it NOW, lifting the former
+  after-demo text-delivery hold. It does not invent the weekly producer.
+  days is people waiting person-days, pct same producer's working scope.
+  Real fields and zero-denominator unavailable/hidden behavior still owner-
+  supplied. No zero-percent fabrication or earned-labor_days conversion.
+
+No shared DB/code edits or unfreeze of quests/hints. Separate y1 draft remains
+held; no paid voice/TTS. Boss registers/imports accepted rows with bindings;
+no-op cut_hay must not bump rev. Actual UI/host wiring/frame fit not certified.
+
+Validation: both CSVs parsed; unique keys; exact placeholders (including
+plural token selectors), four Russian head forms, days plural, date fixtures,
+quantity/price examples and weekly real-number examples; all source/rendered
+lengths fit limits. Existing/no-op source equality verified read-only; draft
+status explicit; original weekly-label text retained. git diff --check passes.

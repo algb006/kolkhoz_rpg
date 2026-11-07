@@ -30,3 +30,9 @@ No imperative, new suggestion, world colour, penalty or instruction to buy horse
 Checks: one row, unique proposed key, exact days/pct declarations, no plural
 expression needed for the abbreviation, max length and sample numeric rendering.
 No shared database/code changes, no runtime tests, no TTS or new quest/hint.
+
+2026-11-07 authority update: boss-rpg-853-1093-hay-words-2026-11-07 [1]
+requests this label now. Canonical CSV status now ready_text_pending_producer_binding;
+text and days/pct contract unchanged. The old after-demo delivery hold is
+superseded, but actual producer scope and zero-denominator handling remain
+required. Current combined delivery/review: hay-advice-853-1093-2026-11-07.
