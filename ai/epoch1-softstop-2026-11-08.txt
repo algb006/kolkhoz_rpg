@@ -1,0 +1,59 @@
+Epoch I soft stop — 2026-11-08
+
+Authority: boss-rpg-e1-softstop-2026-11-08 [1], human #1783:
+«Работы по игре эпоха 1 мягкий стоп».
+English gloss: Soft stop of the Epoch I game work.
+This supersedes the 7 November resume for new Epoch I work.
+
+In-hand step: none. Working tree was clean at receipt; last content delivery
+was a85abeb (#853/#1093). No pending authored string, API call or voice batch
+needs completion. Existing deliveries are committed/pushed and their imported
+source is verified below. Registration through shared strings.py belongs to
+boss; RPG does not reopen or rewrite the shared DB merely to acknowledge stop.
+
+Done / where / fresh read-only source measurement:
+- #1582: manual/texts/crime-glossary-1582-2026-11-07.csv, all FIVE definitions
+  exactly match active strings.db; acceptance_act includes #1592's herd scope.
+  First-use routes: crime-glossary-1582-hovers-2026-11-07.csv. Source import
+  does not certify runtime routing or package frames; queue says in code.
+- #1399: manual/texts/standing-order-1399-2026-11-01.csv, ONE exact match.
+  First-use scope/review in ai/standing-order-1399-review-2026-11-01.txt.
+- #1588/#1592: manual/texts/acceptance-act-1592-2026-11-07.csv, all THREE
+  exact matches: book line, shared act-day message and expanded glossary.
+  Canonical earlier rows updated; review ai/acceptance-act-1592-review-2026-11-07.txt.
+  No claim that the underlying #1593 fact/UI routing has shipped from source
+  equality alone. Herd responsibility starts AFTER the acceptance calendar year.
+- #853/#1093: manual/texts/hay-advice-853-1093-2026-11-07.csv, all SEVEN rows
+  exactly match active source, including numeric buy/hand-over advice,
+  tolerated wording and the weekly people-waiting-for-a-horse label.
+  Review ai/hay-advice-853-1093-review-2026-11-07.txt. Frame/quote/tolerance
+  bit/weekly producer and denominator wiring are separate owner acceptance.
+  Current queue explicitly places #1093 in code awaiting a package frame.
+- #1042/#1035/#1037: earlier deliveries and acceptance review remain in
+  manual/texts/complexity-1042-1037-2026-10-17.csv,
+  manual/texts/complexity-1042-hovers-2026-10-17.csv,
+  manual/texts/lamps-1025-2026-10-25.csv and
+  ai/resume-1031-string-reconciliation.txt. Latest 25 October batch has TWELVE
+  exact matches; two missing keys are alarm.team_on_hay.by_plan.text and
+  alarm.team_on_hay.advice.sow_more_oat, still owner binding/import seams.
+  Never restore the older held plan/hay/logistics drafts over accepted text.
+
+Parked open:
+- #1582, #1399, #1042, #1035: in code waiting package-frame acceptance, as
+  coordinator's parked list says. No new glossary/rewriting while stopped.
+- #1608: year-book plan-credit line under #1607; NOT authored. Live task
+  remains open and outside the ranked queue. Source gist is in tasks.py show
+  1608; return on the human's word with actual producer/selector and act-day
+  batch. Do not create a speculative row during soft stop.
+- #761: NOT authored; AFTER DEMO and #755 design dependency remain.
+- Live queue additionally lists #1037, #1093 and #1422 in code awaiting
+  frames; they are parked too, not silently removed from the queue.
+- y1 autumn cow-floor advice stays a separate DO-NOT-IMPORT DRAFT at
+  manual/texts/hay-advice-853-y1-draft-2026-11-07.csv. It still requires #1586
+  pair acceptance; this record does not certify or lift that gate.
+- Other Epoch I backlog retains its existing stage/quest/hint restrictions.
+  Investor pitch stays with boss; no return of ownership inferred.
+
+Stop: no new Epoch I strings, glossary entries, voice, hints or quests.
+Resume only on the human's word, routed by boss. This record and the final
+mailbox move are the handoff; no new content generation has started.
