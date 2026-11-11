@@ -23,6 +23,8 @@ Initial assignment: [`ai/START.md`](ai/START.md).
 
 ---
 
+**NOTHING HEAVY RUNS ON THIS VM (um01, shared with another project's agents):** long batch generations, renders, audio or image processing over a few minutes, several cores or ~2 GB go to m22 (`../tools/xeon.sh`) or the Windows host under its lock (the human, 11 November 2026, #1835; root CLAUDE.md §11b).
+
 ## 1. Outputs
 
 ```
