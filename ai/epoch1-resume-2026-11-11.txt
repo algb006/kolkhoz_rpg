@@ -1,0 +1,38 @@
+Epoch I resume — 2026-11-11
+
+Authority: boss-rpg-epoch1-resume-2026-11-11 [1], human #1835:
+«Запускай работы по игре эпоха 1. Еще проверь правила - не запускать на этом сервере ничего тяжелого».
+English gloss: Start Epoch I game work; check the rules and run nothing heavy
+on this server. Lifts #1783's 8 November soft stop, not individual task gates.
+
+Read root CLAUDE.md section 11b and the new RPG AGENTS.md resource rule.
+Nothing heavy runs on um01: simulations, full builds/suites, batch processing,
+renders, several-core or about-2-GB work belongs to m22 via tools/xeon.sh
+or the Windows host under its lock. This turn uses small read-only SQL,
+CSV inspection/editing, Git and a lightweight single-process link check only.
+No heavy process or job was in hand. The pre-existing AGENTS.md modification
+is the coordinator's new rule and is preserved, not included in this commit.
+
+Read parked record ai/epoch1-softstop-2026-11-08.txt and live tasks queue.
+No unfinished authoring step. Took TOP #1582; sent requested working line in
+the resume thread before continuing. Queue otherwise remains unchanged.
+
+#1582 result: five exact definition/source matches, with actual first-use
+source feed.acceptance_act_signed now available after #1592 registration.
+Resolved that route in manual/texts/crime-glossary-1582-hovers-2026-11-07.csv;
+all four nonempty routes literally match active source phrases and the five
+existing glossary targets. One pending source remains: замечание ревизора.
+No matching active source exists; ask boss/UE to register/name its actual
+first-use location, not a fictional key. Runtime hover selection and package
+frame remain owner acceptance; task stays in-code/waiting-frame.
+
+Next: #1399 and other already-registered definitions await owner batch frames;
+#761 retains after-demo/#755 gate. #1608 is still open outside the ranked
+queue; the general resume does not silently promote it over the queue top.
+It is not authored this turn. Existing quests/hints freeze and the separate
+#1586 draft condition remain; no new voice or paid batch authorized.
+#1203's return is acknowledged; it remains with the owners in its task row,
+not an RPG mechanic or another role's file to edit. Investor pitch stays boss's.
+
+Report the resolved route and remaining owner seam in the resume thread;
+no shared database, task queue or neighboring tree writes.

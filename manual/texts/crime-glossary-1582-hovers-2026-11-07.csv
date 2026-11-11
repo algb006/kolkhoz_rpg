@@ -1,6 +1,6 @@
 source_key,word,tooltip_key
 ui.office.journal.first_incoming_avatar.ex_chairman,ревизия,glossary.audit
 avatar.ex_chairman.legend,недостачу,glossary.shortage
-,акт приёмки,glossary.acceptance_act
+feed.acceptance_act_signed,Акт приёмки,glossary.acceptance_act
 unit.clamp.name,Бурт,glossary.clamp
 ,замечание ревизора,glossary.auditor_remark

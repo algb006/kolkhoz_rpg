@@ -60,3 +60,13 @@ Original four other definitions stay byte-identical. This supersedes the
 original stores-only acceptance definition; see the #1592 review. The new
 proposed act-day source is a possible first-use route only after registration
 and #1593's fact handoff, not a claim that the old blank route is already wired.
+
+2026-11-11 resume #1835, queue top #1582:
+Fresh read-only check: all five current definitions equal active shared source
+(revisions audit 1, shortage 1, acceptance_act 3, clamp 3, auditor_remark 1).
+feed.acceptance_act_signed now exists, so its formerly pending hover route
+is resolved to that actual key and the exact phrase «Акт приёмки» (including
+capitalization). Four source/word mappings now verify literally; only the
+first-use source for «замечание ревизора» remains absent/pending owner input.
+No new definition, source string or invented UI key. This supersedes the
+older two-blank-route measurement above; no package-frame claim follows.
