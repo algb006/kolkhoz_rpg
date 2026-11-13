@@ -1,0 +1,66 @@
+Tasks #1657 -> #1608 -> #1477 — ordered content handoff, 2026-11-14
+
+Authority: boss-rpg-1657-1608-1477-2026-11-14 [1], human #1929.
+Whole thread read and order followed. #1657 options sent first in move [2].
+Basis: tone.md, office view semantics, #1607/#1608/#1477 live task records,
+social.md funeral-as-event section, core event_state.h, funeral_state.h,
+labor_state.h, core_boundary/session.h and host script_bindings.cpp,
+active strings.db checked read-only. No simulations, builds or heavy VM jobs.
+
+#1657: preferred «К бумагам», alternative «К столу». Same ui.office.back_to_desk.
+Fresh source reads «К бумагам» already (max_len 24); no source rewrite or new
+key delivered. Options remain in mailbox; boss writes any chosen replacement.
+
+#1608: manual/texts/plan-preacceptance-credit-1608-2026-11-14.csv, ONE row:
+ui.office.book.plan_pre_acceptance_credit (log, proposed key, max_len 240).
+product:name;x:real;y:real retained, no plural/gender branch. Product is a
+nominative display name followed by a colon, avoiding unprovided genitive.
+x/y are bare tonne numbers with localized decimals. Only the real qualifying
+food position uses this credit; actual delivered quantity, district score,
+limit points and remaining debt are not rewritten. The line says THIS
+SHORTFALL does not enter the failed-year count; other uncovered failed food
+positions may still make the year count. No all-year pardon promised.
+The parent #1607 remains open in the tracker. Wording is ready, exact producer
+field/story names and authoritative credited-position selector remain owner
+bindings; do not derive a new credit rule in UI or claim pair acceptance.
+
+#1477: manual/texts/funeral-invitation-whereabouts-1477-2026-11-14.csv,
+FIVE proposed rows:
+feed.funeral_invitation.loud and .quiet — alternative templates for ONE
+existing funeral invitation. names:text is the CLOSED feed list's allowed
+placeholder; not an invented {name}. Names are a complete nominative list
+from the corresponding saved FuneralRow; amount is FuneralId, NEVER head
+count. Event resident/family give only the first deceased/household, not a
+full list. For grouped same-settlement deaths do not silently show only the
+first as the whole list. Owner registry must map real priority/loud state to
+these proposed source variants; no existing feed_instance mapping asserted.
+Tomorrow belongs to the death-day invitation, not a fresh promise when viewing
+old history or replaying on the burial day. No hardcoded date or new reminder.
+
+order.attend_funeral — label «Пойти» for the already accepted UI action.
+Not a new behavior: core/host contract already names kAttendFuneral with the
+funeral id; host refuses it to scripts. If sync supplies the same existing
+order title, reuse it; no second button or automated attendance introduced.
+
+ui.people.whereabouts.funeral — «На похоронах» only for the living attendee's
+actual whereabouts.place=funeral during procession/cemetery. Not a death
+status, not the entire day, and not a claim that an afternoon wake is still
+at the cemetery. Home/work resumes according to the actual owner state.
+ui.people.idle_reason.funeral — «Похороны» for the existing kFuneral work
+absence. It is separate from location: kin can be home later yet off work;
+neighbors return to work. No new labor penalty, location enum or field.
+
+Tone: factual and restrained. Loud invitation asks to attend; quiet invitation
+announces. No invented named speaker/relative, age, cause, body, religious
+ritual, child-death scene, guilt threat or new missed-attendance penalty.
+No scene, quest, hint chain, TTS, audio batch or paid API call authored.
+
+Validation: both CSVs parse; six unique proposed keys checked absent from
+active source; exact declared placeholders; names obeys the feed namespace
+list; source/fixture lengths fit (book 106/240, invitations 46/160 and 25/160,
+button 5/40, whereabouts 12/80, work reason 8/80); nominative food fixtures,
+Russian decimal tonnes, grouped female/male names all render without gender
+or plural agreement. No names nor zero values invented when owner data is
+missing. git diff --check passes. No shared DB/task/code or neighboring-tree
+writes. Boss owns registration/import/sync/save/check/export; host/UE owns
+selection, data/name formatting, first-person attendance and package frames.
