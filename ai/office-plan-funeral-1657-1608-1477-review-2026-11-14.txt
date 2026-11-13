@@ -64,3 +64,13 @@ or plural agreement. No names nor zero values invented when owner data is
 missing. git diff --check passes. No shared DB/task/code or neighboring-tree
 writes. Boss owns registration/import/sync/save/check/export; host/UE owns
 selection, data/name formatting, first-person attendance and package frames.
+
+Registration follow-up, 2026-11-14:
+Authority boss-rpg-1608-placeholder-rename-2026-11-14 [1]; boss registered
+all five #1477 rows and #1608 in root commit 955767e1a. The schema requires
+placeholder names of at least two characters, so the registered #1608 uses
+short_t/lost_t rather than the initially assigned x/y. Mirrored the correction
+in the canonical CSV, including declarations and binding notes. This supersedes
+the original product/x/y contract above: product:name;short_t:real;lost_t:real.
+Russian words, units and credit selector unchanged. Read-only equality with
+the registered source, exact tokens and length verified. No shared writes.
