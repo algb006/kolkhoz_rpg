@@ -3,60 +3,77 @@
     "path": "scenes/epoch1/district_failure_explanation.lua",
     "scene": "scene.district.failure_explanation",
     "fact": "district_face_asks_about_failed_year_plan",
-    "status": "host_scene_source_for_owner_api_review",
+    "status": "host_working_copy_bound_native_census_pending",
     "repeat_policy": "repeatable",
     "queue_owner": "host.scene registry, no private queue or day gate",
     "context_status": "local context reader deliberately unbound pending actual #1731 contract",
-    "speaker_api": "host promises host.scene district_face; choiceless host.say district_face still needs confirmation"
+    "speaker_api": "host [5]: district_face implemented in scene and say in working 0.7.537, not released",
+    "rpg_source_context": "Review source retains the isolated reader seam; host shipping copy binds actual owner context and removes bind_context export",
+    "owner_context": "historical year and closed-book positions bound; cause marks not written, NOT REACHED until approved map supplies at least two factual answers",
+    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [5]; interim working tree report, no final playback claim"
   },
   {
     "path": "scenes/epoch1/elder_first_meeting.lua",
     "scene": "scene.elder.first_meeting",
     "fact": "start_reserve_field_removed",
-    "status": "host_scene_source_for_owner_api_review",
+    "status": "not_imported_elder_contact_resume_pending",
     "repeat_policy": "once",
     "queue_owner": "host.scene registry, no private queue or day gate",
     "context_status": "existing Elder() for initial exchange; real owner continuation reader/hook still required",
-    "speaker_api": "resident"
+    "speaker_api": "resident",
+    "owner_review": "host [5]: elder import follows the district release; actual contact continuation still owed",
+    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [5]; interim working tree report, no final playback claim"
   },
   {
     "path": "scenes/epoch1/karasev_inspection_return.lua",
     "scene": "scene.district.karasev.inspection_return",
     "fact": "karasev_inspection_completed",
-    "status": "host_scene_source_for_owner_api_review",
+    "status": "host_working_copy_bound_native_census_pending",
     "repeat_policy": "repeatable",
     "queue_owner": "host.scene registry, no private queue or day gate",
     "context_status": "local context reader deliberately unbound pending actual #1731 contract",
-    "speaker_api": "host promises host.scene district_face; choiceless host.say district_face still needs confirmation"
+    "speaker_api": "host [5]: district_face implemented in scene and say in working 0.7.537, not released",
+    "rpg_source_context": "Review source retains the isolated reader seam; host shipping copy binds actual owner context and removes bind_context export",
+    "owner_context": "formal_present only; other cases NOT REACHED",
+    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [5]; interim working tree report, no final playback claim"
   },
   {
     "path": "scenes/epoch1/polushkina_inspection_return.lua",
     "scene": "scene.district.polushkina.inspection_return",
     "fact": "polushkina_inspection_completed",
-    "status": "host_scene_source_for_owner_api_review",
+    "status": "host_working_copy_bound_native_census_pending",
     "repeat_policy": "repeatable",
     "queue_owner": "host.scene registry, no private queue or day gate",
     "context_status": "local context reader deliberately unbound pending actual #1731 contract",
-    "speaker_api": "host promises host.scene district_face; choiceless host.say district_face still needs confirmation"
+    "speaker_api": "host [5]: district_face implemented in scene and say in working 0.7.537, not released",
+    "rpg_source_context": "Review source retains the isolated reader seam; host shipping copy binds actual owner context and removes bind_context export",
+    "owner_context": "no_office / clean / uncovered_case; formal_doubt NOT REACHED",
+    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [5]; interim working tree report, no final playback claim"
   },
   {
     "path": "scenes/epoch1/stozharov_inspection_return.lua",
     "scene": "scene.district.stozharov.inspection_return",
     "fact": "stozharov_inspection_completed",
-    "status": "host_scene_source_for_owner_api_review",
+    "status": "host_working_copy_bound_native_census_pending",
     "repeat_policy": "repeatable",
     "queue_owner": "host.scene registry, no private queue or day gate",
     "context_status": "local context reader deliberately unbound pending actual #1731 contract",
-    "speaker_api": "host promises host.scene district_face; choiceless host.say district_face still needs confirmation"
+    "speaker_api": "host [5]: district_face implemented in scene and say in working 0.7.537, not released",
+    "rpg_source_context": "Review source retains the isolated reader seam; host shipping copy binds actual owner context and removes bind_context export",
+    "owner_context": "no case written; NOT REACHED",
+    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [5]; interim working tree report, no final playback claim"
   },
   {
     "path": "scenes/epoch1/zhernova_inspection_question.lua",
     "scene": "scene.district.zhernova.inspection_question",
     "fact": "zhernova_discrepancy_found",
-    "status": "host_scene_source_for_owner_api_review",
+    "status": "host_working_copy_bound_native_census_pending",
     "repeat_policy": "repeatable",
     "queue_owner": "host.scene registry, no private queue or day gate",
-    "context_status": "owner binds surplus for core seized accumulation excess; new opening.surplus awaits boss registration; impossible_season_loss reserved for future actual loss",
-    "speaker_api": "host promises host.scene district_face; choiceless host.say district_face still needs confirmation"
+    "context_status": "RPG source seam unbound; host working copy binds surplus; opening.surplus registered and equality verified",
+    "speaker_api": "host [5]: district_face implemented in scene and say in working 0.7.537, not released",
+    "rpg_source_context": "Review source retains the isolated reader seam; host shipping copy binds actual owner context and removes bind_context export",
+    "owner_context": "surplus; actual localized seized resource via host.world.resource_name; key registered",
+    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [5]; interim working tree report, no final playback claim"
   }
 ]

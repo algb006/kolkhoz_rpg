@@ -1,3 +1,8 @@
+CURRENT OWNER STATUS: host [5] reports five working copies bound, native
+census pending; elder NOT imported. See the dated owner-review follow-up at
+this record's end. Earlier absent-API/registration notes are source history,
+not the current status of host's working tree or the now-registered surplus key.
+
 #1732 — authoritative host.scene source handoff / owner API review
 
 Authority: boss-rpg-1732-scene-scripts-2026-11-15 [1,2,4]; the complete separate
@@ -137,3 +142,39 @@ then its surplus path is NOT REACHED. The fixture includes the proposed CSV
 explicitly, so a passing test does not assert the new key is registered.
 Host reports the district scene/say extensions written but still uncommitted
 in host-boss-1731-district-cases [1]; RPG has not certified their native load.
+
+OWNER REVIEW FOLLOW-UP — host-rpg-1732-scene-pattern-2026-11-15 [5]
+Host reports district_face in BOTH scene and say implemented in working
+0.7.537, not released. Five copies under host/rules/epoch1 are imported and
+bound to the actual context writer district_scenes.lua before each fact.
+Read-only source diffs confirm only owner readers, removal of review exports
+and comments changed; authored keys, branches and player-choice paths remain.
+RPG sources keep their review seam; do not copy a pending-reader RPG chunk
+over the now-bound host copy on a future content update.
+
+Karasev: formal_present only. Polushkina: no_office/clean/uncovered_case.
+Stozharov: no case, NOT REACHED. Zhernova: surplus, localized name through
+host.world.resource_name, never a raw resource key. Read-only strings.db
+comparison now confirms opening.surplus registered with exact authored text;
+its CSV status is updated accordingly. The old registration hold is cleared,
+not the native census/release gate.
+
+Failure: closed-year positions and calendar year bound; no cause marks yet.
+The existing guard still refuses fewer than two factual answers. Econ's draft
+in host-econ-1731-failure-causes [2] awaits boss signing: equipment means
+existing machinery actually stopped, limit means supply LIMIT POINTS (not
+the accumulation limit or seized surplus). RPG does not approve thresholds or
+replace missing world evidence. Future cause writes must describe/reset the
+same closed year whose positions are named, not retain last year's marks.
+Host reports integer placeholder rendering fixed; final rendered census is
+the remaining evidence for correct localized resource/year/position output.
+
+Elder: NOT imported this round; actual elder-contact continuation still owed,
+as before. AI: host reports district faces use authored fallback before the
+harness, facade declines every scene. This is narrower than certifying future
+model rendering of arbitrary parameterized openings.
+
+Host is running suite and 64-seed/six-year canon census on m22 and will name
+the result in the thread. No RPG re-run, build or simulation was started.
+This record acknowledges reviewed working sources, not a released/native
+six-scene playback result. Host owns its commit/release and census evidence.
