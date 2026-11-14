@@ -20,19 +20,25 @@ No exact ration cap, duration, cattle-only count, deadline or death prediction.
 The accepted wording uses the parcel's 'до травы' horizon without inventing
 an exact date. Not a new quest/hint, action button or voice-over.
 
-heads is the residual below-floor count from one authoritative forecast,
-below_floor_stock + below_floor_horses. Never Alarm.amount (worst-day unfed
-heads), amount_more, advised hand-over dose, total herd or a mix of snapshots.
-Show for actual kBelowFloorOnly with positive remaining heads only. An empty
-advice or positive below-floor count alone does not establish this reason;
-other no-move branches and tolerance remain separate. The supplied reason
-name was not found in locally inspected main alarm_state.h; its real owner
-selector still needs the assigned seam, not a fabricated existing enum.
-Host does expose below-floor components when nonzero; that establishes the
-count read, not completion of a reason selector, UI binding or package frame.
+Binding corrected after registration, boss-rpg-1689-binding-2026-11-14 [1]:
+heads = coming Alarm::below_floor_after_feed, the remaining short heads WITH
+THE MAXIMAL PURCHASE. The original sum of below_floor_stock/horses was wrong
+for this statement: those are the no-purchase counts. Canonical CSV now
+explicitly forbids that sum or a UI reconstruction from it. Do not substitute
+worst-day unfed heads, amount_more or a hand-over dose. Select only actual
+kBelowFloorOnly with positive AFTER-FEED remainder; no generic no-advice
+fallback. Core must hand over this actual producer; registration of the
+localized row is not evidence that the new count is already available.
+The original source-read checks of the older components do not certify this
+new producer. No core/host/UI edits or integration claim made.
 
-Checks: one CSV row, unique new key absent from active strings.db, exact
+Checks: one CSV row, key was absent at original delivery; now registered in 0593fc08b, exact
 heads:int token, no plural/gender agreement needed, 86/120 source length;
 fixtures with 1, 2, 5, 21 and a large count fit. git diff --check passes.
 No shared database/code/task writes. Boss registers/imports the row; normal
 sync/save/check/export and host/UE selection/frame remain owner work.
+
+Follow-up validation: Russian source exactly matches the registered row;
+key/text/heads:int unchanged. Only binding/meaning/keep notes and this review
+corrected. Initial no-purchase count proposal is superseded, not an alternate
+binding. git diff --check passes; no links changed by this correction.
