@@ -1,0 +1,79 @@
+Task #1707 / RPG #1725 — Esc/save/load/new-game source package
+
+Authority: boss-rpg-1707-save-strings-2026-11-14 [1]. Read the full referenced
+game-boss thread, both messages, in its actual archived path:
+claude/mailbox/trash/game-boss-strings-1707-2026-11-14.20261114-191228.md.
+Original live pointer was already archived, not missing task information.
+Also read tone.md, Shell section 4a, host 108 section 3.9, strings-db.md
+placeholder/plural rules and the RPG CSV import helper (READ, never executed).
+
+Delivery: manual/texts/save-load-shell-1707-2026-11-14.csv.
+41 rows in ui.settings: 37 requested expanded entries (one reused), plus four
+localization-only ordinal helpers. 40 proposed new sources, one already-active
+no-op. All proposed keys retained EXCEPT the expressly offered load reuse:
+menu.esc.load -> ui.settings.menu.load. No DB alias or duplicate needed;
+game must read the existing key. Existing text matches exactly; importer
+skips it as intended. Other menu.esc.* proposals stay unchanged even where
+a different surface happens to use the same Russian word.
+
+Terminology: Сохранение, never Сейв. Neutral application UI, not a villager
+speech: plain actions, explicit consequences, no forced period joke.
+Demo menu.disabled_why and existing settings set.unsaved* stay untouched.
+No new confirmation, timeout, compatibility rule, manager, undo or voice.
+
+Design/human words retained:
+Продолжить, Сохранить, Загрузить, Настройки, Выйти в главное меню,
+Завершить игру; editable name format Родники — май 1932, 3-и сутки;
+overwrite body explicitly names the targeted visible save.
+Intentional qualifications of quoted DRAFT wording:
+- Несохранённое за {minutes} мин пропадёт keeps its words/consequence but
+  expands мин into schema plural forms: минуту/минуты/минут/минуты.
+- Count warnings/result reorder the noun to use schema agreement for
+  1/2/5/11/21, preserving old-branch/later-save/previous-game scopes.
+- load.later_deleted additionally says После следующего успешного сохранения: host 108
+  explicitly deletes only after the first SUCCESSFUL write following load.
+  Loading itself is not deletion; a failed write does not delete. No new rule.
+- Verdicts use the expressly allowed Сохранение wording. Incompatibility
+  does not urge starting a new game (which would erase saves); cannot-read
+  does not invent a physical corruption diagnosis.
+
+Ordinal decision: auto_name uses the same village/month/year/day names,
+with day:text as a FULL localized ordinal phrase. Four helper keys:
+save.window.day_1 = 1-е сутки; day_2 = 2-е сутки;
+day_3 = 3-и сутки; day_4 = 4-е сутки.
+Owner selects by the existing 1-based game-day-in-month (four days/month),
+not an absolute simulation day or the real-world numbered date. Helpers are
+translated WHOLE for each locale; no hardcoded Russian endings, new grammar
+operator or cardinal-plural approximation of the ordinal. The explicitly
+approved save-name surface is the scope; no calendar redesign inferred.
+Auto-name resulting UTF-8 byte validation remains the existing header owner's
+job, not a claim that source max_len is its byte capacity. Player-entered
+save names are literal substitutions, not recursively parsed string markup.
+
+Import handoff:
+CSV has exactly the columns consumed by strings-import-rpg-csv.py: namespace,
+key, kind, max_len, plural, text_ru, placeholders, meaning, intent, keep,
+binding_note, with extra status/context columns. Helper skips existing keys;
+no existing source override needed. It does NOT store context/status columns;
+meaning/intent/keep are the persisted translator metadata. If boss also wants
+the separate context field stored, that needs his import step. Every new row
+has complete meaning/intent/keep. No helper or shared DB edits made.
+
+Owner binding notes preserve authoritative selectors and actual outcomes:
+write-in-progress, pending answer, folder fault, actual save/cleanup result,
+header verdict, no quick slot, and existing unsaved check. No guessed errors
+or automatic fallback/recovery. New-game cancellation stays default under
+accepted design; this package only labels the existing actions. Deleted-branch
+result count differs from the load-time prediction count. No fake count,
+minimum minutes, current build version or save time inserted into source.
+
+Validation: complete requested-key coverage with the single explicit reuse;
+41 unique keys, registered namespace and known kinds, 40 absent new keys plus
+one exact existing source; placeholder names >=2 chars with exact declarations;
+four schema plural rows with all Russian forms; fixtures 0/1/2/5/11/21/22/25/101,
+all four ordinal examples and names with punctuation; source/rendered lengths
+fit proposed limits. Confirmed the source text can pass through csv.DictReader
+as the import helper expects. git diff --check passes.
+No shared source/task/code writes, runtime build, heavy VM work or frame claim.
+Boss imports with sync/save/check/export/render and informs game of reuse and
+day parameter/helper contract. Game owns actual formatting/behavior and UI fit.
