@@ -1,0 +1,38 @@
+Task #1689 — one informing line on the existing hay lamp
+
+Authority: boss-rpg-1689-hay-lamp-line-2026-11-14 [1]. Whole thread read.
+Basis: tone.md; accepted parcel's roughage-gap/no-move condition; existing
+herd_hay_short_ahead strings; livestock.md below-floor remainder; core
+alarm_state.h below_floor_stock/horses contract and host serializer, read-only.
+No heavy VM work, build or simulation required for this source string.
+
+Delivery: manual/texts/hay-below-floor-1689-2026-11-14.csv, EXACTLY ONE row.
+Proposed full key alarm.herd_hay_short_ahead.text.below_floor_only.
+Kind tooltip, max_len 120, heads:int, plural=0; source 86 characters.
+Abbreviation гол. is count-invariant (1/2/5/21) and avoids a long plural
+selector in this short line. Russian source/context; English meaning,
+intent, keep and binding notes supplied for the coordinator.
+
+Only describes this remaining roughage deficit. No command to sell/buy,
+slaughter, cross a floor, ignore hunger or wait through a guaranteed safe
+period. Does not declare compound feed/straw useless for other deficits.
+No exact ration cap, duration, cattle-only count, deadline or death prediction.
+The accepted wording uses the parcel's 'до травы' horizon without inventing
+an exact date. Not a new quest/hint, action button or voice-over.
+
+heads is the residual below-floor count from one authoritative forecast,
+below_floor_stock + below_floor_horses. Never Alarm.amount (worst-day unfed
+heads), amount_more, advised hand-over dose, total herd or a mix of snapshots.
+Show for actual kBelowFloorOnly with positive remaining heads only. An empty
+advice or positive below-floor count alone does not establish this reason;
+other no-move branches and tolerance remain separate. The supplied reason
+name was not found in locally inspected main alarm_state.h; its real owner
+selector still needs the assigned seam, not a fabricated existing enum.
+Host does expose below-floor components when nonzero; that establishes the
+count read, not completion of a reason selector, UI binding or package frame.
+
+Checks: one CSV row, unique new key absent from active strings.db, exact
+heads:int token, no plural/gender agreement needed, 86/120 source length;
+fixtures with 1, 2, 5, 21 and a large count fit. git diff --check passes.
+No shared database/code/task writes. Boss registers/imports the row; normal
+sync/save/check/export and host/UE selection/frame remain owner work.
