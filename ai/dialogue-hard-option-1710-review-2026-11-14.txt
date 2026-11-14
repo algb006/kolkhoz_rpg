@@ -1,0 +1,40 @@
+Task #1710 — one existing hard-option UI mark
+
+Authority: boss-rpg-1710-hard-option-2026-11-14 [1]. Read the WHOLE referenced
+game thread at its actual archived path:
+claude/mailbox/trash/game-boss-1710-dialogue-strings-2026-11-14.20261114-210650.md.
+Read tone.md, dialogues.md risk-mark rule and actual strings.db placeholder
+CREATE TABLE constraint, all read-only. No engine changes or heavy work.
+
+Delivery: manual/texts/dialogue-hard-option-1710-2026-11-14.csv, ONE row:
+ui.settings.dialogue.option.hard, label, {option} [рискованно], option:text.
+Keep the requested full key and the example's neutral risk wording.
+The mark is UI, not dialogue speech or another thought aloud. No TTS.
+
+Explicit contract conflict to boss (not a silent interpretation):
+Requested {0} is INVALID for placeholder.name CHECK(name GLOB
+'[a-z][a-z0-9_]*'). Read-only SQL confirms 0 fails and option passes. Already
+corrected #1608 had the same constraint on short names. Interpretations:
+1. Named schema source {option}, game binds its existing choice to that
+   named argument — favored, and the concrete delivered row.
+2. Preserve game-side positional formatting only behind an owner-approved
+   existing named-to-positional adapter. No such adapter is asserted here.
+3. Change schema/omit the declaration — not RPG's authority; an undeclared
+   token would violate the source contract, so not delivered as a loophole.
+The row is ready text PENDING the explicit named-argument owner binding.
+Boss must tell game, since its initial draft codes against positional 0.
+No shared schema, import helper or caller edited. No permission question to
+the human: this is a concrete source proposal for the coordinator's handoff.
+
+No risky-option mechanic invented: select the real hard flag only. The
+reported first-build always-pass roll is an explicit game/host stub; this
+label neither fixes it nor claims an implemented chance. Do not display
+percentage, certain failure or a new restriction. Preserve option text
+verbatim, with no recursive template interpretation or duplicate fallback
+key suffix. Do not register fixed district-face names; host owns drawn names.
+
+Validation: one unique proposed key absent from active source; one exact
+named token/declaration and valid schema name; no gender/plural branch;
+source and sample full-option labels fit 320; git diff --check passes.
+Actual wrapping, option limits, named formatter and frame acceptance remain
+game's. No new quest/hint, audio, paid API call or shared write.
