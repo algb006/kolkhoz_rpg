@@ -8,8 +8,8 @@ Also read tone.md, Shell section 4a, host 108 section 3.9, strings-db.md
 placeholder/plural rules and the RPG CSV import helper (READ, never executed).
 
 Delivery: manual/texts/save-load-shell-1707-2026-11-14.csv.
-41 rows in ui.settings: 37 requested expanded entries (one reused), plus four
-localization-only ordinal helpers. 40 proposed new sources, one already-active
+43 rows in ui.settings: 39 requested expanded entries (one reused), plus four
+localization-only ordinal helpers. 42 proposed new sources, one already-active
 no-op. All proposed keys retained EXCEPT the expressly offered load reuse:
 menu.esc.load -> ui.settings.menu.load. No DB alias or duplicate needed;
 game must read the existing key. Existing text matches exactly; importer
@@ -68,7 +68,7 @@ result count differs from the load-time prediction count. No fake count,
 minimum minutes, current build version or save time inserted into source.
 
 Validation: complete requested-key coverage with the single explicit reuse;
-41 unique keys, registered namespace and known kinds, 40 absent new keys plus
+43 unique keys, registered namespace and known kinds, 42 proposed new keys (40 checked absent at first delivery, two additions checked separately) plus
 one exact existing source; placeholder names >=2 chars with exact declarations;
 four schema plural rows with all Russian forms; fixtures 0/1/2/5/11/21/22/25/101,
 all four ordinal examples and names with punctuation; source/rendered lengths
@@ -77,3 +77,14 @@ as the import helper expects. git diff --check passes.
 No shared source/task/code writes, runtime build, heavy VM work or frame claim.
 Boss imports with sync/save/check/export/render and informs game of reuse and
 day parameter/helper contract. Game owns actual formatting/behavior and UI fit.
+
+Addition from boss move [2], read after first delivery:
+Read game-boss-strings-1707b-2026-11-14.md whole. Added ui.settings.load.not_yet
+and menu.esc.to_main_not_yet, naming current unimplemented loading (#1709)
+and return-to-main (#1708), without ETA or a new action. Tooltip load.not_yet
+is reused as the F9 toast. Final CSV: 43 rows, 42 new plus one reused key.
+Added explicit month reuse: ui.hud.month.1..12, all verified present as
+capitalized Russian nominatives. No duplicate month dictionary; owner handles
+appropriate in-name casing. load.kind.quick is now explicitly BOTH icon
+kind tooltip and the quick slot's visible name, one source. Two additional
+no-placeholder rows pass key/length checks; existing text stays unchanged.
