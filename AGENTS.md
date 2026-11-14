@@ -302,7 +302,7 @@ rule is restated here.
 |---|---|
 | Кожаные | Humans: every human programmer on the project |
 | Железяки | Claude Code and Codex agents. **You too**, regardless of engine |
-| Кожаный босс | The human directing work |
+| Alex (the human; «Кожаный босс» until 14 Nov 2026) | The human directing work |
 | Железяка босс | The project coordinator, role `boss` |
 
 **Bare “Кожаный” or “Железяка” denotes one member of the class.** Use the “босс”
