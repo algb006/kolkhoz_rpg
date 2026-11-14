@@ -1,0 +1,50 @@
+[
+  {
+    "path": "scripts/scenes/district_failure_explanation.lua",
+    "scene": "scene.district.failure_explanation",
+    "fact": "district_face_asks_about_failed_year_plan",
+    "status": "staged_for_host_api_review",
+    "context_reader": "deliberately unbound until host approves actual context",
+    "escape": "cancel_all"
+  },
+  {
+    "path": "scripts/scenes/elder_first_meeting.lua",
+    "scene": "scene.elder.first_meeting",
+    "fact": "start_reserve_field_removed",
+    "status": "staged_for_host_api_review",
+    "context_reader": "current elder core reader for initial exchange; owner binder required for conditional branches",
+    "escape": "cancel_part"
+  },
+  {
+    "path": "scripts/scenes/karasev_inspection_return.lua",
+    "scene": "scene.district.karasev.inspection_return",
+    "fact": "karasev_inspection_completed",
+    "status": "staged_for_host_api_review",
+    "context_reader": "deliberately unbound until host approves actual context",
+    "escape": "no invented options; choiceless authored line"
+  },
+  {
+    "path": "scripts/scenes/polushkina_inspection_return.lua",
+    "scene": "scene.district.polushkina.inspection_return",
+    "fact": "polushkina_inspection_completed",
+    "status": "staged_for_host_api_review",
+    "context_reader": "deliberately unbound until host approves actual context",
+    "escape": "no invented options; choiceless authored line"
+  },
+  {
+    "path": "scripts/scenes/stozharov_inspection_return.lua",
+    "scene": "scene.district.stozharov.inspection_return",
+    "fact": "stozharov_inspection_completed",
+    "status": "staged_for_host_api_review",
+    "context_reader": "deliberately unbound until host approves actual context",
+    "escape": "no invented options; choiceless authored line"
+  },
+  {
+    "path": "scripts/scenes/zhernova_inspection_question.lua",
+    "scene": "scene.district.zhernova.inspection_question",
+    "fact": "zhernova_discrepancy_found",
+    "status": "staged_for_host_api_review",
+    "context_reader": "deliberately unbound until host approves actual context",
+    "escape": "no invented options; choiceless authored line"
+  }
+]
