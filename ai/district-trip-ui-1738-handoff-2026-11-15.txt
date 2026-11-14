@@ -1,0 +1,47 @@
+#1738 UI source handoff
+Authority: boss-rpg-trip-keys-2026-11-15 [1], game's list in
+game-boss-nine-windows-2026-11-15 [7], accepted district.md trip/bargain rules.
+
+ONE CSV: manual/texts/district-trip-ui-1738-2026-11-15.csv.
+31 rows (the approximate 33-key list resolves to 31): 30 new keys + one
+explicit existing-key update. All proposed full names retained. Three titles
+use cutscene.trip_departure / trip_return / summon_departure; the other 28
+use ui.office. No key rename or new scene script, dialogue, reward or mechanic.
+
+EXISTING KEY UPDATE: ui.office.refusal.trip_this_month now has the accepted
+secretary-away reason. Boss explicitly chose the design wording; this is not
+RPG silently resolving an open contradiction. No shared database was written.
+
+BINDINGS FOR GAME:
+- return/date: localized actual preview/schedule, weekday/month/year/time as
+  appropriate; NO day-of-month. Mud confirms two game days and next-morning
+  return, as accepted design states. Read actual core date, do not infer it.
+- trip.confirm.mud has the SAME return:date substitution as trip.confirm;
+  both must show the actual return before losing control of the village.
+- percent: signed numeric percent adjustment without the percent sign;
+  reputation: signed actual reputation delta, without an extra UI minus;
+  amount: NONNEGATIVE satisfaction-loss magnitude, not a signed delta.
+- dayoff labels concern order.cancel_day_off (working Sunday), not granting
+  an extra holiday. Student's multiplier is already in the preview value;
+  Old Fighter's counters concern six working Sundays without the price.
+- left/total: actual preview counters, not hardcoded 3/6 and no extra plural
+  noun; integer substitution suffices for 0, 1, 2, 5 or 21.
+- district sheet is a first-build STUB until #1739, but its player heading
+  says only district questions. No implementation word appears to players.
+- glossary hovers: goods_loan -> glossary.goods_loan; reputation and the
+  on-the-books idiom -> glossary.reputation (already explains the idiom).
+  Both targets exist. This CSV does not create duplicate glossary entries;
+  game owns wiring the current hover door.
+
+Owner chain: cutscene is not yet a registered namespace; boss creates it
+as explicitly requested in the assignment, registers the CSV and exports strings; game binds these
+keys/parameters/hovers to the actual controls. Missing keys remain visible
+as [key] in the build until registration, per game's stated contract.
+
+Validation: read-only live-key comparison: exactly 30 missing keys and one
+existing update; 31 unique full keys; exact declared placeholder sets/types;
+source trim/length/required metadata checks pass. No build or runtime UI
+claim. Global links are checked separately; neighboring-tree fixes excluded.
+
+Final global link check: 5,395 files / 40,591 links / 276 existing issues
+outside RPG, zero RPG issues. git diff --check passes.
