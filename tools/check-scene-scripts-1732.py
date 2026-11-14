@@ -47,6 +47,10 @@ for key, text in keys.items():
     if key.startswith(('scene.elder.first_meeting.', 'scene.district.')):
         params = sorted(set(re.findall(r'\{([a-z][a-z0-9_]*)\}', text)))
         source.append('SCENE_TEST_KEYS[' + literal(key) + ']={' + ','.join(map(literal, params)) + '}')
+source.append('SCENE_TEST_SCENES={}')
+with Path('/home/alex/kolkhoz/host/tables/scenes.csv').open() as stream:
+    for row in csv.DictReader(line for line in stream if not line.startswith('#')):
+        source.append('SCENE_TEST_SCENES[' + literal(row['key']) + ']=' + literal(row['repeat_policy']))
 source.append((ROOT / 'tests/scene_scripts_1732.lua').read_text())
 code = '\n'.join(source).encode()
 state = lib.luaL_newstate()

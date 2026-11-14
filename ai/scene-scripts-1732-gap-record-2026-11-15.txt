@@ -1,141 +1,120 @@
-#1732 — six staged scene scripts, source gaps and host review contract
+#1732 — authoritative host.scene source handoff / owner API review
 
-Authority: boss-rpg-1732-scene-scripts-2026-11-15 [1], corrected API path
-in [2], narrowed scope/approved missing-key handoff in [4]. Human #1730:
-«Делай диалоги по рекомендации» (English gloss: make the recommended dialogues).
-The nine-step elder start-plan page is explicitly OUT OF THIS DELIVERY.
+Authority: boss-rpg-1732-scene-scripts-2026-11-15 [1,2,4]; the complete separate
+host-rpg-1732-scene-pattern-2026-11-15 [1] was subsequently found in the mailbox.
+THIS REVISION SUPERSEDES the earlier bare-dialogue/private-queue snapshot
+0fa1a93/b5f1ba5 and its scripts/scenes paths, earlier fixture counts and notes.
+Do not import that earlier source snapshot. Host's pattern is authoritative.
 
-Prepared in the RPG tree (no right or sandbox permission to edit host):
-scripts/scenes/elder_first_meeting.lua
-scripts/scenes/stozharov_inspection_return.lua
-scripts/scenes/karasev_inspection_return.lua
-scripts/scenes/polushkina_inspection_return.lua
-scripts/scenes/zhernova_inspection_question.lua
-scripts/scenes/district_failure_explanation.lua
-Each starts with its exact host.script scene key and subscribes with
-s.on_fact to the registered scene/fact pair in host/tables/scene_facts.csv.
-No fact raiser, other scene subscription, world order or reward added.
+CURRENT PATHS (host's requested RPG staging location):
+scenes/epoch1/elder_first_meeting.lua
+scenes/epoch1/stozharov_inspection_return.lua
+scenes/epoch1/karasev_inspection_return.lua
+scenes/epoch1/polushkina_inspection_return.lua
+scenes/epoch1/zhernova_inspection_question.lua
+scenes/epoch1/district_failure_explanation.lua
+Manifest: ai/scene-scripts-1732-manifest-2026-11-15.json.
+Host owns API review, import and commit into its shipping rules/epoch1.
+RPG has not edited any host source, rules, database or task register.
 
-Source handoff:
-manual/texts/scene-scripts-1732-missing-keys-2026-11-15.csv — 12 proposed
-missing keys, copied VERBATIM from manual/characters/district-faces.md:
-3 Stozharov E1 returns (not his E3 declining institution), 4 Karasev returns,
-4 Polushkina returns and the E1 Zhernova seasonal-discrepancy question.
-No cuts, joins, new options or speeches. The sole formatting conversion is
-Zhernova's authored **[товар]** display slot to {resource}, declared resource:name;
-Markdown emphasis is not a spoken word. Source path/line and factual case
-are named in each row. Elder and failure use their registered 32 and 15
-scene lines; no nine-step text, inherited-stock step or acknowledgement added.
-Do not confuse prose text_ready with shared-key registration. Boss imports
-this one CSV via the normal strings chain; host does not invent missing lines.
+All six subscribe to their actual registered s.on_fact pair and request
+host.scene with key, tier=low, opened_by_player=false, background=false,
+a complete closed answer keys/lines form, authored and on_answer branches.
+Elder uses the actual living Elder() as participant/speaker. District scenes
+use the exact district_face selector host instructed, no counterfeit resident.
+The registry owns entry day, repeat_policy, slot and queue. NO PRIVATE QUEUE,
+occurrence deduplicator, on_day timing or competing played state remains.
+Elder is once; the five district scenes are repeatable in the real register.
+Authored first-build branches call registered host.dialogue/host.say lines.
+A model opening never chooses the chairman's answer; both dialogue entry
+routes still call the same player-choice path, following the pilot's shape.
 
-MEASURED CURRENT API / GAPS (shipping not claimed):
-1. host/manual/81-script-api.md and tests/fixtures_pilot/before_distribution.lua
-   are the real API/pilot, as boss corrected. Current s.on_fact works;
-   host.world.elder() supplies the actual living elder. host.dialogue accepts
-   district_face; host.say currently accepts ONLY with/chairman/line and
-   REJECTS district_face. No counterfeit resident id or fake two-choice
-   dialogue was invented for a choiceless district line. The staged district
-   calls use the natural proposed district_face extension only behind the
-   explicit reviewed-context district_say_ready gate. Host must approve/add
-   that field or name a real alternative and adapt the call before import.
-2. Fact payloads currently give tick/face/amount, not proof of an empty club,
-   true report, seasonal impossibility or actual historical failure causes.
-   No private fact-context story-key protocol is asserted as if it existed.
-   In the five district files read_context deliberately returns nil, with a
-   named GAP comment. Host must replace/bind that local reader to its REAL
-   #1731 contract. The returned bind_context function is a REVIEW/TEST seam,
-   not a new host API, shipping loader assumption or runtime export contract.
-   Staged code never calls an imaginary host context function.
-3. The elder's default reader supplies an empty optional context, allowing
-   its registered initial exchange through CURRENT API after the real reserve
-   field removal and a live Elder(). The optional coat topic is omitted unless
-   the actual avatar and clothing state are supplied. The own branch finishes
-   without punishment. The see branch says the registered reply, persists
-   the next phase and pauses: actual matching registered layout lines and an
-   explicit physical resume must come from the owner. No world placement,
-   quest completion, nine-step chain or UI recommendation API is fabricated.
-   Source conditions about six barracks, well distances, etc. must genuinely
-   match the recommendation; never substitute the newer page silently.
-4. The district prose does not author two choice options for these inspection
-   returns. Therefore they are choiceless host.say lines, as the assignment
-   allows. Zhernova asks the authored question, no answer options invented.
-   This does NOT assert the whole later inspection conversation is implemented.
-5. Failure explanation requires the historical CALENDAR failed_year and the
-   localized failed_positions list for that same closed year. No reconstruction
-   from current stock/year or plan percentage. Cause flags must come from
-   actual conditions, not the player or a fabricated narrative choice. Under
-   two visible answers: hold. All four specifics: hide unfinished. Otherwise
-   unfinished is shown only if it is itself factual. No hidden cutoff invented.
-   The chosen cause is remembered under rpg.failure_explanations.<year>.<face>.
-   No plan/reputation/quest result changed and no frozen Korenev question or
-   district_received_multiple_failure_explanations fact raised here. Host
-   reviews/consumes the testimony storage contract before downstream use.
-6. The verbatim false-report Karasev line refers to Stozharov by that surname.
-   District names are now drawn at start. Boss asked for verbatim transfer,
-   so the reference was not silently rewritten. If that surname is no longer
-   guaranteed for the corresponding face, boss must approve a substitution
-   before enabling this factual branch. Speaker labels stay host-owned.
+STRINGS:
+manual/texts/scene-scripts-1732-missing-keys-2026-11-15.csv has 12 entries:
+3 Stozharov E1 returns, 4 Karasev, 4 Polushkina, 1 E1 Zhernova question.
+No cuts/joins/new speeches/options. The authored **[товар]** slot becomes
+{resource}, declared resource:name. Boss has now registered ALL TWELVE,
+string ids 20882-20893. Fresh read-only equality verified.
+Boss decision in boss-rpg-1732-received-2026-11-15 [1] replaces the drawn
+Stozharov surname in Karasev's false_report line with the post:
+«Вы меня просите отвезти то, чего нет. Я не старший инструктор, но он мои бумаги читает.»
+Mirrored verbatim in the CSV AND own district-faces.md. That explicit decision
+supersedes the original surname issue; no invented substitution or key change.
+All other lines remain exact authored prose. Elder/failure use their existing
+32/15 scene lines. The nine-step elder page is OUT OF SCOPE, no inherited-stock
+step or extra acknowledgement key included. No new voice generation.
 
-LOCAL READER INPUT SHAPE FOR REVIEW, NOT AN ALREADY-SHIPPED HOST CONTRACT:
-The reader is called with {tick, face, amount, token, slot} from the queued
-real fact. Return nil until its real context is available. Once bound:
-- inspection returns: case from that file's whitelist, district_say_ready=true
-  only after the native speaker door is reviewed and its line keys imported;
-- Zhernova: case=impossible_season_loss, localized resource_name, reviewed door;
-- failure: failed_calendar_year integer, localized failed_positions, causes
-  {weather,people,equipment,limit,unfinished} booleans, reviewed speaker door;
-- optional elder: actual avatar + coat_topic/coat_reply; layout_lines is an
-  ordered, stable list of genuinely matching REGISTERED first_meeting layout
-  suffixes only, never a world placement or the excluded nine-step script;
-- paused scene: resume=true with a NEW resume_token from the actual owner
-  interaction/retry. A sticky boolean cannot reopen every day. Host decides
-  the actual interaction/resume event and supplies its token; no synthetic
-  timer, teleport to speaker or unregistered event subscription introduced.
-Any adaptation of these local fields to host's final contract is explicit
-API-review work; no unavailable reader is hidden behind a fabricated API call.
+CURRENT API/INPUT GAPS — SOURCE IS NOT YET A CLAIM OF LIVE SIX-SCENE PLAYBACK:
+1. Host promised host.scene district_face as part of #1731, before review.
+   Current inspected main still lacks it. Choiceless district replies ALSO
+   require host.say district_face; its actual CheckFields still permits only
+   with/chairman/line. Asked host explicitly to include that door or supply
+   an actual equivalent. No fake two-choice dialogue for a single return line.
+   District calls remain behind owner-reviewed context/speaker readiness.
+2. A completed-inspection fact supplies face/tick/amount, not factual proof
+   of an empty club, true report or impossible seasonal loss. Historical
+   failed year/list and actual cause availability are also missing from that
+   bare payload. Five district read_context functions intentionally return nil;
+   the gap is named, not hidden behind an invented host API, fabricated story
+   input keys or guessed branch. Host must bind these local reader hooks to
+   its REAL #1731 contract BEFORE enabling its production fact consumer.
+   The returned bind_context export is a review/test seam, NOT an assumed
+   shipping loader API. The owner fills the actual reader/import adapter.
+   Unbound staged scenes name the gap and do not submit misleading content;
+   no claim that a missing-reader fact is durably queued by RPG is made.
+3. The initial elder scene uses current registered lines and core Elder().
+   Optional coat lines require the real avatar/clothing context. Own ends
+   without a relationship penalty or invented world order. See says its
+   registered reply and keeps a pending layout phase; only actual matching
+   REGISTERED first_meeting layout suffixes may continue. It never imports
+   the newer nine-step page or fabricates map placements/quest completion.
+   Cancel_part records no own choice, preserves confirmed phase and pauses.
+   Host must hook the provided resume continuation to actual elder contact,
+   with a fresh resume token; no timer or second request of the once scene.
+   Host's once bookkeeping closes the scene branch when it returns, not when
+   the asynchronous dialogue is answered, so a real continuation hook matters.
+4. Failure explanation uses historical CALENDAR failed_year and the localized
+   failed_positions of that same closed book. No current-year reconstruction.
+   Weather/people/equipment/limit/unfinished require real predicates. Under
+   two choices: do not submit. Four specifics: hide unfinished; otherwise
+   show it only when itself factual. The actual district face returns.
+   Cancel_all and missed store no explanation. Only explicit choice writes
+   rpg.failure_explanations.<year>.<face>.<cause>. It is testimony, not truth,
+   reputation, rewritten plan, quest effect or a raised frozen Korenev fact.
+   Host reviews this narrative memory adapter before downstream use.
+5. The first build has KOLKHOZ_AI off, as host states. Source writes both
+   branches without a model-mode conditional. For any future model-enabled
+   use of parameterized closed opening keys (Zhernova/failure), host must
+   review how scene-level output carries their substitutions; authored
+   first-build say/dialogue calls already pass the actual parameters. This
+   handoff does not certify future model rendering or introduce free text.
 
-SAVE/ESC / QUEUE BEHAVIOR:
-A fact is durably queued under rpg.scenes.<scene>; occurrence token derives
-only from its supplied tick/face/amount. No guessed clock or re-raising a fact.
-Duplicate occurrence is ignored. Later visits remain repeatable. Unready
-context holds the queue, no silent dropped event. Completed jobs do not replay
-on script reload; pending phase and original queue order persist as scalar
-story state. Only already received jobs are retried on on_day.
-District failure: cancel_all records no cause and chooses no option.
-Elder: cancel_part retains the confirmed phase, never chooses own by Esc;
-only explicit new resume tokens reopen. missed is distinct and pauses, not
-an answer. No default_result is used for an unperformed decision.
-The queue pumps its next received job after completion; no calendar delay
-is invented just to show a second already queued scene. API errors retain
-pending work with a named diagnostic, not a fictional completed result.
+LOCAL REVIEW INPUTS (NOT SHIPPED HOST FIELDS):
+- inspection: factual case from that file's whitelist + district_say_ready;
+- Zhernova: impossible_season_loss, localized resource_name, reviewed doors;
+- failure: failed_calendar_year, localized failed_positions, factual causes;
+- elder: optional actual avatar/clothes, actual stable matching layout_lines;
+- resume: actual interaction resume/token, never inferred from a clock.
+These fields describe what authored branches need, not a fabricated core
+metric or an assertion that a new public host API already exists.
 
-CHECKS / LIMITS:
-One small isolated Lua 5.4 fixture using /usr/lib64/liblua-5.4.so through
-ctypes; no build, game run, full suite, simulation or large VM job. Runner:
+VALIDATION:
+One small isolated Lua 5.4 fixture, no build/simulation/full suite/VM heavy job:
 python3 tools/check-scene-scripts-1732.py
-Fixture: tests/scene_scripts_1732.lua. Registered keys are read-only source;
-the 12 marked proposals are supplied as PROPOSALS for this authoring check.
-The fixture does NOT pretend those keys or the district say extension ship.
-It models the proposed extension only in positive district-branch tests;
-negative tests hold every district scene without approved context/door.
-Checks cover duplicate/reloaded facts, repeat visits, missing elder, paused
-Esc/resume, true branch keys/parameters, no invented discrepancy/cause, 2-4
-visible options, year correctness, no testimony on Esc, same-face reply,
-watchdog distinction and no extra mechanics. Syntax is exercised by loading
-ALL SIX real source files into isolated environments.
-Host must still review real APIs, choose the import destination, own its
-commit and perform the real binding/first-build checks. Source preparation
-is complete; live six-scene playback is NOT claimed before those gates.
+It reads real registered keys and scene/fact/repeat metadata, loads all six
+source chunks, and checks the complete host.scene request shape. The mock
+scheduler exercises source deferral to registry/entry-day policy; it is NOT
+an implementation proof of host's native scheduler. Positive district tests
+model ONLY the explicitly proposed reviewed speaker extension. Missing
+context/door cases emit no fictional scene. Tests cover once/repeat admission,
+Esc/resume/reload state, optional facts, correct branch/resource/year, 2-4
+choices, no explanation on Esc and no model-selected player answer.
+Current result: 622 assertions passed. Earlier 764 belongs to the superseded
+private-queue snapshot and is NOT the present result. CSV equality/params,
+actual fact pairs, source-only keys and git whitespace checks also pass.
+Host still owes native API review/reader/continuation binding, its own commit
+and real host_run/playback checks; boss owns strings chain, already registered.
 
-Final isolated-fixture result before handoff: 764 assertions passed. This
-includes queued later facts behind a modal, immediate next-job pumping,
-invalid optional-coat data emitting no partial opening, and the pending
-job surviving an actually rejected current-native district say call.
-The earlier proposed scalar scene_input key protocol in the host mailbox
-was NOT adopted in code: replaced by the deliberately unbound local reader
-for host review. No fictional host context API or shipping key schema.
-
-Required global link check: 5,392 files / 40,576 links / 276 problems,
-none under rpg. Global zero gate remains unmet in other owners' trees.
-No foreign document fixes or shared DB writes performed.
+Required global link check after the source move: 5,392 files / 40,576 links /
+276 existing issues outside RPG; no RPG issue reported. Shared-tree fixes are
+outside this delivery and were not made. git diff --check passes.
