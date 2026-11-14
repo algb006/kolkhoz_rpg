@@ -91,7 +91,8 @@ CURRENT API/INPUT GAPS — SOURCE IS NOT YET A CLAIM OF LIVE SIX-SCENE PLAYBACK:
 
 LOCAL REVIEW INPUTS (NOT SHIPPED HOST FIELDS):
 - inspection: factual case from that file's whitelist + district_say_ready;
-- Zhernova: impossible_season_loss, localized resource_name, reviewed doors;
+- Zhernova: surplus for a seized accumulation excess; impossible_season_loss
+  reserved for a future proven loss; localized resource_name, reviewed doors;
 - failure: failed_calendar_year, localized failed_positions, factual causes;
 - elder: optional actual avatar/clothes, actual stable matching layout_lines;
 - resume: actual interaction resume/token, never inferred from a clock.
@@ -109,7 +110,7 @@ model ONLY the explicitly proposed reviewed speaker extension. Missing
 context/door cases emit no fictional scene. Tests cover once/repeat admission,
 Esc/resume/reload state, optional facts, correct branch/resource/year, 2-4
 choices, no explanation on Esc and no model-selected player answer.
-Current result: 622 assertions passed. Earlier 764 belongs to the superseded
+Current result after the surplus follow-up: 640 assertions passed. Earlier 764 belongs to the superseded
 private-queue snapshot and is NOT the present result. CSV equality/params,
 actual fact pairs, source-only keys and git whitespace checks also pass.
 Host still owes native API review/reader/continuation binding, its own commit
@@ -118,3 +119,21 @@ and real host_run/playback checks; boss owns strings chain, already registered.
 Required global link check after the source move: 5,392 files / 40,576 links /
 276 existing issues outside RPG; no RPG issue reported. Shared-tree fixes are
 outside this delivery and were not made. git diff --check passes.
+
+FOLLOW-UP — Zhernova seized surplus (boss-rpg-zhernova-surplus-line-2026-11-15 [1],
+host-boss-1731-district-cases-2026-11-15 [2]):
+The first-build finding is a surplus over the accumulation limit, already
+seized by resource. It does NOT establish an impossible seasonal loss.
+New ONE-row CSV: manual/texts/zhernova-surplus-line-2026-11-15.csv.
+New key: scene.district.zhernova.inspection_question.opening.surplus.
+One declared resource:name placeholder, one question, no answer options/effects.
+The script now maps owner-proven case surplus to that key. Existing
+impossible_season_loss -> opening.era1 remains unchanged for a future actual
+loss model; it must not be selected for core's present finding. Generic
+unspecified discrepancy and absent localized resource still do not submit.
+The source reader remains unbound pending host's real adapter. Boss must
+register the new key BEFORE host enables/imports this revised scene; until
+then its surplus path is NOT REACHED. The fixture includes the proposed CSV
+explicitly, so a passing test does not assert the new key is registered.
+Host reports the district scene/say extensions written but still uncommitted
+in host-boss-1731-district-cases [1]; RPG has not certified their native load.

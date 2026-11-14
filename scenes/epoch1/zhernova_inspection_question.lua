@@ -6,15 +6,22 @@ local FACT = "zhernova_discrepancy_found"
 local read_context = function() return nil end
 local function gap(why) host.log("warn", SCENE .. ": " .. why) end
 
+-- Boss-approved mapping: core's seized accumulation surplus is NOT a loss.
+-- The loss branch remains reserved for a future world fact that actually proves it.
+local OPENINGS = {
+  surplus = SCENE .. ".opening.surplus",
+  impossible_season_loss = SCENE .. ".opening.era1",
+}
+
 script.on_fact(FACT,function(ev)
   if ev.district_face~="zhernova" then gap("fact names another district face");return end
   local input=read_context(ev)
-  if type(input)~="table" or input.case~="impossible_season_loss" or
+  if type(input)~="table" or not OPENINGS[input.case] or
       type(input.resource_name)~="string" or input.resource_name=="" then
-    gap("generic discrepancy does not prove the authored question/food");return
+    gap("discrepancy needs a proven surplus or loss case and localized resource");return
   end
   if input.district_say_ready~=true then gap("district speaker doors await owner review");return end
-  local key=SCENE .. ".opening.era1"
+  local key=OPENINGS[input.case]
   local function present()
     host.say {district_face="zhernova",line={key,{resource=input.resource_name}}}
   end

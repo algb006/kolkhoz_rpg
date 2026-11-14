@@ -35,12 +35,18 @@ def literal(value):
 
 with sqlite3.connect('file:/home/alex/kolkhoz/db/strings.db?mode=ro', uri=True) as db:
     keys = {key: text for key, text in db.execute('select full_key,source_text from string_source where deprecated=0')}
-proposals = ROOT / 'manual/texts/scene-scripts-1732-missing-keys-2026-11-15.csv'
-for row in csv.DictReader(proposals.open()):
-    key = row['namespace'] + '.' + row['key']
-    if key in keys and keys[key] != row['text_ru']:
-        raise SystemExit('Registered key differs from staged authored text: ' + key)
-    keys[key] = row['text_ru']
+proposal_paths = [
+    ROOT / 'manual/texts/scene-scripts-1732-missing-keys-2026-11-15.csv',
+    ROOT / 'manual/texts/zhernova-surplus-line-2026-11-15.csv',
+]
+for proposals in proposal_paths:
+    with proposals.open() as stream:
+        for row in csv.DictReader(stream):
+            key = row['namespace'] + '.' + row['key']
+            if key in keys and keys[key] != row['text_ru']:
+                raise SystemExit('Registered key differs from staged authored text: ' + key)
+            keys[key] = row['text_ru']
+
 import re
 source = ['SCENE_TEST_ROOT=' + literal(str(ROOT)), 'SCENE_TEST_KEYS={}']
 for key, text in keys.items():

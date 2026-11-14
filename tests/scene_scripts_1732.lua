@@ -132,6 +132,17 @@ do
   c.case="impossible_season_loss";c.resource_name="Рожь";h.emit({tick=501,district_face="zhernova"});h.run_next()
   check(#h.calls==1 and h.calls[1].request.line[2].resource=="Рожь" and h.current==nil,"choiceless question, real resource")
 end
+do
+  local h=fixture("zhernova_inspection_question.lua");h.day=12;h.extended=true
+  local c={district_say_ready=true,case="surplus"};h.bind(c)
+  h.emit({tick=502,district_face="zhernova"})
+  check(not h.scene_requests,"surplus without localized seized resource cannot play")
+  c.resource_name="Рожь";h.emit({tick=503,district_face="zhernova"});h.run_next()
+  check(#h.calls==1 and h.calls[1].key=="scene.district.zhernova.inspection_question.opening.surplus",
+    "seized accumulation surplus never asks about seasonal loss")
+  check(h.calls[1].request.line[2].resource=="Рожь" and h.current==nil,
+    "one choiceless surplus question carries the actual resource")
+end
 local function failure(c)
   local h=fixture("district_failure_explanation.lua");h.day=12;h.extended=true;h.bind(c)
   h.emit({tick=600,amount=2,district_face="polushkina"});h.run_next();return h
