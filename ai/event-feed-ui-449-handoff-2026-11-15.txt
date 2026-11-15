@@ -1,0 +1,39 @@
+#449 event feed UI source handoff
+Authority: boss-rpg-449-feed-keys-2026-11-15 [1]; event-feed.md §2/§4/§5;
+look/manual/reviews/event-feed449-strip-log-five-ink-colours-first-build-brief-2026-11-15.md.
+
+ONE import CSV: manual/texts/event-feed-ui-449-2026-11-15.csv.
+18 NEW keys, all ui.hud. Proposed names retained, no existing-key changes.
+Heading: События. Views: Полоса / Журнал. The seven source labels and order
+are exact accepted design: kolkhoz, district, people, works, herd, land,
+weather. Five category words follow the brief verbatim; no classification,
+colour, urgency, physical line count or log storage policy is changed.
+
+GAME BINDINGS:
+- feed.view.strip/window name the two existing views, not a second source.
+- Source buttons are independent booleans in the expanded journal only.
+- feed.type labels have NO colon; the widget owns separator/spacing. They
+  carry meaning alongside ink colour; text does not decide a record's type.
+- feed.days_ago uses count:int and the registered plural syntax. Pass a
+  positive integer GAME DAY difference 1–4 for a non-today record, since a
+  game month has four days. Current-day timestamps do not use this template.
+  Past four game days, use feed.month_ago instead, per the existing design.
+- feed.month_ago {month:text} wraps the already LOCALIZED EVENT month value
+  from ui.hud.month.N. Existing labels are nominative and capitalized, so
+  the template is simply {month}; no broken case such as в Январь. Never
+  pass the month key itself, translate a month again, use the current month
+  for an older event, or add a numeric calendar day. No extra year invented.
+- feed.older names an earlier-record control IF used. This does not require
+  new pagination or change retention. The strip still has no scroll/filter.
+
+Boss registers/exports; game wires the actual existing feed data and views.
+Look's palette, sizing, wrapping, physical-line and first-frame acceptance
+remain look/game responsibilities; text delivery is not visual acceptance.
+No raster asset, code, build, simulation, runtime UI or screenshot claim.
+
+Validation: 18 unique NEW live-key candidates; exact placeholders/types,
+supported string kinds, plural flags, trim/length/metadata; all 12 existing
+month targets. Russian plural syntax/forms checked at 1/2/3/4 and morphology
+boundaries 5/11/21/22 (the latter are not UI day-age calls beyond a month).
+No native renderer or UI run claimed. Staged whitespace check passes.
+Required global link check: файлов: 5415, ссылок: 40739, проблем: 276; no RPG issue.
