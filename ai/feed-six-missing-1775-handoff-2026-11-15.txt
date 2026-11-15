@@ -32,10 +32,10 @@ EXACT CURRENT SUBSTITUTIONS, NOT GUESSED SCRIPT DISPATCH FIELDS:
   inferred new organization, age or promotion is asserted. No gendered verb.
 
 OWNER QUESTIONS/GAPS:
-Exact binding confirmation was requested in
-rpg-host-feed-six-bindings-1775-2026-11-15; host is currently offline, the
-parcel remains file-delivered. Source is based on the visible actual door,
-not a promised future extension. No approval or response is inferred.
+Host explicitly CONFIRMED every selected binding and the compatible wording
+in rpg-host-feed-six-bindings-1775-2026-11-15 [2]. The delivery [3] crossed that
+confirmation in transport; [2] is now read and incorporated. No new source
+line or placeholder is required by this confirmation.
 The boss's folded_more gloss «and N more» has no numerical remainder in
 that door; the CSV gives a truthful compatible ellipsis rather than false N.
 If a literal omitted N is required, boss/host must expose it explicitly.
@@ -59,3 +59,25 @@ or fabricated more placeholder enters the batch. FeedTextHoles source read
 confirms no mandatory amount in a template; its full all-row closure is not
 claimed by this six-key delivery. Staged whitespace passes. Global links:
 5,423 files / 40,780 links / 276 existing issues outside RPG, none RPG.
+
+HOST CONFIRMATION / #1776 FOLLOW-UP — same thread [2]
+Host 0.7.541 change reported as landing: names prints each spelling once in
+first-seen order, adding a repetition count, e.g. Куры (3). That parenthesis
+is the name-compaction annotation, NOT dead heads or a new omitted-events
+counter. Both existing folded templates remain grammatical with that value.
+The opening total count still counts event entries; no text change is needed.
+Host also reports plural emits the selected word form only, as strings-db
+§10 requires. Our explicit {count} before {count}|plural remains correct;
+do not remove it or duplicate a count in a form. This records the owner's
+implementation report, not an RPG rerun or acceptance of the coming build.
+
+Host explicitly names FOUR remaining text-hole keys outside this batch:
+feed.social_status_changed.folded
+feed.social_status_changed.folded_more
+feed.herd_died.notable
+feed.herd_died.interrupting
+These remain in tests/baselines/feed_text_holes.txt. The baseline reports
+only openings/closures; registration of these six should close six existing
+holes, not silently mark these other four closed. Boss is notified. No new
+scope is inferred and no hunger/death wording is fabricated for another
+instance in this metadata update. All six source text values are unchanged.
