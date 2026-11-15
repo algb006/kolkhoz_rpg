@@ -1,0 +1,86 @@
+#1775 remaining 48 missing strings and four existing-key rewrites
+Authority: boss-rpg-feed-48-strings-2026-11-15 [1,2]; host-boss-feed-holes-55
+[3,4]. The second move supersedes the first move's incorrect count proposal.
+Tone read, exact core event comments/emitters, feed registry, instance and
+Fill/RawOf/NameOfSubject/LineOf contracts checked. No shared source changed.
+
+ONE import CSV: manual/texts/feed-remaining-48-and-rewrites-1775-2026-11-15.csv.
+52 unique rows = EXACT 48 no-string identities in native baseline 1d53cdb
+plus FOUR authorized existing-key changes. No required key skipped because
+its writer is a stub or unreachable; reachability evidence is in binding_note.
+No extra registry row, new reason, action tip, status or trigger is invented.
+
+FOUR EXISTING KEY CHANGES:
+- plan_trial_due: limit is removed; amount:int is the consecutive failed-year
+  SERIES, not count=one journal entry. Explicit amount then word-only plural.
+  Host must land the signed plain-number RawOf; registry unit none is intended.
+- stack_cart_urgent: field is removed. place is a READY PLACE PHRASE including
+  leading space, e.g. « у ручья», or empty; concatenate after вывоз. resource
+  is the existing localized hay name. Do not treat place as a field NAME,
+  duplicate its preposition/space or display a raw resource key.
+- district_visit_announced: amount/plural removed. A coming regular visit
+  is reported without guessed days/date/face. Event amount packs face/kind.
+  Boss changes unit to none; no new read of the notice-days world constant.
+- advance_written_off: amount:real is TONNES of grain equivalent, with т
+  in the text, not grams, money, points or labor_days. Host must land signed
+  RawOf grams/1e6 and boss unit=tonnes. Same contract for its new folds.
+
+AGGREGATE / DATA-SAFETY RULES:
+- Advance folds count DISTINCT FAMILIES; amount sums raw grain-equivalent
+  debts before the real adapter formats tonnes. Names are family subjects.
+- Audit unguarded-loss folds use the existing tonnes adapter; event UNIT
+  names the store of the largest loss. No inferred thief, invented liability
+  or advice. Unprotected losses are not relabeled as audit guilt.
+- Barter carries only the counter UNIT. The registry counts distinct families,
+  but the declared event does not supply a family: no family count, household
+  list or exchange volume is asserted. Its folds name COUNTERS via names.
+  Current contract marks BarterDay @no_emit; no live emitter found. Kept anyway.
+- Far-feed folds count event CASES, not heads or tonnes. Source may be another
+  manger, rick or numbered store: wording says other stocks, not always a
+  foreign rick. Names selects HERD before its source unit.
+- Stack-cart folds: event subjects are FIELDS. NameOfSubject cannot spell a
+  field, so names would fail. These folds use event count only, not a false
+  place list or a packed amount. The single line alone uses its actual place.
+- Sugar-theft folds: names would select the hidden distiller RESIDENT before
+  a store UNIT. Names is therefore deliberately omitted. Count is theft
+  CASES, not perpetrators, kg or omitted subjects. No hidden culprit revealed.
+- All shortened lists say Среди ... plus the actual short names and ellipsis;
+  no numerical remaining N is invented. Compacted spellings such as Куры (3)
+  remain the owner's string; annotations are never treated as head counts.
+
+MEANING / REACHABILITY:
+- Routine herd death is age, never hunger; no head number can be extracted
+  from the current adapter for this key. Half-trial fact means HALF OF THE
+  TRIAL THRESHOLD, not half the herd or the trial already begun.
+- District gift reports a meeting, not gift acceptance or an audit cancelled.
+  reception/gift are declared STUB never-raised kinds; junior_miss is a senior
+  finding what a junior missed, declared STUB never computed. No actor/answer
+  is inferred from packed visit data absent in Fill.
+- Office-fire ending is unreachable in this first Epoch I build; text exists
+  as requested. No new fire, victim, religion or irreversible event is built.
+- Legacy organizer_changed writer/vocabulary was not located; several requested
+  reserved/script/core facts likewise have no writer located in this read.
+  These are marked UNVERIFIED, not silently pronounced dead or skipped.
+- Event-owned resident/family/unit names are used only where contract guarantees
+  them (appointments, lodging, specialist arrival, wedding). A wedding need not
+  create a new household: the spouse may join an existing widow/widower family.
+- Orders are refused by rules, never by resident disobedience. Generic refusal,
+  vacant-post, unserved-work/load and unresolved certificate lines do not invent
+  a shortage, absent actor, granted outcome, diagnosis or hidden cause.
+
+OWNER CHAIN / EXPECTED CHECK:
+Boss imports/syncs/checks/exports this ONE CSV. Host lands its signed raw rows,
+raisers and matched boss registry export atomically under the existing parcel.
+This source fixes no orphan row by itself: acceptance_act_signed, burial_held
+and church_rye_stolen remain owner exports/raisers until that landing. A true
+native zero-hole total requires ALL of that, not only 52 text rows. Host must
+print the real FeedTextHoles total/list afterward; RPG does not clear its baseline,
+build a suite or claim an unmeasured zero. Existing ten #1775 strings unchanged.
+
+SOURCE VALIDATION (not native playback): exact 48 missing-key set from the
+1d53cdb baseline plus exactly four live-key rewrites; 52 unique rows; actual
+Fill names/types/kinds, plural flags, limits/trim/meaning/intent/keep; 260
+sample template expansions at 1/2/5/11/21; optional place phrase empty and
+« у ручья»; no hidden sugar names, unspellable field lists or barter counts.
+All pass. Staged git whitespace passes. Global links: файлов: 5429, ссылок: 40801, проблем: 278; no RPG issue. No shared DB, host/core source, baseline, build,
+simulation or paid generation changed/run by RPG.
