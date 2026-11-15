@@ -1,0 +1,61 @@
+#1775 six visible raw feed keys — text-source handoff
+Authority: boss-rpg-feed-six-strings-2026-11-15 [1]. Role: text only; boss
+registers/exports. No edits to the shared DB, feed tables or host/core code.
+
+ONE CSV: manual/texts/feed-six-missing-1775-2026-11-15.csv.
+Exactly SIX assigned key identities, all feed, no unrelated new row.
+Source: design.db feed_row, host tables/feed.csv/feed_instances.csv;
+host/src/feed/feed_door.cpp and feed_fold.cpp; core event_state.h and
+herd_life.cpp routine age death emitter; rules/epoch1/night_trade.lua.
+
+EXACT CURRENT SUBSTITUTIONS, NOT GUESSED SCRIPT DISPATCH FIELDS:
+- hands_idle_with_work_waiting: no placeholders. Core packs three fields
+  into amount; Lua dispatch unpacks residents/work/shortfall, but feed Fill
+  exposes none of those and RawOf lacks this row. Do not render raw amount,
+  count as workers, a missing horse/road or an invented reason.
+- lamp_turned_red: no placeholders. Fill has no localized lamp-kind/cause;
+  the generic actual transition is all this text reports.
+- night_shot_heard: no placeholders. Audible fact only; its producer knows
+  a resident/hunter but the public fact does not identify a shooter.
+- herd_died.routine.folded / folded_more: count:int;names:text.
+  Routine is age death (core herd_life RunAgeDeaths); hunger is another
+  severity/instance. feed_row count_of=none -> LineOf.count = entry count,
+  NOT head count, although each raw event amount is heads. No RawOf mapping
+  exists for herd_died. Thus the text counts CASES, never animal heads.
+  folded_more is >3 DISTINCT subjects; only three named subjects are kept.
+  count remains all events, not omitted subjects. Fill offers no more field.
+  The compatible text uses TOTAL cases and «Среди стад: {names}…», following
+  the existing folded_more family. A numeric omitted remainder requires
+  a real owner API change, not subtraction of three from an event count.
+- social_status_changed: person_family:name, the actual resident display
+  name from namer.Person. No localized new social status in feed Fill; no
+  inferred new organization, age or promotion is asserted. No gendered verb.
+
+OWNER QUESTIONS/GAPS:
+Exact binding confirmation was requested in
+rpg-host-feed-six-bindings-1775-2026-11-15; host is currently offline, the
+parcel remains file-delivered. Source is based on the visible actual door,
+not a promised future extension. No approval or response is inferred.
+The boss's folded_more gloss «and N more» has no numerical remainder in
+that door; the CSV gives a truthful compatible ellipsis rather than false N.
+If a literal omitted N is required, boss/host must expose it explicitly.
+
+social_status_changed has wave folding but currently lacks base, folded AND
+folded_more strings. This batch repairs only the requested BASE. Separate
+folded variants may still be missing on a multi-entry wave; boss/host are
+notified rather than RPG silently expanding the six-key assignment. This
+CSV is not a claim to remove every possible raw feed key or pass the entire
+host-wide FeedTextHoles checker. No new registry row/mechanic is authored.
+
+Boss owns import/sync/check/export and strings closure. After that game/host
+own the rendered ride check. The current screenshot demonstrates missing
+strings, not verification that this source has reached the running build.
+No build, simulation, paid image/voice or native-render result by RPG.
+
+Validation: exact six assigned identities, six unique missing live keys;
+current Fill names only, exact declared placeholder sets/types, count/names
+plural flags/forms at 1/2/5/11/21, limits/trim/required metadata. No {amount}
+or fabricated more placeholder enters the batch. FeedTextHoles source read
+confirms no mandatory amount in a template; its full all-row closure is not
+claimed by this six-key delivery. Staged whitespace passes. Global links:
+5,423 files / 40,780 links / 276 existing issues outside RPG, none RPG.
