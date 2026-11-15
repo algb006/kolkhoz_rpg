@@ -1,10 +1,11 @@
-CURRENT STATUS: boss [3] registered/exported the initial six keys
-20966–20971; exact equality verified read-only. Boss [5] then expanded the
-follow-up to FOUR assigned keys in ONE CSV:
-manual/texts/feed-four-remaining-1775-2026-11-15.csv.
-The original two-wave-key draft was not delivered or committed separately.
-Earlier scope-exclusion notes are history, superseded by boss [5]. Native
-zero-hole evidence is owed by host, not inferred by RPG from this CSV.
+CURRENT NATIVE RESULT: host-rpg-four-feed-holes-1775-2026-11-15 [2].
+Ten #1775 keys registered/exported, strings 20966–20975, exact equality
+verified read-only. Native TestDoorHolesBaseline: 65 -> 55, NOT ZERO.
+Host 0.7.541 / main 1d53cdb; core 0.37.381; m22 suite
+1115-191324-host-suite541d, exported strings as of 19:13 with these ten.
+Current checked-in baseline independently counted: 55 = 48 missing strings
++ 3 orphan strings + 2 unsupported placeholders + 2 unknown amount units.
+Earlier scope and zero-target notes below are history, not current status.
 
 #1775 six visible raw feed keys — text-source handoff
 Authority: boss-rpg-feed-six-strings-2026-11-15 [1]. Role: text only; boss
@@ -134,3 +135,81 @@ silently authored and no test-baseline file is edited by RPG.
 Four-key validation: exact assigned key set, current Fill names, unchanged
 six registered sources, metadata/limits/plural checks and staged whitespace
 pass. Required links: файлов: 5424, ссылок: 40786, проблем: 276; no RPG issue.
+
+NATIVE RESULT FOLLOW-UP — host-rpg-four-feed-holes-1775 [2]
+Owner measured TestDoorHolesBaseline against actual tables/feed.csv and
+exported db/strings/stringtables/ru/feed.csv on m22. Its ten-line closure is
+confirmed by source/registration equality and a read-only count of the
+checked-in updated baseline; RPG did NOT rerun a build, suite or simulation.
+Host main 1d53cdb independently checked via read-only git log.
+
+48 no-string cases: RPG text work ONLY if boss assigns those keys and their
+actual payloads; not an inferred assignment to write the other 48 now.
+3 orphan-string cases (acceptance_act_signed, burial_held, church_rye_stolen):
+boss's feed export/binding. Host says the church theft row/raiser follows the
+signed core-382 re-pin; no new RPG text is needed for that orphan.
+2 unsupported parameters (plan_trial_due limit, stack_cart_urgent field):
+boss decides whether host adds a real door or RPG rewords using actual Fill
+fields. No silent substitution or deletion of information by RPG.
+2 amount-unit gaps (advance_written_off, district_visit_announced): boss's
+registry/binding decision and host's raw-unit mapping, not invented text units.
+The ten source strings remain unchanged; the four-row CSV now marks actual
+registration. All remaining work/ownership is reported to boss for routing.
+No claim of total zero, false baseline clearing or speculative new mechanics.
+
+FULL 55-LINE OWNER BASELINE SNAPSHOT (1d53cdb; current read-only file):
+feed.acceptance_act_signed: a string no in-feed row asks
+feed.advance_written_off.folded: no string
+feed.advance_written_off.folded_more: no string
+feed.advance_written_off: {amount} - the door does not know the raw unit (registry: none)
+feed.appointed: no string
+feed.audit_unguarded_leak.folded: no string
+feed.audit_unguarded_leak.folded_more: no string
+feed.barter_day.folded: no string
+feed.barter_day.folded_more: no string
+feed.barter_day: no string
+feed.burial_held: a string no in-feed row asks
+feed.church_rye_stolen: a string no in-feed row asks
+feed.church_store_emptied: no string
+feed.day_off_held_urgent_load: no string
+feed.dismissed: no string
+feed.district_grid_built: no string
+feed.district_visit.gift: no string
+feed.district_visit.junior_miss: no string
+feed.district_visit.reception: no string
+feed.district_visit_announced: {amount} - the door does not know the raw unit (registry: a unit)
+feed.era_1_transition_offered: no string
+feed.exit_certificate_decided: no string
+feed.family_lodged: no string
+feed.first_football_match_played: no string
+feed.grid_powered: no string
+feed.herd_ate_from_far_rick.folded: no string
+feed.herd_ate_from_far_rick.folded_more: no string
+feed.herd_died.routine: no string
+feed.herd_dieoff_half_trial: no string
+feed.office_end_burned: no string
+feed.order_cancelled.world: no string
+feed.order_refused: no string
+feed.organizer_changed: no string
+feed.plan_failed_warning_first: no string
+feed.plan_failed_warning_last: no string
+feed.plan_trial_due: {limit} is not in the feed's closed list
+feed.post_vacated: no string
+feed.resident_returned_to_work: no string
+feed.resident_sent_away: no string
+feed.specialist_arrived: no string
+feed.specialist_no_housing: no string
+feed.stack_cart_urgent.folded: no string
+feed.stack_cart_urgent.folded_more: no string
+feed.stack_cart_urgent: {field} is not in the feed's closed list
+feed.sugar_stolen.folded: no string
+feed.sugar_stolen.folded_more: no string
+feed.third_week_absent: no string
+feed.three_specialists_working: no string
+feed.trial_stage_case: no string
+feed.trial_stage_commission: no string
+feed.trial_stage_signal: no string
+feed.urgent_load_waits: no string
+feed.village_end_warning: no string
+feed.wedding: no string
+feed.work_got_no_hands: no string
