@@ -1,0 +1,43 @@
+#1765 church-store rye theft and the sixth prepared explanation
+Authority: boss-rpg-1765-theft-lines-2026-11-15 [1]; econ proposal
+first-rye-plan-is-the-theft-2026-11-15 §4/§5. Tone read first, including
+religion and non-hopelessness boundaries.
+
+ONE CSV: manual/texts/church-theft-lines-1765-2026-11-15.csv.
+THREE rows for the two requested content items: the FACT has the same
+feed / ui.office event pair as sugar_stolen, plus one scene answer.theft.
+No existing keys changed. kg:real in both fact variants; no parameters in
+the chairman's answer. Unit kg is in the template, not the producer value.
+
+OWNER BINDINGS:
+- Actual year-1 night loss of rye from the church STORE. Positive actual
+  stolen amount in kilograms, not grams, tonnes, a yearly sum, plan deficit,
+  assumed rounded loss or amount inferred from a book threshold.
+- The second sentence is the accepted drinking-linked theft context from
+  the assignment/proposal. Do not reuse it for an unproved alcohol link,
+  generic loss, different resource, or church activity. No culprit named.
+- The two presentation variants describe ONE event, not two theft events.
+  Existing owner record/routing policy decides which reader uses which;
+  no new repeated alarm, lamp, action tip or frequency rule is authored.
+- theft is a sixth PREPARED cause, not six visible choices. Host adds the
+  tag/reader/predicate under #1766; RPG does not edit the bound host copy or
+  invent a local cause flag. Source Lua remains the original five-cause
+  review snapshot, not a claim that the new answer is already wired.
+- Show the answer only for the same closed year's failed food position and
+  the approved actual theft predicate. Thresholds, combination/priority of
+  causes and the 2–4 visible-answer selector belong to host/boss under #1766.
+  Existing explicit-choice testimony and Esc/no-effect behavior are kept.
+  No automatic blame, plan/trial credit, reputation, reward or guards.
+
+TONE: loss is from a store housed in the church; drinking is in the village.
+No religious judgement, imagined church drinking scene, named culprit,
+insult or inevitable loss. The answer reports the loss; it does not say the
+church cannot be protected or that the chairman has no way to act.
+The actual anti-crime doors remain the existing world, not new text advice.
+
+Boss registers/exports; host owns #1766 and any game event wiring. No paid
+speech, build, simulation, native rendering or reachability claim by RPG.
+
+Validation: three unique new live-key candidates, exact placeholder sets,
+supported kinds, limits/trim/required metadata, actual sugar-pair reference,
+answer prose equality; staged whitespace passes. Required links: файлов: 5415, ссылок: 40740, проблем: 276; no RPG issue. No gameplay tests needed for this text-only batch.
