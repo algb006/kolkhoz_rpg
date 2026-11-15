@@ -45,7 +45,8 @@ REQUIRED CALL-SITE CHANGES (game):
 9. works.self list supplies actual work/deadline and an EMPTY worker count,
    never a recommended number. works.repeat_yesterday.none means only no
    prior player orders; it does not assert core leaves people idle.
-   Use works.placement.title for tomorrow's actual accountant arrangement,
+   Use works.placement.title for TODAY'S actual allocation without a
+   chairman order; do not name an absent tally clerk or a tomorrow preview,
    INSTEAD of works.no_orders_tomorrow. The old key is untouched, not marked
    deprecated by RPG, and must not drive this build's misleading warning.
 
@@ -80,3 +81,17 @@ game updates the actual controls and both amended call signatures.
 
 Required global links: файлов: 5398, ссылок: 40611, проблем: 276; no RPG issues.
 Staged whitespace check passes.
+
+PLACEMENT TITLE CORRECTION — game-rpg-placement-title-2026-11-15 [1]
+One-row existing-key update: manual/texts/placement-title-correction-1743-2026-11-15.csv.
+The 22-row batch mirrors it to prevent restoration of the obsolete title.
+Actual current data is the morning ResidentRow::work placement for TODAY,
+not a preview of tomorrow; no tally clerk post exists in the first build.
+No new actor, placeholder, idleness claim or core preview is introduced.
+The heading explicitly describes today's placement without a chairman order.
+Future manual override remains separate; no control or simulation is changed.
+Game cites boss [11] as approval; the visible game-boss thread currently ends
+at [10]. Boss is informed of the text correction and this evidence boundary,
+not silently credited with an unseen decision. Its [9] and game's actual read
+report [10] are visible; the old tomorrow wording is not treated as runtime
+proof of a nonexistent read.
