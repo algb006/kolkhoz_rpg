@@ -1,7 +1,9 @@
-CURRENT OWNER STATUS: host [5] reports five working copies bound, native
-census pending; elder NOT imported. See the dated owner-review follow-up at
-this record's end. Earlier absent-API/registration notes are source history,
-not the current status of host's working tree or the now-registered surplus key.
+CURRENT OWNER STATUS: host [7] reports RELEASED 0.7.537 / fd6fbe8.
+Canon census 1115-061312 observes Karasev formal_present and Polushkina
+clean/no_office; other district branches not reached or factual-guard silent.
+Elder remains NOT IMPORTED. See latest released-census follow-up at end.
+Older working-tree/API/cause/registration notes below are chronological
+history and are superseded where the latest owner result says otherwise.
 
 #1732 — authoritative host.scene source handoff / owner API review
 
@@ -178,3 +180,33 @@ Host is running suite and 64-seed/six-year canon census on m22 and will name
 the result in the thread. No RPG re-run, build or simulation was started.
 This record acknowledges reviewed working sources, not a released/native
 six-scene playback result. Host owns its commit/release and census evidence.
+
+RELEASED NATIVE CENSUS — host-rpg-1732-scene-pattern-2026-11-15 [7]
+Host main fd6fbe8 / 0.7.537, also checked via read-only host git log.
+Owner census 1115-061312: facade the game embeds, canon KH, 64 seeds x 6 years.
+Karasev: formal_present 384/384 visits. Polushkina: clean 352, no_office 32.
+Polushkina uncovered_case: no discrepancy observed; formal_doubt no fact.
+Zhernova: no canon seizure above limit, fact never raised; NOT REACHED.
+Stozharov: no canon visit, also no authored case; NOT REACHED.
+Failure: 57 facts, all year-1 rye, 0/5 causes each; correctly SILENT under the
+minimum-two factual-answer guard. Signed causes do not cover these cases;
+boss has referred coverage to econ. Do not invent a second answer or weaken
+the guard merely to make the scene play. Elder still NOT IMPORTED, contact
+continuation owed. The report has 0 render errors on output actually observed;
+it does not establish full playback of the unplayed branches or six scenes.
+This is owner-supplied native evidence, not a duplicate RPG run.
+
+GRAMMAR FOLLOW-UP: keep canonical capitalized resource display names. In the
+five existing failure openings, quote failed_positions as a report extract,
+so it is not an unquoted capitalized noun forced into running prose. Proposed
+ONE five-row import: manual/texts/failure-opening-quotation-1732-2026-11-15.csv.
+Only quotation marks change; failed_year/failed_positions and keys unchanged.
+The placeholder itself remains the exact localized same-year list without
+outer quotes or final stop. No global resource/feed capitalization transform,
+new cause, runtime binding or speech option. Boss owns approval/import;
+local source punctuation is not yet a registered text change.
+
+Follow-up validation: five existing-key quotation-only replacements checked
+against live text, unchanged parameters, source mirrors and whitespace. Global
+links: 5,404 files / 40,642 links / 276 existing issues outside RPG, none RPG.
+No duplicate native census, build or simulation was run by RPG.

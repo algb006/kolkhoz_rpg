@@ -3,14 +3,16 @@
     "path": "scenes/epoch1/district_failure_explanation.lua",
     "scene": "scene.district.failure_explanation",
     "fact": "district_face_asks_about_failed_year_plan",
-    "status": "host_working_copy_bound_native_census_pending",
+    "status": "released_silent_factual_guard",
     "repeat_policy": "repeatable",
     "queue_owner": "host.scene registry, no private queue or day gate",
-    "context_status": "local context reader deliberately unbound pending actual #1731 contract",
-    "speaker_api": "host [5]: district_face implemented in scene and say in working 0.7.537, not released",
+    "context_status": "RPG source reader remains review-only; owner released its bound reader; cause coverage issue belongs to boss/econ",
+    "speaker_api": "released host 0.7.537 / fd6fbe8: district_face in scene and say",
     "rpg_source_context": "Review source retains the isolated reader seam; host shipping copy binds actual owner context and removes bind_context export",
-    "owner_context": "historical year and closed-book positions bound; cause marks not written, NOT REACHED until approved map supplies at least two factual answers",
-    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [5]; interim working tree report, no final playback claim"
+    "owner_context": "year and closed-book positions bound; signed causes report zero applicable causes for all 57 canon failures; explanation remains silent by guard",
+    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [7], released host fd6fbe8",
+    "native_census_result": "57 facts, all year-1 rye; zero factual causes; guard correctly suppresses dialogue; cause coverage with boss/econ",
+    "census": "host-reported 1115-061312; facade canon KH, 64 seeds x 6 years; 0 render errors on observed output, not proof of unplayed branches"
   },
   {
     "path": "scenes/epoch1/elder_first_meeting.lua",
@@ -21,59 +23,68 @@
     "queue_owner": "host.scene registry, no private queue or day gate",
     "context_status": "existing Elder() for initial exchange; real owner continuation reader/hook still required",
     "speaker_api": "resident",
-    "owner_review": "host [5]: elder import follows the district release; actual contact continuation still owed",
-    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [5]; interim working tree report, no final playback claim"
+    "owner_review": "host [7]: elder not imported; actual elder-contact resume still owed after district release",
+    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [7], released host fd6fbe8",
+    "census": "host-reported 1115-061312; facade canon KH, 64 seeds x 6 years; 0 render errors on observed output, not proof of unplayed branches"
   },
   {
     "path": "scenes/epoch1/karasev_inspection_return.lua",
     "scene": "scene.district.karasev.inspection_return",
     "fact": "karasev_inspection_completed",
-    "status": "host_working_copy_bound_native_census_pending",
+    "status": "released_native_formal_present_observed",
     "repeat_policy": "repeatable",
     "queue_owner": "host.scene registry, no private queue or day gate",
     "context_status": "local context reader deliberately unbound pending actual #1731 contract",
-    "speaker_api": "host [5]: district_face implemented in scene and say in working 0.7.537, not released",
+    "speaker_api": "released host 0.7.537 / fd6fbe8: district_face in scene and say",
     "rpg_source_context": "Review source retains the isolated reader seam; host shipping copy binds actual owner context and removes bind_context export",
     "owner_context": "formal_present only; other cases NOT REACHED",
-    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [5]; interim working tree report, no final playback claim"
+    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [7], released host fd6fbe8",
+    "native_census_result": "formal_present 384/384 visits; other branches outside current world mapping",
+    "census": "host-reported 1115-061312; facade canon KH, 64 seeds x 6 years; 0 render errors on observed output, not proof of unplayed branches"
   },
   {
     "path": "scenes/epoch1/polushkina_inspection_return.lua",
     "scene": "scene.district.polushkina.inspection_return",
     "fact": "polushkina_inspection_completed",
-    "status": "host_working_copy_bound_native_census_pending",
+    "status": "released_native_clean_no_office_observed",
     "repeat_policy": "repeatable",
     "queue_owner": "host.scene registry, no private queue or day gate",
     "context_status": "local context reader deliberately unbound pending actual #1731 contract",
-    "speaker_api": "host [5]: district_face implemented in scene and say in working 0.7.537, not released",
+    "speaker_api": "released host 0.7.537 / fd6fbe8: district_face in scene and say",
     "rpg_source_context": "Review source retains the isolated reader seam; host shipping copy binds actual owner context and removes bind_context export",
     "owner_context": "no_office / clean / uncovered_case; formal_doubt NOT REACHED",
-    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [5]; interim working tree report, no final playback claim"
+    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [7], released host fd6fbe8",
+    "native_census_result": "clean 352, no_office 32; uncovered_case no discrepancy observed; formal_doubt no distinguishing fact",
+    "census": "host-reported 1115-061312; facade canon KH, 64 seeds x 6 years; 0 render errors on observed output, not proof of unplayed branches"
   },
   {
     "path": "scenes/epoch1/stozharov_inspection_return.lua",
     "scene": "scene.district.stozharov.inspection_return",
     "fact": "stozharov_inspection_completed",
-    "status": "host_working_copy_bound_native_census_pending",
+    "status": "released_not_reached_on_canon",
     "repeat_policy": "repeatable",
     "queue_owner": "host.scene registry, no private queue or day gate",
     "context_status": "local context reader deliberately unbound pending actual #1731 contract",
-    "speaker_api": "host [5]: district_face implemented in scene and say in working 0.7.537, not released",
+    "speaker_api": "released host 0.7.537 / fd6fbe8: district_face in scene and say",
     "rpg_source_context": "Review source retains the isolated reader seam; host shipping copy binds actual owner context and removes bind_context export",
     "owner_context": "no case written; NOT REACHED",
-    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [5]; interim working tree report, no final playback claim"
+    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [7], released host fd6fbe8",
+    "native_census_result": "no visit in six years; no authored case written",
+    "census": "host-reported 1115-061312; facade canon KH, 64 seeds x 6 years; 0 render errors on observed output, not proof of unplayed branches"
   },
   {
     "path": "scenes/epoch1/zhernova_inspection_question.lua",
     "scene": "scene.district.zhernova.inspection_question",
     "fact": "zhernova_discrepancy_found",
-    "status": "host_working_copy_bound_native_census_pending",
+    "status": "released_not_reached_on_canon",
     "repeat_policy": "repeatable",
     "queue_owner": "host.scene registry, no private queue or day gate",
     "context_status": "RPG source seam unbound; host working copy binds surplus; opening.surplus registered and equality verified",
-    "speaker_api": "host [5]: district_face implemented in scene and say in working 0.7.537, not released",
+    "speaker_api": "released host 0.7.537 / fd6fbe8: district_face in scene and say",
     "rpg_source_context": "Review source retains the isolated reader seam; host shipping copy binds actual owner context and removes bind_context export",
     "owner_context": "surplus; actual localized seized resource via host.world.resource_name; key registered",
-    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [5]; interim working tree report, no final playback claim"
+    "owner_status_source": "host-rpg-1732-scene-pattern-2026-11-15 [7], released host fd6fbe8",
+    "native_census_result": "no seizure above accumulation limit on canon; no fact raised; surplus key registered",
+    "census": "host-reported 1115-061312; facade canon KH, 64 seeds x 6 years; 0 render errors on observed output, not proof of unplayed branches"
   }
 ]
