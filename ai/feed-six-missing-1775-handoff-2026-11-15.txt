@@ -1,3 +1,11 @@
+CURRENT STATUS: boss [3] registered/exported the initial six keys
+20966–20971; exact equality verified read-only. Boss [5] then expanded the
+follow-up to FOUR assigned keys in ONE CSV:
+manual/texts/feed-four-remaining-1775-2026-11-15.csv.
+The original two-wave-key draft was not delivered or committed separately.
+Earlier scope-exclusion notes are history, superseded by boss [5]. Native
+zero-hole evidence is owed by host, not inferred by RPG from this CSV.
+
 #1775 six visible raw feed keys — text-source handoff
 Authority: boss-rpg-feed-six-strings-2026-11-15 [1]. Role: text only; boss
 registers/exports. No edits to the shared DB, feed tables or host/core code.
@@ -81,3 +89,48 @@ only openings/closures; registration of these six should close six existing
 holes, not silently mark these other four closed. Boss is notified. No new
 scope is inferred and no hunger/death wording is fabricated for another
 instance in this metadata update. All six source text values are unchanged.
+
+AUTHORIZED SOCIAL WAVE FOLLOW-UP — boss-rpg-feed-six-strings [3]
+The original two-key wave draft was absorbed into
+manual/texts/feed-four-remaining-1775-2026-11-15.csv under boss [5].
+Exactly feed.social_status_changed.folded and .folded_more; both log,
+count:int;names:text, plural=1. count_of=entries -> count is total membership
+CHANGE EVENTS, never distinct residents or omitted names. names is the actual
+localized resident list (NameOfSubject chooses resident first). The more
+variant says «Среди жителей: {names}…»; no false numerical remainder or status.
+Host's live Fill now shows repeated-spelling compaction; both new texts
+accept a value such as Name (2) without treating it as total changed people.
+No new membership/organization/gender/age/appointment is inferred from raw
+amount. Explicit {count} then count|plural is correct with word-only forms.
+
+The original six-row CSV now says registered_by_boss, no text changes.
+Boss's previous accepted ellipsis stands. herd_died.notable and .interrupting
+remain unassigned baseline holes; their silence is not claimed fixed by
+this two-key extension. Boss imports/exports these two, host owns the actual
+FeedTextHoles baseline closures; RPG does not edit either shared system.
+
+FOUR-KEY FOLLOW-UP — boss-rpg-feed-six-strings [5]
+The ONE CSV contains the two authorized social wave templates plus:
+feed.herd_died.notable {herd:name}: kolkhoz herd hunger death, agent/alarm.
+feed.herd_died.interrupting {herd:name}: household herd hunger death,
+general/alarm. Core RunHungerDeaths explicitly selects severity by
+household_owned; these are not age deaths. Herd name is a guaranteed subject
+on that emitter. No head number can be rendered from count or amount using
+the current feed adapter, so none is fabricated. No source/table/urgency
+change is made. Owner confirms/prints native closures after boss import.
+
+ZERO-HOLE EVIDENCE BOUNDARY:
+The checked-in host/tests/baselines/feed_text_holes.txt has many historical
+holes, not only these four. A baseline can be stale, so it is not itself a
+current native result. But read-only live strings checks ALSO still find
+feed.herd_died.routine, feed.order_refused and feed.work_got_no_hands absent;
+the current FeedTextHoles code asks those active bases. These examples are
+outside this four-key CSV. Thus RPG cannot honestly predict total holes=0
+from these four alone. Boss is told the concrete discrepancy and host is
+asked to print the actual total and remaining list after import, not to
+blindly clear a baseline or suppress unassigned keys. No extra strings are
+silently authored and no test-baseline file is edited by RPG.
+
+Four-key validation: exact assigned key set, current Fill names, unchanged
+six registered sources, metadata/limits/plural checks and staged whitespace
+pass. Required links: файлов: 5424, ссылок: 40786, проблем: 276; no RPG issue.
