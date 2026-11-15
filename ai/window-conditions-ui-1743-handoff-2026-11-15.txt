@@ -1,0 +1,82 @@
+#1743 / #1738 / #1235 / #729 second UI key handoff
+Authority: boss-rpg-keys-econ-conditions-2026-11-15 [1], game-boss-nine-windows
+[8], econ/manual/audit/complexity-2026-11-15-four-windows.md. Owner decisions
+remain the basis; this package adds text, not mechanics or skip policy.
+
+ONE import CSV: manual/texts/window-conditions-ui-1743-2026-11-15.csv.
+22 rows: 20 new + 2 existing-key changes. Three rows are glossary entries.
+The first 31-row CSV mirrors the TWO amended rows to prevent a later import
+restoring their old signatures. Import only the new 22-row CSV for this batch.
+
+REQUIRED CALL-SITE CHANGES (game):
+1. Render ui.office.trip.confirm.orders_refused on BOTH ordinary and mud
+   confirmations before commitment. Existing trip.confirm(.mud)/away retain
+   return:date and all their actual preview behavior.
+2. ui.office.refusal.trip_this_month now REQUIRES date:date: the next actual
+   eligible trip date. It does not promise an automatically scheduled trip.
+3. ui.office.trade.swap keeps resource:name/crop:name and now REQUIRES
+   from_tonnes:real/to_tonnes:real. Actual preview quantities in tonnes,
+   without unit suffix; crop names in nominative inside quotation marks.
+4. trade.basis {amount:real,year:int} describes the previous year's delivered
+   tonnes. Use the actual closed CALENDAR year, not a campaign-year index.
+   trade.basis.start_stock {amount:real} is a separate first-plan variant;
+   do not describe initial stock as nonexistent prior-year deliveries.
+5. ui.office.letter.plan.bargain_rule uses the namespace of the existing
+   journal.first_incoming plan-letter entry. It states January-March and the
+   first-plan exception, so even the first letter cannot promise forbidden
+   bargaining. It is a rule statement, not a recommended action.
+6. Choose dayoff.harvest_order.state.on OR .off from the actual boolean.
+   These are complete localized lines, replacing the proposed free-text
+   on/off slot. No literal untranslated English state is passed by game.
+   dayoff.harvest_order.toggle labels the boolean switch; it is not an
+   unconditional turn-off command. The existing Student closure applies to
+   the switch too. Do not invent the still-pending harvest-risk predicate.
+7. dayoff.harvest_order.price {amount:real}: NONNEGATIVE actual per-Sunday
+   satisfaction loss, already adjusted by core. Same magnitude convention
+   as dayoff.price. Show actual price even after free counter reaches zero.
+   dayoff.holiday.price {amount:real,reputation:real}: amount is the actual
+   NONNEGATIVE family loss; reputation is SIGNED delta, as in trade.price.
+   Use the holiday's own full/partial-day preview, never Sunday's price or
+   hardcoded 4/3. dayoff.free_left.zero explains the exhausted counter.
+8. notebook.sunday_taken is emitted ONLY for an actually taken Sunday;
+   enabling the standing order alone emits no historical claim. Date is
+   the actual taken Sunday. dayoff.next_sunday reads the calendar, not a
+   guessed one-Sunday-per-month pattern.
+9. works.self list supplies actual work/deadline and an EMPTY worker count,
+   never a recommended number. works.repeat_yesterday.none means only no
+   prior player orders; it does not assert core leaves people idle.
+   Use works.placement.title for tomorrow's actual accountant arrangement,
+   INSTEAD of works.no_orders_tomorrow. The old key is untouched, not marked
+   deprecated by RPG, and must not drive this build's misleading warning.
+
+DATE CONTRACT: every date value is localized weekday/month/year/time as
+needed. No day-of-month. Labels avoid imposing a grammatical case on date
+values; all use a colon or a standalone date. Numeric amounts carry no unit
+suffix; templates carry tonnes where appropriate. No extra plural noun.
+
+GLOSSARY HOVERS:
+межень -> glossary.low_water
+комсомольская путёвка / путёвка -> glossary.specialist_assignment
+dовольство -> glossary.satisfaction
+Existing standing-order hover: glossary.standing_order. Game wires hover
+through its existing door after boss registers these three new entries.
+
+EN LOCALIZATION GUIDANCE ONLY (not an English translation/locale import):
+The idiom «на ковёр» in the trip means a mandatory summons to the district
+office to explain the farm's affairs. Use a contextual phrase such as
+"called in to explain matters"; no literal carpet, threat, arrest or trial.
+Russian trip UI already says «по вызову»/«вызов», so it needs no redundant
+fourth Russian glossary key. This note is for future translators.
+
+No other design decision is taken: the trip skip/urgent-signal question,
+work allocation mechanics, new avatar bonuses and future cause predicates
+are not implemented or silently resolved by these strings.
+
+Validation: read-only live-key comparison, 22 unique full keys, exactly the
+2 authorized collisions, exact placeholder sets/types, supported kinds,
+trim/length/required metadata; existing namespace/journal/first-batch targets
+checked. No runtime build or UI playback claimed. Boss imports/exports;
+game updates the actual controls and both amended call signatures.
+
+Required global links: файлов: 5398, ссылок: 40611, проблем: 276; no RPG issues.
+Staged whitespace check passes.

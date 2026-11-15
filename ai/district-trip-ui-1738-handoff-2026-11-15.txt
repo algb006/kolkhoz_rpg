@@ -1,3 +1,9 @@
+CURRENT SIGNATURE FOLLOW-UP: the second batch in
+ai/window-conditions-ui-1743-handoff-2026-11-15.txt supersedes the original
+refusal.trip_this_month and trade.swap signatures below. The source CSV
+mirrors both updates: date required for the refusal, old/new tonnes required
+for crop replacement. Other initial signatures remain unchanged.
+
 #1738 UI source handoff
 Authority: boss-rpg-trip-keys-2026-11-15 [1], game's list in
 game-boss-nine-windows-2026-11-15 [7], accepted district.md trip/bargain rules.
