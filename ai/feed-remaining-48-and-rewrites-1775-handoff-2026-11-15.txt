@@ -1,3 +1,11 @@
+CURRENT OWNER STATUS: boss-rpg-feed-48-strings-2026-11-15 [4].
+48 NEW keys registered/exported through string 21023, boss main fb4492e05;
+exact source equality independently verified read-only. FOUR existing-key
+rewrites intentionally NOT applied; live source still has the old text.
+They wait for the signed atomic host raw-row/raiser/registry landing.
+Source texts/keys/arguments are unchanged; the CSV remains the agreed source.
+No final native zero or runtime-render completion is claimed by RPG.
+
 #1775 remaining 48 missing strings and four existing-key rewrites
 Authority: boss-rpg-feed-48-strings-2026-11-15 [1,2]; host-boss-feed-holes-55
 [3,4]. The second move supersedes the first move's incorrect count proposal.
@@ -84,3 +92,12 @@ sample template expansions at 1/2/5/11/21; optional place phrase empty and
 « у ручья»; no hidden sugar names, unspellable field lists or barter counts.
 All pass. Staged git whitespace passes. Global links: файлов: 5429, ссылок: 40801, проблем: 278; no RPG issue. No shared DB, host/core source, baseline, build,
 simulation or paid generation changed/run by RPG.
+
+REGISTRATION ACKNOWLEDGEMENT — boss [4]
+All 48 new rows now marked registered_by_boss; the four replacement rows stay
+proposed until the coordinated owner move. Boss explicitly says nothing more
+is needed from RPG. Same amount adapter gate also covers newly registered
+advance_written_off.folded/.folded_more, as their existing binding notes state:
+registered text is not proof those amount substitutions already render before
+the signed raw mapping and tonnes unit land. No source edit or extra rerun is
+requested; host owns final native FeedTextHoles measurement after the move.
