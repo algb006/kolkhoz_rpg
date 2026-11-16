@@ -1,3 +1,9 @@
+LATEST RESUME REVIEW: ai/maintenance-resumed-2026-11-16.txt supersedes the
+older elder NOT IMPORTED and five-cause owner-status snapshots below.
+Bound elder is imported since host 0.7.541; one completed-pause defect is
+reproduced/fixed in RPG source with an owner-only patch, not applied in host.
+Six-cause single-answer silence is boss-approved. Actual frame still owed.
+
 CURRENT OWNER STATUS: host [7] reports RELEASED 0.7.537 / fd6fbe8.
 Canon census 1115-061312 observes Karasev formal_present and Polushkina
 clean/no_office; other district branches not reached or factual-guard silent.

@@ -1,0 +1,29 @@
+--- a/rules/epoch1/scene_elder_first_meeting.lua
++++ b/rules/epoch1/scene_elder_first_meeting.lua
+@@ -87,7 +87,7 @@
+            "], voiced length NOT MEASURED (the strings carry none)")
+     put("phase","done");put("paused",false);return true
+   end
+-  if get("phase")=="done" then return true end
++  if get("phase")=="done" then put("paused",false);return true end
+   if input.coat_topic==true then
+     assert(AVATARS[input.avatar] and
+       (input.coat_reply=="coat_worn" or input.coat_reply=="work_clothes"),
+@@ -114,7 +114,7 @@
+         -- the next real contact with the elder - the resume - not in the same breath.
+       end},
+       {key=SCENE .. ".answer.own",kind="deal",on=function()
+-        put("choice","own");say(SCENE .. ".reply.own");put("phase","done")
++        put("choice","own");say(SCENE .. ".reply.own");put("phase","done");put("paused",false)
+         census("choice own")
+       end},
+     },
+@@ -148,6 +148,8 @@
+
+ local function resume(ev)
+   -- Hooked to the actual elder interaction below, not a timer; the once-only scene is not asked again.
++  -- A completed meeting cannot count as resumed, including older saved flags.
++  if get("phase")=="done" then put("paused",false);return false end
+   if not get("paused") then return false end
+   local input=read_context(ev)
+   local elder=host.world.elder()

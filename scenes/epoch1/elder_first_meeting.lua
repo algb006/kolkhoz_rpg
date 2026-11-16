@@ -31,9 +31,9 @@ local function play(who, input)
       say(SCENE .. ".layout." .. input.layout_lines[index])
       index=index+1;put("layout_index",index)
     end
-    put("phase","done");return true
+    put("phase","done");put("paused",false);return true
   end
-  if get("phase")=="done" then return true end
+  if get("phase")=="done" then put("paused",false);return true end
   if input.coat_topic==true then
     assert(AVATARS[input.avatar] and
       (input.coat_reply=="coat_worn" or input.coat_reply=="work_clothes"),
@@ -57,7 +57,7 @@ local function play(who, input)
         put("phase","layout");put("layout_index",1)
       end},
       {key=SCENE .. ".answer.own",kind="deal",on=function()
-        put("choice","own");say(SCENE .. ".reply.own");put("phase","done")
+        put("choice","own");say(SCENE .. ".reply.own");put("phase","done");put("paused",false)
       end},
     },
     escaped=function() put("paused",true) end,
@@ -89,6 +89,8 @@ end)
 local function resume(ev)
   -- Host must hook this continuation to the actual elder interaction, not a timer.
   -- Do not re-request the once-only host.scene merely to resume one dialogue.
+  -- Repair completed state from older saves before consuming a contact token.
+  if get("phase")=="done" then put("paused",false);return false end
   if not get("paused") then return false end
   local input=read_context(ev)
   local elder=host.world.elder()

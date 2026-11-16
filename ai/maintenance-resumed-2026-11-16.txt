@@ -1,0 +1,84 @@
+RPG maintenance resumed — 2026-11-16
+Authority: human «go» in this same conversation. Maintenance stop is lifted
+for RPG; individual narrative/design/paid-work gates remain. No new goal or
+heavy run. Parked record and current queue were read first. Own main was
+clean at cb052f6; boss notified in rpg-boss-maint-resumed-2026-11-16 [1].
+
+QUEUE
+#1732 remains top, in_code/waiting package frame, no linked frame in tasks.
+#1739 stays AFTER #1732; no district trip scene started while that gate holds.
+Other role/code/frame gates and #761 after-demo rule are unchanged.
+
+BURIAL TAIL
+Live feed.burial_held still has settlement; checked-in host baseline still
+contains that one unsupported parameter. One-row source 2387dc5 remains the
+owner import candidate. Do not infer native zero from source preparation.
+
+#1732 OWNER RECONCILIATION
+Host bound elder copy is present since 0.7.541 / 1d53cdb. Boss approved its
+layout map/order/predicates (access last), coat OFF pending real clothing
+context, and resume only on chairman_talked with the living elder and fresh
+token. Elder() is the core's original elder, nil when dead; no substitute.
+The old RPG manifest's NOT IMPORTED/reader-unbound owner claim was stale.
+
+The native fixture SOURCE tests/elder_first_meeting.cmake describes two
+seed9 runs with real reserve removal on day12, and talk/no-talk continuation.
+Its header says census 1115-162456 reached no first meeting in 118 villages
+because neither bot removes the reserve. That is not proof the player fact
+is broken. No new native run was launched by RPG. Up to eight layout lines
+and voiced duration remain the already named boss measurement question;
+no cutting/rewording/voice generation is introduced here.
+
+Failure scene: sixth theft reason and priority were signed in
+host-boss-1766-theft-tag [2]. Single factual cause still means silence by
+approved dialogues rules; KH57 and NPIN23 source census 1115-135156/core381
+was silent as reported. Missing cause doors / core #1764 are not permission
+for RPG to invent a second choice or a new one-option scene form.
+
+FRAME EVIDENCE
+Viewed game-ride-7/ride.frames/W04-dialogue_00.png (1920x1080), README and
+windows-ride-passport.txt. Passport identifies debug.frame_dialogue and host
+0.7.540; frame shows a repeated quest-title placeholder with a hard option.
+It demonstrates the shell/#1710 debug fixture, NOT real elder #1732 content.
+Actual registered offer and two answer keys remain in strings. Do not use
+this image as acceptance of their authored content or choose/escape/resume.
+
+REPRODUCED DEFECT / OWN FIX
+Esc -> real contact resume -> choose own leaves paused=true in the earlier
+RPG source AND current host copy, while phase=done. Later contacts enter
+resume again; host prints resumed before play sees done. This pollutes the
+per-village resume census and retains invalid continuation state.
+Regression first FAILED at own-completion pause assertion. Fix clears paused
+on completion and refuses a completed phase before consuming a contact token;
+also repairs legacy completed+paused saves. Layout completion clears pause.
+No new state key, choice, API, actor, text, reward, timer or scene request.
+
+Verification: python3 tools/check-scene-scripts-1732.py -> 708 isolated Lua
+assertions PASS. Own, see/layout and legacy completed-save paths covered,
+including reload/new contact and no new consumed token. This is source-mock
+validation, not native host/game playback. Existing native fixture tests
+see only, so owner should cover the escaped-own branch when validating fix.
+
+OWNER-REVIEWABLE PATCH
+ai/elder-completed-resume-1732-2026-11-16.patch targets ONLY the host-bound
+copy's completion checks/callback and resume guard. git -C ../host apply
+--check passes; no apply/write occurred in host. Do NOT copy the whole RPG
+review script over host's bound context/census/event code. Owner reviews and
+commits it. Native count/frame acceptance remains owner evidence.
+
+CONCRETE ACCEPTANCE PACKET TO BOSS
+A real first-meeting frame/log must identify scene.elder.first_meeting and
+actual start_reserve_field_removed (not debug.frame_dialogue). Registered
+offer: «Решить — вам. Я могу показать, где поставил бы сам, и почему.
+Не подойдёт место — передвиньте.» Choices: «Покажите весь порядок.» and
+«Размечу по-своему.» Both are deal choices in this script, no invented risky
+choice label. Esc is no choice; actual living-elder contact resumes once;
+a completed own/layout phase never increments resumed on another contact.
+Census/result should preserve NOT REACHED reasons for district branches,
+<2 factual choices silence, and existing eight-line/duration open question.
+Request existing outputs or a slot in owners' already planned capture, not
+an unapproved new heavy job. Boss owns queue advancement/frame acceptance.
+
+Final verification: 708 isolated source assertions passed; host-target patch
+passes git apply --check without writing its tree; staged whitespace clean.
+Required links: файлов: 5436, ссылок: 40824, проблем: 278; no RPG issue.

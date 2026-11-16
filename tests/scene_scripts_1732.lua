@@ -99,7 +99,30 @@ do
   c.resume_token="actual-contact2";c.layout_lines={"housing","well"}
   check(h.module.resume({tick=5}),"actual verified registered layout can continue")
   check(h.store['rpg.scenes.elder_first_meeting.phase']=="done","delivered explanations complete without a build order")
+  check(h.store['rpg.scenes.elder_first_meeting.paused']==false,"layout completion clears the pending pause")
+  c.resume_token="actual-contact3"
+  check(not h.module.resume({tick=6}),"completed layout cannot resume on a later contact")
+  check(h.store['rpg.scenes.elder_first_meeting.resume_token']=="actual-contact2","completed layout consumes no new token")
   check(h.scene_requests==1,"resume does not bypass registry by staging once scene again")
+end
+do
+  local h=fixture("elder_first_meeting.lua");h.day=12;h.emit({tick=31});h.run_next();h.escape()
+  local c={resume=true,resume_token="own-contact1"};h.bind(c)
+  check(h.module.resume({tick=32}),"escaped offer resumes on actual contact")
+  h.choose("answer.own")
+  check(h.store['rpg.scenes.elder_first_meeting.paused']==false,"own completion clears a previous pause")
+  local calls=#h.calls;h.reload();h.bind(c);c.resume_token="own-contact2"
+  check(not h.module.resume({tick=33}),"completed own path cannot resume after reload")
+  check(#h.calls==calls and h.current==nil,"later contact emits no completed scene")
+end
+do
+  local h=fixture("elder_first_meeting.lua")
+  h.store['rpg.scenes.elder_first_meeting.phase']="done"
+  h.store['rpg.scenes.elder_first_meeting.paused']=true
+  h.bind({resume=true,resume_token="legacy-completed-contact"})
+  check(not h.module.resume({tick=34}),"legacy completed pause is not a valid continuation")
+  check(h.store['rpg.scenes.elder_first_meeting.paused']==false,"legacy completed pause is repaired")
+  check(h.store['rpg.scenes.elder_first_meeting.resume_token']==nil,"completed contact consumes no resume token")
 end
 do
   local h=fixture("elder_first_meeting.lua");h.elder=nil;h.emit({tick=6});check(not h.scene_requests,"no invented elder")
