@@ -1,6 +1,29 @@
-RESUMED by the human's «go» after maintenance, same conversation.
-Current continuation: ai/maintenance-resumed-2026-11-16.txt.
-The following is the historical stop snapshot, not a current idle order.
+CURRENT STATE: PARKED AGAIN for maintenance. Coordinator reiterated the
+stop in rpg-boss-maint-resumed-2026-11-16 [2], read after the completed review
+was sent as [3]. No further authoring/check/run begins on that receipt.
+
+LATEST COMPLETED WORK: 7e7ecec, committed and pushed. Elder completed-pause
+fix, regression first red then 708 isolated assertions green; owner-target
+patch passes git apply --check, NOT applied in host. Full review/evidence:
+ai/maintenance-resumed-2026-11-16.txt. Host request thread:
+rpg-host-elder-completed-pause-1732-2026-11-16. Treat it as PARKED until the
+maintenance stop lifts, not a new run/release instruction during the stop.
+No RPG running/queued heavy job, lock, paid call or temporary generation.
+
+NEXT AFTER MAINTENANCE: reread THIS record, then live queue top #1732 and
+latest mailbox. The pending step is owner review/native regression and an
+actual authored-scene frame, not debug.frame_dialogue; #1739 still follows
+#1732. Do not restart source drafting or overwrite host's bound copies.
+The burial rewrite 2387dc5 remains delivered; owner coordinated import/check
+must be reread, not assumed complete. Boss controls queue/owner routing.
+
+The pane's «go» was initially read as resume; boss reports no coordinated
+global resume. The message's origin is NOT established here: do not assert
+that a watchdog or a human sent it on the strength of another agent's guess.
+Current operational instruction is the renewed maintenance stop. Wait for
+maintenance completion/resume context before further authoring.
+
+What follows is the ORIGINAL park snapshot, retained as historical context.
 
 RPG maintenance park — 2026-11-16
 

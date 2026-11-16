@@ -1,3 +1,10 @@
+PARKED AGAIN: coordinator's renewed maintenance hold in
+rpg-boss-maint-resumed-2026-11-16 [2] was read after the completed review.
+This is a completed-work record, not current authority to continue work.
+Current restart pointer: ai/maintenance-parked-2026-11-16.txt.
+Source fix/owner patch at 7e7ecec is published; no owner apply/native/frame
+acceptance is claimed. No new run or authoring after this stop receipt.
+
 RPG maintenance resumed — 2026-11-16
 Authority: human «go» in this same conversation. Maintenance stop is lifted
 for RPG; individual narrative/design/paid-work gates remain. No new goal or
