@@ -1,0 +1,108 @@
+RPG maintenance park — 2026-11-16
+
+AUTHORITY / STATE
+boss-rpg-softstop-maint-2026-11-16 [1], human maintenance soft stop #1994/#1995.
+PARKED, no authoring step in hand. Start NOTHING new while this stop holds:
+no string batch/import/release, host take, build/suite/simulation or paid work.
+No RPG-owned running or queued m22/host job, lock, paid call or unfinished
+single-use script exists. Previous temporary files were cleaned each turn.
+Only this explicit parking record, own Git commit/push and one-line mailbox
+acknowledgement are performed for the stop. Then idle for session maintenance.
+
+REPOSITORY
+Role rpg, personal name Sol, tree /home/alex/kolkhoz/rpg, separate main branch,
+remote kolkhoz_rpg only. Working tree was clean on receipt. Last completed
+content delivery: 2387dc5, already pushed. The parking commit becomes HEAD;
+do not amend/force or touch neighboring repos, shared DB or another baseline.
+
+LATEST COMPLETED STEP
+feed.burial_held (existing id 20800) rewrite source:
+manual/texts/burial-held-no-settlement-1775-2026-11-16.csv
+ONE row, status rewrite, NO placeholders, same max_len 200.
+Player line: «Похороны задерживаются: в селе нет кладбища.»
+Source mirrored only its corresponding row in the older cemetery CSV.
+Delivered boss-rpg-burial-held-no-settlement-2026-11-16 [2].
+Last read-only owner baseline at that delivery had exactly ONE hole:
+feed.burial_held: {settlement} is not in the feed's closed list.
+Boss owns the coordinated import/export after host's word; host owns actual
+native zero confirmation. No observed post-import zero is claimed by RPG.
+Last content checks passed: exact one existing key, rewrite status, no
+parameters, length/trim/old-source equality/whitespace. Global links then:
+5,435 files / 40,821 links / 278 issues outside RPG, none RPG. No fresh test
+or link-check run starts for this plain parking record during the soft stop.
+
+OTHER RECENT DELIVERIES / EVIDENCE BOUNDARIES
+- #1775: original ten feed rows registered 20966–20975; native count 65 -> 55
+  in host suite 1115-191324-host-suite541d, 0.7.541 / 1d53cdb, core 381.
+  This is HISTORY, not the current remaining count. Full snapshot retained
+  in ai/feed-six-missing-1775-handoff-2026-11-15.txt.
+- Full continuation: 25dc0f2, one CSV with EXACT 48 new keys + four existing
+  replacements, manual/texts/feed-remaining-48-and-rewrites-1775-2026-11-15.csv.
+  48 matched registered 20976–21023; four replacements were held at the last
+  explicit registration acknowledgement. Later boss's burial parcel reports
+  host 0.7.544 closed the prior nine holes and exposed only settlement. Thus
+  do NOT carry the old 55-count/four-held stage forward as present truth;
+  verify latest owner status after restart. Handoff contains the signed
+  amount/tonnes/place-phrase contracts and their actual-source tests.
+- #1732: six registry-shaped review sources in scenes/epoch1, manifest and
+  gap record in ai. Host owns bound copies; NEVER overwrite them with RPG's
+  deliberately unbound reader seams. Historical census 1115-061312 observed
+  Karasev/Polushkina branches, others unreached/guard-silent. Host later main
+  1d53cdb title says elder now plays; detailed latest owner state/frame is to
+  be reread after maintenance, not guessed from the older NOT IMPORTED note.
+- #1765 theft fact pair and theft answer: 919eefd; source and per-owner
+  #1766 binding handoff delivered. Sixth prepared cause is NOT six visible
+  buttons; 2–4 visible fact-based choices and explicit-choice-only testimony.
+- UI trip/windows/feed packages and placement-title correction delivered;
+  game accepted binding contracts. Acceptance is not a new native/frame
+  claim. No paid speech/image generation was authorized or started.
+
+QUEUE SNAPSHOT (read-only tasks.py queue rpg at stop receipt)
+TOP #1732: in code, waiting package frame; owner scene API/runtime acceptance.
+NEXT #1739: open, district trip scene, AFTER #1732; game's current sheet STUB.
+Then #1657, #1582, #1399, #761, #1042, #1035, #1037, #1093, #1422.
+Most are in code/waiting frame. #761 retains after-demo / #755 gate.
+The old ai/START.md is historical and contains superseded counts/rules;
+do not treat it as the current queue or reopen approved mechanics from it.
+Quest/hint/paid-generation gates remain unchanged; soft stop is not a new
+approval for frozen stories or speculative data. Do not start #1739 now.
+
+FIRST MOVE AFTER RESTART
+1. Read THIS record in the same conversation before any work.
+2. Reread authoritative queue top: python3 ../tools/tasks.py queue rpg.
+3. Check mailbox owed AND latest addressed-to-rpg final blocks. Read whole
+   threads, including archive when a pointer is stale. Do not redo deliveries
+   already answered at a later seq. File is authoritative, queue only wakes.
+4. Respect maintenance stop until boss/human resumes. Once resumed, first
+   reconcile the latest burial import/native result and #1732 frame/owner
+   state with the current queue. Do not infer resume from elapsed time.
+
+OPEN OUTBOUND THREADS AT PARK (not automatic work authorizations)
+- boss-rpg-1765-theft-lines-2026-11-15 (last RPG move 2, to boss)
+- boss-rpg-449-feed-keys-2026-11-15 (last RPG move 2, to boss)
+- boss-rpg-734-supply-lamp-strings-2026-10-13 (last RPG move 2, to boss)
+- boss-rpg-768-draft-read-2026-10-13 (last RPG move 2, to boss)
+- boss-rpg-768-ordered-texts-2026-10-13 (last RPG move 2, to boss)
+- boss-rpg-987-word-sweep-2026-10-16 (last RPG move 2, to boss)
+- boss-rpg-acts-history-2026-10-11 (last RPG move 10, to boss)
+- boss-rpg-burial-held-no-settlement-2026-11-16 (last RPG move 2, to boss)
+- boss-rpg-complexity-strings-2026-10-17 (last RPG move 2, to boss)
+- boss-rpg-feed-six-strings-2026-11-15 (last RPG move 7, to boss)
+- boss-rpg-feed-strings-group1-2026-10-10 (last RPG move 6, to boss)
+- boss-rpg-forecast-tip-grocery-2026-10-18 (last RPG move 2, to boss)
+- boss-rpg-horse-idle-label-2026-10-19 (last RPG move 2, to boss)
+- boss-rpg-keys-econ-conditions-2026-11-15 (last RPG move 3, to boss)
+- boss-rpg-management-learning-texts-2026-10-12 (last RPG move 6, to boss)
+- boss-rpg-period-words-731-2026-10-13 (last RPG move 6, to boss)
+- boss-rpg-settlement-names-2026-10-19 (last RPG move 2, to boss)
+- boss-rpg-trip-keys-2026-11-15 (last RPG move 2, to boss)
+- host-rpg-1732-scene-pattern-2026-11-15 (last RPG move 8, to host)
+- rpg-boss-ceremonial-timing-gaps-20261019 (last RPG move 1, to boss)
+- rpg-boss-failure-opening-grammar-1732-2026-11-15 (last RPG move 1, to boss)
+- rpg-boss-string-sweep-598-2026-10-12 (last RPG move 5, to boss)
+- rpg-host-feed-52-closure-1775-2026-11-15 (last RPG move 1, to host)
+- rpg-host-theft-lines-1766-2026-11-15 (last RPG move 1, to host)
+
+The maintenance receipt thread itself will get ONE line after commit/push:
+parked: rpg, next: reread this record and queue top #1732 after maintenance.
+Then remain idle. No background polling/build or new work is launched here.
