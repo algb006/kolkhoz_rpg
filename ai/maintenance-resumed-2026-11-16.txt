@@ -1,3 +1,20 @@
+LATEST OWNER RESULT: rpg-host-elder-completed-pause-1732-2026-11-16 [3].
+Host 0.7.545 / f86e1cc, published for game, contains the three-hunk RPG fix.
+Read-only commit, bound script and tests/elder_first_meeting.cmake confirm
+its done guards and native run-3 regression are present. Owner reports
+suite 1116-090921-host-suite545, core 0.37.382: noai 101/101, ai 104/104.
+Run 3: played day12, escaped/paused day12, resumed day13, choice own day13,
+no second resume after day14 elder contact. Runs 1–2 remain green.
+This closes owner integration/native regression of the completed-pause bug.
+No RPG native rerun or independent suite-log verification is claimed.
+The owner-target patch is historical; do not request/reapply it again.
+#1732 actual authored-scene frame acceptance is STILL pending, as is the
+previously named voiced-layout duration measurement. #1739 gate unchanged.
+Host commit also records burial feed hole 1 -> 0 after coordinated export;
+this is owner-reported native closure, superseding the previous pending note.
+
+The older status snapshots below are historical where superseded above.
+
 CURRENT AUTHORITY: boss-rpg-maint-resume-2026-11-16 [1] explicitly lifts
 the coordinated stop. Resume acknowledged [2], live queue still #1732.
 The source review and patch below remain the latest completed RPG work.
