@@ -1,3 +1,10 @@
+CURRENT AUTHORITY: boss-rpg-maint-resume-2026-11-16 [1] explicitly lifts
+the coordinated stop. Resume acknowledged [2], live queue still #1732.
+The source review and patch below remain the latest completed RPG work.
+Host patch applicability was rechecked on ee9712f; native application and
+actual-scene frame remain pending owner evidence. Host publish/export order
+is preserved. The following prior stop/resume account is historical.
+
 PARKED AGAIN: coordinator's renewed maintenance hold in
 rpg-boss-maint-resumed-2026-11-16 [2] was read after the completed review.
 This is a completed-work record, not current authority to continue work.

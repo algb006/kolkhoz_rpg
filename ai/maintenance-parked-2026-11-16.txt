@@ -1,3 +1,20 @@
+CURRENT STATE: RESUMED by boss-rpg-maint-resume-2026-11-16 [1].
+The coordinated maintenance stop is explicitly lifted. Parked record and
+live queue were read; one-line resumed acknowledgement sent as [2].
+
+CURRENT NEXT: #1732 owner review/application of 7e7ecec targeted elder
+patch, native regression and actual authored-scene frame. Read-only patch
+applicability rechecked successfully against host main ee9712f; no host
+edit or native result claimed. Existing owner request resumes under the
+coordinated restart; host publish/export queue takes precedence. No duplicate
+parcel or new heavy job requested. #1739 remains gated after #1732.
+Live strings id 20800 still contains {settlement}; burial source 2387dc5
+awaits the planned coordinated owner export, not another RPG rewrite.
+No incoming RPG move remained after the resume acknowledgement.
+
+The following parking snapshots are HISTORICAL, superseded by the explicit
+resume authority above. They preserve the completed-work handoff.
+
 CURRENT STATE: PARKED AGAIN for maintenance. Coordinator reiterated the
 stop in rpg-boss-maint-resumed-2026-11-16 [2], read after the completed review
 was sent as [3]. No further authoring/check/run begins on that receipt.
