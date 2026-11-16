@@ -1,0 +1,3 @@
+namespace,key,kind,status,text_ru,placeholders,plural,max_len,meaning,intent,keep,binding_note
+ui.office,works.who,label,proposed,Кто,,0,60,Column heading for the people assigned to a work,Name the existing works Notebook column or block,Exact coordinator-approved heading; no project terminology or advice,"boss-rpg-729-two-keys-2026-11-16 [1]; game-1788 356087c3. No placeholders, new action or assignment rule."
+ui.office,works.units,label,proposed,Постройки,,0,60,Heading for the buildings and construction sites block,Name the existing works Notebook column or block,Exact coordinator-approved heading; no project terminology or advice,"boss-rpg-729-two-keys-2026-11-16 [1]; game-1788 356087c3. No placeholders, new action or assignment rule."
