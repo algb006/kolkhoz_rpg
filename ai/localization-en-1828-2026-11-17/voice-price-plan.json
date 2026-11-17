@@ -1,6 +1,6 @@
 {
   "task": 1829,
-  "status": "priced_not_started_pending_exact_english_acceptance",
+  "status": "authorized_ready_first_window",
   "model": "gemini-3.8-flash-tts",
   "pricing_verified_on": "2026-11-17",
   "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing",
@@ -10,7 +10,7 @@
   "active_current_russian_takes": 232,
   "prologue": 64,
   "office_intro": 168,
-  "english_words_after_review": 3316,
+  "english_words_after_review": 3321,
   "expected_calls": 232,
   "expected_usd_range": [
     0.31,
@@ -28,5 +28,7 @@
     "Long paid generation and processing use m22 or the locked Windows host, never shared VM um01.",
     "Same v2 voice map: Achird/Iapetus/Puck/Schedar/Charon/Algenib/Algieba/Kore.",
     "At 90 requests per rolling24h, 232 single-line calls require at least three daily windows; do not raise the project guard silently."
-  ]
+  ],
+  "authority": "rpg-boss-english-voice-price-1829-2026-11-17 [2]",
+  "run_location": "VM network calls approved by boss; no long audio processing here; xeon17 or locked Windows for processing, m22 in repair"
 }
