@@ -1,0 +1,11 @@
+Authority: boss-rpg-affairs-queue-string-2026-11-18 [1], existing #1711 UI list.
+Read-only sibling: ui.office.affairs.quests, rev1, title, max64,
+Russian Квесты / accepted English Quests. Requested key does not yet exist.
+Chosen heading: Ждут очереди / Waiting, 12/7 characters, no parameters.
+Proposal mirrors sibling title kind and max64; boss owns registration and
+actual source revision, support proofreads English. Delivery TSV includes
+Russian and English together, NOT an existing-source translation import.
+No revision invented and no database write. Owner must report the actual
+registered key/rev and notify game; host waits for game's take-it response.
+This labels the existing waiting list (quests §3), adds no quest/hint content
+and does not reopen the 2 October freeze. No voice or paid generation.
