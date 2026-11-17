@@ -1,0 +1,13 @@
+term_key	en	note
+unit	unit	One consistent interface term for an economic entity, including land-only units; not a synonym for building.
+resident	resident	An individual villager with personal metrics and a life history; never NPC, agent or population.
+mood	mood	Individual resident metric. Do not use loyalty; distinguish family satisfaction.
+satisfaction	satisfaction	Family metric, not individual mood; common cause is one component.
+trudoden	labor-day credit	A credit toward a share of the collective harvest, not money, hours or a calendar day. Plural: labor-day credits. Explain on first use in the translated glossary; do not add an unregistered tooltip. US spelling throughout.
+uchetchik	tally clerk	Counts work output and handles work assignments. Matches root CLAUDE.md section 8; not bookkeeper, accountant or brigade leader.
+pravlenie	farm office	The farm administration unit, including the chairman’s office and administrative office; not city hall or town hall.
+day	day	A full 24-game-hour unit; four game days per month. Use daytime for the light part of the day. Do not confuse with labor-day credits.
+education_step	education stage	A resident’s level of education; no school classes or social classes. Preserve the registered term key education_step, distinct from code education_stage.
+lpkh	household farm	The household’s own yard, garden, livestock and poultry, separate from the collective farm. In dialogue: our own farm / their own farm as context requires; not only a garden plot.
+limit	supply entitlement	The right to obtain scarce supplies from the district, not money, a spending budget or a production quota. Points: supply entitlement points. Do not use this phrase for unrelated physical limits or accumulation caps.
+capacity	capacity	Storage, livestock-housing or vehicle capacity, according to context; not a resident strength stat.
