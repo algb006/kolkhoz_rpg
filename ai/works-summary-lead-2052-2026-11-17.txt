@@ -1,0 +1,29 @@
+Works opening line #2052 — 2026-11-17
+
+Authority: boss-rpg-works-summary-lead-2052-2026-11-17 [1], human #2052
+Variant1; society.md section1 mandatory EpochI tally clerk, chairman orders
+are day overrides with priority. No mechanics or sources outside RPG edited.
+
+Existing register: ui.office/works.summary_lead, id19962,
+Russian rev2, kind body, max_len NULL (no explicit/effective
+length cap), plural0; no placeholders.
+Lengths: Russian 119, English 118 characters.
+
+One bilingual draft TSV: manual/texts/works-summary-lead-2052-2026-11-17.tsv.
+rev means the ACTUAL source revision read, not a guessed post-edit revision.
+The current tools/strings.py import accepts only namespace/key/rev/text and
+refuses --locale ru. Boss owns the Russian source edit; after it, the English
+translation must use the actual new Russian rev. Do not feed the six-column
+bilingual sheet directly to that four-column importer, or attach new English
+to the old Russian revision. Accepted English may need its owner status reset
+to draft before import: current importer preserves an ok row against drafts.
+Support proofreads English as requested. No shared DB write by RPG.
+
+The text states morning staffing and own-assignment precedence. Priority is
+not a promise of immediate execution, completion or weather immunity. It does
+not say the chairman physically does the work, suggest a worker count, or
+promise an unstaffed-clerk mode. No new voice: this is UI text in both languages.
+
+This supersedes the policy in the old string-sweep-598 source and the matching
+English row of demo-batch05; those remain historical until the shared Russian
+source is updated and a current-rev English correction can be captured.
