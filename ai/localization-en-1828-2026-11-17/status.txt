@@ -1,3 +1,10 @@
+BATCH03: 232 scene rows: start.prologue 64 and office_intro 168, all eight
+avatars. These are draft subtitle/voice-script translations for support;
+not approved English performance scripts and no recording started.
+Total batches 01–03: 682 rows, 681 current keys including portrait correction.
+Next: ui.office strings. Model backdrop/game-only scene rows are not silently
+counted as demo prologue, and voice take count is not inferred from row count.
+
 CURRENT OWNER UPDATE: rpg-boss-english-batch01-1828-2026-11-17 [2].
 Glossary imported; support/boss accepted farm board (short the board),
 household plot (speech our own plot / their own yard), allocation (plural
