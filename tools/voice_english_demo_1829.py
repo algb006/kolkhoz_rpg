@@ -19,7 +19,7 @@ from voice_prologue_probe import (
 from voice_rate_limit import request_slot, attempts_last_24h, MAX_ATTEMPTS_24H
 
 ROOT = Path(__file__).resolve().parents[1]
-DEST = Path('/data/kolkhoz/voice/en-demo-1829-20261117')
+DEST = ROOT / 'voice/draft/en-demo-1829-20261117'
 SOURCE = ROOT / 'manual/texts/en/demo-batch03-prologue-office-intro-1828-2026-11-17.tsv'
 MODEL = 'gemini-3.8-flash-tts'
 CAP = 0.60
@@ -193,6 +193,12 @@ def main():
     print(f"English inventory {len(rows)}; missing {len(missing)}; spent ${state['estimated_usd_from_usage']:.7f}; model attempts {attempts_last_24h(MODEL)}/{MAX_ATTEMPTS_24H}",flush=True)
     if args.mode=='plan':
         return
+    previous_window=ROOT/'ai/localization-en-1828-2026-11-17/voice-window01-result.json'
+    if previous_window.exists():
+        hearing_path=ROOT/'ai/english-voice-hearing-four-1829-2026-11-17.json'
+        hearing=json.loads(hearing_path.read_text())
+        if hearing.get('status')!='human_accepted' or not hearing.get('acceptance_source'):
+            raise RuntimeError('The next daily window requires the human hearing decision')
     budget=(ROOT/'ai/gemini-budget-balance.txt').read_text()
     if '1829' not in budget or '$0,60' not in budget:
         raise RuntimeError('Separate human-facing budget/cap entry required before paid work')

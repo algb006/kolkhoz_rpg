@@ -1,0 +1,49 @@
+{
+  "status": "awaiting_human_hearing_not_accepted",
+  "count": 4,
+  "canonical_directory": "/home/alex/kolkhoz/rpg/voice/draft/en-demo-1829-20261117",
+  "html": "hearing-four.html",
+  "takes": [
+    {
+      "key": "scene.start.prologue.villager.t1",
+      "voice": "Achird",
+      "text": "What the devil: we've been going straight, and that birch is on our left again.",
+      "rev": 1,
+      "duration_seconds": 5.88,
+      "text_sha256": "3cf363e26f286cd4d7373544cff3ad36a6fd1214f687ce3dadd2adfdb944b361",
+      "wav_sha256": "5fbeed27f824bfe2b036376ea79de63a1e5441ae61207a1da0554ebd8ee0251e",
+      "interaction_id": "v1_ChdGN1A3YXRiUEhOcW1uc0VQcU5YcW1RcxIXRjdQN2F0YlBITnFtbnNFUHFOWHFtUXM"
+    },
+    {
+      "key": "scene.start.prologue.old_fighter.t1",
+      "voice": "Algenib",
+      "text": "Devil take it. Straight ahead all the way, and that birch again.",
+      "rev": 1,
+      "duration_seconds": 6.8,
+      "text_sha256": "a40dc4d13b7732458fddc8ef8a1f517090b86d1ff2ab83f9b7b321d8f16be8a5",
+      "wav_sha256": "b3d5eff07ea2f12fd48069a721dcbfb1a6fb2f997956a63fc7d90a7ea54bf83a",
+      "interaction_id": "v1_ChdjYlA3YXFXZU52bVgzYm9QMGU3ZG1RVRIXY2JQN2FxV2VOdm1YM2JvUDBlN2RtUVU"
+    },
+    {
+      "key": "scene.start.prologue.dealer.t1",
+      "voice": "Algieba",
+      "text": "Now, wait a moment. This is getting rather strange. The same birch, and we haven't turned.",
+      "rev": 1,
+      "duration_seconds": 9.16,
+      "text_sha256": "ee8e0110c0518ece0b94b7b7c1d22439f9fcfe72a23dedb2ab61a6370efa6b67",
+      "wav_sha256": "829deff784ed92e1aa34630c06b4b74d78292de37fce3ada5c734b3d4e7a6c48",
+      "interaction_id": "v1_ChdmTFA3YW95VUFwZU12ZElQeVlueW1BdxIXZkxQN2FveVVBcGVNdmRJUHlZbnltQXc"
+    },
+    {
+      "key": "scene.start.prologue.acting.t1",
+      "voice": "Kore",
+      "text": "Something's not right. The horse senses it too.",
+      "rev": 1,
+      "duration_seconds": 4.24,
+      "text_sha256": "430c010d140d92002cfe3a5bf79bde93142122a530b4bcaeace4c8aedc6473da",
+      "wav_sha256": "078413810d9609266ce52ee4b8050078fdc190ea989b7508183c3aa353671aeb",
+      "interaction_id": "v1_ChdoclA3YXJlMUI1LXZrZFVQNy1MdXlBSRIXaHJQN2FyZTFCNS12a2RVUDctTHV5QUk"
+    }
+  ],
+  "acceptance_scope": "voice manner on these four examples; not acceptance of all takes or mastering"
+}

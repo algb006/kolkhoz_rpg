@@ -1,0 +1,19 @@
+{
+  "status": "first_window_complete_waiting_human_hearing_and_daily_quota",
+  "takes_completed": 90,
+  "total_expected": 232,
+  "remaining_takes": 142,
+  "requests": 90,
+  "failed_or_unresolved": 0,
+  "known_spend_usd": "0.1428730",
+  "increment_since_first_take_usd": "0.1415395",
+  "cumulative_project_spend_usd": "0.7544245",
+  "estimated_project_remaining_usd": "7.2455755",
+  "full_pass_cap_usd": "0.60",
+  "remaining_pass_cap_usd": "0.4571270",
+  "next_full_90_request_window_not_before_utc": "2026-11-18T02:06:59.156723+00:00",
+  "canonical_directory": "/home/alex/kolkhoz/rpg/voice/draft/en-demo-1829-20261117",
+  "working_copy": "/data/kolkhoz/voice/en-demo-1829-20261117",
+  "hearing_manifest": "ai/english-voice-hearing-four-1829-2026-11-17.json",
+  "hearing_accepted": false
+}
