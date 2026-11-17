@@ -1,3 +1,9 @@
+BATCH04: first 200 ui.office source rows. Uses farm board / allocations /
+tally clerk / all-hands rush; Office remains the chairman’s room. These are
+namespace translations, including entries not yet visible in the demo; this
+is no claim that every order/window is implemented. Next: remaining 324
+ui.office rows in further bounded batches. No paid generation started.
+
 BATCH02 OWNER REVIEW: rpg-boss-english-batch02-1828-2026-11-17 [2].
 All 250 rows imported/proofread. Nine reviewed changes mirrored from LIVE ok
 English (not blindly from review TSV: boss deliberately changed line.work
