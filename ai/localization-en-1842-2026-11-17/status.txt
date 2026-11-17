@@ -1,3 +1,17 @@
+NAMESPACE PRIORITY: boss-rpg-1842-namespace-order-2026-11-18 [1].
+#1828 demo and #1829 voice remain ahead of this game catch-up.
+Subsequent roughly300-row batches follow visible runtime frequency:
+1. ui.common and remaining HUD words.
+2. feed / event / alarm (event strip and lamps).
+3. order (orders window).
+4. ui.people / ui.store / ui.build.
+5. signal / resource / livestock.
+6. hint / quest / dialogue last; the 2 October quest/hint stop remains in force.
+Apply the binding vocabulary recorded below. This is a translation priority,
+not permission to unfreeze quests/hints, add mechanics or add voiced lines.
+Owner's 9-of-36 namespace observation is receipt context, not a fresh coverage
+measurement by RPG; measure live missing/stale rows before exporting a batch.
+
 UPDATE: owner replies [2–3], rpg-boss-1842-glossary-batch01-2026-11-17.
 Both holds resolved: work_order Russian accepted at actual rev4; broad night
 sideline retains poaching and moonshine, distinct from the narrower order.
