@@ -1,3 +1,15 @@
+BATCH03 REVIEW CORRECTIONS: boss [2,3] in its batch03 thread, read in full.
+The corrected number rule distinguishes speech from template variables/UI
+counts. Spoken lines spell numbers, including April, thirty-one. All source
+number literals in the 232 voiced drafts have been checked; no digits remain.
+ONE scene corrections TSV has 53 rows: support’s exact 44 + allocations in
+promoted.t6 + eight Affairs notebook references. All have actual unchanged
+Russian revisions. Two UI Affairs notebook labels are an explicit separate
+correction TSV for batch04, not part of the 53 scene rows. The title is Affairs.
+General Secretary remains consistent in portrait speech; live string lookup
+found only generic portrait name/tooltip, no additional title plate key.
+No recording starts before owner import/acceptance and the price/spend line.
+
 BATCH04: first 200 ui.office source rows. Uses farm board / allocations /
 tally clerk / all-hands rush; Office remains the chairman’s room. These are
 namespace translations, including entries not yet visible in the demo; this

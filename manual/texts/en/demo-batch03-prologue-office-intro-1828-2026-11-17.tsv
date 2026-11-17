@@ -1,35 +1,35 @@
 namespace	key	rev	en
-scene	office_intro.enter.villager	2	Here is my new office. I can inspect the marked objects in any order.
-scene	office_intro.notebooks.villager	2	The first order is already in the book. I need to appoint a tally clerk. For now, I issue the work assignments.
-scene	start.prologue.villager.t1	1	What on earth? We've been going straight, but that birch is on the left again.
+scene	office_intro.enter.villager	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.villager	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
+scene	start.prologue.villager.t1	1	What the devil: we've been going straight, and that birch is on our left again.
 scene	office_intro.charts.villager	1	The plan and deliveries. I need to see what will be left after deliveries.
 scene	start.prologue.worker.t1	1	No turns in this track, yet that's the same birch again. Something strange going on.
 scene	office_intro.papers.villager	1	District paperwork. They write about the fields. We're the ones who have to plow them.
 scene	start.prologue.student.t1	1	Something strange is happening... We haven't turned off anywhere.
 scene	office_intro.door.villager	1	It won't just be neighbors I have to hear out through that door.
 scene	start.prologue.ex_chairman.t1	1	Something's not right. We haven't turned, but that's the same birch.
-scene	office_intro.wall_map.villager	1	Our whole farm on 1 sheet. I know the land well enough.
+scene	office_intro.wall_map.villager	1	Our whole farm on one sheet. I know the land well enough.
 scene	start.prologue.promoted.t1	1	Something very strange. The route is correct. We haven't taken any turns.
 scene	office_intro.posters.villager	1	New posters, same old wall underneath.
-scene	start.prologue.old_fighter.t1	1	What on earth? Straight ahead all the way, and that birch again.
-scene	office_intro.journal.villager	2	The first letter is the plan from the district. I will have to answer it.
+scene	start.prologue.old_fighter.t1	1	Devil take it. Straight ahead all the way, and that birch again.
+scene	office_intro.journal.villager	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
 scene	start.prologue.dealer.t1	1	Now, wait a moment. This is getting rather strange. The same birch, and we haven't turned.
 scene	office_intro.pocketbook.villager	1	Can't keep everything in my head. Best write things down too.
 scene	start.prologue.acting.t1	1	Something's not right. The horse senses it too.
 scene	office_intro.newspaper.villager	1	New names in the newspaper. I don't know any of these people.
 scene	office_intro.personal_item.villager	1	I'll put the seeds away from the stove. They can stay here for now.
 scene	office_intro.portrait.villager	2	I don't recognize the General Secretary. Nothing's been right since that fog... Where have I ended up?
-scene	office_intro.calendar.villager	1	April, 1931. Spring won't wait.
+scene	office_intro.calendar.villager	1	April, thirty-one. Spring won't wait.
 scene	office_intro.clock.villager	1	The pendulum's swinging. At least something moves when you're sitting here alone.
 scene	office_intro.stove.villager	2	The potbelly stove is cold. Best light it. I won't last long in this room otherwise.
 scene	office_intro.lamp.villager	1	The lamp's off to the side. Lights the papers without shining in my eyes.
 scene	office_intro.window.villager	1	Can't see the yard through that glass. If I want a look, I'll have to go out.
 scene	office_intro.drawer.villager	1	Locked. I won't force it.
-scene	office_intro.affairs_notebook.villager	1	The first task's written down. Time to get to work.
+scene	office_intro.affairs_notebook.villager	1	The first task is in Affairs. Time to get to work.
 scene	office_intro.exit_choice.villager	1	Look over the farm from above, or go to the former headman? Where to start?
 scene	office_intro.plan_sketch.villager	1	The previous chairman marked out where to build things. Didn't get to it. Let's see what we can use.
-scene	office_intro.enter.worker	2	Here is my new office. I can inspect the marked objects in any order.
-scene	office_intro.notebooks.worker	2	The first order is already in the book. I need to appoint a tally clerk. For now, I issue the work assignments.
+scene	office_intro.enter.worker	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.worker	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
 scene	start.prologue.villager.t2	1	Hardly any snow this winter. That's why the road's holding. Most springs, getting here from the district isn't this easy.
 scene	office_intro.charts.worker	1	The plan and deliveries. Let's see what the farm has to do.
 scene	start.prologue.worker.t2	1	Not much snow, and the water drained away quickly. That's why the road holds. An ordinary spring, we'd be stuck up to the axle.
@@ -37,11 +37,11 @@ scene	office_intro.papers.worker	1	Paperwork from the district. Wishing won't ge
 scene	start.prologue.student.t2	1	Little snow this winter, little meltwater. So the ground holds. In an ordinary year, we wouldn't have got here so easily.
 scene	office_intro.door.worker	1	People will come to see me here. Let them tell me what's stopping the work.
 scene	start.prologue.ex_chairman.t2	1	A winter with little snow saved this road. Most springs, you can't get through to the district. No use counting on quick help then.
-scene	office_intro.wall_map.worker	1	Fields here, roads there. I'll need to think through deliveries.
+scene	office_intro.wall_map.worker	1	Fields here, roads there. I'll need to think through hauling.
 scene	start.prologue.promoted.t2	1	We arrived without delays only because winter brought so little snow. In an ordinary spring, keeping in touch with the district will be a problem of its own.
 scene	office_intro.posters.worker	1	They've put up a poster. Now to get the farm running too.
 scene	start.prologue.old_fighter.t2	1	Little snow this winter. That's why we got through. Most springs, any wagon train would be sunk to the hubs here.
-scene	office_intro.journal.worker	2	The first letter is the plan from the district. I will have to answer it.
+scene	office_intro.journal.worker	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
 scene	start.prologue.dealer.t2	1	A rare stroke of luck: hardly any snow this winter, and the road let us through. Most springs, this trip would cost a great deal more.
 scene	office_intro.pocketbook.worker	1	I'll write down my promises here. No wriggling out of them later.
 scene	start.prologue.acting.t2	1	We only got here so easily because there was little snow this winter. Most springs, this road will cut the village off from the district.
@@ -54,11 +54,11 @@ scene	office_intro.stove.worker	2	The potbelly stove is cold. Best light it. Chi
 scene	office_intro.lamp.worker	1	The lamp's off to the side. Right: the light belongs on the desk.
 scene	office_intro.window.worker	1	Cloudy glass, but it lets the light in. That's something.
 scene	office_intro.drawer.worker	1	Locked. No reason to break the lock.
-scene	office_intro.affairs_notebook.worker	1	Here's where to start. Time to get to work.
+scene	office_intro.affairs_notebook.worker	1	Affairs tells me where to start. Time to get to work.
 scene	office_intro.exit_choice.worker	1	Look over the farm from above first, or walk over to the former headman myself?
 scene	office_intro.plan_sketch.worker	1	The previous chairman marked out farmyards and roads, but never got them built. Something to start with.
-scene	office_intro.enter.student	2	Here is my new office. I can inspect the marked objects in any order.
-scene	office_intro.notebooks.student	2	The first order is already in the book. I need to appoint a tally clerk. For now, I issue the work assignments.
+scene	office_intro.enter.student	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.student	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
 scene	start.prologue.villager.t3	3	There's our chapel. And the rooks are cawing just as they always did.
 scene	office_intro.charts.student	1	The plan and deliveries. Here's where my calculations will come in handy.
 scene	start.prologue.worker.t3	3	Noisy rooks. There's a chapel. Seems the village was here long before the collective farm.
@@ -70,27 +70,27 @@ scene	office_intro.wall_map.student	1	The fields are drawn by hand. I'll need to
 scene	start.prologue.promoted.t3	3	Noisy rooks, and a chapel over there. An old village. I'll have to take local customs into account.
 scene	office_intro.posters.student	1	The poster covers an old wall painting. Everything here was redone in a hurry.
 scene	start.prologue.old_fighter.t3	3	Rooks making a racket. A chapel over there. An old place. Let's see how people live here.
-scene	office_intro.journal.student	2	The first letter is the plan from the district. I will have to answer it.
+scene	office_intro.journal.student	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
 scene	start.prologue.dealer.t3	3	The rooks are in full voice. And there's a chapel. The collective farm is new, but the local habits, I imagine, are rather older.
 scene	office_intro.pocketbook.student	1	I'd better write it down. My memory let me down in exams sometimes.
 scene	start.prologue.acting.t3	3	Rooks cawing. There's a chapel. I need to find out what was here before the collective farm.
 scene	office_intro.newspaper.student	1	I'd remember that name. And that one too. Where have they all come from?
 scene	office_intro.personal_item.student	1	The textbooks are here. If I forget something, at least I can look it up.
 scene	office_intro.portrait.student	2	A completely unfamiliar face. Everything's different here too... Goodness, where have I ended up?
-scene	office_intro.calendar.student	1	April, 1931. Strange, there's no date on the calendar.
+scene	office_intro.calendar.student	1	April, thirty-one. Strange, there's no date on the calendar.
 scene	office_intro.clock.student	1	The pendulum's swinging. I can't help watching it.
 scene	office_intro.stove.student	2	The stove's cold. Best light it when I find some firewood.
 scene	office_intro.lamp.student	1	The lamp's off to the side. A good place to sit with my textbooks.
 scene	office_intro.window.student	1	There's light, but I can't make out the yard. How will I know who's arrived?
 scene	office_intro.drawer.student	1	Locked. Where's the key?
-scene	office_intro.affairs_notebook.student	1	The first task's written down. Well, I have to start somewhere.
+scene	office_intro.affairs_notebook.student	1	The first task is in Affairs. Well, I have to start somewhere.
 scene	office_intro.exit_choice.student	1	Look over the village from above, or go to the former headman? Both will be useful.
 scene	office_intro.plan_sketch.student	1	The previous chairman drew up a plan, but never got it built. Good not to start with a blank sheet, at least.
-scene	office_intro.enter.ex_chairman	2	Here is my new office. I can inspect the marked objects in any order.
-scene	office_intro.notebooks.ex_chairman	2	The first order is already in the book. I need to appoint a tally clerk. For now, I issue the work assignments.
+scene	office_intro.enter.ex_chairman	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.ex_chairman	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
 scene	start.prologue.villager.t4	1	Water nearby, forest, broad fields. The land isn't to blame here.
 scene	office_intro.charts.ex_chairman	1	The plan and deliveries. First I'll check what's being asked of us.
-scene	start.prologue.worker.t4	1	Water, forest, fields. All nearby. Sort out deliveries, organize the work, and this farm will run.
+scene	start.prologue.worker.t4	1	Water, forest, fields. All nearby. Sort out the hauling, organize the work, and this farm will run.
 scene	office_intro.papers.ex_chairman	1	The district folder. I can see at once which papers to keep.
 scene	start.prologue.student.t4	1	Water, arable land, forest and a road. Better conditions than I imagined. All the more reason to find out why the farm isn't working.
 scene	office_intro.door.ex_chairman	1	They'll be waiting for answers behind that door. Keeping quiet won't do.
@@ -99,7 +99,7 @@ scene	office_intro.wall_map.ex_chairman	1	A hand-drawn map. I'll still have to c
 scene	start.prologue.promoted.t4	1	The resources are here. With regional support, we could show results quickly.
 scene	office_intro.posters.ex_chairman	1	Posters hung over the old decoration. Seen that before.
 scene	start.prologue.old_fighter.t4	1	The whole valley laid out before me: village, water, fields. We can work with this.
-scene	office_intro.journal.ex_chairman	2	The first letter is the plan from the district. I will have to answer it.
+scene	office_intro.journal.ex_chairman	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
 scene	start.prologue.dealer.t4	1	Water, forest, land and a road to the district. Not a bad collection. Now let's see how they've been managing it all.
 scene	office_intro.pocketbook.ex_chairman	1	A promise written down. Easier to remember who needs an answer.
 scene	start.prologue.acting.t4	1	The farmsteads are scattered. Not every cart will reach the outlying homes.
@@ -112,23 +112,23 @@ scene	office_intro.stove.ex_chairman	2	The potbelly stove hasn't been lit. Best 
 scene	office_intro.lamp.ex_chairman	1	The lamp doesn't get in the way of reading the papers. A decent arrangement already.
 scene	office_intro.window.ex_chairman	1	Cloudy glass. I'll have to get to know the farm away from this desk.
 scene	office_intro.drawer.ex_chairman	1	The drawer's locked. Without a key, I'll leave it be.
-scene	office_intro.affairs_notebook.ex_chairman	1	The first task's written down. There we are. Somewhere to start.
+scene	office_intro.affairs_notebook.ex_chairman	1	The first task is in Affairs. There we are. Somewhere to start.
 scene	office_intro.exit_choice.ex_chairman	1	From above I'll see the roads. On the ground I can ask the former headman. Where to start?
 scene	office_intro.plan_sketch.ex_chairman	1	The previous chairman's plan. Never got it built. I'll check the sites before starting construction.
-scene	office_intro.enter.promoted	2	Here is my new office. I can inspect the marked objects in any order.
-scene	office_intro.notebooks.promoted	2	The first order is already in the book. I need to appoint a tally clerk. For now, I issue the work assignments.
+scene	office_intro.enter.promoted	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.promoted	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
 scene	start.prologue.villager.t5	1	The bridge is still holding. The approaches will wash out before the deck does. Those need watching.
 scene	office_intro.charts.promoted	1	The plan and deliveries. That's what I'll report to the district.
-scene	start.prologue.worker.t5	1	A single bridge keeps us connected to the district. If it stops, supplies stop too.
+scene	start.prologue.worker.t5	1	A single bridge keeps us connected to the district. If it goes, supplies go with it.
 scene	office_intro.papers.promoted	1	Correspondence with the district. Familiar procedures, on paper at least.
 scene	start.prologue.student.t5	1	All contact with the district goes over a single bridge. The reliability of the whole road depends on it.
 scene	office_intro.door.promoted	1	This is where I'll receive visitors. They come to me now, not the other way round.
 scene	start.prologue.ex_chairman.t5	1	A single bridge for the whole connection to the district. There's the first risk.
 scene	office_intro.wall_map.promoted	1	A map of the farm. I'll learn the terrain before reporting on it.
 scene	start.prologue.promoted.t5	1	The only crossing. I'll need to coordinate repairs with the district at once.
-scene	office_intro.posters.promoted	1	The publicity is in place. The walls under those posters could do with some attention.
+scene	office_intro.posters.promoted	1	The agitation's up. The walls under those posters could do with some attention.
 scene	start.prologue.old_fighter.t5	1	The bridge is the only way through. Keep it in working order.
-scene	office_intro.journal.promoted	2	The first letter is the plan from the district. I will have to answer it.
+scene	office_intro.journal.promoted	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
 scene	start.prologue.dealer.t5	1	A single bridge connects us to the district. Keeping it sound, if I may say so, is worth a great deal.
 scene	office_intro.pocketbook.promoted	1	Contacts and reminders. Best not rely on memory alone.
 scene	start.prologue.acting.t5	1	A single bridge. If the approach washes away, we can't bring a doctor in or get a sick person out.
@@ -141,40 +141,40 @@ scene	office_intro.stove.promoted	2	It's cold in this office. Best light the sto
 scene	office_intro.lamp.promoted	1	The lamp's to the side. At least it doesn't glare in my eyes.
 scene	office_intro.window.promoted	1	Can't even make out the yard through this glass. I'll have to go out.
 scene	office_intro.drawer.promoted	1	Locked. There must be a key somewhere.
-scene	office_intro.affairs_notebook.promoted	1	Plenty to start with. I'm the one responsible for results now.
+scene	office_intro.affairs_notebook.promoted	1	Affairs has something to start with. I'm the one responsible for results now.
 scene	office_intro.exit_choice.promoted	1	Look over the farm from above, or go to the former headman myself?
 scene	office_intro.plan_sketch.promoted	1	The previous chairman made a plan, but never carried it out. Let's see what's worth finishing here.
-scene	office_intro.enter.old_fighter	2	Here is my new office. I can inspect the marked objects in any order.
-scene	office_intro.notebooks.old_fighter	2	The first order is already in the book. I need to appoint a tally clerk. For now, I issue the work assignments.
-scene	start.prologue.villager.t6	1	The land isn't lost. We can't reclaim all that fallow in 1 year. We'll start at the dry edge.
+scene	office_intro.enter.old_fighter	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.old_fighter	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
+scene	start.prologue.villager.t6	1	The land isn't lost. We can't reclaim all that fallow in one year. We'll start at the dry edge.
 scene	office_intro.charts.old_fighter	1	The plan and deliveries. Need to know what's required of us.
-scene	start.prologue.worker.t6	1	A big field, and no work going on. Not just 1 section stopped here. The whole farm's standing idle.
+scene	start.prologue.worker.t6	1	A big field, and no work going on. It's not one section that's stopped. The whole farm's standing idle.
 scene	office_intro.papers.old_fighter	1	Paperwork from the district. Even an order needs reading first here.
 scene	start.prologue.student.t6	1	Arable land, according to the report. Fallow in reality. I suppose my introduction to local reporting has already begun.
 scene	office_intro.door.old_fighter	1	They'll be waiting here. So I'd better be at my post.
-scene	start.prologue.ex_chairman.t6	1	Fallow all along the road. This wasn't 1 failed sowing. They've let the field go for years.
+scene	start.prologue.ex_chairman.t6	1	Fallow all along the road. This wasn't one failed sowing. They've let the field go for years.
 scene	office_intro.wall_map.old_fighter	1	Fields, roads, crossings. First, find out where we can get through.
-scene	start.prologue.promoted.t6	1	These fields have been abandoned for years. I couldn't ask for better grounds to request resources.
+scene	start.prologue.promoted.t6	1	These fields have been abandoned for years. I couldn't ask for better grounds to request allocations.
 scene	office_intro.posters.old_fighter	1	The poster's hanging. The wall's crumbling.
 scene	start.prologue.old_fighter.t6	1	Abandoned field. Can't take that position in a charge. We need people and draft power.
-scene	office_intro.journal.old_fighter	2	The first letter is the plan from the district. I will have to answer it.
+scene	office_intro.journal.old_fighter	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
 scene	start.prologue.dealer.t6	1	They sold me a thriving farm. Judging by this field, the goods were only ever described, not shown.
-scene	office_intro.pocketbook.old_fighter	1	I'll write down what I promised whom. I must keep my word.
+scene	office_intro.pocketbook.old_fighter	1	I'll note who I promised what. A word given is a word kept.
 scene	start.prologue.acting.t6	1	This land wasn't abandoned in a single season. First I'll find out where they ran short of hands and draft power.
 scene	office_intro.newspaper.old_fighter	1	New names. Didn't hear of any of them on the way.
-scene	office_intro.personal_item.old_fighter	1	The saber's here. At least 1 familiar thing.
-scene	office_intro.portrait.old_fighter	2	What on earth? I don't recognize the General Secretary. Nothing's been right since the fog... Where have I ended up?
+scene	office_intro.personal_item.old_fighter	1	The saber's here. At least one familiar thing.
+scene	office_intro.portrait.old_fighter	2	Devil take it. I don't recognize the General Secretary. Nothing's been right since the fog... Where have I ended up?
 scene	office_intro.calendar.old_fighter	1	April. Time to leave this room as soon as I'm settled.
 scene	office_intro.clock.old_fighter	1	The pendulum's swinging. Steady. No hurry.
 scene	office_intro.stove.old_fighter	2	The stove's cold. Light it, then I'll sit down to the papers.
 scene	office_intro.lamp.old_fighter	1	Light on the desk, not in my eyes. As it should be.
 scene	office_intro.window.old_fighter	1	Cloudy glass. No view from here.
 scene	office_intro.drawer.old_fighter	1	Locked. Won't budge.
-scene	office_intro.affairs_notebook.old_fighter	1	First task in hand. Time to move out.
+scene	office_intro.affairs_notebook.old_fighter	1	First task in Affairs. Time to move out.
 scene	office_intro.exit_choice.old_fighter	1	From above, a view. On foot to the headman, a talk. Where to start?
 scene	office_intro.plan_sketch.old_fighter	1	The previous chairman marked out farmyards and roads. Never got them built. Well, there's a plan. We'll sort it out.
-scene	office_intro.enter.dealer	2	Here is my new office. I can inspect the marked objects in any order.
-scene	office_intro.notebooks.dealer	2	The first order is already in the book. I need to appoint a tally clerk. For now, I issue the work assignments.
+scene	office_intro.enter.dealer	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.dealer	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
 scene	start.prologue.villager.t7	1	Those cows are bellowing. Not enough feed. That's where we'll start.
 scene	office_intro.charts.dealer	1	The plan and deliveries. First of all, let's see what's left for the farm.
 scene	start.prologue.worker.t7	1	Feed for the livestock first. Then I'll find out where the work stopped.
@@ -186,24 +186,24 @@ scene	office_intro.wall_map.dealer	1	The whole farm on a sheet. Handy, provided 
 scene	start.prologue.promoted.t7	1	They're already sizing up whoever's been sent to them. Best not spoil that first impression.
 scene	office_intro.posters.dealer	1	The posters are here. Now for the business to look just as good.
 scene	start.prologue.old_fighter.t7	1	Feed the livestock. Gather the people. Then take things in order.
-scene	office_intro.journal.dealer	2	The first letter is the plan from the district. I will have to answer it.
+scene	office_intro.journal.dealer	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
 scene	start.prologue.dealer.t7	1	The livestock need feed, the people need results. Then reaching an understanding will be easier.
 scene	office_intro.pocketbook.dealer	1	I'll write down my promises. Other people's too, if I may.
 scene	start.prologue.acting.t7	1	The cows are hungry. I need to check the feed at once and speak to the people looking after them.
 scene	office_intro.newspaper.dealer	1	Every name unfamiliar. Surely I haven't been away from newspapers that long?
 scene	office_intro.personal_item.dealer	1	My abacus is here. Best check other people's figures myself.
-scene	office_intro.portrait.dealer	2	I wanted somewhere quiet, and even the General Secretary is different... Now, where have I ended up?
-scene	office_intro.calendar.dealer	1	April, 1931. As for the date, apparently I must find that out myself.
-scene	office_intro.clock.dealer	1	The pendulum's swinging. Not luxury, of course, but there is a clock.
+scene	office_intro.portrait.dealer	2	I wanted somewhere quiet, and even the General Secretary is different... Pardon me, where on earth have I landed?
+scene	office_intro.calendar.dealer	1	April, thirty-one. And the date, if you please, I'm to find out myself.
+scene	office_intro.clock.dealer	1	The pendulum's swinging. Hardly a luxury, but a clock is a clock.
 scene	office_intro.stove.dealer	2	The potbelly stove is cold. Best light it. Counting is pleasanter in a warm room.
 scene	office_intro.lamp.dealer	1	Light on the desk, not in my eyes. Sensibly placed.
 scene	office_intro.window.dealer	1	Cloudy glass. Well, the view won't distract me.
 scene	office_intro.drawer.dealer	1	Locked. Interesting, but it can wait.
-scene	office_intro.affairs_notebook.dealer	1	The first task. Let's hope there are no unnecessary expenses.
+scene	office_intro.affairs_notebook.dealer	1	The first task in Affairs. Let's hope there are no unnecessary expenses.
 scene	office_intro.exit_choice.dealer	1	Look over the collective farm from above, or visit the former headman? Which will be more useful?
 scene	office_intro.plan_sketch.dealer	1	The previous chairman's plan. Never got it built. I wonder what this whole enterprise will cost.
-scene	office_intro.enter.acting	2	Here is my new office. I can inspect the marked objects in any order.
-scene	office_intro.notebooks.acting	2	The first order is already in the book. I need to appoint a tally clerk. For now, I issue the work assignments.
+scene	office_intro.enter.acting	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.acting	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
 scene	start.prologue.villager.t8	1	They've let the church go. And my own people are looking at me as if they've been sent a stranger.
 scene	office_intro.charts.acting	1	The plan and deliveries. I'll work out what's needed and what we have.
 scene	start.prologue.worker.t8	1	The church is barely standing. We'll be starting among ruins.
@@ -212,10 +212,10 @@ scene	start.prologue.student.t8	1	I expected at least an office. Instead, a half
 scene	office_intro.door.acting	1	People will come here with their troubles. I'll have to hear each of them out.
 scene	start.prologue.ex_chairman.t8	1	Still, I hoped to find something here in one piece. A second chance, starting among ruins again.
 scene	office_intro.wall_map.acting	1	Everything's close together on the map. I'll have to walk it myself.
-scene	start.prologue.promoted.t8	1	A reception outside a half-ruined church. For some reason, the district didn't report this much decay.
+scene	start.prologue.promoted.t8	1	A welcome outside a half-ruined church. For some reason, the district didn't report this much decay.
 scene	office_intro.posters.acting	1	They put up posters, but never repaired the plaster underneath.
-scene	start.prologue.old_fighter.t8	1	The church is barely standing. Not how I pictured the new collective farm. We'll find somewhere to settle in.
-scene	office_intro.journal.acting	2	The first letter is the plan from the district. I will have to answer it.
+scene	start.prologue.old_fighter.t8	1	The church is barely standing. Not how I pictured the new collective farm. Where to make camp — we'll see.
+scene	office_intro.journal.acting	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
 scene	start.prologue.dealer.t8	1	Instead of the promised thriving farm, a half-ruined church. Now I see why they were in such a hurry to appoint me.
 scene	office_intro.pocketbook.acting	1	Best write it down at once. I've a good memory for promises.
 scene	start.prologue.acting.t8	1	I knew it would be hard. I didn't expect to be welcomed among ruins.
@@ -228,6 +228,6 @@ scene	office_intro.stove.acting	2	The stove's cold. Best light it before tacklin
 scene	office_intro.lamp.acting	1	The lamp's to the side. Easy to read without straining my eyes.
 scene	office_intro.window.acting	1	Can't see anything through the glass. I won't inspect this farm sitting here.
 scene	office_intro.drawer.acting	1	Locked. I'll leave it for now.
-scene	office_intro.affairs_notebook.acting	1	There's a first task. I'll work out what help I'll need.
+scene	office_intro.affairs_notebook.acting	1	There's a first task in Affairs. I'll work out what help I'll need.
 scene	office_intro.exit_choice.acting	1	Look over the farm from above, or talk to the former headman first? Where to start?
 scene	office_intro.plan_sketch.acting	1	The previous chairman marked out a new village, but never got it built. First I'll see where people will live.

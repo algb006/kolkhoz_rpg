@@ -165,8 +165,8 @@ ui.office	order.insulate_unit	1	Insulate with straw
 ui.office	order.graze_at_night	1	Graze horses at night
 ui.office	order.hand_stock	2	Deliver to district
 ui.office	order.take_night_trader	1	Remove from night trade
-ui.office	item.affairs_notebook.name	1	Tasks notebook
-ui.office	item.affairs_notebook.tooltip	1	Tasks — quests
+ui.office	item.affairs_notebook.name	1	Affairs notebook
+ui.office	item.affairs_notebook.tooltip	1	Affairs — quests
 ui.office	refusal.on_arable	1	No field camp on arable land: this land is for crops
 ui.office	refusal.too_far_from_fields	1	Too far from the fields: a field camp belongs near arable land
 ui.office	refusal.no_room_for_stock	1	No room: the livestock sheds are full, and animals are already boarded in household yards

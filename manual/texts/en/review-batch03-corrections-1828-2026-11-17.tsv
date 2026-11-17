@@ -1,0 +1,54 @@
+namespace	key	rev	en
+scene	office_intro.enter.villager	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.villager	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
+scene	start.prologue.villager.t1	1	What the devil: we've been going straight, and that birch is on our left again.
+scene	office_intro.wall_map.villager	1	Our whole farm on one sheet. I know the land well enough.
+scene	start.prologue.old_fighter.t1	1	Devil take it. Straight ahead all the way, and that birch again.
+scene	office_intro.journal.villager	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
+scene	office_intro.calendar.villager	1	April, thirty-one. Spring won't wait.
+scene	office_intro.affairs_notebook.villager	1	The first task is in Affairs. Time to get to work.
+scene	office_intro.enter.worker	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.worker	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
+scene	office_intro.wall_map.worker	1	Fields here, roads there. I'll need to think through hauling.
+scene	office_intro.journal.worker	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
+scene	office_intro.affairs_notebook.worker	1	Affairs tells me where to start. Time to get to work.
+scene	office_intro.enter.student	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.student	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
+scene	office_intro.journal.student	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
+scene	office_intro.calendar.student	1	April, thirty-one. Strange, there's no date on the calendar.
+scene	office_intro.affairs_notebook.student	1	The first task is in Affairs. Well, I have to start somewhere.
+scene	office_intro.enter.ex_chairman	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.ex_chairman	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
+scene	start.prologue.worker.t4	1	Water, forest, fields. All nearby. Sort out the hauling, organize the work, and this farm will run.
+scene	office_intro.journal.ex_chairman	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
+scene	office_intro.affairs_notebook.ex_chairman	1	The first task is in Affairs. There we are. Somewhere to start.
+scene	office_intro.enter.promoted	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.promoted	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
+scene	start.prologue.worker.t5	1	A single bridge keeps us connected to the district. If it goes, supplies go with it.
+scene	office_intro.posters.promoted	1	The agitation's up. The walls under those posters could do with some attention.
+scene	office_intro.journal.promoted	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
+scene	office_intro.affairs_notebook.promoted	1	Affairs has something to start with. I'm the one responsible for results now.
+scene	office_intro.enter.old_fighter	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.old_fighter	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
+scene	start.prologue.villager.t6	1	The land isn't lost. We can't reclaim all that fallow in one year. We'll start at the dry edge.
+scene	start.prologue.worker.t6	1	A big field, and no work going on. It's not one section that's stopped. The whole farm's standing idle.
+scene	start.prologue.ex_chairman.t6	1	Fallow all along the road. This wasn't one failed sowing. They've let the field go for years.
+scene	start.prologue.promoted.t6	1	These fields have been abandoned for years. I couldn't ask for better grounds to request allocations.
+scene	office_intro.journal.old_fighter	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
+scene	office_intro.pocketbook.old_fighter	1	I'll note who I promised what. A word given is a word kept.
+scene	office_intro.personal_item.old_fighter	1	The saber's here. At least one familiar thing.
+scene	office_intro.portrait.old_fighter	2	Devil take it. I don't recognize the General Secretary. Nothing's been right since the fog... Where have I ended up?
+scene	office_intro.affairs_notebook.old_fighter	1	First task in Affairs. Time to move out.
+scene	office_intro.enter.dealer	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.dealer	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
+scene	office_intro.journal.dealer	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
+scene	office_intro.portrait.dealer	2	I wanted somewhere quiet, and even the General Secretary is different... Pardon me, where on earth have I landed?
+scene	office_intro.calendar.dealer	1	April, thirty-one. And the date, if you please, I'm to find out myself.
+scene	office_intro.clock.dealer	1	The pendulum's swinging. Hardly a luxury, but a clock is a clock.
+scene	office_intro.affairs_notebook.dealer	1	The first task in Affairs. Let's hope there are no unnecessary expenses.
+scene	office_intro.enter.acting	2	So this is my new office. I can look over the marked things in any order.
+scene	office_intro.notebooks.acting	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
+scene	start.prologue.promoted.t8	1	A welcome outside a half-ruined church. For some reason, the district didn't report this much decay.
+scene	start.prologue.old_fighter.t8	1	The church is barely standing. Not how I pictured the new collective farm. Where to make camp — we'll see.
+scene	office_intro.journal.acting	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
+scene	office_intro.affairs_notebook.acting	1	There's a first task in Affairs. I'll work out what help I'll need.
