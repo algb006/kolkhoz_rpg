@@ -1,3 +1,12 @@
+BATCH05: next 200 ui.office rows, including Reception/Affairs/Daybook,
+printed props, pocketbook paragraphs, ordinal object labels and allocation
+orders/status. Existing pure-program bylines reused from the image sheet;
+no manually chosen resident names. English ordinal UI labels are 1st..12th.
+Current text coverage: 1,082 submitted/candidate rows, 1,081 current keys.
+Remaining office namespace source rows: 124, before any later new additions.
+Voice first window is active, no later window before human hearing. Canonical
+WAV/receipt originals: voice/draft/en-demo-1829-20261117; data is working only.
+
 IMAGE WORDS #1833: boss-rpg-english-1833-image-words-2026-11-17 [1]
 reprioritizes this after batch04 corrections and before remaining ui.office.
 One mixed review TSV has 28 rows: 24 existing namespace/key/rev/en entries

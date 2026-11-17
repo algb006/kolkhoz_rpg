@@ -1,0 +1,201 @@
+namespace	key	rev	en
+ui.office	refusal.chairman_away	1	The chairman is at the district office: orders can wait until the return
+ui.office	item.portrait.name	1	Portrait
+ui.office	item.portrait.tooltip	1	Portrait — an unfamiliar face
+ui.office	refusal.trip_this_month	5	The secretary is away. Next possible trip: {date}.
+ui.office	refusal.trade_closed	1	The plan cannot be negotiated right now
+ui.office	refusal.reputation_too_low	1	The farm is under district scrutiny: nothing to bargain with
+ui.office	refusal.site_exhausted	1	The site is exhausted: nothing left to dig out
+ui.office	refusal.store_to_build	1	Build first: {unit}
+ui.office	item.calendar.name	1	Wall calendar
+ui.office	item.clock.name	1	Pendulum clock
+ui.office	item.stove.name	1	Potbelly stove
+ui.office	item.lamp.name	1	Kerosene lamp
+ui.office	item.window.name	1	Window
+ui.office	group.map	1	Map
+ui.office	group.outside	1	Outside world
+ui.office	group.reception	1	Reception
+ui.office	group.affairs	1	Affairs
+ui.office	group.notebook	1	Pocketbook
+ui.office	group.newspaper	1	Newspaper
+ui.office	group.personal	1	Personal file
+ui.office	group.own	1	Your own affairs
+ui.office	works.assignments	1	Work assignments and staffing
+ui.office	works.delegation	2	Assistants' authority
+ui.office	works.transport	1	Transport
+ui.office	works.feed_table	2	Feeding the herd
+ui.office	works.construction	1	Construction and requests
+ui.office	works.nomenclature	2	What to produce
+ui.office	economy.plan	1	Plan and deliveries
+ui.office	economy.production	2	What is produced where
+ui.office	economy.farms	1	Livestock farms
+ui.office	economy.fodder_balance	1	Winter feed balance
+ui.office	economy.labor_pay	1	Labor-day credits and distributions
+ui.office	economy.losses	1	Losses
+ui.office	people.mood	1	Satisfaction and mood
+ui.office	people.demography	1	Demography
+ui.office	people.health	1	Health
+ui.office	people.food_variety	1	Food variety
+ui.office	people.education	1	Education
+ui.office	people.organizations	1	Organizations
+ui.office	people.order	1	Order
+ui.office	map.layers	1	Map layers
+ui.office	map.villages	3	Settlements
+ui.office	outside.district	1	District committee and allocations
+ui.office	outside.neighbors	1	Neighbors
+ui.office	outside.requests	2	Requests and district supplies
+ui.office	outside.vehicle_order	1	Machinery orders
+ui.office	reception.resident_list	1	Resident list
+ui.office	reception.summon	1	Summon
+ui.office	reception.reception_day	1	Reception day
+ui.office	affairs.quests	1	Quests
+ui.office	journal.incoming_outgoing	1	Incoming and outgoing
+ui.office	notebook.diary	1	Daybook
+ui.office	notebook.directory	1	Directory
+ui.office	newspaper.current_issue	1	Current issue
+ui.office	newspaper.archive	1	Archive
+ui.office	personal.development	2	Development and skills
+ui.office	personal.reputation	1	Reputation
+ui.office	own.black_cash	1	Off-book funds
+ui.office	refusal.district_road	1	The district builds and paves this road, not the collective farm
+ui.office	prop.newspaper.title	1	Zarechny Life
+ui.office	prop.newspaper.subtitle	1	District newspaper
+ui.office	prop.newspaper.issue	1	April 1931 · Zarechny District
+ui.office	prop.newspaper.headline_1	1	Test the seeds, repair the plows
+ui.office	prop.newspaper.headline_2	1	How neighboring collective farms share experience
+ui.office	prop.newspaper.headline_3	1	Book exhibition opens at the district reading room
+ui.office	prop.newspaper.byline_1	1	A. Ladutin
+ui.office	prop.newspaper.byline_3	1	N. Berestova
+ui.office	prop.poster.1	1	Together for spring sowing!
+ui.office	prop.poster.2	1	Protect seeds and tools!
+ui.office	prop.poster.3	1	A strong farm, a well-fed village!
+ui.office	works.summary_lead	2	The tally clerk issues work assignments. Until one is appointed, issue them yourself. Any assignment can be changed.
+ui.office	works.list_show	1	Show people
+ui.office	works.list_hide	1	Collapse list
+ui.office	book.seed_area_short	2	{crop}: not enough seed for {hectares} {hectares}|plural(one=hectare,other=hectares). We will sow less.
+ui.office	back_to_desk	3	Back to the papers
+ui.office	pocketbook.korenev.neutral.villager	1	{person_family} was calm when I was appointed. He knows my village on paper, but not on the ground. Let's see how he handles something the papers don't show.
+ui.office	pocketbook.korenev.neutral.worker	1	{person_family} looked at me without fuss. I met managers like that at the factory: they want progress, not promises. I'll show him results when there's something to show.
+ui.office	pocketbook.korenev.neutral.student	1	When I was appointed, I kept thinking I ought to say something sensible. The secretary looked calm, which only made me more nervous. I don't yet know what he thinks of me.
+ui.office	pocketbook.korenev.neutral.ex_chairman	1	{person_family} signed a new order. I don't believe he knows nothing about my previous farm. This time, I'd better give him a reason to talk about the work here.
+ui.office	pocketbook.korenev.neutral.promoted	1	The order bears a signature: {person_family}. When we met, he gave no sign that my family connection at the regional committee made any difference to him. Better rely on my own results.
+ui.office	pocketbook.korenev.neutral.old_fighter	1	{person_family} was calm, and I watched closely. I don't like chiefs who substitute noise for work. He doesn't seem that sort. For now, he's given me a post; respect still has to be earned.
+ui.office	pocketbook.korenev.neutral.dealer	1	{person_address} saves words as some men save money. He watched closely when I was appointed. I'd like to know exactly what he noticed.
+ui.office	pocketbook.korenev.neutral.acting	1	{person_family} signed the order calmly, without any grand promises. Not the first time I've started work like that. Too early to judge him; I'll see how he treats work that's actually done.
+ui.office	pocketbook.elder.neutral.villager	1	At the church, {person_address} wore the same frock coat I remember from childhood. Still makes himself presentable when he meets people. He knows this land, but deciding for the village is my job now.
+ui.office	pocketbook.elder.neutral.worker	1	{person_family} stood by the church in his best frock coat. Clothes don't tell you how a man works. When we talk business, I'll learn what he relies on here.
+ui.office	pocketbook.elder.neutral.student	1	At the church, {person_address} was dressed more formally than I expected. I'd meant to ask him about the village, but now I don't know where to begin. The road, perhaps. I've seen that already.
+ui.office	pocketbook.elder.neutral.ex_chairman	1	{person_family} put on his frock coat to greet the new chairman. I noticed the respect, but I don't judge a man by his clothes. He'll tell me more about local affairs when we meet at work.
+ui.office	pocketbook.elder.neutral.promoted	1	{person_family} came to the welcome in a frock coat. Proper procedure observed. He was calm, not trying to please. Better talk to him about places and people than my appointment.
+ui.office	pocketbook.elder.neutral.old_fighter	1	{person_family} stood by the church in a frock coat, as if on parade. Calm. I noticed that. I'll ask what he knows of the farm, without parade-ground speeches.
+ui.office	pocketbook.elder.neutral.dealer	1	I noticed the distinctive frock coat at once. {person_address} greeted me by the church without fuss. A coat alone won't tell you a man's worth; talk of the farm will show it.
+ui.office	pocketbook.elder.neutral.acting	1	{person_family} put on a frock coat for my arrival. So he thought the welcome mattered. Once work begins, I'll see what he knows about the people and the land.
+ui.office	pocketbook.korenev.history.appointment.villager	1	{person_family} signed my appointment order. My village is my responsibility now.
+ui.office	pocketbook.elder.history.church.villager	1	{person_address} was among those welcoming me on arrival. We haven't discussed the village layout yet.
+ui.office	pocketbook.korenev.history.appointment.worker	1	{person_family} signed the order. The factory is behind me; this farm is my responsibility now.
+ui.office	pocketbook.elder.history.church.worker	1	{person_family} wore a frock coat at the church. Before taking his advice, I'll ask him about the work.
+ui.office	pocketbook.korenev.history.appointment.student	1	{person_family} signed the appointment order. Now my calculations will have to stand the test of a real farm.
+ui.office	pocketbook.elder.history.church.student	1	{person_address} wore a frock coat at the church. I wanted to ask about the village, but we haven't talked yet.
+ui.office	pocketbook.korenev.history.appointment.ex_chairman	1	{person_family} signed a new order. After my dismissal, I've been given a second chance.
+ui.office	pocketbook.elder.history.church.ex_chairman	1	{person_family} wore a frock coat at the church. We haven't discussed the farm; first I'll check his words against the place.
+ui.office	pocketbook.korenev.history.appointment.promoted	1	{person_family} signed the order. I have the appointment; now I'll be held to account for results.
+ui.office	pocketbook.elder.history.church.promoted	1	{person_family} wore a frock coat at the church. The welcome is over; a working conversation still lies ahead.
+ui.office	pocketbook.korenev.history.appointment.old_fighter	1	{person_family} signed the order. The people here are my responsibility now.
+ui.office	pocketbook.elder.history.church.old_fighter	1	{person_family} wore a frock coat at the church. I'll return to the business at hand when I leave the office.
+ui.office	pocketbook.korenev.history.appointment.dealer	1	{person_family} signed the order. Paper gave me the post; the farm still has to be put back on its feet.
+ui.office	pocketbook.elder.history.church.dealer	1	I noticed an old frock coat by the church. {person_family} was wearing it. I'll know him now; we'll discuss the farm separately.
+ui.office	pocketbook.korenev.history.appointment.acting	1	{person_family} signed the order. Once again, I'm responsible for the work, whatever the post is called.
+ui.office	pocketbook.elder.history.church.acting	1	{person_family} stood by the church in a frock coat. A memorable welcome; I'll ask about the people and places at work.
+ui.office	book.goods_loan_carried	2	Debt carried over: {resource} — {amount}. Due back: {amount_back} from the {year} harvest.
+ui.office	book.goods_loan_taken	1	This year's seed loan: {resource} — {taken_this_year}. Total due for this product at year-end: {owed}.
+ui.office	object.field_at	1	field {place} ({crop})
+ui.office	object.field_at_nth	1	{nth} field {place} ({crop})
+ui.office	object.field_crop	1	field ({crop})
+ui.office	object.field_crop_nth	1	{crop}, {nth} field
+ui.office	object.crop_none	1	unsown
+ui.office	ordinal.neuter.1	1	1st
+ui.office	ordinal.neuter.2	1	2nd
+ui.office	ordinal.neuter.3	1	3rd
+ui.office	ordinal.neuter.4	1	4th
+ui.office	ordinal.neuter.5	1	5th
+ui.office	ordinal.neuter.6	1	6th
+ui.office	ordinal.neuter.7	1	7th
+ui.office	ordinal.neuter.8	1	8th
+ui.office	ordinal.neuter.9	1	9th
+ui.office	ordinal.neuter.10	1	10th
+ui.office	ordinal.neuter.11	1	11th
+ui.office	ordinal.neuter.12	1	12th
+ui.office	object.herd_at	1	{kind} {place}
+ui.office	object.herd_family	2	{kind} ({family})
+ui.office	object.unit_at	1	{unit} {place}
+ui.office	object.unit_family	2	{unit} ({family})
+ui.office	object.meadow_at	1	meadow {place}
+ui.office	object.meadow_at_nth	1	{nth} meadow {place}
+ui.office	object.meadow	1	meadow
+ui.office	object.meadow_nth	1	{nth} meadow
+ui.office	object.floodplain_at	1	flood meadow {place}
+ui.office	object.floodplain_at_nth	1	{nth} flood meadow {place}
+ui.office	object.floodplain	1	flood meadow
+ui.office	object.floodplain_nth	1	{nth} flood meadow
+ui.office	ordinal.masculine.1	1	1st
+ui.office	ordinal.masculine.2	1	2nd
+ui.office	ordinal.masculine.3	1	3rd
+ui.office	ordinal.masculine.4	1	4th
+ui.office	ordinal.masculine.5	1	5th
+ui.office	ordinal.masculine.6	1	6th
+ui.office	ordinal.masculine.7	1	7th
+ui.office	ordinal.masculine.8	1	8th
+ui.office	ordinal.masculine.9	1	9th
+ui.office	ordinal.masculine.10	1	10th
+ui.office	ordinal.masculine.11	1	11th
+ui.office	ordinal.masculine.12	1	12th
+ui.office	object.field_plot_at	1	plot {place} ({crop})
+ui.office	object.field_plot_at_nth	1	{nth} plot {place} ({crop})
+ui.office	object.meadow_hay_at	2	hay meadow {place}
+ui.office	object.meadow_hay_at_nth	2	{nth} hay meadow {place}
+ui.office	object.floodplain_hay_at	2	flood hay meadow {place}
+ui.office	object.floodplain_hay_at_nth	2	{nth} flood hay meadow {place}
+ui.office	unit.heads	1	head
+ui.office	unit.hectares	1	ha
+ui.office	unit.days	1	d.
+ui.office	unit.teams	1	teams
+ui.office	unit.tonnes	1	t
+ui.office	limit.points	1	Allocation points remaining this year: {points}
+ui.office	limit.col.lot	1	Goods
+ui.office	limit.col.price	1	Price
+ui.office	limit.col.answer	1	District reply
+ui.office	limit.price	1	{points} {points}|plural(one=point,other=points)
+ui.office	limit.price.none	1	No price set
+ui.office	limit.answer.ok	1	Can be ordered today
+ui.office	limit.term	1	District cart in transit: {min}–{max} {max}|plural(one=day,other=days)
+ui.office	limit.on_the_way	1	In transit
+ui.office	limit.on_the_way.none	1	Nothing in transit
+ui.office	limit.cart.arrives	1	Arrives in {days} {days}|plural(one=day,other=days)
+ui.office	limit.cart.arrived	1	Cargo has arrived; waiting for storage space
+ui.office	limit.cart.own	1	Cargo is waiting at the district center — collect it with your own carts
+ui.office	limit.cart.loan	1	Goods loan
+ui.office	limit.sex.female	1	Female
+ui.office	limit.sex.male	1	Male
+ui.office	limit.cart.own.pending	1	Cargo will be ready at the district center in {days} {days}|plural(one=day,other=days) — collect it with your own carts
+ui.office	order.order_limit_lot.done	1	Ordered against allocation: {lot}
+ui.office	order.order_limit_lot.refused	1	Not ordered against allocation: {lot} — {reason}
+ui.office	event.field_phase_changed	1	The work stage changed on a field.
+ui.office	event.field_harvested	1	A field's harvest was recorded.
+ui.office	event.herd_died	1	Livestock deaths occurred in the herd.
+ui.office	event.distribution_issued	1	Food was distributed according to labor-day credits.
+ui.office	event.social_status_changed	1	A resident's membership in public organizations changed.
+ui.office	event.night_trade_outing	1	A resident went out to sell moonshine at night.
+ui.office	event.hygiene_disease	1	A resident developed health problems because of poor hygiene.
+ui.office	event.samogon_sale	1	Moonshine was sold at a household yard.
+ui.office	event.herd_born	1	The herd had offspring.
+ui.office	event.herd_surplus_slaughtered	1	Surplus livestock slaughter was recorded on household plots.
+ui.office	event.watchdog_fired	1	A resident stopped waiting for a cart and set off on foot.
+ui.office	order.set_logistics_level	1	Change priority
+ui.office	order.pause_logistics_task	1	Pause hauling
+ui.office	neighbor.strong.role	1	Strong farm to the east
+ui.office	neighbor.strong.summary	1	From last year's district committee report. Main activity: grain. Among the district's leading farms at year-end.
+ui.office	neighbor.middle.role	1	Solid mid-ranking farm to the south
+ui.office	neighbor.middle.summary	1	From last year's district committee report. Main activity: livestock. A solid farm with average results for the district.
+ui.office	neighbor.poor.role	1	Poor farm to the west, beyond the forest
+ui.office	neighbor.poor.summary	1	From last year's district committee report. A mixed farm with below-average results for the district. Deliveries are difficult: the road runs through forest.
+ui.office	refusal.not_restorable	1	This ruined building cannot be restored
