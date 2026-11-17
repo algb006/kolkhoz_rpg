@@ -310,5 +310,57 @@
     "rev": 1,
     "source_text": "Н. Берестова",
     "max_len": 32
+  },
+  {
+    "string_id": 21062,
+    "full_key": "ui.office.plan_sketch.legend.title",
+    "namespace": "ui.office",
+    "key": "plan_sketch.legend.title",
+    "kind": "title",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "Условные знаки",
+    "max_len": 48
+  },
+  {
+    "string_id": 21063,
+    "full_key": "ui.office.plan_sketch.annotation.stockmen_houses",
+    "namespace": "ui.office",
+    "key": "plan_sketch.annotation.stockmen_houses",
+    "kind": "label",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "Жильё при ферме",
+    "max_len": 64
+  },
+  {
+    "string_id": 21064,
+    "full_key": "ui.office.prop.chairman_book.title",
+    "namespace": "ui.office",
+    "key": "prop.chairman_book.title",
+    "kind": "title",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "НАСТОЛЬНАЯ КНИГА ПРЕДСЕДАТЕЛЯ",
+    "max_len": 64
+  },
+  {
+    "string_id": 21065,
+    "full_key": "ui.hud.sign.danger",
+    "namespace": "ui.hud",
+    "key": "sign.danger",
+    "kind": "label",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "ОПАСНО",
+    "max_len": 32
   }
 ]

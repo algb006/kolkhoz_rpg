@@ -1,3 +1,25 @@
+REVIEW MIRRORS / FINAL OFFICE CORRECTIONS:
+Batch05 support/boss [2]: all 11 fixes plus the three already-approved printed
+rows mirrored from the live ok English, with actual current source revs.
+Image sheet now mirrors owner-approved English and all four new keys as
+registered; no source/database write by RPG. Original proposal is in Git.
+Batch06 boss [2]: one corrections TSV has 19 distinct changed keys: all 18
+explicitly listed keys plus the villager’s one-and-a-half prose ratio. The
+requested trial line was 164 vs160 max_len; the candidate preserves after-
+acceptance-year and >=14% semantics in exactly160 chars. No limit changed.
+Avatar display names are Villager / Worker / Student / Dismissed Chairman /
+Promotee / Old Fighter / Dealer / Acting Chairwoman; internal keys unchanged.
+
+VOICE WINDOW01 COMPLETE: 90/232, 90 unique billable interactions, no failures
+or unresolved usage. $0.1428730 spend; estimated project remainder $7.2455755.
+All WAVs/unchanged receipts are preserved in voice/draft/en-demo-1829-20261117;
+working data copies are not the sole product copy. Hearing manifest has four
+specified voices. No next daily window before the human’s hearing decision;
+the generator now enforces that gate before any POST. Full next90 safe after
+2026-11-18T02:06:59.156723+00:00, also requiring hearing acceptance.
+No mastering/ASR/timbre/whole-demo locale acceptance is claimed. Existing
+Russian-only story.db voice imports have NOT been run on English receipts.
+
 BATCH06: 127 remaining ui.office rows, including three new #1833 image keys
 already registered by boss after the earlier 124-row remainder count. Existing
 English image labels are reused. Total text batches 01–06: 1,209 rows, 1,208

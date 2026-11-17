@@ -1,5 +1,5 @@
 namespace	key	rev	en
-ui.office	refusal.chairman_away	1	The chairman is at the district office: orders can wait until the return
+ui.office	refusal.chairman_away	1	The chairman is at the district center: orders wait until the chairman returns.
 ui.office	item.portrait.name	1	Portrait
 ui.office	item.portrait.tooltip	1	Portrait — an unfamiliar face
 ui.office	refusal.trip_this_month	5	The secretary is away. Next possible trip: {date}.
@@ -19,9 +19,9 @@ ui.office	group.affairs	1	Affairs
 ui.office	group.notebook	1	Pocketbook
 ui.office	group.newspaper	1	Newspaper
 ui.office	group.personal	1	Personal file
-ui.office	group.own	1	Your own affairs
+ui.office	group.own	1	Private
 ui.office	works.assignments	1	Work assignments and staffing
-ui.office	works.delegation	2	Assistants' authority
+ui.office	works.delegation	2	Delegated authority
 ui.office	works.transport	1	Transport
 ui.office	works.feed_table	2	Feeding the herd
 ui.office	works.construction	1	Construction and requests
@@ -30,7 +30,7 @@ ui.office	economy.plan	1	Plan and deliveries
 ui.office	economy.production	2	What is produced where
 ui.office	economy.farms	1	Livestock farms
 ui.office	economy.fodder_balance	1	Winter feed balance
-ui.office	economy.labor_pay	1	Labor-day credits and distributions
+ui.office	economy.labor_pay	1	Labor-day credits and distribution
 ui.office	economy.losses	1	Losses
 ui.office	people.mood	1	Satisfaction and mood
 ui.office	people.demography	1	Demography
@@ -38,7 +38,7 @@ ui.office	people.health	1	Health
 ui.office	people.food_variety	1	Food variety
 ui.office	people.education	1	Education
 ui.office	people.organizations	1	Organizations
-ui.office	people.order	1	Order
+ui.office	people.order	1	Public order
 ui.office	map.layers	1	Map layers
 ui.office	map.villages	3	Settlements
 ui.office	outside.district	1	District committee and allocations
@@ -53,7 +53,7 @@ ui.office	journal.incoming_outgoing	1	Incoming and outgoing
 ui.office	notebook.diary	1	Daybook
 ui.office	notebook.directory	1	Directory
 ui.office	newspaper.current_issue	1	Current issue
-ui.office	newspaper.archive	1	Archive
+ui.office	newspaper.archive	1	Back issues
 ui.office	personal.development	2	Development and skills
 ui.office	personal.reputation	1	Reputation
 ui.office	own.black_cash	1	Off-book funds
@@ -61,13 +61,13 @@ ui.office	refusal.district_road	1	The district builds and paves this road, not t
 ui.office	prop.newspaper.title	1	Zarechny Life
 ui.office	prop.newspaper.subtitle	1	District newspaper
 ui.office	prop.newspaper.issue	1	April 1931 · Zarechny District
-ui.office	prop.newspaper.headline_1	1	Test the seeds, repair the plows
+ui.office	prop.newspaper.headline_1	1	Seed for testing, plows for repair
 ui.office	prop.newspaper.headline_2	1	How neighboring collective farms share experience
 ui.office	prop.newspaper.headline_3	1	Book exhibition opens at the district reading room
 ui.office	prop.newspaper.byline_1	1	A. Ladutin
 ui.office	prop.newspaper.byline_3	1	N. Berestova
-ui.office	prop.poster.1	1	Together for spring sowing!
-ui.office	prop.poster.2	1	Protect seeds and tools!
+ui.office	prop.poster.1	1	All together for the spring sowing!
+ui.office	prop.poster.2	1	Guard the seed and the tools!
 ui.office	prop.poster.3	1	A strong farm, a well-fed village!
 ui.office	works.summary_lead	2	The tally clerk issues work assignments. Until one is appointed, issue them yourself. Any assignment can be changed.
 ui.office	works.list_show	1	Show people
@@ -157,7 +157,7 @@ ui.office	object.floodplain_hay_at	2	flood hay meadow {place}
 ui.office	object.floodplain_hay_at_nth	2	{nth} flood hay meadow {place}
 ui.office	unit.heads	1	head
 ui.office	unit.hectares	1	ha
-ui.office	unit.days	1	d.
+ui.office	unit.days	1	days
 ui.office	unit.teams	1	teams
 ui.office	unit.tonnes	1	t
 ui.office	limit.points	1	Allocation points remaining this year: {points}
@@ -181,14 +181,14 @@ ui.office	order.order_limit_lot.done	1	Ordered against allocation: {lot}
 ui.office	order.order_limit_lot.refused	1	Not ordered against allocation: {lot} — {reason}
 ui.office	event.field_phase_changed	1	The work stage changed on a field.
 ui.office	event.field_harvested	1	A field's harvest was recorded.
-ui.office	event.herd_died	1	Livestock deaths occurred in the herd.
+ui.office	event.herd_died	1	There were deaths in the herd.
 ui.office	event.distribution_issued	1	Food was distributed according to labor-day credits.
 ui.office	event.social_status_changed	1	A resident's membership in public organizations changed.
 ui.office	event.night_trade_outing	1	A resident went out to sell moonshine at night.
 ui.office	event.hygiene_disease	1	A resident developed health problems because of poor hygiene.
 ui.office	event.samogon_sale	1	Moonshine was sold at a household yard.
-ui.office	event.herd_born	1	The herd had offspring.
-ui.office	event.herd_surplus_slaughtered	1	Surplus livestock slaughter was recorded on household plots.
+ui.office	event.herd_born	1	Young were born in the herd.
+ui.office	event.herd_surplus_slaughtered	1	Surplus animals were slaughtered on household plots.
 ui.office	event.watchdog_fired	1	A resident stopped waiting for a cart and set off on foot.
 ui.office	order.set_logistics_level	1	Change priority
 ui.office	order.pause_logistics_task	1	Pause hauling
@@ -197,5 +197,5 @@ ui.office	neighbor.strong.summary	1	From last year's district committee report. 
 ui.office	neighbor.middle.role	1	Solid mid-ranking farm to the south
 ui.office	neighbor.middle.summary	1	From last year's district committee report. Main activity: livestock. A solid farm with average results for the district.
 ui.office	neighbor.poor.role	1	Poor farm to the west, beyond the forest
-ui.office	neighbor.poor.summary	1	From last year's district committee report. A mixed farm with below-average results for the district. Deliveries are difficult: the road runs through forest.
+ui.office	neighbor.poor.summary	1	From last year's district committee report. A mixed farm with below-average results for the district. Hauling is difficult: the road runs through forest.
 ui.office	refusal.not_restorable	1	This ruined building cannot be restored

@@ -1,0 +1,20 @@
+namespace	key	rev	en
+ui.office	works.eye.beyond_strength	1	Too heavy for them
+ui.office	refusal.worker_crop_swap_early	1	Crop substitution is unavailable in the first two plan negotiations.
+ui.office	refusal.student_working_day_off_early	1	A day off can be made a working day from the third year onward.
+ui.office	handbook.page.field_year	1	Field-work year
+ui.office	handbook.tab.words	1	Glossary
+ui.office	journal.first_incoming_avatar.student	1	You may revise the plan in January without losing reputation, up to three times per epoch.
+ui.office	journal.first_incoming_avatar.worker	1	Crop substitution is not allowed in the first two plan discussions; delivery amounts may change by 10% in either direction.
+ui.office	journal.first_incoming_avatar.villager	1	The district takes one and a half times as long as usual to consider your requests.
+ui.office	avatar_friends.worker.personal_file	1	In summer, you can invite factory comrades: a toolmaker, a blacksmith and a lathe operator. Each visit, they repair one horse-drawn implement or cart. The farm provides food and lodging. They will return if they were well fed and housed last time.
+ui.office	avatar_friends.promoted.personal_file	1	In summer, you can invite an instructor, a newspaperman and the manager of a hunting reserve. They help process one allocation request out of turn; the full points are still spent. The farm provides food and lodging. They will return if they were well fed and housed last time.
+ui.office	avatar_friends.old_fighter.personal_file	1	In summer, you can invite old comrades: a farrier, a riding trainer and a veterinary assistant. They help with the horses and bring a cavalry horse culled from the regiment: one per visit, no more than three per epoch. The farm provides food and lodging. They will return if they were well fed and housed last time.
+ui.office	avatar_friends.dealer.personal_file	1	In summer, you can invite former business contacts: a freight agent, a procurement agent and a railway buffet worker. They bring goods unavailable in the district: one lot of glass, roofing, nails or salt, no larger than a district lot. The farm provides food and lodging. They will return if they were well fed and housed last time.
+ui.office	avatar_friends.acting.personal_file	1	In summer, you can invite friends from your former farm: a senior milkmaid, a calf keeper and a vegetable grower. They train one woman worker, up to the experienced level. The farm provides food and lodging. They will return if they were well fed and housed last time.
+ui.office	book.pre_acceptance_dieoff	3	Before acceptance: {heads} head died for lack of feed ({share}% of herd). After the acceptance year, annual hunger deaths of 14% or more of the herd mean trial.
+ui.office	trip.confirm.mud	1	During the muddy season, the trip takes two days. Depart at 8:00, return the next morning: {return}. The farm runs without your direction until you return. Travel?
+ui.office	trade.closed.worker_swap	1	The Worker cannot substitute crops in the first two negotiations. A ±10% change to a plan position is available.
+ui.office	trip.confirm.orders_refused	1	No village orders are accepted until you return. Standing assignments remain in effect.
+ui.office	dayoff.free_left.zero	1	From now on, the usual cost applies.
+ui.office	works.self.left	1	Work left: {days} person-days.
