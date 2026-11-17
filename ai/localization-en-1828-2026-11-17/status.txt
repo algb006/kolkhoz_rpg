@@ -1,3 +1,18 @@
+CURRENT OWNER UPDATE: rpg-boss-english-batch01-1828-2026-11-17 [2].
+Glossary imported; support/boss accepted farm board (short the board),
+household plot (speech our own plot / their own yard), allocation (plural
+allocations; allocation points). Own glossary mirrors these accepted forms.
+Batch01 imported as draft, support proofreading; not approved by RPG.
+Russian avatar hint corrected by boss to portrait, rev2. Batch02 carries the
+single correction; batch01 remains its delivered historical source snapshot.
+English chairman_acc resolves to transliterated nominative in every case;
+no extra RPG name fix is needed. Earlier flags below are historical.
+Numbers are digits; preserve source gender forms; plural en one/other only
+(boss-rpg-english-rules-2026-11-17 [1]). No manual patronymics.
+Batch02: 250 rows = 61 remaining ui.settings + 188 ui.hud + rev2 avatar hint.
+Total delivered/candidate batches: 450 rows, 449 distinct current keys.
+The next text batch is the demo office namespace and prologue selection.
+
 English localization #1828 / voice #1829 — 2026-11-17
 
 Authority: boss-rpg-english-version-2026-11-17 [1]. Explicit parcel order:

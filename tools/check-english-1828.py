@@ -17,8 +17,15 @@ def main():
     )
     errors = []
     total = 0
-    seen = set()
-    for path in sorted((ROOT / "manual/texts/en").glob("demo-batch*.tsv")):
+    seen = {}
+    paths = sorted((ROOT / "manual/texts/en").glob("demo-batch*.tsv"))
+    latest = {}
+    for path in paths:
+        with path.open(newline="") as handle:
+            for row in csv.DictReader(handle, delimiter="\t"):
+                key = (row["namespace"], row["key"])
+                latest[key] = max(latest.get(key, 0), int(row["rev"]))
+    for path in paths:
         batch = re.search(r"batch\d+", path.name).group()
         snapshot = ROOT / "ai/localization-en-1828-2026-11-17" / f"{batch}-source.json"
         sources = {
@@ -36,9 +43,10 @@ def main():
         for row in rows:
             key = (row["namespace"], row["key"])
             label = ".".join(key)
-            if key in seen:
-                errors.append(f"{label}: duplicated across batches")
-            seen.add(key)
+            revision = int(row["rev"])
+            if key in seen and revision <= seen[key]:
+                errors.append(f"{label}: duplicate without a newer source revision")
+            seen[key] = revision
             source = sources.get(key)
             if source is None:
                 continue
@@ -49,7 +57,7 @@ def main():
                 "SELECT rev, source_text FROM string_source "
                 "WHERE namespace=? AND key=? AND deprecated=0", key
             ).fetchone()
-            if live != (source["rev"], source["source_text"]):
+            if revision == latest[key] and live != (source["rev"], source["source_text"]):
                 errors.append(f"{label}: Russian source changed; re-review required")
             if set(PARAM.findall(text)) != set(PARAM.findall(source["source_text"])):
                 errors.append(f"{label}: placeholder mismatch")
@@ -64,11 +72,19 @@ def main():
                 forms = [part.split("=", 1)[0] for part in expression.split(",")]
                 if sorted(forms) != ["one", "other"]:
                     errors.append(f"{label}: English plural needs one,other")
+            source_gender = re.findall(r"\|gender\(([^()]*)\)", source["source_text"])
+            target_gender = re.findall(r"\|gender\(([^()]*)\)", text)
+            if len(source_gender) != len(target_gender):
+                errors.append(f"{label}: gender modifier count mismatch")
+            for original, translated in zip(source_gender, target_gender):
+                categories = lambda value: sorted(part.split("=", 1)[0] for part in value.split(","))
+                if categories(original) != categories(translated):
+                    errors.append(f"{label}: gender form categories changed")
             total += 1
     connection.close()
     for error in errors:
         print(error)
-    print(f"English draft validation: {total} rows, {len(errors)} errors")
+    print(f"English draft validation: {total} rows, {len(seen)} current keys, {len(errors)} errors")
     return bool(errors)
 
 

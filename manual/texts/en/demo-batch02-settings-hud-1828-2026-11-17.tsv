@@ -1,0 +1,251 @@
+namespace	key	rev	en
+ui.settings	set.upscale.method.fsr	1	AMD FSR
+ui.settings	set.upscale.method.unavailable	1	Unavailable on this graphics card
+ui.settings	set.upscale.method.fallback	1	The selected upscaling method is unavailable on this graphics card — using {method}
+ui.settings	credits.dlss	1	NVIDIA DLSS
+ui.settings	shell.already_running	1	The game is already running
+ui.settings	new.avatar.first_game	1	For your first game
+ui.settings	set.quality.ultra	1	Ultra
+ui.settings	set.lod_detail	1	Detail level
+ui.settings	set.lod_detail.low	1	Low
+ui.settings	set.lod_detail.medium	1	Medium
+ui.settings	set.lod_detail.high	1	High
+ui.settings	set.lod_detail.ultra	1	Ultra
+ui.settings	menu.esc.continue	1	Continue
+ui.settings	menu.esc.save	1	Save
+ui.settings	menu.esc.settings	1	Settings
+ui.settings	menu.esc.to_main	1	Return to main menu
+ui.settings	menu.esc.quit	1	Quit game
+ui.settings	menu.esc.unsaved	1	You will lose {minutes} {minutes}|plural(one=minute,other=minutes) of unsaved progress.
+ui.settings	menu.esc.unsaved.leave	1	Leave without saving
+ui.settings	menu.esc.unsaved.stay	1	Stay in the game
+ui.settings	save.cannot.slot_writing	1	A save is already in progress.
+ui.settings	save.cannot.dialogue_pending	1	Saving is unavailable while someone is waiting for your reply.
+ui.settings	save.cannot.no_saves_folder	1	The save folder is unavailable.
+ui.settings	save.window.title	1	Save game
+ui.settings	save.window.auto_name	1	{village} — {month} {year}, {day}
+ui.settings	save.window.overwrite	1	The save “{name}” will be overwritten.
+ui.settings	save.window.previous	1	Previous manual saves
+ui.settings	save.window.ok	1	Save
+ui.settings	save.window.cancel	1	Cancel
+ui.settings	save.done	1	Game saved.
+ui.settings	save.failed	1	Could not save the game.
+ui.settings	save.deleted_old_branch	1	Deleted from the previous branch: {count} {count}|plural(one=save,other=saves).
+ui.settings	save.quick.done	1	Quicksave complete.
+ui.settings	load.window.title	1	Load game
+ui.settings	load.empty	1	No saves yet.
+ui.settings	load.verdict.newer	1	Save from a newer build
+ui.settings	load.verdict.incompatible	1	Save incompatible with this build
+ui.settings	load.verdict.broken	1	Could not read the save
+ui.settings	load.later_deleted	1	After the next successful save, {count} later {count}|plural(one=save,other=saves) will be deleted.
+ui.settings	load.kind.manual	1	Manual save
+ui.settings	load.kind.auto	1	Autosave
+ui.settings	load.kind.day	1	Start of day
+ui.settings	load.kind.quick	1	Quicksave
+ui.settings	load.quick.none	1	No quicksave yet.
+ui.settings	newgame.saves_will_be_deleted	1	{count} {count}|plural(one=save,other=saves) from the previous game will be deleted.
+ui.settings	newgame.saves_will_be_deleted.ok	1	Start new game
+ui.settings	newgame.saves_will_be_deleted.cancel	1	Cancel
+ui.settings	menu.continue_why	1	There is no save to continue from.
+ui.settings	save.window.day_1	1	Day 1
+ui.settings	save.window.day_2	1	Day 2
+ui.settings	save.window.day_3	1	Day 3
+ui.settings	save.window.day_4	1	Day 4
+ui.settings	load.not_yet	1	Loading saves is not yet available in this build.
+ui.settings	menu.esc.to_main_not_yet	1	Returning to the main menu is not yet available in this build.
+ui.settings	save.cannot.no_host	1	The game state is unavailable for saving.
+ui.settings	dialogue.option.hard	1	{option} [risky]
+ui.settings	settings.game.autosave	1	Autosave
+ui.settings	settings.game.autosave.off	1	Off
+ui.settings	settings.game.autosave.5	1	5 min
+ui.settings	settings.game.autosave.10	1	10 min
+ui.settings	settings.game.autosave.20	1	20 min
+ui.hud	action.compass	1	Compass
+ui.hud	action.dismount	1	Dismount
+ui.hud	action.gate_locked	1	Locked
+ui.hud	action.hide_panel	1	Hide panel
+ui.hud	action.kick	1	Kick
+ui.hud	action.knock	1	Knock
+ui.hud	action.lantern	1	Lantern
+ui.hud	action.mount	1	Mount
+ui.hud	action.open_gate	1	Open
+ui.hud	action.take	1	Take
+ui.hud	action.whistle_mouth	2	Whistle
+ui.hud	action.whistle_pipe	2	Call out (whistle)
+ui.hud	compass.e	1	E
+ui.hud	compass.n	1	N
+ui.hud	compass.s	1	S
+ui.hud	compass.w	1	W
+ui.hud	reception.pending.tip	1	There are unanswered requests in Reception.
+ui.hud	rider.compass_put_away	1	First I'll put away the compass, then take the reins.
+ui.hud	rider.lantern_put_away	1	First I'll put away the lantern, then take the reins.
+ui.hud	weekday.1.inline	1	Monday
+ui.hud	weekday.2.inline	1	Tuesday
+ui.hud	weekday.3.inline	1	Wednesday
+ui.hud	weekday.4.inline	1	Thursday
+ui.hud	weekday.5.inline	1	Friday
+ui.hud	weekday.6.inline	1	Saturday
+ui.hud	weekday.7.inline	1	Sunday
+ui.hud	people.total	1	Residents
+ui.hud	people.working	1	Working
+ui.hud	people.idle	1	Idle
+ui.hud	office	1	Office
+ui.hud	pause	1	Pause
+ui.hud	month.1	1	January
+ui.hud	month.2	1	February
+ui.hud	month.3	1	March
+ui.hud	month.4	1	April
+ui.hud	month.5	1	May
+ui.hud	month.6	1	June
+ui.hud	month.7	1	July
+ui.hud	month.8	1	August
+ui.hud	month.9	1	September
+ui.hud	month.10	1	October
+ui.hud	month.11	1	November
+ui.hud	month.12	1	December
+ui.hud	season.spring	1	Spring
+ui.hud	season.summer	1	Summer
+ui.hud	season.autumn	1	Autumn
+ui.hud	season.winter	1	Winter
+ui.hud	weekday.1	1	Monday
+ui.hud	weekday.2	1	Tuesday
+ui.hud	weekday.3	1	Wednesday
+ui.hud	weekday.4	1	Thursday
+ui.hud	weekday.5	1	Friday
+ui.hud	weekday.6	1	Saturday
+ui.hud	weekday.7	1	Sunday
+ui.hud	layer.wear	1	Wear
+ui.hud	layer.logistics	1	Logistics
+ui.hud	map	1	Map
+ui.hud	weather.clear	1	Clear
+ui.hud	weather.fog	1	Fog
+ui.hud	weather.rain	1	Rain
+ui.hud	weather.thunderstorm	1	Thunderstorm
+ui.hud	weather.snowfall	1	Snow
+ui.hud	weather.blizzard	1	Snowstorm
+ui.hud	weather.frost	2	Frost
+ui.hud	weather.heat	2	Scorching heat
+ui.hud	wind.calm	1	Calm
+ui.hud	wind.wind	1	Wind
+ui.hud	wind.strong	1	Strong wind
+ui.hud	wind.squall	1	Squall
+ui.hud	layer.agriculture.name	1	Agriculture
+ui.hud	layer.agriculture.tip	1	Fields falling behind stand out; if the deadline is close, call for an extra effort on the field that needs it.
+ui.hud	layer.production.name	1	Production
+ui.hud	layer.production.tip	1	See where there is no room for goods or cargo cannot get through; clear storage space or repair the access road.
+ui.hud	layer.wellbeing.name	1	Wellbeing
+ui.hud	layer.wellbeing.tip	1	Homes of struggling families stand out; open a home and check its supplies.
+ui.hud	layer.leisure.name	1	Leisure
+ui.hud	layer.leisure.tip	2	Highlights homes that are far from places to relax.
+ui.hud	layer.roads_build.name	1	Roads, construction and repairs
+ui.hud	layer.roads_build.tip	1	See what needs repair and where construction is underway; order repairs or check the staked sites.
+ui.hud	layer.pollution.name	1	Pollution
+ui.hud	layer.pollution.tip	1	See dirty water and smells near homes; move the well or plant trees.
+ui.hud	layer.wildlife.name	1	Wildlife
+ui.hud	layer.wildlife.tip	1	See animals, birds and fish spotted by residents; choose a place to hunt or fish.
+ui.hud	layer.fire_risk.name	1	Fire risk
+ui.hud	layer.fire_risk.tip	1	See where fires would be hard to put out; place a well or gong nearby.
+ui.hud	layer.forest.name	1	Forest
+ui.hud	layer.forest.tip	1	Old trees and fallen timber are visible on the map; stake a logging plot where people can reach it.
+ui.hud	layer.networks.name	1	Networks
+ui.hud	layer.networks.tip	1	Electricity, telephone and radio will appear here; after electrification, stake a power line.
+ui.hud	layer.agriculture.work.name	1	Work
+ui.hud	layer.agriculture.work.tip	1	Fields falling behind are highlighted; if the deadline is close, call for an extra effort there.
+ui.hud	layer.agriculture.fertility.name	1	Fertility
+ui.hud	layer.agriculture.fertility.tip	1	Depleted fields are highlighted; leave them fallow or sow peas.
+ui.hud	layer.agriculture.harvest.name	1	Harvest
+ui.hud	layer.agriculture.harvest.tip	1	See what has ripened and what is still lying in the field; check harvesting and hauling.
+ui.hud	layer.production.stocks.name	1	Stocks
+ui.hud	layer.production.stocks.tip	1	See overflowing stores and farm feed stocks; clear space or bring feed.
+ui.hud	layer.production.haul_access.name	1	Hauling access
+ui.hud	layer.production.haul_access.tip	1	Roads with hauling problems are highlighted; repair the access road or make a bypass.
+ui.hud	layer.production.road_losses.name	1	Losses in transit
+ui.hud	layer.production.road_losses.tip	1	See where goods spoil on the way; place storage closer to production.
+ui.hud	layer.wellbeing.satisfaction.name	1	Satisfaction
+ui.hud	layer.wellbeing.satisfaction.tip	1	Homes with low satisfaction are highlighted; check distributions and the route to school.
+ui.hud	layer.wellbeing.health.name	1	Health
+ui.hud	layer.wellbeing.health.tip	1	Homes with illness and poor hygiene are highlighted; check the water and the route to the medical post.
+ui.hud	layer.roads_build.wear.name	1	Roads and wear
+ui.hud	layer.roads_build.wear.tip	1	Damaged roads and run-down buildings are highlighted; order repairs where they are needed most.
+ui.hud	layer.roads_build.construction.name	1	Construction
+ui.hud	layer.roads_build.construction.tip	1	Active construction and sites not yet started are shown separately; check material deliveries.
+ui.hud	layer.roads_build.planning.name	1	Layout
+ui.hud	layer.roads_build.planning.tip	1	Places where building is not allowed are highlighted in advance; move the stakes.
+ui.hud	layer.pollution.water.name	1	Water
+ui.hud	layer.pollution.water.tip	1	Shows polluted groundwater; move the well to a clean location.
+ui.hud	layer.pollution.air.name	1	Air
+ui.hud	layer.pollution.air.tip	1	See how far smells spread; plant trees between the source and homes.
+ui.hud	layer.networks.electricity.name	1	Electricity
+ui.hud	layer.networks.electricity.tip	1	After electrification, see which buildings have power; stake a line to the building that needs it.
+ui.hud	layer.networks.phone.name	1	Telephone
+ui.hud	layer.networks.phone.tip	1	See where telephone service has reached; after electrification, request a connection from the district.
+ui.hud	layer.networks.radio.name	1	Radio
+ui.hud	layer.networks.radio.tip	1	See where the radio can be heard; once the club has a radio station, put up loudspeakers.
+ui.hud	layer_badge.workers_short.tip	1	Not enough hands; if the deadline is close, call for an extra effort here.
+ui.hud	layer_badge.stopped.tip	1	Work has stopped; open the building and check why.
+ui.hud	layer_badge.store_full.tip	1	Storage is full; clear space or provide more storage.
+ui.hud	layer_badge.illness.tip	1	Someone in this home is ill; check the route to the medical post.
+ui.hud	layer_badge.hygiene.tip	1	This home has poor hygiene; check where the family gets its water.
+ui.hud	layer_badge.fallen_tree.tip	1	A fallen tree blocks the way; look for a clear route.
+ui.hud	layer_badge.dirty_water.tip	1	The water by the well is dirty; move the well to a clean location.
+ui.hud	layer_badge.smell.tip	1	The smell reaches this home; plant trees between it and the source.
+ui.hud	stock.food	1	Food
+ui.hud	stock.feed	1	Feed
+ui.hud	stock.firewood	1	Firewood
+ui.hud	stock.seed	1	Seeds
+ui.hud	temperature.degrees	1	°
+ui.hud	temperature.celsius	1	°C
+ui.hud	roads.mode.two	1	2 points
+ui.hud	roads.mode.three	1	3 points
+ui.hud	roads.mode.four	1	4 points
+ui.hud	roads.why.demo	1	Unavailable in the demo
+ui.hud	build_info.estimate	1	estimate
+ui.hud	build_info.free	1	Free
+ui.hud	build_info.labor	1	Labor-day credits
+ui.hud	build_info.resources	1	Resources
+ui.hud	build.why.era	1	Available later
+ui.hud	build_info.size	1	Plot {width} × {depth} m
+ui.hud	build_info.place	1	Placement
+ui.hud	build_info.relief	1	Terrain
+ui.hud	build_info.water	1	Water
+ui.hud	build_info.advice	1	Advice
+ui.hud	build_info.from	1	From
+ui.hud	build_info.modules	1	Modules
+ui.hud	build_info.package	1	Package
+ui.hud	feed.title	1	Events
+ui.hud	feed.view.strip	1	Strip
+ui.hud	feed.view.window	1	Journal
+ui.hud	feed.source.kolkhoz	1	Collective farm
+ui.hud	feed.source.district	1	District
+ui.hud	feed.source.people	1	People
+ui.hud	feed.source.works	1	Work
+ui.hud	feed.source.herd	1	Livestock
+ui.hud	feed.source.land	1	Fields and forest
+ui.hud	feed.source.weather	1	Weather
+ui.hud	feed.type.alarm	1	Alarm
+ui.hud	feed.type.important	1	Important
+ui.hud	feed.type.positive	1	Positive
+ui.hud	feed.type.neutral	1	Neutral
+ui.hud	feed.type.other	1	Other
+ui.hud	feed.days_ago	1	{count} {count}|plural(one=day,other=days) ago
+ui.hud	feed.month_ago	1	{month}
+ui.hud	feed.older	1	Earlier entries
+ui.hud	layer.panel.collapse	1	Collapse
+ui.hud	layer.panel.collapse.tip	1	Collapse the layers panel into a button in the corner of the screen.
+ui.hud	layer.panel.expand	1	Layers
+ui.hud	layer.panel.expand.tip	1	Expand the layers panel.
+ui.hud	layer.line.fertility.exact	1	Fertility {value} out of 100
+ui.hud	layer.line.fertility.grade.good	1	Good fertility
+ui.hud	layer.line.fertility.grade.fair	1	Average fertility
+ui.hud	layer.line.fertility.grade.poor	1	Low fertility
+ui.hud	layer.line.fertility.grade.exhausted	1	Depleted soil
+ui.hud	layer.line.stock	1	{percent} % full
+ui.hud	layer.line.satisfaction	1	Family satisfaction: {value}
+ui.hud	layer.line.satisfaction.dorm	1	Average satisfaction: {value}; {families} {families}|plural(one=family,other=families)
+ui.hud	layer.line.work	1	Work left (person-days): {left}; deadline in {days} d.
+ui.hud	layer.line.work.overdue	1	Deadline passed. Work left (person-days): {left}.
+ui.hud	layer.line.short.no_horse	1	Not enough horses. Assigned: {placed}.
+ui.hud	layer.line.short.crew_cap	1	Crew is full. Assigned: {placed}.
+ui.hud	layer.line.short.no_hands	1	Not enough hands. Assigned: {placed}.
+ui.hud	layer.line.short.road	1	Too far to walk. Assigned: {placed}.
+ui.settings	new.avatar.hint	2	Select a portrait to view the personal file here.
