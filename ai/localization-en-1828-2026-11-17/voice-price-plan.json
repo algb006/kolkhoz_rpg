@@ -35,7 +35,7 @@
   "known_spend_usd": "0.1428730",
   "remaining_takes": 142,
   "hearing_required_before_next_window": false,
-  "hearing_acceptance_source": "boss-rpg-voice-scope-and-title-2026-11-17 [1]",
+  "hearing_acceptance_source": "boss-rpg-voice-scope-and-title-2026-11-17 [1,2]",
   "continuation_not_before_utc": "2026-11-18T02:07:00+00:00",
   "voice_scope": "Only the 232 existing prologue/office lines, also used in the demo. All later game content is text only; no new voiced game lines in any language."
 }

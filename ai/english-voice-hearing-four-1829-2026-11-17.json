@@ -46,8 +46,9 @@
     }
   ],
   "acceptance_scope": "Voice manner and permission to continue the 232 prologue/office lines; not mastering or individual performance acceptance of all takes.",
-  "acceptance_source": "boss-rpg-voice-scope-and-title-2026-11-17 [1]",
+  "acceptance_source": "boss-rpg-voice-scope-and-title-2026-11-17 [1,2]",
   "accepted_on": "2026-11-17",
-  "acceptance_method": "Human direction relayed by boss; voice manner accepted for continuation with the same v2 voices.",
-  "continuation_not_before_utc": "2026-11-18T02:07:00+00:00"
+  "acceptance_method": "Human listened to the four samples and said: «Озвучку проверил, нормально». Relayed by boss in [2].",
+  "continuation_not_before_utc": "2026-11-18T02:07:00+00:00",
+  "human_verdict_ru": "Озвучку проверил, нормально"
 }

@@ -16,6 +16,6 @@
   "working_copy": "/data/kolkhoz/voice/en-demo-1829-20261117",
   "hearing_manifest": "ai/english-voice-hearing-four-1829-2026-11-17.json",
   "hearing_accepted": true,
-  "hearing_acceptance_source": "boss-rpg-voice-scope-and-title-2026-11-17 [1]",
+  "hearing_acceptance_source": "boss-rpg-voice-scope-and-title-2026-11-17 [1,2]",
   "coordinator_continuation_not_before_utc": "2026-11-18T02:07:00+00:00"
 }
