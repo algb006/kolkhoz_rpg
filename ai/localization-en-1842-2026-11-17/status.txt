@@ -1,3 +1,23 @@
+UPDATE: owner replies [2–3], rpg-boss-1842-glossary-batch01-2026-11-17.
+Both holds resolved: work_order Russian accepted at actual rev4; broad night
+sideline retains poaching and moonshine, distinct from the narrower order.
+Support proofread all67 glossary rows plus demo catchup07. All are now ok in
+shared strings.db; the11 support fixes are mirrored in local delivery sheets.
+Batch02 contains2 already imported/accepted rows, NOT a reimport request.
+Earlier hold and proposed Shadow producer notes below are historical.
+
+Binding wording for later batches:
+цеховик = Underground entrepreneur (including perk.shadow.name).
+распечатать фонд = release; order.unseal_fund/action_unseal_fund: Release …
+Разметить порубку = Stake logging plot (ui.office.order.mark_felling, max24).
+на карандаше = under scrutiny (refusal and closed-trade reputation labels).
+позиция плана = plan item; наряд = assignment; приказ = order.
+добыча in night trade = catching; к повороту года = by the turn of the year.
+
+Priority remains #1828/#1829 before later #1842 namespaces. No paid calls.
+
+HISTORICAL RECEIPT AND FIRST HANDOFF:
+
 Game English catch-up #1842 — 2026-11-17
 
 Authority: boss-rpg-1842-game-strings-en-2026-11-17 [1]. Queue after current

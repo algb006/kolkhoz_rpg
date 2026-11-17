@@ -1,0 +1,28 @@
+[
+  {
+    "string_id": 19951,
+    "full_key": "glossary.work_order",
+    "namespace": "glossary",
+    "key": "work_order",
+    "kind": "tooltip",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 4,
+    "source_text": "Наряд — запись, кому и где работать в течение суток. Наряды составляет учётчик. Председатель может изменить любой наряд; его наряд имеет приоритет.",
+    "max_len": 240
+  },
+  {
+    "string_id": 20735,
+    "full_key": "glossary.night_trade",
+    "namespace": "glossary",
+    "key": "night_trade",
+    "kind": "tooltip",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "Ночной промысел — тайный заработок добычей или торговлей вне обычной работы: например, браконьерство и продажа самогона.",
+    "max_len": 300
+  }
+]

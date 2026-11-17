@@ -1,12 +1,12 @@
 namespace	key	rev	en
-glossary	acceptance_act	3	Acceptance act: stores and herd are accepted after the second harvest. Actual stocks are recorded; earlier losses are never audited. Audits start at acceptance for stores that can have a guard. The chairman answers for yearly herd deaths from lack of feed from the following year.
+glossary	acceptance_act	3	Acceptance act: the record of stores and herd taken over after the second harvest. Actual stocks are recorded; earlier losses are never audited. Guardable stores are audited from acceptance. The chairman answers for yearly herd deaths from feed shortage from the year after.
 glossary	audit	1	Audit: a check of store records. After the acceptance act, losses are checked where a guard can be posted. Church and storage-clamp losses are excluded.
 glossary	auditor_remark	1	Auditor's warning: issued for a shortage of 5% or more. At 10% or more, a trial is possible only after a warning at the previous audit and no sooner than 15 months after acceptance, from the start of year four.
 glossary	black_cash	1	Off-book funds: income kept out of the accounts. A check may uncover what was hidden.
 glossary	cart	1	Cart: a wagon harnessed to a horse for transport. It carries cargo and can give people a lift.
 glossary	chain_link	3	Rotation step: one year in a field's crop sequence. If winter crops are not sown within their window, the field stays fallow that year.
 glossary	civil_registry	1	Civil registry: the office that officially records births, marriages and other events in a person's life.
-glossary	clamp	3	Storage clamp: potatoes or root crops piled by a field and covered with straw and earth. A guard cannot be posted here. Its losses are not audited; the food can be moved to guarded storage.
+glossary	clamp	3	Storage clamp: potatoes or root crops piled by a field and covered with straw and earth. No guard can be posted at a clamp. Its losses are not audited; the food can be moved to guarded storage.
 glossary	clerk	1	Tally clerk: the person who draws up work assignments, assigns people to jobs and takes their skills into account.
 glossary	crop_rotation	2	Crop rotation: a field's crop sequence across the years. The chairman sets it in advance; field work follows this sequence.
 glossary	discount	1	Discount: a reduction in what must be paid or returned. With a good reputation, the district may reduce a loan's markup.
@@ -19,7 +19,7 @@ glossary	feldsher_post	1	Rural medical post: a small village clinic providing fi
 glossary	floodplain	1	Floodplain: low ground beside a river that may flood when the water rises. In the game, it cannot be built on, but its meadows can be used.
 glossary	fodder_balance	1	Feed balance: comparing feed stocks with what livestock need until the next supply arrives.
 glossary	fuel_lubricants	1	Fuels and lubricants: fuel runs the engine; lubricants reduce friction and wear in machinery parts.
-glossary	fund	2	Reserve: stocks set aside for seed, feed or another farm need. Opening a reserve permits its use now; there may not be enough left for its original purpose.
+glossary	fund	2	Reserve: stocks set aside for seed, feed or another farm need. Releasing a reserve permits its use now; there may not be enough left for its original purpose.
 glossary	goods_loan	1	Goods loan: food or feed borrowed from the district. It is repaid in the same goods, with a markup, in addition to the plan.
 glossary	harness	1	Harness: straps and fittings connecting a horse to a cart or implement. The horse cannot do that work without a serviceable harness.
 glossary	harrowing	2	Harrowing: working the soil with a harrow after plowing. It breaks up clods and levels the surface before sowing.
@@ -31,7 +31,7 @@ glossary	limit	2	Allocation: points used to obtain scarce goods and machinery fr
 glossary	livestock_mortality	1	Livestock mortality: animals dying from disease, age or other causes. It is a loss of animals, not a sale or planned slaughter.
 glossary	loan_markup	1	Loan markup: an addition to what was borrowed. With a good reputation, the district may reduce this addition.
 glossary	logging_plot	2	Logging plot: an area set aside for timber harvesting. In the game, logging outside the forest is marked with the Stake logging plot order.
-glossary	low_water	1	Low water: the period when the river is low. This is the period meant when arranging bridge repairs as the water falls.
+glossary	low_water	1	Low water: the period when the river is low. In bridge repair arrangements, it means the time after the water falls.
 glossary	milk_yield	1	Milk yield: the quantity of milk obtained from a cow or herd over a stated period.
 glossary	mts	2	Machine and tractor station (MTS): the district sends machinery and a crew on request for allocation points.
 glossary	night_grazing	1	Night pasture: summer grazing for horses at night. In the game, schoolchildren watch them during the holidays; the herd returns to the stable in the morning. Available after a horse yard is established.
@@ -39,7 +39,7 @@ glossary	offspring	1	Offspring: young animals born to the herd, such as calves a
 glossary	own_traction	2	Own draft power: the share of all work in the last completed year done with collective farm horses. Manual work and the district's visiting machinery crew do not increase this share.
 glossary	party_cell	1	Party cell: a local group of party members on the collective farm. They meet to discuss shared affairs. A local party organizer arranges the group's work.
 glossary	person_day	1	Person-day: one person's work for a working day, a measure of labor used. A labor-day credit is an entitlement used to distribute produce to a family.
-glossary	plan_item	2	Plan position: a line stating how much of one product must be delivered to the district. Delivering another product does not replace it.
+glossary	plan_item	2	Plan item: a line stating how much of one product must be delivered to the district. Delivering another product does not replace it.
 glossary	quarry	1	Quarry: an open site for extracting stone, staked where suitable rock is available.
 glossary	raizo	1	District land office: the department that sends the collective farm its produce delivery plan.
 glossary	ration	2	Ration: an allotted portion of food or feed. If a family is underfed, the chairman issues a minimum ration from storage regardless of labor-day credits, reducing stocks for other needs.
@@ -47,16 +47,16 @@ glossary	reputation	1	Reputation: the district's assessment of the farm. Meeting
 glossary	rush	2	All-hands rush: an order to speed up one job, such as a field's harvest. People work harder, tire faster and are less satisfied. The rush can be canceled at any time.
 glossary	satisfaction	1	Satisfaction: how well a family lives on the collective farm. It depends on food, housing, rest and other living conditions, and affects family members' work. Mood is an individual resident's personal state.
 glossary	seed_fund	1	Seed reserve: grain and potatoes kept for the next sowing. Only the chairman can release it for food. What is eaten now cannot be sown for the next harvest.
-glossary	seed_loan	1	Seed loan: seeds borrowed from the district. At year-end, the same product is returned with a markup, in addition to the plan.
-glossary	shadow	1	Shadow producer: someone who runs production and trade outside the accounts.
-glossary	shadow.dealer	1	Shadow producer: someone who runs production and trade outside the accounts. The Dealer is good at making arrangements and is especially strong in this business.
+glossary	seed_loan	1	Seed loan: seeds borrowed from the district. By the turn of the year, the same product is returned with a markup, in addition to the plan.
+glossary	shadow	1	Underground entrepreneur: someone who runs production and trade outside the accounts.
+glossary	shadow.dealer	1	Underground entrepreneur: someone who runs production and trade outside the accounts. The Dealer is good at making arrangements and is especially strong in this business.
 glossary	shoal	1	Shoal: shallow water near the bank. Construction sand is taken from a suitable staked site.
 glossary	shortage	1	Shortage: an unrecorded loss of produce. Audits calculate it per product: losses over the last 24 months divided by receipts over that period. Products with less than 2 t received are not checked.
 glossary	silage	1	Silage: moist feed made from chopped plants preserved without air. In the game, it is stored in a silage trench or tower and fed to cows.
 glossary	sire	2	Breeding male: an adult male used to produce young. Without one, the herd will have no new offspring.
 glossary	specialist_assignment	1	Komsomol placement: the youth league refers a young specialist to work on a collective farm. The chairman requests the required profession from the district.
 glossary	spring_crops	2	Spring crops: crops sown in spring and harvested in the same year.
-glossary	standing_order	3	Standing assignment: an order repeated under a stated condition until canceled. A new order is not needed each time.
+glossary	standing_order	3	Standing assignment: an assignment that stays until canceled; the work repeats under a set condition. No need to issue a new one each time.
 glossary	stock_billet	1	Livestock boarding: temporarily keeping collective farm animals in household yards while collective livestock sheds lack space.
 glossary	stubble	1	Stubble: short stalks left in a field after grain harvest. It is not a new sowing, but the remains of the harvested crop.
 glossary	threshing	1	Threshing: separating grain from the ears after reaping. The grain and straw then go their separate ways.
