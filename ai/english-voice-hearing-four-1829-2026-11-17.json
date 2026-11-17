@@ -1,5 +1,5 @@
 {
-  "status": "awaiting_human_hearing_not_accepted",
+  "status": "human_accepted",
   "count": 4,
   "canonical_directory": "/home/alex/kolkhoz/rpg/voice/draft/en-demo-1829-20261117",
   "html": "hearing-four.html",
@@ -45,5 +45,9 @@
       "interaction_id": "v1_ChdoclA3YXJlMUI1LXZrZFVQNy1MdXlBSRIXaHJQN2FyZTFCNS12a2RVUDctTHV5QUk"
     }
   ],
-  "acceptance_scope": "voice manner on these four examples; not acceptance of all takes or mastering"
+  "acceptance_scope": "Voice manner and permission to continue the 232 prologue/office lines; not mastering or individual performance acceptance of all takes.",
+  "acceptance_source": "boss-rpg-voice-scope-and-title-2026-11-17 [1]",
+  "accepted_on": "2026-11-17",
+  "acceptance_method": "Human direction relayed by boss; voice manner accepted for continuation with the same v2 voices.",
+  "continuation_not_before_utc": "2026-11-18T02:07:00+00:00"
 }

@@ -199,6 +199,9 @@ def main():
         hearing=json.loads(hearing_path.read_text())
         if hearing.get('status')!='human_accepted' or not hearing.get('acceptance_source'):
             raise RuntimeError('The next daily window requires the human hearing decision')
+        not_before=hearing.get('continuation_not_before_utc')
+        if not_before and datetime.now(timezone.utc)<datetime.fromisoformat(not_before):
+            raise RuntimeError('The scheduled daily window is not open before '+not_before)
     budget=(ROOT/'ai/gemini-budget-balance.txt').read_text()
     if '1829' not in budget or '$0,60' not in budget:
         raise RuntimeError('Separate human-facing budget/cap entry required before paid work')

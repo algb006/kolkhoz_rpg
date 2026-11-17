@@ -92,7 +92,7 @@ ui.settings	set.max_fps.30	1	30
 ui.settings	set.max_fps.60	1	60
 ui.settings	set.max_fps.unlimited	1	Unlimited
 ui.settings	hud.fps_unit	1	FPS
-ui.settings	menu.title	1	Collective Farm Chairman
+ui.settings	menu.title	1	Kolkhoz Chairman
 ui.settings	menu.about_why	1	The project page is still being prepared
 ui.settings	menu.quit_confirm.title	1	Quit game
 ui.settings	set.language.ru	1	Russian

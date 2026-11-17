@@ -1,6 +1,6 @@
 {
   "task": 1829,
-  "status": "first_window_complete_waiting_human_hearing_and_daily_quota",
+  "status": "voice_manner_accepted_waiting_next_daily_quota",
   "model": "gemini-3.8-flash-tts",
   "pricing_verified_on": "2026-11-17",
   "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing",
@@ -34,5 +34,8 @@
   "first_window_completed": 90,
   "known_spend_usd": "0.1428730",
   "remaining_takes": 142,
-  "hearing_required_before_next_window": true
+  "hearing_required_before_next_window": false,
+  "hearing_acceptance_source": "boss-rpg-voice-scope-and-title-2026-11-17 [1]",
+  "continuation_not_before_utc": "2026-11-18T02:07:00+00:00",
+  "voice_scope": "Only the 232 existing prologue/office lines, also used in the demo. All later game content is text only; no new voiced game lines in any language."
 }
