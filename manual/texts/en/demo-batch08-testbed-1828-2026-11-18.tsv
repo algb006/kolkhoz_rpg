@@ -1,0 +1,6 @@
+namespace	key	rev	en
+ui.testbed	testbed.card.bare	1	Leafless
+ui.testbed	testbed.card.leaf	1	In leaf
+ui.testbed	testbed.nursery	1	Tree nursery
+ui.testbed	testbed.office_intro	1	Replay the office introduction
+ui.testbed	testbed.start_map	1	View the starting map

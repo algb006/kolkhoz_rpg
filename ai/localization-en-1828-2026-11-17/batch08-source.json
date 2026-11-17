@@ -1,0 +1,67 @@
+[
+  {
+    "string_id": 2201,
+    "full_key": "ui.testbed.testbed.card.bare",
+    "namespace": "ui.testbed",
+    "key": "testbed.card.bare",
+    "kind": "button",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "голое",
+    "max_len": 24
+  },
+  {
+    "string_id": 2202,
+    "full_key": "ui.testbed.testbed.card.leaf",
+    "namespace": "ui.testbed",
+    "key": "testbed.card.leaf",
+    "kind": "button",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "в листве",
+    "max_len": 24
+  },
+  {
+    "string_id": 2200,
+    "full_key": "ui.testbed.testbed.nursery",
+    "namespace": "ui.testbed",
+    "key": "testbed.nursery",
+    "kind": "button",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "Питомник деревьев",
+    "max_len": 24
+  },
+  {
+    "string_id": 19885,
+    "full_key": "ui.testbed.testbed.office_intro",
+    "namespace": "ui.testbed",
+    "key": "testbed.office_intro",
+    "kind": "button",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "Знакомство с кабинетом заново",
+    "max_len": 40
+  },
+  {
+    "string_id": 2199,
+    "full_key": "ui.testbed.testbed.start_map",
+    "namespace": "ui.testbed",
+    "key": "testbed.start_map",
+    "kind": "button",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "Просмотр стартовой карты",
+    "max_len": 24
+  }
+]

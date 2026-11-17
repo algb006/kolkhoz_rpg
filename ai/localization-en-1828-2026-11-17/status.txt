@@ -1,3 +1,12 @@
+TESTBED CATCH-UP — 18 November, boss-rpg-1828-testbed-2026-11-18 [1].
+Live read found5 missing English rows, not4, besides the owner-drafted
+ office.mode_buttons_demo_note. Batch08 delivers all5 at actual source rev1;
+standard4-column draft import, support proofreading pending. Leafless/In leaf
+are plant-card foliage states per KolkhozHud.cpp; nursery/start map/office
+intro are testbed navigation labels per KolkhozTestbed.cpp. The owner's note
+is accurate and retained; no duplicate import row or source rewrite.
+No paid generation, new voiced content, mechanic or shared database edits.
+
 DEMO CATCH-UP07: three new ui.office EN gaps plus the live accepted rev3
 works.summary_lead mirror, prompted by the #1842 inventory check. 1,213 demo
 TSV rows /1,211 current keys. Glossary player-word debt is tracked in the
