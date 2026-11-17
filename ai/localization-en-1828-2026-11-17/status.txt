@@ -1,3 +1,14 @@
+BATCH04 REVIEW FOLLOW-UP: boss-rpg English batch04 [2].
+One corrections TSV has 26 rows: all 22 office corrections including the
+night-moonshining ruling, three held abandoned-land prologue rows, and the
+student’s t8 konтора -> farm board building consistency correction.
+Fallow is intentional rest; abandoned land is long-neglected arable land.
+Two support proposals exceed existing limits: secretary role 40 vs32, night
+pasture action 31 vs24. Meaning-preserving candidates keep the existing
+limits: District First Secretary (24), Send to night pasture (21). Boss is
+notified; no max_len/shared-source edit is made by RPG.
+No voice request starts before exact accepted English matches these scripts.
+
 BATCH03 REVIEW CORRECTIONS: boss [2,3] in its batch03 thread, read in full.
 The corrected number rule distinguishes speech from template variables/UI
 counts. Spoken lines spell numbers, including April, thirty-one. All source

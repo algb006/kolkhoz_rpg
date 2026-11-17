@@ -1,0 +1,27 @@
+namespace	key	rev	en
+ui.office	directory.elder.about	1	A local resident and former village headman, now working on the collective farm alongside everyone else. During the hungry years, he kept the remaining stocks from being pilfered.
+ui.office	mode.first_person	1	First person
+ui.office	named.district_secretary.role	1	District First Secretary
+ui.office	plan_sketch.legend.farm_office	1	Farm board — the chairman's office and the workplace of the farm's specialists.
+ui.office	plan_sketch.legend.well	1	Well — drinking water, away from manure and privies.
+ui.office	pocketbook.tab.diary	1	Daybook
+ui.office	reception.visit_missed	1	Came by while you were out
+ui.office	order.resume_unit	1	Resume
+ui.office	refusal.conflicts_with_active	1	Already busy with something else — one task at a time
+ui.office	refusal.rule_forbids	1	That's not how it's done
+ui.office	metric.satiety	1	Nourishment
+ui.office	window.household_owned	1	Household
+ui.office	window.kolkhoz_owned	1	Collective farm
+ui.office	land.derelict	1	Abandoned land
+ui.office	order.graze_at_night	1	Send to night pasture
+ui.office	order.take_night_trader	1	End night moonshining
+ui.office	item.affairs_notebook.name	1	Affairs notebook
+ui.office	item.affairs_notebook.tooltip	1	Affairs — quests
+ui.office	refusal.indices_not_held	1	Too early: the figures have not held for three years in a row
+ui.office	refusal.office_not_repaired	1	The farm board needs repairs: a run-down board gets no new status
+ui.office	order.order_limit_lot	1	Order against allocation
+ui.office	order.set_issue_norm	1	Distribution rate
+scene	start.prologue.villager.t6	1	The land isn't lost. We can't reclaim all that abandoned land in one year. We'll start at the dry edge.
+scene	start.prologue.student.t6	1	Arable land, according to the report. Abandoned land, in reality. I suppose my introduction to local reporting has already begun.
+scene	start.prologue.ex_chairman.t6	1	Abandoned land all along the road. This wasn't one failed sowing. They've let the field go for years.
+scene	start.prologue.student.t8	1	I expected at least a farm board building. Instead, a half-ruined church and the whole village at the door.

@@ -1,6 +1,6 @@
 namespace	key	rev	en
 ui.office	book.plan_failed_count	1	Plans missed in a row: {count} of {limit}.
-ui.office	directory.elder.about	1	A local resident and former village headman, now working on the collective farm alongside everyone else. During the hungry years, he kept the remaining stocks from being taken away.
+ui.office	directory.elder.about	1	A local resident and former village headman, now working on the collective farm alongside everyone else. During the hungry years, he kept the remaining stocks from being pilfered.
 ui.office	directory.former_headman.role	1	former headman
 ui.office	directory.nobody	1	No one in the pocketbook yet.
 ui.office	directory.section.district	1	District
@@ -10,15 +10,15 @@ ui.office	event.barter_day	1	Residents exchanged goods at the stall.
 ui.office	event.barter_worth_starting	1	Some families have a surplus of what others lack.
 ui.office	event.sugar_stolen	1	Sugar was taken from the storehouse during the night.
 ui.office	journal.date	1	{month}, {weekday} · {time}
-ui.office	mode.first_person	1	First-person
+ui.office	mode.first_person	1	First person
 ui.office	mode.from_above	1	From above
-ui.office	named.district_secretary.role	1	First district secretary
+ui.office	named.district_secretary.role	1	District First Secretary
 ui.office	named.district_secretary.summary	1	He spoke quietly and briefly when appointing the chairman. He learns about the collective farms through summaries and instructors' reports.
 ui.office	place.too_steep	1	The slope is too steep to build here
 ui.office	plan_sketch.legend.barrack	1	Barrack — shared housing without a household's own yard or garden.
 ui.office	plan_sketch.legend.cattle_yard	1	Cattle yard — a place for the collective farm's herd, away from homes.
 ui.office	plan_sketch.legend.clamp	1	Storage clamp — potatoes and root crops covered with straw and earth at the edge of a field.
-ui.office	plan_sketch.legend.farm_office	1	Farm office — the chairman's office and the workplace of the farm's specialists.
+ui.office	plan_sketch.legend.farm_office	1	Farm board — the chairman's office and the workplace of the farm's specialists.
 ui.office	plan_sketch.legend.food_yard	1	Food yard — food storage and processing near the village.
 ui.office	plan_sketch.legend.hay_stack	1	Haystack — winter hay stored in the open, outside the floodplain.
 ui.office	plan_sketch.legend.horse_yard	1	Horse yard — horses and carts for plowing and hauling.
@@ -26,11 +26,11 @@ ui.office	plan_sketch.legend.new_village	1	New village: homes, the farm board an
 ui.office	plan_sketch.legend.road	1	Road — connects the village to fields, meadows and farmyards.
 ui.office	plan_sketch.legend.stockmen_houses	1	Stockkeepers' homes — by the farm: in winter, the livestock cannot be reached from the village.
 ui.office	plan_sketch.legend.utility_yard	1	Service yard — workshops and a goods storehouse in the production area.
-ui.office	plan_sketch.legend.well	1	Well — drinking water, away from manure and toilets.
+ui.office	plan_sketch.legend.well	1	Well — drinking water, away from manure and privies.
 ui.office	plan_sketch.legend.wooden_house	1	Wooden house — a family home with a yard and garden.
-ui.office	pocketbook.tab.diary	1	Diary
+ui.office	pocketbook.tab.diary	1	Daybook
 ui.office	pocketbook.tab.directory	1	Directory
-ui.office	reception.visit_missed	1	Called while you were out
+ui.office	reception.visit_missed	1	Came by while you were out
 ui.office	refusal.wrong_land	1	This work cannot be done on this type of land
 ui.office	group.works	1	Work assignments
 ui.office	group.economy	1	Farm
@@ -56,7 +56,7 @@ ui.office	order.dismiss	1	Dismiss from post
 ui.office	item.charts.name	1	Wall charts
 ui.office	item.charts.tooltip	1	Charts — economy and production
 ui.office	order.pause_unit	1	Stop
-ui.office	order.resume_unit	1	Restart
+ui.office	order.resume_unit	1	Resume
 ui.office	order.set_rotation	1	Set crop rotation
 ui.office	order.build_unit	1	Stake a site
 ui.office	order.start_build	1	Start construction
@@ -99,8 +99,8 @@ ui.office	status.cancelled	1	Canceled
 ui.office	refusal.no_consumer	2	This order is not yet available.
 ui.office	refusal.no_such_subject	1	The subject of this order no longer exists
 ui.office	refusal.not_eligible	1	They cannot do this: age, ability or training does not allow it
-ui.office	refusal.conflicts_with_active	1	Already busy with something else — 1 task at a time
-ui.office	refusal.rule_forbids	1	That is not allowed
+ui.office	refusal.conflicts_with_active	1	Already busy with something else — one task at a time
+ui.office	refusal.rule_forbids	1	That's not how it's done
 ui.office	refusal.gate_closed	1	Too early: the farm has not developed that far yet
 ui.office	refusal.too_close	1	Too close to the neighboring plot
 ui.office	item.posters.name	1	Posters
@@ -125,7 +125,7 @@ ui.office	people.residents	1	Residents
 ui.office	people.families	1	Families
 ui.office	sex.male	1	male
 ui.office	sex.female	1	female
-ui.office	metric.satiety	1	Satiety
+ui.office	metric.satiety	1	Nourishment
 ui.office	metric.health	1	Health
 ui.office	metric.rest	1	Rest
 ui.office	metric.mood	1	Mood
@@ -152,19 +152,19 @@ ui.office	window.fertility	1	Fertility
 ui.office	window.work_left	1	Work remaining
 ui.office	window.head	1	Head of livestock
 ui.office	window.whose	1	Owner
-ui.office	window.household_owned	1	Household-owned
+ui.office	window.household_owned	1	Household
 ui.office	item.personal_item.name	1	Your personal item
 ui.office	item.personal_item.tooltip	1	Personal item — development and reputation
-ui.office	window.kolkhoz_owned	1	Collective farm-owned
+ui.office	window.kolkhoz_owned	1	Collective farm
 ui.office	land.arable	1	Arable land
 ui.office	land.meadow	1	Meadow
 ui.office	land.floodplain_meadow	1	Flood meadow
-ui.office	land.derelict	1	Abandoned arable land
+ui.office	land.derelict	1	Abandoned land
 ui.office	order.mark_extraction	1	Stake extraction site
 ui.office	order.insulate_unit	1	Insulate with straw
-ui.office	order.graze_at_night	1	Graze horses at night
+ui.office	order.graze_at_night	1	Send to night pasture
 ui.office	order.hand_stock	2	Deliver to district
-ui.office	order.take_night_trader	1	Remove from night trade
+ui.office	order.take_night_trader	1	End night moonshining
 ui.office	item.affairs_notebook.name	1	Affairs notebook
 ui.office	item.affairs_notebook.tooltip	1	Affairs — quests
 ui.office	refusal.on_arable	1	No field camp on arable land: this land is for crops
@@ -172,10 +172,10 @@ ui.office	refusal.too_far_from_fields	1	Too far from the fields: a field camp be
 ui.office	refusal.no_room_for_stock	1	No room: the livestock sheds are full, and animals are already boarded in household yards
 ui.office	refusal.last_sire	1	The last breeding male cannot be delivered: without him there will be no offspring
 ui.office	order.advance_era	1	Enter next epoch
-ui.office	refusal.indices_not_held	1	Too early: the figures have not held for 3 consecutive years
+ui.office	refusal.indices_not_held	1	Too early: the figures have not held for three years in a row
 ui.office	refusal.no_own_traction	1	No draft power of your own: the farm relies on other people's horses
 ui.office	refusal.wintering_not_closed	1	The livestock are not wintering under the farm's own roof
-ui.office	refusal.office_not_repaired	1	The farm board building needs repairs: a neglected office cannot be granted the new status
+ui.office	refusal.office_not_repaired	1	The farm board needs repairs: a run-down board gets no new status
 ui.office	refusal.food_variety_short	1	Little variety at the table: the village eats the same food over and over
 ui.office	item.phone.name	1	Telephone
 ui.office	item.phone.tooltip	1	Telephone — district, neighbors, machinery orders
@@ -183,7 +183,7 @@ ui.office	refusal.social_objects_short	1	Not enough public buildings
 ui.office	refusal.units_below_level	1	Not all buildings have reached the required level
 ui.office	order.unseal_fund	2	Open the reserve
 ui.office	order.mark_felling	1	Stake logging plot
-ui.office	order.order_limit_lot	1	Order by allocation
+ui.office	order.order_limit_lot	1	Order against allocation
 ui.office	order.remove_field	1	Remove field
 ui.office	refusal.no_plan_yet	1	No plan yet: the district has not sent it down
 ui.office	refusal.no_such_crop	1	The farm does not have this crop
@@ -191,7 +191,7 @@ ui.office	refusal.no_parent	2	Nothing to extend: the main building is needed fir
 ui.office	refusal.limit_short	1	Not enough allocation points
 ui.office	item.drawer.name	1	Desk drawer
 ui.office	order.set_ration	1	Issue ration
-ui.office	order.set_issue_norm	1	Distribution allowance
+ui.office	order.set_issue_norm	1	Distribution rate
 ui.office	order.deliver_plan	1	Deliver plan now
 ui.office	order.declare_rush	1	Call an all-hands rush
 ui.office	order.cancel_day_off	1	Make Sunday a workday

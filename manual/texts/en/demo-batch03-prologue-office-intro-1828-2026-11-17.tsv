@@ -146,13 +146,13 @@ scene	office_intro.exit_choice.promoted	1	Look over the farm from above, or go t
 scene	office_intro.plan_sketch.promoted	1	The previous chairman made a plan, but never carried it out. Let's see what's worth finishing here.
 scene	office_intro.enter.old_fighter	2	So this is my new office. I can look over the marked things in any order.
 scene	office_intro.notebooks.old_fighter	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
-scene	start.prologue.villager.t6	1	The land isn't lost. We can't reclaim all that fallow in one year. We'll start at the dry edge.
+scene	start.prologue.villager.t6	1	The land isn't lost. We can't reclaim all that abandoned land in one year. We'll start at the dry edge.
 scene	office_intro.charts.old_fighter	1	The plan and deliveries. Need to know what's required of us.
 scene	start.prologue.worker.t6	1	A big field, and no work going on. It's not one section that's stopped. The whole farm's standing idle.
 scene	office_intro.papers.old_fighter	1	Paperwork from the district. Even an order needs reading first here.
-scene	start.prologue.student.t6	1	Arable land, according to the report. Fallow in reality. I suppose my introduction to local reporting has already begun.
+scene	start.prologue.student.t6	1	Arable land, according to the report. Abandoned land, in reality. I suppose my introduction to local reporting has already begun.
 scene	office_intro.door.old_fighter	1	They'll be waiting here. So I'd better be at my post.
-scene	start.prologue.ex_chairman.t6	1	Fallow all along the road. This wasn't one failed sowing. They've let the field go for years.
+scene	start.prologue.ex_chairman.t6	1	Abandoned land all along the road. This wasn't one failed sowing. They've let the field go for years.
 scene	office_intro.wall_map.old_fighter	1	Fields, roads, crossings. First, find out where we can get through.
 scene	start.prologue.promoted.t6	1	These fields have been abandoned for years. I couldn't ask for better grounds to request allocations.
 scene	office_intro.posters.old_fighter	1	The poster's hanging. The wall's crumbling.
@@ -208,7 +208,7 @@ scene	start.prologue.villager.t8	1	They've let the church go. And my own people 
 scene	office_intro.charts.acting	1	The plan and deliveries. I'll work out what's needed and what we have.
 scene	start.prologue.worker.t8	1	The church is barely standing. We'll be starting among ruins.
 scene	office_intro.papers.acting	1	District paperwork. I'll see what needs doing now and what can wait.
-scene	start.prologue.student.t8	1	I expected at least an office. Instead, a half-ruined church and the whole village at the door.
+scene	start.prologue.student.t8	1	I expected at least a farm board building. Instead, a half-ruined church and the whole village at the door.
 scene	office_intro.door.acting	1	People will come here with their troubles. I'll have to hear each of them out.
 scene	start.prologue.ex_chairman.t8	1	Still, I hoped to find something here in one piece. A second chance, starting among ruins again.
 scene	office_intro.wall_map.acting	1	Everything's close together on the map. I'll have to walk it myself.
