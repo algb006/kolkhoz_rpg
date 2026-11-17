@@ -163,6 +163,20 @@ to your subject area: `quest`, `event`, `dialogue`.
 | **Quest and event titles are already there** | They come from the design register; **changing them locally has no effect** — ask `boss` to change the register |
 | **Keys use Latin `snake_case`** | Proposed keys follow the register, e.g. `quest_e1_07` |
 
+**THE ENGLISH VERSION IS YOURS, AND IT SHIPS WITH THE RUSSIAN ONE** (the human, 17 November 2026:
+«Надо добавлять перевод игры на английский и что бы далее обе языковые версии делались одновременно.
+Демо и игра» — *add the English translation; from now on both language versions are made together,
+demo and game*; «переводит rpg по глоссарию терминов, а вторая роль вычитывает» — *rpg translates by
+the term glossary, a second role proofreads*; «записать английскую озвучку теми же голосами» — *record
+the English voice with the same voices*; then «Делай»):
+- every Russian text you deliver from now on carries its English line in the same parcel; every voiced
+  line gets its English take with the same v2 voice;
+- the glossary first: English forms of every `term` row (`term_translation`), sent to `boss`;
+- a translation goes to `boss` as a TSV `namespace<TAB>key<TAB>rev<TAB>en` (`rev` = the Russian
+  string's `rev` you translated), boss imports it as `draft`; `support` proofreads, then it is `ok`;
+- names of residents are NOT yours: a transliteration program fills them;
+- catch-up order: the demo's strings first (menu, settings, loading, prologue thoughts, office), then the game.
+
 **Read existing content now if needed:**
 
 ```sh
