@@ -1,0 +1,128 @@
+namespace	key	rev	en
+ui.office	order.mark_meadow	1	Stake meadow
+ui.office	event.herd_went_hungry	1	The herd was left without feed.
+ui.office	event.urgent_load_waits	1	An urgent load is waiting for a cart.
+ui.office	event.lamp_turned_red	1	An alarm lamp turned red.
+ui.office	event.plan_winter_moved	1	The district moved part of the winter-crop plan to spring crops.
+ui.office	event.felling_mark_released	1	The logging stakes on a forest plot were removed.
+ui.office	event.meadow_marked	1	A meadow was staked out.
+ui.office	event.hands_idle_with_work_waiting	1	People received no assignments in the morning placement, although work was waiting.
+ui.office	event.day_off_held_urgent_load	1	A day off delayed an urgent load.
+ui.office	event.work_got_no_hands	1	Work is idle for lack of workers.
+ui.office	unit.hours	1	h
+ui.office	clerk.candidate.title	1	Candidate for tally clerk
+ui.office	clerk.candidate.name	1	{candidate_name}
+ui.office	clerk.candidate.body	1	Their literacy and experience are suitable for keeping track of people and issuing assignments. Appointment requires the chairman's order.
+ui.office	works.no_orders_tomorrow	1	No assignments for tomorrow: {count} {count}|plural(one=person,other=people).
+ui.office	journal.first_incoming	1	Incoming No. 1. April 1931, {weekday} — a plan letter from the district land office
+ui.office	works.orders	1	Orders book
+ui.office	works.repeat_yesterday	1	Repeat yesterday's assignments
+ui.office	works.reassign	1	Reassign
+ui.office	works.raise_in_queue	1	Move up the queue
+ui.office	works.released_by_order	1	Dismissed from post: order No. {order_number}
+ui.office	works.released_by_order_f	1	Dismissed from post: order No. {order_number}
+ui.office	works.eye.tires_by_noon	1	Will tire by noon
+ui.office	works.eye.far_from_home	1	Far from home
+ui.office	works.eye.beyond_strength	1	Beyond their ability
+ui.office	works.eye.ill	1	Ill
+ui.office	works.eye.pair_mismatch	1	Don't work well together
+ui.office	works.eye.skill_idle	1	Skill not needed here
+ui.office	refusal.worker_crop_swap_early	1	Crop substitution is unavailable in the first 2 plan negotiations.
+ui.office	refusal.student_working_day_off_early	1	A day off can be made a working day from year 3 onward.
+ui.office	weekly_work_authorship	1	By assignment: {ordered} {ordered}|plural(one=person-day,other=person-days) (tally clerk: {clerk} {clerk}|plural(one=person-day,other=person-days), chairman: {chairman} {chairman}|plural(one=person-day,other=person-days)). On household plots: {household} {household}|plural(one=person-day,other=person-days).
+ui.office	clerk_level_initial_clause	1	— according to who is free.
+ui.office	clerk_level_medium_clause	1	— taking ability and skills into account.
+ui.office	clerk_level_experienced_clause	1	— taking travel and fatigue into account.
+ui.office	clerk_level_master_clause	1	— taking working relationships into account.
+ui.office	handbook.title	1	Chairman’s Handbook
+ui.office	handbook.page.crops	1	Crops
+ui.office	handbook.page.field_year	1	The field-work year
+ui.office	handbook.page.crop_dates	1	Sowing and harvest dates
+ui.office	handbook.page.crop_rotation	1	Crop rotation
+ui.office	handbook.page.fallow	1	Fallow
+ui.office	handbook.page.seeds	1	Seeds
+ui.office	handbook.page.field_work	1	Field work
+ui.office	handbook.tab.words	1	Words
+ui.office	journal.first_incoming_avatar.student	1	You may revise the plan in January without losing reputation, up to 3 times per epoch.
+ui.office	journal.first_incoming_avatar.worker	1	Crop substitution is not allowed in the first 2 plan discussions; delivery amounts may change by 10% in either direction.
+ui.office	journal.first_incoming_avatar.old_fighter	1	You cannot change the plan through negotiation.
+ui.office	journal.first_incoming_avatar.promoted	1	The district replies to your requests twice as fast as usual; allocations exceed the standard allowance.
+ui.office	journal.first_incoming_avatar.ex_chairman	1	The district will request farm reports more often; an audit is held every year.
+ui.office	journal.first_incoming_avatar.dealer	1	The district takes twice as long as usual to reply to your requests.
+ui.office	journal.first_incoming_avatar.villager	1	The district takes 1.5 times as long as usual to consider your requests.
+ui.office	order.raise_site	1	Move site up the queue
+ui.office	order.raise_site.tip	1	The construction site moves up within its own queue: workers and materials arrive sooner. Other sites will wait longer.
+ui.office	avatar_friends.villager.personal_file	1	In summer, you can invite people from home: a forester who hunts, a fisherman and an old beekeeper. They relax and give their fish and game to the collective farm kitchen. The farm provides food and lodging. They will return if they were well fed and housed last time.
+ui.office	avatar_friends.worker.personal_file	1	In summer, you can invite factory comrades: a toolmaker, a blacksmith and a lathe operator. Each visit, they repair 1 horse-drawn implement or cart. The farm provides food and lodging. They will return if they were well fed and housed last time.
+ui.office	avatar_friends.ex_chairman.personal_file	1	In summer, you can invite a retired auditor, your former storekeeper and a bookkeeper from the next district. They help put the books in order before an audit. The farm provides food and lodging. They will return if they were well fed and housed last time.
+ui.office	avatar_friends.promoted.personal_file	1	In summer, you can invite an instructor, a newspaperman and a hunting manager. They help process 1 allocation request out of turn; the full points are still spent. The farm provides food and lodging. They will return if they were well fed and housed last time.
+ui.office	avatar_friends.old_fighter.personal_file	1	In summer, you can invite old comrades: a farrier, a riding trainer and a veterinary assistant. They help with the horses and bring a horse retired from military service: 1 per visit, no more than 3 per epoch. The farm provides food and lodging. They will return if they were well fed and housed last time.
+ui.office	avatar_friends.dealer.personal_file	1	In summer, you can invite former business contacts: a freight agent, a procurement agent and a railway buffet worker. They bring goods unavailable in the district: 1 lot of glass, roofing, nails or salt, no larger than a district lot. The farm provides food and lodging. They will return if they were well fed and housed last time.
+ui.office	avatar_friends.acting.personal_file	1	In summer, you can invite friends from your former farm: a senior milkmaid, a calf keeper and a vegetable grower. They train 1 female worker, no higher than experienced level. The farm provides food and lodging. They will return if they were well fed and housed last time.
+ui.office	herd.acting_farm.care	1	Care: {care_pct}% — no milk lost through neglect: the chairman watches over the farm.
+ui.office	herd.acting_farm.outgrown	1	The village has grown: the chairman's personal supervision is no longer enough.
+ui.office	book.village_population	1	Population: {population}; dissolution threshold: {threshold}
+ui.office	plan_sketch.legend.title	1	Legend
+ui.office	plan_sketch.annotation.stockmen_houses	1	Homes by the farm
+ui.office	prop.chairman_book.title	1	CHAIRMAN’S HANDBOOK
+ui.office	book.pre_acceptance_dieoff	3	Before acceptance: {heads} head died for lack of feed ({share}% of herd). After that year, annual herd deaths for lack of feed of 14%+ lead to trial.
+ui.office	herd.idle_for_horse_week	1	Worker time lost for lack of a horse last week: {days} person-days ({pct}% of working days).
+ui.office	book.plan_pre_acceptance_credit	1	{product}: delivery shortfall {short_t} t; lost before acceptance {lost_t} t. This shortfall does not count toward consecutive failed-plan years.
+ui.office	order.trip_to_district	1	Travel to the district
+ui.office	trip.confirm	1	Depart at 8:00, return in the evening: {return}. The farm runs without your direction for this day. Travel?
+ui.office	trip.confirm.mud	1	During the muddy season, the trip takes 2 days. Depart at 8:00, return the next morning: {return}. The farm runs without your direction until you return. Travel?
+ui.office	refusal.trip_blizzard	1	Snowstorm. The district road is closed.
+ui.office	trip.away	1	The chairman is in the district. Return: {return}.
+ui.office	trip.sheet.title	1	District business
+ui.office	trip.ask.specialist	1	Request a specialist
+ui.office	trip.ask.materials	1	Request construction materials
+ui.office	trip.ask.brigade	1	Request a visiting crew
+ui.office	trip.ask.goods_loan	1	Discuss a goods loan
+ui.office	trip.ask.bridge_term	1	Agree on a bridge repair deadline
+ui.office	trip.ask.plan	1	Discuss the annual plan
+ui.office	trip.sheet.leave	1	Return to the collective farm
+ui.office	summon.letter	1	You are summoned to the district on {date}. Departure at 8:00. Attendance is mandatory.
+ui.office	trade.title	1	Annual plan negotiations
+ui.office	trade.move	1	{resource}: change the plan by {percent}%
+ui.office	trade.swap	3	Crop substitution: “{resource}”, {from_tonnes} t, for “{crop}”, {to_tonnes} t.
+ui.office	trade.price	1	District committee reputation: {reputation}.
+ui.office	trade.free_left	1	No cost — {left} of {total} remaining this epoch.
+ui.office	trade.closed.reputation	1	The district is watching you closely: negotiations require reputation of at least 20.
+ui.office	trade.closed.old_fighter	1	The Old Fighter cannot negotiate the plan.
+ui.office	trade.closed.worker_swap	1	The Worker cannot substitute crops in the first 2 negotiations. A ±10% change to a plan position is available.
+ui.office	trade.closed.first_plan	1	The first plan is based on starting stocks and cannot be revised.
+ui.office	trade.closed.window	1	Plan negotiations take place from January through March.
+ui.office	trade.closed.done_this_year	1	The plan has already been revised this year.
+ui.office	dayoff.price	1	Family satisfaction will fall by {amount}.
+ui.office	dayoff.free_left	1	No satisfaction loss — {left} of {total} remaining this year.
+ui.office	trip.confirm.orders_refused	1	No village orders are accepted until you return. Standing orders remain in effect.
+ui.office	trade.basis	1	Basis for this position: {amount} t delivered in {year}.
+ui.office	trade.basis.start_stock	1	Basis for the first plan: starting stocks of {amount} t.
+ui.office	letter.plan.bargain_rule	1	The first plan cannot be revised. Later plans can be changed in person at the district from January through March.
+ui.office	dayoff.harvest_order.state.on	1	“Harvest without days off” is on: Sundays are working days during the harvest.
+ui.office	dayoff.harvest_order.state.off	1	“Harvest without days off” is off.
+ui.office	dayoff.harvest_order.toggle	1	Work on Sundays during the harvest
+ui.office	dayoff.harvest_order.price	1	Each working Sunday under this order reduces every family's satisfaction by {amount}.
+ui.office	notebook.sunday_taken	1	{date}. Sunday is a working day under “Harvest without days off”.
+ui.office	dayoff.next_sunday	1	Next Sunday: {date}.
+ui.office	dayoff.free_left.zero	1	Further changes cost the normal amount.
+ui.office	dayoff.holiday.price	1	Working holiday: each family's satisfaction falls by {amount}; district committee reputation: {reputation}.
+ui.office	works.self.title	1	Assign people to work
+ui.office	works.self.deadline	1	Work deadline: {date}.
+ui.office	works.self.count	1	Number of workers
+ui.office	works.repeat_yesterday.none	1	No assignments from yesterday.
+ui.office	works.placement.title	3	Today's staffing without the chairman's assignments
+ui.office	works.who	1	Who
+ui.office	works.units	1	Buildings
+ui.office	works.self.not_measured	1	The season's work list is not yet available.
+ui.office	works.self.none	1	No open field work for today.
+ui.office	works.self.in_days	1	Days to deadline: {days}.
+ui.office	works.self.overdue	1	The deadline has passed.
+ui.office	works.self.left	1	Work left (person-days): {days}.
+ui.office	works.self.accepted	1	Assignment accepted.
+ui.office	works.stop.rain	1	Rain today — work is stopped.
+ui.office	works.stop.frost	1	Frost today — plowing is stopped.
+ui.office	works.stop.day_off	1	A day off today — work is stopped.
+ui.office	works.self.chain.plowing	1	Plowing, then harrowing and sowing. Shared deadline. {when}
+ui.office	works.self.chain.harrowing	1	Harrowing, then sowing. Shared deadline. {when}
+ui.office	works.self.preview_short	1	Worker shortfall with this assignment: “{work}” −{count} (estimate as of today).

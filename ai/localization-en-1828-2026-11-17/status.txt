@@ -1,3 +1,12 @@
+BATCH06: 127 remaining ui.office rows, including three new #1833 image keys
+already registered by boss after the earlier 124-row remainder count. Existing
+English image labels are reused. Total text batches 01–06: 1,209 rows, 1,208
+current keys (one newer portrait-source correction). ui.office now 527 source
+keys covered; ui.settings 261 and original ui.hud 188 covered; new sign.danger
+is covered in the separate image sheet. Prologue/office intro: 232 scene rows.
+These source counts do not prove the complete demo’s runtime locale coverage;
+owner string-table extraction/layout and missing namespaces remain separate.
+
 BATCH05: next 200 ui.office rows, including Reception/Affairs/Daybook,
 printed props, pocketbook paragraphs, ordinal object labels and allocation
 orders/status. Existing pure-program bylines reused from the image sheet;
