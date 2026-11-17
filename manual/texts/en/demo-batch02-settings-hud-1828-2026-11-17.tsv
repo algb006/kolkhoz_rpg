@@ -77,8 +77,8 @@ ui.hud	compass.n	1	N
 ui.hud	compass.s	1	S
 ui.hud	compass.w	1	W
 ui.hud	reception.pending.tip	1	There are unanswered requests in Reception.
-ui.hud	rider.compass_put_away	1	First I'll put away the compass, then take the reins.
-ui.hud	rider.lantern_put_away	1	First I'll put away the lantern, then take the reins.
+ui.hud	rider.compass_put_away	1	I'll put the compass away first, then take the reins.
+ui.hud	rider.lantern_put_away	1	I'll put the lantern away first, then take the reins.
 ui.hud	weekday.1.inline	1	Monday
 ui.hud	weekday.2.inline	1	Tuesday
 ui.hud	weekday.3.inline	1	Wednesday
@@ -130,7 +130,7 @@ ui.hud	wind.wind	1	Wind
 ui.hud	wind.strong	1	Strong wind
 ui.hud	wind.squall	1	Squall
 ui.hud	layer.agriculture.name	1	Agriculture
-ui.hud	layer.agriculture.tip	1	Fields falling behind stand out; if the deadline is close, call for an extra effort on the field that needs it.
+ui.hud	layer.agriculture.tip	1	Fields falling behind stand out; if the deadline is close, call an all-hands rush on the field that needs it.
 ui.hud	layer.production.name	1	Production
 ui.hud	layer.production.tip	1	See where there is no room for goods or cargo cannot get through; clear storage space or repair the access road.
 ui.hud	layer.wellbeing.name	1	Wellbeing
@@ -150,19 +150,19 @@ ui.hud	layer.forest.tip	1	Old trees and fallen timber are visible on the map; st
 ui.hud	layer.networks.name	1	Networks
 ui.hud	layer.networks.tip	1	Electricity, telephone and radio will appear here; after electrification, stake a power line.
 ui.hud	layer.agriculture.work.name	1	Work
-ui.hud	layer.agriculture.work.tip	1	Fields falling behind are highlighted; if the deadline is close, call for an extra effort there.
+ui.hud	layer.agriculture.work.tip	1	Fields falling behind are highlighted; if the deadline is close, call an all-hands rush on the field.
 ui.hud	layer.agriculture.fertility.name	1	Fertility
 ui.hud	layer.agriculture.fertility.tip	1	Depleted fields are highlighted; leave them fallow or sow peas.
 ui.hud	layer.agriculture.harvest.name	1	Harvest
 ui.hud	layer.agriculture.harvest.tip	1	See what has ripened and what is still lying in the field; check harvesting and hauling.
 ui.hud	layer.production.stocks.name	1	Stocks
-ui.hud	layer.production.stocks.tip	1	See overflowing stores and farm feed stocks; clear space or bring feed.
+ui.hud	layer.production.stocks.tip	1	See overflowing storehouses and farm feed stocks; clear space or bring feed.
 ui.hud	layer.production.haul_access.name	1	Hauling access
 ui.hud	layer.production.haul_access.tip	1	Roads with hauling problems are highlighted; repair the access road or make a bypass.
 ui.hud	layer.production.road_losses.name	1	Losses in transit
 ui.hud	layer.production.road_losses.tip	1	See where goods spoil on the way; place storage closer to production.
 ui.hud	layer.wellbeing.satisfaction.name	1	Satisfaction
-ui.hud	layer.wellbeing.satisfaction.tip	1	Homes with low satisfaction are highlighted; check distributions and the route to school.
+ui.hud	layer.wellbeing.satisfaction.tip	1	Homes with low satisfaction are highlighted; check the distribution and the route to school.
 ui.hud	layer.wellbeing.health.name	1	Health
 ui.hud	layer.wellbeing.health.tip	1	Homes with illness and poor hygiene are highlighted; check the water and the route to the medical post.
 ui.hud	layer.roads_build.wear.name	1	Roads and wear
@@ -180,8 +180,8 @@ ui.hud	layer.networks.electricity.tip	1	After electrification, see which buildin
 ui.hud	layer.networks.phone.name	1	Telephone
 ui.hud	layer.networks.phone.tip	1	See where telephone service has reached; after electrification, request a connection from the district.
 ui.hud	layer.networks.radio.name	1	Radio
-ui.hud	layer.networks.radio.tip	1	See where the radio can be heard; once the club has a radio station, put up loudspeakers.
-ui.hud	layer_badge.workers_short.tip	1	Not enough hands; if the deadline is close, call for an extra effort here.
+ui.hud	layer.networks.radio.tip	1	See where the radio can be heard; once the club has a radio relay point, put up loudspeakers.
+ui.hud	layer_badge.workers_short.tip	1	Not enough hands; if the deadline is close, call an all-hands rush here.
 ui.hud	layer_badge.stopped.tip	1	Work has stopped; open the building and check why.
 ui.hud	layer_badge.store_full.tip	1	Storage is full; clear space or provide more storage.
 ui.hud	layer_badge.illness.tip	1	Someone in this home is ill; check the route to the medical post.
@@ -214,7 +214,7 @@ ui.hud	build_info.modules	1	Modules
 ui.hud	build_info.package	1	Package
 ui.hud	feed.title	1	Events
 ui.hud	feed.view.strip	1	Strip
-ui.hud	feed.view.window	1	Journal
+ui.hud	feed.view.window	1	Log
 ui.hud	feed.source.kolkhoz	1	Collective farm
 ui.hud	feed.source.district	1	District
 ui.hud	feed.source.people	1	People
@@ -239,11 +239,11 @@ ui.hud	layer.line.fertility.grade.good	1	Good fertility
 ui.hud	layer.line.fertility.grade.fair	1	Average fertility
 ui.hud	layer.line.fertility.grade.poor	1	Low fertility
 ui.hud	layer.line.fertility.grade.exhausted	1	Depleted soil
-ui.hud	layer.line.stock	1	{percent} % full
+ui.hud	layer.line.stock	1	{percent}% full
 ui.hud	layer.line.satisfaction	1	Family satisfaction: {value}
 ui.hud	layer.line.satisfaction.dorm	1	Average satisfaction: {value}; {families} {families}|plural(one=family,other=families)
-ui.hud	layer.line.work	1	Work left (person-days): {left}; deadline in {days} d.
-ui.hud	layer.line.work.overdue	1	Deadline passed. Work left (person-days): {left}.
+ui.hud	layer.line.work	1	Work left: {left} person-days. Days to deadline: {days}.
+ui.hud	layer.line.work.overdue	1	Deadline passed. Work left: {left} person-days.
 ui.hud	layer.line.short.no_horse	1	Not enough horses. Assigned: {placed}.
 ui.hud	layer.line.short.crew_cap	1	Crew is full. Assigned: {placed}.
 ui.hud	layer.line.short.no_hands	1	Not enough hands. Assigned: {placed}.

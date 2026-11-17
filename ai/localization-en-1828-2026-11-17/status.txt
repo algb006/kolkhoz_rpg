@@ -1,3 +1,15 @@
+BATCH02 OWNER REVIEW: rpg-boss-english-batch02-1828-2026-11-17 [2].
+All 250 rows imported/proofread. Nine reviewed changes mirrored from LIVE ok
+English (not blindly from review TSV: boss deliberately changed line.work
+back to a non-plural English line, matching the Russian plural=0 flag).
+Additional accepted glossary terms: avral -> all-hands rush, crew -> crew.
+Three still-ok HUD lines in the live base retained extra effort on receipt;
+a three-row glossary-corrections TSV supplies their term-consistent wording
+for boss to import. Same Russian rev1, intentional English-only corrections.
+Own batch02 mirrors both the nine accepted changes and these three pending
+term corrections. The source snapshot remains unchanged. Reception must
+match the office Reception window. No brigade/brigade leader terminology.
+
 BATCH03: 232 scene rows: start.prologue 64 and office_intro 168, all eight
 avatars. These are draft subtitle/voice-script translations for support;
 not approved English performance scripts and no recording started.

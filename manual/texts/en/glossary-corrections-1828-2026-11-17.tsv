@@ -1,0 +1,4 @@
+namespace	key	rev	en
+ui.hud	layer.agriculture.tip	1	Fields falling behind stand out; if the deadline is close, call an all-hands rush on the field that needs it.
+ui.hud	layer.agriculture.work.tip	1	Fields falling behind are highlighted; if the deadline is close, call an all-hands rush on the field.
+ui.hud	layer_badge.workers_short.tip	1	Not enough hands; if the deadline is close, call an all-hands rush here.
