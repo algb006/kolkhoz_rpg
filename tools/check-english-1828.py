@@ -19,6 +19,7 @@ def main():
     total = 0
     seen = {}
     paths = sorted((ROOT / "manual/texts/en").glob("demo-batch*.tsv"))
+    paths += sorted((ROOT / "manual/texts/en").glob("game-batch*.tsv"))
     latest = {}
     for path in paths:
         with path.open(newline="") as handle:
@@ -27,7 +28,8 @@ def main():
                 latest[key] = max(latest.get(key, 0), int(row["rev"]))
     for path in paths:
         batch = re.search(r"batch\d+", path.name).group()
-        snapshot = ROOT / "ai/localization-en-1828-2026-11-17" / f"{batch}-source.json"
+        task = "1842" if path.name.startswith("game-") else "1828"
+        snapshot = ROOT / f"ai/localization-en-{task}-2026-11-17" / f"{batch}-source.json"
         sources = {
             (row["namespace"], row["key"]): row
             for row in json.loads(snapshot.read_text())

@@ -1,3 +1,9 @@
+DEMO CATCH-UP07: three new ui.office EN gaps plus the live accepted rev3
+works.summary_lead mirror, prompted by the #1842 inventory check. 1,213 demo
+TSV rows /1,211 current keys. Glossary player-word debt is tracked in the
+1842 handoff as shared demo/game vocabulary, not counted as absent terms.
+Own rev2 summary source remains historical; latest effective row is rev3.
+
 EXPLICIT HEARING VERDICT: boss-rpg-voice-scope-and-title-2026-11-17 [2]
 relays the human’s direct verdict on the four samples: «Озвучку проверил,
 нормально» (listened to the voice-over, it is fine). The hearing acceptance

@@ -1,0 +1,54 @@
+[
+  {
+    "string_id": 21066,
+    "full_key": "ui.office.event.plan_failure_forgiven",
+    "namespace": "ui.office",
+    "key": "event.plan_failure_forgiven",
+    "kind": "body",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "Срыв плана в этот раз не засчитан.",
+    "max_len": null
+  },
+  {
+    "string_id": 21067,
+    "full_key": "ui.office.order.assign_crew",
+    "namespace": "ui.office",
+    "key": "order.assign_crew",
+    "kind": "button",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 2,
+    "source_text": "Поставить людей",
+    "max_len": 24
+  },
+  {
+    "string_id": 21068,
+    "full_key": "ui.office.order.assign_day_work",
+    "namespace": "ui.office",
+    "key": "order.assign_day_work",
+    "kind": "button",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 2,
+    "source_text": "Наряд на день",
+    "max_len": 24
+  },
+  {
+    "string_id": 19962,
+    "full_key": "ui.office.works.summary_lead",
+    "namespace": "ui.office",
+    "key": "works.summary_lead",
+    "kind": "body",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 3,
+    "source_text": "Учётчик каждое утро расставляет людей по работам. На любую работу можно выдать свой наряд — он главнее наряда учётчика.",
+    "max_len": null
+  }
+]

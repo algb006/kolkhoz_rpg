@@ -1,0 +1,40 @@
+Game English catch-up #1842 — 2026-11-17
+
+Authority: boss-rpg-1842-game-strings-en-2026-11-17 [1]. Queue after current
+#1828/#1829, no priority bypass. No API calls, speech, shared DB writes or
+mechanics changes. Game beyond the prologue/office is text only.
+
+Read-only missing-at-receipt inventory: exactly2,543 active rows without en,
+grouped by namespace in missing-at-receipt.json. All16 registered term rows
+have English already. Namespace glossary is the PLAYER word explanations,
+not another unpaid term_translation batch. Its67 rows lack English.
+
+Established demo corpus (ui.settings/ui.hud/ui.office and prologue+office
+intro scene prefixes): three missing rows, zero stale en. Demo batch07 has
+those3 plus a live accepted works.summary_lead rev3 mirror (not a fourth gap).
+Checker now has an explicit newer-rev correction, preserving earlier history.
+
+Actual source binding adds at least four shared glossary targets on office
+surfaces: raizo, stock_billet, goods_loan, reputation, per game-1788 Source/
+Kolkhoz/Private/KolkhozGlossary.cpp. This is not a claim every surface was
+observed in a native demo, or that only7 rows in all runtime namespaces lack
+en. Complete runtime coverage needs the game/ue census; many unit/resource/
+avatar names also belong to gameplay namespaces, not the initial demo list.
+
+First available shared glossary batch:65 rows, one namespace, draft only,
+with exact source revs/params/limits. Two source/term-owner holds are explicit
+in game-glossary-held TSV: work_order still promises an unappointed clerk;
+night_trade is broadly poaching+moonshine in Russian, while a specific order
+has the accepted narrower moonshine-trade label. Do not silently fix Russian
+or force that narrow label onto a broader definition. Proposals are review
+material for boss; no new mechanic or imported term is claimed.
+
+Shadow producer for цеховик is a proposed glossary rendering for support,
+not an already approved global term; reuse the decision before later perk
+translations. Note that namespace name has two missing COMMON addresses
+(citizen/comrade), not resident proper-name dictionary rows; do not blindly
+skip them as names or transliterate residents by hand.
+
+After this small demo/shared-word handoff, later namespace batches (~300)
+stay behind the current higher-priority work. Voice is90/232, manner accepted,
+continuation not before18 Nov02:07UTC and within the existing quota/cap.

@@ -1,0 +1,5 @@
+namespace	key	rev	en
+ui.office	event.plan_failure_forgiven	1	This time, the plan failure was not counted.
+ui.office	order.assign_crew	2	Assign people
+ui.office	order.assign_day_work	2	One-day assignment
+ui.office	works.summary_lead	3	The tally clerk assigns people to jobs each morning. You can issue your own assignment for any job; it overrides the clerk's.
