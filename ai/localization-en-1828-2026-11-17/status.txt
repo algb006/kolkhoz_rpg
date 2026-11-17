@@ -1,3 +1,15 @@
+IMAGE WORDS #1833: boss-rpg-english-1833-image-words-2026-11-17 [1]
+reprioritizes this after batch04 corrections and before remaining ui.office.
+One mixed review TSV has 28 rows: 24 existing namespace/key/rev/en entries
+plus 4 proposed keys with exact drawn Russian (logical spaces for the book’s
+three-line title). This is NOT a raw four-column import: boss creates new
+sources and extracts existing translations. Existing map title key serves
+both the drawn title and UI, not a duplicate. Short farm housing annotation
+gets its own key rather than borrowing the long click explanation. Bylines
+come from the project’s pure translit function, no hand-selected name forms.
+No image edits, render, paid generation or runtime language-switch claim.
+Office remainder resumes after this text handoff. Voice still has no calls.
+
 BATCH04 REVIEW FOLLOW-UP: boss-rpg English batch04 [2].
 One corrections TSV has 26 rows: all 22 office corrections including the
 night-moonshining ruling, three held abandoned-land prologue rows, and the
