@@ -1,3 +1,13 @@
+MISSED CORRECTION RECOVERED: batch04 thread [3] was present before our [4]
+but its moonshine-trade ruling was missed semantically; delayed pointer read
+revealed it. Current live English still said End night moonshining (ok).
+Own source and one-row correction now say End moonshine trade (19/24 chars),
+using the accepted making-and-selling term rather than distilling alone.
+Boss’s full Take off the night moonshine trade is 34/24; no max_len or Russian
+rev changed by RPG. Short action retains the trade object; night remains the
+existing order kind’s timing, with no wider mechanic change. Owner import
+still needed. Prior [4] claim about moonshining is superseded by this fix.
+
 REVIEW MIRRORS / FINAL OFFICE CORRECTIONS:
 Batch05 support/boss [2]: all 11 fixes plus the three already-approved printed
 rows mirrored from the live ok English, with actual current source revs.

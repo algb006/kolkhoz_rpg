@@ -164,7 +164,7 @@ ui.office	order.mark_extraction	1	Stake extraction site
 ui.office	order.insulate_unit	1	Insulate with straw
 ui.office	order.graze_at_night	1	Send to night pasture
 ui.office	order.hand_stock	2	Deliver to district
-ui.office	order.take_night_trader	1	End night moonshining
+ui.office	order.take_night_trader	1	End moonshine trade
 ui.office	item.affairs_notebook.name	1	Affairs notebook
 ui.office	item.affairs_notebook.tooltip	1	Affairs — quests
 ui.office	refusal.on_arable	1	No field camp on arable land: this land is for crops

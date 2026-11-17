@@ -14,7 +14,7 @@ ui.office	window.household_owned	1	Household
 ui.office	window.kolkhoz_owned	1	Collective farm
 ui.office	land.derelict	1	Abandoned land
 ui.office	order.graze_at_night	1	Send to night pasture
-ui.office	order.take_night_trader	1	End night moonshining
+ui.office	order.take_night_trader	1	End moonshine trade
 ui.office	item.affairs_notebook.name	1	Affairs notebook
 ui.office	item.affairs_notebook.tooltip	1	Affairs — quests
 ui.office	refusal.indices_not_held	1	Too early: the figures have not held for three years in a row
