@@ -1,0 +1,201 @@
+namespace	key	rev	en
+ui.settings	first_person_hud	1	Show first-person HUD
+ui.settings	set.audio_device	1	Audio device
+ui.settings	set.audio_device.default	1	Windows default
+ui.settings	set.audio_device.missing	1	Device disconnected — using the Windows audio device
+ui.settings	set.controls.cancel	1	Cancel
+ui.settings	set.controls.conflict	1	Key already assigned to “{action}”. Swap bindings?
+ui.settings	set.controls.mount	1	Mount / dismount
+ui.settings	set.controls.move_back	1	Backward
+ui.settings	set.controls.move_forward	1	Forward
+ui.settings	set.controls.move_left	1	Left
+ui.settings	set.controls.move_right	1	Right
+ui.settings	set.controls.press_key	1	Press a key…
+ui.settings	set.controls.reset	1	Reset
+ui.settings	set.controls.ride	1	Walk / trot
+ui.settings	set.controls.ride_turn	1	Turn horse
+ui.settings	set.controls.ride_view	1	Overhead view / hitch horse
+ui.settings	set.controls.rotate_left	1	Rotate camera left
+ui.settings	set.controls.rotate_right	1	Rotate camera right
+ui.settings	set.controls.section.riding	1	On horseback
+ui.settings	set.controls.speed_1	1	Speed ×1
+ui.settings	set.controls.speed_2	1	Speed ×2
+ui.settings	set.controls.speed_3	1	Speed ×3
+ui.settings	set.controls.speed_4	1	Speed ×10
+ui.settings	set.controls.swap	1	Swap
+ui.settings	set.controls.wind	1	Wind
+ui.settings	set.upscale	1	Upscaling
+ui.settings	set.upscale.balanced	1	Balanced 67 %
+ui.settings	set.upscale.maximum	1	Max. performance 50 %
+ui.settings	set.upscale.off	1	Off
+ui.settings	set.upscale.performance	1	Performance 58 %
+ui.settings	set.upscale.quality	1	Quality 77 %
+ui.settings	menu.continue	1	Continue
+ui.settings	menu.load	1	Load
+ui.settings	menu.new_game	1	New game
+ui.settings	menu.settings	1	Settings
+ui.settings	menu.about	1	About
+ui.settings	menu.quit	1	Quit
+ui.settings	menu.disabled_why	1	Saving is not yet available in the prologue demo
+ui.settings	nav.next	1	Next
+ui.settings	nav.back	1	Back
+ui.settings	nav.start	1	Start
+ui.settings	nav.main_menu	1	Main menu
+ui.settings	new.difficulty.title	1	Difficulty
+ui.settings	new.difficulty.easy	1	Learn the game and run the farm at a relaxed pace
+ui.settings	new.difficulty.normal	2	The standard mode used to balance and test the rest of the game
+ui.settings	new.difficulty.hard	1	For those who want a challenge
+ui.settings	new.place.title	1	Location
+ui.settings	new.place.subtitle	2	temperate heartland · 1931
+ui.settings	new.place.future	1	Other locations · coming later
+ui.settings	new.avatar.title	1	Who will be chairman?
+ui.settings	new.avatar.page	2	Page {page} of {total}
+ui.settings	loading.place_year	2	Rodniki, 1931
+ui.settings	loading.first_run	1	Preparing for the first launch
+ui.settings	set.title	1	Settings
+ui.settings	set.general	1	General
+ui.settings	set.video	3	Graphics
+ui.settings	set.audio	1	Audio
+ui.settings	set.controls	1	Controls
+ui.settings	set.apply	1	Apply
+ui.settings	set.language	1	Interface language
+ui.settings	set.resolution	1	Screen resolution
+ui.settings	set.subtitles	1	Enable subtitles
+ui.settings	set.window_mode	1	Window mode
+ui.settings	set.window_mode.windowed	1	Windowed
+ui.settings	set.window_mode.fullscreen	1	Fullscreen
+ui.settings	set.quality	1	Graphics quality
+ui.settings	set.quality.low	1	Low
+ui.settings	set.quality.medium	1	Medium
+ui.settings	set.quality.high	1	High
+ui.settings	set.quality.custom	3	Custom
+ui.settings	set.vol_master	1	Master volume
+ui.settings	set.vol_music	1	Music
+ui.settings	set.vol_world	1	World sounds
+ui.settings	set.output	1	Audio output
+ui.settings	set.vol_voice	1	Voice volume
+ui.settings	set.output.headphones	1	Headphones
+ui.settings	set.output.stereo	1	Stereo speakers
+ui.settings	set.output.surround	1	5.1
+ui.settings	set.keyboard	1	Keyboard
+ui.settings	set.output.headphones_unavailable	1	Headphone surround sound is not connected yet — using stereo speaker output
+ui.settings	set.mouse	1	Mouse
+ui.settings	set.touchpad	1	Touchpad
+ui.settings	set.display_confirm	1	Can you see the image?
+ui.settings	set.display_confirm.keep	1	Keep
+ui.settings	set.display_confirm.revert	1	Revert
+ui.settings	set.display_confirm.countdown	2	Reverting in {seconds} s
+ui.settings	set.fps_counter	1	FPS counter
+ui.settings	set.max_fps	1	Frame rate limit
+ui.settings	set.max_fps.120	1	120
+ui.settings	set.max_fps.30	1	30
+ui.settings	set.max_fps.60	1	60
+ui.settings	set.max_fps.unlimited	1	Unlimited
+ui.settings	hud.fps_unit	1	FPS
+ui.settings	menu.title	1	Collective Farm Chairman
+ui.settings	menu.about_why	1	The project page is still being prepared
+ui.settings	menu.quit_confirm.title	1	Quit game
+ui.settings	set.language.ru	1	Russian
+ui.settings	menu.quit_confirm.body	1	The game will close and return you to your operating system.
+ui.settings	set.toggle.on	1	On
+ui.settings	menu.quit_confirm.yes	1	Quit
+ui.settings	set.toggle.off	1	Off
+ui.settings	menu.quit_confirm.no	1	Stay
+ui.settings	set.controls.look	1	Look around
+ui.settings	new.avatar.hint	1	Select a photograph to view the personal file here.
+ui.settings	set.controls.turn	1	Turn body
+ui.settings	set.controls.move	1	Walk
+ui.settings	set.controls.screenshot	1	Screenshot
+ui.settings	set.controls.menu	1	Menu
+ui.settings	set.controls.mouse_left	1	Left mouse button
+ui.settings	set.controls.mouse_right	1	Right mouse button
+ui.settings	set.controls.mouse_wheel	1	Mouse wheel
+ui.settings	set.controls.mouse_move	1	Mouse movement
+ui.settings	set.controls.touch_tap	1	Tap
+ui.settings	set.controls.touch_two_fingers	1	Two fingers
+ui.settings	set.controls.office	1	Office
+ui.settings	set.controls.map	1	Map
+ui.settings	set.controls.pause	1	Pause
+ui.settings	set.controls.speed	1	Time speed
+ui.settings	set.controls.weather	1	Cycle weather
+ui.settings	set.controls.run	2	Jog
+ui.settings	set.controls.camera	2	First-person / third-person
+ui.settings	set.controls.inspect	1	Inspect object
+ui.settings	set.controls.zoom	1	Zoom in
+ui.settings	set.controls.section.third_person	1	Walkabout — third-person
+ui.settings	set.controls.section.first_person	1	First-person
+ui.settings	set.controls.rotate	1	Rotate camera
+ui.settings	set.controls.tilt	1	Tilt camera
+ui.settings	newgame.avatar.selected	1	Selected: {avatar}
+ui.settings	new.difficulty.easy.name	2	Easy
+ui.settings	new.difficulty.normal.name	2	Normal
+ui.settings	new.difficulty.hard.name	2	Hard
+ui.settings	new.difficulty.default_mark	1	default
+ui.settings	new.place.rodniki.name	1	Rodniki
+ui.settings	new.name.title	1	Chairman
+ui.settings	new.name.given	1	First name
+ui.settings	new.name.patronymic	1	Patronymic
+ui.settings	new.name.surname	1	Surname
+ui.settings	new.name.dice	1	Random first name, patronymic and surname
+ui.settings	new.order.head	1	ORDER
+ui.settings	new.order.issuer	1	Zarechny District Committee
+ui.settings	new.order.body	4	Appoint Comrade {chairman_acc} chairman of the “{kolkhoz}” collective farm, with its main farmstead in the village of {village}.
+ui.settings	new.order.date	1	{year}
+ui.settings	new.order.resolution	1	Approved
+ui.settings	new.order.signature	1	District secretary {secretary_short}
+ui.settings	new.order.stamp	1	Zarechny District Committee
+ui.settings	set.reset_defaults	1	Restore defaults
+ui.settings	set.unsaved	1	Changes have not been applied. Leave without applying them?
+ui.settings	set.unsaved.stay	1	Stay
+ui.settings	set.unsaved.discard	1	Discard changes
+ui.settings	set.controls.fixed_key	1	The game reserves “{key}” for {action}.
+ui.settings	set.controls.not_bindable	1	The key “{key}” cannot be assigned.
+ui.settings	set.lighting	1	Lighting
+ui.settings	set.lighting.simple	1	Simple
+ui.settings	set.lighting.cheap	1	Dynamic, economical
+ui.settings	set.lighting.full	1	Dynamic, full
+ui.settings	set.antialiasing	1	Anti-aliasing
+ui.settings	set.antialiasing.taa	1	TAA
+ui.settings	set.antialiasing.tsr	1	TSR
+ui.settings	set.antialiasing.fxaa	1	FXAA
+ui.settings	set.antialiasing.off	1	Off
+ui.settings	set.sun_shadows	1	Sun shadows
+ui.settings	set.detail_distance	1	Small-object draw distance
+ui.settings	set.grass_density	1	Grass off the road
+ui.settings	set.texture_quality	1	Texture quality
+ui.settings	set.step.low	1	Low
+ui.settings	set.step.medium	1	Medium
+ui.settings	set.step.high	1	High
+ui.settings	set.not_yet	1	not yet
+ui.settings	set.brightness	1	Brightness
+ui.settings	set.brightness.hint	1	The symbol on the left should be barely visible
+ui.settings	set.fov	1	Field of view
+ui.settings	set.fov.value	1	{deg}°
+ui.settings	set.antialiasing.forced	1	Upscaling uses TSR anti-aliasing
+ui.settings	set.mouse.sens_first	1	Look sensitivity
+ui.settings	set.mouse.sens_camera	1	Camera sensitivity
+ui.settings	set.mouse.invert_y	1	Invert vertical axis
+ui.settings	set.mouse.smoothing	1	Mouse smoothing
+ui.settings	set.quality.detected	1	Selected for this computer: {level}
+ui.settings	set.section.graphics	1	Graphics
+ui.settings	set.section.display	1	Display
+ui.settings	set.vsync	1	Vertical sync
+ui.settings	set.voice_language	1	Voice language
+ui.settings	set.section.mouse	1	Mouse
+ui.settings	set.section.keyboard	1	Keyboard
+ui.settings	set.section.gamepad	1	Gamepad
+ui.settings	set.pad.sens_first	1	Look sensitivity
+ui.settings	set.pad.sens_camera	1	Camera sensitivity
+ui.settings	set.pad.invert_y	1	Invert vertical axis
+ui.settings	set.pad.deadzone	1	Stick dead zone
+ui.settings	set.pad.vibration	1	Vibration
+ui.settings	set.pad.icons	1	Button icons
+ui.settings	set.pad.icons.auto	1	Automatic
+ui.settings	set.pad.icons.xbox	1	Xbox
+ui.settings	set.pad.icons.playstation	1	PlayStation
+ui.settings	set.restart_needed	1	Takes effect after restarting the game
+ui.settings	set.mouse.wheel_zoom	1	Wheel: camera zoom
+ui.settings	set.mouse.wheel_scroll	1	Wheel: scroll lists
+ui.settings	set.upscale.method	1	Upscaling method
+ui.settings	set.upscale.method.tsr	1	TSR
+ui.settings	set.upscale.method.dlss	1	NVIDIA DLSS

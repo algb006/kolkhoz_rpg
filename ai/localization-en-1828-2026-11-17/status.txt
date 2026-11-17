@@ -1,0 +1,35 @@
+English localization #1828 / voice #1829 — 2026-11-17
+
+Authority: boss-rpg-english-version-2026-11-17 [1]. Explicit parcel order:
+12-term glossary -> demo strings in batches -> accepted English voice with
+same eight v2 voices, price/spend line first -> game strings. The task queue
+currently displays voice first; follow the explicit content dependency.
+
+All English files are DRAFT translation source for boss import, not approved
+language/release evidence. Support is the designated second-role proofreader.
+Resident names remain program-transliterated; no name dictionary is edited.
+Source snapshots preserve exact Russian text, revision and max_len at export.
+No shared database write, paid call, generation or heavy job is performed.
+
+Glossary: all 12 registered term keys. tally clerk follows root CLAUDE.md §8;
+labor-day credit requires a first-use explanation in registered glossary text,
+not an invented runtime tooltip. Supply entitlement is not money/quota/budget.
+Batch01: 200 ui.settings strings, including menu/new-game/loading/settings.
+Remaining demo namespace rows have not yet been delivered by this record.
+
+Review concerns:
+- new.order.body preserves the literal chairman_acc placeholder. The runtime
+  must supply an English/transliterated name in a suitable base form, not the
+  Russian accusative. This is a locale-aware program binding requirement;
+  translation does not rewrite the placeholder or invent resident names.
+- Existing Russian new.avatar.hint says photograph, despite the later portrait
+  policy. English faithfully says photograph; source correction belongs to
+  boss, not a translation silently changing accepted source meaning.
+- menu.title is a literal draft title translation, not a separate branding
+  decision. Rodniki and Zarechny are place names, not resident-name entries.
+- Settings/source may include game-only entries; translating the namespace
+  does not claim every entry is displayed by the current demo.
+
+Validation performed: exact key coverage; placeholders; no Cyrillic; max_len;
+source revisions. Native layouts, runtime name/term substitution, audio and
+human/second-role review remain separate owner acceptance steps.
