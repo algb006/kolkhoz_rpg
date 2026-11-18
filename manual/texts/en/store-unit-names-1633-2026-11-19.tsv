@@ -1,0 +1,6 @@
+namespace	key	rev	en
+unit	church_store.name	2	Church
+unit	granary.name	1	Granary
+unit	food_store.name	1	Provisions storehouse
+unit	vegetable_store.name	1	Vegetable storehouse
+unit	goods_store.name	1	Goods storehouse

@@ -40,3 +40,11 @@ The distillers line covers the current year and stands on its own. The value
 is a separate annual ledger total, while a write-off can change the book gap.
 Sample render checks covered both languages, seven store forms and the four
 message templates. The window lays out the expanded resource lists.
+
+Review follow-up [3]. All 15 monthly feed and ledger rows are now registered
+and accepted. The original proposal sheet mirrors the live entries. The
+five missing English base unit names are in
+manual/texts/en/store-unit-names-1633-2026-11-19.tsv for draft import.
+They differ from the accepted running-text forms only in initial capital.
+Church uses Russian rev2. The other four use rev1. Provisions yard and
+Storage clamp already match their feed forms.
