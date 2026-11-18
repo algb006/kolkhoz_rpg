@@ -1,6 +1,6 @@
 {
   "task": 1829,
-  "status": "voice_manner_accepted_waiting_next_daily_quota",
+  "status": "replacements_prepared_waiting_next_daily_quota",
   "model": "gemini-3.8-flash-tts",
   "pricing_verified_on": "2026-11-17",
   "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing",
@@ -11,7 +11,7 @@
   "prologue": 64,
   "office_intro": 168,
   "english_words_after_review": 3321,
-  "expected_calls": 232,
+  "expected_calls": 237,
   "expected_usd_range": [
     0.31,
     0.43
@@ -33,9 +33,13 @@
   "run_location": "VM network calls approved by boss; no long audio processing here; xeon17 or locked Windows for processing, m22 in repair",
   "first_window_completed": 90,
   "known_spend_usd": "0.1428730",
-  "remaining_takes": 142,
+  "remaining_takes": 147,
   "hearing_required_before_next_window": false,
   "hearing_acceptance_source": "boss-rpg-voice-scope-and-title-2026-11-17 [1,2]",
   "continuation_not_before_utc": "2026-11-18T02:07:00+00:00",
-  "voice_scope": "Only the 232 existing prologue/office lines, also used in the demo. All later game content is text only; no new voiced game lines in any language."
+  "voice_scope": "Only the 232 existing prologue/office lines, also used in the demo. All later game content is text only; no new voiced game lines in any language.",
+  "current_matching_takes": 85,
+  "superseded_takes": 5,
+  "replacement_authority": "boss-rpg-ending-strings-2026-11-18 [5]",
+  "replacement_scope": "Five replacement takes, not new lines; old costs remain inside the same $0.60 cap."
 }

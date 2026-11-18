@@ -82,6 +82,49 @@ def receipts():
     return [json.loads(path.read_text()) for path in sorted(DEST.glob('scene.*.json'))]
 
 
+def prepare_replacements(rows):
+    """Preserve the five explicitly superseded takes before recording replacements."""
+    impact = json.loads((ROOT / 'ai/kolkhoz-term-1829-voice-impact-2026-11-18.json').read_text())
+    expected = {
+        'scene.start.prologue.' + suffix
+        for suffix in ('acting.t3', 'dealer.t3', 'old_fighter.t8', 'student.t3', 'worker.t3')
+    }
+    if {item['key'] for item in impact} != expected or len(impact) != 5:
+        raise RuntimeError('Replacement authority covers exactly five takes')
+    current = {row['full_key']: row for row in rows}
+    archive = DEST / 'superseded-kolkhoz-20261118'
+    pending = []
+    for item in impact:
+        key = item['key']
+        if current[key]['en'] != item['proposed_text']:
+            raise RuntimeError('Replacement transcript changed: ' + key)
+        archived_receipt = archive / (key + '.json')
+        receipt_path = archived_receipt if archived_receipt.exists() else DEST / (key + '.json')
+        receipt = json.loads(receipt_path.read_text())
+        if (receipt.get('text') != item['old_text']
+            or receipt.get('text_sha256') != digest(item['old_text'].encode())
+            or receipt.get('estimated_usd_from_usage') != item['old_cost_usd']
+            or receipt.get('status') != 'english_draft_for_hearing_not_accepted'
+            or receipt.get('voice') != VOICES[current[key]['avatar']]):
+            raise RuntimeError('Unexpected superseded receipt: ' + key)
+        for suffix in ('.wav', '.json'):
+            target = archive / (key + suffix)
+            source = DEST / (key + suffix)
+            candidate = target if target.exists() else source
+            if not candidate.is_file():
+                raise RuntimeError('Missing superseded file: ' + key + suffix)
+            if suffix == '.wav' and digest(candidate.read_bytes()) != receipt['wav_sha256']:
+                raise RuntimeError('Superseded WAV hash mismatch: ' + key)
+            if not target.exists():
+                pending.append((source, target))
+    archive.mkdir(parents=True, exist_ok=True)
+    for source, target in pending:
+        if target.exists():
+            raise RuntimeError('Refusing archive overwrite: ' + target.name)
+        source.rename(target)
+    print('Five superseded raw pairs preserved; old usage remains in the pass cap.', flush=True)
+
+
 def write_new(path, data):
     with path.open('xb') as handle:
         handle.write(data)
@@ -125,6 +168,12 @@ def record(row):
         approval='rpg-boss-english-voice-price-1829-2026-11-17 [2]',
         pricing_source='https://ai.google.dev/gemini-api/docs/pricing',
         estimated_usd_from_usage=None, status='unresolved_usage_or_output')
+    superseded = DEST / 'superseded-kolkhoz-20261118' / (key + '.json')
+    if superseded.exists():
+        old = json.loads(superseded.read_text())
+        receipt.update(replacement_authority='boss-rpg-ending-strings-2026-11-18 [5]',
+            supersedes_interaction_id=old.get('interaction_id'),
+            superseded_receipt=str(superseded.relative_to(ROOT)))
     started = False
     audio = None
     try:
@@ -167,14 +216,19 @@ def record(row):
 
 def summary():
     takes = receipts()
-    unique = [r.get('interaction_id') for r in takes if r.get('interaction_id')]
+    superseded = [json.loads(path.read_text()) for path in sorted(
+        (DEST / 'superseded-kolkhoz-20261118').glob('scene.*.json'))]
+    billable = takes + superseded
+    unique = [r.get('interaction_id') for r in billable if r.get('interaction_id')]
     if len(unique) != len(set(unique)):
         raise RuntimeError('Duplicate interaction IDs in English receipts')
     value = dict(locale='en', total_expected=232,
         completed=sum(r['status']=='english_draft_for_hearing_not_accepted' for r in takes),
-        receipt_count=len(takes), unresolved_usage=sum(r.get('estimated_usd_from_usage') is None for r in takes),
-        estimated_usd_from_usage=sum(r.get('estimated_usd_from_usage') or 0 for r in takes),
-        cap_usd=CAP, status='draft_not_hearing_accepted', takes=takes)
+        receipt_count=len(billable), superseded_receipt_count=len(superseded),
+        unresolved_usage=sum(r.get('estimated_usd_from_usage') is None for r in billable),
+        estimated_usd_from_usage=sum(r.get('estimated_usd_from_usage') or 0 for r in billable),
+        cap_usd=CAP, status='draft_not_hearing_accepted', takes=takes,
+        superseded_takes=superseded)
     if DEST.exists():
         (DEST / 'manifest.json').write_bytes(encode(value))
     return value
@@ -182,16 +236,18 @@ def summary():
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('mode',choices=['plan','generate'])
+    parser.add_argument('mode',choices=['plan','generate','prepare-replacements'])
     parser.add_argument('--limit',type=int,default=90)
     args=parser.parse_args()
     if not 1 <= args.limit <= 90:
         raise RuntimeError('Window limit must be 1..90; existing quota guard stays unchanged')
     rows=sources()
+    if args.mode == 'prepare-replacements':
+        prepare_replacements(rows)
     missing=[r for r in rows if not verify_existing(r)]
     state=summary()
     print(f"English inventory {len(rows)}; missing {len(missing)}; spent ${state['estimated_usd_from_usage']:.7f}; model attempts {attempts_last_24h(MODEL)}/{MAX_ATTEMPTS_24H}",flush=True)
-    if args.mode=='plan':
+    if args.mode in ('plan', 'prepare-replacements'):
         return
     previous_window=ROOT/'ai/localization-en-1828-2026-11-17/voice-window01-result.json'
     if previous_window.exists():

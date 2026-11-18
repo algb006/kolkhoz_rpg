@@ -4,6 +4,8 @@ import hashlib
 import json
 from pathlib import Path
 
+from voice_english_demo_1829 import summary
+
 ROOT = Path(__file__).resolve().parents[1]
 WORK = Path('/data/kolkhoz/voice/en-demo-1829-20261117')
 DEST = ROOT / 'voice/draft/en-demo-1829-20261117'
@@ -26,20 +28,21 @@ def main():
             receipt = json.loads(raw)
         except json.JSONDecodeError:
             continue  # A working receipt can still be in the writer's open file.
+        archived = DEST / 'superseded-kolkhoz-20261118' / path.name
+        destination = archived.parent if archived.exists() else DEST
+        if archived.exists() and archived.read_bytes() != raw:
+            raise RuntimeError('Working receipt differs from superseded original: ' + path.name)
         wav = path.with_suffix('.wav')
         if wav.exists():
             audio = wav.read_bytes()
             if receipt.get('wav_sha256') and hashlib.sha256(audio).hexdigest() != receipt['wav_sha256']:
                 raise RuntimeError('Working WAV hash mismatch: ' + wav.name)
-            exact_copy(DEST / wav.name, audio)
-        exact_copy(DEST / path.name, raw)
-    takes = [json.loads(path.read_text()) for path in sorted(DEST.glob('scene.*.json'))]
-    manifest = dict(locale='en', status='draft_for_human_hearing_not_accepted',
-        completed=sum(t['status']=='english_draft_for_hearing_not_accepted' for t in takes),
-        unique_interactions=len({t.get('interaction_id') for t in takes if t.get('interaction_id')}),
-        estimated_usd_from_usage=sum(t.get('estimated_usd_from_usage') or 0 for t in takes),
-        unresolved_usage=sum(t.get('estimated_usd_from_usage') is None for t in takes),
-        source_working_copy=str(WORK), canonical_originals=str(DEST), takes=takes)
+            exact_copy(destination / wav.name, audio)
+        exact_copy(destination / path.name, raw)
+    manifest = summary()
+    manifest.update(unique_interactions=len({
+        t['interaction_id'] for t in manifest['takes'] + manifest['superseded_takes']
+        if t.get('interaction_id')}), source_working_copy=str(WORK), canonical_originals=str(DEST))
     (DEST/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
     print(f"Preserved in RPG voice tree: {manifest['completed']} English takes, {manifest['unique_interactions']} interactions, unresolved {manifest['unresolved_usage']}")
 

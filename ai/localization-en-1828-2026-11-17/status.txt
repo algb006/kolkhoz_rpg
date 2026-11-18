@@ -1,3 +1,14 @@
+OWNER UPDATE [5]: all24 kolkhoz corrections verified live ok; term
+salt_deficiency registered. Five voice replacements explicitly authorized in
+existing232-line scope/$0.60 cap. Old raw pairs now preserved byte-exact in
+voice/draft/en-demo-1829-20261117/superseded-kolkhoz-20261118/.
+Current matching85, remaining147 (142 unrecorded +5 replacement takes).
+Historical90 paid calls/$0.1428730 still fully included in cap; no new calls.
+Both recorder and working-copy publisher retain archived spend and never
+restore superseded working copies to current output. Read-only plan passes,
+preparation is idempotent, quota remains90/90; next window02:07UTC unchanged.
+Earlier replacement permission/import holds below are historical/resolved.
+
 TERM CORRECTION — boss-rpg-ending-strings-2026-11-18 [3].
 24 running collective-farm mentions -> kolkhoz/kolkhozes; no explanatory
 exception. Review TSV and rationale: review-kolkhoz-term-1828-2026-11-18.tsv

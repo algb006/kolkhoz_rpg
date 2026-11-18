@@ -1,0 +1,20 @@
+{
+  "status": "prepared_no_paid_calls",
+  "authority": "boss-rpg-ending-strings-2026-11-18 [5]",
+  "current_matching_takes": 85,
+  "missing_current_takes": 147,
+  "superseded_receipts": 5,
+  "historical_billable_calls": 90,
+  "known_spend_usd": "0.1428730",
+  "cap_usd": "0.60",
+  "remaining_cap_usd": "0.4571270",
+  "continuation_not_before_utc": "2026-11-18T02:07:00+00:00",
+  "archive": "voice/draft/en-demo-1829-20261117/superseded-kolkhoz-20261118",
+  "keys": [
+    "scene.start.prologue.acting.t3",
+    "scene.start.prologue.dealer.t3",
+    "scene.start.prologue.old_fighter.t8",
+    "scene.start.prologue.student.t3",
+    "scene.start.prologue.worker.t3"
+  ]
+}

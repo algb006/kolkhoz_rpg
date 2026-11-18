@@ -1,3 +1,8 @@
+RESOLVED UPDATE: owner [5] imported all24 ok and registered salt_deficiency.
+Five replacements authorized within same scope/cap; raw pairs archived intact,
+85 matching current takes,147 to record, no new spend. See replacement-prep
+JSON and latest status for current state; earlier holds below are historical.
+
 Authority: boss-rpg-ending-strings-2026-11-18 [3].
 24 current English strings use collective farm; all24 are running mentions,
 not definitions explaining what a kolkhoz is. No explanatory exception kept,
