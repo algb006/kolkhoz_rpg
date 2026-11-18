@@ -1,3 +1,13 @@
+Accepted review, 18 November. All 23 body, feature and date rows are registered
+at rev1 with accepted English. The sheet mirrors the live entries and four
+English edits, including the field year at exactly 80 English words. The
+following source map and proposal details record the original delivery.
+
+Move [3] adds handbook.tab.units and handbook.tab.alarms. Two new proposals in
+manual/texts/handbook-tabs-664-2026-11-18.tsv use the label kind and 32-character
+cap of handbook.tab.words. Buildings matches ui.office.works.units. The new
+tab labels have no arguments. The signature pattern is pending the game brief.
+
 #664 Chairman’s Handbook. Bilingual source proposal.
 
 Authority: boss-rpg-664-handbook-bodies-2026-11-18 [1]. Scope from office.md,

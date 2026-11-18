@@ -1,50 +1,50 @@
 namespace	key	rev	ru	en	kind	max_len	status
-ui.office	handbook.body.field_year		"Озимые: сев — конец лета и начало осени, уборка — середина следующего лета. Яровые: сев весной, уборка в конце лета и осенью. Многолетние травы: подсевом под яровые, укосами каждое лето.
+ui.office	handbook.body.field_year	1	"Озимые: сев — конец лета и начало осени, уборка — середина следующего лета. Яровые: сев весной, уборка в конце лета и осенью. Многолетние травы: подсевом под яровые, укосами каждое лето.
 Март: снег сходит, распутица. Апрель: открываются ранние яровые. Май: картофель, лён, овощи, гречиха, кукуруза.
 Июнь–июль: рост и сенокос. С середины июля — уборка озимых. Август: страда яровых и сев озимых.
 Сентябрь: картофель, гречиха, поздние овощи. Октябрь: последние окна. Ноябрь: первый снег.
 Окно в один месяц — это четверо суток."	"Winter crops: sow in late summer or early autumn, harvest next midsummer. Spring crops: sow in spring, harvest in late summer and autumn. Perennial grasses: undersow with spring crops, cut each summer.
-March: thaw. April: early spring crops. May: potatoes, flax, vegetables, buckwheat, maize.
-June–July: growth and haymaking. Winter harvest from mid-July. August: harvest spring crops, sow winter crops.
+March: thaw, muddy roads. April: early spring crops open. May: potatoes, flax, vegetables, buckwheat, maize.
+June–July: growth and haymaking. Winter crops harvested from mid-July. August: harvest spring crops, sow winter crops.
 September: potatoes, buckwheat, late vegetables. October: final windows. November: first snow.
-A one-month window is four days."	body	640	draft
-ui.office	handbook.body.crop_rotation		"Хорошо: после бобовых и трав — требовательные культуры. После пара — озимые. Пропашные после зерновых.
+A one-month window is four days."	body	640	ok
+ui.office	handbook.body.crop_rotation	1	"Хорошо: после бобовых и трав — требовательные культуры. После пара — озимые. Пропашные после зерновых.
 Плохо: одна культура два года подряд. Истощающие подряд: лён после пшеницы. Картофель по картофелю.
 Второй год подряд — заметно, третий — тяжело.
 Со второго года кольцо простое: пар или травы → озимая рожь → пропашные → яровые → снова травы."	"Good: demanding crops after legumes and grasses. Winter crops after fallow. Row crops after cereals.
 Bad: the same crop two years running. Soil-depleting crops in succession, such as flax after wheat. Potatoes after potatoes.
-The penalty is noticeable the second year and severe the third.
-From year two: fallow or grasses → winter rye → row crops → spring crops → grasses again."	body	640	draft
-ui.office	handbook.body.fallow		"Пар — не культура, а решение.
+A second year running hurts noticeably; a third, badly.
+From year two, a simple cycle: fallow or grasses → winter rye → row crops → spring crops → grasses again."	body	640	ok
+ui.office	handbook.body.fallow	1	"Пар — не культура, а решение.
 Поле сезон стоит без культуры: пашется, но отдыхает — до сева озимой по пару в конце лета.
 Заметное восстановление плодородия. Площадь простаивает."	"Fallow is a decision, not a crop.
-The field is plowed and rests until winter sowing in late summer.
-Fertility recovers noticeably. The land stands idle."	body	640	draft
-ui.office	handbook.body.seeds		"Сеют тем, что вырастили.
+For one season the field carries no crop: it is plowed but rests until winter crops are sown on it in late summer.
+Fertility recovers noticeably. The land stands idle."	body	640	ok
+ui.office	handbook.body.seeds	1	"Сеют тем, что вырастили.
 Потребность фонда идёт от назначенного севооборота.
 Из этого зерна сеют весной. Съеденный фонд — потерянный год"	"You sow what you grow.
 The assigned crop rotation determines how much the seed reserve needs.
-This grain is for spring sowing. Eat the seed reserve and you lose a year."	body	640	draft
-ui.office	handbook.body.field_work		"У поля в каждый момент одна фаза.
+This grain is for spring sowing. Eat the seed reserve and you lose a year."	body	640	ok
+ui.office	handbook.body.field_work	1	"У поля в каждый момент одна фаза.
 Фазы идут по кругу и не перескакиваются.
 Погода останавливает работу, а не портит её."	"A field has one phase at a time.
-The phases repeat in order.
-Weather stops work without undoing it."	body	640	draft
-ui.office	handbook.crop.rye_winter.features		Неприхотлива, терпит кислые и бедные почвы. Основной хлеб. Истощает слабо.	Tolerates acidic and poor soils. Main bread grain. Depletes soil slightly.	body	180	draft
-ui.office	handbook.crop.wheat_winter.features		Убирается раньше яровой, но зимовку переносит хуже ржи. Истощает сильно.	Harvested earlier than spring wheat. Less winter hardy than rye. Depletes soil heavily.	body	180	draft
-ui.office	handbook.crop.wheat_spring.features		Требовательна к плодородию, ценнее в сдаче. Истощает сильно.	Needs fertile soil and is worth more for deliveries. Depletes soil heavily.	body	180	draft
-ui.office	handbook.crop.oat.features		Неприхотлив. Главный корм лошадям. Истощает слабо.	Undemanding. Main feed for horses. Depletes soil slightly.	body	180	draft
-ui.office	handbook.crop.barley.features		Корм скоту, крупа. Истощает средне.	Livestock feed and groats. Depletes soil moderately.	body	180	draft
-ui.office	handbook.crop.buckwheat.features		Крупа. Медонос — плюс пасеке. Заморозка не переносит вовсе. Истощает слабо.	Groats. A nectar crop for the apiary. Cannot tolerate frost. Depletes soil slightly.	body	180	draft
-ui.office	handbook.crop.pea.features		Бобовые: крупа и корм. Восстанавливает.	Legume for groats and feed. Restores fertility.	body	180	draft
-ui.office	handbook.crop.potato.features		Второй хлеб. Основа рациона и кормов. Истощает средне.	A staple for people and livestock. Depletes soil moderately.	body	180	draft
-ui.office	handbook.crop.cabbage.features		Хранится, квасится — зимнее разнообразие. Истощает средне.	Keeps in storage and can be fermented for variety in winter. Depletes soil moderately.	body	180	draft
-ui.office	handbook.crop.carrot_beet.features		Хранятся в погребе. Истощает средне.	Keep in the cellar. Deplete soil moderately.	body	180	draft
-ui.office	handbook.crop.onion_garlic.features		Мелкий объём, важны для разнообразия. Истощает слабо.	Grown in small quantities for variety. Deplete soil slightly.	body	180	draft
-ui.office	handbook.crop.cucumber_tomato.features		Только теплица.	Greenhouse only.	body	180	draft
-ui.office	handbook.crop.flax.features		Сырьё для ткацкой мастерской. Требователен, истощает сильно.	Raw material for the weaving workshop. Demanding crop. Depletes soil heavily.	body	180	draft
-ui.office	handbook.crop.clover.features		Корм и сено. Медонос. Сильно восстанавливает.	Feed and hay. A nectar crop. Restores fertility strongly.	body	180	draft
-ui.office	handbook.crop.timothy.features		Сено, долголетний травостой. Восстанавливает.	Hay from a long-lived grass stand. Restores fertility.	body	180	draft
-ui.office	handbook.crop.fodder_beet.features		Сочный корм на зимовку. Истощает средне.	Succulent winter feed. Depletes soil moderately.	body	180	draft
-ui.office	handbook.crop.maize_silage.features		Требовательна и не везде вызревает. Истощает сильно.	Demanding crop that does not ripen everywhere. Depletes soil heavily.	body	180	draft
-ui.office	handbook.crop_dates.row		{crop}: сев {sow_from}–{sow_to}, не ниже {sow_min} °C, уборка {harvest_from}–{harvest_to}, до {harvest_min} °C	{crop}: sow {sow_from}–{sow_to} at {sow_min} °C or above. Harvest {harvest_from}–{harvest_to} before temperatures drop to {harvest_min} °C.	body	200	draft
+Phases go in a cycle and none can be skipped.
+Weather stops work without undoing it."	body	640	ok
+ui.office	handbook.crop.rye_winter.features	1	Неприхотлива, терпит кислые и бедные почвы. Основной хлеб. Истощает слабо.	Tolerates acidic and poor soils. Main bread grain. Depletes soil slightly.	body	180	ok
+ui.office	handbook.crop.wheat_winter.features	1	Убирается раньше яровой, но зимовку переносит хуже ржи. Истощает сильно.	Harvested earlier than spring wheat. Less winter hardy than rye. Depletes soil heavily.	body	180	ok
+ui.office	handbook.crop.wheat_spring.features	1	Требовательна к плодородию, ценнее в сдаче. Истощает сильно.	Needs fertile soil and is worth more for deliveries. Depletes soil heavily.	body	180	ok
+ui.office	handbook.crop.oat.features	1	Неприхотлив. Главный корм лошадям. Истощает слабо.	Undemanding. Main feed for horses. Depletes soil slightly.	body	180	ok
+ui.office	handbook.crop.barley.features	1	Корм скоту, крупа. Истощает средне.	Livestock feed and groats. Depletes soil moderately.	body	180	ok
+ui.office	handbook.crop.buckwheat.features	1	Крупа. Медонос — плюс пасеке. Заморозка не переносит вовсе. Истощает слабо.	Groats. A nectar crop for the apiary. Cannot tolerate frost. Depletes soil slightly.	body	180	ok
+ui.office	handbook.crop.pea.features	1	Бобовые: крупа и корм. Восстанавливает.	Legume for groats and feed. Restores fertility.	body	180	ok
+ui.office	handbook.crop.potato.features	1	Второй хлеб. Основа рациона и кормов. Истощает средне.	A staple for people and livestock. Depletes soil moderately.	body	180	ok
+ui.office	handbook.crop.cabbage.features	1	Хранится, квасится — зимнее разнообразие. Истощает средне.	Keeps in storage and can be fermented for variety in winter. Depletes soil moderately.	body	180	ok
+ui.office	handbook.crop.carrot_beet.features	1	Хранятся в погребе. Истощает средне.	Keep in the cellar. Deplete soil moderately.	body	180	ok
+ui.office	handbook.crop.onion_garlic.features	1	Мелкий объём, важны для разнообразия. Истощает слабо.	Grown in small quantities for variety. Deplete soil slightly.	body	180	ok
+ui.office	handbook.crop.cucumber_tomato.features	1	Только теплица.	Greenhouse only.	body	180	ok
+ui.office	handbook.crop.flax.features	1	Сырьё для ткацкой мастерской. Требователен, истощает сильно.	Raw material for the weaving workshop. Demanding crop. Depletes soil heavily.	body	180	ok
+ui.office	handbook.crop.clover.features	1	Корм и сено. Медонос. Сильно восстанавливает.	Feed and hay. A nectar crop. Restores fertility strongly.	body	180	ok
+ui.office	handbook.crop.timothy.features	1	Сено, долголетний травостой. Восстанавливает.	Hay from a long-lived grass stand. Restores fertility.	body	180	ok
+ui.office	handbook.crop.fodder_beet.features	1	Сочный корм на зимовку. Истощает средне.	Succulent winter feed. Depletes soil moderately.	body	180	ok
+ui.office	handbook.crop.maize_silage.features	1	Требовательна и не везде вызревает. Истощает сильно.	Demanding crop that does not ripen everywhere. Depletes soil heavily.	body	180	ok
+ui.office	handbook.crop_dates.row	1	{crop}: сев {sow_from}–{sow_to}, не ниже {sow_min} °C, уборка {harvest_from}–{harvest_to}, до {harvest_min} °C	{crop}: sow {sow_from}–{sow_to} at {sow_min} °C or above. Harvest {harvest_from}–{harvest_to} before temperatures drop to {harvest_min} °C.	body	200	ok
