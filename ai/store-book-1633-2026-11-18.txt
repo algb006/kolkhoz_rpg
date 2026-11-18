@@ -1,20 +1,20 @@
-#1633 store book strings. Queued after the final 57 English takes of #1829.
+#1633 Storehouse ledger text delivered in the voice quota gap.
 
-Authority: boss-rpg-1633-book-strings-2026-11-18 [1].
-Design: crime.md, store book R1. Window reference: game-1633 002f30e5.
-Deliver one RU+EN proposal sheet for ui.office.economy.book.title and
-ui.office.economy.book.line. Use dry ledger language under the Stores
-section. Confirm labels and glossary wording against the current sources
-when starting the task.
+Authority: boss-rpg-1633-book-strings-2026-11-18 [1,3]. Move [3] advances
+the text ahead of the final #1829 recordings. The bilingual proposal is
+manual/texts/store-book-1633-2026-11-18.tsv. Both source keys were absent at
+delivery. The owner registers them and support proofreads English.
 
-Bind the line with {resource}, {recorded}, {before}, {carried}. The resource
-name is nominative. Numbers are already formatted to tenths of a tonne.
-Distinguish the book balance, losses before acceptance that were outside
-the chairman's responsibility, and what was carried off since acceptance.
-The window displays the line for resources with a loss. Monthly theft in
-the feed remains a separate #1881 handoff.
+Design: crime.md §1, the acceptance act and the store book. Verified the
+four named arguments and one-decimal formatting in game commit 002f30e5.
+The window uses the registered nominative resource name and wraps the line.
+«Вне ревизии» / «excluded from audit» applies to the pre-acceptance losses
+only. That stock was lost, but the chairman was never answerable for it.
+«Унесено после приёмки» / «carried off since acceptance» names separate losses
+over the later period. Storehouse ledger matches the parent Storehouses heading.
+The separate monthly theft feed follows #1881.
 
-The accounting record currently has 175 matching raws and 57 outstanding.
-The rolling quota is expected to have room for all 57 again on 19 November
-at 03:36:51 UTC. Recompute capacity before that voice batch. The two book
-strings are awaiting the prior task in the order specified by boss.
+Validation: two new bilingual keys, four matching named arguments in the
+row, three tonne labels per language, lengths within proposed caps. Voice
+remains at 175 matching raws. Recompute quota before the remaining 57,
+planned from 19 November 03:36:51 UTC.
