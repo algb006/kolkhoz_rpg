@@ -1,3 +1,8 @@
+ACCEPTED UPDATE: owner [3] applied support review in shared DB.
+All10 rows now ok, all actual source revisions1. Proposal TSV mirrors three
+English fixes: Put on Trial; The Village Is No More; revised dissolved/merged
+village body. Registered-source snapshot added; receipt below is historical.
+
 Authority: boss-rpg-ending-strings-2026-11-18 [1], #1712.
 Bilingual proposal sheet:9 new sources,1 existing source with EN missing.
 New-source rev cells intentionally blank; owner registers actual revisions.
