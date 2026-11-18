@@ -1,0 +1,20 @@
+#1633 store book strings. Queued after the final 57 English takes of #1829.
+
+Authority: boss-rpg-1633-book-strings-2026-11-18 [1].
+Design: crime.md, store book R1. Window reference: game-1633 002f30e5.
+Deliver one RU+EN proposal sheet for ui.office.economy.book.title and
+ui.office.economy.book.line. Use dry ledger language under the Stores
+section. Confirm labels and glossary wording against the current sources
+when starting the task.
+
+Bind the line with {resource}, {recorded}, {before}, {carried}. The resource
+name is nominative. Numbers are already formatted to tenths of a tonne.
+Distinguish the book balance, losses before acceptance that were outside
+the chairman's responsibility, and what was carried off since acceptance.
+The window displays the line for resources with a loss. Monthly theft in
+the feed remains a separate #1881 handoff.
+
+The accounting record currently has 175 matching raws and 57 outstanding.
+The rolling quota is expected to have room for all 57 again on 19 November
+at 03:36:51 UTC. Recompute capacity before that voice batch. The two book
+strings are awaiting the prior task in the order specified by boss.
