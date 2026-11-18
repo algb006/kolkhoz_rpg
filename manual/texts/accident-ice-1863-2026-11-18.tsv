@@ -15,6 +15,14 @@ scene	accident.ice.warning.dark.dealer		Тёмный лёд — ненадёжн
 scene	accident.ice.warning.crack.dealer		Лёд уже трещит. Дальше рисковать не стану.	The ice is already cracking. I won't risk going any farther.	body	160	draft
 scene	accident.ice.warning.dark.acting		Впереди тёмный лёд. Пойду берегом.	Dark ice ahead. I'll stay on the bank.	body	160	draft
 scene	accident.ice.warning.crack.acting		Трещит. Дальше не пойду.	It's cracking. I'm not going any farther.	body	160	draft
+scene	accident.ice.warning.mounted.villager		Конь упёрся. Чует тонкий лёд — поверну к берегу.	The horse won't budge. Senses thin ice. I'll turn toward the bank.	body	160	draft
+scene	accident.ice.warning.mounted.worker		Конь дальше не идёт. Лёд тонкий, гнать его не буду.	The horse won't go any farther. The ice is thin. I won't drive him on.	body	160	draft
+scene	accident.ice.warning.mounted.student		Конь остановился и не идёт. Здесь тонкий лёд — придётся повернуть.	The horse has stopped and won't move. Thin ice here. I'll have to turn back.	body	160	draft
+scene	accident.ice.warning.mounted.ex_chairman		Конь упёрся перед льдом. Значит, тонко. Назад.	The horse has balked before the ice. Must be thin. Back we go.	body	160	draft
+scene	accident.ice.warning.mounted.promoted		Конь не идёт на тонкий лёд. Выберу другой путь.	The horse won't step onto thin ice. I'll take another route.	body	160	draft
+scene	accident.ice.warning.mounted.old_fighter		Конь встал. Лёд тонкий, поворачиваем.	The horse has stopped. Thin ice. We're turning back.	body	160	draft
+scene	accident.ice.warning.mounted.dealer		Конь упёрся. Тонкий лёд — не стану его понукать.	The horse won't budge. Thin ice. I won't urge him on.	body	160	draft
+scene	accident.ice.warning.mounted.acting		Конь не идёт. Впереди тонкий лёд, поверну назад.	The horse won't move. Thin ice ahead. I'll turn back.	body	160	draft
 scene	accident.ice.death		Вы провалились под лёд и утонули.	You fell through the ice and drowned.	body	160	draft
 ui.settings	accident.title		Несчастный случай	Accident	title	64	draft
 ui.settings	accident.load_last_save		Загрузить последнее сохранение	Load last save	button	64	draft

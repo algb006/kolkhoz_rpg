@@ -1,10 +1,10 @@
 DELIVERED AFTER PREDECESSOR: five replacements recorded, b04d635.
 Proposal: manual/texts/accident-ice-1863-2026-11-18.tsv,20 paired rows:
-19 new sources +1 already accepted reusable nav.main_menu (not a new key).
+27 new sources +1 already accepted reusable nav.main_menu (not a new key).
 Source snapshot contains that one existing row; other revisions blank.
 New caps are proposals for owner registration, not accepted UI constraints.
 
-Warnings: exactly2 per avatar, dark-ice and audible-crack alternatives.
+Warnings: exactly3 per avatar: dark ice, audible crack, and mounted balk.
 Use only when the matching visible/audible cue actually exists, before the
 fatal step. They are variants, not a sequential conversation or two required
 steps. Warning text cannot itself certify runtime warned/autosave behavior.
@@ -16,10 +16,10 @@ One gender-neutral second-person Russian death sentence on dark frame, with
 no on-screen death and no score or reproach. Accident is the screen heading;
 no restart/campaign button. Existing Main menu reused verbatim at rev1.
 No rescue, illness, other accident scenarios, quests or hints included.
-Owner registers19 sources, support proofreads19 English candidates; reuse
+Owner registers27 sources, support proofreads27 English candidates; reuse
 row must NOT be re-created or treated as another missing translation.
 
-Checks:20 unique paired keys, eight accepted avatar keys, two cues each,
+Checks:28 unique paired keys, eight accepted avatar keys, three cues each,
 all caps/whitespace/placeholder absence/source revision/reuse EN verified.
 Read tone and avatar biographies before writing. No shared DB write.
 
@@ -36,7 +36,7 @@ replacement takes completed, then bilingual accident writing. Replacement run
 stayed inside the existing232-line scope/$0.60 cap after02:07UTC gate.
 
 Deliver one RU+EN proposal sheet for boss registration/support review:
-- Two or three warning thoughts per eight avatars: dark/thin ice or a crack
+- Three warning thoughts per eight avatars: dark/thin ice or a crack
   perceived BEFORE the step. No claim about absent rescuers or solitude.
 - One sentence on a dark frame, death off screen; no joke or blame.
 - Accident heading and load-last-save button. Reuse ui.settings.nav.main_menu,
@@ -52,3 +52,9 @@ Accident is personal and separate from farm-failure endings: load last save
 or main menu, not a new campaign or score. The save is separate/pre-danger,
 not a promise to return to the beginning of the day. Only thin ice/open water
 in ice now; other accident types remain future work. No quests or hints.
+
+Additional authority: boss-rpg-accident-norescue-2026-11-18 [2].
+Mounted variants added for all8 avatars. Use only when the horse visibly
+balks/stops at thin ice. They do not assert a throw, injury, rescue or random
+horse disobedience; later forced movement is not narrated in this beat.
+All28 paired rows remain text only. No additional TTS request.
