@@ -1,0 +1,258 @@
+{
+  "status": "five_replacements_recorded_raw_not_mastered",
+  "authority": "boss-rpg-ending-strings-2026-11-18 [5]",
+  "requests": 5,
+  "failed_or_unresolved": 0,
+  "current_matching_takes": 90,
+  "total_expected": 232,
+  "remaining_takes": 142,
+  "historical_billable_calls": 95,
+  "replacement_spend_usd": "0.0100155",
+  "pass_spend_usd": "0.1528885",
+  "pass_cap_usd": "0.60",
+  "remaining_cap_usd": "0.4471115",
+  "cumulative_project_spend_usd": "0.7644400",
+  "estimated_project_remaining_usd": "7.2355600",
+  "takes": [
+    {
+      "key": "scene.start.prologue.acting.t3",
+      "locale": "en",
+      "avatar": "acting",
+      "voice": "Kore",
+      "gender": "female",
+      "model": "gemini-3.8-flash-tts",
+      "text": "Rooks cawing. There's a chapel. I need to find out what was here before the kolkhoz.",
+      "rev": 3,
+      "src_rev": 3,
+      "text_sha256": "f80451715cbedba4281709358f6d4e94a0235d20002fe92c4a51247e00a7c87a",
+      "style": "English. Read the exact transcript as private internal thought, without additions. Collected, practical and economical. Softer only when thinking about people.",
+      "generated_utc": "2026-11-18T03:10:34.634870+00:00",
+      "approval": "rpg-boss-english-voice-price-1829-2026-11-17 [2]",
+      "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "estimated_usd_from_usage": 0.001705,
+      "status": "english_draft_for_hearing_not_accepted",
+      "replacement_authority": "boss-rpg-ending-strings-2026-11-18 [5]",
+      "supersedes_interaction_id": "v1_ChdKN1Q3YXNYU0s4X2R2ZElQcU5hcjRBdxIXSjdUN2FzWFNLOF9kdmRJUHFOYXI0QXc",
+      "superseded_receipt": "voice/draft/en-demo-1829-20261117/superseded-kolkhoz-20261118/scene.start.prologue.acting.t3.json",
+      "usage": {
+        "total_tokens": 214,
+        "total_input_tokens": 26,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 26
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_output_tokens": 188,
+        "output_tokens_by_modality": [
+          {
+            "modality": "audio",
+            "tokens": 188
+          }
+        ],
+        "total_tool_use_tokens": 0,
+        "total_thought_tokens": 0,
+        "initial_input_tokens": 26
+      },
+      "interaction_id": "v1_ChdMeGY5YXRyX002bWUyOG9QeG9YMDBBcxIXTHhmOWF0cl9NNm1lMjhvUHhvWDAwQXM",
+      "wav_sha256": "3b70ed48734eafe7bbcb1c404dba8b95f73c211833753d902572ebe38ce02b70",
+      "duration_seconds": 7.52,
+      "channels": 1,
+      "sample_rate": 24000,
+      "bits_per_sample": 16
+    },
+    {
+      "key": "scene.start.prologue.dealer.t3",
+      "locale": "en",
+      "avatar": "dealer",
+      "voice": "Algieba",
+      "gender": "male",
+      "model": "gemini-3.8-flash-tts",
+      "text": "The rooks are in full voice. And there's a chapel. The kolkhoz is new, but the local habits, I imagine, are rather older.",
+      "rev": 3,
+      "src_rev": 3,
+      "text_sha256": "a0b3e869ffe168d4fbc780470386bb9dce3efcc99f6520adc1baacc48c6ef662",
+      "style": "English. Read the exact transcript as private internal thought, without additions. Courteous and quietly ironic. A slight questioning melody in statements, never parody.",
+      "generated_utc": "2026-11-18T03:10:24.413006+00:00",
+      "approval": "rpg-boss-english-voice-price-1829-2026-11-17 [2]",
+      "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "estimated_usd_from_usage": 0.0024925000000000004,
+      "status": "english_draft_for_hearing_not_accepted",
+      "replacement_authority": "boss-rpg-ending-strings-2026-11-18 [5]",
+      "supersedes_interaction_id": "v1_ChdIYlQ3YW9DUEo5cl9uc0VQOHRES3VRVRIXSGJUN2FvQ1BKOXJfbnNFUDh0REt1UVU",
+      "superseded_receipt": "voice/draft/en-demo-1829-20261117/superseded-kolkhoz-20261118/scene.start.prologue.dealer.t3.json",
+      "usage": {
+        "total_tokens": 310,
+        "total_input_tokens": 35,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 35
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_output_tokens": 275,
+        "output_tokens_by_modality": [
+          {
+            "modality": "audio",
+            "tokens": 275
+          }
+        ],
+        "total_tool_use_tokens": 0,
+        "total_thought_tokens": 0,
+        "initial_input_tokens": 35
+      },
+      "interaction_id": "v1_ChdKUmY5YXVUbExaV2MzYm9QaWQyZ2tBWRIXSlJmOWF1VGxMWldjM2JvUGlkMmdrQVk",
+      "wav_sha256": "984160d5a4ba9aee76f0cd026104a81f29ed2cab21df4a275c0b2dab68f6c5a1",
+      "duration_seconds": 11.0,
+      "channels": 1,
+      "sample_rate": 24000,
+      "bits_per_sample": 16
+    },
+    {
+      "key": "scene.start.prologue.old_fighter.t8",
+      "locale": "en",
+      "avatar": "old_fighter",
+      "voice": "Algenib",
+      "gender": "male",
+      "model": "gemini-3.8-flash-tts",
+      "text": "The church is barely standing. Not how I pictured the new kolkhoz. Where to make camp — we'll see.",
+      "rev": 1,
+      "src_rev": 1,
+      "text_sha256": "5b2bfc5baa7aab59a711aa502a4ec0b89131021794ba2a65a1be726cf6d29ec2",
+      "style": "English. Read the exact transcript as private internal thought, without additions. Firm private thought in short beats, pauses like full stops. Never shouting.",
+      "generated_utc": "2026-11-18T03:10:44.047830+00:00",
+      "approval": "rpg-boss-english-voice-price-1829-2026-11-17 [2]",
+      "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "estimated_usd_from_usage": 0.0026145,
+      "status": "english_draft_for_hearing_not_accepted",
+      "replacement_authority": "boss-rpg-ending-strings-2026-11-18 [5]",
+      "supersedes_interaction_id": "v1_ChdwN1g3YXEzQUgtMnp4TjhQMjZ1R2tBWRIXcDdYN2FxM0FILTJ6eE44UDI2dUdrQVk",
+      "superseded_receipt": "voice/draft/en-demo-1829-20261117/superseded-kolkhoz-20261118/scene.start.prologue.old_fighter.t8.json",
+      "usage": {
+        "total_tokens": 316,
+        "total_input_tokens": 27,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 27
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_output_tokens": 289,
+        "output_tokens_by_modality": [
+          {
+            "modality": "audio",
+            "tokens": 289
+          }
+        ],
+        "total_tool_use_tokens": 0,
+        "total_thought_tokens": 0,
+        "initial_input_tokens": 27
+      },
+      "interaction_id": "v1_ChdPUmY5YXJ5Qk80SGN4czBQMzluYTJBNBIXT1JmOWFyeUJPNEhjeHMwUDM5bmEyQTQ",
+      "wav_sha256": "63dccd17d3b05940104b10a5385276dba2d7e6b57c285de40a37663675fbeb96",
+      "duration_seconds": 11.56,
+      "channels": 1,
+      "sample_rate": 24000,
+      "bits_per_sample": 16
+    },
+    {
+      "key": "scene.start.prologue.student.t3",
+      "locale": "en",
+      "avatar": "student",
+      "voice": "Puck",
+      "gender": "male",
+      "model": "gemini-3.8-flash-tts",
+      "text": "Rooks... And there's a chapel. The report describes the kolkhoz, but the village didn't begin with it.",
+      "rev": 3,
+      "src_rev": 3,
+      "text_sha256": "42cbaf5fa973e1b281d9f1ca8018a996d39f656e3406ebab301898a9b30d5416",
+      "style": "English. Read the exact transcript as private internal thought, without additions. Young, educated and engaged. Clear diction, a small hesitation before a conclusion.",
+      "generated_utc": "2026-11-18T03:10:14.481128+00:00",
+      "approval": "rpg-boss-english-voice-price-1829-2026-11-17 [2]",
+      "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "estimated_usd_from_usage": 0.0017335,
+      "status": "english_draft_for_hearing_not_accepted",
+      "replacement_authority": "boss-rpg-ending-strings-2026-11-18 [5]",
+      "supersedes_interaction_id": "v1_Chc5YlA3YXVEU0M5R3p2ZElQcEkySTBROBIXOWJQN2F1RFNDOUd6dmRJUHBJMkkwUTg",
+      "superseded_receipt": "voice/draft/en-demo-1829-20261117/superseded-kolkhoz-20261118/scene.start.prologue.student.t3.json",
+      "usage": {
+        "total_tokens": 220,
+        "total_input_tokens": 29,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 29
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_output_tokens": 191,
+        "output_tokens_by_modality": [
+          {
+            "modality": "audio",
+            "tokens": 191
+          }
+        ],
+        "total_tool_use_tokens": 0,
+        "total_thought_tokens": 0,
+        "initial_input_tokens": 29
+      },
+      "interaction_id": "v1_ChdHeGY5YXRyRUtPaUJrZFVQc01LUnNBVRIXR3hmOWF0ckVLT2lCa2RVUHNNS1JzQVU",
+      "wav_sha256": "d28aecde2fcc7a4ebc10c1ec382d7b6e0510a08c0baa5d271e1c014af211eaa5",
+      "duration_seconds": 7.64,
+      "channels": 1,
+      "sample_rate": 24000,
+      "bits_per_sample": 16
+    },
+    {
+      "key": "scene.start.prologue.worker.t3",
+      "locale": "en",
+      "avatar": "worker",
+      "voice": "Iapetus",
+      "gender": "male",
+      "model": "gemini-3.8-flash-tts",
+      "text": "Noisy rooks. There's a chapel. Seems the village was here long before the kolkhoz.",
+      "rev": 3,
+      "src_rev": 3,
+      "text_sha256": "98944304810e3066b6407a90b105d4530e6af7b3ec854a98620f2bfb903bf1e4",
+      "style": "English. Read the exact transcript as private internal thought, without additions. Direct and plain, with a lively working rhythm. Emphasize action, without slogans.",
+      "generated_utc": "2026-11-18T03:10:09.434372+00:00",
+      "approval": "rpg-boss-english-voice-price-1829-2026-11-17 [2]",
+      "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "estimated_usd_from_usage": 0.0014700000000000002,
+      "status": "english_draft_for_hearing_not_accepted",
+      "replacement_authority": "boss-rpg-ending-strings-2026-11-18 [5]",
+      "supersedes_interaction_id": "v1_Chc2N1A3YXZiZEEtU2QzYm9QNWJIcndBURIXNjdQN2F2YmRBLVNkM2JvUDViSHJ3QVE",
+      "superseded_receipt": "voice/draft/en-demo-1829-20261117/superseded-kolkhoz-20261118/scene.start.prologue.worker.t3.json",
+      "usage": {
+        "total_tokens": 186,
+        "total_input_tokens": 24,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 24
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_output_tokens": 162,
+        "output_tokens_by_modality": [
+          {
+            "modality": "audio",
+            "tokens": 162
+          }
+        ],
+        "total_tool_use_tokens": 0,
+        "total_thought_tokens": 0,
+        "initial_input_tokens": 24
+      },
+      "interaction_id": "v1_ChdFUmY5YW9mQkpybTFuc0VQLWJTb3lBYxIXRVJmOWFvZkJKcm0xbnNFUC1iU295QWM",
+      "wav_sha256": "82859bf5a9599fe8aabc86d72d93f7d52faa7417b459f091412ec40c8074e256",
+      "duration_seconds": 6.48,
+      "channels": 1,
+      "sample_rate": 24000,
+      "bits_per_sample": 16
+    }
+  ]
+}

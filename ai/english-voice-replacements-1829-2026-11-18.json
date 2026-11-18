@@ -1,13 +1,13 @@
 {
-  "status": "prepared_no_paid_calls",
+  "status": "five_replacements_recorded_raw_not_mastered",
   "authority": "boss-rpg-ending-strings-2026-11-18 [5]",
-  "current_matching_takes": 85,
-  "missing_current_takes": 147,
+  "current_matching_takes": 90,
+  "missing_current_takes": 142,
   "superseded_receipts": 5,
-  "historical_billable_calls": 90,
-  "known_spend_usd": "0.1428730",
+  "historical_billable_calls": 95,
+  "known_spend_usd": "0.1528885",
   "cap_usd": "0.60",
-  "remaining_cap_usd": "0.4571270",
+  "remaining_cap_usd": "0.4471115",
   "continuation_not_before_utc": "2026-11-18T02:07:00+00:00",
   "archive": "voice/draft/en-demo-1829-20261117/superseded-kolkhoz-20261118",
   "keys": [
@@ -16,5 +16,6 @@
     "scene.start.prologue.old_fighter.t8",
     "scene.start.prologue.student.t3",
     "scene.start.prologue.worker.t3"
-  ]
+  ],
+  "result": "ai/english-voice-replacements-window-1829-2026-11-18.json"
 }

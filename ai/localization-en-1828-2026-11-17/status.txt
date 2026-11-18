@@ -1,3 +1,12 @@
+FIVE REPLACEMENTS COMPLETE:18 November after02:07UTC gate,5 paid calls,
+no failure/unknown usage. Current matching90/232, remaining142;95 historical
+billed calls including5 superseded pairs. New cost$0.0100155, pass$0.1528885
+inside same$0.60 cap; project$0.7644400, balance$7.2355600.
+Old raw pairs retained; new receipts identify superseded interactions.
+Raw replacement output is ready for sound mastering, not claimed mastered.
+Accident #1863 predecessor fulfilled. See replacement-window result JSON.
+Previous preparation/waiting notes below are historical.
+
 OWNER UPDATE [5]: all24 kolkhoz corrections verified live ok; term
 salt_deficiency registered. Five voice replacements explicitly authorized in
 existing232-line scope/$0.60 cap. Old raw pairs now preserved byte-exact in
