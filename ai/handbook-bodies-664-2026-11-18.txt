@@ -1,0 +1,33 @@
+#664 Chairman’s Handbook. Bilingual source proposal.
+
+Authority: boss-rpg-664-handbook-bodies-2026-11-18 [1]. Scope from office.md,
+Chairman’s Handbook, decision 312. Delivered in the voice quota gap with
+#1633. Owner registers new sources and support proofreads English.
+Sheet: manual/texts/handbook-bodies-664-2026-11-18.tsv. It has 23 logical
+rows. Read as tab-delimited CSV with quoted multiline fields. Source
+revisions are blank until registration.
+
+Source map:
+- field_year: farming.md §4 group and reference-year tables, plus the
+  exact four-day sentence. Five lines in both languages.
+- crop_rotation: farming.md §7 good/bad and repeated-crop clauses,
+  plus the start.md §8 ring from year two.
+- fallow: farming.md §3 and the handbook brief's opening sentence.
+- seeds: farming.md §7 sowing and assigned-rotation clauses, plus the
+  verbatim source of hint.hint_10.text. The hint has no live English row.
+  Its line in the proposal is a translation of the existing wording.
+- field_work: farming.md §5 phase and weather clauses. The six display
+  labels are already registered at ui.office.phase.*, so the page can
+  reuse them together on a single row.
+- crop features: farming.md §3 and all 17 design.db crop keys. Fertility
+  is represented in words. The greenhouse row has no fertility claim.
+  Changelog and yield clauses are trimmed.
+- crop dates: the supplied row template. Seven named arguments, with
+  month names and temperature numbers supplied by the runtime.
+
+Validated all 23 new keys against the live database and 17 crop keys
+against design.db. Both languages fit 80 words and five authored lines
+per page body. On pages assembled from crop rows, the window controls
+pagination and wrapping. No yield figures, workday or feed figures,
+percentages or numerical fertility. Existing tabs and the hint key
+are left to their current owners and remain untouched.
