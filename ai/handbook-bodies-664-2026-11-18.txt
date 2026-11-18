@@ -1,3 +1,13 @@
+Move [5] supplies the signature contract. Two bilingual proposals are in
+manual/texts/handbook-signature-664-2026-11-18.tsv. Use the game month when
+the meeting occurred, with the Russian nominative in lowercase and the
+English month capitalized. The HUD's Russian month label starts uppercase,
+so game must supply the running-text form. Pass the year as digits without
+a thousands separator. Examples are «Староста, апрель 1931» and
+“Headman, April 1931”. Headman follows the established “former headman”
+terminology. The short signature omits “former” just as the Russian does.
+The two examples were rendered from the named arguments in the draft.
+
 Accepted review, 18 November. All 23 body, feature and date rows are registered
 at rev1 with accepted English. The sheet mirrors the live entries and four
 English edits, including the field year at exactly 80 English words. The
@@ -6,7 +16,7 @@ following source map and proposal details record the original delivery.
 Move [3] adds handbook.tab.units and handbook.tab.alarms. Two new proposals in
 manual/texts/handbook-tabs-664-2026-11-18.tsv use the label kind and 32-character
 cap of handbook.tab.words. Buildings matches ui.office.works.units. The new
-tab labels have no arguments. The signature pattern is pending the game brief.
+tab labels have no arguments. Both were accepted at rev1 and are mirrored.
 
 #664 Chairman’s Handbook. Bilingual source proposal.
 
