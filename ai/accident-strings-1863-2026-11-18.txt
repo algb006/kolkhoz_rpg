@@ -1,35 +1,54 @@
-Task #1863 — queued after the five authorized English voice replacements
+DELIVERED AFTER PREDECESSOR: five replacements recorded, b04d635.
+Proposal: manual/texts/accident-ice-1863-2026-11-18.tsv,20 paired rows:
+19 new sources +1 already accepted reusable nav.main_menu (not a new key).
+Source snapshot contains that one existing row; other revisions blank.
+New caps are proposals for owner registration, not accepted UI constraints.
 
-Authority: boss-rpg-accident-strings-2026-11-18 [1]. Read accepted design:
-manual/design/core/epochs.md §9, accident subsection; decision register #325.
-Order is explicit: kolkhoz corrections, five re-voiced takes, THEN this task.
-Kolkhoz corrections are live ok; replacements are prepared, not recorded.
-Their next paid window is no earlier than18 November02:07UTC. Do not claim
-preparation completes that predecessor or advance this writing task ahead.
+Warnings: exactly2 per avatar, dark-ice and audible-crack alternatives.
+Use only when the matching visible/audible cue actually exists, before the
+fatal step. They are variants, not a sequential conversation or two required
+steps. Warning text cannot itself certify runtime warned/autosave behavior.
+Villager's dark variant notices from farther away; timing remains host's STUB.
+Old Fighter gets no self-rescue. No warning mentions solitude or rescuers.
+All content is text-only despite avatar-specific manners; no TTS rows added.
 
-Delivery after predecessor: one bilingual RU+EN proposal sheet for boss's
-registration, support English review; text only, no paid or voiced content.
-- Two or three thin-ice warning thoughts for each of the eight avatar manners.
-  Dark ice/crack must be perceived BEFORE the dangerous step. No invented
-  avatar keys, unseen danger, jokes about death or player blame.
-- One sentence on a dark frame; no death shown on screen.
-- Separate accident-screen heading and load-last-save button. Inspect live
-  nav.main_menu for reuse before proposing another main-menu source.
-- One rescue line and one week-of-illness line. Nearby residents can rescue;
-  radius/rescuer conditions remain host/core STUB, not narrative decisions.
+One gender-neutral second-person Russian death sentence on dark frame, with
+no on-screen death and no score or reproach. Accident is the screen heading;
+no restart/campaign button. Existing Main menu reused verbatim at rev1.
+No rescue, illness, other accident scenarios, quests or hints included.
+Owner registers19 sources, support proofreads19 English candidates; reuse
+row must NOT be re-created or treated as another missing translation.
 
-This is a personal accident, not an EpochI farm-failure ending, score screen,
-new campaign or quest/hint. Reload offers the short pre-danger save; do not
-invent return-to-day-start text. Only thin ice/open water in ice is requested;
-other accident scenarios remain future work. No new voice outside existing
-prologue/office scope. Re-read tone and avatar basis before authoring lines.
+Checks:20 unique paired keys, eight accepted avatar keys, two cues each,
+all caps/whitespace/placeholder absence/source revision/reuse EN verified.
+Read tone and avatar biographies before writing. No shared DB write.
 
-Addition: boss-rpg-accident-alone-2026-11-18 [1], econ review accepted in §9.
-Each avatar's existing2–3-warning set must include an ALONE variant explicitly
-saying the chairman is alone on the ice when nobody is nearby. This makes
-absence of rescue foreseeable before the step. Alone is a runtime condition,
-not an unconditional assertion in every warning; no invented detection radius.
-Villager recognizes thin ice one step earlier (STUB); one of his warnings may
-reflect that early observation. Narrative does not set trigger distance/timing.
-Keep this within the same bilingual delivery and unchanged predecessor order:
-kolkhoz corrections, five recorded replacements, then accident text.
+Task #1863 — current scope after the human removed rescue
+
+Authority: boss-rpg-accident-norescue-2026-11-18 [1], human #2082:
+«Давайте спасение делать не будем» (English: do not include rescue).
+Supersedes rescue/illness and alone-on-ice instructions from the two earlier
+parcels. Current epochs §9 read18 November03:10UTC. No rescue radius, rescuer,
+illness week, solitude variant, or Old Fighter self-rescue survives.
+
+Predecessor order fulfilled:24 kolkhoz corrections (live ok), five authorized
+replacement takes completed, then bilingual accident writing. Replacement run
+stayed inside the existing232-line scope/$0.60 cap after02:07UTC gate.
+
+Deliver one RU+EN proposal sheet for boss registration/support review:
+- Two or three warning thoughts per eight avatars: dark/thin ice or a crack
+  perceived BEFORE the step. No claim about absent rescuers or solitude.
+- One sentence on a dark frame, death off screen; no joke or blame.
+- Accident heading and load-last-save button. Reuse ui.settings.nav.main_menu,
+  actualrev1, RU Главное меню / accepted EN Main menu, max24.
+- No rescue or week-of-illness lines. No extra voiced game content.
+
+Villager may notice thin ice a step earlier (STUB), without RPG choosing
+trigger distance. The body is present only first-person/on horseback; map
+flight does not put him on the ice. No ice break without shown warning;
+no accident during time fast-forward or district travel. Horse balk/fall
+implementation belongs to other roles, not this content sheet.
+Accident is personal and separate from farm-failure endings: load last save
+or main menu, not a new campaign or score. The save is separate/pre-danger,
+not a promise to return to the beginning of the day. Only thin ice/open water
+in ice now; other accident types remain future work. No quests or hints.

@@ -1,0 +1,21 @@
+namespace	key	rev	ru	en	kind	max_len	status
+scene	accident.ice.warning.dark.villager		Вон лёд темнеет. Ещё отсюда видно: тонкий, не пойду.	The ice is darker over there. I can tell from here: it's thin. I won't go that way.	body	160	draft
+scene	accident.ice.warning.crack.villager		Лёд трещит. Дальше нельзя, вернусь на берег.	The ice is cracking. Can't go any farther. Back to the bank.	body	160	draft
+scene	accident.ice.warning.dark.worker		Тёмный лёд. На вид тонкий — лучше берегом.	Dark ice. Looks thin. Better stick to the bank.	body	160	draft
+scene	accident.ice.warning.crack.worker		Треснул. Стой, дальше не идти.	It cracked. Stop. Not another step.	body	160	draft
+scene	accident.ice.warning.dark.student		Лёд впереди темнее. Наверное, тонкий — проверять не стану.	The ice ahead is darker. Probably thin. I won't put it to the test.	body	160	draft
+scene	accident.ice.warning.crack.student		Это лёд трещит. Лучше вернуться на берег.	That's the ice cracking. I'd better go back to the bank.	body	160	draft
+scene	accident.ice.warning.dark.ex_chairman		Тёмный лёд. Нет, здесь я не пойду.	Dark ice. No, I'm not going this way.	body	160	draft
+scene	accident.ice.warning.crack.ex_chairman		Трещит. Пора назад, пока держит.	It's cracking. Time to turn back while it still holds.	body	160	draft
+scene	accident.ice.warning.dark.promoted		Лёд впереди тонкий. Выберу путь по берегу.	The ice ahead is thin. I'll take the route along the bank.	body	160	draft
+scene	accident.ice.warning.crack.promoted		Этот треск мне не нравится. Вернусь на берег.	I don't like that cracking sound. I'll go back to the bank.	body	160	draft
+scene	accident.ice.warning.dark.old_fighter		Лёд тёмный. Здесь не пройти.	Dark ice. No way through here.	body	160	draft
+scene	accident.ice.warning.crack.old_fighter		Треск под ногами. Назад, на берег.	Cracking underfoot. Back to the bank.	body	160	draft
+scene	accident.ice.warning.dark.dealer		Тёмный лёд — ненадёжный путь. Лучше обойду по берегу.	Dark ice. An unreliable way across. Better go around along the bank.	body	160	draft
+scene	accident.ice.warning.crack.dealer		Лёд уже трещит. Дальше рисковать не стану.	The ice is already cracking. I won't risk going any farther.	body	160	draft
+scene	accident.ice.warning.dark.acting		Впереди тёмный лёд. Пойду берегом.	Dark ice ahead. I'll stay on the bank.	body	160	draft
+scene	accident.ice.warning.crack.acting		Трещит. Дальше не пойду.	It's cracking. I'm not going any farther.	body	160	draft
+scene	accident.ice.death		Вы провалились под лёд и утонули.	You fell through the ice and drowned.	body	160	draft
+ui.settings	accident.title		Несчастный случай	Accident	title	64	draft
+ui.settings	accident.load_last_save		Загрузить последнее сохранение	Load last save	button	64	draft
+ui.settings	nav.main_menu	1	Главное меню	Main menu	button	24	ok

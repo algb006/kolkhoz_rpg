@@ -1,0 +1,15 @@
+[
+  {
+    "string_id": 1737,
+    "full_key": "ui.settings.nav.main_menu",
+    "namespace": "ui.settings",
+    "key": "nav.main_menu",
+    "kind": "button",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "Главное меню",
+    "max_len": 24
+  }
+]
