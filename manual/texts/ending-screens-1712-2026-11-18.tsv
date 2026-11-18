@@ -1,0 +1,11 @@
+namespace	key	rev	ru	en	kind	max_len	status
+ui.settings	ending.title.trial		Под суд	Sent to Trial	title	64	draft
+ui.settings	ending.title.village		Село кончилось	The Village Ends	title	64	draft
+ui.settings	ending.title.salt		Без соли	Without Salt	title	64	draft
+ui.settings	ending.body.trial		Суд отстранил вас от должности председателя колхоза с запретом занимать её впредь.	The court has removed you from your post as kolkhoz chairman and barred you from holding it again.	body		draft
+ui.settings	ending.body.village		Самостоятельное хозяйство ликвидировано. Земли и оставшиеся дворы присоединены к соседнему колхозу.	The farm has ceased to operate independently. Its land and remaining households have been incorporated into a neighboring kolkhoz.	body		draft
+ui.settings	ending.body.salt		В селе закончились соль и солёные продукты, а солевой голод дошёл до последней ступени. Колхоз больше не может продолжать работу.	The village has run out of salt and salted foods, and salt deficiency has reached its final stage. The kolkhoz can no longer operate.	body		draft
+era	era_card.era_2.title		Колхозная мечта	The Kolkhoz Dream	title	64	draft
+ui.settings	ending.continued.title		Продолжение следует	To Be Continued	title	64	draft
+ui.settings	ending.continued.body		Игра сохранена. История колхоза продолжится в обновлении Эпохи II.	Your game has been saved. The story of your kolkhoz will continue in the Epoch II update.	body		draft
+era	era_2.name	1	Вторая эпоха — рост и механизация	Epoch II — growth and mechanization	name	48	draft

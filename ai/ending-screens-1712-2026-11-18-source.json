@@ -1,0 +1,15 @@
+[
+  {
+    "string_id": 468,
+    "full_key": "era.era_2.name",
+    "namespace": "era",
+    "key": "era_2.name",
+    "kind": "name",
+    "origin": "design",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "Вторая эпоха — рост и механизация",
+    "max_len": 48
+  }
+]

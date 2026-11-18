@@ -1,0 +1,21 @@
+Authority: boss-rpg-ending-strings-2026-11-18 [1], #1712.
+Bilingual proposal sheet:9 new sources,1 existing source with EN missing.
+New-source rev cells intentionally blank; owner registers actual revisions.
+era.era_2.name actualrev1 preserved verbatim, max48; snapshot captured.
+Proposed title caps64 mirror era.era_card.era_1.title; body caps left to owner.
+No shared DB writes; support must proofread English before acceptance.
+
+Design basis: epochs §8 trial verdict removes chairman and bars future office;
+no single trigger alleged, since plans/audit/herd are alternative causes.
+Village outcome §8 merges land and remaining households with neighbor; body
+avoids claiming complete depopulation or a particular population trigger.
+Salt §8 ends on prolonged final-stage deficiency, not simply empty shelves;
+no death, punishment, blame, unsolicited advice or numerical score implied.
+EpochII title uses canon design §4 Колхозная мечта, paired with Taking Root
+in registered era_card.era_1.title. era_2.name remains its separate longer name.
+Continuation follows epochs §3: saved game awaits EpochII update, no promised
+release date, no claim EpochII playable now, no automatic new campaign.
+No unreachable fire ending, epilogue chronicle, quest/hint content or voice.
+
+Checks:10 unique keys, canonical Russian ending titles exact, existing source
+rev/text match, proposed caps fit, no parameters or markup, paired RU/EN.
