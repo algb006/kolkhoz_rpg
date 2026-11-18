@@ -1,6 +1,6 @@
 {
   "task": 1829,
-  "status": "five_replacements_recorded_142_remaining",
+  "status": "175_raw_takes_complete_waiting_for_quota",
   "model": "gemini-3.8-flash-tts",
   "pricing_verified_on": "2026-11-17",
   "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing",
@@ -23,7 +23,7 @@
   "local_safe_requests_per_rolling_24h": 90,
   "notes": [
     "535 in assignment is not the active take count; current accepted source revisions yield 232 matching lines. Historical and superseded takes are not regenerated.",
-    "English duration estimate 22\u201330 minutes at 110\u2013150 words per minute, not measured performance.",
+    "English duration estimate 22–30 minutes at 110–150 words per minute, not measured performance.",
     "No API interactions started by pricing/inventory; unknown usage must stop accounting rather than become zero.",
     "Long paid generation and processing use m22 or the locked Windows host, never shared VM um01.",
     "Same v2 voice map: Achird/Iapetus/Puck/Schedar/Charon/Algenib/Algieba/Kore.",
@@ -32,15 +32,16 @@
   "authority": "rpg-boss-english-voice-price-1829-2026-11-17 [2]",
   "run_location": "VM network calls approved by boss; no long audio processing here; xeon17 or locked Windows for processing, m22 in repair",
   "first_window_completed": 90,
-  "known_spend_usd": "0.1528885",
-  "remaining_takes": 142,
+  "known_spend_usd": "0.2673440",
+  "remaining_takes": 57,
   "hearing_required_before_next_window": false,
   "hearing_acceptance_source": "boss-rpg-voice-scope-and-title-2026-11-17 [1,2]",
   "continuation_not_before_utc": "2026-11-18T02:07:00+00:00",
   "voice_scope": "Only the 232 existing prologue/office lines, also used in the demo. All later game content is text only; no new voiced game lines in any language.",
-  "current_matching_takes": 90,
+  "current_matching_takes": 175,
   "superseded_takes": 5,
   "replacement_authority": "boss-rpg-ending-strings-2026-11-18 [5]",
   "replacement_scope": "Five replacement takes, not new lines; old costs remain inside the same $0.60 cap.",
-  "replacement_spend_usd": "0.0100155"
+  "replacement_spend_usd": "0.0100155",
+  "latest_window_result": "ai/english-voice-resume-window-1829-2026-11-18.json"
 }

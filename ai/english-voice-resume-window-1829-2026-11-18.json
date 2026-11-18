@@ -1,0 +1,703 @@
+{
+  "status": "raw_takes_ready_for_mastering",
+  "task": 1829,
+  "batch_attempts": 85,
+  "batch_completed": 85,
+  "unresolved_usage": 0,
+  "billable_interactions": 180,
+  "matching_current_takes": 175,
+  "remaining_current_takes": 57,
+  "rolling_attempts": 90,
+  "next_single_slot_utc": "2026-11-19T03:10:09.442602+00:00",
+  "full_remaining_capacity_utc": "2026-11-19T03:36:50.928156+00:00",
+  "batch_cost_usd": "0.1144555",
+  "pass_cost_usd": "0.2673440",
+  "pass_cap_usd": "0.60",
+  "pass_remaining_usd": "0.3326560",
+  "project_spend_usd": "0.8788955",
+  "project_estimated_balance_usd": "7.1211045",
+  "source_folder": "voice/draft/en-demo-1829-20261117",
+  "superseded_folder": "voice/draft/en-demo-1829-20261117/superseded-kolkhoz-20261118",
+  "takes": [
+    {
+      "key": "scene.office_intro.clock.acting",
+      "text_sha256": "8dec10c7591497a0d2f24dc45fe4311e9344af0fb42d5070455d2dd8cdee4af3",
+      "wav_sha256": "d205a4afbe964efb8e049663f371189be1318ad908a82e05af6a0488727e0662",
+      "voice": "Kore",
+      "interaction_id": "v1_ChdnaHY5YW9LU0dZS1czYm9QX3VtLW1RWRIXZ2h2OWFvS1NHWUtXM2JvUF91bS1tUVk",
+      "estimated_usd_from_usage": 0.001197
+    },
+    {
+      "key": "scene.office_intro.clock.dealer",
+      "text_sha256": "2fe5a6da82e749d846ec2de5c9509e5ab6679c82e7e10f7459a2aa4914275d73",
+      "wav_sha256": "8f7d90b66f5eab67e971a612ed1bee694ca64484d73f1748772337558fbb1d04",
+      "voice": "Algieba",
+      "interaction_id": "v1_ChdlQnY5YXZER0VvTE1rZFVQM0xDMmtBdxIXZUJ2OWF2REdFb0xNa2RVUDNMQzJrQXc",
+      "estimated_usd_from_usage": 0.001341
+    },
+    {
+      "key": "scene.office_intro.clock.ex_chairman",
+      "text_sha256": "c8184db1fa9ad3c4512e868a378b4eaf3badc5b3930287a6f45d71abb33ce0d7",
+      "wav_sha256": "1976979844d350e96210cb8c6ec0514417e342b3540930a453cf2e3e8c533ec2",
+      "voice": "Schedar",
+      "interaction_id": "v1_ChZXaHY5YXR0TnlkSEUzd19oektiUURnEhZXaHY5YXR0TnlkSEUzd19oektiUURn",
+      "estimated_usd_from_usage": 0.001528
+    },
+    {
+      "key": "scene.office_intro.clock.old_fighter",
+      "text_sha256": "2c4c6fdd9ae19c9a3e8e4791aaa7fc9b99043472b0c96bc6ac44c768cfd37ba4",
+      "wav_sha256": "1ef4dbdd5daee9b43aba438baf9132f0cfc277d1e975b168c40ec02e3b053f90",
+      "voice": "Algenib",
+      "interaction_id": "v1_ChdiaHY5YXRtaURaNy12ZElQbGFhUjJRMBIXYmh2OWF0bWlEWjctdmRJUGxhYVIyUTA",
+      "estimated_usd_from_usage": 0.001194
+    },
+    {
+      "key": "scene.office_intro.clock.promoted",
+      "text_sha256": "a7bdad9174101a25f310fbed56c32e19190a62e05acfb55249d5666db0025ccd",
+      "wav_sha256": "08da1dee2105c2961c2f94aa0e1565cd3497bd737ca83d9455c14c3de2832bad",
+      "voice": "Charon",
+      "interaction_id": "v1_ChdaQnY5YW9pdEJ1eWMzYm9QcF9DQWdBYxIXWkJ2OWFvaXRCdXljM2JvUHBfQ0FnQWM",
+      "estimated_usd_from_usage": 0.0013135
+    },
+    {
+      "key": "scene.office_intro.clock.student",
+      "text_sha256": "073df5a9a0e9364499f00397800cc6c603eb57ceaf2f199d281901116edcf2f5",
+      "wav_sha256": "42a0216dfd19a8ba2d51de1658197a5b55051ebf47162c75ac7500fa5c505005",
+      "voice": "Puck",
+      "interaction_id": "v1_ChdUeHY5YXBYX044TFp4czBQc3JQQmtBMBIXVHh2OWFwWF9OOExaeHMwUHNyUEJrQTA",
+      "estimated_usd_from_usage": 0.0011684999999999998
+    },
+    {
+      "key": "scene.office_intro.door.acting",
+      "text_sha256": "773e3223a3b806ab66f48923b3c3137fda51973e9cd3330f1fb1d8b32f1305a6",
+      "wav_sha256": "91d907dd556d1ee147c7b6a5b43b5413ae57e99cefe601b98ecd7cec80cb8b0e",
+      "voice": "Kore",
+      "interaction_id": "v1_ChcweHY5YXZUMkRibTFuc0VQLWJTb3lBYxIXMHh2OWF2VDJEYm0xbnNFUC1iU295QWM",
+      "estimated_usd_from_usage": 0.001036
+    },
+    {
+      "key": "scene.office_intro.door.dealer",
+      "text_sha256": "da2504cef1f38cbe88594c210d57edd78cc702831f78e40fe85ad17fecf8c12e",
+      "wav_sha256": "e8894f1f699f40a7423a9b89a7a62ac6cdd9e804f5f5808cba9cb6f04e13073e",
+      "voice": "Algieba",
+      "interaction_id": "v1_Chd5UnY5YXVPcEJ2LVozYm9QNl9xZHdRYxIXeVJ2OWF1T3BCdi1aM2JvUDZfcWR3UWM",
+      "estimated_usd_from_usage": 0.000962
+    },
+    {
+      "key": "scene.office_intro.door.ex_chairman",
+      "text_sha256": "7c40bda0daff2d3a1b0634b14e234269e8517ef9fb806689ab4d682d88cb4ee3",
+      "wav_sha256": "6ce40b6a0d234e16558dcda929ff436a616beb51726cae969cd65bd8a8eab257",
+      "voice": "Schedar",
+      "interaction_id": "v1_ChdxaHY5YXBqUk1aWEV2ZElQeF9mU3lRNBIXcWh2OWFwalJNWlhFdmRJUHhfZlN5UTQ",
+      "estimated_usd_from_usage": 0.0012335
+    },
+    {
+      "key": "scene.office_intro.door.old_fighter",
+      "text_sha256": "1a1207502c74a06af7b6adf009ed159f762818d7e97c93a9e325b5acdbcc5a7f",
+      "wav_sha256": "3712743925774794d208530c6f1fead3f5d922deb92b88f70d133178c6599e6c",
+      "voice": "Algenib",
+      "interaction_id": "v1_Chd2eHY5YXJTSkFjRDZ4czBQcHZPWXlBMBIXdnh2OWFyU0pBY0Q2eHMwUHB2T1l5QTA",
+      "estimated_usd_from_usage": 0.001053
+    },
+    {
+      "key": "scene.office_intro.door.promoted",
+      "text_sha256": "b35dbaaadf142be12692aaa1b329b0c84d811fa1917b7285f136bba4f2fcb581",
+      "wav_sha256": "f8489dffc56c4a0d9282a4ad10cde631eaee21ca1492415b9018e194dc705f5f",
+      "voice": "Charon",
+      "interaction_id": "v1_Chd0QnY5YXI2VE4taS12ZElQOW9IRnNRcxIXdEJ2OWFyNlROLWktdmRJUDlvSEZzUXM",
+      "estimated_usd_from_usage": 0.001397
+    },
+    {
+      "key": "scene.office_intro.door.student",
+      "text_sha256": "20df80eb1d508f9b15d46674b8955d21ac96563b6371a7ec3d576889efa19a57",
+      "wav_sha256": "3864704353afc7f9769a17dfb2e55ff11cc31ba6fc9970f06745dbd9cd7949a7",
+      "voice": "Puck",
+      "interaction_id": "v1_ChdvQnY5YXV2ZUt0dUVrZFVQemZMZTZBURIXb0J2OWF1dmVLdHVFa2RVUHpmTGU2QVE",
+      "estimated_usd_from_usage": 0.0018815
+    },
+    {
+      "key": "scene.office_intro.door.villager",
+      "text_sha256": "ce5ccf9f8331302bf28f4002c1a48d8f4e828193b1bebcc553e0e31d45160862",
+      "wav_sha256": "d41796444b8b01c9125a472ad62c63a1fef5e879d98bba1ea1e6d397bb70abd8",
+      "voice": "Achird",
+      "interaction_id": "v1_ChdqQnY5YW9XTEhfdUJ4czBQX1pQNjRBbxIXakJ2OWFvV0xIX3VCeHMwUF9aUDY0QW8",
+      "estimated_usd_from_usage": 0.0008455
+    },
+    {
+      "key": "scene.office_intro.door.worker",
+      "text_sha256": "3c1e628deef15e64641d7bc302e66efad5525b3cd26adc35fc614b0385d49e7f",
+      "wav_sha256": "fe4da4883400884cf592609cd8ec98cc404bf1ef6df9f779801defcbe2ff7c2c",
+      "voice": "Iapetus",
+      "interaction_id": "v1_ChdsaHY5YXBMd0pQLTh2ZElQeDUyVnFRdxIXbGh2OWFwTHdKUC04dmRJUHg1MlZxUXc",
+      "estimated_usd_from_usage": 0.001144
+    },
+    {
+      "key": "scene.office_intro.drawer.acting",
+      "text_sha256": "d515051092c293e0733166373f4e395593a2603eecc2510b4122bf89f2db0e15",
+      "wav_sha256": "a1aaa556b910cbd8701559c9747e6ac4f963be8cd0b40f3b7bc90510c8ff0b29",
+      "voice": "Kore",
+      "interaction_id": "v1_ChZKQno5YXRoRi1JREd6UV9hdmFpeERnEhZKQno5YXRoRi1JREd6UV9hdmFpeERn",
+      "estimated_usd_from_usage": 0.0006085
+    },
+    {
+      "key": "scene.office_intro.drawer.dealer",
+      "text_sha256": "e078ec55844d9e69ceb8a152f28351e1832a6b1cbc8553ee9b227a01d5bfb276",
+      "wav_sha256": "d2d96c3a2e5e40fa7909c7c5ae42cdcb25d16b6ac793ea9dede93acddc010cac",
+      "voice": "Algieba",
+      "interaction_id": "v1_ChdHUno5YXRlRk41eWMzYm9QZ29ISi1BVRIXR1J6OWF0ZUZONXljM2JvUGdvSEotQVU",
+      "estimated_usd_from_usage": 0.001175
+    },
+    {
+      "key": "scene.office_intro.drawer.ex_chairman",
+      "text_sha256": "f70204375265f3e38f7a1d1cd540e831b9eaa9659ba315d3e57bf2d60c213b85",
+      "wav_sha256": "8587659644ccf3d39cafb739f7618773603b7be439b800130a7e8c3a656d3a38",
+      "voice": "Schedar",
+      "interaction_id": "v1_ChcteHY5YXFEMUpMU3B2ZElQdUtiSTBRbxIXLXh2OWFxRDFKTFNwdmRJUHVLYkkwUW8",
+      "estimated_usd_from_usage": 0.001269
+    },
+    {
+      "key": "scene.office_intro.drawer.old_fighter",
+      "text_sha256": "194abd53f505eea06927c7cdf2e8708ff37b942112cb5708dd234becbd9d6701",
+      "wav_sha256": "11349540dc8e76bacd012759e88b5212f75a4047f2fe0834ab7a2110d4494052",
+      "voice": "Algenib",
+      "interaction_id": "v1_ChdEeHo5YXJuME1kdkR2ZElQMzlEZDJRcxIXRHh6OWFybjBNZHZEdmRJUDM5RGQyUXM",
+      "estimated_usd_from_usage": 0.0007694999999999999
+    },
+    {
+      "key": "scene.office_intro.drawer.promoted",
+      "text_sha256": "819a95cdbcad582643677e7d0d00243092e4b798a0a6fabb37a9dd52240f7c9a",
+      "wav_sha256": "7d2b41330a331fea56f5f96ae9206138a5fa7a80c25fa17ff931ecbde0efc737",
+      "voice": "Charon",
+      "interaction_id": "v1_ChdCUno5YW9HMEs5cnR4czBQd3YzdjZBMBIXQlJ6OWFvRzBLOXJ0eHMwUHd2M3Y2QTA",
+      "estimated_usd_from_usage": 0.000806
+    },
+    {
+      "key": "scene.office_intro.drawer.student",
+      "text_sha256": "4f626755ed77c4115eec59a7d6d3c0f11c5d13e2252160adaf2d562ef9b21e30",
+      "wav_sha256": "8b53d002d1db2d866a9a1ee7dc1fb3a293673c43800be04d1980ef44a6a58581",
+      "voice": "Puck",
+      "interaction_id": "v1_Chc4UnY5YXEzSUhzX3Fuc0VQMm96Q3lBTRIXOFJ2OWFxM0lIc19xbnNFUDJvekN5QU0",
+      "estimated_usd_from_usage": 0.0008594999999999999
+    },
+    {
+      "key": "scene.office_intro.drawer.villager",
+      "text_sha256": "6dac781e61a0d4b13da7c87dc4a6b4cbc7b158f56496f23ec0d206268c5915ab",
+      "wav_sha256": "2661222b54759e449442338093e98e848ca7bb7d9c90a0922c80f7315af5e3bb",
+      "voice": "Achird",
+      "interaction_id": "v1_ChczUnY5YXRXRUVxYWp2ZElQcWFXcjBBdxIXM1J2OWF0V0VFcWFqdmRJUHFhV3IwQXc",
+      "estimated_usd_from_usage": 0.000653
+    },
+    {
+      "key": "scene.office_intro.drawer.worker",
+      "text_sha256": "aac014c4de677057b32b5819f5d9ebb51a0bb921798942b49d483b7cc2a1f96e",
+      "wav_sha256": "c22813032d82ddf68d9b6c8552a7a9d65f9a769cc7bc2fe9c7bc96aee11365a0",
+      "voice": "Iapetus",
+      "interaction_id": "v1_Chc1eHY5YW9fdEdMTzBrZFVQbE1IMmtBbxIXNXh2OWFvX3RHTE8wa2RVUGxNSDJrQW8",
+      "estimated_usd_from_usage": 0.000662
+    },
+    {
+      "key": "scene.office_intro.enter.acting",
+      "text_sha256": "cd17beb96c46f9195976d2aca51c73ce60bab96aca4bfafea9182aeefac1e0a2",
+      "wav_sha256": "1eadb1a22e86b71b60e3e4ce250af9b4dbacd99420f8f1fc8eb736e11a4adb91",
+      "voice": "Kore",
+      "interaction_id": "v1_ChdkQno5YXNfTE1jX0R2ZElQeHZPbjBBMBIXZEJ6OWFzX0xNY19EdmRJUHh2T24wQTA",
+      "estimated_usd_from_usage": 0.0013595
+    },
+    {
+      "key": "scene.office_intro.enter.dealer",
+      "text_sha256": "cd17beb96c46f9195976d2aca51c73ce60bab96aca4bfafea9182aeefac1e0a2",
+      "wav_sha256": "d1164fe35baae58a44b6386d1e73d1940cb33c3a12c56d4586e08eedc091ce2e",
+      "voice": "Algieba",
+      "interaction_id": "v1_ChdhaHo5YXNDaUtfcTJ2ZElQZzZQMG1RcxIXYWh6OWFzQ2lLX3EydmRJUGc2UDBtUXM",
+      "estimated_usd_from_usage": 0.0012335
+    },
+    {
+      "key": "scene.office_intro.enter.ex_chairman",
+      "text_sha256": "cd17beb96c46f9195976d2aca51c73ce60bab96aca4bfafea9182aeefac1e0a2",
+      "wav_sha256": "48f0b353602e7eca21f4f68c9bc6af15caa6dbe723faf53bd62081d096f8bf70",
+      "voice": "Schedar",
+      "interaction_id": "v1_ChdUQno5YXVHYkdZdU0yOG9QcUlMVmlBNBIXVEJ6OWF1R2JHWXVNMjhvUHFJTFZpQTQ",
+      "estimated_usd_from_usage": 0.0017285
+    },
+    {
+      "key": "scene.office_intro.enter.old_fighter",
+      "text_sha256": "cd17beb96c46f9195976d2aca51c73ce60bab96aca4bfafea9182aeefac1e0a2",
+      "wav_sha256": "06ac090586e3a5f714609fe6bb97f84f29d2e2df1340c93ea3bb7098e31389a6",
+      "voice": "Algenib",
+      "interaction_id": "v1_ChdZQno5YXU3b0pmLTh2ZElQeDUyVnFRdxIXWUJ6OWF1N29KZi04dmRJUHg1MlZxUXc",
+      "estimated_usd_from_usage": 0.0014765
+    },
+    {
+      "key": "scene.office_intro.enter.promoted",
+      "text_sha256": "cd17beb96c46f9195976d2aca51c73ce60bab96aca4bfafea9182aeefac1e0a2",
+      "wav_sha256": "cde02258f95f553c0e8d1f42c690468b24bf26985e8e8471de054a9ee4483b5c",
+      "voice": "Charon",
+      "interaction_id": "v1_ChdWaHo5YXUycEg5WE12ZElQNExPTDZRMBIXVmh6OWF1MnBIOVhNdmRJUDRMT0w2UTA",
+      "estimated_usd_from_usage": 0.0013505
+    },
+    {
+      "key": "scene.office_intro.enter.student",
+      "text_sha256": "cd17beb96c46f9195976d2aca51c73ce60bab96aca4bfafea9182aeefac1e0a2",
+      "wav_sha256": "10fbbe39775c1517b3fddbc0f9c4bfa4dc6d41f09a174e4c7dc50d566170802c",
+      "voice": "Puck",
+      "interaction_id": "v1_ChdRaHo5YXZfYkVxbWUyOG9QeG9YMDBBcxIXUWh6OWF2X2JFcW1lMjhvUHhvWDAwQXM",
+      "estimated_usd_from_usage": 0.0015125
+    },
+    {
+      "key": "scene.office_intro.enter.villager",
+      "text_sha256": "cd17beb96c46f9195976d2aca51c73ce60bab96aca4bfafea9182aeefac1e0a2",
+      "wav_sha256": "ab5a790edfd00ff0510ab84b946381968e0d6739d5ec6fc58edc2d6f7e697448",
+      "voice": "Achird",
+      "interaction_id": "v1_ChdMaHo5YXFTekJ1WFlrZFVQbmV1Tm1BYxIXTGh6OWFxU3pCdVhZa2RVUG5ldU5tQWM",
+      "estimated_usd_from_usage": 0.0016205
+    },
+    {
+      "key": "scene.office_intro.enter.worker",
+      "text_sha256": "cd17beb96c46f9195976d2aca51c73ce60bab96aca4bfafea9182aeefac1e0a2",
+      "wav_sha256": "7d77cfd2c0f261240f858b4c5fd7a392c7ccce9bea641ac1bc0382b2906ebb83",
+      "voice": "Iapetus",
+      "interaction_id": "v1_ChdPQno5YXItWEVOZWUzYm9Qc3ZhWjRRVRIXT0J6OWFyLVhFTmVlM2JvUHN2YVo0UVU",
+      "estimated_usd_from_usage": 0.0012245
+    },
+    {
+      "key": "scene.office_intro.exit_choice.acting",
+      "text_sha256": "cf2052ff00cab7b23b569109dd2d1869a934aeb535aae3e50c6e6ae8ba55efe1",
+      "wav_sha256": "6a38cd82502b248a203aa9e2b189501f6ef64c05ebbb51eafc6163791573c755",
+      "voice": "Kore",
+      "interaction_id": "v1_Chd4Uno5YXBfMUpieVR2ZElQalpYNXdBaxIXeFJ6OWFwXzFKYnlUdmRJUGpaWDV3QWs",
+      "estimated_usd_from_usage": 0.0014775
+    },
+    {
+      "key": "scene.office_intro.exit_choice.dealer",
+      "text_sha256": "4d876287bd54e57f62c5d936676238c40a1998ab827469b6ad4e92b911c531a6",
+      "wav_sha256": "1542bb15987d6ea7e9e3082f01dba4841aebbfd1969ed5bcfe59ea9c689cafe5",
+      "voice": "Algieba",
+      "interaction_id": "v1_Chd1eHo5YXFmMUg5bWEzYm9QNDhEX3dBTRIXdXh6OWFxZjFIOW1hM2JvUDQ4RF93QU0",
+      "estimated_usd_from_usage": 0.0015775
+    },
+    {
+      "key": "scene.office_intro.exit_choice.ex_chairman",
+      "text_sha256": "755ae692962919ba5a897a12ee1396f10e841a575cf6934132db0e74a19fdad9",
+      "wav_sha256": "5fc8c58a2a67a730dae59557dc6f7c881e001165fa69a17149ec2af3c808dbf5",
+      "voice": "Schedar",
+      "interaction_id": "v1_ChduUno5YXJfZkRPalp4czBQNUxXLXVBOBIXblJ6OWFyX2ZET2paeHMwUDVMVy11QTg",
+      "estimated_usd_from_usage": 0.0020375
+    },
+    {
+      "key": "scene.office_intro.exit_choice.old_fighter",
+      "text_sha256": "97b6551382136e8e052476df40b43514d5d70d54e4069d96bf561f8052312ab6",
+      "wav_sha256": "d70ce4593b1d6bda3eb276567daa6faec3024187a5b2eb8d68a960d9a2dd722c",
+      "voice": "Algenib",
+      "interaction_id": "v1_ChdzUno5YXNLVkdxR0F4czBQNHFlYTZRcxIXc1J6OWFzS1ZHcUdBeHMwUDRxZWE2UXM",
+      "estimated_usd_from_usage": 0.0021615000000000002
+    },
+    {
+      "key": "scene.office_intro.exit_choice.promoted",
+      "text_sha256": "a41594d885ad95cc3bf45fdbacaa9899c4e4cb6ac05a0c3b089479f69539dc9c",
+      "wav_sha256": "3546e9c98b02be0ecdcda2221ba2d31b22b0c257d14adc10aab5c515596abd6b",
+      "voice": "Charon",
+      "interaction_id": "v1_ChdweHo5YXRtSkU4LW5rZFVQeGZHeG1RbxIXcHh6OWF0bUpFOC1ua2RVUHhmR3htUW8",
+      "estimated_usd_from_usage": 0.0012775
+    },
+    {
+      "key": "scene.office_intro.exit_choice.student",
+      "text_sha256": "a2ae683d45bd892bc4ee3165d8d0185dd714ba40bf06198833f636ca367c1077",
+      "wav_sha256": "d7e6b083d6b33b177ce90a81f0279809d8b0a92601f16c228429012614a79194",
+      "voice": "Puck",
+      "interaction_id": "v1_ChdreHo5YXZUU0I3XzZuc0VQeEtXZWlRURIXa3h6OWF2VFNCN182bnNFUHhLV2VpUVE",
+      "estimated_usd_from_usage": 0.0015225000000000002
+    },
+    {
+      "key": "scene.office_intro.exit_choice.villager",
+      "text_sha256": "35c5bef79d43eb1c61f1c9f018dfa229e8c1495ab051cdb01a3751500b5df41a",
+      "wav_sha256": "e2a6a669e704efa4d9272471350c4e34491d79e074d10c435d890f9b85f6733f",
+      "voice": "Achird",
+      "interaction_id": "v1_ChdmaHo5YXVDZU5fLTd2ZElQemRYYjJBNBIXZmh6OWF1Q2VOXy03dmRJUHpkWGIyQTQ",
+      "estimated_usd_from_usage": 0.001531
+    },
+    {
+      "key": "scene.office_intro.exit_choice.worker",
+      "text_sha256": "e7f89ca4e67a785ee66c475456ffe6e669acbd0877a04c5740b079c570a74f48",
+      "wav_sha256": "f9d2f004f8fea0e965a02808c525f7b2aa342bf0dd89c324e81e68d6d809c48f",
+      "voice": "Iapetus",
+      "interaction_id": "v1_ChZpUno5YXRvbTVyMlIxUV9yMUppZ0FREhZpUno5YXRvbTVyMlIxUV9yMUppZ0FR",
+      "estimated_usd_from_usage": 0.0013235
+    },
+    {
+      "key": "scene.office_intro.journal.acting",
+      "text_sha256": "f228d20ad5ad7b53a55b28a7dc5fa02204bec14754c572d76c71171d5d7017c3",
+      "wav_sha256": "ddbe4509302280b09e2b34f889fefa5991e6c9fba5618d065c6e144256a53acd",
+      "voice": "Kore",
+      "interaction_id": "v1_ChdGaDM5YW9XMkdlNnV2ZElQbmEyci1BaxIXRmgzOWFvVzJHZTZ1dmRJUG5hMnItQWs",
+      "estimated_usd_from_usage": 0.001245
+    },
+    {
+      "key": "scene.office_intro.journal.dealer",
+      "text_sha256": "f228d20ad5ad7b53a55b28a7dc5fa02204bec14754c572d76c71171d5d7017c3",
+      "wav_sha256": "db026b42d1d21b0e98a3fa27d00ff55d203fb7936e6da0b7989a943d206554b2",
+      "voice": "Algieba",
+      "interaction_id": "v1_ChdEQjM5YXRXeEZPeS1uc0VQOV9Xdm1BNBIXREIzOWF0V3hGT3ktbnNFUDlfV3ZtQTQ",
+      "estimated_usd_from_usage": 0.001479
+    },
+    {
+      "key": "scene.office_intro.journal.ex_chairman",
+      "text_sha256": "f228d20ad5ad7b53a55b28a7dc5fa02204bec14754c572d76c71171d5d7017c3",
+      "wav_sha256": "cace2ddf0984fc25fabded88f2dcf99e5fd17646863e9a7056b1dcc0dea2069c",
+      "voice": "Schedar",
+      "interaction_id": "v1_Chc3aHo5YXFheEFjSzlrZFVQcnRPb29BTRIXN2h6OWFxYXhBY0s5a2RVUHJ0T29vQU0",
+      "estimated_usd_from_usage": 0.0013440000000000001
+    },
+    {
+      "key": "scene.office_intro.journal.old_fighter",
+      "text_sha256": "f228d20ad5ad7b53a55b28a7dc5fa02204bec14754c572d76c71171d5d7017c3",
+      "wav_sha256": "63ba3d2d261b34b0166221685e9049434be4ce85f60626060299dfdd0210cd0a",
+      "voice": "Algenib",
+      "interaction_id": "v1_ChdBaDM5YXRPckRmLV92ZElQd0tiQTRRdxIXQWgzOWF0T3JEZi1fdmRJUHdLYkE0UXc",
+      "estimated_usd_from_usage": 0.0018570000000000001
+    },
+    {
+      "key": "scene.office_intro.journal.promoted",
+      "text_sha256": "f228d20ad5ad7b53a55b28a7dc5fa02204bec14754c572d76c71171d5d7017c3",
+      "wav_sha256": "560b199f5ea6237dc7a63b516556d8c073a6e59ec3db43ec2b2606fac8dadbf5",
+      "voice": "Charon",
+      "interaction_id": "v1_ChctQno5YXQ3VkItNzl2ZElQNnVPRzhRVRIXLUJ6OWF0N1ZCLTc5dmRJUDZ1T0c4UVU",
+      "estimated_usd_from_usage": 0.0012360000000000001
+    },
+    {
+      "key": "scene.office_intro.journal.student",
+      "text_sha256": "f228d20ad5ad7b53a55b28a7dc5fa02204bec14754c572d76c71171d5d7017c3",
+      "wav_sha256": "7ca2983dadf9cf99c37f9229727d3b009d4e9f53f552d88df93c0812987b54d8",
+      "voice": "Puck",
+      "interaction_id": "v1_Chc0eHo5YW8zck5fLTh2ZElQeDUyVnFRdxIXNHh6OWFvM3JOXy04dmRJUHg1MlZxUXc",
+      "estimated_usd_from_usage": 0.0012900000000000001
+    },
+    {
+      "key": "scene.office_intro.journal.villager",
+      "text_sha256": "f228d20ad5ad7b53a55b28a7dc5fa02204bec14754c572d76c71171d5d7017c3",
+      "wav_sha256": "f0fb5d6b8f01cf8bb94cf96eed8d8d9c8401d05fcd54b320bb3b94b77ee8e6c3",
+      "voice": "Achird",
+      "interaction_id": "v1_Chd6eHo5YXAzMEstYnNrZFVQaG9PYXFBMBIXenh6OWFwMzBLLWJza2RVUGhvT2FxQTA",
+      "estimated_usd_from_usage": 0.0014160000000000002
+    },
+    {
+      "key": "scene.office_intro.journal.worker",
+      "text_sha256": "f228d20ad5ad7b53a55b28a7dc5fa02204bec14754c572d76c71171d5d7017c3",
+      "wav_sha256": "63467f7b13176624d719c060d4c27bcf2189e4e03f307334e8e476291131aaba",
+      "voice": "Iapetus",
+      "interaction_id": "v1_ChcyUno5YXA3R011NnV2ZElQbmEyci1BaxIXMlJ6OWFwN0dNdTZ1dmRJUG5hMnItQWs",
+      "estimated_usd_from_usage": 0.001029
+    },
+    {
+      "key": "scene.office_intro.lamp.acting",
+      "text_sha256": "65d20c70255f17de381f5cc4433eda25aa00a91609c35452572f522b5565fe68",
+      "wav_sha256": "8e44b7f1f4b5cddf6b952b5381798f700be57e94d93371d2df40d123cc8b2c64",
+      "voice": "Kore",
+      "interaction_id": "v1_ChdaeDM5YXAzZkRxSDd4czBQeHJ6VS1RcxIXWngzOWFwM2ZEcUg3eHMwUHhyelUtUXM",
+      "estimated_usd_from_usage": 0.0012145
+    },
+    {
+      "key": "scene.office_intro.lamp.dealer",
+      "text_sha256": "d02a43a2f22c04d85fbcba502e95f7b73872425f5e47eb8be1f94dd047504e90",
+      "wav_sha256": "e45eb2140da671aac787ffeaf6c0fc48ece9bad1049bed0045e131263e673a33",
+      "voice": "Algieba",
+      "interaction_id": "v1_ChdYUjM5YXNiaUI1REhuc0VQcDVtN3VRWRIXWFIzOWFzYmlCNURIbnNFUHA1bTd1UVk",
+      "estimated_usd_from_usage": 0.0011684999999999998
+    },
+    {
+      "key": "scene.office_intro.lamp.ex_chairman",
+      "text_sha256": "8fb5247b789797ec5cb4cfdd6eb4460532f337a230b3f351f15828f7a56519d1",
+      "wav_sha256": "aca9bb468a67300194684e245977db166ea0387dbc56443186a27a5915fca668",
+      "voice": "Schedar",
+      "interaction_id": "v1_ChdQaDM5YXZqME1iNmYzYm9QN05ueThBVRIXUGgzOWF2ajBNYjZmM2JvUDdObnk4QVU",
+      "estimated_usd_from_usage": 0.0015040000000000001
+    },
+    {
+      "key": "scene.office_intro.lamp.old_fighter",
+      "text_sha256": "96c5d18ea893319f64cb20f61cf0ff5e726796c040a7878c3c2f2475adfbc0db",
+      "wav_sha256": "c2e6967b78402e084fc8c1df358e38ad23ca9f1cf3eb7eab364afce498171e4c",
+      "voice": "Algenib",
+      "interaction_id": "v1_ChdVeDM5YW9ud0FZbUoyOG9Qdl9uS2tRdxIXVXgzOWFvbndBWW1KMjhvUHZfbktrUXc",
+      "estimated_usd_from_usage": 0.00125
+    },
+    {
+      "key": "scene.office_intro.lamp.promoted",
+      "text_sha256": "70a228e582b75d7cf04a9e5d1c6cdf7a9f36d8c186fe352404a5c26292cfe4f8",
+      "wav_sha256": "86af6b4ce0d7f71d793b10a7645cca936b47ef30492d75d0b0e4a7c01b42fcba",
+      "voice": "Charon",
+      "interaction_id": "v1_ChdTQjM5YXNPU09jTFp4czBQXzRlWmlBNBIXU0IzOWFzT1NPY0xaeHMwUF80ZVppQTQ",
+      "estimated_usd_from_usage": 0.001207
+    },
+    {
+      "key": "scene.office_intro.lamp.student",
+      "text_sha256": "c630742b97217691c797bc664dcfe34864931ffc07287ceba2ca0b14156c4aa6",
+      "wav_sha256": "362f48944fcfda219f61c096793f0cdf9b92d12ef1de4e371c00f616a3fdfe81",
+      "voice": "Puck",
+      "interaction_id": "v1_ChdOQjM5YXFMeEs4eVN2ZElQNy1fQXdBcxIXTkIzOWFxTHhLOHlTdmRJUDctX0F3QXM",
+      "estimated_usd_from_usage": 0.0011344999999999999
+    },
+    {
+      "key": "scene.office_intro.lamp.villager",
+      "text_sha256": "cede5db69042d9bfc581e3a8650675ed2eda586c4bdbfaaf9d481e7828b6b728",
+      "wav_sha256": "196f393d9b4623a6f26fb413d0f62dd7deec4736d7ffda4a0410b500c13a29a4",
+      "voice": "Achird",
+      "interaction_id": "v1_ChdJQjM5YW9EX0lQU3V2ZElQbDdUN2lBNBIXSUIzOWFvRF9JUFN1dmRJUGw3VDdpQTQ",
+      "estimated_usd_from_usage": 0.0015215
+    },
+    {
+      "key": "scene.office_intro.lamp.worker",
+      "text_sha256": "af30489418637e6cf41b806564cdc8197d7074dde1b10f285d3cc81df909fc7e",
+      "wav_sha256": "9b575c79ba1a77641c82101cf320dca869357d83d9e7485f4219e2a542bb6a8e",
+      "voice": "Iapetus",
+      "interaction_id": "v1_ChdLaDM5YXItUkpjSzlrZFVQcnRPb29BTRIXS2gzOWFyLVJKY0s5a2RVUHJ0T29vQU0",
+      "estimated_usd_from_usage": 0.0010895
+    },
+    {
+      "key": "scene.office_intro.newspaper.acting",
+      "text_sha256": "3e4c5f54656c4ff5e012406bd08da45b8d090bf2a1a7a4e9fec12ece513c4131",
+      "wav_sha256": "3f88dd5af6aac9ea5682665f7e91908571c4223b8370d2307c9be62e3c5797bc",
+      "voice": "Kore",
+      "interaction_id": "v1_Chd1QjM5YXQzdEFiMmMzYm9Qci1USnFBTRIXdUIzOWF0M3RBYjJjM2JvUHItVEpxQU0",
+      "estimated_usd_from_usage": 0.0012685
+    },
+    {
+      "key": "scene.office_intro.newspaper.dealer",
+      "text_sha256": "74e1f5f80ff07a57ca47eee31f3bbc249affb8c9230489ffb24a25f6d7d47ac6",
+      "wav_sha256": "73d55975db74ca1fd0d998b43cb8bfa6fc4a37cbc17fdaf1c7043f1d3c75aa6d",
+      "voice": "Algieba",
+      "interaction_id": "v1_ChdyUjM5YW92NU9PYnNrZFVQMTRHYXFBMBIXclIzOWFvdjVPT2Jza2RVUDE0R2FxQTA",
+      "estimated_usd_from_usage": 0.0014935
+    },
+    {
+      "key": "scene.office_intro.newspaper.ex_chairman",
+      "text_sha256": "1dd37d748682a4e00b907e6288ee53a33133d2bc5061e06dfa894351784590f2",
+      "wav_sha256": "476102b31551a2e14bc84d33ec69ed35a98325b27dd2d5a9a60456395c4715be",
+      "voice": "Schedar",
+      "interaction_id": "v1_ChdqeDM5YXN6ako0dU0yOG9QaDRYVmtBNBIXangzOWFzempKNHVNMjhvUGg0WFZrQTQ",
+      "estimated_usd_from_usage": 0.001403
+    },
+    {
+      "key": "scene.office_intro.newspaper.old_fighter",
+      "text_sha256": "c864d3a73793d6f9d94bee3392aa9673e472a449d9e47ca3d1a963fffd911a62",
+      "wav_sha256": "8e09d46938eb41474caa156d1380b6970ea1bb9964f86f349bea2caccf801284",
+      "voice": "Algenib",
+      "interaction_id": "v1_ChdveDM5YXR1Wk10clF2ZElQbl9TQndBdxIXb3gzOWF0dVpNdHJRdmRJUG5fU0J3QXc",
+      "estimated_usd_from_usage": 0.0010429999999999999
+    },
+    {
+      "key": "scene.office_intro.newspaper.promoted",
+      "text_sha256": "9f4e2532d4f6a65ea580a882601b84ec125e0ca6035905a3adb4c6827abc5042",
+      "wav_sha256": "44f3b8316b4e9a6492f113923af21ff8e84243d78a75c0a99b8cd09926630ffe",
+      "voice": "Charon",
+      "interaction_id": "v1_ChdtUjM5YXBMSExKdmluc0VQLWYtRm9RZxIXbVIzOWFwTEhMSnZpbnNFUC1mLUZvUWc",
+      "estimated_usd_from_usage": 0.0013925
+    },
+    {
+      "key": "scene.office_intro.newspaper.student",
+      "text_sha256": "58120391126488dee3b9f257a02cc0e57eae055b9dd30072a72fc1a864a43483",
+      "wav_sha256": "804d67fb5f15ae85d62f43643a8b36ce8263a5712951b1325200d0914a396dfb",
+      "voice": "Puck",
+      "interaction_id": "v1_ChdoUjM5YXBIRElOejl2ZElQdDR1bjJBMBIXaFIzOWFwSERJTno5dmRJUHQ0dW4yQTA",
+      "estimated_usd_from_usage": 0.0014860000000000001
+    },
+    {
+      "key": "scene.office_intro.newspaper.villager",
+      "text_sha256": "965966d85898bf37b4b5019a4299fdc2acd7756fd27f676b886d5aa5ef374d73",
+      "wav_sha256": "338409cbc72561957c9e4a21119f06a1c119dca85c3ee13ddf4d1010941175e4",
+      "voice": "Achird",
+      "interaction_id": "v1_ChdjUjM5YXZHdEZOV2l4TjhQbEplMi1BMBIXY1IzOWF2R3RGTldpeE44UGxKZTItQTA",
+      "estimated_usd_from_usage": 0.0011335
+    },
+    {
+      "key": "scene.office_intro.newspaper.worker",
+      "text_sha256": "8480edc483ad48d22a599eecdf2bdb18a61e5f1b17b5bfe38ba9be090678d742",
+      "wav_sha256": "e088f3d13279a46065292d22e8224c4c39932db2c739c8d375b89b02c878616c",
+      "voice": "Iapetus",
+      "interaction_id": "v1_ChdleDM5YXB5eUd2eVYzYm9QblAybHFBTRIXZXgzOWFweXlHdnlWM2JvUG5QMmxxQU0",
+      "estimated_usd_from_usage": 0.0008255
+    },
+    {
+      "key": "scene.office_intro.notebooks.acting",
+      "text_sha256": "e22e05003dfaa22aee936813a197978757334d6cce801821636d75700024aec5",
+      "wav_sha256": "ded4618278463c3c03b46a4c5bb4cf168f7d009a1c7aa55f72fcabe33714e516",
+      "voice": "Kore",
+      "interaction_id": "v1_ChdDQjc5YXBPME1fcTJ2ZElQZzZQMG1RcxIXQ0I3OWFwTzBNX3EydmRJUGc2UDBtUXM",
+      "estimated_usd_from_usage": 0.0020039999999999997
+    },
+    {
+      "key": "scene.office_intro.notebooks.dealer",
+      "text_sha256": "e22e05003dfaa22aee936813a197978757334d6cce801821636d75700024aec5",
+      "wav_sha256": "f1b9e14b3b7260b24bd126583a48200cf49f36f032385219d706323c30e7dd57",
+      "voice": "Algieba",
+      "interaction_id": "v1_ChdfaDM5YXBDakxZdU0yOG9QOG9UVmtBNBIXX2gzOWFwQ2pMWXVNMjhvUDhvVFZrQTQ",
+      "estimated_usd_from_usage": 0.001842
+    },
+    {
+      "key": "scene.office_intro.notebooks.ex_chairman",
+      "text_sha256": "e22e05003dfaa22aee936813a197978757334d6cce801821636d75700024aec5",
+      "wav_sha256": "bedf983e5cdfd6f09e40950399dda62264ba6d9f1b9de38373e8026d5bdfed3c",
+      "voice": "Schedar",
+      "interaction_id": "v1_Chc0QjM5YXF1dUdvUER2ZElQdWZHU3FRdxIXNEIzOWFxdXVHb1BEdmRJUHVmR1NxUXc",
+      "estimated_usd_from_usage": 0.0020489999999999996
+    },
+    {
+      "key": "scene.office_intro.notebooks.old_fighter",
+      "text_sha256": "e22e05003dfaa22aee936813a197978757334d6cce801821636d75700024aec5",
+      "wav_sha256": "8febba6ada951ae88b625351fc9ed4def59f7ce928c1bdb1ff8b685ac10d89e8",
+      "voice": "Algenib",
+      "interaction_id": "v1_Chc5QjM5YXZ6Vko3bTFuc0VQLWJTb3lBYxIXOUIzOWF2elZKN20xbnNFUC1iU295QWM",
+      "estimated_usd_from_usage": 0.002454
+    },
+    {
+      "key": "scene.office_intro.notebooks.promoted",
+      "text_sha256": "e22e05003dfaa22aee936813a197978757334d6cce801821636d75700024aec5",
+      "wav_sha256": "f545bb99f6dcf8da51c2ff32d05c038d01c2af6b3c2a9eb24ffaa62c4406705d",
+      "voice": "Charon",
+      "interaction_id": "v1_Chc2aDM5YXFxLUllNzZ2ZElQMC1yczZBcxIXNmgzOWFxcS1JZTc2dmRJUDAtcnM2QXM",
+      "estimated_usd_from_usage": 0.0020759999999999997
+    },
+    {
+      "key": "scene.office_intro.notebooks.student",
+      "text_sha256": "e22e05003dfaa22aee936813a197978757334d6cce801821636d75700024aec5",
+      "wav_sha256": "2ef66fab48c81a33d37737bd1e7e86db13debeae2afbeac7db63edba621731f1",
+      "voice": "Puck",
+      "interaction_id": "v1_ChcxaDM5YXFPbEZQcWRrZFVQM3BDUHVBWRIXMWgzOWFxT2xGUHFka2RVUDNwQ1B1QVk",
+      "estimated_usd_from_usage": 0.001887
+    },
+    {
+      "key": "scene.office_intro.notebooks.villager",
+      "text_sha256": "e22e05003dfaa22aee936813a197978757334d6cce801821636d75700024aec5",
+      "wav_sha256": "21c2629a5957e5ef2c475d2caa37006d31bfadd0682a5508aee32608546f0b59",
+      "voice": "Achird",
+      "interaction_id": "v1_Chd3aDM5YW91SENJdU0yOG9QeUozVDRBcxIXd2gzOWFvdUhDSXVNMjhvUHlKM1Q0QXM",
+      "estimated_usd_from_usage": 0.0021209999999999996
+    },
+    {
+      "key": "scene.office_intro.notebooks.worker",
+      "text_sha256": "e22e05003dfaa22aee936813a197978757334d6cce801821636d75700024aec5",
+      "wav_sha256": "38154a4f2ea24213cc486f4b59ee40c7e4baa0ad3636213fd5b0f79d28c6d10a",
+      "voice": "Iapetus",
+      "interaction_id": "v1_Chd6QjM5YXN1bkRzRDZ4czBQcHZPWXlBMBIXekIzOWFzdW5Ec0Q2eHMwUHB2T1l5QTA",
+      "estimated_usd_from_usage": 0.001716
+    },
+    {
+      "key": "scene.office_intro.papers.acting",
+      "text_sha256": "2c9c55e1bf536dd3ee58be374b8741ce7ed8f29f07ab8dfe1d7ff9f20a99d861",
+      "wav_sha256": "36b53a3e05573d1c1f24310baf926de70babf50dead9144e0af7983de886d1da",
+      "voice": "Kore",
+      "interaction_id": "v1_ChdXUjc5YXFiNUp1YTlrZFVQNjlTWW9BRRIXV1I3OWFxYjVKdWE5a2RVUDY5U1lvQUU",
+      "estimated_usd_from_usage": 0.0011155
+    },
+    {
+      "key": "scene.office_intro.papers.dealer",
+      "text_sha256": "35c16139110e1bbc5073b8c3d7da973cd78a93127a6a11869fa2118d56b99ed1",
+      "wav_sha256": "7094131a5b47d31d40f1c9e5ef8958771e1dd02421a96b53fa5d4b215624bd73",
+      "voice": "Algieba",
+      "interaction_id": "v1_ChdUeDc5YXZIYUlkYjh2ZElQdEtQd3lBcxIXVHg3OWF2SGFJZGI4dmRJUHRLUHd5QXM",
+      "estimated_usd_from_usage": 0.0010325
+    },
+    {
+      "key": "scene.office_intro.papers.ex_chairman",
+      "text_sha256": "13d05f2cc41eeadf6a26dc6d1a6d34097f44fa35f50b85c537189ae5ab64c3ec",
+      "wav_sha256": "9124920e38f43d6c2e2c6873c795f5a21453f18e023ce8a1c9a514be774b2e18",
+      "voice": "Schedar",
+      "interaction_id": "v1_ChdNUjc5YW9lbkRwREhuc0VQcDVtN3VRWRIXTVI3OWFvZW5EcERIbnNFUHA1bTd1UVk",
+      "estimated_usd_from_usage": 0.0013124999999999999
+    },
+    {
+      "key": "scene.office_intro.papers.old_fighter",
+      "text_sha256": "573190c974b1017e7a4a60d081e5a0e0d389a5d1148766f059accb437900811f",
+      "wav_sha256": "8a23e60c9ad6ebe71ef1f4f102a5a7cf3e455db3b324f8c4fcddf564b4f24f0c",
+      "voice": "Algenib",
+      "interaction_id": "v1_ChdSUjc5YXFtb0c1V0gyOG9QeEotTDZBNBIXUlI3OWFxbW9HNVdIMjhvUHhKLUw2QTQ",
+      "estimated_usd_from_usage": 0.0015105
+    },
+    {
+      "key": "scene.office_intro.papers.promoted",
+      "text_sha256": "0bed5bc2e14a4e0dfbab56e59c8938e2f3f81d1bd90c23a8ac87d7842a6fb002",
+      "wav_sha256": "02b7f748d3e7a10c35e249fad513b1e3a108f068a1a2eff935142abd402048d3",
+      "voice": "Charon",
+      "interaction_id": "v1_ChdPeDc5YXJuWkZPLUJrZFVQX2E2YzBRURIXT3g3OWFyblpGTy1Ca2RVUF9hNmMwUVE",
+      "estimated_usd_from_usage": 0.001546
+    },
+    {
+      "key": "scene.office_intro.papers.student",
+      "text_sha256": "932b7d5df692f34864aa4ecfa17b6424392415e9eca42fd0adffdd0c712f19de",
+      "wav_sha256": "e2495a305e53f8c152a047fca56159bfc298d8a806d7d5ef3287671aac429e12",
+      "voice": "Puck",
+      "interaction_id": "v1_ChdKeDc5YXBlUURjM1J4TjhQMnM2bGlRdxIXSng3OWFwZVFEYzNSeE44UDJzNmxpUXc",
+      "estimated_usd_from_usage": 0.0012415
+    },
+    {
+      "key": "scene.office_intro.papers.villager",
+      "text_sha256": "beb3065cfd258654616be2ef519335cdf9b4b6eef41a11eb414f47d2ec33c00f",
+      "wav_sha256": "a93a1bfe42d58e5e06e92fbfc7f960a172344a1a3166ca4131b4459d89c44c5c",
+      "voice": "Achird",
+      "interaction_id": "v1_ChdFaDc5YXAyZU9kclF2ZElQbl9TQndBdxIXRWg3OWFwMmVPZHJRdmRJUG5fU0J3QXc",
+      "estimated_usd_from_usage": 0.0016125
+    },
+    {
+      "key": "scene.office_intro.papers.worker",
+      "text_sha256": "5e4490f3d7369ebc459f6fddceb530c84c2ebd4170c48f1c0da36476a9c9b507",
+      "wav_sha256": "31a09ff01b1e07bd56666d31eaded7d0f15ab954a874d41fc2c0b3699dbee3d4",
+      "voice": "Iapetus",
+      "interaction_id": "v1_ChdIUjc5YW9IVkFyX3BrZFVQOUpLUXNRWRIXSFI3OWFvSFZBcl9wa2RVUDlKS1FzUVk",
+      "estimated_usd_from_usage": 0.0008535
+    },
+    {
+      "key": "scene.office_intro.personal_item.dealer",
+      "text_sha256": "0e827839f0486d664a2eda1a8a737aaf13969c2372f6510ad0d3aa6285087ab5",
+      "wav_sha256": "06504f37cd840ee056584968e080ea6e09a865c9970dda42cf3dc47337a3552e",
+      "voice": "Algieba",
+      "interaction_id": "v1_ChdvQjc5YXZteEZMU1czYm9Qa0t5MS1BVRIXb0I3OWF2bXhGTFNXM2JvUGtLeTEtQVU",
+      "estimated_usd_from_usage": 0.001277
+    },
+    {
+      "key": "scene.office_intro.personal_item.ex_chairman",
+      "text_sha256": "3be018492d161ea1f7fe6b704d7263a48cc8b76a502621986abc6a5b68955301",
+      "wav_sha256": "4f9377b65b01ed147abc15ffbc75c5472923de725200309c0c40ae353d94b8ce",
+      "voice": "Schedar",
+      "interaction_id": "v1_ChdnaDc5YW9mZUE0V00yOG9Qb09uZ3VBdxIXZ2g3OWFvZmVBNFdNMjhvUG9Pbmd1QXc",
+      "estimated_usd_from_usage": 0.0015405
+    },
+    {
+      "key": "scene.office_intro.personal_item.old_fighter",
+      "text_sha256": "f2fceba5fc65b2c98d4d85f6bcdc2b2b49312ccc3aa0f2ce3275bed331b20780",
+      "wav_sha256": "02fbeb3f612802f4ae6a934e8354074474832e113da3d45b6fdc69203ae00090",
+      "voice": "Algenib",
+      "interaction_id": "v1_ChdsaDc5YXZxTEVJVE52ZElQZzQtaTBRNBIXbGg3OWF2cUxFSVROdmRJUGc0LWkwUTQ",
+      "estimated_usd_from_usage": 0.0013475
+    },
+    {
+      "key": "scene.office_intro.personal_item.promoted",
+      "text_sha256": "9c90a45208e8bd7a7e03f629eb882f5866a15bf9e66351e1c3dbc550695bc11d",
+      "wav_sha256": "e0c7e6d21208d651c6644a06f146bf7440ef698bed4e3cb8d5224043f9b52680",
+      "voice": "Charon",
+      "interaction_id": "v1_ChdqQjc5YXFPckN0bWEzYm9QNDhEX3dBTRIXakI3OWFxT3JDdG1hM2JvUDQ4RF93QU0",
+      "estimated_usd_from_usage": 0.0013225
+    },
+    {
+      "key": "scene.office_intro.personal_item.student",
+      "text_sha256": "31db0b8d96e181fbbba46850898216e4a3ea619c29a6bcdfef6369111115746f",
+      "wav_sha256": "be84a51ffe2d1e88672cea899357fcdbd84efba6756e6742fb6c4aaec532d820",
+      "voice": "Puck",
+      "interaction_id": "v1_ChdkeDc5YXJ5R09yU1czYm9Qa0t5MS1BVRIXZHg3OWFyeUdPclNXM2JvUGtLeTEtQVU",
+      "estimated_usd_from_usage": 0.0011075
+    },
+    {
+      "key": "scene.office_intro.personal_item.villager",
+      "text_sha256": "8b3fa412be1b85e6667e2f2f95c7ddceaa57dff43918d7fa133edef8477beda7",
+      "wav_sha256": "40b1abc0795131912fe2ce68181f8d5d7365f29816cf0e055f9d439641bb7248",
+      "voice": "Achird",
+      "interaction_id": "v1_ChdZeDc5YXJTVExjQ2gzYm9QNS1XUTZBVRIXWXg3OWFyU1RMY0NoM2JvUDUtV1E2QVU",
+      "estimated_usd_from_usage": 0.0011435
+    },
+    {
+      "key": "scene.office_intro.personal_item.worker",
+      "text_sha256": "58f26575f680111b312f2d4a84f1c6310106e4c037814662f6fd5b1d1f10c046",
+      "wav_sha256": "8bb1d0b15bfabb59bafc13d355bd0fdb05d25ce51ec4185ba54fd5647ea51420",
+      "voice": "Iapetus",
+      "interaction_id": "v1_ChdiUjc5YXRMek0tN3J2ZElQdzR6eDJRMBIXYlI3OWF0THpNLTdydmRJUHc0engyUTA",
+      "estimated_usd_from_usage": 0.000801
+    }
+  ]
+}

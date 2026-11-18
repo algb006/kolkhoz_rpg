@@ -1,3 +1,13 @@
+18 November, English voice after restart. The available 85 requests produced
+85 matching raw office takes. All 232 transcripts still match approved English.
+Current raws 175/232, 57 pending. Pass spend $0.2673440, remaining cap $0.3326560.
+Quota 90/90. First slot opens on 19 November at 03:10:10 UTC (rounded up).
+The recorded ledger gives the precise first-slot and 57-slot timestamps in
+ai/english-voice-resume-window-1829-2026-11-18.json. Plan a full remaining
+batch at or after 03:36:51 UTC, then recompute the available quota.
+The eight v2 voices remain in scope for existing prologue and office lines.
+Hashes match the raw files. Sound mastering and UE placement are downstream.
+
 18 November, resume audit. Demo settings (272), HUD (189), office (531), testbed (6), and prologue/office scene text (232) have no missing, stale, or non-ok English in the live database. This verifies the assigned string groups. Runtime coverage also depends on other namespaces used by the build. All five testbed labels and the Affairs queue heading are mirrored at their accepted revisions.
 
 FIVE REPLACEMENTS COMPLETE:18 November after02:07UTC gate,5 paid calls,
