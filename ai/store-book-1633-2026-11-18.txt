@@ -18,3 +18,25 @@ Validation: two new bilingual keys, four matching named arguments in the
 row, three tonne labels per language, lengths within proposed caps. Voice
 remains at 175 matching raws. Recompute quota before the remaining 57,
 planned from 19 November 03:36:51 UTC.
+
+19 November, monthly feed and current-year ledger line. Authority:
+boss-rpg-1633-feed-2026-11-19 [1] and game-boss-400-store-theft-seed-fund-drafts-2026-11-19 [3–5].
+The bilingual proposal is manual/texts/store-theft-feed-1633-2026-11-19.tsv.
+It has seven store forms, seven feed keys and the separate office ledger line.
+All fifteen keys were absent at delivery. The owner registers them and sends
+English to support. Existing book title and base row are live at rev1 with
+accepted English. The monthly line depends on the measured closed month.
+
+Russian store forms follow «из». English supplies the plain name in running
+text, reusing Provisions yard and Storage clamp from the accepted UI. Church
+and granary match their referenced store types. The four month templates take
+a lowercase nominative Russian month or a normally capitalized English month.
+The named fallback takes the display name verbatim inside quotation marks.
+The year-one and guardable-store line gives the fact. The church/clamp variant
+from year two suggests moving the remaining stock under guard. The village-wide
+pre-acceptance line explicitly excludes those losses from audit.
+
+The distillers line covers the current year and stands on its own. The value
+is a separate annual ledger total, while a write-off can change the book gap.
+Sample render checks covered both languages, seven store forms and the four
+message templates. The window lays out the expanded resource lists.

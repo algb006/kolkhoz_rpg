@@ -1,0 +1,16 @@
+namespace	key	rev	ru	en	kind	max_len	status
+unit	church_store.genitive		церкви	church	name	48	draft
+unit	granary.genitive		амбара	granary	name	48	draft
+unit	food_store.genitive		продуктового склада	provisions storehouse	name	48	draft
+unit	food_yard.genitive		продуктового двора	provisions yard	name	48	draft
+unit	vegetable_store.genitive		овощехранилища	vegetable storehouse	name	48	draft
+unit	goods_store.genitive		товарного склада	goods storehouse	name	48	draft
+unit	clamp.genitive		бурта	storage clamp	name	48	draft
+feed	store_theft.month		Из {store} за {month} пропало: {items}.	Missing from the {store} in {month}: {items}.	body	180	draft
+feed	store_theft.month_guard		Из {store} за {month} пропало: {items}. Остаток лучше перевезти под охрану.	Missing from the {store} in {month}: {items}. Best to move the remaining stock to guarded storage.	body	180	draft
+feed	store_theft.month_named		Со склада «{store}» за {month} пропало: {items}.	Missing from the storehouse “{store}” in {month}: {items}.	body	180	draft
+feed	store_theft.only_before		Унесено со складов до приёмки (за {month}): {items}. Вне ревизии.	Taken from stores in {month}, before acceptance: {items}. Excluded from audit.	body	180	draft
+feed	store_theft.item		{resource} — {amount}	{resource} — {amount}	label	48	draft
+feed	store_theft.amount_t		{n} т	{n} t	label	48	draft
+feed	store_theft.amount_kg		{n} кг	{n} kg	label	48	draft
+ui.office	economy.book.distillers		на самогон за год: {distilled} т	Taken for moonshine this year: {distilled} t	body	96	draft
