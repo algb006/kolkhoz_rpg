@@ -23,3 +23,13 @@ new campaign or quest/hint. Reload offers the short pre-danger save; do not
 invent return-to-day-start text. Only thin ice/open water in ice is requested;
 other accident scenarios remain future work. No new voice outside existing
 prologue/office scope. Re-read tone and avatar basis before authoring lines.
+
+Addition: boss-rpg-accident-alone-2026-11-18 [1], econ review accepted in §9.
+Each avatar's existing2–3-warning set must include an ALONE variant explicitly
+saying the chairman is alone on the ice when nobody is nearby. This makes
+absence of rescue foreseeable before the step. Alone is a runtime condition,
+not an unconditional assertion in every warning; no invented detection radius.
+Villager recognizes thin ice one step earlier (STUB); one of his warnings may
+reflect that early observation. Narrative does not set trigger distance/timing.
+Keep this within the same bilingual delivery and unchanged predecessor order:
+kolkhoz corrections, five recorded replacements, then accident text.
