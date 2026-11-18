@@ -1,0 +1,70 @@
+PARKED — Sol / rpg — 18 November2026
+
+Authority: boss-rpg-softstop-codex62-2026-11-18 [1]. Finish current record,
+start nothing new, commit/push, reply parked and stay idle for restart.
+A go typed BEFORE restart is only an idle nudge, not resume authority.
+After restart read this record and the CURRENT boss queue first, then owed.
+Model/effort setup belongs to the human/coordinator, not this role's checks.
+
+At stop: clean tree at c46d60f; no active generation/upload/process.
+Latest step complete:3 RU+EN period accident notes delivered to boss in
+boss-rpg-accident-note-2026-11-18 [2], pending owner registration/support.
+manual/texts/accident-ice-notes-1863-2026-11-18.tsv: proposed keys
+scene.accident.ice.note.1..3, revisions blank, no names/parameters.
+
+LATEST ACCEPTED ACCIDENT SCOPE supersedes all earlier warning assignments:
+-24 dark/crack/mounted thought strings are DEPRECATED, keys retained.
+-Only ice appearance and creak warn; NO text, thoughts, icons or mounted line.
+-No rescue, illness week, solitude variant or Old Fighter self-rescue.
+-Death line/title/load button accepted ok at rev1; nav.main_menu reused.
+-3 random alternative dry period notes for accident screen pending review.
+-No death shown on screen, mocking the dead, modern award names or scores.
+Current basis epochs §9 and ai/accident-strings-1863-2026-11-18.txt.
+Original accident TSV has24 deprecated rows +4 accepted rows, historical
+mirror only; do not reimport/reactivate deprecated text. Source snapshot
+initial and registered/deprecation versions kept separately.
+
+VOICE #1829 — five authorized terminology replacements COMPLETED FIRST.
+Authority boss-rpg-ending-strings-2026-11-18 [5], inside232-line scope/$0.60.
+New5 request cost$0.0100155; pass spend$0.1528885 including all5 old originals;
+remaining pass cap$0.4471115. Project spend$0.7644400, estimated balance
+$7.2355600. Read ai/gemini-budget-balance.txt BEFORE any next paid batch.
+Current matching90/232;142 unrecorded lines remain.95 historic billable
+interactions total including5 superseded; no failure/unknown usage.
+Replacement result/receipts: ai/english-voice-replacements-window-1829-2026-11-18.json.
+Canonical WAV/JSON: voice/draft/en-demo-1829-20261117/;5 old raw pairs in
+superseded-kolkhoz-20261118/, byte-exact and still charged in total cap.
+Do NOT overwrite raw receipts, subtract old cost, count copied receipts as
+new charges or use publisher to restore old current files. Both tools now
+handle archived spend; duplicate IDs/unknown usage remain stopping conditions.
+Recorder plan last verified90 current /142 pending /5 attempts of90 in24h.
+Quota remains6 starts/min,90 attempts/rolling24h, shared ledger; recompute on
+resume. Five replacement raw takes ready for sound mastering, not claimed
+individually heard/mastered. No new voiced lines beyond prologue/office.
+Human accepted manner of the4 samples; no new hearing-permission request.
+
+EN #1828 before #1829/#1842 per CURRENT boss queue (read actual ordering).
+Owner applied24 kolkhoz corrections ok; kolkhoz/kolkhozes is running name,
+collective farm only in a genuine explanation. salt_deficiency accepted.
+67 glossary rows accepted; binding words in1842 status. Testbed batch08
+five rows delivered to boss; read latest live review before claiming status.
+All10 ending rows accepted; Put on Trial / The Village Is No More are canonical.
+Affairs queue RU Ждут очереди / Waiting delivered; owner controls registration.
+
+#1842 later namespace sequence: ui.common + remaining HUD; feed/event/alarm;
+order; ui.people/store/build; signal/resource/livestock; hint/quest/dialogue
+last. Frozen quests/hints not reopened. Measure live missing/stale before
+roughly300-row batches; no full-demo coverage claim from namespace totals.
+#1732 still needs actual authored-scene native frame; completed elder-pause
+fix host applied. #1739 remains behind1732; no replay of old work needed.
+
+Latest checks: English corpus1285 rows/1283 keys/0 errors; diff clean.
+Global links5515 files/41280 links/278 outside RPG, zero RPG.
+No shared DB/other-role edits. No unpaid/missing receipts treated as free.
+Mailbox owed0 before this stop parcel; recheck after restart.
+Git push workaround if system SSH config permissions still fail:
+GIT_SSH_COMMAND='ssh -F /home/alex/.ssh/config' git push origin main
+Own separate repository only; never force. Temps must be rpg-prefixed and
+removed with ../claude/tools/tmp-clean.sh, never direct rm.
+Old ai/START.md contains historical claims (no voice/seven avatars): current
+AGENTS/design/accepted parcels supersede those, not a new design discrepancy.
