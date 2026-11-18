@@ -139,7 +139,7 @@ ui.settings	new.name.surname	1	Surname
 ui.settings	new.name.dice	1	Random first name, patronymic and surname
 ui.settings	new.order.head	1	ORDER
 ui.settings	new.order.issuer	1	Zarechny District Committee
-ui.settings	new.order.body	4	Appoint Comrade {chairman_acc} chairman of the “{kolkhoz}” collective farm, with its main farmstead in the village of {village}.
+ui.settings	new.order.body	4	Appoint Comrade {chairman_acc} chairman of the “{kolkhoz}” kolkhoz, with its main farmstead in the village of {village}.
 ui.settings	new.order.date	1	{year}
 ui.settings	new.order.resolution	1	Approved
 ui.settings	new.order.signature	1	District secretary {secretary_short}

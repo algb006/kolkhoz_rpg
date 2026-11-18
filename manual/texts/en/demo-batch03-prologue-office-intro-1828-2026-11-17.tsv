@@ -61,9 +61,9 @@ scene	office_intro.enter.student	2	So this is my new office. I can look over the
 scene	office_intro.notebooks.student	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
 scene	start.prologue.villager.t3	3	There's our chapel. And the rooks are cawing just as they always did.
 scene	office_intro.charts.student	1	The plan and deliveries. Here's where my calculations will come in handy.
-scene	start.prologue.worker.t3	3	Noisy rooks. There's a chapel. Seems the village was here long before the collective farm.
+scene	start.prologue.worker.t3	3	Noisy rooks. There's a chapel. Seems the village was here long before the kolkhoz.
 scene	office_intro.papers.student	1	So much paperwork. I hope it doesn't all need an answer today.
-scene	start.prologue.student.t3	3	Rooks... And there's a chapel. The report describes the collective farm, but the village didn't begin with it.
+scene	start.prologue.student.t3	3	Rooks... And there's a chapel. The report describes the kolkhoz, but the village didn't begin with it.
 scene	office_intro.door.student	1	People will be coming to me for decisions now. This isn't a seminar anymore.
 scene	start.prologue.ex_chairman.t3	1	An old village. The district report doesn't say who's related to whom here, or who's nursing a grudge.
 scene	office_intro.wall_map.student	1	The fields are drawn by hand. I'll need to check them on the ground.
@@ -71,9 +71,9 @@ scene	start.prologue.promoted.t3	3	Noisy rooks, and a chapel over there. An old 
 scene	office_intro.posters.student	1	The poster covers an old wall painting. Everything here was redone in a hurry.
 scene	start.prologue.old_fighter.t3	3	Rooks making a racket. A chapel over there. An old place. Let's see how people live here.
 scene	office_intro.journal.student	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
-scene	start.prologue.dealer.t3	3	The rooks are in full voice. And there's a chapel. The collective farm is new, but the local habits, I imagine, are rather older.
+scene	start.prologue.dealer.t3	3	The rooks are in full voice. And there's a chapel. The kolkhoz is new, but the local habits, I imagine, are rather older.
 scene	office_intro.pocketbook.student	1	I'd better write it down. My memory let me down in exams sometimes.
-scene	start.prologue.acting.t3	3	Rooks cawing. There's a chapel. I need to find out what was here before the collective farm.
+scene	start.prologue.acting.t3	3	Rooks cawing. There's a chapel. I need to find out what was here before the kolkhoz.
 scene	office_intro.newspaper.student	1	I'd remember that name. And that one too. Where have they all come from?
 scene	office_intro.personal_item.student	1	The textbooks are here. If I forget something, at least I can look it up.
 scene	office_intro.portrait.student	2	A completely unfamiliar face. Everything's different here too... Goodness, where have I ended up?
@@ -200,7 +200,7 @@ scene	office_intro.lamp.dealer	1	Light on the desk, not in my eyes. Sensibly pla
 scene	office_intro.window.dealer	1	Cloudy glass. Well, the view won't distract me.
 scene	office_intro.drawer.dealer	1	Locked. Interesting, but it can wait.
 scene	office_intro.affairs_notebook.dealer	1	The first task in Affairs. Let's hope there are no unnecessary expenses.
-scene	office_intro.exit_choice.dealer	1	Look over the collective farm from above, or visit the former headman? Which will be more useful?
+scene	office_intro.exit_choice.dealer	1	Look over the kolkhoz from above, or visit the former headman? Which will be more useful?
 scene	office_intro.plan_sketch.dealer	1	The previous chairman's plan. Never got it built. I wonder what this whole enterprise will cost.
 scene	office_intro.enter.acting	2	So this is my new office. I can look over the marked things in any order.
 scene	office_intro.notebooks.acting	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
@@ -214,7 +214,7 @@ scene	start.prologue.ex_chairman.t8	1	Still, I hoped to find something here in o
 scene	office_intro.wall_map.acting	1	Everything's close together on the map. I'll have to walk it myself.
 scene	start.prologue.promoted.t8	1	A welcome outside a half-ruined church. For some reason, the district didn't report this much decay.
 scene	office_intro.posters.acting	1	They put up posters, but never repaired the plaster underneath.
-scene	start.prologue.old_fighter.t8	1	The church is barely standing. Not how I pictured the new collective farm. Where to make camp — we'll see.
+scene	start.prologue.old_fighter.t8	1	The church is barely standing. Not how I pictured the new kolkhoz. Where to make camp — we'll see.
 scene	office_intro.journal.acting	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
 scene	start.prologue.dealer.t8	1	Instead of the promised thriving farm, a half-ruined church. Now I see why they were in such a hurry to appoint me.
 scene	office_intro.pocketbook.acting	1	Best write it down at once. I've a good memory for promises.

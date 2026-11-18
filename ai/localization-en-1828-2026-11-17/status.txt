@@ -1,3 +1,13 @@
+TERM CORRECTION — boss-rpg-ending-strings-2026-11-18 [3].
+24 running collective-farm mentions -> kolkhoz/kolkhozes; no explanatory
+exception. Review TSV and rationale: review-kolkhoz-term-1828-2026-11-18.tsv
+and ai/kolkhoz-term-1828-2026-11-18.txt. Owner import/review pending.
+VOICE:5 existing takes now differ from proposed accepted terminology; raw
+receipts untouched, already-spent$0.0097430 retained.90 is historical output,
+not90 matching takes after this change. Exact-text/hash guards block use.
+Concrete impact: ai/kolkhoz-term-1829-voice-impact-2026-11-18.json.
+Replacement handling referred to boss before further paid generation.
+
 TESTBED CATCH-UP — 18 November, boss-rpg-1828-testbed-2026-11-18 [1].
 Live read found5 missing English rows, not4, besides the owner-drafted
  office.mode_buttons_demo_note. Batch08 delivers all5 at actual source rev1;

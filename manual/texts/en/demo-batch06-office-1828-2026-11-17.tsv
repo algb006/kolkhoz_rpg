@@ -52,7 +52,7 @@ ui.office	journal.first_incoming_avatar.dealer	1	The district takes twice as lon
 ui.office	journal.first_incoming_avatar.villager	1	The district takes one and a half times as long as usual to consider your requests.
 ui.office	order.raise_site	1	Move site up the queue
 ui.office	order.raise_site.tip	1	The construction site moves up within its own queue: workers and materials arrive sooner. Other sites will wait longer.
-ui.office	avatar_friends.villager.personal_file	1	In summer, you can invite people from home: a forester who hunts, a fisherman and an old beekeeper. They relax and give their fish and game to the collective farm kitchen. The farm provides food and lodging. They will return if they were well fed and housed last time.
+ui.office	avatar_friends.villager.personal_file	1	In summer, you can invite people from home: a forester who hunts, a fisherman and an old beekeeper. They relax and give their fish and game to the kolkhoz kitchen. The farm provides food and lodging. They will return if they were well fed and housed last time.
 ui.office	avatar_friends.worker.personal_file	1	In summer, you can invite factory comrades: a toolmaker, a blacksmith and a lathe operator. Each visit, they repair one horse-drawn implement or cart. The farm provides food and lodging. They will return if they were well fed and housed last time.
 ui.office	avatar_friends.ex_chairman.personal_file	1	In summer, you can invite a retired auditor, your former storekeeper and a bookkeeper from the next district. They help put the books in order before an audit. The farm provides food and lodging. They will return if they were well fed and housed last time.
 ui.office	avatar_friends.promoted.personal_file	1	In summer, you can invite an instructor, a newspaperman and the manager of a hunting reserve. They help process one allocation request out of turn; the full points are still spent. The farm provides food and lodging. They will return if they were well fed and housed last time.
@@ -80,7 +80,7 @@ ui.office	trip.ask.brigade	1	Request a visiting crew
 ui.office	trip.ask.goods_loan	1	Discuss a goods loan
 ui.office	trip.ask.bridge_term	1	Agree on a bridge repair deadline
 ui.office	trip.ask.plan	1	Discuss the annual plan
-ui.office	trip.sheet.leave	1	Return to the collective farm
+ui.office	trip.sheet.leave	1	Return to the kolkhoz
 ui.office	summon.letter	1	You are summoned to the district on {date}. Departure at 8:00. Attendance is mandatory.
 ui.office	trade.title	1	Annual plan negotiations
 ui.office	trade.move	1	{resource}: change the plan by {percent}%

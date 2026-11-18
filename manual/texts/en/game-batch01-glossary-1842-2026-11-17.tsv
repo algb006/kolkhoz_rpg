@@ -10,7 +10,7 @@ glossary	clamp	3	Storage clamp: potatoes or root crops piled by a field and cove
 glossary	clerk	1	Tally clerk: the person who draws up work assignments, assigns people to jobs and takes their skills into account.
 glossary	crop_rotation	2	Crop rotation: a field's crop sequence across the years. The chairman sets it in advance; field work follows this sequence.
 glossary	discount	1	Discount: a reduction in what must be paid or returned. With a good reputation, the district may reduce a loan's markup.
-glossary	draught_animals	1	Draft animals: working animals that pull carts and farm implements. On the collective farm, horses do this work.
+glossary	draught_animals	1	Draft animals: working animals that pull carts and farm implements. On the kolkhoz, horses do this work.
 glossary	fallow	2	Fallow: a field worked this year but not sown with an ordinary crop. Winter rye can be sown there in late summer for next year's harvest.
 glossary	fallow_land	2	Abandoned land: land once plowed but left unworked for years and now overgrown. It can be brought back into use as a field.
 glossary	feed_shortage	1	Feed shortage: not enough food for animals. Underfed livestock cope less well with cold and disease.
@@ -24,7 +24,7 @@ glossary	goods_loan	1	Goods loan: food or feed borrowed from the district. It is
 glossary	harness	1	Harness: straps and fittings connecting a horse to a cart or implement. The horse cannot do that work without a serviceable harness.
 glossary	harrowing	2	Harrowing: working the soil with a harrow after plowing. It breaks up clods and levels the surface before sowing.
 glossary	haymaking	2	Haymaking: mowing, drying and gathering grass for livestock feed. Rain during drying hinders this work.
-glossary	household_farming	1	Household plot: a family's own garden and animals. Its produce belongs to the family, not the collective farm.
+glossary	household_farming	1	Household plot: a family's own garden and animals. Its produce belongs to the family, not the kolkhoz.
 glossary	issue_norm	2	Distribution rate: how much produce is due for earned labor-day credits. More than the available stocks cannot be issued.
 glossary	labor_day	2	Labor-day credit: a measure of work done, used to distribute produce to families from storage. Difficult or skilled work earns more credits. It is not a calendar day or money.
 glossary	limit	2	Allocation: points used to obtain scarce goods and machinery from the district. They are not money; unused points expire at year-end.
@@ -36,16 +36,16 @@ glossary	milk_yield	1	Milk yield: the quantity of milk obtained from a cow or he
 glossary	mts	2	Machine and tractor station (MTS): the district sends machinery and a crew on request for allocation points.
 glossary	night_grazing	1	Night pasture: summer grazing for horses at night. In the game, schoolchildren watch them during the holidays; the herd returns to the stable in the morning. Available after a horse yard is established.
 glossary	offspring	1	Offspring: young animals born to the herd, such as calves and foals. They are counted separately from adult livestock.
-glossary	own_traction	2	Own draft power: the share of all work in the last completed year done with collective farm horses. Manual work and the district's visiting machinery crew do not increase this share.
-glossary	party_cell	1	Party cell: a local group of party members on the collective farm. They meet to discuss shared affairs. A local party organizer arranges the group's work.
+glossary	own_traction	2	Own draft power: the share of all work in the last completed year done with kolkhoz horses. Manual work and the district's visiting machinery crew do not increase this share.
+glossary	party_cell	1	Party cell: a local group of party members on the kolkhoz. They meet to discuss shared affairs. A local party organizer arranges the group's work.
 glossary	person_day	1	Person-day: one person's work for a working day, a measure of labor used. A labor-day credit is an entitlement used to distribute produce to a family.
 glossary	plan_item	2	Plan item: a line stating how much of one product must be delivered to the district. Delivering another product does not replace it.
 glossary	quarry	1	Quarry: an open site for extracting stone, staked where suitable rock is available.
-glossary	raizo	1	District land office: the department that sends the collective farm its produce delivery plan.
+glossary	raizo	1	District land office: the department that sends the kolkhoz its produce delivery plan.
 glossary	ration	2	Ration: an allotted portion of food or feed. If a family is underfed, the chairman issues a minimum ration from storage regardless of labor-day credits, reducing stocks for other needs.
 glossary	reputation	1	Reputation: the district's assessment of the farm. Meeting the plan raises it; failing lowers it. Being under scrutiny means being in bad standing.
 glossary	rush	2	All-hands rush: an order to speed up one job, such as a field's harvest. People work harder, tire faster and are less satisfied. The rush can be canceled at any time.
-glossary	satisfaction	1	Satisfaction: how well a family lives on the collective farm. It depends on food, housing, rest and other living conditions, and affects family members' work. Mood is an individual resident's personal state.
+glossary	satisfaction	1	Satisfaction: how well a family lives on the kolkhoz. It depends on food, housing, rest and other living conditions, and affects family members' work. Mood is an individual resident's personal state.
 glossary	seed_fund	1	Seed reserve: grain and potatoes kept for the next sowing. Only the chairman can release it for food. What is eaten now cannot be sown for the next harvest.
 glossary	seed_loan	1	Seed loan: seeds borrowed from the district. By the turn of the year, the same product is returned with a markup, in addition to the plan.
 glossary	shadow	1	Underground entrepreneur: someone who runs production and trade outside the accounts.
@@ -54,10 +54,10 @@ glossary	shoal	1	Shoal: shallow water near the bank. Construction sand is taken 
 glossary	shortage	1	Shortage: an unrecorded loss of produce. Audits calculate it per product: losses over the last 24 months divided by receipts over that period. Products with less than 2 t received are not checked.
 glossary	silage	1	Silage: moist feed made from chopped plants preserved without air. In the game, it is stored in a silage trench or tower and fed to cows.
 glossary	sire	2	Breeding male: an adult male used to produce young. Without one, the herd will have no new offspring.
-glossary	specialist_assignment	1	Komsomol placement: the youth league refers a young specialist to work on a collective farm. The chairman requests the required profession from the district.
+glossary	specialist_assignment	1	Komsomol placement: the youth league refers a young specialist to work on a kolkhoz. The chairman requests the required profession from the district.
 glossary	spring_crops	2	Spring crops: crops sown in spring and harvested in the same year.
 glossary	standing_order	3	Standing assignment: an assignment that stays until canceled; the work repeats under a set condition. No need to issue a new one each time.
-glossary	stock_billet	1	Livestock boarding: temporarily keeping collective farm animals in household yards while collective livestock sheds lack space.
+glossary	stock_billet	1	Livestock boarding: temporarily keeping kolkhoz animals in household yards while collective livestock sheds lack space.
 glossary	stubble	1	Stubble: short stalks left in a field after grain harvest. It is not a new sowing, but the remains of the harvested crop.
 glossary	threshing	1	Threshing: separating grain from the ears after reaping. The grain and straw then go their separate ways.
 glossary	traction	1	Draft power: a horse's ability to pull a plow or harrow. Draft animals are the animals themselves. On hay alone, horses plow and harrow less effectively.

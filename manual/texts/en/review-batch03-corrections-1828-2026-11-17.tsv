@@ -49,6 +49,6 @@ scene	office_intro.affairs_notebook.dealer	1	The first task in Affairs. Let's ho
 scene	office_intro.enter.acting	2	So this is my new office. I can look over the marked things in any order.
 scene	office_intro.notebooks.acting	2	The first order is already in the book. I need to appoint a tally clerk. For now I'm handing out the work assignments myself.
 scene	start.prologue.promoted.t8	1	A welcome outside a half-ruined church. For some reason, the district didn't report this much decay.
-scene	start.prologue.old_fighter.t8	1	The church is barely standing. Not how I pictured the new collective farm. Where to make camp — we'll see.
+scene	start.prologue.old_fighter.t8	1	The church is barely standing. Not how I pictured the new kolkhoz. Where to make camp — we'll see.
 scene	office_intro.journal.acting	2	The first letter is the plan from the district. I'm the one who'll have to answer it.
 scene	office_intro.affairs_notebook.acting	1	There's a first task in Affairs. I'll work out what help I'll need.

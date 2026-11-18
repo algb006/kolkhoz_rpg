@@ -215,7 +215,7 @@ ui.hud	build_info.package	1	Package
 ui.hud	feed.title	1	Events
 ui.hud	feed.view.strip	1	Strip
 ui.hud	feed.view.window	1	Log
-ui.hud	feed.source.kolkhoz	1	Collective farm
+ui.hud	feed.source.kolkhoz	1	Kolkhoz
 ui.hud	feed.source.district	1	District
 ui.hud	feed.source.people	1	People
 ui.hud	feed.source.works	1	Work

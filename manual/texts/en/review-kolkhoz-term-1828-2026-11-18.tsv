@@ -1,0 +1,25 @@
+namespace	key	rev	en
+glossary	draught_animals	1	Draft animals: working animals that pull carts and farm implements. On the kolkhoz, horses do this work.
+glossary	household_farming	1	Household plot: a family's own garden and animals. Its produce belongs to the family, not the kolkhoz.
+glossary	own_traction	2	Own draft power: the share of all work in the last completed year done with kolkhoz horses. Manual work and the district's visiting machinery crew do not increase this share.
+glossary	party_cell	1	Party cell: a local group of party members on the kolkhoz. They meet to discuss shared affairs. A local party organizer arranges the group's work.
+glossary	raizo	1	District land office: the department that sends the kolkhoz its produce delivery plan.
+glossary	satisfaction	1	Satisfaction: how well a family lives on the kolkhoz. It depends on food, housing, rest and other living conditions, and affects family members' work. Mood is an individual resident's personal state.
+glossary	specialist_assignment	1	Komsomol placement: the youth league refers a young specialist to work on a kolkhoz. The chairman requests the required profession from the district.
+glossary	stock_billet	1	Livestock boarding: temporarily keeping kolkhoz animals in household yards while collective livestock sheds lack space.
+scene	office_intro.exit_choice.dealer	1	Look over the kolkhoz from above, or visit the former headman? Which will be more useful?
+scene	start.prologue.acting.t3	3	Rooks cawing. There's a chapel. I need to find out what was here before the kolkhoz.
+scene	start.prologue.dealer.t3	3	The rooks are in full voice. And there's a chapel. The kolkhoz is new, but the local habits, I imagine, are rather older.
+scene	start.prologue.old_fighter.t8	1	The church is barely standing. Not how I pictured the new kolkhoz. Where to make camp — we'll see.
+scene	start.prologue.student.t3	3	Rooks... And there's a chapel. The report describes the kolkhoz, but the village didn't begin with it.
+scene	start.prologue.worker.t3	3	Noisy rooks. There's a chapel. Seems the village was here long before the kolkhoz.
+ui.hud	feed.source.kolkhoz	1	Kolkhoz
+ui.office	avatar_friends.villager.personal_file	1	In summer, you can invite people from home: a forester who hunts, a fisherman and an old beekeeper. They relax and give their fish and game to the kolkhoz kitchen. The farm provides food and lodging. They will return if they were well fed and housed last time.
+ui.office	directory.elder.about	1	A local resident and former village headman, now working on the kolkhoz alongside everyone else. During the hungry years, he kept the remaining stocks from being pilfered.
+ui.office	named.district_secretary.summary	1	He spoke quietly and briefly when appointing the chairman. He learns about the kolkhozes through summaries and instructors' reports.
+ui.office	plan_sketch.legend.cattle_yard	1	Cattle yard — a place for the kolkhoz's herd, away from homes.
+ui.office	prop.newspaper.headline_2	1	How neighboring kolkhozes share experience
+ui.office	refusal.district_road	1	The district builds and paves this road, not the kolkhoz
+ui.office	trip.sheet.leave	1	Return to the kolkhoz
+ui.office	window.kolkhoz_owned	1	Kolkhoz
+ui.settings	new.order.body	4	Appoint Comrade {chairman_acc} chairman of the “{kolkhoz}” kolkhoz, with its main farmstead in the village of {village}.

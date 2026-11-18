@@ -1,5 +1,5 @@
 namespace	key	rev	en
-ui.office	directory.elder.about	1	A local resident and former village headman, now working on the collective farm alongside everyone else. During the hungry years, he kept the remaining stocks from being pilfered.
+ui.office	directory.elder.about	1	A local resident and former village headman, now working on the kolkhoz alongside everyone else. During the hungry years, he kept the remaining stocks from being pilfered.
 ui.office	mode.first_person	1	First person
 ui.office	named.district_secretary.role	1	District First Secretary
 ui.office	plan_sketch.legend.farm_office	1	Farm board — the chairman's office and the workplace of the farm's specialists.
@@ -11,7 +11,7 @@ ui.office	refusal.conflicts_with_active	1	Already busy with something else — o
 ui.office	refusal.rule_forbids	1	That's not how it's done
 ui.office	metric.satiety	1	Nourishment
 ui.office	window.household_owned	1	Household
-ui.office	window.kolkhoz_owned	1	Collective farm
+ui.office	window.kolkhoz_owned	1	Kolkhoz
 ui.office	land.derelict	1	Abandoned land
 ui.office	order.graze_at_night	1	Send to night pasture
 ui.office	order.take_night_trader	1	End moonshine trade

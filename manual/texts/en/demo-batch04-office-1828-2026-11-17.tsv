@@ -1,6 +1,6 @@
 namespace	key	rev	en
 ui.office	book.plan_failed_count	1	Plans missed in a row: {count} of {limit}.
-ui.office	directory.elder.about	1	A local resident and former village headman, now working on the collective farm alongside everyone else. During the hungry years, he kept the remaining stocks from being pilfered.
+ui.office	directory.elder.about	1	A local resident and former village headman, now working on the kolkhoz alongside everyone else. During the hungry years, he kept the remaining stocks from being pilfered.
 ui.office	directory.former_headman.role	1	former headman
 ui.office	directory.nobody	1	No one in the pocketbook yet.
 ui.office	directory.section.district	1	District
@@ -13,10 +13,10 @@ ui.office	journal.date	1	{month}, {weekday} · {time}
 ui.office	mode.first_person	1	First person
 ui.office	mode.from_above	1	From above
 ui.office	named.district_secretary.role	1	District First Secretary
-ui.office	named.district_secretary.summary	1	He spoke quietly and briefly when appointing the chairman. He learns about the collective farms through summaries and instructors' reports.
+ui.office	named.district_secretary.summary	1	He spoke quietly and briefly when appointing the chairman. He learns about the kolkhozes through summaries and instructors' reports.
 ui.office	place.too_steep	1	The slope is too steep to build here
 ui.office	plan_sketch.legend.barrack	1	Barrack — shared housing without a household's own yard or garden.
-ui.office	plan_sketch.legend.cattle_yard	1	Cattle yard — a place for the collective farm's herd, away from homes.
+ui.office	plan_sketch.legend.cattle_yard	1	Cattle yard — a place for the kolkhoz's herd, away from homes.
 ui.office	plan_sketch.legend.clamp	1	Storage clamp — potatoes and root crops covered with straw and earth at the edge of a field.
 ui.office	plan_sketch.legend.farm_office	1	Farm board — the chairman's office and the workplace of the farm's specialists.
 ui.office	plan_sketch.legend.food_yard	1	Food yard — food storage and processing near the village.
@@ -155,7 +155,7 @@ ui.office	window.whose	1	Owner
 ui.office	window.household_owned	1	Household
 ui.office	item.personal_item.name	1	Your personal item
 ui.office	item.personal_item.tooltip	1	Personal item — development and reputation
-ui.office	window.kolkhoz_owned	1	Collective farm
+ui.office	window.kolkhoz_owned	1	Kolkhoz
 ui.office	land.arable	1	Arable land
 ui.office	land.meadow	1	Meadow
 ui.office	land.floodplain_meadow	1	Flood meadow

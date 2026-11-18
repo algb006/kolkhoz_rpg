@@ -1,0 +1,27 @@
+Authority: boss-rpg-ending-strings-2026-11-18 [3].
+24 current English strings use collective farm; all24 are running mentions,
+not definitions explaining what a kolkhoz is. No explanatory exception kept,
+even in glossary namespace: those entries explain other concepts, not kolkhoz.
+Proposed correction sheet preserves actual source revisions, limits and
+placeholders. Existing live rows are ok: owner applies accepted term corrections
+through its review path; do not claim a draft import replaces accepted text.
+Local matching delivery/review TSVs mirror the proposed terminology; shared
+DB remains unchanged by RPG. New English glossary term: kolkhoz / kolkhozes;
+collective farm reserved for explanations. Three support ending fixes and all
+actual registered revisions/statuses mirrored separately; original receipt
+snapshot retained. All10 ending rows live ok.
+
+VOICE IMPACT:6 scene scripts change,5 already have immutable recorded takes.
+Those5 old receipts total$0.0097430, already charged, never subtract or charge
+again. Existing90 total is historical recorded output, not90 currently matching
+audio after this term correction. The5 affected raw pairs remain untouched.
+No generation or replacement performed. Exact-text preflight blocks the script
+until English owner import; existing-take hash guard then blocks affected rows.
+Need boss ruling on replacing these5 within the existing232-line scope/cap,
+with old takes retained and new receipts separated; no silent overwrite or
+bypass. See voice-impact JSON for concrete keys and old/new texts.
+
+Salt-deficiency census: only new ending.body.salt contains Russian солевой
+голод in current strings; no alarm/signal/ui.people/glossary counterpart found.
+Propose salt_deficiency = salt deficiency before such sources are added, as
+requested, without inventing a current alarm or mechanic.

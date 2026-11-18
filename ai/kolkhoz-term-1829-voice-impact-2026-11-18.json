@@ -1,0 +1,37 @@
+[
+  {
+    "key": "scene.start.prologue.dealer.t3",
+    "receipt": "voice/draft/en-demo-1829-20261117/scene.start.prologue.dealer.t3.json",
+    "old_text": "The rooks are in full voice. And there's a chapel. The collective farm is new, but the local habits, I imagine, are rather older.",
+    "proposed_text": "The rooks are in full voice. And there's a chapel. The kolkhoz is new, but the local habits, I imagine, are rather older.",
+    "old_cost_usd": 0.0026
+  },
+  {
+    "key": "scene.start.prologue.acting.t3",
+    "receipt": "voice/draft/en-demo-1829-20261117/scene.start.prologue.acting.t3.json",
+    "old_text": "Rooks cawing. There's a chapel. I need to find out what was here before the collective farm.",
+    "proposed_text": "Rooks cawing. There's a chapel. I need to find out what was here before the kolkhoz.",
+    "old_cost_usd": 0.0016504999999999998
+  },
+  {
+    "key": "scene.start.prologue.old_fighter.t8",
+    "receipt": "voice/draft/en-demo-1829-20261117/scene.start.prologue.old_fighter.t8.json",
+    "old_text": "The church is barely standing. Not how I pictured the new collective farm. Where to make camp — we'll see.",
+    "proposed_text": "The church is barely standing. Not how I pictured the new kolkhoz. Where to make camp — we'll see.",
+    "old_cost_usd": 0.00211
+  },
+  {
+    "key": "scene.start.prologue.worker.t3",
+    "receipt": "voice/draft/en-demo-1829-20261117/scene.start.prologue.worker.t3.json",
+    "old_text": "Noisy rooks. There's a chapel. Seems the village was here long before the collective farm.",
+    "proposed_text": "Noisy rooks. There's a chapel. Seems the village was here long before the kolkhoz.",
+    "old_cost_usd": 0.0016405
+  },
+  {
+    "key": "scene.start.prologue.student.t3",
+    "receipt": "voice/draft/en-demo-1829-20261117/scene.start.prologue.student.t3.json",
+    "old_text": "Rooks... And there's a chapel. The report describes the collective farm, but the village didn't begin with it.",
+    "proposed_text": "Rooks... And there's a chapel. The report describes the kolkhoz, but the village didn't begin with it.",
+    "old_cost_usd": 0.0017419999999999998
+  }
+]
