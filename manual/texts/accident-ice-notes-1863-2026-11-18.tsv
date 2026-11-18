@@ -1,0 +1,4 @@
+namespace	key	rev	ru	en	kind	max_len	status
+scene	accident.ice.note.1		Запись: гибель председателя при личной проверке льда. Проверка окончена: лёд ненадёжен.	Record: the chairman died while checking the ice in person. The inspection is complete: the ice is unsafe.	body	320	draft
+scene	accident.ice.note.2		Заключение: лёд для прохода непригоден. Запись сделана после гибели председателя.	Conclusion: the ice is unsafe to cross. The entry was made after the chairman’s death.	body	320	draft
+scene	accident.ice.note.3		О гибели председателя в полынье сообщено в район. Сведения о тонком льде приложены к сообщению.	The chairman’s death in a hole in the ice has been reported to the district. Information on the thin ice is attached to the report.	body	320	draft
