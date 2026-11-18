@@ -1,0 +1,41 @@
+[
+  {
+    "string_id": 20824,
+    "full_key": "ui.store.seed_fund.row",
+    "namespace": "ui.store",
+    "key": "seed_fund.row",
+    "kind": "label",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "Семенной фонд (под сев)",
+    "max_len": 32
+  },
+  {
+    "string_id": 20825,
+    "full_key": "ui.store.seed_fund.need",
+    "namespace": "ui.store",
+    "key": "seed_fund.need",
+    "kind": "label",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "нужно на сев: {amount}",
+    "max_len": 32
+  },
+  {
+    "string_id": 20826,
+    "full_key": "ui.store.rick.owner",
+    "namespace": "ui.store",
+    "key": "rick.owner",
+    "kind": "label",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 1,
+    "source_text": "Сено колхозного стада и лошадей",
+    "max_len": 32
+  }
+]

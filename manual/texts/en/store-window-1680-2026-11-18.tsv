@@ -1,0 +1,4 @@
+namespace	key	rev	en
+ui.store	seed_fund.row	1	Seed reserve (for sowing)
+ui.store	seed_fund.need	1	Needed for sowing: {amount}
+ui.store	rick.owner	1	Hay for kolkhoz herd and horses
