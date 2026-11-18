@@ -1,0 +1,2 @@
+namespace	key	rev	ru	en	kind	max_len	status
+ui.settings	save.cannot.cutscene_pending		Сохранение недоступно. Сейчас начнётся сцена.	Saving is unavailable. A scene is about to start.	tooltip	160	draft
