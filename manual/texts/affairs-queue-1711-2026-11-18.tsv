@@ -1,2 +1,2 @@
-namespace	key	ru	en	kind	max_len	status
-ui.office	affairs.queue	Ждут очереди	Waiting	title	64	draft
+namespace	key	rev	ru	en	kind	max_len	status
+ui.office	affairs.queue	1	Ждут очереди	Queued	title	64	ok

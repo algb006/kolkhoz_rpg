@@ -1,3 +1,5 @@
+18 November, resume audit. Demo settings (272), HUD (189), office (531), testbed (6), and prologue/office scene text (232) have no missing, stale, or non-ok English in the live database. This verifies the assigned string groups. Runtime coverage also depends on other namespaces used by the build. All five testbed labels and the Affairs queue heading are mirrored at their accepted revisions.
+
 FIVE REPLACEMENTS COMPLETE:18 November after02:07UTC gate,5 paid calls,
 no failure/unknown usage. Current matching90/232, remaining142;95 historical
 billed calls including5 superseded pairs. New cost$0.0100155, pass$0.1528885
