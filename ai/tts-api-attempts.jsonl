@@ -195,3 +195,8 @@
 {"kind": "request", "model": "gemini-3.8-flash-tts", "key": "en:scene.office_intro.charts.acting", "started_utc": "2026-11-17T02:06:37.955611+00:00"}
 {"kind": "request", "model": "gemini-3.8-flash-tts", "key": "en:scene.office_intro.clock.villager", "started_utc": "2026-11-17T02:06:48.056098+00:00"}
 {"kind": "request", "model": "gemini-3.8-flash-tts", "key": "en:scene.office_intro.clock.worker", "started_utc": "2026-11-17T02:06:58.156723+00:00"}
+{"kind": "request", "model": "gemini-3.8-flash-tts", "key": "en:scene.start.prologue.worker.t3", "started_utc": "2026-11-18T03:10:09.442602+00:00"}
+{"kind": "request", "model": "gemini-3.8-flash-tts", "key": "en:scene.start.prologue.student.t3", "started_utc": "2026-11-18T03:10:19.544453+00:00"}
+{"kind": "request", "model": "gemini-3.8-flash-tts", "key": "en:scene.start.prologue.dealer.t3", "started_utc": "2026-11-18T03:10:29.645142+00:00"}
+{"kind": "request", "model": "gemini-3.8-flash-tts", "key": "en:scene.start.prologue.acting.t3", "started_utc": "2026-11-18T03:10:39.746086+00:00"}
+{"kind": "request", "model": "gemini-3.8-flash-tts", "key": "en:scene.start.prologue.old_fighter.t8", "started_utc": "2026-11-18T03:10:49.846448+00:00"}
