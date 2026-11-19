@@ -1,6 +1,6 @@
 {
   "task": 1829,
-  "status": "232_raw_takes_complete_pending_mastering",
+  "status": "232_current_raw_takes_pending_mastering",
   "model": "gemini-3.8-flash-tts",
   "pricing_verified_on": "2026-11-17",
   "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing",
@@ -32,7 +32,7 @@
   "authority": "rpg-boss-english-voice-price-1829-2026-11-17 [2]",
   "run_location": "VM network calls approved by boss; no long audio processing here; xeon17 or locked Windows for processing, m22 in repair",
   "first_window_completed": 90,
-  "known_spend_usd": "0.3478230",
+  "known_spend_usd": "0.3496060",
   "remaining_takes": 0,
   "hearing_required_before_next_window": false,
   "hearing_acceptance_source": "boss-rpg-voice-scope-and-title-2026-11-17 [1,2]",
@@ -43,5 +43,6 @@
   "replacement_authority": "boss-rpg-ending-strings-2026-11-18 [5]",
   "replacement_scope": "Five replacement takes, not new lines; old costs remain inside the same $0.60 cap.",
   "replacement_spend_usd": "0.0100155",
-  "latest_window_result": "ai/english-voice-final-window-1829-2026-11-19.json"
+  "latest_window_result": "ai/english-voice-final-window-1829-2026-11-19.json",
+  "latest_take_change_record": "ai/english-voice-oldfighter-t8-1829-2026-11-19.json"
 }

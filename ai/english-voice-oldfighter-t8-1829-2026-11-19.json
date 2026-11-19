@@ -1,5 +1,5 @@
 {
-  "status": "timing_verified_awaiting_english_registration",
+  "status": "current_raw_pending_mastering",
   "authority": "boss-rpg-1829-oldfighter-t8-2026-11-19 [1]",
   "source_revision": 1,
   "voice": "Algenib",
@@ -17,5 +17,13 @@
   "batch_cost_usd": "0.0017830",
   "pass_cost_usd": "0.3496060",
   "project_spend_usd": "0.9611575",
-  "project_estimated_balance_usd": "7.0388425"
+  "project_estimated_balance_usd": "7.0388425",
+  "promotion_authority": "boss-rpg-1829-oldfighter-t8-2026-11-19 [3]",
+  "english_status_at_promotion": "ok",
+  "current_wav": "voice/draft/en-demo-1829-20261117/scene.start.prologue.old_fighter.t8.wav",
+  "current_receipt": "voice/draft/en-demo-1829-20261117/scene.start.prologue.old_fighter.t8.json",
+  "superseded_raw_directory": "voice/draft/en-demo-1829-20261117/superseded-oldfighter-t8-20261119",
+  "current_take_count": 232,
+  "superseded_take_count": 6,
+  "billable_interactions": 238
 }
