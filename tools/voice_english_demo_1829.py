@@ -217,8 +217,10 @@ def record(row):
 def summary():
     takes = receipts()
     superseded = [json.loads(path.read_text()) for path in sorted(
-        (DEST / 'superseded-kolkhoz-20261118').glob('scene.*.json'))]
-    billable = takes + superseded
+        DEST.glob('superseded-*/scene.*.json'))]
+    candidates = [json.loads(path.read_text()) for path in sorted(
+        DEST.glob('candidate-*/scene.*.json'))]
+    billable = takes + superseded + candidates
     unique = [r.get('interaction_id') for r in billable if r.get('interaction_id')]
     if len(unique) != len(set(unique)):
         raise RuntimeError('Duplicate interaction IDs in English receipts')
@@ -228,7 +230,7 @@ def summary():
         unresolved_usage=sum(r.get('estimated_usd_from_usage') is None for r in billable),
         estimated_usd_from_usage=sum(r.get('estimated_usd_from_usage') or 0 for r in billable),
         cap_usd=CAP, status='draft_not_hearing_accepted', takes=takes,
-        superseded_takes=superseded)
+        superseded_takes=superseded, candidate_takes=candidates)
     if DEST.exists():
         (DEST / 'manifest.json').write_bytes(encode(value))
     return value

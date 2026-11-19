@@ -41,7 +41,7 @@ def main():
         exact_copy(destination / path.name, raw)
     manifest = summary()
     manifest.update(unique_interactions=len({
-        t['interaction_id'] for t in manifest['takes'] + manifest['superseded_takes']
+        t['interaction_id'] for t in manifest['takes'] + manifest['superseded_takes'] + manifest['candidate_takes']
         if t.get('interaction_id')}), source_working_copy=str(WORK), canonical_originals=str(DEST))
     (DEST/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
     print(f"Preserved in RPG voice tree: {manifest['completed']} English takes, {manifest['unique_interactions']} interactions, unresolved {manifest['unresolved_usage']}")

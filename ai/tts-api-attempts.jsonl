@@ -342,3 +342,4 @@
 {"kind": "request", "model": "gemini-3.8-flash-tts", "key": "en:scene.office_intro.window.old_fighter", "started_utc": "2026-11-19T13:18:23.122790+00:00"}
 {"kind": "request", "model": "gemini-3.8-flash-tts", "key": "en:scene.office_intro.window.dealer", "started_utc": "2026-11-19T13:18:33.223342+00:00"}
 {"kind": "request", "model": "gemini-3.8-flash-tts", "key": "en:scene.office_intro.window.acting", "started_utc": "2026-11-19T13:18:43.324050+00:00"}
+{"kind": "request", "model": "gemini-3.8-flash-tts", "key": "en:scene.start.prologue.old_fighter.t8", "started_utc": "2026-11-19T14:03:27.909751+00:00"}

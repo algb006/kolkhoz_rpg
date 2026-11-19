@@ -1,0 +1,21 @@
+{
+  "status": "timing_verified_awaiting_english_registration",
+  "authority": "boss-rpg-1829-oldfighter-t8-2026-11-19 [1]",
+  "source_revision": 1,
+  "voice": "Algenib",
+  "key": "scene.start.prologue.old_fighter.t8",
+  "candidate_text": "Church barely stands. Not the new kolkhoz I pictured. We'll find quarters.",
+  "candidate_duration_seconds": "7.88",
+  "russian_duration_seconds": "8.41",
+  "previous_english_duration_seconds": "11.56",
+  "theme_overlap_seconds": "0",
+  "candidate_wav": "voice/draft/en-demo-1829-20261117/candidate-oldfighter-t8-20261119/scene.start.prologue.old_fighter.t8.wav",
+  "candidate_receipt": "voice/draft/en-demo-1829-20261117/candidate-oldfighter-t8-20261119/scene.start.prologue.old_fighter.t8.json",
+  "candidate_sha256": "0680f07347691f437e8e0004005f09d7c4a1dcc1c0c2a2fd03663125913b0fad",
+  "previous_interaction_id": "v1_ChdPUmY5YXJ5Qk80SGN4czBQMzluYTJBNBIXT1JmOWFyeUJPNEhjeHMwUDM5bmEyQTQ",
+  "candidate_interaction_id": "v1_ChZzQUhfYXJEZUItdVZrZFVQMXF1V2FREhZzQUhfYXJEZUItdVZrZFVQMXF1V2FR",
+  "batch_cost_usd": "0.0017830",
+  "pass_cost_usd": "0.3496060",
+  "project_spend_usd": "0.9611575",
+  "project_estimated_balance_usd": "7.0388425"
+}
