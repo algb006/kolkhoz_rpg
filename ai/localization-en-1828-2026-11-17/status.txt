@@ -1,3 +1,13 @@
+19 November. English raw recording complete for all 232 approved prologue
+and office scene lines. The final 57 requests cost $0.0804790. Total voice
+pass $0.3478230 against the $0.60 cap. The 237 unique paid interactions count
+the five superseded takes once. Usage is accounted for in all receipts.
+All 232 current WAVs verified against their receipts and approved English.
+Total raw duration 1,491.80 seconds. Mono 24 kHz PCM16.
+Canonical pairs and manifest: voice/draft/en-demo-1829-20261117/.
+Current raws go to sound for mastering, then UE for placement. Superseded
+takes remain in the separate archive. See ai/english-voice-final-window-1829-2026-11-19.json.
+
 18 November, English voice after restart. The available 85 requests produced
 85 matching raw office takes. All 232 transcripts still match approved English.
 Current raws 175/232, 57 pending. Pass spend $0.2673440, remaining cap $0.3326560.
