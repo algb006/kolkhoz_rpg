@@ -1,0 +1,15 @@
+[
+  {
+    "string_id": 20921,
+    "full_key": "ui.office.dayoff.free_left",
+    "namespace": "ui.office",
+    "key": "dayoff.free_left",
+    "kind": "body",
+    "origin": "hand",
+    "plural": 0,
+    "deprecated": 0,
+    "rev": 3,
+    "source_text": "Без доп. штрафа: {left} из {total}. Отдых за день теряется.",
+    "max_len": 360
+  }
+]
