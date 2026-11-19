@@ -1,0 +1,2 @@
+namespace	key	rev	ru	en	kind	max_len	status
+ui.office	dayoff.free_left	1	Без доп. штрафа: {left} из {total}. Отдых за день теряется.	No extra penalty: {left} of {total} left. Sunday rest is lost.	body	64	draft
