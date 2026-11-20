@@ -1,0 +1,8 @@
+namespace	key	rev	ru	en	kind	max_len	status
+ui.office	clerk.vacant.never		Учётчик ещё не назначен.	A tally clerk has yet to be appointed.	body	96	draft
+ui.office	clerk.vacant.died		Учётчик умер. Должность свободна.	The tally clerk has died. The post is vacant.	body	96	draft
+ui.office	clerk.vacant.left		Учётчик уехал из села. Должность свободна.	The tally clerk has left the village. The post is vacant.	body	96	draft
+ui.office	clerk.vacant.unit_gone		Учётчику негде работать. Склада при церкви больше нет.	The tally clerk has nowhere to work. The church store is gone.	body	96	draft
+ui.office	clerk.auto_appoint		Если никого не назначить, первого кандидата назначат приказом. Дата назначения — {date}.	If no one is appointed, the first candidate will be appointed by order. Appointment date: {date}.	body	160	draft
+ui.office	clerk.lead		Наряды на сегодня. Составитель — учётчик {name}.	Today’s work assignments were drawn up by tally clerk {name}.	body	160	draft
+ui.office	clerk.order_line		Приказ № {n}. Назначение учётчика. На должность — {name}.	Order No. {n}. Appoint {name} as tally clerk.	body	160	draft
