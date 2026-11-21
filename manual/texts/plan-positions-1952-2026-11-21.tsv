@@ -15,5 +15,5 @@ ui.office	refusal.deliver_not_a_position		Этого продукта нет в 
 ui.office	order.deliver_request		В заявку району	Request district pickup	button	24	draft
 ui.office	order.deliver_own_carts		Своими подводами	Deliver with own carts	button	24	draft
 ui.office	plan.request.line		В заявке: {product}, {t} т	Requested: {product}, {t} t	body	144	draft
-ui.office	plan.request.pickup		Район заберёт {date}. В распутицу — не раньше {mud_date}.	The district collects on {date}. On muddy roads, no earlier than {mud_date}.	body	160	draft
+ui.office	plan.request.pickup		Сбор районом — {date}. В распутицу самый ранний срок — {mud_date}.	District pickup — {date}. Earliest pickup on muddy roads — {mud_date}.	body	160	draft
 alarm	harvest_will_not_fit.advice.deliver_above_plan		Сдать сверх плана: {product}, {t} т	Deliver above plan: {product}, {t} t	button	96	draft
