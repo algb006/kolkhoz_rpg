@@ -1,0 +1,4 @@
+namespace	key	rev	ru	en	kind	max_len	status
+ui.office	works.self.for_tomorrow		Ваши наряды вступят в силу завтра утром.	Your assignments take effect tomorrow morning.	body	96	draft
+ui.office	works.picker.on_post		На должности: {post} ({unit})	In post: {post} ({unit})	label	144	draft
+ui.office	works.picker.free_post_first		Сначала освободите жителя от должности.	Release the resident from the post first.	tooltip	96	draft
