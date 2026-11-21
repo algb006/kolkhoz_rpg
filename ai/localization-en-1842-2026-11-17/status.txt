@@ -1,74 +1,18 @@
-NAMESPACE PRIORITY: boss-rpg-1842-namespace-order-2026-11-18 [1].
-#1828 demo and #1829 voice remain ahead of this game catch-up.
-Subsequent roughly300-row batches follow visible runtime frequency:
-1. ui.common and remaining HUD words.
-2. feed / event / alarm (event strip and lamps).
-3. order (orders window).
-4. ui.people / ui.store / ui.build.
-5. signal / resource / livestock.
-6. hint / quest / dialogue last; the 2 October quest/hint stop remains in force.
-Apply the binding vocabulary recorded below. This is a translation priority,
-not permission to unfreeze quests/hints, add mechanics or add voiced lines.
-Owner's 9-of-36 namespace observation is receipt context, not a fresh coverage
-measurement by RPG; measure live missing/stale rows before exporting a batch.
+#1842. Current handoff
 
-UPDATE: owner replies [2–3], rpg-boss-1842-glossary-batch01-2026-11-17.
-Both holds resolved: work_order Russian accepted at actual rev4; broad night
-sideline retains poaching and moonshine, distinct from the narrower order.
-Support proofread all67 glossary rows plus demo catchup07. All are now ok in
-shared strings.db; the11 support fixes are mirrored in local delivery sheets.
-Batch02 contains2 already imported/accepted rows, NOT a reimport request.
-Earlier hold and proposed Shadow producer notes below are historical.
+Use the live missing/stale English inventory when starting a batch.
+missing-at-receipt.json is the historical 17 November baseline. The 67
+then-missing glossary explanations were accepted across batches 01 and 02.
+The name namespace's two originally missing rows are common forms of
+address, citizen and comrade. Check their current status before delivery.
 
-Binding wording for later batches:
-цеховик = Underground entrepreneur (including perk.shadow.name).
-распечатать фонд = release; order.unseal_fund/action_unseal_fund: Release …
-Разметить порубку = Stake logging plot (ui.office.order.mark_felling, max24).
-на карандаше = under scrutiny (refusal and closed-trade reputation labels).
-позиция плана = plan item; наряд = assignment; приказ = order.
-добыча in night trade = catching; к повороту года = by the turn of the year.
+Namespace order from boss-rpg-1842-namespace-order-2026-11-18 [1]:
+ui.common and remaining HUD; feed/event/alarm; order; ui.people/ui.store/ui.build;
+signal/resource/livestock; hint/quest/dialogue last. Recheck the current
+queue and live coverage before choosing the next batch.
 
-Priority remains #1828/#1829 before later #1842 namespaces. No paid calls.
-
-HISTORICAL RECEIPT AND FIRST HANDOFF:
-
-Game English catch-up #1842 — 2026-11-17
-
-Authority: boss-rpg-1842-game-strings-en-2026-11-17 [1]. Queue after current
-#1828/#1829, no priority bypass. No API calls, speech, shared DB writes or
-mechanics changes. Game beyond the prologue/office is text only.
-
-Read-only missing-at-receipt inventory: exactly2,543 active rows without en,
-grouped by namespace in missing-at-receipt.json. All16 registered term rows
-have English already. Namespace glossary is the PLAYER word explanations,
-not another unpaid term_translation batch. Its67 rows lack English.
-
-Established demo corpus (ui.settings/ui.hud/ui.office and prologue+office
-intro scene prefixes): three missing rows, zero stale en. Demo batch07 has
-those3 plus a live accepted works.summary_lead rev3 mirror (not a fourth gap).
-Checker now has an explicit newer-rev correction, preserving earlier history.
-
-Actual source binding adds at least four shared glossary targets on office
-surfaces: raizo, stock_billet, goods_loan, reputation, per game-1788 Source/
-Kolkhoz/Private/KolkhozGlossary.cpp. This is not a claim every surface was
-observed in a native demo, or that only7 rows in all runtime namespaces lack
-en. Complete runtime coverage needs the game/ue census; many unit/resource/
-avatar names also belong to gameplay namespaces, not the initial demo list.
-
-First available shared glossary batch:65 rows, one namespace, draft only,
-with exact source revs/params/limits. Two source/term-owner holds are explicit
-in game-glossary-held TSV: work_order still promises an unappointed clerk;
-night_trade is broadly poaching+moonshine in Russian, while a specific order
-has the accepted narrower moonshine-trade label. Do not silently fix Russian
-or force that narrow label onto a broader definition. Proposals are review
-material for boss; no new mechanic or imported term is claimed.
-
-Shadow producer for цеховик is a proposed glossary rendering for support,
-not an already approved global term; reuse the decision before later perk
-translations. Note that namespace name has two missing COMMON addresses
-(citizen/comrade), not resident proper-name dictionary rows; do not blindly
-skip them as names or transliterate residents by hand.
-
-After this small demo/shared-word handoff, later namespace batches (~300)
-stay behind the current higher-priority work. Voice is90/232, manner accepted,
-continuation not before18 Nov02:07UTC and within the existing quota/cap.
+Use the registered terms and accepted glossary text for bindings. The
+contextual decisions from rpg-boss-1842-glossary-batch01-2026-11-17 [2–3]
+are the broad “Night sideline” glossary vs. the narrower moonshine order,
+“catching” for добыча in that context, and “under scrutiny” in the two
+reputation refusal labels. Check the live text for later review changes.
