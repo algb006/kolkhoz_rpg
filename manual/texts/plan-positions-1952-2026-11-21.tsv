@@ -1,0 +1,15 @@
+namespace	key	rev	ru	en	kind	max_len	status
+ui.office	plan.not_announced		Район ещё не объявил план на этот год.	The district has yet to announce this year’s plan.	body	96	draft
+ui.office	plan.deadline		Срок сдачи — {date}.	Delivery deadline — {date}.	label	64	draft
+ui.office	plan.position.line		{product}: план {due_t} т, сдано {delivered_t} т	{product}: plan {due_t} t, delivered {delivered_t} t	body	160	draft
+ui.office	plan.position.met		позиция выполнена	plan item met	label	48	draft
+ui.office	plan.position.short		осталось сдать {short_t} т	{short_t} t left to deliver	label	64	draft
+ui.office	plan.position.over		сверх плана {over_t} т	{over_t} t above plan	label	64	draft
+ui.office	plan.position.in_stores		на складах {stores_t} т	{stores_t} t in storehouses	label	64	draft
+ui.office	plan.outside.line		{product}: сдано {t} т без позиции в плане	{product}: {t} t delivered without a plan item	body	144	draft
+ui.office	order.deliver_above_plan		Сдать сверх плана	Deliver above plan	button	24	draft
+ui.office	plan.above.amount		Сверх плана — {t} т	Above plan — {t} t	label	64	draft
+ui.office	plan.above.note		За сдачу сверх плана район начисляет баллы лимита.	The district credits allocation points for deliveries above plan.	body	120	draft
+ui.office	refusal.deliver_nothing_owed		По этой позиции больше сдавать не нужно.	Nothing more is due on this plan item.	tooltip	96	draft
+ui.office	refusal.deliver_none_in_stores		На складах нет: {product}.	None in storehouses: {product}.	tooltip	120	draft
+ui.office	refusal.deliver_not_a_position		Этого продукта нет в плане сдачи.	The district’s plan has no item for this product.	tooltip	96	draft
