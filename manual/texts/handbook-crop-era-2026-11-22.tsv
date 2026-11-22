@@ -1,2 +1,5 @@
 namespace	key	rev	ru	en	kind	max_len	status
 ui.office	handbook.crop.later_era		({era})	({era})	label	64	draft
+era	era.short.era_1		Эпоха I	Epoch I	label	16	draft
+era	era.short.era_2		Эпоха II	Epoch II	label	16	draft
+era	era.short.era_3		Эпоха III	Epoch III	label	16	draft
