@@ -1,0 +1,3 @@
+namespace	key	rev	ru	en	kind	max_len	status
+ui.settings	load.panel.no_image		Снимка нет	No screenshot	label	48	draft
+ui.settings	load.panel.small		Записано {written} · {difficulty} · версия {version} · в игре {hours} ч	Saved {written} · {difficulty} · version {version} · {hours} h played	body	192	draft
