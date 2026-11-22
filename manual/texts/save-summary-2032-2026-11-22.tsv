@@ -1,0 +1,33 @@
+namespace	key	rev	ru	en	kind	max_len	status
+ui.common	save.summary.era		{epoch} · {met} из {of}	{epoch} · {met} of {of}	body	96	draft
+ui.common	save.summary.people		{residents} {residents}|plural(one=житель,few=жителя,many=жителей,other=жителя) · {households} {households}|plural(one=двор,few=двора,many=дворов,other=двора)	{residents} {residents}|plural(one=resident,other=residents) · {households} {households}|plural(one=household,other=households)	body	240	draft
+ui.common	save.summary.mood		{rung} · {families} {families}|plural(one=семья,few=семьи,many=семей,other=семьи)	{rung} · {families} {families}|plural(one=family,other=families)	body	144	draft
+ui.common	save.summary.food		Хлеба до {month}	Bread lasts until {month}	body	72	draft
+ui.common	save.summary.food.enough		Хлеба хватает	Enough bread	body	48	draft
+ui.common	save.summary.feed		Корма до {month}	Feed lasts until {month}	body	72	draft
+ui.common	save.summary.feed.enough		Корма хватает	Enough feed	body	48	draft
+ui.common	save.summary.concern		{alarm}	{alarm}	body	240	draft
+ui.common	save.summary.concern.red		Красных тревог: {red}	Red alarms: {red}	body	64	draft
+ui.common	save.summary.season		{phase} · {fields} {fields}|plural(one=поле,few=поля,many=полей,other=поля)	{phase} · {fields} {fields}|plural(one=field,other=fields)	body	128	draft
+ui.hud	month.genitive.1		января	January	label	32	draft
+ui.hud	month.genitive.2		февраля	February	label	32	draft
+ui.hud	month.genitive.3		марта	March	label	32	draft
+ui.hud	month.genitive.4		апреля	April	label	32	draft
+ui.hud	month.genitive.5		мая	May	label	32	draft
+ui.hud	month.genitive.6		июня	June	label	32	draft
+ui.hud	month.genitive.7		июля	July	label	32	draft
+ui.hud	month.genitive.8		августа	August	label	32	draft
+ui.hud	month.genitive.9		сентября	September	label	32	draft
+ui.hud	month.genitive.10		октября	October	label	32	draft
+ui.hud	month.genitive.11		ноября	November	label	32	draft
+ui.hud	month.genitive.12		декабря	December	label	32	draft
+signal	satisfaction.poor.band	1	живут тяжело	living in hardship	name	48	draft
+signal	satisfaction.scraping.band	1	перебиваются	getting by	name	48	draft
+signal	satisfaction.even.band	1	живут ровно	doing all right	name	48	draft
+signal	satisfaction.well.band	1	живут хорошо	living well	name	48	draft
+catalog	field_phase.plowing.name	1	Вспашка	Plowing	name	48	draft
+catalog	field_phase.harrowing.name	1	Боронование	Harrowing	name	48	draft
+catalog	field_phase.sowing.name	1	Посев	Sowing	name	48	draft
+catalog	field_phase.growing.name	1	Рост	Growing	name	48	draft
+catalog	field_phase.harvest.name	1	Уборка	Harvesting	name	48	draft
+catalog	field_phase.idle.name	1	Простой	Idle	name	48	draft
