@@ -1,0 +1,7 @@
+namespace	key	rev	ru	en	kind	max_len	status
+ui.office	economy.rotation		Севооборот на три года	Three-year crop rotation	title	64	draft
+ui.office	rotation.note		Задайте полю очередь культур на три года. Люди сами пашут, сеют и убирают в свои сроки.	Set the field’s crop sequence for three years. Workers plow, sow and harvest in their season.	body	160	draft
+ui.office	rotation.year		{year} год	{year}	label	32	draft
+ui.office	rotation.field		{name} · {area} га	{name} · {area} ha	label	144	draft
+ui.office	rotation.fallow		Пар	Fallow	label	32	draft
+ui.office	rotation.pick		Что сеять в {year} году?	What to sow in {year}?	label	64	draft
