@@ -1,0 +1,131 @@
+namespace	key	rev	en
+alarm	demolition_stock_waiting.tip	1	Salvaged materials need storage space. Clear room in a suitable store or haul away some stock, then collect the materials from the site.
+alarm	demolition_stock_waiting.title	1	Salvage awaiting pickup
+alarm	family_going_hungry.action_fishing	1	View fishing
+alarm	family_going_hungry.action_lower_norm	1	Lower the ration allowance
+alarm	family_going_hungry.action_slaughter	1	View autumn slaughter
+alarm	family_going_hungry.action_unseal_fund	1	Open the reserve
+alarm	family_going_hungry.forecast_tip	3	This is a forecast. Check the reserves and the ration allowance. If autumn slaughter or fishing is available, look into those options too.
+alarm	family_going_hungry.forecast_title	2	{month}: bread short for {families} {families}|plural(one=family,other=families)
+alarm	family_going_hungry.tip	1	Restore supplies or issue rations. Rations keep a family fed but weaken the link between work and pay. The chairman has to decide whether to issue them.
+alarm	family_going_hungry.title	1	A family is going hungry
+alarm	felling_unreachable.tip	1	Carts cannot reach the logging plot and return in daylight. Mark out a closer plot or wait for longer days.
+alarm	felling_unreachable.title	1	Logging plot too far
+alarm	floodplain_fodder_ahead.advice.cart_home	1	When hauling in winter, bring home the floodplain haystacks first.
+alarm	floodplain_fodder_ahead.text	1	{tonnes} t on the floodplain. About {days} {days}|plural(one=day,other=days) until flooding.
+alarm	floodplain_fodder_ahead.title	1	Flood threatens hay
+alarm	goods_loan_owed.tip	4	At year-end, repay the loan out of what is left after plan deliveries and seed are covered. Unpaid debt carries over with a surcharge of one fifth, or less if your reputation is good.
+alarm	goods_loan_owed.title	1	District loan unpaid
+alarm	harvest_waiting_on_field.tip	1	Haul the crop in. It will be picked up automatically once storage space is available. Until then it stays out in the open.
+alarm	harvest_waiting_on_field.title	1	Harvest still in the field
+alarm	harvest_will_not_be_gathered.tip	1	The field is ripe and short of harvest workers. Snow will take what is left. Call an all-hands rush for the harvest by pulling people off other work.
+alarm	harvest_will_not_be_gathered.title	1	Harvest at risk before snow
+alarm	harvest_will_not_fit.straw_tip	2	Set up a straw stack before harvest.
+alarm	harvest_will_not_fit.tip	4	Before harvest, build a granary for grain or set up a storage clamp by the field for potatoes and vegetables.
+alarm	harvest_will_not_fit.title	1	Harvest won't fit in storage
+alarm	herd_aging.tip	1	The horses are getting old and there are no foals. The summer yard needs a roof for breeding. Upgrade the horse yard to a stable or buy horses from the district before you run short of plow horses.
+alarm	herd_aging.title	1	Horses aging without a stable
+alarm	herd_cold_ahead.advice.warm_yard	3	Upgrade the livestock yard to an Insulated livestock yard before frost.
+alarm	herd_cold_ahead.text	1	First frost in {days} {days}|plural(one=day,other=days). No warm shelter for {heads} {heads}|plural(one=animal,other=animals).
+alarm	herd_cold_ahead.tip	3	Some of the herd will have no warm shelter when frost comes. Upgrade to an Insulated livestock yard. Pause other construction if it is pulling workers away.
+alarm	herd_cold_ahead.title	1	Not enough warm shelter
+alarm	herd_freezing.advice.warm_yard	1	Upgrade to an Insulated livestock yard. You can build it in winter.
+alarm	herd_freezing.text	1	Out in the cold: {heads} {heads}|plural(one=animal,other=animals).
+alarm	herd_freezing.tip	3	Cold reduces milk yield and pulling power. Livestock left in the cold yard will start dying. Upgrade to an Insulated livestock yard. You can build it in winter.
+alarm	herd_freezing.title	1	Herd is freezing
+alarm	herd_hay_short_ahead.action.lift_rush	1	End all-hands rush
+alarm	herd_hay_short_ahead.advice.buy_feed	3	Order feed with your district allocation: {resource}, {tonnes} t for {cost} allocation points.
+alarm	herd_hay_short_ahead.advice.cut_hay	4	Assign people to Harvesting in the meadows.
+alarm	herd_hay_short_ahead.advice.declare_day_working	1	Today is a dry day off. You can make it a workday for haymaking, at the cost of people's rest.
+alarm	herd_hay_short_ahead.advice.declare_day_working_dated	1	You can make {weekday} a workday for haymaking if the morning is dry. People will lose their day off.
+alarm	herd_hay_short_ahead.advice.granary_for_feed	1	Build a granary for compound feed. The district will only accept an allocation order if there is room to store it.
+alarm	herd_hay_short_ahead.advice.lift_rush	1	The all-hands rush on haymaking has lasted four days. You can end it.
+alarm	herd_hay_short_ahead.advice.none	2	The forecast still shows a shortage with the feed due to arrive.
+alarm	herd_hay_short_ahead.advice.none_during_cut	1	Haymaking is underway. A hay shortage is still forecast. There is no further haymaking advice for today.
+alarm	herd_hay_short_ahead.advice.reduce_herd	5	Send {heads} {heads}|plural(one=animal,other=animals) to the district to cut feed use. The oldest animals go. For horses, it is working animals that go.
+alarm	herd_hay_short_ahead.advice.reduce_herd_dated	3	After haymaking, in {days} {days}|plural(one=day,other=days), you can send {heads} {heads}|plural(one=animal,other=animals) to the district. The oldest animals go. For horses, it is working animals that go.
+alarm	herd_hay_short_ahead.advice.reduce_herd_dated_weekday	3	After haymaking, on {weekday}, you can send {heads} {heads}|plural(one=animal,other=animals) to the district. The oldest animals go. For horses, it is working animals that go.
+alarm	herd_hay_short_ahead.advice.tolerated	1	The forecast shows a short spell of underfeeding, with no deaths expected. You can hold off on buying feed or sending animals away.
+alarm	herd_hay_short_ahead.text	4	Hay first runs short in {days} {days}|plural(one=day,other=days). The shortage before fresh-cut hay comes in is {tonnes} t.
+alarm	herd_hay_short_ahead.text.below_floor_only	1	Livestock short of hay before grazing: {heads}. Compound feed and straw cannot cover the gap.
+alarm	herd_hay_short_ahead.text_dated	2	Hay will last {days} {days}|plural(one=day,other=days), until {month}. The shortage before fresh-cut hay comes in is {tonnes} t.
+alarm	herd_hay_short_ahead.title	2	Feed may run short
+alarm	herd_starving.advice.bring_feed	1	Bring in suitable feed or send part of the herd to the district.
+alarm	herd_starving.advice.unseal_fund	1	Open the reserve. It holds feed suitable for the herd.
+alarm	herd_starving.tip	1	Bring in feed or reduce the herd. Underfed livestock give no milk and do not breed.
+alarm	herd_starving.title	1	Herd is underfed
+alarm	herd_without_stable.tip	3	The herd is aging. The stallion needs shelter for breeding. Before year three, upgrade the horse yard to tier two, a stable. A groom can tend the horses, but they still need a roof.
+alarm	herd_without_stable.title	2	Herd shrinking without a stable
+alarm	housing_short.advice.house_near_collapse	1	A house is about to collapse and the family has nowhere to move. Start building a house at the suggested site.
+alarm	housing_short.advice.newcomers	1	People are ready to move here and need somewhere to live. Build barracks for newcomers.
+alarm	housing_short.advice.weddings	1	A wedding is waiting on housing. Start building houses at the suggested sites.
+alarm	housing_short.text	3	{homes} {homes}|plural(one=house,other=houses) needed.
+alarm	housing_short.text_barrack	1	{barrack_places} {barrack_places}|plural(one=place,other=places) needed in the barracks.
+alarm	housing_short.text_both	1	Needed: {homes} {homes}|plural(one=house,other=houses) and {barrack_places} {barrack_places}|plural(one=place,other=places) in the barracks.
+alarm	housing_short.tip	1	A housing shortage delays weddings, keeps newcomers away and leaves families in unsafe houses. Start building houses at the suggested sites and build barracks for newcomers.
+alarm	housing_short.title	1	Not enough housing
+alarm	logistics_construction_cause	1	At construction: {count} {count}|plural(one=cart,other=carts).
+alarm	logistics_hay_cause	1	Hauling hay: {count} {count}|plural(one=cart,other=carts).
+alarm	logistics_late.advice.declare_day_working	2	For an urgent haul, you can choose “Make Sunday a workday.” People will lose their day off.
+alarm	logistics_late.text	1	Waiting for a cart: {hours} {hours}|plural(one=hour,other=hours).
+alarm	logistics_late.tip	2	A load is waiting for a cart. To move it up or down the hauling queue, choose “Change priority” on the load.
+alarm	logistics_late.tip.day_off	1	The carts are idle on the day off. The load is waiting to be hauled.
+alarm	logistics_late.tip.working	1	Load: {cargo}. Carts: {total} total. Meadows {hay}, construction {site_supply}, fields {fields}, plowing and harrowing {plough}, passengers {peoples_cart}, other loads {other_load}, free {free}.
+alarm	logistics_late.title	1	Hauling delayed
+alarm	logistics_no_harness_cause	1	Without harness: {count} {count}|plural(one=horse,other=horses).
+alarm	meadow_uncut_before_snow.text	1	Still to mow before snow: {hectares} {hectares}|plural(one=hectare,other=hectares).
+alarm	meadow_uncut_before_snow.tip	2	Cut the grass before snow. Cut hay spoils in the meadow in autumn, so haul it to a stack or under cover.
+alarm	meadow_uncut_before_snow.title	1	Grass uncut before snow
+alarm	milk_all_to_debt.tip	1	All morning milk goes to the district against the debt. None is left for households. Check the year book. Protect the herd and improve feeding to raise milk yield. You can discuss the plan item with the district.
+alarm	milk_all_to_debt.title	1	Milk goes to repay debt
+alarm	plan_position_short.tip	2	Cover the shortfall on this plan item by year-end. Set aside produce for the district's next collection.
+alarm	plan_position_short.title	1	Plan item short
+alarm	plan_position_uncovered.tip	1	Put the crop in rotation on your best fields this year. Sow at least the area the district expects for this plan item. The alert clears when there is enough land. Check the field itself for its expected yield.
+alarm	plan_position_uncovered.title	1	Too little land for the plan
+alarm	planting_unreachable.tip	1	The crew cannot walk to the planting area and back in daylight. Plant closer to housing or wait for longer days.
+alarm	planting_unreachable.title	1	Planting area too far
+alarm	processing_stopped.tip	1	Open the idle workshop to see what it needs. Restore its inputs, workers or room for finished products, depending on what stopped work.
+alarm	processing_stopped.title	1	Processing has stopped
+alarm	reserve_full_nothing_to_eat.tip	1	People are close to going hungry while grain sits in reserve. You can open the reserve. Any seed eaten now will be missing at spring sowing.
+alarm	reserve_full_nothing_to_eat.title	1	Food locked in reserves
+alarm	seed_area_short.text	1	{crop}: not enough seed for {hectares} {hectares}|plural(one=hectare,other=hectares). We will sow less.
+alarm	seed_area_short.tip	1	The seed loan has already been issued. The district will lend no more this season. Set aside more seed in autumn for next time or plan fewer fields for this crop.
+alarm	seed_area_short.title	1	Seed shortage cuts sowing
+alarm	seed_has_no_room.tip	3	Next season's seed is still in the field and other crops have filled storage. Grain needs a granary. Potatoes need a vegetable storehouse or storage clamp. Build or clear space before harvest ends.
+alarm	seed_has_no_room.title	1	No room for seed
+alarm	seed_short.tip	5	Seed is short for the next sowing. Choose “Take a seed loan” or adjust the rotation to your stock. Repay one fifth extra, or less if your reputation is good. Unpaid debt grows each year.
+alarm	seed_short.title	1	Not enough seed
+alarm	site_supply_waits.advice.supply_over_fields	1	Move deliveries to this site ahead of fieldwork. That leaves fewer carts for the fields.
+alarm	site_supply_waits.tip	1	Materials are in storage. Site: {unit}. Working days without a delivery: {amount}.
+alarm	site_supply_waits.title	1	Site awaiting delivery
+alarm	site_unreachable.tip	3	Workers cannot currently get from the nearest house to the site and back in daylight. If you cannot wait for longer days, choose a site closer to housing.
+alarm	site_unreachable.title	1	Building site too far
+alarm	site_without_crew.tip	2	Assign workers to the site and keep them there while construction is underway. They do not come on their own. The alert tracks who is on site now, even if you assigned them yesterday.
+alarm	site_without_crew.title	1	Building crew needed
+alarm	site_without_materials.tip	3	Order the missing materials with your district allocation or change the construction supply queue. Work starts when materials arrive.
+alarm	site_without_materials.tip.board	1	Check the sawmill in the service yard and its stock of logs. The sawmill cuts them into boards.
+alarm	site_without_materials.tip.brick	5	In Epoch I, only the bricks already in storage are available. From Epoch II, you can order more with your allocation.
+alarm	site_without_materials.tip.clay_sand	1	Mark out a pit for clay and a shoal for sand.
+alarm	site_without_materials.tip.district_limit	1	Order this material with your district allocation.
+alarm	site_without_materials.tip.era_unavailable	1	This material is unavailable in this epoch. The site cannot be finished yet.
+alarm	site_without_materials.tip.log	1	Mark out a logging plot and assign people to cut logs.
+alarm	site_without_materials.tip.stone	5	Mark out a quarry. Stone is piled by the ruins of the count's manor.
+alarm	site_without_materials.tip.straw	1	Straw will be available after reaping. Construction has to wait until then.
+alarm	site_without_materials.title	1	Building materials short
+alarm	slaughter_waits_for_room.tip	1	Slaughter starts once there is room for the meat. Clear space in a food store or an icehouse.
+alarm	slaughter_waits_for_room.title	1	Slaughter needs storage
+alarm	sowing_will_not_fit.tip	1	More land is plowed than the crew can sow in time for the crop to ripen before snow. Put people and horses on sowing or leave the field fallow.
+alarm	sowing_will_not_fit.title	1	Sowing will run late
+alarm	sowing_window_closing.text	1	{days} {days}|plural(one=day,other=days) until the sowing deadline.
+alarm	sowing_window_closing.tip	1	Keep plowing, harrowing and sowing on schedule. Late sowing reduces the yield.
+alarm	sowing_window_closing.title	1	Sowing window closing
+alarm	store_full.tip	1	Upgrade the store or build a second one. Until then the harvest stays in the field.
+alarm	store_full.title	1	Storage is full
+alarm	team_on_hay.tip	5	Without oats, horses plow and harrow less effectively. Open the reserve if oats are set aside there. Plan more oats in next year's rotation. Use “Change priority” to move deliveries up the queue.
+alarm	team_on_hay.title	2	Horses out of oats
+alarm	too_few_horses.tip	1	There are not enough horses for the teams, so people pull the loads themselves. Buy a horse with the district allocation or cancel some assignments.
+alarm	too_few_horses.title	1	Not enough horses
+alarm	winter_crop_unsowable.tip	2	Put an early crop or fallow before the winter crop. Normally sow in August or September the year before harvest. A warm October still allows sowing at a lower yield. After October, the field stays fallow.
+alarm	winter_crop_unsowable.title	2	Winter crop after late harvest
+alarm	yard_without_groom.tip	2	Horses are kept in household yards and people spend time caring for them. Assign a groom to the horse yard to bring the herd together and free people for their own work.
+alarm	yard_without_groom.title	1	Horse yard needs a groom
