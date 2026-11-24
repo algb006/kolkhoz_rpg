@@ -1,0 +1,10 @@
+namespace	key	rev	text
+ui.hud.layer.legend	general	1	The brighter the red, the worse the problem. Pale green means all is well. The rest of the map is dimmed.
+ui.hud.layer.legend	badge.short_handed	1	Work has started, but there aren't enough hands.
+ui.hud.layer.legend	badge.idle	1	People or carts are standing idle here.
+ui.hud.layer.legend	agriculture.work	1	Green fields are on schedule. Yellow fields are behind. Red means time is running out and the harvest is at risk.
+ui.hud.layer.legend	agriculture.fertility	1	Pale color means fertile soil. The brighter the color, the more depleted the soil.
+ui.hud.layer.legend	production.stocks	1	A red storehouse is overflowing. Empty storehouses stay uncolored. Stock levels are shown in the office.
+ui.hud.layer.legend	wellbeing.satisfaction	1	Green means the family is getting by. Red means low satisfaction. The household window shows why: hunger, fatigue, crowding, or illness.
+ui.hud.layer.legend	roads_build.planning	1	Green ground is suitable for building. Red ground is blocked by a slope, water, a road, or another site. A red road is damaged.
+ui.hud.layer.legend	forest	1	Old and dead trees are highlighted. A fallen trunk icon marks a blocked route.
