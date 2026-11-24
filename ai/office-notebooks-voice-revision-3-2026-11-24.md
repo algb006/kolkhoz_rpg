@@ -1,9 +1,11 @@
 # Office notebook thoughts, rev 3
 
-Re-recording pending for both Russian and English. Use the same v2 voices.
-Eight thought keys make 16 replacement takes. The approved RU source is in
-`db/story.db` and the tracked `db/data/line.sql`. The matching EN lines are in
-`manual/texts/en/complexity-copy-2026-11-24.en.tsv`, pending shared sync and review.
+All 16 raw takes are ready for mastering in
+`/data/kolkhoz/voice/office-notebooks-rev3-20261124/manifest.json`. The raw WAVs
+and receipts have a byte-identical local copy in
+`voice/draft/office-intro/notebooks-rev3-20261124/`. Each take uses the approved
+shared rev 3 source. Proofread EN is in
+`manual/texts/en/complexity-copy-2026-11-24.en.tsv`.
 
 | Key | Voice |
 |---|---|
@@ -19,6 +21,7 @@ Eight thought keys make 16 replacement takes. The approved RU source is in
 The voiced build retains the previous takes until the replacement package.
 Those takes say the chairman still has to appoint a tally clerk and is issuing
 the assignments himself. Rev 3 says a clerk is already in post and the chairman
-may confirm the appointment or choose another candidate. Keep existing audio
-and receipts at their recorded revisions. Use the normal review and voice
-budget record for the replacement batch.
+may confirm the appointment or choose another candidate. Existing audio and
+receipts retain their recorded revisions. The WAV and text hashes match the
+16 receipts. The raw audio is mono PCM16 at 24 kHz and runs 5.76–9.08 seconds.
+Listening review, mastering and placement are pending.
