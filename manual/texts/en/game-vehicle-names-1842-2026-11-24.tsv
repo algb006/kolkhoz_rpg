@@ -1,0 +1,25 @@
+namespace	key	rev	en
+vehicle	ambulance.name	1	Ambulance
+vehicle	bicycle.name	1	Bicycle
+vehicle	brichka.name	1	Passenger cart
+vehicle	bus.name	1	Scheduled bus
+vehicle	cart.name	1	Cart
+vehicle	cesspool_truck.name	1	Septic pump truck
+vehicle	combine.name	1	Towed combine
+vehicle	combine_self.name	1	Self-propelled combine
+vehicle	fire_truck.name	1	Fire truck
+vehicle	grain_truck.name	1	Grain truck
+vehicle	horse_mower.name	1	Horse-drawn mower
+vehicle	imported_machine.name	1	Imported machinery
+vehicle	kolkhoz_bus.name	1	Kolkhoz bus
+vehicle	milking_rig.name	1	Milking equipment
+vehicle	mobile_shop.name	1	Mobile shop
+vehicle	motorcycle_sidecar.name	1	Motorcycle with sidecar
+vehicle	personal_car.name	1	Personal car
+vehicle	police_car.name	1	Police car
+vehicle	sledge.name	1	Sled
+vehicle	tanker.name	1	Tanker truck
+vehicle	tractor.name	1	Tractor
+vehicle	truck.name	1	Truck
+vehicle	uaz.name	1	UAZ
+vehicle	workshop_rig.name	1	Workshop equipment
