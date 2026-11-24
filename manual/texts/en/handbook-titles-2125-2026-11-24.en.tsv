@@ -1,0 +1,54 @@
+namespace	key	rev	text
+ui.office	handbook.tab.fields	1	Fields
+ui.office	handbook.tab.livestock	1	Livestock
+ui.office	handbook.tab.building_roads	1	Construction and roads
+ui.office	handbook.tab.people_work	1	People and work
+ui.office	handbook.tab.district	1	District
+ui.office	handbook.tab.chairman	1	Chairman
+ui.office	handbook.tab.words	1	Glossary
+ui.office	handbook.tab.agronomist	1	Agronomist's Book
+ui.office	handbook.tab.zootechnician	1	Livestock Specialist's Book
+ui.office	handbook.tab.mechanic	1	Mechanic's Book
+ui.office	handbook.section.fields_crops	1	Crops
+ui.office	handbook.section.fields_dates	1	Seasonal dates
+ui.office	handbook.section.fields_rotation	1	Crop rotation and fallow
+ui.office	handbook.section.fields_seeds	1	Seeds
+ui.office	handbook.section.fields_phases	1	Field: six phases
+ui.office	handbook.section.fields_harvest	1	Harvest and hauling
+ui.office	handbook.section.fields_alarms	1	Field alarms
+ui.office	handbook.section.livestock_animals	1	Animals
+ui.office	handbook.section.livestock_feed	1	Feed and hay
+ui.office	handbook.section.livestock_pasture	1	Pastures
+ui.office	handbook.section.livestock_alarms	1	Herd alarms
+ui.office	handbook.section.building_roads_building	1	Construction
+ui.office	handbook.section.building_roads_materials	1	Materials
+ui.office	handbook.section.building_roads_wear	1	Wear
+ui.office	handbook.section.building_roads_roads	1	Roads and footpaths
+ui.office	handbook.section.building_roads_forest	1	Forest
+ui.office	handbook.section.building_roads_alarms	1	Construction alarms
+ui.office	handbook.section.people_work_clerk	1	Tally clerk and assignments
+ui.office	handbook.section.people_work_trudodni	1	Labor-day credits and distribution
+ui.office	handbook.section.people_work_advance	1	Advance
+ui.office	handbook.section.people_work_home	1	Home and family
+ui.office	handbook.section.people_work_rest	1	Rest
+ui.office	handbook.section.people_work_alarms	1	Resident alarms
+ui.office	handbook.section.district_plan	1	Plan and allocation
+ui.office	handbook.section.district_lots	1	Supply lots
+ui.office	handbook.section.district_audit	1	Audit
+ui.office	handbook.section.district_raikom	1	District Committee
+ui.office	handbook.section.district_alarms	1	District alarms
+ui.office	handbook.section.chairman_office	1	Office
+ui.office	handbook.section.chairman_dossier	1	Personal file
+ui.office	handbook.section.chairman_dangers	1	Hazards
+ui.office	handbook.section.words_words	1	Glossary
+ui.office	handbook.page.office	1	Office
+ui.office	handbook.page.clerk	1	Tally clerk and assignments
+ui.office	handbook.page.audit	1	Audit
+ui.office	handbook.page.advance	1	Advance
+ui.office	handbook.page.raikom	1	District Committee: Under Scrutiny
+ui.office	handbook.page.roads	1	Roads and footpaths
+ui.office	handbook.page.thin_ice	1	Thin ice
+ui.office	handbook.page.livestock	1	Livestock
+ui.office	handbook.page.personal_file	1	Personal file
+ui.office	handbook.link.in_book	1	In the handbook
+ui.office	handbook.tab.empty	1	Nothing here yet

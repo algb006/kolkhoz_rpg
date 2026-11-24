@@ -1,0 +1,54 @@
+namespace	key	rev	text
+ui.office	handbook.tab.fields	1	Поля
+ui.office	handbook.tab.livestock	1	Скот
+ui.office	handbook.tab.building_roads	1	Стройка и дороги
+ui.office	handbook.tab.people_work	1	Люди и труд
+ui.office	handbook.tab.district	1	Район
+ui.office	handbook.tab.chairman	1	Председатель
+ui.office	handbook.tab.words	1	Слова
+ui.office	handbook.tab.agronomist	1	Книга агронома
+ui.office	handbook.tab.zootechnician	1	Книга зоотехника
+ui.office	handbook.tab.mechanic	1	Книга механика
+ui.office	handbook.section.fields_crops	1	Культуры
+ui.office	handbook.section.fields_dates	1	Сроки
+ui.office	handbook.section.fields_rotation	1	Севооборот и пар
+ui.office	handbook.section.fields_seeds	1	Семена
+ui.office	handbook.section.fields_phases	1	Поле: шесть фаз
+ui.office	handbook.section.fields_harvest	1	Урожай и вывоз
+ui.office	handbook.section.fields_alarms	1	Тревоги поля
+ui.office	handbook.section.livestock_animals	1	Животные
+ui.office	handbook.section.livestock_feed	1	Корма и сено
+ui.office	handbook.section.livestock_pasture	1	Пастбища
+ui.office	handbook.section.livestock_alarms	1	Тревоги стада
+ui.office	handbook.section.building_roads_building	1	Стройка
+ui.office	handbook.section.building_roads_materials	1	Материалы
+ui.office	handbook.section.building_roads_wear	1	Износ
+ui.office	handbook.section.building_roads_roads	1	Дороги и тропы
+ui.office	handbook.section.building_roads_forest	1	Лес
+ui.office	handbook.section.building_roads_alarms	1	Тревоги стройки
+ui.office	handbook.section.people_work_clerk	1	Учётчик и наряды
+ui.office	handbook.section.people_work_trudodni	1	Трудодни и выдача
+ui.office	handbook.section.people_work_advance	1	Аванс
+ui.office	handbook.section.people_work_home	1	Дом и семья
+ui.office	handbook.section.people_work_rest	1	Отдых
+ui.office	handbook.section.people_work_alarms	1	Тревоги людей
+ui.office	handbook.section.district_plan	1	План и лимит
+ui.office	handbook.section.district_lots	1	Лоты
+ui.office	handbook.section.district_audit	1	Ревизия
+ui.office	handbook.section.district_raikom	1	Райком
+ui.office	handbook.section.district_alarms	1	Тревоги района
+ui.office	handbook.section.chairman_office	1	Кабинет
+ui.office	handbook.section.chairman_dossier	1	Личное дело
+ui.office	handbook.section.chairman_dangers	1	Опасности
+ui.office	handbook.section.words_words	1	Слова
+ui.office	handbook.page.office	1	Кабинет
+ui.office	handbook.page.clerk	1	Учётчик и наряды
+ui.office	handbook.page.audit	1	Ревизия
+ui.office	handbook.page.advance	1	Аванс
+ui.office	handbook.page.raikom	1	Райком: на карандаше
+ui.office	handbook.page.roads	1	Дороги и тропы
+ui.office	handbook.page.thin_ice	1	Тонкий лёд
+ui.office	handbook.page.livestock	1	Скот
+ui.office	handbook.page.personal_file	1	Личное дело
+ui.office	handbook.link.in_book	1	в книге
+ui.office	handbook.tab.empty	1	Пока пусто
