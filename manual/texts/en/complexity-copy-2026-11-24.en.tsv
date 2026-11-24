@@ -1,0 +1,27 @@
+namespace	key	rev	text
+ui.office	clerk.auto_appoint	2	The proposed candidate will be appointed tally clerk on {date}. You can choose another before then.
+scene	office_intro.notebooks.villager	3	The first order is already in the book. The tally clerk is in place. I can confirm the appointment or choose someone else.
+scene	office_intro.notebooks.worker	3	The first order is already in the book. The tally clerk is in place. I can confirm the appointment or choose someone else.
+scene	office_intro.notebooks.student	3	The first order is already in the book. The tally clerk is in place. I can confirm the appointment or choose someone else.
+scene	office_intro.notebooks.ex_chairman	3	The first order is already in the book. The tally clerk is in place. I can confirm the appointment or choose someone else.
+scene	office_intro.notebooks.promoted	3	The first order is already in the book. The tally clerk is in place. I can confirm the appointment or choose someone else.
+scene	office_intro.notebooks.old_fighter	3	The first order is already in the book. The tally clerk is in place. I can confirm the appointment or choose someone else.
+scene	office_intro.notebooks.dealer	3	The first order is already in the book. The tally clerk is in place. I can confirm the appointment or choose someone else.
+scene	office_intro.notebooks.acting	3	The first order is already in the book. The tally clerk is in place. I can confirm the appointment or choose someone else.
+glossary	audit	2	Audit: a district check of storehouse records. The auditor compares the records with the stock the kolkhoz is responsible for.
+glossary	auditor_remark	2	Auditor's warning: a notice of a shortage found during an audit. A later shortage can lead to a trial.
+glossary	shortage	2	Shortage: an unaccounted loss of stock. The storehouse holds less than the records show.
+glossary	winter_crops	1	Winter crops: crops sown in late summer or fall. They overwinter in the field and are harvested the following year.
+glossary	hay_stack	1	Haystack: a large outdoor stack of hay or straw that keeps it in one place until it is hauled away or used.
+glossary	compound_feed	1	Compound feed: a blend of feed ingredients, such as grain and supplements.
+glossary	row_crops	1	Row crops: crops grown in rows so the soil between them can be worked and weeded. Potatoes are an example.
+glossary	legumes	1	Legumes: crops such as peas and clover that help restore soil fertility.
+glossary	undersowing	1	Undersowing: sowing grass alongside another crop. The grass stays in the field after that crop is harvested.
+glossary	soil_depletion	1	Depletes the soil: lowers its fertility, leaving fewer nutrients for the next crop.
+glossary	icehouse	1	Icehouse: a store cooled with ice for foods such as meat, fish, and milk.
+glossary	muddy_season	1	Muddy season: a spell when snowmelt or prolonged rain softens roads and carts bog down.
+glossary	harvest_season	1	Harvest season: the busy period when the crops need to be brought in.
+glossary	cattle_yard	1	Cattle yard: a place to keep cattle. An insulated cattle yard shelters the herd from the cold.
+glossary	horse_yard	1	Horse yard: a place for horses and carts. A stable is its next, roofed level and allows the horses to breed.
+glossary	slaughter	1	Slaughter: killing animals for meat. The meat goes into food stocks.
+glossary	potbelly_stove	1	Potbelly stove: a small iron stove with a flue, used to heat a room.

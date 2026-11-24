@@ -1,0 +1,24 @@
+source_key,word,tooltip_key,condition
+alarm.winter_crop_unsowable.title,Озимая,glossary.winter_crops,field alarm
+ui.office.handbook.body.field_year,Озимые,glossary.winter_crops,earlier handbook route
+alarm.harvest_will_not_fit.straw_tip,скирду,glossary.hay_stack,straw overflow answer
+ui.office.plan_sketch.legend.hay_stack,Скирда,glossary.hay_stack,earlier map legend route
+alarm.herd_hay_short_ahead.advice.granary_for_feed,комбикорм,glossary.compound_feed,feed storage answer
+resource.compound_feed.name,Комбикорм,glossary.compound_feed,resource card route
+ui.office.handbook.body.crop_rotation,Пропашные,glossary.row_crops,handbook rotation
+ui.office.handbook.crop.pea.features,Бобовые,glossary.legumes,handbook crop row
+ui.office.handbook.body.field_year,подсевом,glossary.undersowing,handbook year; separate word span from Озимые
+ui.office.handbook.crop.barley.features,Истощает,glossary.soil_depletion,handbook crop row
+alarm.slaughter_waits_for_room.tip,ледник,glossary.icehouse,slaughter storage answer
+unit.icehouse.name,Ледник,glossary.icehouse,build catalogue route
+ui.office.plan.request.pickup,распутицу,glossary.muddy_season,plan letter route
+ui.office.trip.confirm.mud,распутицу,glossary.muddy_season,district trip route
+ui.office.handbook.body.field_year,страда,glossary.harvest_season,handbook year; separate word span from Озимые and подсевом
+ui.office.dayoff.harvest_order.state.on,Страда,glossary.harvest_season,standing order route
+ui.office.plan_sketch.legend.cattle_yard,Скотный двор,glossary.cattle_yard,office map legend
+alarm.herd_cold_ahead.advice.warm_yard,скотный двор,glossary.cattle_yard,winter shelter answer
+ui.office.plan_sketch.legend.horse_yard,Конный двор,glossary.horse_yard,office map legend
+alarm.herd_without_stable.title,конюшни,glossary.horse_yard,stable alarm title
+alarm.slaughter_waits_for_room.title,Забой,glossary.slaughter,slaughter alarm
+alarm.family_going_hungry.action_slaughter,забой,glossary.slaughter,autumn slaughter action
+ui.office.item.stove.name,буржуйка,glossary.potbelly_stove,office intro prop
