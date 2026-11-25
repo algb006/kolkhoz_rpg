@@ -1,0 +1,17 @@
+namespace	key	rev	text
+feed	authority_moved	2	Село запомнило: {deed}.
+feed	authority_moved.deed.day_off_without_reason	2	выходной объявили рабочим, а село этого не приняло
+feed	authority_moved.deed.defended_food_position	2	в голодную пору председатель добился снижения сдачи продуктов району
+feed	authority_moved.deed.over_plan_at_ration_line	2	продукты сдали сверх плана, когда семьи нуждались в пайке
+feed	authority_moved.deed.raised_issue_at_line	2	председатель распорядился выделить больше продуктов, когда семьям не хватало еды
+feed	authority_moved.deed.unfair_issue_month	2	семьям не хватало еды, а выдачу не увеличили даже при достаточном свободном запасе
+feed	authority_moved.deed.audit_remark	2	районный ревизор вынес замечание за недостачу
+feed	authority_moved.deed.plan_met_fairly	2	в тяжёлый год план выполнили без авралов и с сохранением выходных
+feed	authority_moved.deed.first_social_building	2	в селе появилась новая постройка для общих нужд
+feed	complaint_to_district	1	На вас написали в район.
+feed	authority_band_rose	2	Авторитет вырос: «{band}».
+feed	authority_band_fell	2	Авторитет упал: «{band}».
+feed	authority_band.hostile	2	Не верят
+feed	authority_band.wary	2	Присматриваются
+feed	authority_band.neutral	2	Доверяют с оглядкой
+feed	authority_band.trusting	2	Уважают

@@ -1,0 +1,17 @@
+namespace	key	rev	text
+feed	authority_moved	2	The village remembers: {deed}.
+feed	authority_moved.deed.day_off_without_reason	2	people took it badly when their day off was made a workday
+feed	authority_moved.deed.defended_food_position	2	in a time of hunger, the chairman secured a reduction in food deliveries to the district
+feed	authority_moved.deed.over_plan_at_ration_line	2	food was delivered above plan while families needed rations
+feed	authority_moved.deed.raised_issue_at_line	2	the chairman made more food available when families were short
+feed	authority_moved.deed.unfair_issue_month	2	families were short of food and got no extra share, though there was enough stock on hand to help
+feed	authority_moved.deed.audit_remark	2	the district auditor issued a formal remark over a stock shortage
+feed	authority_moved.deed.plan_met_fairly	2	the plan was met in a hard year without all-hands rushes or canceled days off
+feed	authority_moved.deed.first_social_building	2	a new building for the village was completed
+feed	complaint_to_district	1	Someone filed a complaint about you with the district.
+feed	authority_band_rose	2	Authority has risen: “{band}”.
+feed	authority_band_fell	2	Authority has fallen: “{band}”.
+feed	authority_band.hostile	2	Distrusted
+feed	authority_band.wary	2	Still sizing you up
+feed	authority_band.neutral	2	Trusted with reservations
+feed	authority_band.trusting	2	Respected
