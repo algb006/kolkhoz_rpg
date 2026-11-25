@@ -169,10 +169,13 @@ to your subject area: `quest`, `event`, `dialogue`.
 demo and game*; «переводит rpg по глоссарию терминов, а вторая роль вычитывает» — *rpg translates by
 the term glossary, a second role proofreads*; «записать английскую озвучку теми же голосами» — *record
 the English voice with the same voices*; then «Делай»):
-- every Russian text you deliver from now on carries its English line in the same parcel; voice exists
-  ONLY for the prologue and the office (English takes with the same v2 voices, into the demo); the rest of
-  the game is text only, so no new voiced lines (the human, 17 Nov: «Озвучку делаем пока только для пролога
-  и кабинета. Далее в игре только текст. И эту озвучку в демо»);
+- every Russian text you deliver carries its English line in the same parcel. The demo includes the
+  prologue and office in both languages with the same v2 voices. Alex withdrew the 17 November
+  text-only rule on 25 November (#2424–#2425): «Субтитры без голоса будут выглядеть как недоделанная
+  игра», then «отмени это правило». All authored dialogue and thoughts are in scope for game voice.
+  Named characters keep their own voice, generated residents draw from the resident palette, and
+  wordless reactions use the speaker's voice ([Audio, Speech](../manual/design/presentation/audio.md)).
+  `boss` queues each new voice item;
 - the glossary first: English forms of every `term` row (`term_translation`), sent to `boss`;
 - a translation goes to `boss` as a TSV `namespace<TAB>key<TAB>rev<TAB>en` (`rev` = the Russian
   string's `rev` you translated), boss imports it as `draft`; `support` proofreads, then it is `ok`;
