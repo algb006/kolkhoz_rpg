@@ -55,14 +55,11 @@ ui.office	characteristic.deed.agriculture.rotation_kept	1	На поле собл
 ui.office	characteristic.deed.agriculture.yield_above_forecast	1	На поле получен урожай выше расчётного.
 ui.office	characteristic.deed.agriculture.late_winter_sowing	1	Сев озимых в установленный срок не обеспечен.
 ui.office	characteristic.deed.technical.repair_in_time	1	Ремонт инвентаря проведён до его выхода из строя.
-ui.office	characteristic.deed.technical.repair_delayed	1	Ремонт отложен до выхода инвентаря из строя.
-ui.office	characteristic.deed.detective.theft_reported_solved	1	Хищение раскрыто. Обстоятельства доложены району.
-ui.office	characteristic.deed.detective.report_left_unanswered	1	Поступившее сообщение о хищении оставлено без разбора.
 ui.office	personal.authority.title	1	Авторитет
-ui.office	personal.authority.band.wary	1	Насторожены
-ui.office	personal.authority.band.reserved	1	Сдержанны
-ui.office	personal.authority.band.trusting	1	Доверяют
-ui.office	personal.authority.band.reliable	1	Полагаются
+ui.office	personal.authority.band.distrusted	1	Не верят
+ui.office	personal.authority.band.sizing_up	1	Присматриваются
+ui.office	personal.authority.band.guarded_trust	1	Доверяют с оглядкой
+ui.office	personal.authority.band.respected	1	Уважают
 feed	authority.holiday_work	1	Село запомнило: праздник объявлен рабочим.
 feed	authority.day_off_unjustified	1	Село запомнило: людей подняли в выходной без понятной им причины.
 feed	authority.food_plan_reduced	1	Село запомнило: в голодную пору председатель добился снижения сдачи продуктов району.

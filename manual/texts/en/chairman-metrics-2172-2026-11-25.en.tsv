@@ -55,14 +55,11 @@ ui.office	characteristic.deed.agriculture.rotation_kept	1	The adopted crop rotat
 ui.office	characteristic.deed.agriculture.yield_above_forecast	1	Brought in a harvest above the field's forecast.
 ui.office	characteristic.deed.agriculture.late_winter_sowing	1	Failed to complete winter sowing within the allotted time.
 ui.office	characteristic.deed.technical.repair_in_time	1	Arranged for equipment to be repaired before it failed.
-ui.office	characteristic.deed.technical.repair_delayed	1	Deferred repairs until the equipment failed.
-ui.office	characteristic.deed.detective.theft_reported_solved	1	A theft was solved and the circumstances were reported to the district.
-ui.office	characteristic.deed.detective.report_left_unanswered	1	Left a report of theft uninvestigated.
 ui.office	personal.authority.title	1	Authority
-ui.office	personal.authority.band.wary	1	Wary
-ui.office	personal.authority.band.reserved	1	Reserved
-ui.office	personal.authority.band.trusting	1	Trusted
-ui.office	personal.authority.band.reliable	1	Relied on
+ui.office	personal.authority.band.distrusted	1	Distrusted
+ui.office	personal.authority.band.sizing_up	1	Still sizing you up
+ui.office	personal.authority.band.guarded_trust	1	Trusted with reservations
+ui.office	personal.authority.band.respected	1	Respected
 feed	authority.holiday_work	1	The village remembers: the holiday was made a workday.
 feed	authority.day_off_unjustified	1	The village remembers: people were called in on their day off without a reason they could accept.
 feed	authority.food_plan_reduced	1	The village remembers: in a hungry season, the chairman secured a reduction in food deliveries to the district.

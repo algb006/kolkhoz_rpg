@@ -28,27 +28,38 @@ can supply:
 | `economy.food_sent_while_hungry` | The observed over-plan food delivery while households needed rations. |
 | `agriculture.rotation_kept`, `agriculture.yield_above_forecast` | Rotation record or measured harvest against that field's forecast. |
 | `agriculture.late_winter_sowing` | A missed winter-sowing window attributable to the year's work decisions. Confirm attribution before binding. |
-| `technical.repair_in_time`, `technical.repair_delayed` | A repair before failure or a recorded deferral followed by failure. An equipment breakdown on its own does not establish deferral. Wait for the technical repair producer. |
-| `detective.theft_reported_solved`, `detective.report_left_unanswered` | A solved theft reported to the district or a documented report left uninvestigated. The district must have received the evidence. |
+| `technical.repair_in_time` | A repair before failure. Bind when the technical repair producer ships with #1361. |
+
+Repair deferral is out of this package until #1361 can identify the action.
+Both theft-report deed strings are out. `YearLedger` holds amounts by resource
+and audit counts. `RunStoreAudit` uses monthly totals by store and resource and
+reports the worst position. `kFoodStolen` is a separate occurrence event with
+no district-report or investigation outcome. Those sources cannot establish
+what the district knew about an individual theft. The skill ladder remains.
 
 ## Authority and understanding
 
-`personal.authority.band.*` offers four ordered village-wide labels, from Wary
-through Reserved and Trusted to Relied on. Confirm the count and boundaries
-before binding. These labels are distinct from the resident's effective
-attitude used for traffic lines. The optional band-change line takes the
-localized `{band}` label.
+`personal.authority.band.*` uses the project's shared breaks at 25, 50 and 75.
+The labels are village-wide. The optional band-change line takes the localized
+`{band}` label.
+
+| Authority range | Key suffix | RU | EN |
+|---|---|---|---|
+| Below 25 | `distrusted` | Не верят | Distrusted |
+| 25 to below 50 | `sizing_up` | Присматриваются | Still sizing you up |
+| 50 to below 75 | `guarded_trust` | Доверяют с оглядкой | Trusted with reservations |
+| 75 and up | `respected` | Уважают | Respected |
 
 The eight deed feed rows cover #2161's seven loud-deed cases. Fair distribution
 has separate lines for raising the rate and opening a reserve so the UI can
 name the action actually taken. Both correspond to one source case, with no
-double credit implied. The feed text stays qualitative. If design retains
-signed deltas beside the cause in the feed, render the supplied signed value
-as a separate fact; the authority bar remains unnumbered.
+double credit implied. Render the qualitative cause alone. The authority bar
+shows its label, and feed items show no amounts or signed deltas.
 
 `personal.authority.understanding.budget` takes integer `{remaining}` and
-`{total}` for this season. The reason is a distinct line selected from the
-confirmed harvest, hay, plan, fire, flood or herd-loss reason. Reason and
+`{total}` for this season. The internal thresholds 50/65/80 determine the
+budget and belong in simulation, separate from the displayed bands. Select a
+reason line for the confirmed harvest, hay, plan, fire, flood or herd loss. Reason and
 remaining leeway are separate facts. “Spent” is for an exhausted season's
 allowance. These are reports about live conditions. No allocation rules,
 cutoffs or recommendations are encoded in the copy.
