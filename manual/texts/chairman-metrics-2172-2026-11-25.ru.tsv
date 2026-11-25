@@ -55,6 +55,7 @@ ui.office	characteristic.deed.agriculture.rotation_kept	1	На поле собл
 ui.office	characteristic.deed.agriculture.yield_above_forecast	1	На поле получен урожай выше расчётного.
 ui.office	characteristic.deed.agriculture.late_winter_sowing	1	Сев озимых в установленный срок не обеспечен.
 ui.office	characteristic.deed.technical.repair_in_time	1	Ремонт инвентаря проведён до его выхода из строя.
+ui.office	characteristic.deed.detective.theft_reported	1	О выявленном хищении сообщено району.
 ui.office	personal.authority.title	1	Авторитет
 ui.office	personal.authority.band.distrusted	1	Не верят
 ui.office	personal.authority.band.sizing_up	1	Присматриваются

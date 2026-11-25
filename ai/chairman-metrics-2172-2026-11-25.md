@@ -29,13 +29,13 @@ can supply:
 | `agriculture.rotation_kept`, `agriculture.yield_above_forecast` | Rotation record or measured harvest against that field's forecast. |
 | `agriculture.late_winter_sowing` | A missed winter-sowing window attributable to the year's work decisions. Confirm attribution before binding. |
 | `technical.repair_in_time` | A repair before failure. Bind when the technical repair producer ships with #1361. |
+| `detective.theft_reported` | Needs core #2167. Bind to an audit-book entry produced by `kTheftUncovered` with `reported = 1` in the reporting year. The line applies with or without an identified culprit. |
 
 Repair deferral is out of this package until #1361 can identify the action.
-Both theft-report deed strings are out. `YearLedger` holds amounts by resource
-and audit counts. `RunStoreAudit` uses monthly totals by store and resource and
-reports the worst position. `kFoodStolen` is a separate occurrence event with
-no district-report or investigation outcome. Those sources cannot establish
-what the district knew about an individual theft. The skill ladder remains.
+`YearLedger` audit totals and the separate `kFoodStolen` occurrence cannot
+establish what the district knew about an individual theft. The one report
+line uses the planned per-theft source. The event does not establish that a
+report was left uninvestigated.
 
 ## Authority and understanding
 

@@ -1,6 +1,6 @@
 namespace	key	rev	text
-ui.office	characteristic.title	1	Chairman's Appraisal
-ui.office	characteristic.deeds.title	1	During the year under review
+ui.office	characteristic.title	1	Chairman's appraisal
+ui.office	characteristic.deeds.title	1	For the reporting year
 ui.office	characteristic.scale.discipline	1	Discipline
 ui.office	characteristic.scale.economy	1	Farm management
 ui.office	characteristic.scale.agriculture	1	Agriculture
@@ -11,7 +11,7 @@ ui.office	characteristic.step.discipline.2	1	Knows how to document violations.
 ui.office	characteristic.step.discipline.3	1	Reviews individual violations.
 ui.office	characteristic.step.discipline.4	1	Reviews violations in accordance with established procedure.
 ui.office	characteristic.step.discipline.5	1	Ensures violations are reviewed promptly.
-ui.office	characteristic.step.discipline.6	1	Applies measures to strengthen discipline consistently.
+ui.office	characteristic.step.discipline.6	1	Consistently applies measures to strengthen discipline.
 ui.office	characteristic.step.discipline.7	1	Maintains procedures to review and prevent violations.
 ui.office	characteristic.step.discipline.8	1	Maintains sound discipline throughout the farm.
 ui.office	characteristic.step.economy.1	1	Is learning to account for receipts and distributions.
@@ -55,6 +55,7 @@ ui.office	characteristic.deed.agriculture.rotation_kept	1	The adopted crop rotat
 ui.office	characteristic.deed.agriculture.yield_above_forecast	1	Brought in a harvest above the field's forecast.
 ui.office	characteristic.deed.agriculture.late_winter_sowing	1	Failed to complete winter sowing within the allotted time.
 ui.office	characteristic.deed.technical.repair_in_time	1	Arranged for equipment to be repaired before it failed.
+ui.office	characteristic.deed.detective.theft_reported	1	A theft was uncovered and reported to the district.
 ui.office	personal.authority.title	1	Authority
 ui.office	personal.authority.band.distrusted	1	Distrusted
 ui.office	personal.authority.band.sizing_up	1	Still sizing you up
@@ -82,7 +83,7 @@ dialogue	traffic.worker.hostile	1	Of all places to stand. Let me work.
 dialogue	traffic.worker.wary	1	Chairman, you're in my way. I've got work to do.
 dialogue	traffic.worker.neutral	1	Step aside, please. I need to finish.
 dialogue	traffic.worker.trusting	1	Comrade Chairman, a little to the side. Let me finish the job.
-dialogue	traffic.cart.hostile	1	Out of the road. The cart can't get through.
+dialogue	traffic.cart.hostile	1	Out of the way. The cart's waiting.
 dialogue	traffic.cart.wary	1	Chairman, let me through.
 dialogue	traffic.cart.neutral	1	Room for the cart, please.
 dialogue	traffic.cart.trusting	1	Comrade Chairman, could you let the cart through?
