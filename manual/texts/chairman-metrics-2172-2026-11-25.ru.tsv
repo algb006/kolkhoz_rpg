@@ -1,0 +1,99 @@
+namespace	key	rev	text
+ui.office	characteristic.title	1	Характеристика председателя
+ui.office	characteristic.deeds.title	1	За отчётный год
+ui.office	characteristic.scale.discipline	1	Дисциплина
+ui.office	characteristic.scale.economy	1	Экономика
+ui.office	characteristic.scale.agriculture	1	Сельское хозяйство
+ui.office	characteristic.scale.technical	1	Техника
+ui.office	characteristic.scale.detective	1	Раскрытие хищений
+ui.office	characteristic.step.discipline.1	1	Осваивает порядок служебных взысканий.
+ui.office	characteristic.step.discipline.2	1	Знает порядок оформления нарушений.
+ui.office	characteristic.step.discipline.3	1	Ведёт разбор отдельных нарушений.
+ui.office	characteristic.step.discipline.4	1	Ведёт разбор нарушений в установленном порядке.
+ui.office	characteristic.step.discipline.5	1	Обеспечивает своевременный разбор нарушений.
+ui.office	characteristic.step.discipline.6	1	Последовательно проводит меры по укреплению дисциплины.
+ui.office	characteristic.step.discipline.7	1	Поддерживает порядок разбора и предупреждения нарушений.
+ui.office	characteristic.step.discipline.8	1	Обеспечивает устойчивый порядок в хозяйстве.
+ui.office	characteristic.step.economy.1	1	Осваивает учёт поступлений и выдачи.
+ui.office	characteristic.step.economy.2	1	Ориентируется в основных статьях плана.
+ui.office	characteristic.step.economy.3	1	Сверяет плановые обязательства с наличными запасами.
+ui.office	characteristic.step.economy.4	1	Учитывает предстоящие поступления и расход запасов.
+ui.office	characteristic.step.economy.5	1	Составляет обоснованные расчёты к выдаче и сдаче.
+ui.office	characteristic.step.economy.6	1	Уверенно ведёт хозяйственный расчёт в течение года.
+ui.office	characteristic.step.economy.7	1	Заблаговременно учитывает расхождения с планом.
+ui.office	characteristic.step.economy.8	1	Даёт точную оценку запасов и обязательств хозяйства.
+ui.office	characteristic.step.agriculture.1	1	Осваивает порядок полевых работ.
+ui.office	characteristic.step.agriculture.2	1	Ориентируется в сроках сева и уборки.
+ui.office	characteristic.step.agriculture.3	1	Учитывает условия полей при выборе культур.
+ui.office	characteristic.step.agriculture.4	1	Ведёт полевые работы с учётом чередования культур.
+ui.office	characteristic.step.agriculture.5	1	Последовательно ведёт принятый севооборот.
+ui.office	characteristic.step.agriculture.6	1	Согласует полевые работы с состоянием земли и сроками.
+ui.office	characteristic.step.agriculture.7	1	Обеспечивает устойчивый ход полевых работ в течение сезона.
+ui.office	characteristic.step.agriculture.8	1	Ведёт полевое хозяйство с высокой агротехнической подготовкой.
+ui.office	characteristic.step.technical.1	1	Осваивает порядок ухода за инвентарём.
+ui.office	characteristic.step.technical.2	1	Знает основные требования к содержанию инвентаря.
+ui.office	characteristic.step.technical.3	1	Учитывает состояние инвентаря при хозяйственных работах.
+ui.office	characteristic.step.technical.4	1	Своевременно отмечает потребность в ремонте.
+ui.office	characteristic.step.technical.5	1	Налаживает предупредительный ремонт инвентаря.
+ui.office	characteristic.step.technical.6	1	Организует ремонт с учётом сроков хозяйственных работ.
+ui.office	characteristic.step.technical.7	1	Обеспечивает готовность инвентаря к основным работам.
+ui.office	characteristic.step.technical.8	1	Обеспечивает систематический уход и ремонт хозяйственного инвентаря.
+ui.office	characteristic.step.detective.1	1	Осваивает порядок разбора сообщений о хищениях.
+ui.office	characteristic.step.detective.2	1	Знает порядок передачи сведений о хищениях.
+ui.office	characteristic.step.detective.3	1	Собирает сведения по отдельным случаям хищения.
+ui.office	characteristic.step.detective.4	1	Устанавливает обстоятельства хищений по поступившим сведениям.
+ui.office	characteristic.step.detective.5	1	Ведёт разбор хищений с достаточным обоснованием.
+ui.office	characteristic.step.detective.6	1	Своевременно устанавливает обстоятельства хищений.
+ui.office	characteristic.step.detective.7	1	Обеспечивает своевременное раскрытие хищений и доклад району.
+ui.office	characteristic.step.detective.8	1	Обеспечивает выявление и разбор хищений по всему хозяйству.
+ui.office	characteristic.deed.discipline.theft_reviewed	1	По установленному хищению проведён разбор, взыскание оформлено.
+ui.office	characteristic.deed.discipline.seeds_stolen	1	На складе, вверенном председателю, допущено хищение семенного зерна.
+ui.office	characteristic.deed.economy.plan_met	1	Годовой план выполнен без объявления аврала.
+ui.office	characteristic.deed.economy.issue_forecast_met	1	Расчёт выдачи подтвердился при распределении запасов.
+ui.office	characteristic.deed.economy.food_sent_while_hungry	1	Продукты сданы сверх плана в период, когда семьи нуждались в пайке.
+ui.office	characteristic.deed.agriculture.rotation_kept	1	На поле соблюдено принятое чередование культур.
+ui.office	characteristic.deed.agriculture.yield_above_forecast	1	На поле получен урожай выше расчётного.
+ui.office	characteristic.deed.agriculture.late_winter_sowing	1	Сев озимых в установленный срок не обеспечен.
+ui.office	characteristic.deed.technical.repair_in_time	1	Ремонт инвентаря проведён до его выхода из строя.
+ui.office	characteristic.deed.technical.repair_delayed	1	Ремонт отложен до выхода инвентаря из строя.
+ui.office	characteristic.deed.detective.theft_reported_solved	1	Хищение раскрыто. Обстоятельства доложены району.
+ui.office	characteristic.deed.detective.report_left_unanswered	1	Поступившее сообщение о хищении оставлено без разбора.
+ui.office	personal.authority.title	1	Авторитет
+ui.office	personal.authority.band.wary	1	Насторожены
+ui.office	personal.authority.band.reserved	1	Сдержанны
+ui.office	personal.authority.band.trusting	1	Доверяют
+ui.office	personal.authority.band.reliable	1	Полагаются
+feed	authority.holiday_work	1	Село запомнило: праздник объявлен рабочим.
+feed	authority.day_off_unjustified	1	Село запомнило: людей подняли в выходной без понятной им причины.
+feed	authority.food_plan_reduced	1	Село запомнило: в голодную пору председатель добился снижения сдачи продуктов району.
+feed	authority.food_delivered_above_plan	1	Село запомнило: продукты сдали сверх плана, когда семьи нуждались в пайке.
+feed	authority.food_distribution_raised	1	Село запомнило: когда семьям не хватало еды, норму выдачи подняли.
+feed	authority.food_reserve_opened	1	Село запомнило: когда семьям не хватало еды, открыли фонд.
+feed	authority.food_distribution_unchanged	1	Село запомнило: продукты оставались на складе, а нуждающимся семьям выдачу не увеличили.
+feed	authority.audit_remark	1	Село запомнило: районный ревизор вынес замечание за недостачу.
+feed	authority.band_changed	1	Авторитет в селе — «{band}».
+ui.office	personal.authority.understanding.budget	1	Поймут: {remaining} из {total}.
+ui.office	personal.authority.understanding.reason.harvest	1	Люди видят, что срок уборки поджимает.
+ui.office	personal.authority.understanding.reason.hay	1	Люди видят, что с покосом опаздывают.
+ui.office	personal.authority.understanding.reason.plan	1	Срок сдачи близок, а план ещё не выполнен.
+ui.office	personal.authority.understanding.reason.fire	1	Люди понимают, почему после пожара нужна срочная работа.
+ui.office	personal.authority.understanding.reason.flood	1	Люди понимают, почему после паводка нужна срочная работа.
+ui.office	personal.authority.understanding.reason.herd_loss	1	Люди понимают, почему после потери скота нужна срочная работа.
+ui.office	personal.authority.understanding.reason.none	1	Причины, которую село сочтёт срочной, сейчас нет.
+ui.office	personal.authority.understanding.spent	1	На этот сезон запас понимания исчерпан.
+dialogue	traffic.worker.hostile	1	Нашли где встать. Дайте работать.
+dialogue	traffic.worker.wary	1	Председатель, вы под рукой. Мне работать надо.
+dialogue	traffic.worker.neutral	1	Посторонитесь, мне надо закончить.
+dialogue	traffic.worker.trusting	1	Товарищ председатель, чуть в сторону. Дайте довести работу.
+dialogue	traffic.cart.hostile	1	С дороги. Подвода стоит.
+dialogue	traffic.cart.wary	1	Председатель, дайте проехать.
+dialogue	traffic.cart.neutral	1	Пропустите подводу.
+dialogue	traffic.cart.trusting	1	Товарищ председатель, пропустите подводу, будьте добры.
+dialogue	traffic.walker.hostile	1	Дайте пройти.
+dialogue	traffic.walker.wary	1	Мне бы пройти.
+dialogue	traffic.walker.neutral	1	Позвольте пройти.
+dialogue	traffic.walker.trusting	1	Товарищ председатель, можно пройти?
+dialogue	traffic.other.hostile	1	А. Председатель.
+dialogue	traffic.other.wary	1	Здравствуйте, председатель.
+dialogue	traffic.other.neutral	1	Добрый день.
+dialogue	traffic.other.trusting	1	Добрый день, товарищ председатель.

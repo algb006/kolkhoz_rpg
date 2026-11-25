@@ -1,0 +1,99 @@
+namespace	key	rev	text
+ui.office	characteristic.title	1	Chairman's Appraisal
+ui.office	characteristic.deeds.title	1	During the year under review
+ui.office	characteristic.scale.discipline	1	Discipline
+ui.office	characteristic.scale.economy	1	Farm management
+ui.office	characteristic.scale.agriculture	1	Agriculture
+ui.office	characteristic.scale.technical	1	Equipment
+ui.office	characteristic.scale.detective	1	Theft investigations
+ui.office	characteristic.step.discipline.1	1	Is learning the procedure for disciplinary action.
+ui.office	characteristic.step.discipline.2	1	Knows how to document violations.
+ui.office	characteristic.step.discipline.3	1	Reviews individual violations.
+ui.office	characteristic.step.discipline.4	1	Reviews violations in accordance with established procedure.
+ui.office	characteristic.step.discipline.5	1	Ensures violations are reviewed promptly.
+ui.office	characteristic.step.discipline.6	1	Applies measures to strengthen discipline consistently.
+ui.office	characteristic.step.discipline.7	1	Maintains procedures to review and prevent violations.
+ui.office	characteristic.step.discipline.8	1	Maintains sound discipline throughout the farm.
+ui.office	characteristic.step.economy.1	1	Is learning to account for receipts and distributions.
+ui.office	characteristic.step.economy.2	1	Is familiar with the main items in the plan.
+ui.office	characteristic.step.economy.3	1	Checks plan commitments against stocks on hand.
+ui.office	characteristic.step.economy.4	1	Takes expected receipts and stock use into account.
+ui.office	characteristic.step.economy.5	1	Prepares sound estimates for distributions and deliveries.
+ui.office	characteristic.step.economy.6	1	Maintains reliable farm estimates throughout the year.
+ui.office	characteristic.step.economy.7	1	Accounts for departures from the plan well in advance.
+ui.office	characteristic.step.economy.8	1	Provides an accurate assessment of the farm's stocks and obligations.
+ui.office	characteristic.step.agriculture.1	1	Is learning the sequence of field work.
+ui.office	characteristic.step.agriculture.2	1	Is familiar with sowing and harvest dates.
+ui.office	characteristic.step.agriculture.3	1	Takes field conditions into account when choosing crops.
+ui.office	characteristic.step.agriculture.4	1	Manages field work in line with crop rotation.
+ui.office	characteristic.step.agriculture.5	1	Follows the adopted crop rotation consistently.
+ui.office	characteristic.step.agriculture.6	1	Coordinates field work with soil conditions and seasonal deadlines.
+ui.office	characteristic.step.agriculture.7	1	Keeps field work on a steady footing through the season.
+ui.office	characteristic.step.agriculture.8	1	Manages field operations with a high standard of agricultural practice.
+ui.office	characteristic.step.technical.1	1	Is learning how the farm's equipment is maintained.
+ui.office	characteristic.step.technical.2	1	Knows the basic requirements for equipment upkeep.
+ui.office	characteristic.step.technical.3	1	Takes equipment condition into account when planning farm work.
+ui.office	characteristic.step.technical.4	1	Identifies repair needs promptly.
+ui.office	characteristic.step.technical.5	1	Organizes preventive repairs for farm equipment.
+ui.office	characteristic.step.technical.6	1	Schedules repairs around the farm's work deadlines.
+ui.office	characteristic.step.technical.7	1	Keeps equipment ready for major farm work.
+ui.office	characteristic.step.technical.8	1	Ensures that farm equipment is regularly maintained and repaired.
+ui.office	characteristic.step.detective.1	1	Is learning how reports of theft are reviewed.
+ui.office	characteristic.step.detective.2	1	Knows how to report thefts to the district.
+ui.office	characteristic.step.detective.3	1	Gathers information on individual thefts.
+ui.office	characteristic.step.detective.4	1	Establishes the circumstances of thefts from the information received.
+ui.office	characteristic.step.detective.5	1	Conducts theft investigations supported by evidence.
+ui.office	characteristic.step.detective.6	1	Establishes the circumstances of thefts promptly.
+ui.office	characteristic.step.detective.7	1	Ensures thefts are solved and reported to the district promptly.
+ui.office	characteristic.step.detective.8	1	Ensures theft is detected and investigated across the farm.
+ui.office	characteristic.deed.discipline.theft_reviewed	1	A documented theft was reviewed and a penalty formally imposed.
+ui.office	characteristic.deed.discipline.seeds_stolen	1	Seed grain was stolen from a storehouse under the chairman's charge.
+ui.office	characteristic.deed.economy.plan_met	1	Met the annual plan without calling an all-hands rush.
+ui.office	characteristic.deed.economy.issue_forecast_met	1	The distribution forecast was borne out when stocks were issued.
+ui.office	characteristic.deed.economy.food_sent_while_hungry	1	Delivered food above plan while families needed rations.
+ui.office	characteristic.deed.agriculture.rotation_kept	1	The adopted crop rotation was maintained in the field.
+ui.office	characteristic.deed.agriculture.yield_above_forecast	1	Brought in a harvest above the field's forecast.
+ui.office	characteristic.deed.agriculture.late_winter_sowing	1	Failed to complete winter sowing within the allotted time.
+ui.office	characteristic.deed.technical.repair_in_time	1	Arranged for equipment to be repaired before it failed.
+ui.office	characteristic.deed.technical.repair_delayed	1	Deferred repairs until the equipment failed.
+ui.office	characteristic.deed.detective.theft_reported_solved	1	A theft was solved and the circumstances were reported to the district.
+ui.office	characteristic.deed.detective.report_left_unanswered	1	Left a report of theft uninvestigated.
+ui.office	personal.authority.title	1	Authority
+ui.office	personal.authority.band.wary	1	Wary
+ui.office	personal.authority.band.reserved	1	Reserved
+ui.office	personal.authority.band.trusting	1	Trusted
+ui.office	personal.authority.band.reliable	1	Relied on
+feed	authority.holiday_work	1	The village remembers: the holiday was made a workday.
+feed	authority.day_off_unjustified	1	The village remembers: people were called in on their day off without a reason they could accept.
+feed	authority.food_plan_reduced	1	The village remembers: in a hungry season, the chairman secured a reduction in food deliveries to the district.
+feed	authority.food_delivered_above_plan	1	The village remembers: food was delivered above plan while families needed rations.
+feed	authority.food_distribution_raised	1	The village remembers: the distribution rate was raised when families were short of food.
+feed	authority.food_reserve_opened	1	The village remembers: the reserve was opened when families were short of food.
+feed	authority.food_distribution_unchanged	1	The village remembers: food stayed in the storehouse and families in need received no increase in their share.
+feed	authority.audit_remark	1	The village remembers: the district auditor issued a formal remark over a stock shortage.
+feed	authority.band_changed	1	Village authority: “{band}.”
+ui.office	personal.authority.understanding.budget	1	Leeway this season: {remaining} of {total}.
+ui.office	personal.authority.understanding.reason.harvest	1	People can see that time is running out for the harvest.
+ui.office	personal.authority.understanding.reason.hay	1	People can see that haymaking is running late.
+ui.office	personal.authority.understanding.reason.plan	1	The delivery deadline is close and the plan is still short.
+ui.office	personal.authority.understanding.reason.fire	1	People understand why urgent work is needed after the fire.
+ui.office	personal.authority.understanding.reason.flood	1	People understand why urgent work is needed after the flood.
+ui.office	personal.authority.understanding.reason.herd_loss	1	People understand why urgent work is needed after the loss of livestock.
+ui.office	personal.authority.understanding.reason.none	1	The village sees no urgent reason right now.
+ui.office	personal.authority.understanding.spent	1	The village has no more leeway to give this season.
+dialogue	traffic.worker.hostile	1	Of all places to stand. Let me work.
+dialogue	traffic.worker.wary	1	Chairman, you're in my way. I've got work to do.
+dialogue	traffic.worker.neutral	1	Step aside, please. I need to finish.
+dialogue	traffic.worker.trusting	1	Comrade Chairman, a little to the side. Let me finish the job.
+dialogue	traffic.cart.hostile	1	Out of the road. The cart can't get through.
+dialogue	traffic.cart.wary	1	Chairman, let me through.
+dialogue	traffic.cart.neutral	1	Room for the cart, please.
+dialogue	traffic.cart.trusting	1	Comrade Chairman, could you let the cart through?
+dialogue	traffic.walker.hostile	1	Let me pass.
+dialogue	traffic.walker.wary	1	I need to get past.
+dialogue	traffic.walker.neutral	1	Excuse me, may I pass?
+dialogue	traffic.walker.trusting	1	Comrade Chairman, may I pass?
+dialogue	traffic.other.hostile	1	Oh. Chairman.
+dialogue	traffic.other.wary	1	Hello, Chairman.
+dialogue	traffic.other.neutral	1	Good day.
+dialogue	traffic.other.trusting	1	Good day, Comrade Chairman.
