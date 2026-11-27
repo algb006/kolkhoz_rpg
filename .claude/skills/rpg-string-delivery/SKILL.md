@@ -29,20 +29,17 @@ source approval, glossary review and mail rules. The shared catalog is
    registered display lengths. Include bindings or actual value examples if a
    template could render incorrectly. New keys need registration before an EN
    import can succeed.
-5. For a batch of existing keys, validate with `../tools/strings.py import` on an
-   isolated copy of the shared DB. Use SQLite `.backup` from the read-only
-   connection to create a fresh RPG temporary DB. With `rpg_copy_db` and
-   `rpg_batch_tsv` set to the copy and package paths, run from the RPG root:
+5. For a batch of existing keys, run the [import preview](../../../tools/preview-english-import.py)
+   from the RPG root:
 
    ```bash
-   PYTHONPATH=../tools python3 -B -c 'import strings, sys; from pathlib import Path; strings.DB_PATH = sys.argv[1]; assert Path(strings.DB_PATH).resolve() != Path(strings.DB_DIR, "strings.db").resolve(); raise SystemExit(strings.main(sys.argv[2:]))' "$rpg_copy_db" import "$rpg_batch_tsv" --locale en --status draft
+   python3 -B tools/preview-english-import.py path/to/batch.tsv
    ```
 
-   Use the same launcher with `check` to distinguish
-   package errors from existing catalog issues. Confirm the resulting EN texts
-   and `src_rev` directly when reporting coverage. Draft import preserves
-   accepted EN rows even when the Russian revision has moved. Route reviewed
-   replacements through boss's reviewed import path.
+   It reuses the shared importer on an in-memory snapshot and verifies each
+   resulting EN text and `src_rev`. Draft import preserves accepted EN rows
+   even when the Russian revision has moved. Route reviewed replacements
+   through boss's reviewed import path.
 6. Send the TSVs or inline rows in the requested parcel. Record target source
    revisions and any unresolved binding. After approval or import, reconcile
    exact wording and status against the live read-only catalog.
