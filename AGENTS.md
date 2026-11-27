@@ -25,6 +25,16 @@ Initial assignment: [`ai/START.md`](ai/START.md).
 
 **NOTHING HEAVY RUNS ON THIS VM (um01, shared with another project's agents):** long batch generations, renders, audio or image processing over a few minutes, several cores or ~2 GB go to m22 (`../tools/xeon.sh`) or the Windows host under its lock (the human, 11 November 2026, #1835; root CLAUDE.md §11b).
 
+**Start subagents on your own for independent, splittable work** such as inventories,
+reconciliations, searches across many files, and branch reviews (Alex, 27 November
+2026, #2530–#2531, [root CLAUDE.md §11b](../CLAUDE.md#11b-host-snapshots-housekeeping)).
+Check `free -m` first and budget about 1.5 GB per subagent, with at most three
+running at once. Give each a narrow brief and a separate output. Use your own
+session, away from the Windows host, its lock, and other roles' trees or tmux
+sessions. Heavy compute goes to m22. Subagents that edit code use separate worktrees.
+Review and apply the results yourself. Fable requires Alex's permission for the
+named task and runs read-only.
+
 ## 1. Outputs
 
 ```
