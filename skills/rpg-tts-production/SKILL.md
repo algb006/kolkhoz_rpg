@@ -1,96 +1,43 @@
 ---
 name: rpg-tts-production
-description: "Готовить и выпускать озвученные авторские реплики игры через Gemini TTS: паспорта голосов, режиссура строк, прослушивание дублей и сохранение принятого WAV. Не применять к музыке, звукам мира и живым ответам языковой модели."
+description: Prepare, record, verify and hand off an assigned Kolkhoz speech or wordless resident voice batch with Gemini TTS. Use for new takes and approved retakes.
 ---
 
-# Озвучка авторских реплик
+# RPG voice production
 
-Канон текста — `db/story.db` и соответствующая строка `../db/strings.db`; звук не добавляет
-фактов сверх субтитра. Пути здесь считаются от корня `rpg/`. Перед работой прочти
-`../manual/design/core/tone.md`, `../manual/design/presentation/audio.md` и паспорт
-конкретного говорящего в `skills/`.
-Для пролога прочти [`manual/voice/prologue-pilot.md`](../../manual/voice/prologue-pilot.md).
-При назначении голосов вне пролога сверь статус
-[`предложения о голосах персонажей`](../../manual/voice/character-voices-proposal.md):
-не принимай предложенные числа за утверждённую механику.
+Read [AGENTS.md](../../AGENTS.md), the design's Audio → Speech section, and the
+speaker's current passport. The [resident palette proposal](../../manual/voice/character-voices-proposal.md)
+records its approval and implementation status. For the prologue, use the
+[cues and passports](../../manual/voice/prologue-pilot.md).
 
-## Подготовка
-
-1. Сверь ключ, буквальный русский текст, говорящего, вариант аватара и ревизию. Если
-   `approved_rev != rev`, сцена помечена `text_only` или канон расходится между базами,
-   готовь режиссуру, но не вызывай TTS; согласуй противоречие с `boss`.
-2. Из паспорта персонажа составь устойчивое описание голоса: возрастной диапазон,
-   тембр, темп, интонация, социальная манера без карикатурного акцента. Постоянные
-   черты не помещай в `speech_metadata.style`: подбери готовый голос либо создай один
-   `voice_...` и закрепи его за **персонажем**, не за отдельной сценой. Для именного
-   персонажа паспорт хранит ID голоса, неизменяемый принятый образец и описание;
-   **перед платной пробой готового голоса сверь поле `gender` в Voice Library
-   с полом персонажа**; слова вроде «зрелый» и «твёрдый» пола не задают.
-   Перед следующей партией сравни новый дубль с образцом на слух. Жителю из
-   генератора голос назначается один раз из утверждённой палитры по полу, возрасту
-   и поколению; правило выбора и версия палитры должны быть согласованы с `boss`
-   до массовой генерации. Не клонируй реального человека без отдельного согласия;
-   для этого проекта клон не нужен.
-3. На каждую строку запиши короткую подсказку исполнения. `text` в запросе — только
-   произносимые слова субтитра; устойчивый тон идёт в `speech_metadata.style`,
-   единичные вдохи/паузы — только допустимыми inline-тегами. Если тег меняет смысл
-   или длительность сцены, исключи его. Сначала пробуй без `style` и тегов.
-
-## Дубли
-
-- До вызова проверь наличие ключа по пути `~/.config/kolkhoz/gemini.env`, не выводя его
-  содержимое. В журнале оставляй модель, ключ строки, хэш текста и стоимость, но
-  никогда ключ API или полный ответ с секретами.
-- Для утверждённого корпуса используй `gemini-3.8-flash-tts` и точный `text`.
-  Одиночный запрос возвращает готовый WAV 24 кГц, mono PCM 16 bit — не добавляй к
-  нему ещё один WAV-заголовок. Для разных пользовательских `voice_...` генерируй
-  реплики по одной: общий запрос на двух говорящих поддерживает только готовые голоса.
-- Слово человека 30 сентября 2026: лимит Google — 10 запросов за скользящие 60 секунд
-  **на модель**. Все RPG-скрипты TTS шлют не больше 6 запросов в минуту на модель:
-  начало соседних запросов разделяй минимум 10 секундами, без параллельных потоков;
-  между отдельными запусками скриптов выдерживай тот же интервал. При HTTP 429
-  **остановись без автоповтора**. Если причина не установлена, выжди 90 секунд
-  полной тишины и сделай одну пробу; при повторном 429 сообщи `boss` и не
-  продолжай серию. У ключа также есть RPD **100 запросов на модель**. Планируй
-  не больше примерно 90 запросов за 24 часа, **считая пробы и отказы**; печатай
-  этот счёт в конце прогона. Человек 30 сентября 2026 уточнил: после
-  исчерпания RPD следующая проба — **не раньше чем через 24 часа после
-  последней попытки**, не с полуночи. Для кабинета после 429 в 19:49:33 +07
-  30 сентября безопасный срок — 1 октября после 19:50 +07.
-- Черновые WAV и лист прослушивания — `/data/tmp/rpg-…`; человеку показывай копию в
-  `/data/kolkhoz/voice/`. Не складывай их в `/tmp`. Перед пакетом задай предел расходов;
-  после трёх неудачных дублей строки остановись, а не запускай бесконечный подбор.
-- Лист прослушивания связывает каждый файл с ключом строки, аватаром, точным текстом,
-  голосом, краткой режиссурой и меткой «принять / переснять / исправить текст».
-  Проверяй произношение, отсутствие лишних слов, пол и возраст говорящего, отсутствие
-  этнической пародии, дрейф от принятого образца, длину относительно окна сцены и
-  разборчивость под музыкой.
-
-## Эмоции без слов
-
-Для утверждённого персонажа предложи короткий набор реакций (например, вздох,
-тихий смешок, покашливание, удивлённый вдох, усилие), но не генерируй все варианты
-«на всякий случай»: нужен контекст использования и отдельная приёмка. Используй тот
-же голос и сравни с принятым образцом. Храни реакции отдельными файлами с ключом
-персонажа, вида реакции, паспортом, моделью и SHA-256; передай `sound` как «Звуки»,
-не как «Озвучку». Слоги и слова, в том числе «м-да», **не бессловесны**: до решения
-`boss` не прячь их в этом канале без субтитра.
-
-## Принятый дубль
-
-Только после выбора человеком клади неизменяемый исходный WAV в
-`voice/accepted/<scene>/<line_key>.wav`; рядом — JSON с ключом, буквальным текстом,
-ревизией и SHA-256 текста, паспортом/ID голоса, моделью, `style`, inline-тегами,
-датой, usage, расчётом цены, SHA-256 WAV и решением приёмки. Новый дубль не
-перезаписывает принятый молча: новая ревизия текста означает новый просмотр.
-Запись в `/data/kolkhoz/voice/` — просмотр, **не** источник истины и не бекап.
-Передай `sound` оригинал, SHA-256, ключ, текст, голос, модель и подсказку. По его
-[`tts-delivery.md`](../../../sound/manual/tts-delivery.md) он делает игровой моно WAV
-48 кГц PCM24 и измеряет −19 LUFS ±2 с пиком не выше −1 dBTP; сам не нормализуй,
-не добавляй 5.1 и не запекай реверберацию. `ue` получает ключ → игровой файл через
-`boss`; не меняй звуковой тракт или чужую базу сам. После передачи убери собственные
-черновики штатным `tmp-clean.sh`.
-
-Источник API: [документация Gemini TTS](https://ai.google.dev/gemini-api/docs/speech-generation).
-Перед первой генерацией и после обновления модели перепроверь формат и цену по
-[официальной странице цен](https://ai.google.dev/gemini-api/docs/pricing).
+1. Confirm the assigned batch, exact approved RU and EN, revisions, scene
+   eligibility, speaker and cue. Check `approved_rev = rev` in the source and
+   EN `src_rev = rev` with reviewed status in the shared catalog. An old take
+   keeps its original revision. Once text changes, mark the mismatch until
+   the replacement has been placed in the build.
+2. Reuse the speaker's accepted voice in both languages. When selecting a new
+   stock voice, check its catalog gender before a paid audition and compare
+   its delivery to the intended age and character. Use the exact transcript
+   as spoken text. Put performance direction in speech metadata. Wordless
+   cues use the same voice and go to Sounds. Treat «М-да» as subtitled speech.
+3. Read and update [the budget ledger](../../ai/gemini-budget-balance.txt)
+   before any authorized paid run. Verify current rates with
+   [Gemini pricing](https://ai.google.dev/gemini-api/docs/pricing). Use the
+   existing model runner or `tools/voice_prologue_v2.py`'s one-line request
+   function for a scoped batch. The runner should share
+   `tools/voice_rate_limit.py` and its attempt log. Consult Audio → Speech
+   for the 429 recovery procedure. Confirm credentials without printing them.
+4. Keep locale, key, avatar, exact transcript and hash, source revision, voice,
+   direction, model, WAV hash, duration, interaction ID and usage in the
+   receipt. Account for paid failures and replacements as well as successes.
+   Flag missing usage and never count a copied receipt twice. Use a separate
+   output directory for replacements and preserve earlier takes.
+5. Validate the expected WAV/receipt pairs and current transcripts. The
+   existing Gemini runner returns complete mono PCM16 WAVs at 24 kHz. For
+   listening review check delivery, pronunciation, extra words, and scene
+   timing. Keep technical validation and hearing approval recorded separately.
+6. Hand the manifest and raw WAVs to the coordinator for sound mastering and
+   UE placement. A copy under `/data/kolkhoz/voice/` is for handoff or review.
+   Keep the source copies according to the repository's voice layout. Record
+   the actual cost, cumulative spend and estimated remainder in the budget
+   ledger and clean your temporary files after delivery.

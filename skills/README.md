@@ -1,11 +1,10 @@
-# Навыки Sol для русских диалогов
+# RPG skills
 
-Исходники навыков хранятся здесь, потому что каталог обнаружения Codex
-`.agents/skills/` в рабочей среде смонтирован только для чтения.
+The avatar sheets and dialogue workflows in this directory are maintained
+sources. Open their `SKILL.md` directly when the agent's discovery directory
+is read-only. The project rules are in [AGENTS.md](../AGENTS.md).
 
-После проверки навыки включаются копированием каждого каталога в
-`.agents/skills/`. Канон проекта всегда выше общих советов из исходного архива
-`sol_russian_dialogue_skills.zip`.
-
-Навык [`rpg-tts-production`](rpg-tts-production/SKILL.md) ведёт отдельную цепочку
-озвучки авторских реплик: паспорт голоса, дубль, прослушивание и принятый файл.
+- [Russian dialogue](sol-russian-dialogue/SKILL.md) for authored character speech.
+- [Voice production](rpg-tts-production/SKILL.md) for assigned recording batches.
+- [String delivery](../.claude/skills/rpg-string-delivery/SKILL.md) for bilingual
+  TSVs, EN backlog batches, and verification after registration.

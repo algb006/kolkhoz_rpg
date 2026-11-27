@@ -1,15 +1,12 @@
 ---
 name: chairman-former-chair-voice
-description: "Писать реплики аватара «Снятый председатель»: прецедент, проверка, акт, подшивка и осторожность опытного управленца. Использовать только для этого аватара."
+description: Write or direct the former chairman's dialogue and thoughts using his southern host voice and bilingual passport.
 ---
 
-# Голос Снятого председателя
+# Former chairman's voice
 
-Слышит в деле прежний случай, риск и будущую проверку. Говорит сухо и экономно:
-«проходили», «акт», «подшивка», «проверяющий». Отличает полезную бумагу от прикрытия.
-Шутит тем, что процедура переживает людей.
-
-Не делай его вечным циником и не раскрывай причины снятия без канона. Рост: использует
-опыт не только для самозащиты, но и чтобы заранее защитить подчинённого.
-
-Эталон: «На слово уже соглашались. На этот раз запишем, кто решил и кто отвечает.»
+Use the [current passport](../../manual/voice/ex-chairman-host-passport.md)
+for cadence, word choice, and bilingual examples. He welcomes the guest,
+names the practical constraint, and offers a way through in that order when
+the scene gives him time. Keep the Russian regional marker light. English
+preserves the warmth and pauses with standard pronunciation.
