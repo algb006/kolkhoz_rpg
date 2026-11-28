@@ -2,7 +2,7 @@ namespace	key	src_rev	ru	en
 profession	accountant.name	1	Бухгалтер	Accountant
 profession	agronomist.name	1	Агроном	Agronomist
 profession	artel_fisher.name	1	Рыбак артели	Co-op fisher
-profession	barmaid.name	1	Буфетчица	Snack counter attendant
+profession	barmaid.name	1	Буфетчица	Refreshment bar attendant
 profession	bathhouse_keeper.name	1	Банщик	Bathhouse attendant
 profession	beekeeper.name	1	Пасечник	Beekeeper
 profession	carter.name	1	Возчик	Cart driver
@@ -23,7 +23,7 @@ profession	economist.name	1	Экономист	Economist
 profession	electrician.name	1	Электрик	Electrician
 profession	farm_craftsman.name	1	Колхозный мастер	Kolkhoz craftworker
 profession	farm_manager.name	1	Заведующий фермой	Farm manager
-profession	feldsher.name	1	Фельдшер	Feldsher
+profession	feldsher.name	1	Фельдшер	Rural medic
 profession	fire_instructor.name	1	Пожарный инструктор	Fire safety instructor
 profession	firefighter.name	1	Пожарный	Firefighter
 profession	food_master.name	1	Продуктовый мастер	Food production specialist
@@ -44,7 +44,7 @@ profession	miller.name	1	Мельник	Miller
 profession	mts_dispatcher.name	1	Диспетчер МТС	MTS dispatcher
 profession	nightman.name	1	Золотарь	Night soil collector
 profession	nurse.name	1	Медсестра	Nurse
-profession	nursery_teacher.name	1	Воспитатель	Child care educator
+profession	nursery_teacher.name	1	Воспитатель	Childcare worker
 profession	pe_teacher.name	1	Физрук	PE teacher
 profession	pioneer_leader.name	1	Вожатый	Pioneer camp counselor
 profession	poultry_keeper.name	1	Птичница	Poultry keeper
@@ -76,12 +76,12 @@ limit	coal_lot.name	1	Уголь	Coal
 limit	combine_unit.name	1	Комбайн	Combine harvester
 limit	compound_feed_lot.name	1	Комбикорм, 10 т	Compound feed, 10 metric tons
 limit	concrete_lot.name	1	Железобетон	Reinforced concrete
-limit	consumer_goods_lot.name	1	Промтовары для магазина	Consumer goods for the store
+limit	consumer_goods_lot.name	1	Промтовары для магазина	Manufactured goods for the store
 limit	cow_head.name	1	Корова	Cow
 limit	electrician_call.name	1	Вызов районного электрика	District electrician service call
 limit	fertilizer_lot.name	1	Минеральные удобрения, 10 т	Mineral fertilizer, 10 metric tons
 limit	glass_container_lot.name	2	Стекло	Glass
-limit	grocery_lot.name	3	Бакалея: специи, чай	Groceries: spices and tea
+limit	grocery_lot.name	3	Бакалея: специи, чай	Dry groceries: spices and tea
 limit	hops_lot.name	1	Хмель	Hops
 limit	horse_head.name	1	Лошадь	Horse
 limit	imported_machine_unit.name	1	Импортная техника	Imported machinery
@@ -93,8 +93,8 @@ limit	lime_gravel_lot.name	1	Известь и щебень	Lime and crushed sto
 limit	milking_rig_unit.name	1	Доильное оборудование	Milking equipment
 limit	motor_fuel_lot.name	1	ГСМ: солярка, бензин, масло	Fuel and lubricants: diesel, gasoline, oil
 limit	motorcycle_sidecar_unit.name	1	Мотоцикл с коляской	Motorcycle with sidecar
-limit	mts_column_autumn.name	1	Колонна МТС на осенние полевые работы	MTS crew for autumn fieldwork
-limit	mts_column_spring.name	1	Колонна МТС на весенние полевые работы	MTS crew for spring fieldwork
+limit	mts_column_autumn.name	1	Колонна МТС на осенние полевые работы	MTS convoy for autumn fieldwork
+limit	mts_column_spring.name	1	Колонна МТС на весенние полевые работы	MTS convoy for spring fieldwork
 limit	paint_lot.name	1	Краска	Paint
 limit	piglet_lot.name	1	Поросята, партия	Batch of piglets
 limit	roofing_lot.name	1	Шифер, кровля на объект	Roofing sheets for one project
@@ -108,7 +108,7 @@ limit	sugar_lot.name	1	Сахар	Sugar
 limit	tackle_lot.name	1	Рыболовные снасти: бамбуковая удочка, спиннинг	Fishing tackle: bamboo rod, spinning rod
 limit	tanker_unit.name	1	Автоцистерна	Tanker truck
 limit	teacher_higher.name	1	Учитель с высшим (пединститут)	Teacher (teacher training institute graduate)
-limit	teacher_vocational.name	1	Учитель со средне-специальным	Teacher with vocational training
+limit	teacher_vocational.name	2	Учитель со средним специальным	Teacher with vocational training
 limit	textile_lot.name	1	Фабричная ткань	Factory-made fabric
 limit	timber_lot.name	1	Лес и пиломатериалы	Logs and lumber
 limit	tool_lot.name	1	Инструмент	Tools
@@ -156,13 +156,13 @@ clothing	teaching.name	1	Педагогический	Teaching attire
 clothing	underwear.name	1	Исподнее	Undergarments
 clothing	uniform.name	1	Форменный	Uniform
 clothing	work.name	1	Рабочий	Workwear
-era	era_1.name	1	Первая эпоха — разруха и восстановление	Epoch I — Ruin and recovery
-era	era_3.name	1	Третья эпоха — благополучие и зависимость	Epoch III — Prosperity and dependence
+era	era_1.name	1	Первая эпоха — разруха и восстановление	Epoch I — Ruin and Recovery
+era	era_3.name	1	Третья эпоха — благополучие и зависимость	Epoch III — Prosperity and Dependence
 name	address.citizen	1	гражданин	citizen
 name	address.comrade	1	товарищ	comrade
-cutscene	summon_departure	1	По вызову в район	Summoned to the district
-cutscene	trip_departure	1	Поездка в район	Trip to the district
-cutscene	trip_return	1	Возвращение из района	Return from the district
+cutscene	summon_departure	1	По вызову в район	Summoned to the District
+cutscene	trip_departure	1	Поездка в район	Trip to the District
+cutscene	trip_return	1	Возвращение из района	Return from the District
 perk	crime.name	1	Криминал	Crime
 perk	dachniki.effect	1	Позволяет вынести на собрание вопрос о городских	Lets you ask the village meeting whether to open kolkhoz housing to summer residents from the city
 perk	dachniki.name	1	«Дачники»	“Summer residents”
@@ -217,7 +217,7 @@ perk	order_1.effect	1	Прогулов меньше, наряды выполня
 perk	order_1.name	1	«Наряд есть наряд»	“An assignment is an assignment”
 perk	order_2.effect	1	Учётчик не занижает и не хитрит с трудоднями	The tally clerk records labor-day credits in full and without any tricks
 perk	order_2.name	1	«Спрос с учётчика»	“Holds the tally clerk to account”
-perk	order_3.effect	1	Мелкие хищения со складов и ферм заметно реже	Petty theft from warehouses and farms becomes noticeably less frequent
+perk	order_3.effect	1	Мелкие хищения со складов и ферм заметно реже	Petty theft from storehouses and farms becomes noticeably less frequent
 perk	order_3.name	1	«Порядок на дворе»	“Order around the farm”
 perk	order_4.effect	1	Аврал и отменённый выходной обходятся дешевле по довольству	An all-hands rush or a canceled day off takes less of a toll on family satisfaction
 perk	order_4.name	1	«Без разговоров»	“No arguments”
@@ -264,7 +264,7 @@ perk	word_1.effect	1	Решение проходит собранием с пе�
 perk	word_1.name	1	«Собрание за тобой»	“The meeting backs you”
 perk	word_2.effect	2	Одна из составляющих довольства семьи растёт быстрее	One component of family satisfaction grows faster
 perk	word_2.name	1	«Общее дело»	“Common cause”
-perk	word_3.effect	1	Партячейка и комсомол берут часть дел на себя	The party cell and the Komsomol take on some of the work
+perk	word_3.effect	1	Партячейка и комсомол берут часть дел на себя	The Party cell and the Komsomol take on some of the work
 perk	word_3.name	1	«Организации работают»	“The organizations do their part”
 perk	word_4.effect	1	Пьянство и прогулы падают без нарядов и наказаний	Drinking and absenteeism decline without assignments or punishments
 perk	word_4.name	1	«Личный пример»	“Leads by example”
@@ -278,7 +278,7 @@ avatar	dealer.path.tools.closed	1	До третьей эпохи район не
 avatar	dealer.path.tools.open	1	Знает, где взять: за инструмент и сталь платит зерном вместо баллов лимита.	He knows where to get supplies. He pays for tools and steel with grain instead of allocation points.
 avatar	old_fighter.legend	1	Когда-то он водил в атаку эскадрон, теперь ему поручили колхоз. Он привык отвечать за людей, держать слово и не повторять приказ дважды. Но пашня не держит строй, а районная бумага не понимает команд.	He once led a cavalry squadron into battle. Now they've put him in charge of a kolkhoz. He's used to answering for his people, keeping his word, and giving an order once. But fields won't hold formation, and district paperwork doesn't take orders.
 avatar	old_fighter.line	1	Эскадрон, к бою!	Squadron, ready for battle!
-avatar	promoted.legend	1	За его спиной родственник в обкоме, поэтому закрытые двери перед ним открываются сами. В селе это знают не хуже него и ждут, когда он уедет на следующую должность. Чтобы стать здесь председателем, одного назначения мало.	With a relative on the regional committee, doors open for him all on their own. The village knows it as well as he does. They're waiting for him to move on to his next post. It takes more than an appointment to be chairman here.
+avatar	promoted.legend	1	За его спиной родственник в обкоме, поэтому закрытые двери перед ним открываются сами. В селе это знают не хуже него и ждут, когда он уедет на следующую должность. Чтобы стать здесь председателем, одного назначения мало.	With a relative on the regional Party committee, doors open for him all on their own. The village knows it as well as he does. They're waiting for him to move on to his next post. It takes more than an appointment to be chairman here.
 avatar	promoted.line	1	Раз назначили — значит, доверяют. Остальные привыкнут.	They appointed me, so they must trust me. The rest will get used to it.
 avatar	promoted.path.district.closed	1	Медленнее учится замечать непорядок в хозяйстве.	He takes longer to learn to spot when things are amiss on the farm.
 avatar	promoted.path.district.open	1	Заказанное у района приходит уже к середине месяца.	Supplies ordered from the district arrive by the middle of the month.
