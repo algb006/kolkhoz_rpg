@@ -1,0 +1,46 @@
+{
+  "namespace": "scene",
+  "context": "#1739. Korenev speaks at his desk on a failed-year summons when the existing cause filter yields exactly one visible mark. The existing greeting follows.",
+  "intent": "State the confirmed fact behind the summons and turn the conversation to the chairman’s business.",
+  "keep": "Short, matter-of-fact speech. Name the confirmed fact without blaming a person or claiming it explains the entire shortfall.",
+  "kind_id": 8,
+  "max_len": 160,
+  "strings": [
+    [
+      "district.trip.failed_year.single.theft",
+      "The recorded theft from the storehouse kept stolen goods out of the delivery.",
+      "План не выполнен. Украденное со склада в поставку не попало.",
+      "The plan fell short. The goods stolen from the storehouse never made it into the delivery."
+    ],
+    [
+      "district.trip.failed_year.single.weather",
+      "A weather delay is the sole documented cause visible for this failed year.",
+      "План не выполнен. Погода задержала работы.",
+      "The plan fell short. The weather delayed the work."
+    ],
+    [
+      "district.trip.failed_year.single.people",
+      "The work was short of people, as confirmed for the failed year.",
+      "План не выполнен. На эту работу не хватило людей.",
+      "The plan fell short. There were too few people for the job."
+    ],
+    [
+      "district.trip.failed_year.single.equipment",
+      "An equipment breakdown held up work for the failed plan.",
+      "План не выполнен. Во время работ подвела техника.",
+      "The plan fell short. The equipment broke down during the work."
+    ],
+    [
+      "district.trip.failed_year.single.limit",
+      "The allocation available for the work fell short.",
+      "План не выполнен. На эту работу не хватило лимита.",
+      "The plan fell short. The allocation didn't cover the work."
+    ],
+    [
+      "district.trip.failed_year.single.unfinished",
+      "The work was still unfinished at the plan deadline.",
+      "План не выполнен. К сроку работа осталась незаконченной.",
+      "The plan fell short. The work was still unfinished at the deadline."
+    ]
+  ]
+}
