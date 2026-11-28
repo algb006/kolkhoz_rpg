@@ -1,0 +1,143 @@
+namespace	key	src_rev	ru	en
+place	rodniki.brook.at	1	у Прудового ручья	by Pond Brook
+place	rodniki.brook.name	1	Прудовый ручей	Pond Brook
+place	rodniki.clay_pit_bank_north.at	1	у глиняного откоса за мостом	by the clay bank beyond the bridge
+place	rodniki.clay_pit_bank_north.at_neutral	1	у глиняного откоса северного берега	by the clay slope on the north bank
+place	rodniki.clay_pit_bank_north.name	1	глиняный откос за мостом	clay bank beyond the bridge
+place	rodniki.clay_pit_bank_north.name_neutral	1	глиняный откос северного берега	clay slope on the north bank
+place	rodniki.clay_pit_village.at	1	у глиняной ямы на околице	by the clay pit at the village edge
+place	rodniki.clay_pit_village.name	1	глиняная яма на околице	clay pit at the village edge
+place	rodniki.duck_backwater.at	1	у Утиного затона	by Duck Backwater
+place	rodniki.duck_backwater.name	1	Утиный затон	Duck Backwater
+place	rodniki.east_brook.at	1	у Овражного ручья	by Ravine Brook
+place	rodniki.east_brook.name	1	Овражный ручей	Ravine Brook
+place	rodniki.east_pond.at	1	на Родниковом пруду	at Spring Pond
+place	rodniki.east_pond.name	1	Родниковый пруд	Spring Pond
+place	rodniki.east_pond_dam.at	1	у запруды Родникового пруда	by the Spring Pond weir
+place	rodniki.east_pond_dam.name	1	запруда Родникового пруда	Spring Pond weir
+place	rodniki.ford_duck.at	1	у Утиного брода	by Duck Ford
+place	rodniki.ford_duck.name	1	Утиный брод	Duck Ford
+place	rodniki.ford_forest.at	1	у Лесного брода	by Forest Ford
+place	rodniki.ford_forest.name	1	Лесной брод	Forest Ford
+place	rodniki.ford_mouth.at	1	у Устьевого брода	by Mouth Ford
+place	rodniki.ford_mouth.name	1	Устьевой брод	Mouth Ford
+place	rodniki.ford_old.at	1	у Старого брода	by Old Ford
+place	rodniki.ford_old.name	1	Старый брод	Old Ford
+place	rodniki.forest_brook.at	1	у лесного ручья	by the forest brook
+place	rodniki.forest_brook.name	1	лесной ручей	forest brook
+place	rodniki.forest_east.at	1	в лесу за Овражным ручьём	in the woods beyond Ravine Brook
+place	rodniki.forest_east.at_neutral	1	в восточном лесу	in the eastern woods
+place	rodniki.forest_east.name	1	лес за Овражным ручьём	woods beyond Ravine Brook
+place	rodniki.forest_east.name_neutral	1	восточный лес	eastern woods
+place	rodniki.forest_hill.at	1	в Нагорном лесу	in Highland Forest
+place	rodniki.forest_hill.name	1	Нагорный лес	Highland Forest
+place	rodniki.forest_north.at	1	в лесу за рекой	in the woods across the river
+place	rodniki.forest_north.at_neutral	1	в северном лесу	in the northern woods
+place	rodniki.forest_north.name	1	лес за рекой	woods across the river
+place	rodniki.forest_north.name_neutral	1	северный лес	northern woods
+place	rodniki.forest_south.at	1	в южном лесу	in the southern woods
+place	rodniki.forest_south.name	1	южный лес	southern woods
+place	rodniki.forest_southeast.at	1	в лесу у подножия дальнего холма	in the woods at the foot of the far hill
+place	rodniki.forest_southeast.name	1	лес у подножия дальнего холма	woods at the foot of the far hill
+place	rodniki.grove_east_border.at	1	в восточных посадках	in the eastern plantings
+place	rodniki.grove_east_border.name	1	восточные посадки	eastern plantings
+place	rodniki.grove_hill_1.at	2	в западном перелеске на холме	in the western grove on the hill
+place	rodniki.grove_hill_1.name	2	западный перелесок на холме	western grove on the hill
+place	rodniki.grove_hill_2.at	2	в восточном перелеске на холме	in the eastern grove on the hill
+place	rodniki.grove_hill_2.name	2	восточный перелесок на холме	eastern grove on the hill
+place	rodniki.lake.at	1	у Широкого озера	by Wide Lake
+place	rodniki.lake.name	1	Широкое озеро	Wide Lake
+place	rodniki.lakeside_grove.at	1	в Озёрном перелеске	in Lakeside Grove
+place	rodniki.lakeside_grove.name	1	Озёрный перелесок	Lakeside Grove
+place	rodniki.meadow_01.at	1	на Прибрежном лугу	in Riverside Meadow
+place	rodniki.meadow_01.name	1	Прибрежный луг	Riverside Meadow
+place	rodniki.meadow_08.at	1	на лугу за районным мостом	in the meadow beyond the district bridge
+place	rodniki.meadow_08.at_neutral	1	на северном лугу	in the northern meadow
+place	rodniki.meadow_08.name	1	луг за районным мостом	meadow beyond the district bridge
+place	rodniki.meadow_08.name_neutral	1	северный луг	northern meadow
+place	rodniki.meadows_field.at	1	на Полевых лугах	in Field Meadows
+place	rodniki.meadows_field.name	1	Полевые луга	Field Meadows
+place	rodniki.meadows_lake.at	1	на Озёрных лугах	in Lakeside Meadows
+place	rodniki.meadows_lake.name	1	Озёрные луга	Lakeside Meadows
+place	rodniki.meadows_mill.at	1	на Мельничных лугах	in Mill Meadows
+place	rodniki.meadows_mill.name	1	Мельничные луга	Mill Meadows
+place	rodniki.mill_dam.at	1	у мельничной плотины	by the mill dam
+place	rodniki.mill_dam.name	1	мельничная плотина	mill dam
+place	rodniki.mill_pond.at	1	на Мельничном пруду	at Mill Pond
+place	rodniki.mill_pond.name	1	Мельничный пруд	Mill Pond
+place	rodniki.north_grove.at	1	в Дорожном перелеске	in Roadside Grove
+place	rodniki.north_grove.name	1	Дорожный перелесок	Roadside Grove
+place	rodniki.old_farmstead_site.at	1	у Старого хутора	by the Old Farmstead
+place	rodniki.old_farmstead_site.name	1	Старый хутор	Old Farmstead
+place	rodniki.old_fields.at	1	на Старом поле	in the Old Field
+place	rodniki.old_fields.name	1	Старое поле	Old Field
+place	rodniki.old_fields_approach.at	1	на залежи у въездной дороги	on abandoned land by the approach road
+place	rodniki.old_fields_approach.name	1	залежь у въездной дороги	abandoned land by the approach road
+place	rodniki.old_hunting_lodge.at	1	у старого охотничьего домика	by the old hunting lodge
+place	rodniki.old_hunting_lodge.at_gone	1	в Охотничьем урочище	in the Hunting Grounds
+place	rodniki.old_hunting_lodge.name	1	старый охотничий домик	old hunting lodge
+place	rodniki.old_hunting_lodge.name_gone	1	Охотничье урочище	Hunting Grounds
+place	rodniki.old_orchard_count.at	1	в Барском саду	in the Manor Orchard
+place	rodniki.old_orchard_count.name	1	Барский сад	Manor Orchard
+place	rodniki.old_orchard_hill.at	1	в Нагорном саду	in Highland Orchard
+place	rodniki.old_orchard_hill.name	1	Нагорный сад	Highland Orchard
+place	rodniki.pond_weir.at	1	у запруды Старого пруда	by the Old Pond weir
+place	rodniki.pond_weir.name	1	запруда Старого пруда	Old Pond weir
+place	rodniki.river.at	1	у Луговой	by the Lugovaya River
+place	rodniki.river.name	1	Луговая	Lugovaya River
+place	rodniki.road_east_arch.at	1	у Каменного мостика	by the Stone Bridge
+place	rodniki.road_east_arch.name	1	Каменный мостик	Stone Bridge
+place	rodniki.sand_pit_bank_bridge.at	1	на песчаном берегу у моста	on the sandy bank by the bridge
+place	rodniki.sand_pit_bank_bridge.name	1	песчаный берег у моста	sandy bank by the bridge
+place	rodniki.sand_pit_mouth.at	1	на песчаном берегу у устья	on the sandy bank by the river mouth
+place	rodniki.sand_pit_mouth.name	1	песчаный берег у устья	sandy bank by the river mouth
+place	rodniki.settlement_lesnoy.at	1	в Лесном	in Lesnoy
+place	rodniki.settlement_lesnoy.name	1	посёлок Лесной	Lesnoy settlement
+place	rodniki.stone_quarry_manor.at	3	у каменной россыпи у графской усадьбы	by the loose stone at the count's manor
+place	rodniki.stone_quarry_manor.name	3	каменная россыпь у графской усадьбы	loose stone by the count's manor
+place	rodniki.stone_quarry_slope_north.at	1	у каменного выхода за мостом	by the rock outcrop beyond the bridge
+place	rodniki.stone_quarry_slope_north.at_neutral	1	у каменного выхода северного берега	by the rock outcrop on the north bank
+place	rodniki.stone_quarry_slope_north.name	1	каменный выход за мостом	rock outcrop beyond the bridge
+place	rodniki.stone_quarry_slope_north.name_neutral	1	каменный выход северного берега	rock outcrop on the north bank
+place	rodniki.trunk_bridge.at	1	у районного моста	by the district bridge
+place	rodniki.trunk_bridge.name	1	районный мост	district bridge
+place	rodniki.village_pond.at	1	на Старом пруду	at the Old Pond
+place	rodniki.village_pond.name	1	Старый пруд	Old Pond
+place	rodniki.zone_alder_hollow.name	2	Ольховая ложбина	Alder Hollow
+place	rodniki.zone_beyond_ravine.name	1	Заовражье	Beyond the Ravine
+place	rodniki.zone_dark_forest.name	1	Тёмный лес	Dark Forest
+place	rodniki.zone_dry_pinewood.name	1	Сухой бор	Dry Pinewoods
+place	rodniki.zone_duck_backwater.name	1	Утиный затон	Duck Backwater
+place	rodniki.zone_east_plantings.name	1	Восточные посадки	Eastern Plantings
+place	rodniki.zone_fallow.name	1	Залежь	Abandoned Land
+place	rodniki.zone_far_bank_edge.name	1	Заречная опушка	Far Bank Forest Edge
+place	rodniki.zone_field_meadows.name	1	Полевые луга	Field Meadows
+place	rodniki.zone_hunting_tract.name	1	Охотничье урочище	Hunting Grounds
+place	rodniki.zone_lake_meadows.name	1	Озёрные луга	Lakeside Meadows
+place	rodniki.zone_lakeside.name	1	Прибрежье	Lakeside
+place	rodniki.zone_lesnoy.name	1	Лесной	Lesnoy
+place	rodniki.zone_manor.name	1	Усадьба	Manor
+place	rodniki.zone_manor_orchard.name	1	Барский сад	Manor Orchard
+place	rodniki.zone_mill_meadows.name	1	Мельничные луга	Mill Meadows
+place	rodniki.zone_neighbour_road.name	1	Соседская дорога	Road to the Neighboring Village
+place	rodniki.zone_new_ploughland.name	1	Новины	New Fields
+place	rodniki.zone_oak_wood.name	1	Дубрава	Oak Grove
+place	rodniki.zone_old_fields_far.name	2	Дальние старые поля	Far Old Fields
+place	rodniki.zone_old_fields_near.name	2	Ближние старые поля	Near Old Fields
+place	rodniki.zone_old_fields_south.name	2	Южные старые поля	South Old Fields
+place	rodniki.zone_old_fields_west.name	2	Западные старые поля	West Old Fields
+place	rodniki.zone_old_pond.name	1	Старый пруд	Old Pond
+place	rodniki.zone_pond_forest.name	1	Прудовый лес	Pond Woods
+place	rodniki.zone_pond_hollow.name	1	Прудовая ложбина	Pond Hollow
+place	rodniki.zone_river_floodplain.name	1	Пойма Луговой	Lugovaya Floodplain
+place	rodniki.zone_river_mouth.name	1	Устье	River Mouth
+place	rodniki.zone_roadside_wood.name	1	Дорожный перелесок	Roadside Grove
+place	rodniki.zone_south_boundary.name	1	Южная межа	South Boundary
+place	rodniki.zone_south_spruce.name	1	Южный ельник	South Spruce Woods
+place	rodniki.zone_spring_hill.name	1	Родниковый холм	Spring Hill
+place	rodniki.zone_spring_pond.name	1	Родниковый пруд	Spring Pond
+place	rodniki.zone_stone_bridge.name	1	Каменный мостик	Stone Bridge
+place	rodniki.zone_upland.name	1	Нагорье	Highlands
+place	rodniki.zone_village.name	1	Село	Village
+place	rodniki.zone_west_outskirts.name	1	Западная околица	West Outskirts
+place	rodniki.zone_wide_lake.name	1	Широкое озеро	Wide Lake
