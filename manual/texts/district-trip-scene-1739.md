@@ -73,6 +73,30 @@
 | `topic.plan.korenev` | Коренев | Вы отметили эту строку. Почему именно её? | You marked this line. Why that one? |
 | `closing.karasev` | Карасёв | Папку прихватите. Дома ещё пригодится. | Take your folder with you. You'll need it back home. |
 
+## Вызов по провалу с одной причиной
+
+Предложение на совместную вычитку. За столом Коренев называет то, что известно
+о провале. Если после отбора осталась одна подтверждённая причина, звучит одна
+реплика из таблицы, затем «Теперь ваш вопрос.» и открывается лист. Ответа
+председателя этот переход не ждёт.
+
+Ключи предложены в пространстве `scene`, префикс `district.trip.failed_year.single.`.
+
+| Суффикс и отметка причины | RU | EN |
+|---|---|---|
+| `theft` | План не выполнен. Украденное со склада в поставку не попало. | The plan fell short. The goods stolen from the storehouse never made it into the delivery. |
+| `weather` | План не выполнен. Погода задержала работы. | The plan fell short. The weather delayed the work. |
+| `people` | План не выполнен. На эту работу не хватило людей. | The plan fell short. There were too few people for the job. |
+| `equipment` | План не выполнен. Во время работ подвела техника. | The plan fell short. The equipment broke down during the work. |
+| `limit` | План не выполнен. На эту работу не хватило лимита. | The plan fell short. The allocation didn't cover the work. |
+| `unfinished` | План не выполнен. К сроку работа осталась незаконченной. | The plan fell short. The work was still unfinished at the deadline. |
+
+Используется тот же набор подтверждённых отметок, который получает разговор
+об объяснении провала. При двух и более вариантах остаётся разговор №1732.
+При отсутствии отметок Коренев не называет причину. Одна реплика в районе
+относится к тому же проваленному году, что и вопрос при визите, и использует
+общий флаг `rules.district.failed.pending`.
+
 ## Привязка к host 0.7.578
 
 [Исходник для проверки host][script] использует `district_topic_opened`. Он
