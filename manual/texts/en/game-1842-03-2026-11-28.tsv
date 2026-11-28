@@ -9,7 +9,7 @@ unit	apiary.blurb	1	Мёд. Сбор решает соседство: липы, 
 unit	apiary.name	1	Пасека	Apiary
 unit	apiary.place	1	Где угодно, в лесу тоже; дорога не нужна.	Can go anywhere, including in the forest. No road needed.
 unit	apiary.relief	1	Ложится на землю как есть, её не ровняют; обрыв и вода не годятся.	Follows the existing ground without grading. Cliffs and water are unsuitable.
-unit	bakery.blurb	1	Хлеб каждый день: экономит зерно и время семей. Работает, только когда восстановлена мельница.	Fresh bread every day saves grain and families’ time. The bakery can only operate once the mill is restored.
+unit	bakery.blurb	1	Хлеб каждый день: экономит зерно и время семей. Работает, только когда восстановлена мельница.	Fresh bread every day saves grain and families' time. The bakery can only operate once the mill is restored.
 unit	bakery.level1.name	1	Пекарня	Bakery
 unit	bakery.level2.name	1	Выпечка	Bakery with pastries
 unit	bakery.name	1	Пекарня	Bakery
@@ -21,7 +21,7 @@ unit	barn.level1.name	1	Хлев	Barn
 unit	barn.name	1	Хлев	Barn
 unit	barn.place	1	В промзоне, подальше от питьевых колодцев и жилья.	In the industrial zone, well away from drinking-water wells and homes.
 unit	barn.relief	1	На пологом склоне землю не трогают, здание выравнивает основание; круче — подрезают под ним; на круче нельзя.	On gentle slopes, the foundation keeps the building level without grading. Steeper slopes require cutting into the ground beneath it. Very steep slopes are unsuitable.
-unit	barn.water	1	Сильно грязнит грунтовые воды; свой колодец внутри двора от этого не страдает.	Heavily contaminates groundwater. The well in the barnyard is unaffected.
+unit	barn.water	1	Сильно грязнит грунтовые воды; свой колодец внутри двора от этого не страдает.	Heavily contaminates groundwater. The yard's own well is unaffected.
 unit	barrack.advice	2	Подальше от построек с неприятным запахом.	Keep away from buildings that give off unpleasant odors.
 unit	barrack.blurb	1	Самое дешёвое и быстрое жильё: селит много людей, но тесно, без своего двора и огорода.	The cheapest and quickest housing. The barracks house many residents, but quarters are cramped and families have no yard or garden of their own.
 unit	barrack.place	1	Не в зоне вони и не в пойме; жилая земля выше паводка с запасом.	Keep clear of foul odors and the floodplain. Leave plenty of height above flood level when siting housing.
@@ -33,14 +33,14 @@ unit	barter_place.name	1	Место обмена	Barter spot
 unit	barter_place.place	1	Пятачок у конторы.	A spot by the farm board.
 unit	barter_place.relief	1	Ложится на землю как есть, её не ровняют; обрыв и вода не годятся.	Follows the existing ground without grading. Cliffs and water are unsuitable.
 unit	bathhouse.advice	1	Дальней деревне — своя баня.	Give outlying villages their own bathhouse.
-unit	bathhouse.blurb	1	Главный способ держать гигиену: жители ходят сами в банный день. Выросла очередь — пора строить вторую.	The main way to maintain hygiene. Residents go on bath day of their own accord. When the line gets long, it’s time to build a second bathhouse.
+unit	bathhouse.blurb	1	Главный способ держать гигиену: жители ходят сами в банный день. Выросла очередь — пора строить вторую.	The main way to maintain hygiene. Residents go on bath day of their own accord. When the line gets long, it's time to build a second bathhouse.
 unit	bathhouse.level1.name	1	Деревенская баня	Village bathhouse
 unit	bathhouse.level2.name	1	С предбанником	Bathhouse with changing room
 unit	bathhouse.name	1	Баня	Bathhouse
 unit	bathhouse.place	1	Ближе к жилью: в баню ходят пешком.	Place near homes so residents can walk to the bathhouse.
 unit	bathhouse.relief	1	На пологом склоне землю не трогают, здание выравнивает основание; круче — подрезают под ним; на круче нельзя.	On gentle slopes, the foundation keeps the building level without grading. Steeper slopes require cutting into the ground beneath it. Very steep slopes are unsuitable.
 unit	bathhouse.water	1	Выгребная яма слабо грязнит грунтовые воды; без вывоза пятно растёт.	The pit latrine causes slight groundwater contamination. The affected area grows unless the pit is emptied.
-unit	beach.advice	2	На реке и прудах купаются в диких местах, пляж там не ставят. Нужна тропинка.	Residents swim at informal spots along the river and ponds, where you can’t place a beach. The beach needs a footpath.
+unit	beach.advice	2	На реке и прудах купаются в диких местах, пляж там не ставят. Нужна тропинка.	Residents swim at informal spots along the river and ponds, where you can't place a beach. The beach needs a footpath.
 unit	beach.blurb	1	Место для купания, которое назначает председатель: отдыха больше, а риска меньше, чем на диком берегу.	The chairman designates this swimming spot. It offers more recreation and less risk than swimming from an undeveloped shore.
 unit	beach.name	1	Пляж	Beach
 unit	beach.place	2	Только у озера, с годным дном, в пешем ходе от жилья.	Lakeshore only, where the lakebed is suitable for swimming and homes are within walking distance.
@@ -58,7 +58,7 @@ unit	boarding_wing.name	1	Интернат	Boarding wing
 unit	boarding_wing.place	1	Корпус при школе, на её участке.	A wing on the school grounds.
 unit	boarding_wing.relief	1	Встаёт на участке школы; склон под ним берёт основание.	Sits on the school grounds. The foundation accommodates the slope.
 unit	boarding_wing.water	1	Выгребная яма слабо грязнит грунтовые воды; без вывоза пятно растёт.	The pit latrine causes slight groundwater contamination. The affected area grows unless the pit is emptied.
-unit	brewery.blurb	1	Пиво из ячменя и хмеля. Ячмень придётся делить со скотом.	Brews beer from barley and hops. You’ll have to share the barley with the livestock.
+unit	brewery.blurb	1	Пиво из ячменя и хмеля. Ячмень придётся делить со скотом.	Brews beer from barley and hops. You'll have to share the barley with the livestock.
 unit	brewery.name	1	Пивоварня	Brewery
 unit	brewery.place	1	Особых условий нет.	No special siting requirements.
 unit	brewery.relief	1	На пологом склоне землю не трогают, здание выравнивает основание; круче — подрезают под ним; на круче нельзя.	On gentle slopes, the foundation keeps the building level without grading. Steeper slopes require cutting into the ground beneath it. Very steep slopes are unsuitable.
@@ -81,18 +81,18 @@ unit	buffet.name	1	Буфет	Refreshment bar
 unit	buffet.place	1	Пристройка столовой.	An annex to the canteen.
 unit	buffet.relief	1	Встаёт на участке столовой; склон под ним берёт основание.	Sits on the canteen site. The foundation accommodates the slope.
 unit	buffet.water	1	Выгребная яма слабо грязнит грунтовые воды; без вывоза пятно растёт.	The pit latrine causes slight groundwater contamination. The affected area grows unless the pit is emptied.
-unit	build_yard.blurb	1	Площадка всех строек: кирпич, камень, шифер, цемент. Пока нет общежития, шабашники живут здесь в палатках.	The staging area for all construction, with brick, stone, slate, and cement. Hired construction crews pitch their tents here until the builders’ dormitory is ready.
+unit	build_yard.blurb	1	Площадка всех строек: кирпич, камень, шифер, цемент. Пока нет общежития, шабашники живут здесь в палатках.	The staging area for all construction, with brick, stone, roofing sheets, and cement. Hired construction crews pitch their tents here until the builders' dormitory is ready.
 unit	build_yard.level1.name	1	Двор с палатками	Construction yard with tents
 unit	build_yard.level2.name	1	Капитальный двор	Permanent construction yard
 unit	build_yard.name	1	Строительный двор	Construction yard
 unit	build_yard.place	1	Особых условий нет.	No special siting requirements.
 unit	build_yard.relief	1	На пологом склоне землю не трогают, здание выравнивает основание; круче — подрезают под ним; на круче нельзя.	On gentle slopes, the foundation keeps the building level without grading. Steeper slopes require cutting into the ground beneath it. Very steep slopes are unsuitable.
-unit	builder_dorm.blurb	1	Шабашники живут круглый год, и стройка не останавливается зимой. Осенью сюда селят шефов из города.	Hired construction crews can stay year-round, so work continues through winter. In the fall, visiting work crews from the city stay here.
-unit	builder_dorm.name	1	Общежитие строителей	Builders’ dormitory
+unit	builder_dorm.blurb	1	Шабашники живут круглый год, и стройка не останавливается зимой. Осенью сюда селят шефов из города.	Hired construction crews can stay year-round, so work continues through winter. In autumn, city patrons stay here.
+unit	builder_dorm.name	1	Общежитие строителей	Builders' dormitory
 unit	builder_dorm.place	1	Пристройка строительного двора, на его участке.	An annex on the construction yard site.
-unit	builder_dorm.relief	1	Встаёт на участке двора; склон под ним берёт основание.	Sits on the provisions yard site. The foundation accommodates the slope.
+unit	builder_dorm.relief	1	Встаёт на участке двора; склон под ним берёт основание.	Sits on the construction yard site. The foundation accommodates the slope.
 unit	builder_dorm.water	1	Выгребная яма слабо грязнит грунтовые воды; без вывоза пятно растёт.	The pit latrine causes slight groundwater contamination. The affected area grows unless the pit is emptied.
-unit	bus_stop.blurb	1	Без неё рейсовый автобус проезжает мимо. С ней жители ездят в райцентр за покупками, к врачу и в кино.	The regular bus passes by unless there’s a stop. With a stop, residents can go to the district center to shop, see a doctor, or go to the movies.
+unit	bus_stop.blurb	1	Без неё рейсовый автобус проезжает мимо. С ней жители ездят в райцентр за покупками, к врачу и в кино.	The regular bus passes by unless there's a stop. With a stop, residents can go to the district center to shop, see a doctor, or go to the movies.
 unit	bus_stop.name	1	Автобусная остановка	Bus stop
 unit	bus_stop.place	1	У асфальтовой транзитной дороги.	Beside an asphalt through road.
 unit	bus_stop.relief	1	На пологом склоне землю не трогают, основание выравнивает постройку; на круче нельзя.	On gentle slopes, the foundation keeps the shelter level without grading. Steeper slopes are unsuitable.
@@ -115,9 +115,9 @@ unit	cattle_yard.level3.name	2	Коровник Эпохи II	Epoch II cowshed
 unit	cattle_yard.level4.name	1	Коровник Эпохи III	Epoch III cowshed
 unit	cattle_yard.place	1	В промзоне, подальше от питьевых колодцев и жилья.	In the industrial zone, well away from drinking-water wells and homes.
 unit	cattle_yard.relief	1	На пологом склоне землю не трогают, здание выравнивает основание; круче — подрезают под ним; на круче нельзя.	On gentle slopes, the foundation keeps the building level without grading. Steeper slopes require cutting into the ground beneath it. Very steep slopes are unsuitable.
-unit	cattle_yard.water	1	Сильно грязнит грунтовые воды; свой колодец внутри двора от этого не страдает.	Heavily contaminates groundwater. The well in the barnyard is unaffected.
-unit	cemetery.advice	1	Отводить на неудобье, но помнить: через годы там может встать село.	Use land that's hard to put to other uses, but remember that the village might reach it in a few years.
-unit	cemetery.blurb	3	Место для похорон. Новое кладбище можно снести, пока здесь не назначено захоронение. После этого оно останется навсегда.	A burial ground. You can remove a new cemetery until a burial is scheduled there. After that, it stays forever.
+unit	cattle_yard.water	1	Сильно грязнит грунтовые воды; свой колодец внутри двора от этого не страдает.	Heavily contaminates groundwater. The yard's own well is unaffected.
+unit	cemetery.advice	1	Отводить на неудобье, но помнить: через годы там может встать село.	Use land that's hard to put to other uses, but remember that the village may grow out to it in years to come.
+unit	cemetery.blurb	3	Место для похорон. Новое кладбище можно снести, пока здесь не назначено захоронение. После этого оно останется навсегда.	A burial ground. You can demolish a new cemetery until a burial is scheduled there. After that, it stays forever.
 unit	cemetery.level1.name	1	Ограждённый участок	Fenced plot
 unit	cemetery.level2.name	1	Ограда, ворота, дорожки	Fence, gates, and paths
 unit	cemetery.level3.name	1	Скамейки, деревья, обелиск	Benches, trees, and an obelisk
@@ -132,9 +132,9 @@ unit	chicken_farm.name	1	Куриная ферма	Chicken farm
 unit	chicken_farm.place	1	В промзоне, подальше от питьевых колодцев.	In the industrial zone, well away from drinking-water wells.
 unit	chicken_farm.relief	1	На пологом склоне землю не трогают, здание выравнивает основание; круче — подрезают под ним; на круче нельзя.	On gentle slopes, the foundation keeps the building level without grading. Steeper slopes require cutting into the ground beneath it. Very steep slopes are unsuitable.
 unit	chicken_farm.water	1	Средне грязнит грунтовые воды; свой колодец внутри двора.	Causes moderate groundwater pollution. There is a well inside the yard.
-unit	church_store.level1.name	1	Церковь под склад	Church — storehouse
+unit	church_store.level1.name	1	Церковь под склад	Church used as a storehouse
 unit	church_store.level2.name	1	Семенной склад	Seed storehouse
-unit	church_store.level3.name	1	Семенной склад — фасад обновлён	Seed storehouse — refurbished facade
+unit	church_store.level3.name	1	Семенной склад — фасад обновлён	Seed storehouse with refurbished facade
 unit	church_store.level4.name	1	Районный краеведческий музей	District museum of local history
 unit	clamp.advice	1	Дешёвое место на первый год; надолго — продуктовый склад.	Cheap storage for the first year. Use a provisions storehouse for longer-term storage.
 unit	clamp.blurb	2	Картофель и овощи под соломой и землёй: дешёвое хранилище на первый год.	Potatoes and vegetables under straw and earth. Cheap storage for the first year.
@@ -145,9 +145,9 @@ unit	clay_pile.blurb	1	Бесплатная площадка у глиняног
 unit	clay_pile.name	1	Куча глины	Clay pile
 unit	clay_pile.place	1	При карьере, у его подъездной дороги.	Beside the quarry, by its access road.
 unit	clay_pile.relief	1	Ложится на землю как есть, её не ровняют; обрыв и вода не годятся.	Follows the existing ground without grading. Cliffs and water are unsuitable.
-unit	count_lodge.level1.name	1	Графская сторожка	The count's lodge
+unit	count_lodge.level1.name	1	Графская сторожка	Count's lodge
 unit	count_lodge.level2.name	1	Школьное УПХ	School training farm
-unit	count_lodge.name	1	Графская сторожка	The count's lodge
+unit	count_lodge.name	1	Графская сторожка	Count's lodge
 unit	crafts_yard.advice	1	Дубильню ставить отдельно, на окраине: у двора она утопила бы швей в вони.	Put the tannery on its own at the edge of the village. Next to the crafts yard, it would leave the seamstresses working in a cloud of stink.
 unit	crafts_yard.blurb	1	Ткут, шьют и тачают для своих: одежда и обувь села без лимита района. Излишки идут на продажу.	Weavers, seamstresses, and shoemakers supply the village with clothes and shoes without using the district allocation. Surplus goes on sale.
 unit	crafts_yard.level1.name	1	Промысловый двор	Crafts yard
@@ -180,7 +180,7 @@ unit	duck_farm.water	1	Средне грязнит грунтовые воды.	
 unit	dye_house.blurb	1	Модуль промыслового двора: красит ткань покупной краской. Пахнет слабо.	A crafts yard module that colors fabric with purchased dye. Gives off a slight odor.
 unit	dye_house.name	1	Красильня	Dye house
 unit	dye_house.place	1	Часть промыслового двора, на его участке.	Part of the crafts yard, on the same plot.
-unit	dye_house.relief	1	Встаёт на участке двора; склон под ним берёт основание.	Sits on the provisions yard site. The foundation accommodates the slope.
+unit	dye_house.relief	1	Встаёт на участке двора; склон под ним берёт основание.	Sits on the crafts yard site. The foundation accommodates the slope.
 unit	elevator.blurb	1	Большое хранилище зерна: запас между годами и сдача не сразу после уборки, а когда выгодно.	Large grain store that holds reserves from year to year. You can wait until it's advantageous to deliver grain instead of handing it over right after harvest.
 unit	elevator.name	1	Элеватор	Grain elevator
 unit	elevator.place	1	Особых условий нет.	No special siting requirements.
@@ -203,11 +203,11 @@ unit	feldsher_post.name	1	ФАП	Rural medical post
 unit	feldsher_post.place	1	Служит всему хозяйству, но до него идут, и путь съедает время.	Serves the entire kolkhoz, but getting there on foot takes time.
 unit	feldsher_post.relief	1	На пологом склоне землю не трогают, здание выравнивает основание; круче — подрезают под ним; на круче нельзя.	On gentle slopes, the foundation keeps the building level without grading. Steeper slopes require cutting into the ground beneath it. Very steep slopes are unsuitable.
 unit	feldsher_post.water	1	Выгребная яма слабо грязнит грунтовые воды; без вывоза пятно растёт.	The pit latrine causes slight groundwater contamination. The affected area grows unless the pit is emptied.
-unit	field_camp.advice	1	Место остаётся размеченным для следующих заездов колонны.	The site stays marked out for the next visits by the MTS convoy.
+unit	field_camp.advice	1	Место остаётся размеченным для следующих заездов колонны.	The site stays staked out for the next visits by the MTS convoy.
 unit	field_camp.blurb	2	Стан у дальних полей: в страду бригада ночует здесь, а не ходит домой. Здесь же встаёт выездная колонна МТС.	During peak fieldwork, the crew sleeps here by the outlying fields instead of walking home. The MTS convoy sets up here too.
 unit	field_camp.level1.name	2	Стан	Camp
 unit	field_camp.name	1	Полевой стан	Field camp
-unit	field_camp.place	1	Близко к полям, но не на пашне; без подъездной дороги разметка откажет.	Near the fields, off arable land. You need an access road to mark out the site.
+unit	field_camp.place	1	Близко к полям, но не на пашне; без подъездной дороги разметка откажет.	Near the fields, off arable land. You need an access road to stake out the site.
 unit	field_camp.relief	1	Нужно ровное сухое место: стан землю не ровняет.	Choose level, dry ground. The camp does not grade the terrain.
 unit	field_canteen.blurb	1	Навес со столами у дальних полей: перерыв в страду даёт отдохнуть, и работа идёт быстрее.	A shelter with tables by the outlying fields. A break during peak fieldwork gives the crew a rest and helps them work faster.
 unit	field_canteen.name	1	Полевая столовая	Field canteen
@@ -229,7 +229,7 @@ unit	firewood_yard.blurb	1	Колка и хранение дров и валеж
 unit	firewood_yard.name	1	Дровяной участок	Firewood yard
 unit	firewood_yard.place	1	Часть хозяйственного двора, на его участке.	Part of the service yard, on the same site.
 unit	firewood_yard.relief	1	Встаёт на участке двора по земле как есть.	Fits on the yard site without grading.
-unit	fishery.advice	1	У устья, на размеченной площадке: там улов полный, на прочем берегу меньше.	Use the marked site at the river mouth for a full catch. Other spots along the shore yield less.
+unit	fishery.advice	1	У устья, на размеченной площадке: там улов полный, на прочем берегу меньше.	Use the staked site at the river mouth for a full catch. Other spots along the shore yield less.
 unit	fishery.blurb	1	Лов сетями с лодок на озере в тёплое время: рыба на стол и корм котам склада. Рыбаки выходят только парами.	In the warm months, fishers cast their nets from boats on the lake. The catch feeds residents and the storehouse cats. Fishers only go out in pairs.
 unit	fishery.level1.name	2	Дощатый сарай и две лодки	Plank shed and two boats
 unit	fishery.level2.name	3	Прочный склад, моторы и мостки	Sturdy storehouse, motors, and docks
@@ -258,7 +258,7 @@ unit	fur_farm.place	1	Только на отшибе.	On an isolated site only.
 unit	fur_farm.relief	1	На пологом склоне землю не трогают, здание выравнивает основание; круче — подрезают под ним; на круче нельзя.	On gentle slopes, the foundation keeps the building level without grading. Steeper slopes require cutting into the ground beneath it. Very steep slopes are unsuitable.
 unit	fur_farm.water	1	Грязнит грунтовые воды, как ферма.	Pollutes groundwater like a livestock farm.
 unit	furrier_shop.blurb	1	Модуль промыслового двора: шьёт шубы из шкурок зверофермы.	A crafts yard module that makes fur coats from fur farm pelts.
-unit	furrier_shop.name	1	Скорняжная мастерская	Furrier’s workshop
+unit	furrier_shop.name	1	Скорняжная мастерская	Furrier's workshop
 unit	furrier_shop.place	1	Часть промыслового двора, на его участке.	Part of the crafts yard, on the same plot.
 unit	furrier_shop.relief	1	Встаёт на участке двора по земле как есть.	Fits on the yard site without grading.
 unit	garment_factory.blurb	1	Модная одежда по городскому образцу из крашеного и покупного сырья. Предмет роскоши.	Makes fashionable city-style clothes from dyed and purchased materials. A luxury good.
@@ -268,7 +268,7 @@ unit	garment_factory.relief	1	На пологом склоне землю не �
 unit	goods_store.blurb	2	Закрытый склад хозяйственного двора: инструмент, промтовары, ткани, железо, керосин. Отсюда снабжают всё хозяйство.	Enclosed storage at the service yard for tools, manufactured goods, fabric, iron, and kerosene. Supplies the entire kolkhoz.
 unit	goods_store.level1.name	1	Товарный склад	Goods storehouse
 unit	goods_store.place	1	Часть хозяйственного двора, на его участке.	Part of the service yard, on the same site.
-unit	goods_store.relief	1	Встаёт на участке двора; склон под ним берёт основание.	Sits on the provisions yard site. The foundation accommodates the slope.
+unit	goods_store.relief	1	Встаёт на участке двора; склон под ним берёт основание.	Sits on the service yard site. The foundation accommodates the slope.
 unit	granary.blurb	1	Зерно, семенной фонд, мука и крупа. Любое зерно лежит вместе, а учёт ведётся по культурам.	Stores grain, the seed reserve, flour, and groats. All grain is stored together, with separate records for each crop.
 unit	granary.level1.name	1	Стартовый амбар	Starter granary
 unit	granary.level2.name	2	Улучшенный зерновой амбар	Improved granary
@@ -280,7 +280,7 @@ unit	greenhouse.name	1	Теплица	Greenhouse
 unit	greenhouse.place	1	Особых условий нет.	No special siting requirements.
 unit	greenhouse.relief	1	На пологом склоне землю не трогают, здание выравнивает основание; круче — подрезают под ним; на круче нельзя.	On gentle slopes, the foundation keeps the building level without grading. Steeper slopes require cutting into the ground beneath it. Very steep slopes are unsuitable.
 unit	hay_stack.blurb	1	Сено на зимовку под открытым небом, без постройки. Единственная открытая площадка, которая может сгореть.	Winter hay is stored in the open with no building. This is the only open storage site that can burn.
-unit	hay_stack.place	1	Не в пойме: до весны не достоит.	Keep it out of the floodplain or it won’t last until spring.
+unit	hay_stack.place	1	Не в пойме: до весны не достоит.	Keep it out of the floodplain or it won't last until spring.
 unit	hay_stack.relief	1	Ложится на землю как есть, её не ровняют; обрыв и вода не годятся.	Follows the existing ground without grading. Cliffs and water are unsuitable.
 unit	honour_board.advice	1	Действует на всех вокруг: ставить в центре.	Put it in the center so it can reach everyone nearby.
 unit	honour_board.blurb	1	Признание заслуг на видном месте: работает на настроение всего села, район это ценит.	Public recognition lifts the mood across the village. The district appreciates it too.

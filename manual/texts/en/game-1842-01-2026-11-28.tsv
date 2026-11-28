@@ -2,7 +2,7 @@ namespace	key	src_rev	ru	en
 ui.common	object.auto_name	1	{kind} · {zone}	{kind} · {zone}
 ui.common	object.auto_name_numbered	1	{kind} · {zone} {number}	{kind} · {zone} {number}
 ui.common	place.caption	1	Место: {zone}	Place: {zone}
-feed	acceptance_act_signed	1	Акт приёмки подписан: склады и стадо приняты. Начат складской учёт для ревизии; за годовой падёж от бескормицы отвечаете со следующего года.	Acceptance act signed: the storehouses and the herd have been taken over. Stock records for audits begin now. From next year, you answer for annual herd deaths due to feed shortages.
+feed	acceptance_act_signed	1	Акт приёмки подписан: склады и стадо приняты. Начат складской учёт для ревизии; за годовой падёж от бескормицы отвечаете со следующего года.	Acceptance act signed: storehouses and herd taken over. Stock records for audits begin now. From next year, you answer for herd losses from feed shortages.
 feed	advance_written_off	3	{family}: при годовом разделе списан долг по авансу — {amount} т в пересчёте на зерно.	{family}: advance debt written off at the annual distribution — {amount} t in grain equivalent.
 feed	advance_written_off.folded	1	При годовом разделе списаны долги по авансу: {amount} т в пересчёте на зерно. Дворов: {count}. Дворы: {names}.	Advance debts written off at the annual distribution: {amount} t in grain equivalent. Households: {count}. Names: {names}.
 feed	advance_written_off.folded_more	1	При годовом разделе списаны долги по авансу: {amount} т в пересчёте на зерно. Дворов: {count}. Среди дворов: {names}…	Advance debts written off at the annual distribution: {amount} t in grain equivalent. Households: {count}. Households include: {names}…
@@ -185,7 +185,7 @@ event	event_10.title	1	Асфальт	Asphalt
 event	event_11.title	1	Второй выходной	A second day off
 event	event_12.title	1	Телевидение	Television
 event	event_14.title	1	Стройотряды	Student building crews
-event	event_15.title	1	Сельхозтехникум	Agricultural technical school
+event	event_15.title	1	Сельхозтехникум	Agricultural college
 event	event_16.title	1	Налог на ЛПХ	Tax on household plots
 event	event_17.title	1	Антиалкогольная кампания	Anti-alcohol campaign
 event	event_18.title	1	Пенсии колхозникам	Pensions for kolkhoz members
