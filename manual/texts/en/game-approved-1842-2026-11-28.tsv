@@ -1,6 +1,6 @@
 namespace	key	rev	text
 feed	winter_sowing_lost	2	Field{place}: no winter crops were sown by the end of October, so there will be no winter harvest here next year.
-order	take_goods_loan.text	1	Take a seed loan: {resource} — {amount} t. Repay {amount_back} t at year-end.
+order	take_goods_loan.text	1	Take a seed loan: {resource} — {amount} t. Repay {amount_back} t by year-end.
 order	first.header	1	For the “{kolkhoz_name}” kolkhoz
 order	first.title	1	Order No. 1
 order	first.date	1	April 1931, {weekday}
@@ -16,13 +16,13 @@ scene	count_lodge.opening.title	1	The lodge cellar
 scene	count_lodge.opening.found	1	We found tools and barrels of supplies under the lodge. Some of the barrels look newer than the boarded-up door.
 scene	count_lodge.offer.elder.route	1	Follow the road over the bridge. The lodge is across the river, by the old orchard.
 scene	count_lodge.offer.elder.later	1	That's right. Go when they're free.
-scene	elder.introduction.opening.chairman	1	Did you used to be the village headman?
-scene	elder.introduction.opening.elder	1	I did. Now I work alongside everyone else. Did you want to ask about the village?
+scene	elder.introduction.opening.chairman	1	Were you the village headman before?
+scene	elder.introduction.opening.elder	1	I was. Now I work alongside everyone else. Did you want to ask about the village?
 scene	elder.introduction.purpose.chairman	1	Yes. Where would you start?
-scene	elder.introduction.field_not_cleared.elder	1	The field where you'll be building hasn't been harvested yet. Clear it and I'll show you where to mark things out.
+scene	elder.introduction.field_not_cleared.elder	1	The field where you'll be building hasn't been harvested yet. Clear it and I'll show you where to stake things out.
 scene	elder.introduction.quest.summary	1	Find the former village headman and talk to him about the village.
 scene	elder.introduction.history.met_at_work	1	I met the former village headman at his workplace.
-quest	quest_e1_00.body	2	Mark out the village: the yards, the stores and the roads. Marking them out costs nothing. Moving things once they're in place can take time and extra work.
-quest	quest_e1_08.body	5	Insulate the livestock yard before the cold sets in. An insulated yard or straw insulation for one winter will do.
+quest	quest_e1_00.body	2	Stake out the village: the yards, the storehouses and the roads. Staking costs nothing. Moving things once they're in place can take time and extra work.
+quest	quest_e1_08.body	5	Insulate the cattle yard before the cold sets in. An Insulated cattle yard or straw insulation for one winter will do.
 quest	quest_e1_16.body	2	Insulate at least one building before next winter.
-quest	quest_e1_34.complete	2	We opened the cellar and found tools and supplies. The cart will take what it can carry. We can come back for the rest on another work assignment.
+quest	quest_e1_34.complete	2	We opened the cellar and found tools and supplies. The cart will take what it can carry. We can come back for the rest with the next work assignment.
