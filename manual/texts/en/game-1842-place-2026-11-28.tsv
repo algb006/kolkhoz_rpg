@@ -93,15 +93,15 @@ place	rodniki.sand_pit_mouth.at	1	на песчаном берегу у усть
 place	rodniki.sand_pit_mouth.name	1	песчаный берег у устья	sandy bank by the river mouth
 place	rodniki.settlement_lesnoy.at	1	в Лесном	in Lesnoy
 place	rodniki.settlement_lesnoy.name	1	посёлок Лесной	Lesnoy settlement
-place	rodniki.stone_quarry_manor.at	3	у каменной россыпи у графской усадьбы	by the loose stone at the count's manor
-place	rodniki.stone_quarry_manor.name	3	каменная россыпь у графской усадьбы	loose stone by the count's manor
+place	rodniki.stone_quarry_manor.at	4	у каменной россыпи возле графской усадьбы	by the stone scree near the count's manor
+place	rodniki.stone_quarry_manor.name	3	каменная россыпь у графской усадьбы	stone scree by the count's manor
 place	rodniki.stone_quarry_slope_north.at	1	у каменного выхода за мостом	by the rock outcrop beyond the bridge
 place	rodniki.stone_quarry_slope_north.at_neutral	1	у каменного выхода северного берега	by the rock outcrop on the north bank
 place	rodniki.stone_quarry_slope_north.name	1	каменный выход за мостом	rock outcrop beyond the bridge
 place	rodniki.stone_quarry_slope_north.name_neutral	1	каменный выход северного берега	rock outcrop on the north bank
 place	rodniki.trunk_bridge.at	1	у районного моста	by the district bridge
 place	rodniki.trunk_bridge.name	1	районный мост	district bridge
-place	rodniki.village_pond.at	1	на Старом пруду	at the Old Pond
+place	rodniki.village_pond.at	1	на Старом пруду	at Old Pond
 place	rodniki.village_pond.name	1	Старый пруд	Old Pond
 place	rodniki.zone_alder_hollow.name	2	Ольховая ложбина	Alder Hollow
 place	rodniki.zone_beyond_ravine.name	1	Заовражье	Beyond the Ravine

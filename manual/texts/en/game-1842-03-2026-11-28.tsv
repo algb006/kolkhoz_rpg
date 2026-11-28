@@ -251,7 +251,7 @@ unit	fuel_point.place	1	Часть хозяйственного двора, на
 unit	fuel_point.relief	1	Встаёт на участке двора по земле как есть.	Fits on the yard site without grading.
 unit	fuel_point.water	1	Склад горючего: средне грязнит грунтовые воды.	Stored fuel causes moderate groundwater pollution.
 unit	fur_farm.advice	1	Подальше от жилья и питьевых колодцев.	Keep it well away from homes and drinking-water wells.
-unit	fur_farm.blurb	1	Норковые шкурки из рыбы, сырьё для шуб. Единственное в хозяйстве производство предметов роскоши.	Raises mink on fish for pelts used to make fur coats. The only unit in the kolkhoz that produces luxury goods.
+unit	fur_farm.blurb	2	Норковые шкурки из рыбы, сырьё для шуб.	Raises mink on fish for pelts used to make fur coats.
 unit	fur_farm.level1.name	1	Звероферма	Fur farm
 unit	fur_farm.name	1	Звероферма	Fur farm
 unit	fur_farm.place	1	Только на отшибе.	On an isolated site only.
