@@ -1,0 +1,6 @@
+namespace	key	src_rev	ru	en
+ui.office	trip.ask.specialist.no_route	new	В эту эпоху специалиста в поездке не запросить.	No specialist requests here this epoch.
+ui.office	trip.ask.brigade.no_route	new	В эту эпоху район не высылает бригады.	No district crews in this epoch.
+ui.office	trip.ask.bridge_term.no_route	new	В эту эпоху район не согласует ремонт моста.	The district won't schedule bridge repairs this epoch.
+ui.office	trip.ask.goods_loan.home	new	Товарный заём оформляют из кабинета.	Request a goods loan from your office.
+ui.office	trip.ask.plan.first_plan	new	План первого года торгу не подлежит.	You can't bargain over the first year's plan.
