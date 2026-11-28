@@ -2,9 +2,9 @@ namespace	key	src_rev	ru	en
 resource	fashion_shoes_midseason.name	1	Модная обувь демисезонная	Spring/autumn fashion shoes
 resource	forest_forage.name	2	Дары леса	Wild mushrooms, berries & nuts
 ui.settings	save.cannot.dialogue_pending	1	Сохранение недоступно, пока собеседник ждёт ответа.	Can't save until you reply.
-avatar	acting.name	1	Временная	Acting Chair
+avatar	acting.name	1	Временная	Acting Chairwoman
 feed	authority_moved.deed.audit_remark	3	районный ревизор вынес замечание за недостачу	the district auditor flagged a stock shortage
-feed	authority_moved.deed.thief_to_constable	1	председатель передал вора участковому, и семья вора осталась без кормильца	the chairman turned the thief in to the district constable. The family lost its breadwinner
+feed	authority_moved.deed.thief_to_constable	1	председатель передал вора участковому, и семья вора осталась без кормильца	the chairman turned the thief in to the district constable; the family lost its breadwinner
 feed	church_rye_stolen	1	Ночью со склада в церкви пропало {kg} кг ржи. В селе пьют.	Overnight, {kg} kg of rye vanished from the church storehouse. The village is drinking.
 feed	exit_certificate_decided	1	Решение по справке на выезд принято.	Permit to leave: decision made.
 feed	field_removed	1	Поле{place}: участок исключён из пашни.	Field{place}: no longer arable land.
@@ -25,6 +25,6 @@ feed	theft_uncovered	2	Выяснилось, что {culprit} {culprit_gender}|g
 feed	trial_stage_commission	1	Районная комиссия проверяет работу хозяйства.	The district commission is reviewing the kolkhoz.
 feed	trip_cancelled	1	Поездка в район отменена из-за метели.	Snowstorm canceled the district trip.
 feed	winter_sowing_lost	2	Поле{place}: до конца октября озимые не посеяны — урожая озимых в следующем году не будет.	Field{place}: no winter sowing by October's end. No winter crop next year.
-ui.settings	set.controls.turn_arrows	new	стрелки влево и вправо	Left and Right arrows
-ui.settings	set.controls.key_esc	new	Esc	Esc
-ui.hud	build_info.package_none	new	нет	none
+ui.settings	set.controls.turn_arrows	1	стрелки влево и вправо	Left and Right arrows
+ui.settings	set.controls.key_esc	1	Esc	Esc
+ui.hud	build_info.package_none	1	нет	none
