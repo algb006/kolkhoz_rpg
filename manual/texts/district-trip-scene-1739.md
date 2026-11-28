@@ -1,6 +1,6 @@
 # Поездка в район · №1739
 
-Черновик на совместную вычитку RU и EN. Адрес сцены к согласованию —
+Текст прошёл совместную вычитку RU и EN. Адрес сцены к согласованию —
 `scene.district.trip`. Постановка опирается на [поездку председателя][trip],
 [пять лиц райцентра][faces] и [лист вопросов №1738][sheet].
 
@@ -28,7 +28,7 @@
 
 | Ключ лица | Роль и появление | Что видит игрок |
 |---|---|---|
-| `karasev` | Младший инструктор. Предлагаемый собеседник обычного приёма. Выслушивает, о каком деле приехал говорить председатель. Может подвести к обсуждению плана без личного приёма у секретаря. | Пробор, галстук, портфель с ремешком. На столе держит перед собой лист. |
+| `karasev` | Младший инструктор. Ведёт обычный приём и стандартные вопросы. Выслушивает, о каком деле приехал говорить председатель. Может подвести к обсуждению плана на общем листе. | Пробор, галстук, портфель с ремешком. На столе держит перед собой лист. |
 | `stozharov` | Старший инструктор. Переход к вопросам после разговора, если по фактическому поводу вызова встречу вёл он. | Сухой, жилистый, в выгоревшем плаще. Отодвигает бумаги и слушает. |
 | `polushkina` | Младшая ревизор. Переход после своего разговора. Может произнести реплику о товарном займе, если назначена собеседницей по нему. | Аккуратно одета, держит тетрадь с инструкциями. Смотрит на две строки рядом. |
 | `zhernova` | Старшая ревизор. Переход после своего разговора по подтверждённому поводу. | Очки на цепочке, папка на тесёмках. Поднимает взгляд от книги. |
@@ -48,7 +48,7 @@
 | Ключ | Лицо | RU | EN |
 |---|---|---|---|
 | `opening.voluntary.karasev` | Карасёв | Садитесь, товарищ председатель. Папку можно на стол. С чего начнём? | Have a seat, Comrade Chairman. You can put your folder on the desk. Where shall we start? |
-| `opening.after_summons.karasev` | Карасёв | Теперь к вашим вопросам. С чем ещё приехали? | Now we can take up your business. What else did you come about? |
+| `opening.after_summons.karasev` | Карасёв | Теперь к вашим вопросам. С чем ещё приехали? | Now to your questions. What else brought you here? |
 | `opening.after_summons.stozharov` | Стожаров | До отъезда ещё есть время. О чём хотите поговорить? | There's still time before you go. What would you like to discuss? |
 | `opening.after_summons.polushkina` | Полушкина | По этому вопросу я записала. Что ещё внести в лист? | I've made my notes on that matter. What else shall I put on the sheet? |
 | `opening.after_summons.zhernova` | Жернова | Что ещё у вас к району? | What else do you need from the district? |
@@ -56,8 +56,8 @@
 | `topic.specialist.karasev` | Карасёв | Кто вам нужен? И где человек будет жить, если приедет? | Who do you need? And where will they live if they come? |
 | `topic.materials.karasev` | Карасёв | Под какую стройку просите? Слово «срочно» у нас уже можно печатать прямо на бланке. | Which job needs the materials? We may as well have “urgent” printed on the form by now. |
 | `topic.brigade.karasev` | Карасёв | Какая работа и готовы ли материалы? Это первое, что выездная бригада спросит. | What's the job, and are the materials ready? That's the first thing the visiting crew will ask. |
-| `topic.goods_loan.karasev` | Карасёв | Что просите взаймы? Тут две строки: сколько взять и сколько вернуть. | What do you want to borrow? There are two lines here. How much you take and how much you pay back. |
-| `topic.goods_loan.polushkina` | Полушкина | Сколько берёте, пишем здесь. Сколько вернёте, рядом. Разные строки, один и тот же товар. | What you borrow goes here. What you repay goes next to it. Two lines for the same goods. |
+| `topic.goods_loan.karasev` | Карасёв | Что просите взаймы? Тут две строки: сколько взять и сколько вернуть. | What do you want to borrow? There are two lines here: how much you take and how much you pay back. |
+| `topic.goods_loan.polushkina` | Полушкина | Сколько берёте — пишем здесь. Сколько вернёте — рядом. Так положено: разные строки, один и тот же товар. | What you borrow goes here. What you repay goes next to it. That's the rule: two lines for the same goods. |
 | `topic.bridge_term.karasev` | Карасёв | Какой срок предлагаете? У моста один календарь на все хозяйства. | When would you schedule the repairs? Every kolkhoz shares that bridge and its calendar. |
 | `topic.plan.karasev` | Карасёв | Покажите годовой план. С какой строки начнём? | Show me the annual plan. Which line shall we start with? |
 | `topic.plan.korenev` | Коренев | Какую строку предлагаете изменить? Почему именно эту? | Which line do you want to change? Why that one? |
@@ -65,7 +65,7 @@
 
 ## Условия для согласования с владельцами
 
-- На первом приёме Карасёв предложен как постоянное лицо листа. Назначение
+- Обычный приём и стандартные вопросы ведёт Карасёв. Назначение
   собеседника, вход в лист, переход к существующему делу и время возврата остаются
   за game, host и core. Для вызова лицо и повод берутся из факта встречи.
 - Заявки на специалиста, материалы и бригаду и вопросы о займе, мосте и плане
