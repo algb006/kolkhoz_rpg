@@ -26,9 +26,9 @@
     ],
     [
       "district.trip.failed_year.single.equipment",
-      "An equipment breakdown held up work for the failed plan.",
-      "План не выполнен. Во время работ подвела техника.",
-      "The plan fell short. The equipment broke down during the work."
+      "Farm implements broke down during the work for the failed plan.",
+      "План не выполнен. Во время работ подвёл инвентарь.",
+      "The plan fell short. The farm implements broke down during the work."
     ],
     [
       "district.trip.failed_year.single.limit",

@@ -162,7 +162,7 @@ python3 tools/test_voice_ledger.py
 | `scene.elder.own_name` | 3 | 0 | 3 |
 | `scene.elder.restore_talk` | 4 | 0 | 4 |
 | `scene.elder.last_advice` | 1 | 0 | 1 |
-| `scene.district.failure_explanation` | 15 | 0 | 15 |
+| `scene.district.failure_explanation` | 15 | 1 | 14 |
 | `scene.school_fears.teacher_opening` | 9 | 0 | 9 |
 | `scene.school_fears.witch_account` | 13 | 0 | 13 |
 | `scene.school_fears.source_answer` | 16 | 0 | 16 |

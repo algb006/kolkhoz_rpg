@@ -87,7 +87,7 @@
 | `theft` | План не выполнен. Украденное со склада в поставку не попало. | The plan fell short. The goods stolen from the storehouse never made it into the delivery. |
 | `weather` | План не выполнен. Погода задержала работы. | The plan fell short. The weather delayed the work. |
 | `people` | План не выполнен. На эту работу не хватило людей. | The plan fell short. There were too few people for the job. |
-| `equipment` | План не выполнен. Во время работ подвела техника. | The plan fell short. The equipment broke down during the work. |
+| `equipment` | План не выполнен. Во время работ подвёл инвентарь. | The plan fell short. The farm implements broke down during the work. |
 | `limit` | План не выполнен. На эту работу не хватило лимита. | The plan fell short. The allocation didn't cover the work. |
 | `unfinished` | План не выполнен. К сроку работа осталась незаконченной. | The plan fell short. The work was still unfinished at the deadline. |
 
