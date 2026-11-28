@@ -1,0 +1,296 @@
+namespace	key	src_rev	ru	en
+order	attend_funeral	1	Пойти	Attend
+ui.people	idle_reason.funeral	1	Похороны	Funeral
+ui.people	whereabouts.funeral	1	На похоронах	At a funeral
+ui.build	cemetery.demolish.locked	1	На кладбище уже есть могилы или назначено захоронение. Снести его нельзя.	The cemetery already has graves or a burial is scheduled. It cannot be demolished.
+ui.build	cemetery.placement.permanent	1	Кладбище — навсегда с момента, когда здесь назначат первое захоронение.	The cemetery becomes permanent when the first burial is scheduled.
+ui.build	refusal.crafts_gate	2	Нужен завершённый год плана или репутация у района не ниже {required_reputation}.	Requires a completed plan year or district reputation of at least {required_reputation}.
+signal	alcoholism.abuses.band	1	злоупотребляет	drinks excessively
+signal	alcoholism.drinks.band	1	выпивает	drinks regularly
+signal	alcoholism.drunkard.band	2	спился	dependent on alcohol
+signal	alcoholism.heavy.band	1	пьёт крепко	drinks heavily
+signal	alcoholism.sober.band	2	по праздникам	drinks on holidays
+signal	attitude.hostile.band	1	враждебен	hostile
+signal	attitude.neutral.band	1	нейтрален	neutral
+signal	attitude.trusting.band	1	доверяет	trusting
+signal	attitude.wary.band	1	сторонится	keeps their distance
+signal	cold.chilly.band	1	зябко	chilly
+signal	cold.cold.band	1	мёрзнет	cold
+signal	cold.freezing.band	1	закоченел	numb with cold
+signal	cold.warm.band	1	в тепле	warm
+signal	health.hale.band	1	крепок	robust
+signal	health.ill.band	1	болен	ill
+signal	health.weak.band	1	слаб	weak
+signal	health.well.band	1	здоров	healthy
+signal	mood.cheerful.band	1	весел	cheerful
+signal	mood.even.band	1	ровен	even-tempered
+signal	mood.low.band	1	подавлен	downcast
+signal	mood.sullen.band	1	не в духе	out of sorts
+signal	rest.able.band	1	в силах	able to work
+signal	rest.fresh.band	1	свеж	rested
+signal	rest.spent.band	1	вымотан	exhausted
+signal	rest.tired.band	1	устал	tired
+signal	satiety.fed.band	1	сыт	fed
+signal	satiety.starving.band	1	голодает	starving
+signal	satiety.underfed.band	1	недоедает	underfed
+signal	satiety.well_fed.band	1	сыт вдоволь	well fed
+resource	barley.name	1	Ячмень	Barley
+resource	barrel.name	1	Бочка	Barrel
+resource	beer.name	1	Пиво	Beer
+resource	bicycle.name	1	Велосипед	Bicycle
+resource	board.name	1	Доски	Boards
+resource	bottled_gas.name	1	Газ в баллонах	Bottled gas
+resource	bread.name	1	Хлеб	Bread
+resource	brick.name	1	Кирпич	Bricks
+resource	buckwheat.name	1	Гречиха	Buckwheat
+resource	carpet.name	1	Ковёр	Carpet
+resource	cement.name	1	Цемент	Cement
+resource	cheese.name	1	Сыр	Cheese
+resource	clay.name	1	Глина	Clay
+resource	cloth.name	1	Своя ткань и пряжа	Local cloth and yarn
+resource	clothes_midseason.name	1	Одежда демисезонная	Spring and fall clothing
+resource	clothes_summer.name	1	Одежда летняя	Summer clothing
+resource	clothes_winter.name	1	Одежда зимняя	Winter clothing
+resource	coal.name	1	Уголь	Coal
+resource	compound_feed.name	1	Комбикорм	Compound feed
+resource	consumer_goods.name	1	Товары первой необходимости (промтовары)	Essential household goods
+resource	container.name	1	Тара	Containers
+resource	down.name	1	Пух и перо	Down and feathers
+resource	dried_forest_gifts.name	1	Сушёные грибы и ягоды	Dried mushrooms and berries
+resource	dyed_cloth.name	1	Крашеная ткань	Dyed cloth
+resource	dyed_clothes_midseason.name	1	Крашеная одежда демисезонная	Dyed spring and fall clothing
+resource	dyed_clothes_summer.name	1	Крашеная одежда летняя	Dyed summer clothing
+resource	dyed_clothes_winter.name	1	Крашеная одежда зимняя	Dyed winter clothing
+resource	dyed_leather.name	1	Крашеная кожа	Dyed leather
+resource	dyed_shoes_midseason.name	1	Крашеная обувь (сапоги)	Dyed boots
+resource	egg.name	1	Яйцо	Eggs
+resource	factory_textile.name	1	Фабричное сырьё модных цехов	Factory-made materials for fashion workshops
+resource	fashion_clothes_midseason.name	1	Модная одежда демисезонная	Fashionable spring and fall clothing
+resource	fashion_clothes_summer.name	1	Модная одежда летняя	Fashionable summer clothing
+resource	fashion_clothes_winter.name	1	Модная одежда зимняя	Fashionable winter clothing
+resource	fashion_shoes_midseason.name	1	Модная обувь демисезонная	Fashionable spring and fall footwear
+resource	fashion_shoes_summer.name	1	Модная обувь летняя	Fashionable summer footwear
+resource	fashion_shoes_winter.name	1	Модная обувь зимняя	Fashionable winter footwear
+resource	firewood.name	1	Дрова	Firewood
+resource	fish.name	1	Рыба	Fish
+resource	flax.name	1	Лён	Flax
+resource	flour.name	1	Мука	Flour
+resource	fodder_beet.name	1	Кормовая свёкла и турнепс	Fodder beets and turnips
+resource	forest_forage.name	2	Дары леса	Wild mushrooms, berries, and nuts
+resource	fruit.name	1	Фрукты и ягоды	Fruit and berries
+resource	fur_coat.name	1	Шубы	Fur coats
+resource	furniture_set.name	1	Мебельный гарнитур	Furniture set
+resource	glass.name	1	Стекло	Glass
+resource	gravel.name	1	Щебень	Crushed stone
+resource	green_mass.name	1	Зелёная масса	Fresh forage for silage
+resource	groats.name	1	Крупы	Groats
+resource	grocery.name	1	Бакалея	Dry groceries
+resource	gun_and_tackle.name	1	Ружья и снасти	Hunting guns and fishing tackle
+resource	hay.name	1	Сено	Hay
+resource	hide.name	1	Шкуры	Hides
+resource	honey.name	1	Мёд	Honey
+resource	hops.name	1	Хмель	Hops
+resource	industrial_equipment.name	1	Промышленное оборудование	Industrial equipment
+resource	insulation.name	1	Утеплитель	Insulation
+resource	kerosene.name	1	Керосин	Kerosene
+resource	leather.name	1	Кожа	Leather
+resource	light_bulb.name	1	Лампочка	Light bulb
+resource	lime.name	1	Известь	Lime
+resource	log.name	1	Брёвна	Logs
+resource	manure.name	1	Навоз и перегной	Fresh and composted manure
+resource	meat.name	1	Мясо и сало	Meat and fat
+resource	milk.name	1	Молоко	Milk
+resource	mineral_fertilizer.name	1	Минеральные удобрения	Mineral fertilizers
+resource	mink_pelt.name	1	Норковые шкурки	Mink pelts
+resource	motor_fuel.name	1	ГСМ	Fuels and lubricants
+resource	oat.name	1	Овёс	Oats
+resource	offal.name	1	Субпродукты	Offal
+resource	paint.name	1	Краска	Paint
+resource	pastry.name	1	Выпечка	Pastries
+resource	pea.name	1	Горох	Peas
+resource	pole_and_chip.name	1	Жерди и щепа	Poles and wood chips
+resource	potato.name	1	Картофель	Potatoes
+resource	radio.name	1	Радиоприёмник	Radio
+resource	reed.name	1	Камыш	Reeds
+resource	refrigerator.name	1	Холодильник	Refrigerator
+resource	reinforced_concrete.name	1	Железобетон	Reinforced concrete
+resource	roofing.name	1	Шифер и кровля	Slate and other roofing materials
+resource	rye.name	1	Рожь	Rye
+resource	salt.name	1	Соль	Salt
+resource	salted_fish.name	1	Солёная рыба	Salted fish
+resource	salted_meat.name	1	Солонина	Salted meat
+resource	sand.name	1	Песок	Sand
+resource	saplings.name	1	Саженцы	Saplings
+resource	sauerkraut.name	1	Квашеная капуста	Sauerkraut
+resource	sausage.name	1	Колбасы	Sausages
+resource	school_uniform.name	1	Школьная форма	School uniform
+resource	shoes_midseason.name	1	Обувь демисезонная (сапоги)	Spring and fall boots
+resource	shoes_summer.name	1	Обувь летняя	Summer footwear
+resource	shoes_winter.name	1	Обувь зимняя (валенки)	Winter footwear (felt boots)
+resource	silage.name	1	Силос	Silage
+resource	smoked_fish.name	1	Копчёная рыба	Smoked fish
+resource	smoked_meat.name	1	Копчёности	Smoked meat
+resource	spare_part.name	1	Запчасти	Spare parts
+resource	spirits.name	1	Крепкий алкоголь	Spirits
+resource	steel.name	1	Железо и сталь	Iron and steel
+resource	stone.name	1	Камень	Stone
+resource	straw.name	1	Солома	Straw
+resource	sugar.name	1	Сахар	Sugar
+resource	television.name	1	Телевизор	Television
+resource	tool.name	1	Инструмент	Tools
+resource	vegetables.name	1	Овощи	Vegetables
+resource	washing_machine.name	1	Стиральная машина	Washing machine
+resource	watch.name	1	Часы	Watches
+resource	wheat.name	1	Пшеница	Wheat
+resource	wine.name	1	Вино	Wine
+resource	wire.name	1	Провод	Electrical wire
+resource	woodwork.name	1	Мебель и столярные изделия	Furniture and woodwork
+resource	wool.name	1	Шерсть	Wool
+livestock	chicken.name	1	Куры	Chickens
+livestock	cow.male.name	1	бык	bull
+livestock	cow.name	1	Коровы	Cows
+livestock	duck.name	1	Утки	Ducks
+livestock	goat.name	1	Козы	Goats
+livestock	horse.name	1	Лошади	Horses
+livestock	mink.name	1	Норки	Mink
+livestock	pig.male.name	1	хряк	boar
+livestock	pig.name	1	Свиньи	Pigs
+livestock	sheep.male.name	1	баран	ram
+livestock	sheep.name	1	Овцы	Sheep
+catalog	build_menu.decor.name	1	Декор	Decor
+catalog	build_menu.decor_remove.blurb	1	Убирает декор бесплатно и сразу. Больше ничего не задевает.	Removes decorations instantly and for free, leaving everything else intact.
+catalog	build_menu.decor_remove.name	1	Убрать декор	Remove decor
+catalog	build_menu.decor_shrubs.blurb	1	Обведите участок — кусты встанут вразброс. Бесплатно и сразу; облик меняется по сезону.	Outline an area to scatter shrubs. Placement is free and instant, and the shrubs change with the seasons.
+catalog	build_menu.decor_shrubs.name	1	Кусты	Shrubs
+catalog	build_menu.networks.name	1	Сети	Networks
+catalog	build_menu.networks_remove.blurb	1	Сносит линии, фонари и другие объекты сетей, и только их. Брёвна столбов возвращаются на склад.	Removes only utility lines, streetlights, and other network fixtures. Logs from the poles go back to the storehouse.
+catalog	build_menu.networks_remove.name	1	Убрать	Remove
+catalog	build_menu.roads.name	1	Дороги	Roads
+catalog	build_menu.roads_build_asphalt.blurb	1	Самая быстрая дорога, погода ей почти не мешает. Крупная и дорогая стройка.	The fastest road, barely affected by weather. A large, expensive construction project.
+catalog	build_menu.roads_build_asphalt.name	1	Асфальт	Asphalt road
+catalog	build_menu.roads_build_asphalt_walk.blurb	1	Асфальт с бордюром и тротуарами, только в селе: вид, немного довольства и репутации. Скорости не добавляет.	Adds curbs and sidewalks to asphalt roads within the village. Improves the streetscape and gives a small boost to satisfaction and reputation. Travel speed stays the same.
+catalog	build_menu.roads_build_asphalt_walk.name	1	Асфальт с тротуаром	Asphalt road with sidewalks
+catalog	build_menu.roads_build_dirt.blurb	1	Бесплатная дорога по свободному месту. Раскисает от любого дождя.	A free road across open ground. Turns to mud whenever it rains.
+catalog	build_menu.roads_build_dirt.name	1	Грунтовка	Dirt road
+catalog	build_menu.roads_build_gravel.blurb	1	Быстрее грунтовки и держит обычный дождь. Строится с расчисткой.	Faster than a dirt road and holds up in ordinary rain. Construction requires clearing the route.
+catalog	build_menu.roads_build_gravel.name	1	Гравийка	Gravel road
+catalog	build_menu.roads_build_path.blurb	1	Бесплатная тропа для пешеходов. Проложенная сеть сокращает жителям дорогу до работы.	A free path for pedestrians. A network of footpaths gives residents a shorter walk to work.
+catalog	build_menu.roads_build_path.name	1	Тропинка	Footpath
+catalog	build_menu.roads_pad.blurb	1	Размечает площадь теми же покрытиями, что у дорог. Грунтовая бесплатна, ею удобно занять место под будущее.	Mark out an area using the same surfaces as roads. A dirt pad is free and can reserve space for later.
+catalog	build_menu.roads_pad.name	1	Площадка	Pad
+catalog	build_menu.roads_remove.blurb	1	Сносит дорогу крупными кусками: грунтовку даром, гравий и асфальт за трудодни. Стартовые дороги не убираются.	Removes roads in large sections. Dirt roads are free to remove. Gravel and asphalt cost labor-day credits. Starting roads stay in place.
+catalog	build_menu.roads_remove.name	1	Убрать дорогу	Remove road
+catalog	build_menu.roads_upgrade_asphalt.blurb	1	Кладёт асфальт на выбранные куски дороги. Перед работой — смета и подтверждение.	Paves selected road sections with asphalt. Review and confirm the estimate before work begins.
+catalog	build_menu.roads_upgrade_asphalt.name	1	Заасфальтировать	Pave with asphalt
+catalog	build_menu.roads_upgrade_asphalt_walk.blurb	1	Пристраивает тротуары к асфальту в селе. Чистое благоустройство: скорости не добавляет.	Adds sidewalks to asphalt roads in the village. Improves the streetscape while travel speed stays the same.
+catalog	build_menu.roads_upgrade_asphalt_walk.name	1	Добавить тротуар	Add sidewalks
+catalog	build_menu.roads_upgrade_gravel.blurb	1	Поднимает выбранные куски грунтовки до гравия. Перед работой — смета и подтверждение.	Upgrades selected dirt road sections to gravel. Review and confirm the estimate before work begins.
+catalog	build_menu.roads_upgrade_gravel.name	1	Замостить гравием	Surface with gravel
+catalog	build_menu.trees.name	1	Деревья и кусты	Trees and shrubs
+catalog	build_menu.trees_fell.blurb	1	Рубит деревья поштучно или зоной: брёвна и дрова за трудодни, расчистка земли. В лесу — только старое и упавшее.	Cut trees one at a time or mark out an area. Felling costs labor-day credits, yields logs and firewood, and clears land. In forests, only old or fallen trees can be cut.
+catalog	build_menu.trees_fell.name	1	Рубка	Fell trees
+catalog	build_menu.trees_hedge.blurb	1	Сажает ряд кустов по линии в несколько точек.	Place several points to plant a row of shrubs along the line.
+catalog	build_menu.trees_hedge.name	1	Живая изгородь	Hedge
+catalog	build_menu.trees_plant_shrub.blurb	1	Сажает куст по одному. В колхозном саду ягодник можно сажать площадью.	Plant one shrub at a time. In the kolkhoz orchard, you can plant berry bushes across a whole area.
+catalog	build_menu.trees_plant_shrub.name	1	Посадить куст	Plant a shrub
+catalog	build_menu.trees_plant_tree.blurb	1	Саженец выбранной породы. Сразу не даёт ничего, всё на годы вперёд: тень, вид, липа кормит пасеку.	Plant a sapling of your chosen species. It takes years to see the benefits. Trees give shade and improve the view, and linden blossoms feed the bees.
+catalog	build_menu.trees_plant_tree.name	1	Посадить дерево	Plant a tree
+catalog	build_menu.units.name	2	Объекты хозяйства	Farm units
+catalog	build_menu.units_administration.name	1	Административные	Administration
+catalog	build_menu.units_agriculture.name	1	Сельхоз	Agriculture
+catalog	build_menu.units_agriculture_field.blurb	1	Обводит контуром участок под пашню. Работы на поле начнутся, когда к нему подведена дорога.	Outline a plot for arable land. Fieldwork begins once a road reaches the field.
+catalog	build_menu.units_agriculture_field.name	1	Поле	Field
+catalog	build_menu.units_housing.name	1	Дома	Housing
+catalog	build_menu.units_infrastructure.name	1	Инфраструктура	Infrastructure
+catalog	build_menu.units_leisure.name	1	Спорт и отдых	Sports and recreation
+catalog	build_menu.units_logistics.name	1	Логистика	Logistics
+catalog	build_menu.units_other.name	1	Другое	Other
+catalog	build_menu.units_production.name	1	Производство	Production
+catalog	build_menu.units_production_extraction.blurb	1	Размечает добычу камня, глины или песка на пригодной земле. Нужны работники, инструмент и подъезд.	Mark out a site for extracting stone, clay, or sand on suitable ground. Requires workers, tools, and road access.
+catalog	build_menu.units_production_extraction.name	1	Участок добычи	Extraction site
+catalog	build_menu.units_remove.blurb	2	Сносит объект хозяйства за трудодни, материалы не возвращаются. Сначала его нужно опустошить. Размеченная, но не начатая стройка отменяется бесплатно.	Demolishing a unit costs labor-day credits and yields no salvage. Empty the unit first. You can cancel a marked construction site for free if work hasn't started.
+catalog	build_menu.units_remove.name	1	Снос	Demolish
+catalog	build_menu.units_social.name	1	Социальная инфраструктура	Community facilities
+catalog	build_menu.units_upgrade.blurb	2	Улучшает объект хозяйства до следующей ступени. Набор ступеней у каждого объекта свой.	Upgrades a unit to the next level. Each unit has its own set of levels.
+catalog	build_menu.units_upgrade.name	2	Поднять ступень	Raise level
+catalog	crop_group.grass.name	1	Травы	Grasses
+catalog	crop_group.greenhouse.name	1	Теплица	Greenhouse
+catalog	crop_group.row.name	1	Пропашные	Row crops
+catalog	crop_group.spring.name	1	Яровые	Spring crops
+catalog	crop_group.winter.name	1	Озимые	Winter crops
+catalog	education_level.any.name	1	Любое	Any
+catalog	education_level.higher.name	1	Высшее	Higher
+catalog	education_level.primary.name	1	Начальное	Primary
+catalog	education_level.secondary.name	1	Среднее	Secondary
+catalog	education_level.vocational.name	1	Средне-специальное	Vocational
+catalog	place_tag.at_source.name	1	У места добычи	At the extraction site
+catalog	place_tag.by_farm.name	1	У ферм	Near farms
+catalog	place_tag.by_road.name	1	У дороги	By the road
+catalog	place_tag.far_from_wells.name	1	Подальше от колодцев	Away from wells
+catalog	place_tag.in_forest.name	1	В лесу	In the forest
+catalog	place_tag.in_village.name	1	В селе	In the village
+catalog	place_tag.industrial_zone.name	1	В промзоне	In the industrial zone
+catalog	place_tag.module.name	2	Часть объекта хозяйства	Part of another unit
+catalog	place_tag.near_housing.name	1	Ближе к жилью	Near housing
+catalog	place_tag.near_water.name	1	У воды	By the water
+catalog	place_tag.not_floodplain.name	1	Не в пойме	Outside the floodplain
+catalog	place_tag.on_field.name	1	У полей	By the fields
+catalog	place_tag.on_wall.name	1	На стене	On a wall
+catalog	place_tag.open_ground.name	1	На открытом месте	On open ground
+catalog	place_tag.outside_village.name	1	Подальше от жилья	Away from housing
+catalog	place_tag.route.name	1	Линией по земле	Laid out along the ground
+catalog	place_tag.unique.name	1	Один на хозяйство	One per kolkhoz
+catalog	profession_group.admin.name	1	Учёт и управление	Recordkeeping and management
+catalog	profession_group.catering.name	1	Общепит и торговля	Food service and retail
+catalog	profession_group.crafts.name	1	Промыслы	Hunting and fishing
+catalog	profession_group.land.name	1	Земля и скот	Crops and livestock
+catalog	profession_group.service.name	1	Служба и подсобные	Service and support jobs
+catalog	profession_group.social.name	1	Учителя, медики, культура, спорт	Education, health care, culture, and sports
+catalog	profession_group.technic.name	1	Техника, мастерские, стройка	Machinery, workshops, and construction
+catalog	resource_category.barter.name	1	Бартерный	Barter
+catalog	resource_category.construction.name	1	Строительный	Construction materials
+catalog	resource_category.feed.name	1	Корм	Feed
+catalog	resource_category.food.name	1	Еда	Food
+catalog	resource_category.fuel.name	1	Топливо	Fuel
+catalog	resource_category.goods.name	1	Товар	Goods
+catalog	resource_category.limited.name	1	Лимитный	Allocation or purchase
+catalog	resource_category.planned.name	1	Плановый	Eligible for the district plan
+catalog	skill_branch.admin.name	1	Административная работа	Administrative work
+catalog	skill_branch.agriculture.name	1	Сельское хозяйство	Agriculture
+catalog	skill_branch.beekeeping.name	1	Пчеловодство	Beekeeping
+catalog	skill_branch.culinary.name	1	Кулинария	Cooking
+catalog	skill_branch.none.name	1	Навык не копится	No skill gain
+catalog	skill_branch.technic.name	1	Техника	Technical skills
+catalog	tree_species.alder.name	1	Ольха	Alder
+catalog	tree_species.apple.name	1	Яблоня	Apple tree
+catalog	tree_species.apple_wild.name	1	Яблоня одичавшая	Feral apple tree
+catalog	tree_species.ash.name	1	Ясень	Ash
+catalog	tree_species.aspen.name	1	Осина	Aspen
+catalog	tree_species.birch.name	1	Берёза	Birch
+catalog	tree_species.bird_cherry.name	1	Черёмуха	Bird cherry
+catalog	tree_species.blackthorn.name	1	Тёрн	Blackthorn
+catalog	tree_species.cherry.name	1	Вишня	Cherry tree
+catalog	tree_species.currant.name	1	Смородина	Currant
+catalog	tree_species.dog_rose.name	1	Шиповник	Dog rose
+catalog	tree_species.elder.name	1	Бузина	Elderberry
+catalog	tree_species.gooseberry.name	1	Крыжовник	Gooseberry
+catalog	tree_species.hazel.name	1	Орешник	Hazel
+catalog	tree_species.lilac.name	1	Сирень	Lilac
+catalog	tree_species.linden.name	1	Липа	Linden
+catalog	tree_species.maple.name	1	Клён	Maple
+catalog	tree_species.oak.name	1	Дуб	Oak
+catalog	tree_species.pear.name	1	Груша	Pear tree
+catalog	tree_species.pine.name	1	Сосна	Pine
+catalog	tree_species.plum.name	1	Слива	Plum tree
+catalog	tree_species.poplar.name	1	Тополь	Poplar
+catalog	tree_species.raspberry.name	1	Малина	Raspberry
+catalog	tree_species.rowan.name	1	Рябина	Rowan
+catalog	tree_species.spruce.name	1	Ель	Spruce
+catalog	tree_species.willow.name	1	Ива	Willow
+catalog	unit_class.housing.name	1	Жилой	Housing
+catalog	unit_class.infrastructure.name	1	Инфраструктурный	Infrastructure
+catalog	unit_class.livestock.name	1	Животноводческий	Livestock
+catalog	unit_class.logistics.name	1	Логистический	Logistics
+catalog	unit_class.production.name	1	Производственный	Production
+catalog	unit_class.service.name	1	Служебный	Service
+catalog	unit_class.social.name	1	Социальный	Community services
