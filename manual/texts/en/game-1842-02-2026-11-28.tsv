@@ -242,7 +242,7 @@ catalog	place_tag.route.name	1	Линией по земле	Laid out along the g
 catalog	place_tag.unique.name	1	Один на хозяйство	One per kolkhoz
 catalog	profession_group.admin.name	1	Учёт и управление	Recordkeeping and management
 catalog	profession_group.catering.name	1	Общепит и торговля	Food service and retail
-catalog	profession_group.crafts.name	1	Промыслы	Hunting, fishing and gathering
+catalog	profession_group.crafts.name	1	Промыслы	Hunting and fishing
 catalog	profession_group.land.name	1	Земля и скот	Crops and livestock
 catalog	profession_group.service.name	1	Служба и подсобные	Service and support jobs
 catalog	profession_group.social.name	1	Учителя, медики, культура, спорт	Education, health care, culture, and sports
