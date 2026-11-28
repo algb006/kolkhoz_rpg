@@ -4,7 +4,7 @@ ui.people	idle_reason.funeral	1	Похороны	Funeral
 ui.people	whereabouts.funeral	1	На похоронах	At a funeral
 ui.build	cemetery.demolish.locked	1	На кладбище уже есть могилы или назначено захоронение. Снести его нельзя.	The cemetery already has graves or a burial is scheduled. It cannot be demolished.
 ui.build	cemetery.placement.permanent	1	Кладбище — навсегда с момента, когда здесь назначат первое захоронение.	The cemetery becomes permanent when the first burial is scheduled.
-ui.build	refusal.crafts_gate	2	Нужен завершённый год плана или репутация у района не ниже {required_reputation}.	Requires a completed plan year or district reputation of at least {required_reputation}.
+ui.build	refusal.crafts_gate	2	Нужен завершённый год плана или репутация у района не ниже {required_reputation}.	Requires a completed plan year or a district reputation of at least {required_reputation}.
 signal	alcoholism.abuses.band	1	злоупотребляет	drinks excessively
 signal	alcoholism.drinks.band	1	выпивает	drinks regularly
 signal	alcoholism.drunkard.band	2	спился	dependent on alcohol
@@ -47,8 +47,8 @@ resource	carpet.name	1	Ковёр	Carpet
 resource	cement.name	1	Цемент	Cement
 resource	cheese.name	1	Сыр	Cheese
 resource	clay.name	1	Глина	Clay
-resource	cloth.name	1	Своя ткань и пряжа	Local cloth and yarn
-resource	clothes_midseason.name	1	Одежда демисезонная	Spring and fall clothing
+resource	cloth.name	1	Своя ткань и пряжа	Homespun cloth and yarn
+resource	clothes_midseason.name	1	Одежда демисезонная	Spring and autumn clothing
 resource	clothes_summer.name	1	Одежда летняя	Summer clothing
 resource	clothes_winter.name	1	Одежда зимняя	Winter clothing
 resource	coal.name	1	Уголь	Coal
@@ -58,17 +58,17 @@ resource	container.name	1	Тара	Containers
 resource	down.name	1	Пух и перо	Down and feathers
 resource	dried_forest_gifts.name	1	Сушёные грибы и ягоды	Dried mushrooms and berries
 resource	dyed_cloth.name	1	Крашеная ткань	Dyed cloth
-resource	dyed_clothes_midseason.name	1	Крашеная одежда демисезонная	Dyed spring and fall clothing
+resource	dyed_clothes_midseason.name	1	Крашеная одежда демисезонная	Dyed spring and autumn clothing
 resource	dyed_clothes_summer.name	1	Крашеная одежда летняя	Dyed summer clothing
 resource	dyed_clothes_winter.name	1	Крашеная одежда зимняя	Dyed winter clothing
 resource	dyed_leather.name	1	Крашеная кожа	Dyed leather
 resource	dyed_shoes_midseason.name	1	Крашеная обувь (сапоги)	Dyed boots
 resource	egg.name	1	Яйцо	Eggs
 resource	factory_textile.name	1	Фабричное сырьё модных цехов	Factory-made materials for fashion workshops
-resource	fashion_clothes_midseason.name	1	Модная одежда демисезонная	Fashionable spring and fall clothing
+resource	fashion_clothes_midseason.name	1	Модная одежда демисезонная	Fashionable spring and autumn clothing
 resource	fashion_clothes_summer.name	1	Модная одежда летняя	Fashionable summer clothing
 resource	fashion_clothes_winter.name	1	Модная одежда зимняя	Fashionable winter clothing
-resource	fashion_shoes_midseason.name	1	Модная обувь демисезонная	Fashionable spring and fall footwear
+resource	fashion_shoes_midseason.name	1	Модная обувь демисезонная	Fashionable spring and autumn footwear
 resource	fashion_shoes_summer.name	1	Модная обувь летняя	Fashionable summer footwear
 resource	fashion_shoes_winter.name	1	Модная обувь зимняя	Fashionable winter footwear
 resource	firewood.name	1	Дрова	Firewood
@@ -82,7 +82,7 @@ resource	fur_coat.name	1	Шубы	Fur coats
 resource	furniture_set.name	1	Мебельный гарнитур	Furniture set
 resource	glass.name	1	Стекло	Glass
 resource	gravel.name	1	Щебень	Crushed stone
-resource	green_mass.name	1	Зелёная масса	Fresh forage for silage
+resource	green_mass.name	1	Зелёная масса	Green fodder
 resource	groats.name	1	Крупы	Groats
 resource	grocery.name	1	Бакалея	Dry groceries
 resource	gun_and_tackle.name	1	Ружья и снасти	Hunting guns and fishing tackle
@@ -114,7 +114,7 @@ resource	radio.name	1	Радиоприёмник	Radio
 resource	reed.name	1	Камыш	Reeds
 resource	refrigerator.name	1	Холодильник	Refrigerator
 resource	reinforced_concrete.name	1	Железобетон	Reinforced concrete
-resource	roofing.name	1	Шифер и кровля	Slate and other roofing materials
+resource	roofing.name	1	Шифер и кровля	Roofing materials
 resource	rye.name	1	Рожь	Rye
 resource	salt.name	1	Соль	Salt
 resource	salted_fish.name	1	Солёная рыба	Salted fish
@@ -124,7 +124,7 @@ resource	saplings.name	1	Саженцы	Saplings
 resource	sauerkraut.name	1	Квашеная капуста	Sauerkraut
 resource	sausage.name	1	Колбасы	Sausages
 resource	school_uniform.name	1	Школьная форма	School uniform
-resource	shoes_midseason.name	1	Обувь демисезонная (сапоги)	Spring and fall boots
+resource	shoes_midseason.name	1	Обувь демисезонная (сапоги)	Spring and autumn boots
 resource	shoes_summer.name	1	Обувь летняя	Summer footwear
 resource	shoes_winter.name	1	Обувь зимняя (валенки)	Winter footwear (felt boots)
 resource	silage.name	1	Силос	Silage
@@ -176,7 +176,7 @@ catalog	build_menu.roads_build_gravel.blurb	1	Быстрее грунтовки 
 catalog	build_menu.roads_build_gravel.name	1	Гравийка	Gravel road
 catalog	build_menu.roads_build_path.blurb	1	Бесплатная тропа для пешеходов. Проложенная сеть сокращает жителям дорогу до работы.	A free path for pedestrians. A network of footpaths gives residents a shorter walk to work.
 catalog	build_menu.roads_build_path.name	1	Тропинка	Footpath
-catalog	build_menu.roads_pad.blurb	1	Размечает площадь теми же покрытиями, что у дорог. Грунтовая бесплатна, ею удобно занять место под будущее.	Mark out an area using the same surfaces as roads. A dirt pad is free and can reserve space for later.
+catalog	build_menu.roads_pad.blurb	1	Размечает площадь теми же покрытиями, что у дорог. Грунтовая бесплатна, ею удобно занять место под будущее.	Stake out an area with the same surfaces as roads. A dirt pad is free and handy for holding space for later.
 catalog	build_menu.roads_pad.name	1	Площадка	Pad
 catalog	build_menu.roads_remove.blurb	1	Сносит дорогу крупными кусками: грунтовку даром, гравий и асфальт за трудодни. Стартовые дороги не убираются.	Removes roads in large sections. Dirt roads are free to remove. Gravel and asphalt cost labor-day credits. Starting roads stay in place.
 catalog	build_menu.roads_remove.name	1	Убрать дорогу	Remove road
@@ -187,7 +187,7 @@ catalog	build_menu.roads_upgrade_asphalt_walk.name	1	Добавить троту
 catalog	build_menu.roads_upgrade_gravel.blurb	1	Поднимает выбранные куски грунтовки до гравия. Перед работой — смета и подтверждение.	Upgrades selected dirt road sections to gravel. Review and confirm the estimate before work begins.
 catalog	build_menu.roads_upgrade_gravel.name	1	Замостить гравием	Surface with gravel
 catalog	build_menu.trees.name	1	Деревья и кусты	Trees and shrubs
-catalog	build_menu.trees_fell.blurb	1	Рубит деревья поштучно или зоной: брёвна и дрова за трудодни, расчистка земли. В лесу — только старое и упавшее.	Cut trees one at a time or mark out an area. Felling costs labor-day credits, yields logs and firewood, and clears land. In forests, only old or fallen trees can be cut.
+catalog	build_menu.trees_fell.blurb	1	Рубит деревья поштучно или зоной: брёвна и дрова за трудодни, расчистка земли. В лесу — только старое и упавшее.	Cut trees one at a time or by area. Felling costs labor-day credits, yields logs and firewood, and clears land. In forests, only old or fallen trees can be cut.
 catalog	build_menu.trees_fell.name	1	Рубка	Fell trees
 catalog	build_menu.trees_hedge.blurb	1	Сажает ряд кустов по линии в несколько точек.	Place several points to plant a row of shrubs along the line.
 catalog	build_menu.trees_hedge.name	1	Живая изгородь	Hedge
@@ -206,9 +206,9 @@ catalog	build_menu.units_leisure.name	1	Спорт и отдых	Sports and recr
 catalog	build_menu.units_logistics.name	1	Логистика	Logistics
 catalog	build_menu.units_other.name	1	Другое	Other
 catalog	build_menu.units_production.name	1	Производство	Production
-catalog	build_menu.units_production_extraction.blurb	1	Размечает добычу камня, глины или песка на пригодной земле. Нужны работники, инструмент и подъезд.	Mark out a site for extracting stone, clay, or sand on suitable ground. Requires workers, tools, and road access.
+catalog	build_menu.units_production_extraction.blurb	1	Размечает добычу камня, глины или песка на пригодной земле. Нужны работники, инструмент и подъезд.	Stake out a site for extracting stone, clay, or sand on suitable ground. Requires workers, tools, and road access.
 catalog	build_menu.units_production_extraction.name	1	Участок добычи	Extraction site
-catalog	build_menu.units_remove.blurb	2	Сносит объект хозяйства за трудодни, материалы не возвращаются. Сначала его нужно опустошить. Размеченная, но не начатая стройка отменяется бесплатно.	Demolishing a unit costs labor-day credits and yields no salvage. Empty the unit first. You can cancel a marked construction site for free if work hasn't started.
+catalog	build_menu.units_remove.blurb	2	Сносит объект хозяйства за трудодни, материалы не возвращаются. Сначала его нужно опустошить. Размеченная, но не начатая стройка отменяется бесплатно.	Demolishing a unit costs labor-day credits and yields no salvage. Empty the unit first. You can cancel a staked construction site for free if work hasn't started.
 catalog	build_menu.units_remove.name	1	Снос	Demolish
 catalog	build_menu.units_social.name	1	Социальная инфраструктура	Community facilities
 catalog	build_menu.units_upgrade.blurb	2	Улучшает объект хозяйства до следующей ступени. Набор ступеней у каждого объекта свой.	Upgrades a unit to the next level. Each unit has its own set of levels.
@@ -222,7 +222,7 @@ catalog	education_level.any.name	1	Любое	Any
 catalog	education_level.higher.name	1	Высшее	Higher
 catalog	education_level.primary.name	1	Начальное	Primary
 catalog	education_level.secondary.name	1	Среднее	Secondary
-catalog	education_level.vocational.name	1	Средне-специальное	Vocational
+catalog	education_level.vocational.name	2	Среднее специальное	Vocational
 catalog	place_tag.at_source.name	1	У места добычи	At the extraction site
 catalog	place_tag.by_farm.name	1	У ферм	Near farms
 catalog	place_tag.by_road.name	1	У дороги	By the road
@@ -242,7 +242,7 @@ catalog	place_tag.route.name	1	Линией по земле	Laid out along the g
 catalog	place_tag.unique.name	1	Один на хозяйство	One per kolkhoz
 catalog	profession_group.admin.name	1	Учёт и управление	Recordkeeping and management
 catalog	profession_group.catering.name	1	Общепит и торговля	Food service and retail
-catalog	profession_group.crafts.name	1	Промыслы	Hunting and fishing
+catalog	profession_group.crafts.name	1	Промыслы	Hunting, fishing and gathering
 catalog	profession_group.land.name	1	Земля и скот	Crops and livestock
 catalog	profession_group.service.name	1	Служба и подсобные	Service and support jobs
 catalog	profession_group.social.name	1	Учителя, медики, культура, спорт	Education, health care, culture, and sports
@@ -263,7 +263,7 @@ catalog	skill_branch.none.name	1	Навык не копится	No skill gain
 catalog	skill_branch.technic.name	1	Техника	Technical skills
 catalog	tree_species.alder.name	1	Ольха	Alder
 catalog	tree_species.apple.name	1	Яблоня	Apple tree
-catalog	tree_species.apple_wild.name	1	Яблоня одичавшая	Feral apple tree
+catalog	tree_species.apple_wild.name	1	Яблоня одичавшая	Wild apple tree
 catalog	tree_species.ash.name	1	Ясень	Ash
 catalog	tree_species.aspen.name	1	Осина	Aspen
 catalog	tree_species.birch.name	1	Берёза	Birch
@@ -293,4 +293,4 @@ catalog	unit_class.livestock.name	1	Животноводческий	Livestock
 catalog	unit_class.logistics.name	1	Логистический	Logistics
 catalog	unit_class.production.name	1	Производственный	Production
 catalog	unit_class.service.name	1	Служебный	Service
-catalog	unit_class.social.name	1	Социальный	Community services
+catalog	unit_class.social.name	1	Социальный	Community facilities
