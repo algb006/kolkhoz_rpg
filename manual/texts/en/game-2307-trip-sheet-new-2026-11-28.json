@@ -1,0 +1,22 @@
+{
+  "namespace": "ui.office",
+  "context": "District trip sheet before departure (#2307), shown in the chairman's office.",
+  "intent": "Explain the current state of the trip and its selected business.",
+  "keep": "One short statement per line. The selected bargain is a proposal carried to the district.",
+  "kind_id": 6,
+  "max_len": 60,
+  "strings": [
+    [
+      "trip.nothing_to_decide",
+      "Reason shown under the disabled trip button when the only current district business consists of allocation lots available by mail.",
+      "В районе дел пока нет — лоты лимита доступны письмом.",
+      "Nothing to settle now — allocation lots come by mail."
+    ],
+    [
+      "trip.bargain.chosen",
+      "On the sheet before departure, identifies the plan position and signed adjustment the chairman selected for discussion.",
+      "{resource}: {percent} % — к обсуждению в районе.",
+      "{resource}: {percent}% for discussion in the district."
+    ]
+  ]
+}
