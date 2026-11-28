@@ -140,7 +140,7 @@ unit	sawmill.name	1	Лесопилка	Sawmill
 unit	sawmill.place	1	Часть хозяйственного двора, на его участке.	Part of the service yard, on the same site.
 unit	sawmill.relief	1	Встаёт на участке двора по земле как есть.	Fits on the yard site without grading.
 unit	school.advice	2	Дальней деревне — своя малая школа вместо дороги на центральную усадьбу.	Give outlying villages a small school of their own to save children the trip to the main farmstead.
-unit	school.blurb	1	Учит детей: в Эпохе I только начальная ступень, потом средняя. Без учителя не работает, а учителю нужно жильё.	Teaches children at the primary education stage in Epoch I and adds the secondary stage later. The school needs a teacher, and the teacher needs housing.
+unit	school.blurb	1	Учит детей: в Эпохе I только начальная ступень, потом средняя. Без учителя не работает, а учителю нужно жильё.	Teaches children at the primary level in Epoch I and adds the secondary level later. The school needs a teacher, and the teacher needs housing.
 unit	school.level1.name	1	Школа Эпохи I	Epoch I school
 unit	school.level2.name	1	Школа Эпохи II	Epoch II school
 unit	school.level3.name	1	Со спортзалом	School with gym

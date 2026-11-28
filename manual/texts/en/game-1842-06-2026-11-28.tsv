@@ -30,8 +30,8 @@ settlement	name.7	1	Речицы	Rechitsy
 settlement	name.8	1	Ручейки	Rucheyki
 settlement	name.9	1	Ключёвка	Klyuchyovka
 hint	build.name	2	Строительство	Construction
-hint	field.name	1	Земля и поле	Land and Fields
-hint	herd.name	1	Скот и корма	Livestock and Feed
+hint	field.name	1	Земля и поле	Land and fields
+hint	herd.name	1	Скот и корма	Livestock and feed
 hint	hint_01.text	1	Всё, что знает хозяйство, лежит здесь. За стол садятся, чтобы прочитать; поле смотрят с высоты	Everything the kolkhoz knows is here. Sit at the desk to read the records. Look down from above to see the fields.
 hint	hint_02.text	1	Участок отводится сразу и целиком: пристройки появятся внутри него, а не рядом	The entire plot is set aside at once. Any additions will go within its boundaries.
 hint	hint_03.text	1	Один работник — одна работа в сутки, какой бы короткой она ни была	Each worker gets one job per day, however short the job.
@@ -39,7 +39,7 @@ hint	hint_04.text	1	Рабочий день меряется солнцем, а 
 hint	hint_06.text	1	Форма контура важна не меньше площади: изрезанное поле дороже в работе	A field's shape matters as much as its area. Irregular edges make it more costly to work.
 hint	hint_07.text	4	Раньше срока сеять нельзя. Поздний сев возможен, но урожай будет меньше. Сроки сева каждой культуры указаны в карточке поля.	Sowing can start only when the window opens. Sowing late is possible, but yields less. The field card shows the sowing window for each crop.
 hint	hint_08.text	1	Плодородие падает от повтора. Пар и травы его возвращают, навоз ускоряет	Growing the same crop again lowers soil fertility. Fallow and grasses restore it, and manure speeds up the recovery.
-hint	hint_09.text	1	Убирать надо успеть до холода: перестоявшее осыпается, померзшее не спасти	The harvest has to come in before the cold. Crops left too long shed their grain, and a frozen crop can't be saved.
+hint	hint_09.text	2	Убирать надо успеть до холода: перестоявшее осыпается, помёрзшее не спасти	The harvest has to come in before the cold. Crops left too long shed their grain, and a frozen crop can't be saved.
 hint	hint_10.text	1	Из этого зерна сеют весной. Съеденный фонд — потерянный год	This grain is for spring sowing. Eat the seed reserve and you lose a year.
 hint	hint_12.text	1	Всё меряется кормовой единицей — килограммом овса. Порядок строк и есть очерёдность траты	Feed is measured in feed units. One unit equals the nourishment in a kilogram of oats. Feed is used in the order shown.
 hint	hint_13.text	1	Грубый корм жвачному не заменить зерном, сколько бы его ни было	Ruminants need roughage, however much grain they have.
@@ -50,7 +50,7 @@ hint	hint_18.text	1	Отдых и усталость — одна шкала. Н
 hint	hint_19.text	1	Каждый следующий отменённый бьёт сильнее предыдущего, и серию рвёт только отгулянный	Each canceled day off hits harder than the last. Only taking a day off breaks the streak.
 hint	hint_20.text	1	Трудодень — норма выработки, а не явка. Раздать больше, чем есть, нельзя	Labor-day credits measure work done. Distribution is limited to what's in stock.
 hint	hint_21.text	2	До работы по дороге — не больше шести часов в одну сторону. Дальше людей туда не назначат.	The trip to work can take up to six hours by road each way. Workers won't be assigned anywhere farther away.
-hint	hint_22.text	1	Должность требует ступени образования. Своих учат годами, чужих просят у района	A position requires a certain education stage. Training local people takes years. Outside specialists are requested from the district.
+hint	hint_22.text	1	Должность требует ступени образования. Своих учат годами, чужих просят у района	A position requires a certain level of education. Training local people takes years. Outside specialists are requested from the district.
 hint	hint_23.text	1	Стройка идёт трудоднями: люди сняты с других работ, и в страду строить некому	Construction takes labor-day credits. Builders are pulled off other jobs, and during harvest season there's no one to spare.
 hint	hint_24.text	2	Пока везут материалы для улучшения, постройка работает в полную силу. Вполсилы — только с началом работ.	A building runs at full capacity while upgrade materials are being delivered. It drops to half capacity only when the work starts.
 hint	hint_25.text	2	Улучшение полностью устраняет износ: ветхую постройку бывает выгоднее улучшить, чем ремонтировать.	An upgrade clears all wear. A run-down building may be cheaper to upgrade than to repair.
@@ -59,7 +59,7 @@ hint	hint_27.text	1	Изнашивается то, у чего есть пост
 hint	hint_28.text	4	Производство остановилось не из-за поломки: готовую продукцию некуда складывать. Работа продолжится, когда продукцию вывезут и освободится место.	Production stopped because there's nowhere to put the finished goods. It will resume when the goods are hauled away and space opens up.
 hint	hint_29.text	1	Продовольствие портится партиями по суткам поступления. Место хранения меняет срок	Food that arrives on the same day spoils as a batch. Where it's stored affects how long it keeps.
 hint	hint_30.text	1	Вместимость растёт ступенями склада, а у кучи и траншеи — размером участка	A storehouse gains capacity at each new level. For piles and trenches, capacity depends on plot size.
-hint	hint_31.text	1	Сторож окупается там, где есть что взять. Часть ресурсов уходит понемногу и всегда	A guard pays off where there's something worth taking. Some stocks dwindle a little all the time.
+hint	hint_31.text	1	Сторож окупается там, где есть что взять. Часть ресурсов уходит понемногу и всегда	A watchman pays off where there's something worth taking. Some stocks dwindle a little all the time.
 hint	hint_32.text	2	Районная газета рассказывает о переменах в жизни села, новой технике и товарах, которые появились в районе.	The district newspaper covers changes in village life, new machinery, and goods that have become available in the district.
 hint	hint_33.text	1	Неизрасходованные баллы сгорают в конце года. Копить их некуда	Unused allocation points expire at the end of the year. They can't be carried over.
 hint	hint_34.text	1	План — это то, что сдают в первую очередь. Остальное распределяет председатель	Deliveries under the plan come first. The chairman decides how to distribute what's left.
@@ -72,170 +72,170 @@ hint	hint_40.text	1	Уехать без вашей подписи нельзя, 
 hint	hint_41.text	4	Довольство семьи зависит от сытости, общего дела, потребностей и отдыха. Если с чем-то одним совсем плохо, остальные три не могут это возместить.	Family satisfaction depends on nourishment, the common cause, needs, and rest. If any one of these falls too low, the other three can't make up for it.
 hint	hint_42.text	1	Жеребята бывают только в конюшне — на летнем дворе их не будет, а табун стареет весь разом	Foals are born only in a stable. In a summer yard there'll be no foals, and the whole herd will grow old together.
 hint	later.name	1	Вторая и третья эпохи	Epochs II and III
-hint	outside.name	1	Район и соседи	District and Neighbors
-hint	people.name	1	Люди и работа	People and Work
-hint	start.name	1	Первые дни	First Days
-hint	supply.name	1	Снабжение и склад	Supply and Storage
-quest	quest_e1_00.living_zone.title	1	Жилая зона	Residential Zone
-quest	quest_e1_00.production_zone.title	1	Производственная зона	Production Zone
-quest	quest_e1_00.remove_extra.title	1	Убрать лишнее	Make Room
-quest	quest_e1_00.road_repair.title	1	Ремонт дороги в селе	Plan the Village Road Repair
+hint	outside.name	1	Район и соседи	District and neighbors
+hint	people.name	1	Люди и работа	People and work
+hint	start.name	1	Первые дни	First days
+hint	supply.name	1	Снабжение и склад	Supply and storage
+quest	quest_e1_00.living_zone.title	1	Жилая зона	Residential zone
+quest	quest_e1_00.production_zone.title	1	Производственная зона	Production zone
+quest	quest_e1_00.remove_extra.title	1	Убрать лишнее	Make room
+quest	quest_e1_00.road_repair.title	1	Ремонт дороги в селе	Village road repair
 quest	quest_e1_00.roads.title	1	Дороги	Roads
-quest	quest_e1_00.service_zone.title	1	Служебная зона	Service Zone
-quest	quest_e1_00.title	1	«Расчертить село»	“Stake Out the Village”
+quest	quest_e1_00.service_zone.title	1	Служебная зона	Service zone
+quest	quest_e1_00.title	1	«Расчертить село»	“Stake out the village”
 quest	quest_e1_00_surplus.body	1	Освободить место для будущего села: распустить заброшенное поле.	Make room for the future village by removing the abandoned field's stakes.
-quest	quest_e1_00_surplus.title	1	Убрать лишнее	Make Room
+quest	quest_e1_00_surplus.title	1	Убрать лишнее	Make room
 quest	quest_e1_01.body	1	Разобрать хотя бы один старый дом, пока он не обрушился сам.	Take down at least one old house before it comes down on its own.
-quest	quest_e1_01.title	1	«Разобрать ветхое»	“Take Down a Dilapidated House”
+quest	quest_e1_01.title	1	«Разобрать ветхое»	“Take down a dilapidated house”
 quest	quest_e1_02.body	1	Поставить новое жильё: целых домов на все семьи уже не хватает.	Build new housing. There aren't enough sound houses for all the families anymore.
-quest	quest_e1_02.title	1	«Крыша над головой»	“A Roof Over Their Heads”
+quest	quest_e1_02.title	1	«Крыша над головой»	“A roof over their heads”
 quest	quest_e1_03.body	1	Поставить продовольственный склад и перестать выдавать каждый мешок лично.	Build a provisions storehouse so you don't have to hand out every sack yourself.
-quest	quest_e1_03.title	2	«Освободить склад в церкви»	“Empty the Church Storehouse”
+quest	quest_e1_03.title	2	«Освободить склад в церкви»	“Empty the church storehouse”
 quest	quest_e1_04.body	1	Без правления нет ни счетовода, ни делегирования.	Without a farm board, there's no bookkeeper and no way to delegate.
-quest	quest_e1_04.title	1	«Своя контора»	“A Farm Board of Our Own”
+quest	quest_e1_04.title	1	«Своя контора»	“A farm board of our own”
 quest	quest_e1_05.body	1	Посадить счетовода в конторе: хозяйство пора видеть не на глаз.	Put a bookkeeper to work at the farm board. It's time to stop running the farm by guesswork.
-quest	quest_e1_05.title	1	«Счетовод»	“The Bookkeeper”
-quest	quest_e1_06.body	1	Заложить силосную траншею: трава есть сейчас, сочный корм понадобится зимой.	Start a silage trench. There's grass now, and come winter you'll need moist feed.
-quest	quest_e1_06.title	1	«Сочный корм»	“Moist Feed”
+quest	quest_e1_05.title	1	«Счетовод»	“The bookkeeper”
+quest	quest_e1_06.body	1	Заложить силосную траншею: трава есть сейчас, сочный корм понадобится зимой.	Start a silage trench. There's grass now, and come winter you'll need succulent feed.
+quest	quest_e1_06.title	1	«Сочный корм»	Succulent feed
 quest	quest_e1_07.body	1	Посеять озимые хотя бы на одном поле, чтобы уборка не пришлась в одно окно.	Sow winter crops on at least one field so the harvest doesn't all fall in the same window.
-quest	quest_e1_07.title	1	«Озимый клин»	“A Field of Winter Crops”
-quest	quest_e1_08.title	1	«Скот под крышу»	“A Roof for the Herd”
+quest	quest_e1_07.title	1	«Озимый клин»	“A field of winter crops”
+quest	quest_e1_08.title	1	«Скот под крышу»	“A roof for the herd”
 quest	quest_e1_09.body	1	Выкопать колодец рядом с двором: воду не должны носить через полсела.	Dig a well near the yard so people don't have to carry water halfway across the village.
-quest	quest_e1_09.title	1	«Вода в селе»	“Water for the Village”
+quest	quest_e1_09.title	1	«Вода в селе»	“Water for the village”
 quest	quest_e1_10.body	1	Построить школу — первым школьникам уже негде учиться.	Build a school. The first schoolchildren have nowhere to learn.
-quest	quest_e1_10.title	1	«Учить детей»	“Teach the Children”
+quest	quest_e1_10.title	1	«Учить детей»	“Teach the children”
 quest	quest_e1_11.body	1	Найти школе учителя и предоставить жильё.	Find a teacher for the school and provide housing.
-quest	quest_e1_11.title	1	«Учитель»	“A Teacher”
+quest	quest_e1_11.title	1	«Учитель»	“A teacher”
 quest	quest_e1_13.body	1	Обеспечить каждый жилой двор колодцем в радиусе тушения.	Make sure every residential yard has a well close enough to use for firefighting.
-quest	quest_e1_13.title	1	«Огонь и вода»	“Fire and Water”
+quest	quest_e1_13.title	1	«Огонь и вода»	“Fire and water”
 quest	quest_e1_14.body	1	Построить баню: одной чистоплотности без горячей воды мало.	Build a bathhouse. Even the cleanest folks need hot water.
-quest	quest_e1_14.title	1	«Своя баня»	“A Bathhouse of Our Own”
+quest	quest_e1_14.title	1	«Своя баня»	“A bathhouse of our own”
 quest	quest_e1_15.body	1	Назначить и обустроить место для купания — люди всё равно идут к реке.	Pick a place to swim and get it ready. People are going down to the river anyway.
-quest	quest_e1_15.title	1	«Место у воды»	“A Place by the Water”
-quest	quest_e1_16.title	1	«Тепло»	“Keep the Warmth In”
+quest	quest_e1_15.title	1	«Место у воды»	“A place by the water”
+quest	quest_e1_16.title	1	«Тепло»	“Keep the warmth in”
 quest	quest_e1_17.body	1	Поставить подстанцию, разметить линии и запустить стройку электросети.	Install a substation, stake out the lines and start building the power grid.
-quest	quest_e1_17.title	2	«Принять ЛЭП»	“Bring In the Power Line”
+quest	quest_e1_17.title	2	«Принять ЛЭП»	“Bring in the power line”
 quest	quest_e1_18.body	1	Довести электрификацию до первого света.	Bring power to the village and see the first light come on.
-quest	quest_e1_18.title	1	«Пустить ток»	“Switch On the Power”
+quest	quest_e1_18.title	1	«Пустить ток»	“Switch on the power”
 quest	quest_e1_19.body	1	Построить избу-читальню: долгому зимнему вечеру нужно мирное занятие.	Build a reading room. Folks could use something quiet to do on long winter evenings.
-quest	quest_e1_19.title	1	«Куда пойти вечером»	“Somewhere to Go in the Evening”
+quest	quest_e1_19.title	1	«Куда пойти вечером»	“Somewhere to go in the evening”
 quest	quest_e1_20.body	1	Привести правление в полный порядок до ответа району.	Get the farm board fully repaired before replying to the district.
-quest	quest_e1_20.title	1	«Привести контору в порядок»	“Put the Farm Board in Order”
+quest	quest_e1_20.title	1	«Привести контору в порядок»	“Put the farm board in order”
 quest	quest_e1_21.body	1	Помочь жителю выбраться: чтобы выпивка снова осталась только по праздникам.	Help a resident get back on their feet so they go back to drinking only on holidays.
-quest	quest_e1_21.title	1	«Не дать спиться»	“Help a Neighbor Cut Back”
+quest	quest_e1_21.title	1	«Не дать спиться»	“Help a neighbor cut back”
 quest	quest_e1_22.body	1	Проверить жалобу на пропавшее сырьё в ближайшую подходящую лунную ночь.	Look into the report of missing raw materials on the next suitable moonlit night.
-quest	quest_e1_22.title	1	«Кто гонит»	“Who's Making Moonshine?”
+quest	quest_e1_22.title	1	«Кто гонит»	“Who's making moonshine?”
 quest	quest_e1_23.body	1	Проверить ночной свет у берега или продолжение лова после конца разрешения в ближайшую подходящую лунную ночь.	On the next suitable moonlit night, investigate the light by the shore or the fishing that continued after the permit expired.
-quest	quest_e1_23.title	1	«Пустые сети»	“Empty Nets”
+quest	quest_e1_23.title	1	«Пустые сети»	“Empty nets”
 quest	quest_e1_24.body	1	Проверить жалобу на неурочный выстрел в ближайшую подходящую лунную ночь.	On the next suitable moonlit night, look into the report of a shot fired at an unusual hour.
-quest	quest_e1_24.title	1	«Кто-то стрелял»	“Someone Fired a Shot”
+quest	quest_e1_24.title	1	«Кто-то стрелял»	“Someone fired a shot”
 quest	quest_e1_25.body	1	Отвести табун в ночное: летом лошади пасутся ночью, днём они в работе.	Take the herd out to night pasture. In summer the horses graze at night and work during the day.
-quest	quest_e1_25.title	1	«Ночное»	“Night Pasture”
-quest	quest_e1_26.body	1	Повесить в избе-читальне стенд — заметки ячейка напишет сама.	Put up a board in the reading room. The party cell will write the articles.
-quest	quest_e1_26.title	1	«Стенгазета»	“The Wall Newspaper”
+quest	quest_e1_25.title	1	«Ночное»	“Night pasture”
+quest	quest_e1_26.body	1	Повесить в избе-читальне стенд — заметки ячейка напишет сама.	Put up a board in the reading room. The Party cell will write the articles.
+quest	quest_e1_26.title	1	«Стенгазета»	“The wall newspaper”
 quest	quest_e1_27.body	1	Починить грунтовку, по которой хозяйство возит грузы: разбитый путь задерживает каждый рейс.	Repair the dirt road the kolkhoz uses to haul goods. The ruts slow down every trip.
-quest	quest_e1_27.title	1	«Дорога до поля»	“The Road to the Field”
-quest	quest_e1_28.body	1	Отвести колонне МТС место под стан: ровное, сухое, не на пашне и с подъездом.	Set aside a campsite for the MTS crew. It needs to be level and dry, off arable land and accessible by road.
-quest	quest_e1_28.title	1	«Полевой стан»	“Field Camp”
-quest	quest_e1_29.title	1	«Спит сторож»	“The Watchman Is Asleep”
-quest	quest_e1_30.title	1	«Артель у устья»	“A Fishing Cooperative at the River Mouth”
-quest	quest_e1_31.title	1	«Своя команда»	“A Team of Our Own”
+quest	quest_e1_27.title	1	«Дорога до поля»	“The road to the field”
+quest	quest_e1_28.body	1	Отвести колонне МТС место под стан: ровное, сухое, не на пашне и с подъездом.	Set aside a campsite for the MTS convoy. It needs to be level and dry, off arable land and accessible by road.
+quest	quest_e1_28.title	1	«Полевой стан»	“Field camp”
+quest	quest_e1_29.title	1	«Спит сторож»	“The watchman is asleep”
+quest	quest_e1_30.title	1	«Артель у устья»	“A fishing cooperative at the river mouth”
+quest	quest_e1_31.title	1	«Своя команда»	“A team of our own”
 quest	quest_e1_32.body	1	План готов. Пора начать работы: наладить подъезд к складу, собрать лошадей в колхозном дворе и поставить площадку для коров.	The plan is ready. Time to get to work. Fix the road to the storehouse, bring the horses together in the kolkhoz yard and set up a site for the cows.
 quest	quest_e1_32.cattle_pen.body	2	Заложить площадку скотного двора. Место для неё предложил староста.	Start preparing the cattle yard site. The village headman suggested a spot for it.
-quest	quest_e1_32.cattle_pen.title	1	Площадка для коров	Site for the Cows
-quest	quest_e1_32.first_build.title	1	Первая стройка	First Construction Project
-quest	quest_e1_32.groom.title	1	Конюх	Groom
-quest	quest_e1_32.road_repair.title	1	Ремонт улицы	Street Repair
-quest	quest_e1_32.title	1	«Старт работ»	“Get to Work”
+quest	quest_e1_32.cattle_pen.title	1	Площадка для коров	Site for the cows
+quest	quest_e1_32.first_build.title	1	Первая стройка	First construction project
+quest	quest_e1_32.groom.title	1	Конюх	Stablehand
+quest	quest_e1_32.road_repair.title	1	Ремонт улицы	Street repair
+quest	quest_e1_32.title	1	«Старт работ»	“Get to work”
 quest	quest_e1_32.vegetable_store_place.done	1	Место овощехранилища размечено.	The vegetable storehouse site is staked out.
-quest	quest_e1_32.vegetable_store_place.title	1	Место овощехранилища	Vegetable Storehouse Site
+quest	quest_e1_32.vegetable_store_place.title	1	Место овощехранилища	Vegetable storehouse site
 quest	quest_e1_33.body	1	Найти бывшего старосту и поговорить с ним о селе.	Find the former village headman and talk with him about the village.
-quest	quest_e1_33.title	1	«Знакомство со старостой»	“Meet the Village Headman”
-quest	quest_e1_34.cellar_opened.title	1	Погреб вскрыт	Cellar Opened
-quest	quest_e1_34.chairman_at_lodge.title	1	Председатель у домика	Chairman at the Lodge
-quest	quest_e1_34.title	1	«Погреб графского садового домика»	“The Cellar at the Count's Garden Lodge”
-quest	quest_e1_35.counter_built.title	1	Поставить прилавок под навесом	Build a Covered Counter
-quest	quest_e1_35.title	1	«Поставить место обмена»	“Set Up a Barter Spot”
+quest	quest_e1_33.title	1	«Знакомство со старостой»	“Meet the village headman”
+quest	quest_e1_34.cellar_opened.title	1	Погреб вскрыт	Cellar opened
+quest	quest_e1_34.chairman_at_lodge.title	1	Председатель у домика	Chairman at the lodge
+quest	quest_e1_34.title	1	«Погреб графского садового домика»	“The cellar at the count's garden lodge”
+quest	quest_e1_35.counter_built.title	1	Поставить прилавок под навесом	Build a covered counter
+quest	quest_e1_35.title	1	«Поставить место обмена»	“Set up a barter spot”
 quest	quest_e2_01.body	1	Поставить участковый пункт милиции: выросшему селу нужен постоянный порядок.	Build a district police post. The village has grown and needs someone here to keep order.
-quest	quest_e2_01.title	1	«Порядок в селе»	“Order in the Village”
+quest	quest_e2_01.title	1	«Порядок в селе»	“Order in the village”
 quest	quest_e2_02.body	1	Построить пожарный пост: одних колодцев большому селу уже мало.	Build a fire post. The village is too big to rely on wells alone.
-quest	quest_e2_02.title	1	«Пожарный пост»	“A Fire Post”
+quest	quest_e2_02.title	1	«Пожарный пост»	“A fire post”
 quest	quest_e2_03.body	1	Перестроить избу-читальню в сельский клуб.	Convert the reading room into a village club.
-quest	quest_e2_03.title	1	«Клуб»	“The Club”
+quest	quest_e2_03.title	1	«Клуб»	“The club”
 quest	quest_e2_04.body	1	Построить детский сад: малым нужен присмотр, пока взрослые на работе.	Build a kindergarten. The little ones need looking after while the grown-ups are at work.
-quest	quest_e2_04.title	2	«Куда деть малых»	“A Place for the Little Ones”
+quest	quest_e2_04.title	2	«Куда деть малых»	“A place for the little ones”
 quest	quest_e2_05.body	1	Построить столовую, назначить повара и подать первый горячий обед.	Build a canteen, appoint a cook and serve the first hot lunch.
-quest	quest_e2_05.title	1	«Горячий обед»	“A Hot Lunch”
+quest	quest_e2_05.title	1	«Горячий обед»	“A hot lunch”
 quest	quest_e2_06.body	1	Поставить сельсовет в новом селении — деревне нужно своё место для общих дел.	Set up a village council in the new settlement. The village needs a place of its own to take care of local affairs.
-quest	quest_e2_06.title	1	«Деревня на карте»	“A Village on the Map”
+quest	quest_e2_06.title	1	«Деревня на карте»	“A village on the map”
 quest	quest_e2_07.body	1	Построить МТС и назначить диспетчера.	Build a machine and tractor station and appoint a dispatcher.
-quest	quest_e2_07.title	1	«Своя станция»	“A Station of Our Own”
+quest	quest_e2_07.title	1	«Своя станция»	“A station of our own”
 quest	quest_e2_08.body	1	Отвести площадку, где техника сможет оставаться у дальних работ.	Set aside a place where machinery can stay near distant jobs.
-quest	quest_e2_08.title	1	«Где ставить машины»	“Where to Park the Machinery”
+quest	quest_e2_08.title	1	«Где ставить машины»	“Where to park the machinery”
 quest	quest_e2_09.body	1	Заказать первый трактор, назначить водителя и вывести машину в поле.	Order the first tractor, assign a driver and get it out into the field.
-quest	quest_e2_09.title	1	«Свой трактор»	“A Tractor of Our Own”
+quest	quest_e2_09.title	1	«Свой трактор»	“A tractor of our own”
 quest	quest_e2_10.body	1	Дать проверенному специалисту право решать в своей области без ежедневного согласования.	Let a trusted specialist make decisions in their own area without seeking approval every day.
-quest	quest_e2_10.title	2	«Дать полномочия»	“Give Them the Authority”
+quest	quest_e2_10.title	2	«Дать полномочия»	“Give them the authority”
 quest	quest_e2_11.body	1	Перестроить первый деревянный дом в кирпичный.	Rebuild the first wooden house in brick.
-quest	quest_e2_11.title	1	«Больше не изба»	“From Wood to Brick”
+quest	quest_e2_11.title	1	«Больше не изба»	“From wood to brick”
 quest	quest_e2_12.body	1	Ответить на первую ошибку специалиста и решить, сколько полномочий оставить.	Respond to the specialist's first mistake and decide how much authority they should keep.
-quest	quest_e2_12.title	2	«Право на ошибку»	“Room to Make Mistakes”
-quest	quest_e2_13.body	1	Довести первую колбасу от цеха до стола или буфета.	Get the first sausage from the workshop to the table or the buffet.
-quest	quest_e2_13.title	1	«Своя колбаса»	“Sausage of Our Own”
-quest	quest_e2_14.body	1	Построить ФАП, пригласить фельдшера и предоставить жильё.	Build a rural medical post, invite a feldsher and provide housing.
-quest	quest_e2_14.title	1	«Фельдшер в селе»	“A Feldsher in the Village”
+quest	quest_e2_12.title	2	«Право на ошибку»	“Room to make mistakes”
+quest	quest_e2_13.body	1	Довести первую колбасу от цеха до стола или буфета.	Get the first sausage from the workshop to the table or the refreshment bar.
+quest	quest_e2_13.title	1	«Своя колбаса»	“Sausage of our own”
+quest	quest_e2_14.body	1	Построить ФАП, пригласить фельдшера и предоставить жильё.	Build a rural medical post, invite a rural medic and provide housing.
+quest	quest_e2_14.title	1	«Фельдшер в селе»	A rural medic in the village
 quest	quest_e2_15.body	1	Построить ЗАГС и назначить работника.	Build a civil registry office and appoint a clerk.
-quest	quest_e2_15.title	1	«Расписаться по-людски»	“Make It Official”
+quest	quest_e2_15.title	1	«Расписаться по-людски»	“Make it official”
 quest	quest_e2_16.body	1	Оборудовать спортплощадку и назначить физрука.	Equip a sports ground and appoint a PE teacher.
-quest	quest_e2_16.title	1	«Спортплощадка»	“A Sports Ground”
+quest	quest_e2_16.title	1	«Спортплощадка»	“A sports ground”
 quest	quest_e2_17.body	1	Провести первый домашний матч на своём стадионе.	Hold the first home match at your own stadium.
-quest	quest_e2_17.title	1	«Большой футбол»	“Big-Time Soccer”
+quest	quest_e2_17.title	1	«Большой футбол»	“Big-time soccer”
 quest	quest_e2_18.body	1	Открыть пионерский лагерь и принять первую смену.	Open a Pioneer camp and welcome the first group of campers.
-quest	quest_e2_18.title	1	«Лагерь у озера»	“Camp by the Lake”
+quest	quest_e2_18.title	1	«Лагерь у озера»	“Camp by the lake”
 quest	quest_e2_19.body	1	Построить общежитие, чтобы следующую группу приезжих принять целиком.	Build a dormitory so you can take in the whole next group of arrivals.
-quest	quest_e2_19.title	1	«Крыша для приезжих»	“A Roof for New Arrivals”
+quest	quest_e2_19.title	1	«Крыша для приезжих»	“A roof for new arrivals”
 quest	quest_e2_20.body	1	Внедрить предложение агронома и сверить результат после сезона.	Put the agronomist's proposal into practice and check the results after the season.
-quest	quest_e2_20.title	1	«По науке»	“The Scientific Way”
+quest	quest_e2_20.title	1	«По науке»	“The scientific way”
 quest	quest_e2_21.body	1	Выдать школьникам форму.	Hand out uniforms to the schoolchildren.
-quest	quest_e2_21.title	2	«Одеть детей»	“Clothe the Children”
+quest	quest_e2_21.title	2	«Одеть детей»	“Clothe the children”
 quest	quest_e2_22.body	1	Привести правление в полный порядок до ответа району.	Get the farm board fully repaired before replying to the district.
 quest	quest_e2_23.body	1	Вернуть жителя к работе — помочь сейчас или дождаться его возвращения.	Get the resident back to work. Help them now or wait for them to return.
-quest	quest_e2_23.title	1	«Пока не забрали»	“Before They Take Them Away”
-quest	quest_e2_24.body	1	Передать в райком заявку на ветеринара: местного опыта для заболевшего животного не хватает.	Send a request for a veterinarian to the district committee. The sick animal needs more help than local experience can provide.
-quest	quest_e2_24.title	1	«Позвать ветеринара»	“Call for a Veterinarian”
-quest	quest_e2_25.title	1	«Провод до конторы»	“A Phone Line to the Farm Board”
-quest	quest_e2_26.title	1	«Кому первому»	“Who Gets a Phone First?”
-quest	quest_e2_27.title	1	«Радиоузел в клубе»	“A Radio Relay Point at the Club”
-quest	quest_e2_28.title	1	«Чтоб слышно было»	“So They Can Hear”
-quest	quest_e2_29.title	1	«Зимние вечера»	“Winter Evenings”
+quest	quest_e2_23.title	1	«Пока не забрали»	“Before they take them away”
+quest	quest_e2_24.body	1	Передать в райком заявку на ветеринара: местного опыта для заболевшего животного не хватает.	Send a request for a veterinarian to the district Party committee. The sick animal needs more help than local experience can provide.
+quest	quest_e2_24.title	1	«Позвать ветеринара»	“Call for a veterinarian”
+quest	quest_e2_25.title	1	«Провод до конторы»	“A phone line to the farm board”
+quest	quest_e2_26.title	1	«Кому первому»	“Who gets a phone first?”
+quest	quest_e2_27.title	1	«Радиоузел в клубе»	“A radio relay point at the club”
+quest	quest_e2_28.title	1	«Чтоб слышно было»	“So they can hear”
+quest	quest_e2_29.title	1	«Зимние вечера»	“Winter evenings”
 quest	quest_e3_01.body	1	Оборудовать санузел хотя бы в одном доме.	Put a bathroom in at least one house.
-quest	quest_e3_01.title	1	«Удобства»	“Indoor Plumbing”
+quest	quest_e3_01.title	1	«Удобства»	“Indoor plumbing”
 quest	quest_e3_02.body	3	Отвести место и принять строительство сельскохозяйственного техникума.	Set aside a site for the agricultural college and accept the state's construction project.
-quest	quest_e3_02.title	1	«Свои специалисты»	“Specialists of Our Own”
+quest	quest_e3_02.title	1	«Свои специалисты»	“Specialists of our own”
 quest	quest_e3_03.body	3	Дать одной автономной области пройти полный производственный сезон без ручных нарядов председателя.	Let one autonomous area get through a full production season without the chairman issuing work assignments by hand.
-quest	quest_e3_03.title	2	«Без председателя»	“Without the Chairman”
+quest	quest_e3_03.title	2	«Без председателя»	“Without the chairman”
 quest	quest_e3_04.body	1	Построить дом отдыха и принять первых отдыхающих.	Build a vacation lodge and welcome the first guests.
-quest	quest_e3_04.title	1	«Гости в колхозе»	“Guests on the Kolkhoz”
+quest	quest_e3_04.title	1	«Гости в колхозе»	“Guests on the kolkhoz”
 quest	quest_e3_05.body	1	Построить больницу, пригласить врача и предоставить жильё.	Build a hospital, invite a doctor and provide housing.
-quest	quest_e3_05.title	1	«Своя больница»	“A Hospital of Our Own”
+quest	quest_e3_05.title	1	«Своя больница»	“A hospital of our own”
 quest	quest_e3_06.body	1	Перестроить сельский клуб в дом культуры.	Convert the village club into a house of culture.
-quest	quest_e3_06.title	1	«Дом культуры»	“House of Culture”
+quest	quest_e3_06.title	1	«Дом культуры»	“House of culture”
 quest	quest_e3_07.body	1	Установить газовую плиту в первом доме.	Install a gas stove in the first house.
-quest	quest_e3_07.title	2	«Газ в дома»	“Gas for Our Homes”
+quest	quest_e3_07.title	2	«Газ в дома»	“Gas for our homes”
 quest	quest_e3_08.body	1	Установить телевизор в электрифицированном клубе и провести первый общий просмотр.	Install a TV in the electrified club and hold the first group viewing.
-quest	quest_e3_08.title	1	«Телевизор в клуб»	“A TV for the Club”
+quest	quest_e3_08.title	1	«Телевизор в клуб»	“A TV for the club”
 quest	quest_perk_01.body	1	Поговорить с Пантелеевым и понять, что он считает мелочью, а что — делом.	Talk with Panteleev and find out what he lets slide and what he takes seriously.
-quest	quest_perk_01.title	1	«Познакомиться с участковым»	“Meet the District Constable”
+quest	quest_perk_01.title	1	«Познакомиться с участковым»	“Meet the district constable”
 quest	quest_perk_02.body	1	Научиться видеть в сводке не «заметно», а сколько именно изменилось.	Learn to read the report for exactly how much changed. “Noticeably” won't tell you that.
-quest	quest_perk_02.title	1	«Хозяйский глаз»	“An Eye for the Numbers”
+quest	quest_perk_02.title	1	«Хозяйский глаз»	Farmer's eye
 quest	quest_perk_03.body	1	Провести разговор, после которого дело действительно изменится.	Have a conversation that actually changes something.
-quest	quest_perk_03.title	1	«Поговорить с людьми»	“Talk to the People”
+quest	quest_perk_03.title	1	«Поговорить с людьми»	“Talk to the people”
 quest	quest_perk_04.body	1	Взять на месте самогонщика, рыболовов и охотника — в любом порядке.	Catch the moonshiner, the fishers and the hunter in the act, in any order.
-quest	quest_perk_04.title	1	«Взять с поличным»	“Catch Them Red-Handed”
-quest	quest_story_bird_cloud.title	1	«Чёрное облако»	“Black Cloud”
-quest	quest_story_treasure_box.title	1	«Шкатулка без ключа»	“A Box Without a Key”
-scene	development.club_two_truths.backdrop	1	В новом сельском клубе встретились два жителя, которые по-разному помнят прежнюю избу-читальню. Один говорит о тишине и книге, другой — о людях и общем вечере. Оба описывают настоящее прожитое место, ни один не является карикатурой на старое или новое. Они слышат друг друга и могут уточнить свою мысль одной короткой репликой. Спор не решает судьбу клуба, не меняет отношения и не требует от председателя выбрать победителя.	Two residents meet in the new village club. They remember the old reading hut differently. One talks about quiet and a book, the other about people and an evening spent together. Both describe a real place they knew firsthand. Neither person is a caricature of the old ways or the new. They hear each other out and may clarify their point in one short line each. The exchange leaves the club's future and their relationship as they were and calls for no verdict from the chairman.
-scene	development.hospital_two_histories.backdrop	1	Фельдшер и врач сельской больницы разбирают два уже случившихся случая: в одном ранняя помощь на месте была решающей, в другом возможностей ФАПа не хватило. Оба говорят как специалисты и не состязаются за значение своей должности. Нельзя придумывать диагноз, смерть, медицинское чудо или обвинять семью. Обмен показывает разницу уровней помощи и заканчивается без решения председателя.	A feldsher and a doctor at the village hospital discuss two cases that have already happened. In one, getting help early and close to home made all the difference. In the other, the rural medical post could only do so much. Both speak as professionals and avoid turning the discussion into a contest over whose job matters more. Do not invent a diagnosis, a death, or a medical miracle, or blame the family. The exchange shows what each level of care can provide and ends without a decision from the chairman.
+quest	quest_perk_04.title	1	«Взять с поличным»	“Catch them red-handed”
+quest	quest_story_bird_cloud.title	1	«Чёрное облако»	“Black cloud”
+quest	quest_story_treasure_box.title	1	«Шкатулка без ключа»	“A box without a key”
+scene	development.club_two_truths.backdrop	1	В новом сельском клубе встретились два жителя, которые по-разному помнят прежнюю избу-читальню. Один говорит о тишине и книге, другой — о людях и общем вечере. Оба описывают настоящее прожитое место, ни один не является карикатурой на старое или новое. Они слышат друг друга и могут уточнить свою мысль одной короткой репликой. Спор не решает судьбу клуба, не меняет отношения и не требует от председателя выбрать победителя.	Two residents meet at the new village club. They remember the old reading room differently. They remember the old reading hut differently. One talks about quiet and a book, the other about people and an evening spent together. Both describe a real place they knew firsthand. Neither person is a caricature of the old ways or the new. They hear each other out and may clarify their point in one short line each. The exchange leaves the club's future and their relationship as they were and calls for no verdict from the chairman.
+scene	development.hospital_two_histories.backdrop	1	Фельдшер и врач сельской больницы разбирают два уже случившихся случая: в одном ранняя помощь на месте была решающей, в другом возможностей ФАПа не хватило. Оба говорят как специалисты и не состязаются за значение своей должности. Нельзя придумывать диагноз, смерть, медицинское чудо или обвинять семью. Обмен показывает разницу уровней помощи и заканчивается без решения председателя.	A rural medic and a doctor at the village hospital discuss two cases that have already happened. In one, getting help early and close to home made all the difference. In the other, the rural medical post could only do so much. Both speak as professionals and avoid turning the discussion into a contest over whose job matters more. Do not invent a diagnosis, a death, or a medical miracle, or blame the family. The exchange shows what each level of care can provide and ends without a decision from the chairman.
 scene	development.house_of_culture_argument.backdrop	1	После первого настоящего спора в доме культуры два участника замечают, что выросшему селу понадобилось место не только для концерта, но и для несогласия. Они спорят о деле, которое уже существует в текущей партии, не о выдуманной политике и не о скрытых качествах председателя. Каждый говорит коротко и признаёт право другого остаться при своём. Сцена не выносит решения и не превращает разногласие во вражду.	After the first real argument at the house of culture, two participants realize that the growing village needs somewhere to disagree as well as somewhere to put on a concert. They argue over an issue already present in the current playthrough. Avoid invented politics and hidden traits of the chairman. Each speaks briefly and recognizes the other's right to stand by their view. The scene ends without a ruling, and the disagreement does not turn into a feud.
 scene	district.failure_explanation.answer.theft	1	Со склада украли продукты. В поставку они не попали.	Food was stolen from the storehouse. It never made it into the delivery.
 scene	district.karasev.inspection_return.reply.empty_event	1	На бумаге мероприятие прошло на уровне. Постарайтесь до следующего раза провести его ещё и здесь.	On paper, the event was up to standard. Next time, try holding it here, too.
@@ -244,14 +244,14 @@ scene	district.karasev.inspection_return.reply.formal_present	1	По налич�
 scene	district.karasev.inspection_return.reply.true_report	1	По сводке сошлось. По людям тоже. Обычно эти две графы между собой спорят.	The figures in the summary check out. So do the people. Usually those two columns argue with each other.
 scene	district.polushkina.inspection_return.reply.clean	1	Предусмотрено. Оформлено. Даже непривычно.	Provided for. Duly recorded. Takes some getting used to.
 scene	district.polushkina.inspection_return.reply.formal_doubt	1	Цифры правильные. Я теперь не уверена, что задала им правильный вопрос.	The figures are right. Now I'm not sure I asked them the right question.
-scene	district.polushkina.inspection_return.reply.no_office	1	По инструкции книга хранится в конторе. Конторы нет. Записать, где книга есть, я могу. Почему её хранить негде — в инструкции не предусмотрено.	The instructions say the ledger is kept in the farm office. There is no farm office. I can record where the ledger is. The instructions don't cover why there's nowhere to keep it.
+scene	district.polushkina.inspection_return.reply.no_office	1	По инструкции книга хранится в конторе. Конторы нет. Записать, где книга есть, я могу. Почему её хранить негде — в инструкции не предусмотрено.	The instructions say the ledger is kept at the farm board. There is no farm board. I can record where the ledger is. The instructions don't cover why there's nowhere to keep it.
 scene	district.polushkina.inspection_return.reply.uncovered_case	1	В конспекте такого нет. Значит, проверю по общему порядку. Покажите, где у вас общий порядок.	There's nothing about this in my notes. I'll use the standard procedure, then. Show me where you keep your standard procedure.
 scene	district.stozharov.inspection_return.reply.empty_club	1	На стенде написано, что клуб работает ежедневно. Сегодня какой день?	The notice board says the club is open every day. What day is it today?
 scene	district.stozharov.inspection_return.reply.living_institution	1	Спросил троих, зачем пришли. Ни один не сказал “положено”. Хороший ответ.	I asked three people why they'd come. Not one said, “Because we're supposed to.” Good answer.
 scene	district.stozharov.inspection_return.reply.staged_club	1	Я спросил, что здесь было вчера. Вы подготовили сегодня, а проверял я вчера.	I asked what happened here yesterday. You got today ready for me. Yesterday was what I came to check.
 scene	district.zhernova.inspection_question.opening.era1	1	В ведомости — {resource}. Причина порчи в этот сезон невозможна. Как это объясните?	The inventory statement lists {resource}. The stated cause of spoilage is impossible this time of year. How do you explain it?
-scene	district.zhernova.inspection_question.opening.surplus	1	По позиции «{resource}» запас превысил лимит накопления. Излишек изъят. Почему допустили превышение?	The inventory item “{resource}” exceeded the maximum permitted stock. The surplus has been seized. Why did you let stocks go over the limit?
-scene	family.freedom_to_leave.backdrop	1	Взрослый член сквозной семьи получил возможность уехать без подписи председателя. Он помнит только те помощь, отказ или обещание, которые действительно пережил этот двор в текущей партии. Остаться и уехать одинаково допустимо. Нельзя придумывать семье новую беду, благодарность навсегда, предательство или тайную обязанность перед председателем. Разговор подводит человека к собственному вопросу и заканчивается до двух авторских ответов председателя.	An adult in a family followed across the campaign now has the option of leaving without the chairman's signature. They remember only help, refusals, or promises their household actually experienced in the current playthrough. Staying and leaving are equally valid. Do not invent a new hardship for the family, undying gratitude, betrayal, or a secret obligation to the chairman. The conversation leads the resident to ask their own question and ends before the chairman's two scripted replies.
+scene	district.zhernova.inspection_question.opening.surplus	1	По позиции «{resource}» запас превысил лимит накопления. Излишек изъят. Почему допустили превышение?	Stocks of “{resource}” exceeded the stockholding limit. The surplus has been seized. Why did you let stocks go over the limit?
+scene	family.freedom_to_leave.backdrop	2	Взрослый член сквозной семьи получил возможность уехать без подписи председателя. Он помнит только ту помощь, тот отказ или то обещание, которые действительно пережил этот двор в текущей партии. Остаться и уехать одинаково допустимо. Нельзя придумывать семье новую беду, благодарность навсегда, предательство или тайную обязанность перед председателем. Разговор подводит человека к собственному вопросу и заканчивается до двух авторских ответов председателя.	An adult in a family followed across the campaign now has the option of leaving without the chairman's signature. They remember only help, refusals, or promises their household actually experienced in the current playthrough. Staying and leaving are equally valid. Do not invent a new hardship for the family, undying gratitude, betrayal, or a secret obligation to the chairman. The conversation leads the resident to ask their own question and ends before the chairman's two scripted replies.
 scene	night_hunt.fishers_intercept.backdrop	1	Председатель ночью застал у берега двух жителей с сетями. Оба были участниками именно этого происшествия и видят друг друга. Один пытается объяснить продолжение лова, второй решает, поддержать ли объяснение. Они могут отрицать очевидное или признать факт, но не назначают себе наказание, не предлагают сделку и не знают скрытых данных хозяйства. Сцена заканчивается до решения председателя. Тон сдержанный: неловкость двух знакомых людей, без угроз, унижения и комического изображения бедности.	At night, the chairman catches two residents with nets on the riverbank. Both took part in this particular incident and can see each other. One tries to explain why they kept fishing. The other decides whether to back up that explanation. They may deny what is plain or admit what happened. They cannot set their own punishment, offer a deal, or know hidden information about the farm. The scene ends before the chairman makes a decision. Keep the tone restrained, with the awkwardness of two people who know each other. Avoid threats, humiliation, and jokes about poverty.
 scene	shadow.two_owners.backdrop	1	Председатель, уже выбравший теневой способ хозяйствования, встречается с другим хозяином существующей схемы. Оба понимают цену раздельных книг, связей и молчания, но не знают скрытых фактов, которых не добыли в текущей партии. Собеседник не признаётся в новом преступлении и не предлагает механику, которой нет. Речь может быть осторожной и двусмысленной, но без блатной романтики, угроз семье и объявления одного человека хозяином всего села. Любая хозяйственная сделка остаётся отдельным авторским выбором.	The chairman has already chosen to operate underground and meets the owner of another existing operation. Both understand the cost of keeping separate books, maintaining connections, and keeping quiet. They know only the facts they've uncovered in the current playthrough. The other owner does not confess to a new crime or propose a mechanic that doesn't exist. They may speak cautiously and leave room for interpretation. Avoid glamorizing crime, threatening families, or declaring anyone master of the whole village. Any business deal remains a separate scripted choice.
 dialogue	elder.start_plan.inherited_stock	1	В церкви были запасы, у развалин — кирпич, у ямы — глина; брёвна, компост и корма оставили на прежних местах. Голодно было, но я не дал это добро растащить.	There were supplies in the church, bricks by the ruins, and clay by the pit, and the logs, compost, and feed were left where they'd been. We were hungry, but I kept people from carrying off what belonged to the whole kolkhoz.
