@@ -1,0 +1,294 @@
+namespace	key	src_rev	ru	en
+profession	accountant.name	1	Бухгалтер	Accountant
+profession	agronomist.name	1	Агроном	Agronomist
+profession	artel_fisher.name	1	Рыбак артели	Co-op fisher
+profession	barmaid.name	1	Буфетчица	Snack counter attendant
+profession	bathhouse_keeper.name	1	Банщик	Bathhouse attendant
+profession	beekeeper.name	1	Пасечник	Beekeeper
+profession	carter.name	1	Возчик	Cart driver
+profession	chief_engineer.name	1	Главный инженер	Chief engineer
+profession	circle_leader.name	1	Руководитель кружка	Activity group leader
+profession	clerk_accountant.name	1	Счетовод	Bookkeeper
+profession	club_manager.name	1	Заведующий клубом	Club manager
+profession	college_lecturer.name	1	Преподаватель техникума	Technical college instructor
+profession	construction_technician.name	1	Техник-строитель (он же прораб)	Construction technician (site foreman)
+profession	cook.name	1	Повар	Cook
+profession	cook_assistant.name	1	Помощница повара	Assistant cook
+profession	council_secretary.name	1	Секретарь сельсовета	Village council secretary
+profession	crafts_master.name	1	Промысловый мастер	Workshop craftworker
+profession	deputy_for_economy.name	1	Заместитель по экономике	Deputy for economic affairs
+profession	doctor.name	1	Врач	Doctor
+profession	driver.name	1	Водитель	Driver
+profession	economist.name	1	Экономист	Economist
+profession	electrician.name	1	Электрик	Electrician
+profession	farm_craftsman.name	1	Колхозный мастер	Kolkhoz craftworker
+profession	farm_manager.name	1	Заведующий фермой	Farm manager
+profession	feldsher.name	1	Фельдшер	Feldsher
+profession	fire_instructor.name	1	Пожарный инструктор	Fire safety instructor
+profession	firefighter.name	1	Пожарный	Firefighter
+profession	food_master.name	1	Продуктовый мастер	Food production specialist
+profession	forest_gatherer.name	1	Сборщик лесных ресурсов	Forest forager
+profession	fur_breeder.name	1	Зверовод	Fur farmer
+profession	gardener.name	1	Садовод	Gardener
+profession	groom.name	1	Конюх	Stablehand
+profession	herder.name	1	Пастух	Herder
+profession	hunter.name	1	Охотник	Hunter
+profession	labour_teacher.name	1	Учитель труда	Shop teacher
+profession	labourer.name	1	Разнорабочий	Laborer
+profession	librarian.name	1	Библиотекарь	Librarian
+profession	maid.name	1	Горничная	Housekeeper
+profession	mechanic.name	1	Автомеханик	Auto mechanic
+profession	midwife.name	1	Акушерка	Midwife
+profession	milkmaid.name	1	Доярка	Milkmaid
+profession	miller.name	1	Мельник	Miller
+profession	mts_dispatcher.name	1	Диспетчер МТС	MTS dispatcher
+profession	nightman.name	1	Золотарь	Night soil collector
+profession	nurse.name	1	Медсестра	Nurse
+profession	nursery_teacher.name	1	Воспитатель	Child care educator
+profession	pe_teacher.name	1	Физрук	PE teacher
+profession	pioneer_leader.name	1	Вожатый	Pioneer camp counselor
+profession	poultry_keeper.name	1	Птичница	Poultry keeper
+profession	primary_teacher.name	1	Учитель начальной ступени	Primary school teacher
+profession	projectionist.name	1	Киномеханик	Projectionist
+profession	registry_clerk.name	1	Работник ЗАГСа	Civil registry clerk
+profession	safety_inspector.name	1	Инспектор по технике безопасности	Workplace safety inspector
+profession	seamstress.name	1	Швея	Seamstress
+profession	secondary_teacher.name	1	Учитель средней ступени	Secondary school teacher
+profession	shoemaker.name	1	Сапожник	Shoemaker
+profession	shopkeeper.name	1	Продавщица	Store clerk
+profession	slaughterman.name	1	Забойщик	Slaughterhouse worker
+profession	sports_instructor.name	1	Спортинструктор (он же тренер команды)	Sports instructor (team coach)
+profession	stall_seller.name	1	Продавец ларька	Stall attendant
+profession	stockman.name	1	Скотник	Livestock attendant
+profession	storekeeper.name	1	Кладовщик	Storekeeper
+profession	supply_agent.name	1	Снабженец	Supply agent
+profession	team_leader.name	1	Звеньевой	Field crew lead
+profession	timekeeper.name	1	Учётчик	Tally clerk
+profession	vet_assistant.name	1	Ветфельдшер	Veterinary assistant
+profession	waiter.name	1	Официант	Waiter
+profession	watchman.name	1	Сторож	Watchman
+profession	zootechnician.name	1	Зоотехник	Animal husbandry technician
+limit	bicycle_lot.name	1	Велосипед	Bicycle
+limit	bottled_gas_lot.name	1	Газ в баллонах	Bottled gas
+limit	cement_brick_lot.name	1	Цемент, кирпич	Cement and bricks
+limit	chick_lot.name	1	Цыплята или утята, партия	Batch of chicks or ducklings
+limit	coal_lot.name	1	Уголь	Coal
+limit	combine_unit.name	1	Комбайн	Combine harvester
+limit	compound_feed_lot.name	1	Комбикорм, 10 т	Compound feed, 10 metric tons
+limit	concrete_lot.name	1	Железобетон	Reinforced concrete
+limit	consumer_goods_lot.name	1	Промтовары для магазина	Consumer goods for the store
+limit	cow_head.name	1	Корова	Cow
+limit	electrician_call.name	1	Вызов районного электрика	District electrician service call
+limit	fertilizer_lot.name	1	Минеральные удобрения, 10 т	Mineral fertilizer, 10 metric tons
+limit	glass_container_lot.name	2	Стекло	Glass
+limit	grocery_lot.name	3	Бакалея: специи, чай	Groceries: spices and tea
+limit	hops_lot.name	1	Хмель	Hops
+limit	horse_head.name	1	Лошадь	Horse
+limit	imported_machine_unit.name	1	Импортная техника	Imported machinery
+limit	industrial_equipment_lot.name	1	Промышленное оборудование	Industrial equipment
+limit	insulation_lot.name	1	Утеплитель	Insulation
+limit	kerosene_lot.name	1	Керосин	Kerosene
+limit	light_bulb_lot.name	1	Лампочки	Light bulbs
+limit	lime_gravel_lot.name	1	Известь и щебень	Lime and crushed stone
+limit	milking_rig_unit.name	1	Доильное оборудование	Milking equipment
+limit	motor_fuel_lot.name	1	ГСМ: солярка, бензин, масло	Fuel and lubricants: diesel, gasoline, oil
+limit	motorcycle_sidecar_unit.name	1	Мотоцикл с коляской	Motorcycle with sidecar
+limit	mts_column_autumn.name	1	Колонна МТС на осенние полевые работы	MTS crew for autumn fieldwork
+limit	mts_column_spring.name	1	Колонна МТС на весенние полевые работы	MTS crew for spring fieldwork
+limit	paint_lot.name	1	Краска	Paint
+limit	piglet_lot.name	1	Поросята, партия	Batch of piglets
+limit	roofing_lot.name	1	Шифер, кровля на объект	Roofing sheets for one project
+limit	salt_lot.name	1	Соль	Salt
+limit	school_uniform_lot.name	1	Школьная форма	School uniform
+limit	seed_grain_lot.name	2	Зерно на сев: на нехватку, 0,5–5 т	Seed grain for shortfalls, 0.5–5 metric tons
+limit	sheep_head.name	1	Овца	Sheep
+limit	spare_part_lot.name	1	Запчасти	Spare parts
+limit	steel_lot.name	1	Железо	Iron
+limit	sugar_lot.name	1	Сахар	Sugar
+limit	tackle_lot.name	1	Рыболовные снасти: бамбуковая удочка, спиннинг	Fishing tackle: bamboo rod, spinning rod
+limit	tanker_unit.name	1	Автоцистерна	Tanker truck
+limit	teacher_higher.name	1	Учитель с высшим (пединститут)	Teacher (teacher training institute graduate)
+limit	teacher_vocational.name	1	Учитель со средне-специальным	Teacher with vocational training
+limit	textile_lot.name	1	Фабричная ткань	Factory-made fabric
+limit	timber_lot.name	1	Лес и пиломатериалы	Logs and lumber
+limit	tool_lot.name	1	Инструмент	Tools
+limit	tractor_unit.name	1	Трактор	Tractor
+limit	truck_unit.name	1	Грузовик	Truck
+limit	uaz_unit.name	1	Уазик	UAZ utility vehicle
+limit	wire_lot.name	1	Провод	Electrical wire
+limit	workshop_rig_unit.name	1	Оборудование мастерской	Workshop equipment
+crop	barley.name	1	Ячмень	Barley
+crop	buckwheat.name	1	Гречиха	Buckwheat
+crop	cabbage.name	1	Капуста	Cabbage
+crop	carrot_beet.name	1	Морковь, свёкла столовая	Carrots and table beets
+crop	clover.name	1	Клевер	Clover
+crop	cucumber_tomato.name	1	Огурцы, помидоры	Cucumbers and tomatoes
+crop	flax.name	1	Лён	Flax
+crop	fodder_beet.name	1	Кормовая свёкла, турнепс	Fodder beets and turnips
+crop	maize_silage.name	1	Кукуруза на силос	Silage corn
+crop	oat.name	1	Овёс	Oats
+crop	onion_garlic.name	1	Лук, чеснок	Onions and garlic
+crop	pea.name	1	Горох	Peas
+crop	potato.name	1	Картофель	Potatoes
+crop	rye_winter.name	1	Рожь озимая	Winter rye
+crop	timothy.name	1	Тимофеевка и травосмеси	Timothy and grass mixes
+crop	wheat_spring.name	1	Пшеница яровая	Spring wheat
+crop	wheat_winter.name	1	Пшеница озимая	Winter wheat
+clothing	administrative.name	1	Административный	Administrative attire
+clothing	bathing.name	1	Купальный	Swimwear
+clothing	beach.name	1	Пляжный	Beachwear
+clothing	child_beach.name	1	Детский у воды	Children's beachwear
+clothing	child_midseason.name	1	Детский демисезонный	Children's spring and autumn clothing
+clothing	child_summer.name	1	Детский летний	Children's summer clothing
+clothing	child_winter.name	1	Детский зимний	Children's winter clothing
+clothing	daily_midseason.name	1	Повседневный демисезонный	Spring and autumn everyday wear
+clothing	daily_summer.name	1	Повседневный летний	Summer everyday wear
+clothing	daily_winter.name	1	Повседневный зимний	Winter everyday wear
+clothing	fashion.name	1	Модный	Fashionable attire
+clothing	formal.name	1	Парадный	Formal attire
+clothing	medical.name	1	Медицинский	Medical attire
+clothing	motorcycle.name	1	Мотоциклетный	Motorcycle gear
+clothing	pioneer.name	1	Пионерский	Pioneer uniform
+clothing	school.name	1	Школьный	School uniform
+clothing	school_winter.name	1	Школьный зимний	Winter school uniform
+clothing	sports.name	1	Физкультурный	Sportswear
+clothing	teaching.name	1	Педагогический	Teaching attire
+clothing	underwear.name	1	Исподнее	Undergarments
+clothing	uniform.name	1	Форменный	Uniform
+clothing	work.name	1	Рабочий	Workwear
+era	era_1.name	1	Первая эпоха — разруха и восстановление	Epoch I — Ruin and recovery
+era	era_3.name	1	Третья эпоха — благополучие и зависимость	Epoch III — Prosperity and dependence
+name	address.citizen	1	гражданин	citizen
+name	address.comrade	1	товарищ	comrade
+cutscene	summon_departure	1	По вызову в район	Summoned to the district
+cutscene	trip_departure	1	Поездка в район	Trip to the district
+cutscene	trip_return	1	Возвращение из района	Return from the district
+perk	crime.name	1	Криминал	Crime
+perk	dachniki.effect	1	Позволяет вынести на собрание вопрос о городских	Lets you ask the village meeting whether to open kolkhoz housing to summer residents from the city
+perk	dachniki.name	1	«Дачники»	“Summer residents”
+perk	detective.name	1	Детектив	Detective
+perk	detective_1.effect	1	Расхождения в учёте подсвечиваются в отчётах, а не ищутся глазами	Reports highlight discrepancies in the books so you don't have to hunt for them
+perk	detective_1.name	1	«Замечает несходимое»	“Spots what doesn't add up”
+perk	detective_2.effect	1	Доступ к движению товара и списаниям за прошлые годы	Access to records of stock movements and write-offs from past years
+perk	detective_2.name	1	«Поднимет книги»	“Pulls the old ledgers”
+perk	detective_3.effect	1	В диалоге заметно, когда собеседник врёт или не договаривает	You can tell in conversation when someone is lying or holding something back
+perk	detective_3.name	1	«Слышит враньё»	“Can hear a lie”
+perk	detective_4.effect	1	Круг подозреваемых сужается сам: игра показывает пересечения, но не называет виновного	The game narrows the list of suspects by showing connections, leaving you to work out who did it
+perk	detective_4.name	1	«Сопоставит»	“Connects the dots”
+perk	farm.name	1	Хозяйство	Farm management
+perk	gas_stoves.effect	2	Открывает газ в баллонах и улучшение домов	Unlocks bottled gas and home upgrades
+perk	gas_stoves.name	1	«Газовые плиты»	“Gas stoves”
+perk	idea.name	1	Идейное	Ideology
+perk	land.name	1	Земля и хозяйство	Land and farming
+perk	land_1.effect	1	Председатель сам видит, что поле просит: подсказки агронома приходят раньше	The chairman can tell what a field needs, and the agronomist's advice appears sooner
+perk	land_1.name	1	«Своими руками»	“With your own hands”
+perk	land_2.effect	1	Ошибка в наряде замечается до того, как люди вышли в поле	Mistakes in work assignments are spotted before people head to the fields
+perk	land_2.name	1	«Хозяйский расчёт»	“Thinks like a farmer”
+perk	land_3.effect	1	Сроки сева и уборки держатся ровнее — меньше потерь на опоздании	Sowing and harvest stay closer to schedule, reducing losses from delays
+perk	land_3.name	1	«Не первый год»	“Been at it for years”
+perk	land_4.effect	1	С машинами и упряжью меньше простоя: поломки замечают раньше	Equipment and harness problems are spotted earlier, so crews spend less time waiting on repairs
+perk	land_4.name	1	«Понимает технику»	“Knows the equipment”
+perk	land_5.effect	1	Хозяйство держит удар: неурожай одного года не валит следующий	The farm can take a hit. One bad harvest won't ruin the following year
+perk	land_5.name	1	«Земля отвечает»	“The land gives back”
+perk	line.name	1	Линия	Party line
+perk	line_1.effect	1	Приписок нет, и в районе это знают: проверка приезжает реже	The district knows your reports are honest, so it sends inspectors less often
+perk	line_1.name	1	«Отчёт как есть»	“Reports it as it is”
+perk	line_2.effect	1	Завышенную разнарядку можно оспорить по существу, а не выпрашивать	You can make a case against an excessive delivery target without having to beg for a break
+perk	line_2.name	1	«Обосновать план»	“Makes the case for the plan”
+perk	line_3.effect	1	Очередь на фонды движется без застолий и подарков	Your turn for district supplies comes without dinners or gifts
+perk	line_3.name	1	«Лимит по правилам»	“Allocations by the rules”
+perk	line_4.effect	1	Ревизия проходит без потерь: искать нечего, и время не съедено	Audits cost you nothing. The books are clean, and you lose no time
+perk	line_4.name	1	«Чистые книги»	“Clean books”
+perk	line_5.effect	1	То, что председатель обосновал, район даёт	The district grants requests the chairman can justify
+perk	line_5.name	1	«Слово на совещании»	“A say at the meeting”
+perk	militia.name	1	Участковый	District constable
+perk	militia_1.effect	1	Заходит в контору и рассказывает, что слышал: слухи доходят до председателя	The constable stops by the farm board to share what he's heard, so rumors reach the chairman
+perk	militia_1.name	1	«Познакомились»	“We've met”
+perk	militia_2.effect	1	Профилактика вместо протокола: мелкие дела решаются разговором	Minor incidents get talked through before they have to go on the record
+perk	militia_2.name	1	«По-соседски»	“Like neighbors”
+perk	militia_3.effect	1	Предупреждает о проверках и о том, чем интересуется район	The constable warns you about inspections and tells you what the district is looking into
+perk	militia_3.name	1	«Свой человек»	“One of us”
+perk	militia_4.effect	1	Работает по наводкам: председатель может указать, на кого посмотреть	The constable follows up on tips. The chairman can tell him who to look into
+perk	militia_4.name	1	«Общее дело»	“Common cause”
+perk	militia_5.effect	1	Закрывает глаза на мелочи — включая ваши собственные	The constable lets little things slide, yours included
+perk	militia_5.name	1	«Прикроет»	“Covers for you”
+perk	order.name	1	Дисциплина	Discipline
+perk	order_1.effect	1	Прогулов меньше, наряды выполняются ближе к назначенному	People skip work less often and follow their assignments more closely
+perk	order_1.name	1	«Наряд есть наряд»	“An assignment is an assignment”
+perk	order_2.effect	1	Учётчик не занижает и не хитрит с трудоднями	The tally clerk records labor-day credits in full and without any tricks
+perk	order_2.name	1	«Спрос с учётчика»	“Holds the tally clerk to account”
+perk	order_3.effect	1	Мелкие хищения со складов и ферм заметно реже	Petty theft from warehouses and farms becomes noticeably less frequent
+perk	order_3.name	1	«Порядок на дворе»	“Order around the farm”
+perk	order_4.effect	1	Аврал и отменённый выходной обходятся дешевле по довольству	An all-hands rush or a canceled day off takes less of a toll on family satisfaction
+perk	order_4.name	1	«Без разговоров»	“No arguments”
+perk	order_5.effect	1	Дисциплина держится и без председателя: делегированное не разваливается	Discipline holds in the chairman's absence, and delegated work stays on track
+perk	order_5.name	1	«Так заведено»	“That's how we do things”
+perk	owner_eye.name	1	Хозяйский глаз	Farmer's eye
+perk	owner_eye_1.effect	1	Величина изменения числом вместо «заметно»	See exactly how much a value changed instead of just reading “noticeably”
+perk	owner_eye_1.name	1	«Точные цифры»	“Exact figures”
+perk	owner_eye_2.effect	1	Список действующих баффов на жителе	See all active bonuses for a resident
+perk	owner_eye_2.name	1	«Что помогает»	“What helps”
+perk	owner_eye_3.effect	1	Список дебаффов — что именно тянет вниз	See all active penalties and exactly what's dragging a value down
+perk	owner_eye_3.name	1	«Что мешает»	“What gets in the way”
+perk	owner_eye_4.effect	1	Комфорт дома, производительность фермы — с разбором	See what affects home comfort and farm productivity
+perk	owner_eye_4.name	2	«То же по объектам хозяйства»	“The same for farm units”
+perk	owner_eye_5.effect	1	Что будет, если ничего не менять	See what will happen if you leave things as they are
+perk	owner_eye_5.name	1	«Прогноз»	“Forecast”
+perk	people.name	1	Люди	People
+perk	people_1.effect	1	Разговоры выходят легче: отношение растёт быстрее	Conversations go more smoothly, and people warm up to you faster
+perk	people_1.name	1	«Умеет попросить»	“Knows how to ask”
+perk	people_2.effect	1	Люди приходят с просьбами охотнее — до того, как станет поздно	People are more willing to ask for help before it's too late
+perk	people_2.name	1	«Знает по имени»	“Knows them by name”
+perk	people_3.effect	1	Обещанное запоминают, авторитет держится дольше после тяжёлых решений	People remember your promises, and your authority holds up longer after tough decisions
+perk	people_3.name	1	«Слово держит»	“Keeps their word”
+perk	people_4.effect	1	Сложное решение проходит через собрание, а не через ропот	You can get a tough decision through the village meeting without the grumbling
+perk	people_4.name	1	«Соберёт собрание»	“Calls a meeting”
+perk	people_5.effect	1	Перед репликой видна словесная оценка: «послушает», «тут как повезёт»	Before you speak, you get a read on the other person, like “They'll listen” or “Could go either way”
+perk	people_5.name	1	«Чутьё на собеседника»	“Sizes people up”
+perk	roadside.effect	1	Председатель перестаёт гонять торгующих у трассы	The chairman stops chasing off roadside vendors
+perk	roadside.name	1	«Стихийный рынок»	“Informal market”
+perk	shadow.name	1	Цеховик	Underground manufacturer
+perk	shadow_1.effect	1	Меньше вероятность, что заметят и донесут	You're less likely to be noticed and reported
+perk	shadow_1.name	1	«Конспирация»	“Keeping it quiet”
+perk	shadow_2.effect	1	Быстрее сбыт: товар меньше лежит на складе	Goods sell faster, so they spend less time in storage
+perk	shadow_2.name	1	«Оборот»	“Turnover”
+perk	shadow_3.effect	1	Схемы лучше прячутся в бумагах: ревизия сходится	The paperwork conceals the schemes more effectively, and the books balance in an audit
+perk	shadow_3.name	1	«Отчётность»	“Paperwork”
+perk	shadow_4.effect	1	Защита дешевле и надёжнее, о проверках предупреждают заранее	Protection is cheaper and more reliable, and you get advance warning of inspections
+perk	shadow_4.name	1	«Связи»	“Connections”
+perk	shadow_5.effect	1	Несколько схем разом без роста риска; в цехах открываются контрафактные позиции	Run several schemes at once without added risk. Workshops unlock counterfeit goods
+perk	shadow_5.name	1	«Сеть»	“Network”
+perk	single.name	2	Отдельные умения	Standalone skills
+perk	word.name	1	Слово	Powers of persuasion
+perk	word_1.effect	1	Решение проходит собранием с первого раза	The village meeting passes your decision on the first try
+perk	word_1.name	1	«Собрание за тобой»	“The meeting backs you”
+perk	word_2.effect	2	Одна из составляющих довольства семьи растёт быстрее	One component of family satisfaction grows faster
+perk	word_2.name	1	«Общее дело»	“Common cause”
+perk	word_3.effect	1	Партячейка и комсомол берут часть дел на себя	The party cell and the Komsomol take on some of the work
+perk	word_3.name	1	«Организации работают»	“The organizations do their part”
+perk	word_4.effect	1	Пьянство и прогулы падают без нарядов и наказаний	Drinking and absenteeism decline without assignments or punishments
+perk	word_4.name	1	«Личный пример»	“Leads by example”
+avatar	acting.legend	1	В тяжёлые годы она уже управляла чужим хозяйством: сохранила стадо, собрала людей, помогла тем, кто сам не справлялся. Когда всё наладилось, её работу снова назвали временной. Теперь ей дали ещё один разорённый колхоз — и ещё один случай доказать, что временной бывает должность, а не работа.	She'd run someone else's farm through hard times before. She kept the herd intact, brought people together, and helped those who couldn't manage on their own. As soon as things were running again, they called her work temporary. Now they've handed her another ruined kolkhoz and another chance to show that the appointment is temporary, but the work lasts.
+avatar	acting.line	1	Временно — это в приказе. Работу всё равно делать мне.	The order says temporary. I've still got the work to do.
+avatar	acting.path.farm.closed	1	Держит слишком многое лично: если дворов больше {yard_limit}, прежний надой требует обычного ухода.	She takes on too much herself. With more than {yard_limit} households, keeping up milk yields takes the usual level of care.
+avatar	acting.path.farm.open	1	Ферма держится на ней: полный надой при уходе от {care_threshold_pct} %, пока дворов в селе не больше {yard_limit}.	She keeps the dairy going. It gets full milk yields at {care_threshold_pct}% care or higher as long as the village has {yard_limit} households or fewer.
+avatar	dealer.legend	1	Когда-то у него были деньги, связи и дело, о котором лучше не писать в анкете. Всё отобрали, а он купил себе самое надёжное укрытие — должность председателя далёкого колхоза. На месте выяснилось: чтобы здесь было чем распоряжаться, сперва придётся всё поднять из развалин.	He used to have money, connections, and a business best left off official forms. They took it all away, so he bought himself the safest hiding place he could find: a chairman's post at a distant kolkhoz. When he got there, he found he'd have to build the place back up from ruins before there was anything to run.
+avatar	dealer.line	1	Найти бы тихое место, где обо мне все забудут.	If only I could find a quiet place where everyone would forget me.
+avatar	dealer.path.tools.closed	1	До третьей эпохи район не отпускает промышленное оборудование по лимиту.	The district won't supply industrial equipment through allocations until Epoch III.
+avatar	dealer.path.tools.open	1	Знает, где взять: за инструмент и сталь платит зерном вместо баллов лимита.	He knows where to get supplies. He pays for tools and steel with grain instead of allocation points.
+avatar	old_fighter.legend	1	Когда-то он водил в атаку эскадрон, теперь ему поручили колхоз. Он привык отвечать за людей, держать слово и не повторять приказ дважды. Но пашня не держит строй, а районная бумага не понимает команд.	He once led a cavalry squadron into battle. Now they've put him in charge of a kolkhoz. He's used to answering for his people, keeping his word, and giving an order once. But fields won't hold formation, and district paperwork doesn't take orders.
+avatar	old_fighter.line	1	Эскадрон, к бою!	Squadron, ready for battle!
+avatar	promoted.legend	1	За его спиной родственник в обкоме, поэтому закрытые двери перед ним открываются сами. В селе это знают не хуже него и ждут, когда он уедет на следующую должность. Чтобы стать здесь председателем, одного назначения мало.	With a relative on the regional committee, doors open for him all on their own. The village knows it as well as he does. They're waiting for him to move on to his next post. It takes more than an appointment to be chairman here.
+avatar	promoted.line	1	Раз назначили — значит, доверяют. Остальные привыкнут.	They appointed me, so they must trust me. The rest will get used to it.
+avatar	promoted.path.district.closed	1	Медленнее учится замечать непорядок в хозяйстве.	He takes longer to learn to spot when things are amiss on the farm.
+avatar	promoted.path.district.open	1	Заказанное у района приходит уже к середине месяца.	Supplies ordered from the district arrive by the middle of the month.
+avatar	student.legend	1	Диплом у него новый, ботинки городские, намерения самые серьёзные. Он умеет рассчитать севооборот, себестоимость и передаточное число — но не умеет запрячь лошадь. В селе это выяснят раньше, чем он успеет представиться.	His diploma is new, his shoes are from the city, and he means to do a good job. He can work out crop rotations, production costs, and gear ratios, but he can't harness a horse. The village will find that out before he gets a chance to introduce himself.
+avatar	student.line	1	Главное — не волноваться. Мама говорила, я со всем справлюсь.	Just don't get nervous. Mom said I could handle it.
+avatar	villager.legend	1	Вырос в этом селе: знает каждый овраг, каждую семью и старые обиды между соседями. Землю ему объяснять не надо, зато в районе за него некому замолвить слово. А судить придётся тех, с кем он рос.	He grew up in this village. He knows every ravine, every family, and every old grudge between neighbors. He knows the land, but there's no one at the district office to put in a good word for him. And he'll have to settle disputes between people he grew up with.
+avatar	villager.line	1	Своя земля, свои люди. Мне и отвечать.	Our land, our people. It's on me to answer for them.
+avatar	villager.path.river.closed	2	В первые два года клуб даёт жителям меньше отдыха.	For the first two years, residents get less rest at the village club.
+avatar	villager.path.river.open	3	Знает реку: дикое место купания почти заменяет селу пляж.	He knows the river. A natural swimming spot serves almost as well as a beach for the village.
+avatar	worker.legend	1	На заводе он привык: если дело стоит, значит, не хватает порядка, инструмента или толкового мастера. Машин он не боится, но земля впервые в жизни не слушается его графика. Село примет работягу, когда увидит, что тот умеет не только командовать.	The factory taught him that when work stalls, what's missing is order, tools, or a good foreman. Machinery doesn't scare him, but for the first time in his life, the land won't stick to his schedule. The village will take to a hard worker once they see he can do more than give orders.
+avatar	worker.line	1	Колхоз так колхоз. Станки и здесь поставим!	A kolkhoz it is, then. We'll set up machine tools here too!
+avatar	worker.path.tools.closed	1	При первых двух торгах о плане нельзя заменить культуру.	You can't change the crop in the first two rounds of plan negotiations.
+avatar	worker.path.tools.open	1	Знает инструмент: его реже приходится заменять.	He knows his tools. They need replacing less often.
