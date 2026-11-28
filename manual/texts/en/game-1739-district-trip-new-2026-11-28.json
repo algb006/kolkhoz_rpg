@@ -1,0 +1,34 @@
+{
+  "namespace": "scene",
+  "context": "#1739 district reception and topic replies after the road cutscene, spoken by a named district face.",
+  "intent": "Welcome the chairman and start discussion of the business already selected on the district sheet.",
+  "keep": "Keep each speaker’s register and the marked plan position. No decision, allocation, bargain or appointment is promised by a line.",
+  "kind_id": 8,
+  "max_len": 160,
+  "strings": [
+    [
+      "district.trip.opening.voluntary.karasev",
+      "Karasev offers the chairman a seat after the road cutscene for a voluntary trip ends.",
+      "Садитесь, товарищ председатель. Папку можно на стол. С чего начнём?",
+      "Have a seat, Comrade Chairman. You can put your folder on the desk. Where shall we start?"
+    ],
+    [
+      "district.trip.topic.materials.karasev",
+      "Karasev asks which construction job needs materials when the chairman brings up the available allocation topic.",
+      "Под какую стройку просите? Слово «срочно» у нас уже можно печатать прямо на бланке.",
+      "Which job needs the materials? We may as well have “urgent” printed on the form by now."
+    ],
+    [
+      "district.trip.topic.plan.karasev",
+      "Karasev asks to see the marked plan position when the chairman has selected an available plan discussion.",
+      "Покажите отмеченную строку плана. Начнём с неё.",
+      "Show me the line you marked on the plan. We'll start there."
+    ],
+    [
+      "district.trip.topic.plan.korenev",
+      "At a confirmed personal appointment for an available plan discussion, Korenev asks why the chairman marked this position.",
+      "Вы отметили эту строку. Почему именно её?",
+      "You marked this line. Why that one?"
+    ]
+  ]
+}
