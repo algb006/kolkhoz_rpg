@@ -1,0 +1,30 @@
+namespace	key	src_rev	ru	en
+resource	fashion_shoes_midseason.name	1	Модная обувь демисезонная	Spring/autumn fashion shoes
+resource	forest_forage.name	2	Дары леса	Wild mushrooms, berries & nuts
+ui.settings	save.cannot.dialogue_pending	1	Сохранение недоступно, пока собеседник ждёт ответа.	Can't save until you reply.
+avatar	acting.name	1	Временная	Acting Chair
+feed	authority_moved.deed.audit_remark	3	районный ревизор вынес замечание за недостачу	the district auditor flagged a stock shortage
+feed	authority_moved.deed.thief_to_constable	1	председатель передал вора участковому, и семья вора осталась без кормильца	the chairman turned the thief in to the district constable. The family lost its breadwinner
+feed	church_rye_stolen	1	Ночью со склада в церкви пропало {kg} кг ржи. В селе пьют.	Overnight, {kg} kg of rye vanished from the church storehouse. The village is drinking.
+feed	exit_certificate_decided	1	Решение по справке на выезд принято.	Permit to leave: decision made.
+feed	field_removed	1	Поле{place}: участок исключён из пашни.	Field{place}: no longer arable land.
+feed	herd_ate_from_far_rick	1	{herd}: корм взят из другого запаса. Место: {unit}.	{herd}: drew feed from other stocks at {unit}.
+feed	herd_dieoff_half_trial	1	Падёж достиг половины порога районного разбора.	Livestock losses halfway to a district inquiry.
+feed	herd_surplus_slaughtered.folded_more	2	В личных дворах за месяц забили лишний молодняк: {count} {count}|plural(one=голова,few=головы,many=голов,other=головы). Среди стад: {names}…	Household plots: {count} {count}|plural(one=head,other=head) of surplus young stock slaughtered this month. Herds: {names}…
+feed	herd_went_hungry	1	{herd}: началась бескормица. В стаде {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).	{herd}: feed short for {amount} {amount}|plural(one=head,other=head).
+feed	leave_requested	1	{family}: просьба о справке на выезд — нет жилья.	{family}: no housing, asks for a permit to leave.
+feed	plan_failed_warning_last	1	Последнее предупреждение района: ещё один сорванный план подряд — и начнётся разбор дела.	Final district warning: miss the next plan and face an inquiry.
+feed	specialist_arrived	1	Новый специалист в селе: {person_family}.	New village specialist: {person_family}.
+feed	stack_cart_urgent	3	Срочный вывоз{place}: {resource}. Запас сена на исходе.	Urgent haul{place}: {resource}. Hay is low.
+feed	stock_handed_over	1	{herd}: передача скота району — {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).	{herd}: {amount} {amount}|plural(one=head,other=head) sent to the district.
+feed	store_leak_closed_dry_month	1	На складах месяц без утечки сырья.	No raw materials lost from storehouses this month.
+feed	store_leak_complaint	1	Люди жалуются: со складов пропадает сырьё.	Complaints: raw materials missing from storehouses.
+feed	store_theft.only_before	1	Унесено со складов до приёмки (за {month}): {items}. Вне ревизии.	Stores, before acceptance ({month}): {items} taken. Outside audit.
+feed	sugar_stolen.folded_more	1	Со складов за сутки унесли сахар: {count} {count}|plural(one=случай,few=случая,many=случаев,other=случая).	Storehouse sugar thefts today: {count} {count}|plural(one=incident,other=incidents).
+feed	theft_uncovered	2	Выяснилось, что {culprit} {culprit_gender}|gender(украл,украла) {kg} кг {resource_genitive} из {source}.	{culprit} stole {kg} kg of {resource_genitive} from the {source}.
+feed	trial_stage_commission	1	Районная комиссия проверяет работу хозяйства.	The district commission is reviewing the kolkhoz.
+feed	trip_cancelled	1	Поездка в район отменена из-за метели.	Snowstorm canceled the district trip.
+feed	winter_sowing_lost	2	Поле{place}: до конца октября озимые не посеяны — урожая озимых в следующем году не будет.	Field{place}: no winter sowing by October's end. No winter crop next year.
+ui.settings	set.controls.turn_arrows	new	стрелки влево и вправо	Left and Right arrows
+ui.settings	set.controls.key_esc	new	Esc	Esc
+ui.hud	build_info.package_none	new	нет	none
