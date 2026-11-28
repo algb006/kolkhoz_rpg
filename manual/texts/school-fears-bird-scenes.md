@@ -210,7 +210,7 @@
 | `dialogue.school_fears.teacher.full_lesson_tower` | Учитель | К звонку добавили колокольню, кладбище и вашу крышу. Получился полный урок. |
 | `dialogue.school_fears.teacher.request` | Учитель | Говорят, это всё от нашей колдуньи. Только никто у неё не был. Разберитесь, откуда взялась страшилка. |
 | `dialogue.school_fears.option.accept` | Председатель | Разберусь, откуда взялось чёрное облако. |
-| `dialogue.school_fears.teacher.accepted` | Учитель | Это {addressee}. Начните с её слов. Всё остальное село уже охотно добавило. |
+| `dialogue.school_fears.teacher.accepted` | Учитель | Это {addressee}. Начните с этих слов. Всё остальное село уже охотно добавило. |
 | `dialogue.school_fears.option.decline` | Председатель | Пусть школа сама погасит этот слух. |
 | `dialogue.school_fears.teacher.declined` | Учитель | Погасим. Только старшие уже несут его младшим, как лампу без стекла. |
 
