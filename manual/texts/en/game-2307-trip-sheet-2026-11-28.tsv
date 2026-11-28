@@ -1,7 +1,7 @@
 namespace	key	src_rev	ru	en
-ui.office	trip.ask.specialist.no_route	2	Заявки на специалистов район принимает письмом.	Specialist requests go to the district by mail.
-ui.office	trip.ask.brigade.no_route	3	Бригаду вызывают из колхоза, когда поджимает срок стройки.	Request a visiting crew from the kolkhoz for urgent work.
-ui.office	trip.ask.bridge_term.no_route	2	Срок ремонта моста пока назначает сам район.	For now the district sets the bridge repair date.
+ui.office	trip.ask.specialist.no_route	2	Район напишет, когда сможет прислать специалиста.	The district will write when it can send a specialist.
+ui.office	trip.ask.brigade.no_route	3	Район напишет, когда сможет прислать выездную бригаду.	The district will write when it can send a visiting crew.
+ui.office	trip.ask.bridge_term.no_route	2	Пока срок ремонта моста определяет район.	For now the district sets the bridge repair date.
 ui.office	trip.ask.goods_loan.home	2	Товарный заём оформляют из кабинета в колхозе.	Request a goods loan from your office at the kolkhoz.
 ui.office	trip.ask.plan.first_plan	2	Первый план считают по стартовым запасам без торга.	The first plan is based on starting stocks and is fixed.
 ui.office	trade.closed.window	1	О плане договариваются с января по март.	Plan negotiations take place from January through March.
