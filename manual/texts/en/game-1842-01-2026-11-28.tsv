@@ -1,0 +1,196 @@
+namespace	key	src_rev	ru	en
+ui.common	object.auto_name	1	{kind} · {zone}	{kind} · {zone}
+ui.common	object.auto_name_numbered	1	{kind} · {zone} {number}	{kind} · {zone} {number}
+ui.common	place.caption	1	Место: {zone}	Place: {zone}
+feed	acceptance_act_signed	1	Акт приёмки подписан: склады и стадо приняты. Начат складской учёт для ревизии; за годовой падёж от бескормицы отвечаете со следующего года.	Acceptance act signed: stores and herd taken over. Audit records start now. From next year, you answer for annual herd deaths due to feed shortages.
+feed	advance_written_off	3	{family}: при годовом разделе списан долг по авансу — {amount} т в пересчёте на зерно.	{family}: Advance debt written off at the annual distribution — {amount} t in grain equivalent.
+feed	advance_written_off.folded	1	При годовом разделе списаны долги по авансу: {amount} т в пересчёте на зерно. Дворов: {count}. Дворы: {names}.	Advance debts written off at the annual distribution: {amount} t in grain equivalent. Households: {count}. Names: {names}.
+feed	advance_written_off.folded_more	1	При годовом разделе списаны долги по авансу: {amount} т в пересчёте на зерно. Дворов: {count}. Среди дворов: {names}…	Advance debts written off at the annual distribution: {amount} t in grain equivalent. Households: {count}. Including: {names}…
+feed	alcoholism_band_crossed.down	1	{person_family}: пьёт меньше.	{person_family}: Drinking less.
+feed	alcoholism_band_crossed.up	1	{person_family}: алкоголизм поднялся выше отметки {amount} %.	{person_family}: Alcoholism rose above {amount}%.
+feed	ambulance_at_house	1	{person_family}: прибыла районная скорая помощь.	{person_family}: The district ambulance arrived.
+feed	ambulance_sent	1	{person_family}: ожидается районная скорая помощь.	{person_family}: The district ambulance is expected.
+feed	and_more	1	И ещё {count} {count}|plural(one=строка,few=строки,many=строк,other=строки) — в журналах.	And {count} more {count}|plural(one=entry,other=entries) — see the logs.
+feed	appointed	1	Назначение на должность: {person_family}.	Appointed to a post: {person_family}.
+feed	audit_unguarded_leak	1	Утечка продуктов{place}: {amount} т. Перевезите продукты под охрану.	Food lost{place}: {amount} t. Move the food to guarded storage.
+feed	audit_unguarded_leak.folded	1	Утечка продуктов из неохраняемых запасов за месяц: {amount} т. Склады: {names}.	Food lost from unguarded stocks this month: {amount} t. Storage sites: {names}.
+feed	audit_unguarded_leak.folded_more	1	Утечка продуктов из неохраняемых запасов за месяц: {amount} т. Среди складов: {names}…	Food lost from unguarded stocks this month: {amount} t. Sites include: {names}…
+feed	back_from_district	1	{person_family}: возвращение домой из района.	{person_family}: Returned home from the district.
+feed	barter_day	1	У прилавка «{unit}» прошёл натуральный обмен.	Goods were bartered at the “{unit}” stall.
+feed	barter_day.folded	1	За месяц у прилавков прошёл натуральный обмен. Прилавки: {names}.	Goods were bartered this month. Stalls: {names}.
+feed	barter_day.folded_more	1	За месяц у прилавков прошёл натуральный обмен. Среди прилавков: {names}…	Goods were bartered this month. Stalls include: {names}…
+feed	barter_worth_starting	1	У жителей появились излишки для обмена.	Residents now have surplus goods to trade.
+feed	burial_held	3	Похороны задерживаются: в селе нет кладбища.	The burial is delayed: the village has no cemetery.
+feed	church_rye_stolen	1	Ночью со склада в церкви пропало {kg} кг ржи. В селе пьют.	Overnight, {kg} kg of rye went missing from the storehouse in the church. People in the village have been drinking.
+feed	church_store_emptied	1	Склад в церкви опустел.	The storehouse in the church is empty.
+feed	day_off_held_urgent_load	1	Выходной задержал срочный груз.	A day off delayed an urgent load.
+feed	dismissed	1	Освобождение от должности: {person_family}.	Relieved of their post: {person_family}.
+feed	district_grid_built	1	Районная электросеть построена.	The district power grid is complete.
+feed	district_offer_answered	1	Ответ на предложение района передан.	A reply to the district’s offer was sent.
+feed	district_took_from_field	1	Район забрал урожай из полевых куч в счёт плана. {resource} — {amount} т.	The district took crops from piles in the fields to count toward the plan. {resource} — {amount} t.
+feed	district_visit.discrepancy	1	Районная проверка: на складах излишек сверх лимита накопления.	District inspection: stocks exceed the district’s stockholding limit.
+feed	district_visit.extraordinary	1	Внеочередной приезд из района.	An unscheduled visit from the district.
+feed	district_visit.gift	1	Состоялась встреча по поводу подарка представителю района.	A meeting was held about a gift for a district representative.
+feed	district_visit.junior_miss	1	Старший проверяющий нашёл то, что пропустил младший.	The senior inspector found what the junior inspector missed.
+feed	district_visit.reception	1	Состоялся приём представителя района.	A district representative was received as a guest.
+feed	district_visit.regular	1	Плановый приезд из района.	A scheduled visit from the district.
+feed	district_visit_announced	3	Скоро плановый приезд из района.	A scheduled visit from the district is coming up.
+feed	electrification_unlocked	1	Район начал электрификацию: колхоз получил разрешение строить свою сеть.	The district has begun electrification: the kolkhoz can now build its own power grid.
+feed	era_1_transition_offered	1	Район предложил переход к следующему этапу развития хозяйства.	The district proposed moving on to the next stage of the kolkhoz’s development.
+feed	era_advance_ordered	1	Переход к новой эпохе назначен.	The move to a new epoch has been scheduled.
+feed	exit_certificate_decided	1	Решение по справке на выезд принято.	A decision was made on the request for a permit to leave.
+feed	extraction_site_exhausted	1	Место добычи{place}: запас исчерпан. Материал — {resource}.	Extraction site{place}: Deposit depleted. Material — {resource}.
+feed	failed_position	1	{resource} — {percent} %	{resource} — {percent}%
+feed	family_in_tent	1	{family}: живут в палатке на своём участке.	{family}: Living in a tent on their own plot.
+feed	family_left_for_no_house	1	{family}: уехали из колхоза — зимовать негде. Всего {amount} {amount}|plural(one=человек,few=человека,many=человек,other=человека).	{family}: Left the kolkhoz — nowhere to spend the winter. {amount} {amount}|plural(one=person,other=people) in all.
+feed	family_lodged	1	{family}: подселение в дом «{unit}».	{family}: Moved into shared quarters in “{unit}”.
+feed	felling_mark_released	1	Делянка{place}: разметку рубки сняли — людей туда отправить не смогли. Что успели срубить, осталось на месте.	Logging plot{place}: Stakes removed — no workers could be sent. Any timber already cut was left on site.
+feed	field_harvested	1	Поле{place}: урожай убран. {resource} — {amount} т.	Field{place}: Harvest complete. {resource} — {amount} t.
+feed	field_lost	1	Поле{place}: урожай остался под снегом. {resource} — {amount} т.	Field{place}: The crop was left under the snow. {resource} — {amount} t.
+feed	field_removed	1	Поле{place}: участок исключён из пашни.	Field{place}: The plot is no longer classed as arable land.
+feed	fire_broke	1	{unit}{place}: начался пожар.	{unit}{place}: A fire broke out.
+feed	first_football_match_played	1	В селе состоялся первый футбольный матч.	The village held its first soccer match.
+feed	forest_planted	1	Лесные посадки{place}: работа завершена. Площадь — {amount} га.	Forest planting{place}: Work complete. Area — {amount} ha.
+feed	funeral_invitation.loud	1	Завтра похороны: {names}. Приходите проводить.	Funeral tomorrow: {names}. Please come to pay your respects.
+feed	funeral_invitation.quiet	1	Завтра похороны: {names}.	Funeral tomorrow: {names}.
+feed	grid_powered	1	В хозяйстве появилось электричество.	The kolkhoz now has electricity.
+feed	hands_idle_with_work_waiting	1	Работа ждёт, но часть работников простаивает.	Work is waiting, but some workers are idle.
+feed	herd_ate_from_far_rick	1	{herd}: корм взят из другого запаса. Место: {unit}.	{herd}: Feed came from another stockpile. Source: {unit}.
+feed	herd_ate_from_far_rick.folded	1	За сутки корм взят из других запасов: {count} {count}|plural(one=случай,few=случая,many=случаев,other=случая). Стада: {names}.	Feed drawn from other stocks today: {count} {count}|plural(one=instance,other=instances). Herds: {names}.
+feed	herd_ate_from_far_rick.folded_more	1	За сутки корм взят из других запасов: {count} {count}|plural(one=случай,few=случая,many=случаев,other=случая). Среди стад: {names}…	Feed drawn from other stocks today: {count} {count}|plural(one=instance,other=instances). Herds include: {names}…
+feed	herd_ate_from_far_rick.no_unit	1	{herd}: корм взят из другого запаса.	{herd}: Feed came from another stockpile.
+feed	herd_autumn_slaughter	1	Осенний забой свиней: {herd} — {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).	Fall pig slaughter: {herd} — {amount} {amount}|plural(one=head,other=head).
+feed	herd_born	1	{herd}: приплод — {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).	{herd}: {amount} {amount}|plural(one=animal,other=animals) born.
+feed	herd_born.folded	1	Приплод за месяц — {count} {count}|plural(one=голова,few=головы,many=голов,other=головы). Стада: {names}.	Births this month — {count} {count}|plural(one=animal,other=animals). Herds: {names}.
+feed	herd_born.folded_more	1	Приплод за месяц — {count} {count}|plural(one=голова,few=головы,many=голов,other=головы). Стада: {names}…	Births this month — {count} {count}|plural(one=animal,other=animals). Herds include: {names}…
+feed	herd_died.interrupting	1	В личном дворе — падёж скота от голода. Стадо: {herd}.	Livestock died of hunger on a household plot. Herd: {herd}.
+feed	herd_died.notable	1	В колхозном стаде «{herd}» — падёж от голода.	Livestock in the kolkhoz herd “{herd}” died of hunger.
+feed	herd_died.routine	1	В стаде «{herd}» — падёж от старости.	Livestock in the herd “{herd}” died of old age.
+feed	herd_died.routine.folded	1	Падёж от старости за месяц: {count} {count}|plural(one=случай,few=случая,many=случаев,other=случая). Стада: {names}.	Old-age losses this month: {count} {count}|plural(one=incident,other=incidents). Herds: {names}.
+feed	herd_died.routine.folded_more	1	Падёж от старости за месяц: {count} {count}|plural(one=случай,few=случая,many=случаев,other=случая). Среди стад: {names}…	Old-age losses this month: {count} {count}|plural(one=incident,other=incidents). Herds include: {names}…
+feed	herd_dieoff_half_trial	1	Падёж достиг половины порога районного разбора.	Livestock losses have reached half the threshold for a district inquiry.
+feed	herd_froze	1	{herd}: падёж от холода — {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).	{herd}: losses from cold — {amount} {amount}|plural(one=head,other=head).
+feed	herd_males_culled	1	{herd}: забой лишних самцов — {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).	{herd}: surplus males slaughtered — {amount} {amount}|plural(one=head,other=head).
+feed	herd_males_culled.folded	1	Забой лишних самцов за месяц — {count} {count}|plural(one=голова,few=головы,many=голов,other=головы). Стада: {names}.	Surplus males slaughtered this month — {count} {count}|plural(one=head,other=head). Herds: {names}.
+feed	herd_males_culled.folded_more	1	Забой лишних самцов за месяц — {count} {count}|plural(one=голова,few=головы,many=голов,other=головы). Стада: {names}…	Surplus males slaughtered this month — {count} {count}|plural(one=head,other=head). Herds include: {names}…
+feed	herd_surplus_slaughtered	1	Личный двор: {herd} — забой лишнего молодняка, {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).	Household plot: {herd} — surplus young stock slaughtered, {amount} {amount}|plural(one=head,other=head).
+feed	herd_surplus_slaughtered.folded	1	В личных дворах за месяц забили лишний молодняк: {count} {count}|plural(one=голова,few=головы,many=голов,other=головы). Стада: {names}.	Surplus young stock slaughtered on household plots this month: {count} {count}|plural(one=head,other=head). Herds: {names}.
+feed	herd_surplus_slaughtered.folded_more	1	В личных дворах за месяц забили лишний молодняк: {count} {count}|plural(one=голова,few=головы,many=голов,other=головы). Стада: {names}…	Surplus young stock slaughtered on household plots this month: {count} {count}|plural(one=head,other=head). Herds include: {names}…
+feed	herd_went_hungry	1	{herd}: началась бескормица. В стаде {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).	{herd}: a feed shortage has begun. The herd has {amount} {amount}|plural(one=head,other=head).
+feed	horses_stabled	1	Лошади переведены на конный двор: {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).	Moved to the horse yard: {amount} {amount}|plural(one=horse,other=horses).
+feed	hygiene_disease	1	{person_family}: хворь от грязи.	{person_family}: illness from poor sanitation.
+feed	lamp_turned_red	1	Лампа тревоги загорелась красным.	The warning light turned red.
+feed	leave_requested	1	{family}: просьба о справке на выезд — нет жилья.	{family}: requested a permit to leave because there is no housing.
+feed	limit_goods_at_the_gate	1	Районная подвода ждёт у ворот: на складах нет места для груза. {resource} — {amount} т.	The district cart is waiting at the gate: there's no room for the load in storage. {resource} — {amount} t.
+feed	list_separator	2	,	,
+feed	mts_column_arrived	1	Колонна МТС прибыла в колхоз.	The MTS convoy arrived at the kolkhoz.
+feed	mts_column_left	1	Колонна МТС уехала. Обработано {amount} га.	The MTS convoy left. It worked {amount} ha.
+feed	mts_column_not_arrived	1	Колонна МТС не пришла: к сроку не было полевого стана.	The MTS convoy didn't come: there was no field camp by the deadline.
+feed	night_pasture_began	1	Первый выход лошадей в ночное: {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).	First outing to night pasture: {amount} {amount}|plural(one=horse,other=horses).
+feed	night_shot_heard	1	Ночью слышали выстрел.	A shot was heard during the night.
+feed	night_trader_caught	1	{person_family}: ночной промысел обнаружен.	{person_family}: night sideline uncovered.
+feed	office_end_burned	1	Правление сгорело.	The farm board burned down.
+feed	order_cancelled.world	1	Распоряжение отменено не по решению председателя.	The order was canceled without a decision from the chairman.
+feed	order_refused	1	Распоряжение не принято к исполнению.	The order was refused.
+feed	organizer_changed	1	В сельской организации сменился организатор.	A village organization has a new organizer.
+feed	plan_failed	2	Годовой план не выполнен: {failed_positions}.	Annual plan targets missed: {failed_positions}.
+feed	plan_failed.no_positions	1	Годовой план не выполнен.	The annual plan was not met.
+feed	plan_failed_warning_first	1	Первое предупреждение района за невыполненный план.	The district issued its first warning for missing the plan.
+feed	plan_failed_warning_last	1	Последнее предупреждение района: ещё один сорванный план подряд — и начнётся разбор дела.	Final warning from the district: miss the plan one more year in a row and the district will open an inquiry.
+feed	plan_met	1	Годовой план выполнен.	The annual plan was met.
+feed	plan_traded	1	В районе пересмотрели план. Продукция — {resource}.	The district revised the plan. Product — {resource}.
+feed	plan_trial_due	4	Годовой план сорван {amount} {amount}|plural(one=год,few=года,many=лет,other=лет) подряд. Начинается разбор дела.	The annual plan was missed {amount} {amount}|plural(one=year,other=years) in a row. The district is opening an inquiry.
+feed	plan_winter_moved	1	Часть плана по озимым перенесена на яровые. {resource} — {amount} т.	Part of the winter-crop plan shifted to spring crops. {resource} — {amount} t.
+feed	planting_matured	1	Лесные посадки{place}: деревья достигли возраста рубки.	Forest plantings{place}: the trees are ready for felling.
+feed	post_vacated	1	Должность освободилась.	A post became vacant.
+feed	pupil_enrolled	1	{person_family}: начало учёбы. Школа — {unit}{place}.	{person_family}: started school. School — {unit}{place}.
+feed	pupil_enrolled.folded	1	Начало учёбы: {count} {count}|plural(one=ученик,few=ученика,many=учеников,other=ученика). Имена: {names}.	Started school: {count} {count}|plural(one=student,other=students). Names: {names}.
+feed	pupil_enrolled.folded_more	1	Начало учёбы: {count} {count}|plural(one=ученик,few=ученика,many=учеников,other=ученика). Имена: {names}…	Started school: {count} {count}|plural(one=student,other=students). Names: {names}…
+feed	pupil_left_school	1	{person_family}: больше не учится в школе.	{person_family}: no longer attends school.
+feed	ration_issued	1	{family}: выдан минимальный паёк.	{family}: minimum ration issued.
+feed	resident_arrived	1	{person_family}: прибытие в колхоз.	{person_family}: arrived at the kolkhoz.
+feed	resident_arrived.folded	1	Прибытие в колхоз: {count} {count}|plural(one=житель,few=жителя,many=жителей,other=жителя). Имена: {names}.	Arrivals at the kolkhoz: {count} {count}|plural(one=resident,other=residents). Names: {names}.
+feed	resident_arrived.folded_more	1	Прибытие в колхоз: {count} {count}|plural(one=житель,few=жителя,many=жителей,other=жителя). Имена: {names}…	Arrivals at the kolkhoz: {count} {count}|plural(one=resident,other=residents). Names: {names}…
+feed	resident_born	1	{family}: рождение ребёнка — {person_family}.	{family}: A child was born — {person_family}.
+feed	resident_born.folded	1	Рождения: {count} {count}|plural(one=ребёнок,few=ребёнка,many=детей,other=ребёнка). Имена: {names}.	Births: {count} {count}|plural(one=child,other=children). Names: {names}.
+feed	resident_born.folded_more	1	Рождения: {count} {count}|plural(one=ребёнок,few=ребёнка,many=детей,other=ребёнка). Имена: {names}…	Births: {count} {count}|plural(one=child,other=children). Names: {names}…
+feed	resident_died.middle	1	{person_family}: смерть.	{person_family} passed away.
+feed	resident_died.old	1	{person_family}: смерть.	{person_family} passed away.
+feed	resident_left	1	{person_family}: отъезд из колхоза.	{person_family} left the kolkhoz.
+feed	resident_returned_to_work	1	Житель снова выходит на работу.	A resident returned to work.
+feed	resident_sent_away	1	Житель уехал из села.	A resident left the village.
+feed	road_demolished	1	Участок дороги{place} разобран.	A stretch of road{place} was removed.
+feed	road_work_finished	1	Дорожные работы{place} завершены.	Roadwork{place} is complete.
+feed	settlement_alcoholism_crossed.down	1	Средний алкоголизм в селе опустился ниже отметки {amount} %.	The village's average alcoholism score fell below {amount}%.
+feed	settlement_alcoholism_crossed.up	1	Средний алкоголизм в селе поднялся выше отметки {amount} %.	The village's average alcoholism score rose above {amount}%.
+feed	social_status_changed	1	{person_family}: изменилось членство в организациях.	{person_family}: Organization membership changed.
+feed	social_status_changed.folded	1	Членство в организациях: {count} {count}|plural(one=изменение,few=изменения,many=изменений,other=изменения). Жители: {names}.	Organization membership: {count} {count}|plural(one=change,other=changes). Residents: {names}.
+feed	social_status_changed.folded_more	1	Членство в организациях: {count} {count}|plural(one=изменение,few=изменения,many=изменений,other=изменения). Среди жителей: {names}…	Organization membership: {count} {count}|plural(one=change,other=changes). Residents include: {names}…
+feed	specialist_arrived	1	Новый специалист в селе: {person_family}.	A new specialist arrived in the village: {person_family}.
+feed	specialist_no_housing	1	Специалист из района не приехал: нет свободного жилья.	The district specialist didn't come: no housing was available.
+feed	stack_cart_urgent	3	Срочный вывоз{place}: {resource}. Запас сена на исходе.	Urgent hauling{place}: {resource}. Hay supplies are running low.
+feed	stack_cart_urgent.folded	1	Срочный вывоз сена за сутки: {count} {count}|plural(one=случай,few=случая,many=случаев,other=случая).	Urgent hay hauling for the day: {count} {count}|plural(one=case,other=cases).
+feed	stack_cart_urgent.folded_more	1	За сутки отмечен срочный вывоз сена: {count} {count}|plural(one=случай,few=случая,many=случаев,other=случая).	Urgent hay hauling for the day: {count} {count}|plural(one=case,other=cases).
+feed	stock_handed_over	1	{herd}: передача скота району — {amount} {amount}|plural(one=голова,few=головы,many=голов,other=головы).	{herd}: {amount} {amount}|plural(one=head,other=head) of livestock handed over to the district.
+feed	store_leak_closed_dry_month	1	На складах месяц без утечки сырья.	A month went by without any raw materials going missing from the storehouses.
+feed	store_leak_complaint	1	Люди жалуются: со складов пропадает сырьё.	People are complaining that raw materials keep going missing from the storehouses.
+feed	sugar_stolen	1	Со складов пропал сахар.	Sugar went missing from the storehouses.
+feed	sugar_stolen.folded	1	Кражи сахара за сутки: {count} {count}|plural(one=случай,few=случая,many=случаев,other=случая).	Sugar thefts for the day: {count} {count}|plural(one=incident,other=incidents).
+feed	sugar_stolen.folded_more	1	Со складов за сутки унесли сахар: {count} {count}|plural(one=случай,few=случая,many=случаев,other=случая).	Sugar was stolen from the storehouses: {count} {count}|plural(one=incident,other=incidents) for the day.
+feed	summon_letter	1	Получен вызов председателя в район.	The chairman received a summons from the district.
+feed	summon_postponed	1	Из-за метели вызов в район перенесён на следующие сутки.	The district summons was put off until the next day because of the snowstorm.
+feed	third_week_absent	1	Житель третью неделю не выходит на работу.	A resident is in their third week away from work.
+feed	three_specialists_working	1	В хозяйстве работают не меньше трёх специалистов.	At least three specialists are working at the kolkhoz.
+feed	trial_stage_case	1	Район приступил к рассмотрению дела председателя.	The district began hearing the chairman's case.
+feed	trial_stage_commission	1	Районная комиссия проверяет работу хозяйства.	A district commission is reviewing the farm's operations.
+feed	trial_stage_signal	1	Район начал разбор работы председателя.	The district began reviewing the chairman's work.
+feed	trip_cancelled	1	Поездка в район отменена из-за метели.	The trip to the district was canceled because of the snowstorm.
+feed	trip_departed	1	Председатель отправляется в район.	The chairman is leaving for the district.
+feed	trip_returned	1	Председатель снова в колхозе после поездки в район.	The chairman is back at the kolkhoz after the trip to the district.
+feed	twins_born	1	{family}: родились близнецы.	{family}: Twins were born.
+feed	unit_built.dwelling	1	{unit}{place}: строительство завершено.	{unit}{place}: Construction complete.
+feed	unit_built.other	1	{unit}{place}: строительство завершено.	{unit}{place}: Construction complete.
+feed	unit_collapsed	1	{unit}{place}: обвал здания.	{unit}{place}: The building collapsed.
+feed	unit_demolished	1	{unit}{place}: разобрали.	{unit}{place}: Demolished.
+feed	unit_insulated	1	{unit}{place}: утепление завершено.	{unit}{place}: Insulation complete.
+feed	unit_repaired	1	{unit}{place}: ремонт завершён.	{unit}{place}: Repairs complete.
+feed	urgent_load_waits	1	Срочный груз ждёт перевозки.	An urgent shipment is still waiting for transport.
+feed	village_end_warning	1	Район предупреждает: село пустеет.	The district warns that the village is emptying out.
+feed	walk_off	1	{person_family}: уход с работы от усталости.	{person_family} left work early from exhaustion.
+feed	walk_off.folded	1	Уход с работы от усталости: {count} {count}|plural(one=житель,few=жителя,many=жителей,other=жителя). Имена: {names}.	Left work early from exhaustion: {count} {count}|plural(one=resident,other=residents). Names: {names}.
+feed	walk_off.folded_more	1	Уход с работы от усталости: {count} {count}|plural(one=житель,few=жителя,many=жителей,other=жителя). Имена: {names}…	Left work early from exhaustion: {count} {count}|plural(one=resident,other=residents). Names: {names}…
+feed	wedding	1	В селе сыграли свадьбу. Семья: {family}.	There was a wedding in the village. Family: {family}.
+feed	wedding_awaits_house	1	{person_family}: свадьба отложена — нет свободного дома.	{person_family}: The wedding was postponed — no house was available.
+feed	work_got_no_hands	1	Работа остаётся без работников.	The job is still unstaffed.
+feed	year_closed	1	Хозяйственный год закрыт.	The farming year has closed.
+event	avatar_friends.acting.invite_reply	1	Приедут: {friends}. Отдохнут и покажут одной из ваших работниц, как лучше управляться на ферме.	{friends} will come. They'll get some rest and show one of your workers how to handle the work on the livestock farm.
+event	avatar_friends.dealer.invite_reply	1	Приедут: {friends}. Привезут то, чего в районе не достать: одну партию стекла, кровли, гвоздей или соли. А сами поживут у воды.	{friends} will come. They'll bring one shipment of something the district can't supply: glass, roofing, nails, or salt. They'll stay down by the water.
+event	avatar_friends.ex_chairman.invite_reply	1	Приедут: {friends}. Отдохнут и помогут разобрать книги к ближайшей ревизии.	{friends} will come. They'll get some rest and help sort out the books before the next audit.
+event	avatar_friends.no_room	1	Разместить негде.	There's nowhere for them to stay.
+event	avatar_friends.old_fighter.horse_brought	1	{friends} привели из части выбракованную строевую лошадь.	{friends} brought a horse retired from active service with their unit.
+event	avatar_friends.old_fighter.invite_reply	1	Приедут: {friends}. Отдохнут и помогут с конями.	{friends} will come. They'll get some rest and help with the horses.
+event	avatar_friends.promoted.invite_reply	1	Приедут: {friends}. Помогут провести одну заявку по лимиту вне очереди. Баллы за неё расходуются полностью.	{friends} will come. They'll help move one allocation request to the front of the line. It will still cost the full number of points.
+event	avatar_friends.villager.invite_reply	1	Приедут: {friends}. Отдохнут у реки; рыбу и дичь передадут на колхозную кухню.	{friends} will come. They'll rest by the river and give any fish and game they catch to the kolkhoz kitchen.
+event	avatar_friends.worker.invite_reply	1	Приедут: {friends}. Между рыбалками починят один конный агрегат или повозку.	{friends} will come. Between fishing trips, they'll repair one horse-drawn implement or cart.
+event	event_01.title	1	Электрификация	Electrification
+event	event_02.title	1	Телефонизация	Telephone service
+event	event_03.title	1	Радиофикация	Wired radio
+event	event_04.title	1	Техника	Machinery
+event	event_05.title	1	Деньги в обороте	Money in circulation
+event	event_06.title	1	Автолавка и сельпо	Mobile shop and village co-op
+event	event_07.title	1	Шефская помощь из города	Harvest help from the city
+event	event_08.title	1	Каменный уголь	Coal
+event	event_09.title	1	Минеральные удобрения	Mineral fertilizers
+event	event_10.title	1	Асфальт	Asphalt
+event	event_11.title	1	Второй выходной	A second day off
+event	event_12.title	1	Телевидение	Television
+event	event_14.title	1	Стройотряды	Construction crews
+event	event_15.title	1	Сельхозтехникум	Agricultural technical school
+event	event_16.title	1	Налог на ЛПХ	Tax on household plots
+event	event_17.title	1	Антиалкогольная кампания	Anti-alcohol campaign
+event	event_18.title	1	Пенсии колхозникам	Pensions for kolkhoz members
+event	event_19.title	1	Выдача паспортов	Passports for kolkhoz members
+event	event_20.title	1	Переход на денежную оплату	Switch to cash pay
+event	event_21.title	1	Артезианская скважина	Artesian well
+event	event_22.title	1	В районе организована МТС	The district sets up a machine and tractor station
+event	village_end.early_warning_letter	1	Товарищ председатель! Село пустеет. Если население окажется ниже порога ликвидации на двух годовых учётах подряд, колхоз ликвидируют и присоединят к соседнему хозяйству. Порог указан в годовой книге. Проверьте, хватает ли семьям жилья и продовольствия. Примите меры, пока колхоз можно сохранить.	Comrade Chairman, the village is emptying out. If the population falls below the dissolution threshold at two consecutive year-end counts, the kolkhoz will be dissolved and merged with a neighboring farm. The threshold is listed in the yearbook. Check that families have enough housing and food. Act while the kolkhoz can still be saved.
